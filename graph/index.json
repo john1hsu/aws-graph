@@ -115,6 +115,30 @@
     ]
   },
   {
+    "id": "kt:amazon-ecs",
+    "title": "Amazon Elastic Container Service",
+    "aliases": [
+      "Amazon ECS",
+      "ECS",
+      "AWS ECS"
+    ],
+    "type": "Service",
+    "domain": "containers",
+    "file": "articles/containers/amazon-ecs.md",
+    "created": "2026-11-08",
+    "verified": "2026-11-08",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/capacity-launch-type-comparison.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html",
+      "https://docs.aws.amazon.com/general/latest/gr/ecs-service.html",
+      "https://aws.amazon.com/ecs/pricing/",
+      "https://aws.amazon.com/blogs/aws/announcing-amazon-ecs-managed-instances-for-containerized-applications/",
+      "https://aws.amazon.com/compare/ecs-and-fargate/",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-s3",
     "title": "Amazon S3",
     "aliases": [

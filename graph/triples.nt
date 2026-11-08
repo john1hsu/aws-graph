@@ -123,6 +123,32 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Elastic Container Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS ECS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon ECS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/2004/02/skos/core#altLabel> "ECS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-container-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed, AWS-native container orchestration service, which runs and maintains containerized tasks and long-running services on AWS Fargate, Amazon ECS Managed Instances, self-managed Amazon EC2 capacity or on-premises servers (ECS Anywhere)." .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Elastic Container Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ecr> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/ecs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon S3" .
@@ -384,6 +410,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2/s8> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2025/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s1> <http://purl.org/dc/terms/title> "Amazon ECS launch types and capacity providers" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/capacity-launch-type-comparison.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s2> <http://purl.org/dc/terms/title> "Amazon ECS services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s3> <http://purl.org/dc/terms/title> "Amazon ECS endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s3> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/ecs-service.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s4> <http://purl.org/dc/terms/title> "Amazon ECS Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s4> <https://schema.org/url> "https://aws.amazon.com/ecs/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s5> <http://purl.org/dc/terms/title> "Announcing Amazon ECS Managed Instances for containerized applications" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/announcing-amazon-ecs-managed-instances-for-containerized-applications/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s6> <http://purl.org/dc/terms/title> "Amazon ECS and AWS Fargate - AWS Product Comparison" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s6> <https://schema.org/url> "https://aws.amazon.com/compare/ecs-and-fargate/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://purl.org/dc/terms/title> "Amazon S3 FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

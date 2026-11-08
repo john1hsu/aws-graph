@@ -452,6 +452,102 @@
       ]
     },
     {
+      "@id": "kt:amazon-ecs",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Elastic Container Service",
+      "skos:definition": "AWS's fully managed, AWS-native container orchestration service, which runs and maintains containerized tasks and long-running services on AWS Fargate, Amazon ECS Managed Instances, self-managed Amazon EC2 capacity or on-premises servers (ECS Anywhere).",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedOn": "2026-11-08",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon ECS launch types and capacity providers",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/capacity-launch-type-comparison.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/ecs-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ecs/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing Amazon ECS Managed Instances for containerized applications",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ecs-managed-instances-for-containerized-applications/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECS and AWS Fargate - AWS Product Comparison",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compare/ecs-and-fargate/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/containers/amazon-ecs.md",
+      "skos:altLabel": [
+        "Amazon ECS",
+        "ECS",
+        "AWS ECS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-container-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ecr"
+        },
+        {
+          "@id": "kt:ecs-managed-instances"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:aws-fargate"
+        },
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:ecs-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-cloudwatch",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon CloudWatch",

@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner`, `kt:amazon-ec2`, `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
+| `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner`, `kt:amazon-ec2`, `kt:amazon-ecs`, `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
 | `kt:aws-regions` | `kt:amazon-ec2`, `kt:amazon-cloudwatch`, `kt:amazon-s3` |
 | `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
@@ -15,7 +15,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-bedrock-guardrails` | `kt:amazon-bedrock` |
 | `kt:amazon-bedrock-knowledge-bases` | `kt:amazon-bedrock` |
 | `kt:amazon-ec2-auto-scaling` | `kt:amazon-ec2` |
+| `kt:amazon-ecr` | `kt:amazon-ecs` |
 | `kt:amazon-efs` | `kt:amazon-s3` |
+| `kt:amazon-eks` | `kt:amazon-ecs` |
 | `kt:amazon-emr` | `kt:amazon-athena` |
 | `kt:amazon-redshift` | `kt:amazon-athena` |
 | `kt:amazon-route-53` | `kt:amazon-cloudfront` |
@@ -24,6 +26,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework` |
 | `kt:aws-compute-services` | `kt:amazon-ec2` |
+| `kt:aws-container-services` | `kt:amazon-ecs` |
+| `kt:aws-fargate` | `kt:amazon-ecs` |
 | `kt:aws-glue` | `kt:amazon-athena` |
 | `kt:aws-iam` | `kt:amazon-s3` |
 | `kt:aws-kms` | `kt:aws-cloudtrail` |
@@ -42,6 +46,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:disaster-recovery-strategies` | `kt:aws-well-architected-framework` |
 | `kt:ec2-instance-quotas` | `kt:amazon-ec2` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2` |
+| `kt:ecs-managed-instances` | `kt:amazon-ecs` |
+| `kt:ecs-quotas` | `kt:amazon-ecs` |
 | `kt:edge-locations` | `kt:amazon-cloudfront` |
 | `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework` |
 | `kt:reliability-pillar` | `kt:aws-well-architected-framework` |
