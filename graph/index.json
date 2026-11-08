@@ -45,6 +45,28 @@
     ]
   },
   {
+    "id": "kt:amazon-cloudfront",
+    "title": "Amazon CloudFront",
+    "aliases": [
+      "CloudFront",
+      "AWS CloudFront"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/amazon-cloudfront.md",
+    "created": "2026-11-08",
+    "verified": "2026-11-08",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/nl_nl/AmazonCloudFront/latest/DeveloperGuide/HowCloudFrontWorks.html",
+      "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.md",
+      "https://aws.amazon.com/cloudfront/pricing/pay-as-you-go",
+      "https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-flat-rate-pricing-plans-with-no-overages",
+      "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html",
+      "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/edge-functions-choosing.md"
+    ]
+  },
+  {
     "id": "kt:amazon-s3",
     "title": "Amazon S3",
     "aliases": [

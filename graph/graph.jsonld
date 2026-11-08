@@ -340,6 +340,94 @@
       ]
     },
     {
+      "@id": "kt:amazon-cloudfront",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon CloudFront",
+      "skos:definition": "AWS's global content delivery network (CDN), which caches and serves content and APIs from edge points of presence and regional edge caches close to viewers, with origins such as Amazon S3 or HTTP servers, edge compute, and pay-as-you-go or flat-rate pricing.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedOn": "2026-11-08",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How CloudFront delivers content - Amazon CloudFront",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/nl_nl/AmazonCloudFront/latest/DeveloperGuide/HowCloudFrontWorks.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas - Amazon CloudFront Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon CloudFront pay-as-you-go pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/cloudfront/pricing/pay-as-you-go",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing flat-rate pricing plans with no overages",
+          "dcterms:publisher": "Amazon Web Services (Networking & Content Delivery Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-flat-rate-pricing-plans-with-no-overages",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Restrict access to an Amazon S3 origin - Amazon CloudFront",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Differences between CloudFront Functions and Lambda@Edge - Amazon CloudFront",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/edge-functions-choosing.md",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/amazon-cloudfront.md",
+      "skos:altLabel": [
+        "CloudFront",
+        "AWS CloudFront"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-route-53"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-waf"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:edge-locations"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:cloudfront-quotas"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:cloudfront-functions"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-s3",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon S3",

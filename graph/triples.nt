@@ -45,6 +45,29 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon CloudFront" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS CloudFront" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/2004/02/skos/core#altLabel> "CloudFront" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/2004/02/skos/core#definition> "AWS's global content delivery network (CDN), which caches and serves content and APIs from edge points of presence and regional edge caches close to viewers, with origins such as Amazon S3 or HTTP servers, edge compute, and pay-as-you-go or flat-rate pricing." .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon CloudFront" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/cloudfront-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/cloudfront-functions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/edge-locations> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon S3" .
@@ -177,6 +200,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s1> <http://purl.org/dc/terms/title> "How CloudFront delivers content - Amazon CloudFront" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s1> <https://schema.org/url> "https://docs.aws.amazon.com/nl_nl/AmazonCloudFront/latest/DeveloperGuide/HowCloudFrontWorks.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s2> <http://purl.org/dc/terms/title> "Quotas - Amazon CloudFront Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s3> <http://purl.org/dc/terms/title> "Amazon CloudFront pay-as-you-go pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s3> <https://schema.org/url> "https://aws.amazon.com/cloudfront/pricing/pay-as-you-go" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (Networking & Content Delivery Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s4> <http://purl.org/dc/terms/title> "Introducing flat-rate pricing plans with no overages" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-flat-rate-pricing-plans-with-no-overages" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s5> <http://purl.org/dc/terms/title> "Restrict access to an Amazon S3 origin - Amazon CloudFront" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s6> <http://purl.org/dc/terms/title> "Differences between CloudFront Functions and Lambda@Edge - Amazon CloudFront" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/edge-functions-choosing.md" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://purl.org/dc/terms/title> "Amazon S3 FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

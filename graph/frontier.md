@@ -9,10 +9,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-bedrock-guardrails` | `kt:amazon-bedrock` |
 | `kt:amazon-bedrock-knowledge-bases` | `kt:amazon-bedrock` |
-| `kt:amazon-cloudfront` | `kt:amazon-s3` |
 | `kt:amazon-efs` | `kt:amazon-s3` |
 | `kt:amazon-emr` | `kt:amazon-athena` |
 | `kt:amazon-redshift` | `kt:amazon-athena` |
+| `kt:amazon-route-53` | `kt:amazon-cloudfront` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner` |
@@ -23,11 +23,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-iam` | `kt:amazon-s3` |
 | `kt:aws-lake-formation` | `kt:amazon-athena` |
 | `kt:aws-lambda` | `kt:amazon-athena` |
+| `kt:aws-networking-and-content-delivery` | `kt:amazon-cloudfront` |
 | `kt:aws-regions` | `kt:amazon-s3` |
 | `kt:aws-storage-services` | `kt:amazon-s3` |
+| `kt:aws-waf` | `kt:amazon-cloudfront` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework` |
+| `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
+| `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
 | `kt:disaster-recovery-strategies` | `kt:aws-well-architected-framework` |
+| `kt:edge-locations` | `kt:amazon-cloudfront` |
 | `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework` |
 | `kt:reliability-pillar` | `kt:aws-well-architected-framework` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
