@@ -113,6 +113,27 @@
     ]
   },
   {
+    "id": "kt:aws-cloudtrail",
+    "title": "AWS CloudTrail",
+    "aliases": [
+      "CloudTrail"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/aws-cloudtrail.md",
+    "created": "2026-11-08",
+    "verified": "2026-11-08",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html",
+      "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/how-cloudtrail-works.html",
+      "https://aws.amazon.com/cloudtrail/pricing/",
+      "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/WhatIsCloudTrail-Limits.html",
+      "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-lake-service-availability-change.html",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-well-architected-framework",
     "title": "AWS Well-Architected Framework",
     "aliases": [

@@ -1,46 +1,47 @@
 # Graph statistics
 
-- Articles (nodes written): **6**
-- Frontier nodes (referenced, unwritten): **34**
-- Edges: **43**
-- Citations: **37**
+- Articles (nodes written): **7**
+- Frontier nodes (referenced, unwritten): **39**
+- Edges: **52**
+- Citations: **43**
 
-- Weakly connected components: **3**
+- Weakly connected components: **2**
 - Isolated articles (no edges): **0**
 
 ## Most central nodes (PageRank)
 
 | Node | PageRank | Written |
 |---|---|---|
-| `kt:generative-ai-on-aws` | 0.0284 | no |
-| `kt:amazon-sagemaker-ai` | 0.0284 | no |
-| `kt:amazon-s3` | 0.0278 | yes |
-| `kt:data-lake-on-aws` | 0.0274 | no |
-| `kt:amazon-bedrock` | 0.0254 | yes |
-| `kt:aws-certification-program` | 0.0254 | no |
-| `kt:aws-certified-machine-learning-engineer-associate` | 0.0254 | no |
-| `kt:aws-certified-cloud-practitioner` | 0.0254 | no |
-| `kt:aws-certified-ai-practitioner` | 0.0249 | yes |
-| `kt:amazon-bedrock-knowledge-bases` | 0.0249 | no |
-| `kt:amazon-bedrock-guardrails` | 0.0249 | no |
-| `kt:service-control-policies` | 0.0249 | no |
-| `kt:aws-cloudtrail` | 0.0249 | no |
-| `kt:aws-lake-formation` | 0.0248 | no |
-| `kt:aws-lambda` | 0.0248 | no |
+| `kt:amazon-s3` | 0.0263 | yes |
+| `kt:generative-ai-on-aws` | 0.0246 | no |
+| `kt:amazon-sagemaker-ai` | 0.0246 | no |
+| `kt:data-lake-on-aws` | 0.0242 | no |
+| `kt:aws-certified-cloud-practitioner` | 0.0240 | no |
+| `kt:amazon-athena` | 0.0234 | yes |
+| `kt:amazon-bedrock` | 0.0219 | yes |
+| `kt:aws-certification-program` | 0.0219 | no |
+| `kt:aws-certified-machine-learning-engineer-associate` | 0.0219 | no |
+| `kt:aws-lake-formation` | 0.0217 | no |
+| `kt:aws-lambda` | 0.0217 | no |
+| `kt:aws-glue` | 0.0217 | no |
+| `kt:amazon-redshift` | 0.0217 | no |
+| `kt:amazon-emr` | 0.0217 | no |
+| `kt:aws-certified-ai-practitioner` | 0.0215 | yes |
 
-## Communities (Louvain): 5
+## Communities (Louvain): 6
 
-1. `kt:amazon-bedrock`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-sagemaker-ai`, `kt:aws-certification-program`, `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-machine-learning-engineer-associate`, `kt:aws-cloudtrail`, `kt:generative-ai-on-aws`, `kt:service-control-policies`
+1. `kt:amazon-bedrock`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-sagemaker-ai`, `kt:aws-certification-program`, `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-machine-learning-engineer-associate`, `kt:generative-ai-on-aws`, `kt:service-control-policies`
 2. `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-well-architected-tool`, `kt:cloud-architecture`, `kt:disaster-recovery-strategies`, `kt:operational-excellence-pillar`, `kt:reliability-pillar`, `kt:security-pillar`
 3. `kt:amazon-athena`, `kt:amazon-emr`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:aws-lake-formation`, `kt:aws-lambda`, `kt:data-lake-on-aws`
 4. `kt:amazon-cloudfront`, `kt:amazon-route-53`, `kt:aws-networking-and-content-delivery`, `kt:aws-waf`, `kt:cloudfront-functions`, `kt:cloudfront-quotas`, `kt:edge-locations`
-5. `kt:amazon-efs`, `kt:amazon-s3`, `kt:amazon-s3-quotas`, `kt:aws-iam`, `kt:aws-regions`, `kt:aws-storage-services`, `kt:s3-storage-classes`
+5. `kt:amazon-cloudwatch`, `kt:aws-cloudtrail`, `kt:aws-config`, `kt:aws-kms`, `kt:aws-organizations`, `kt:aws-security-services`, `kt:cloudtrail-quotas`
+6. `kt:amazon-efs`, `kt:amazon-s3`, `kt:amazon-s3-quotas`, `kt:aws-iam`, `kt:aws-regions`, `kt:aws-storage-services`, `kt:s3-storage-classes`
 
 ## By type
 
 - Certification: 1
 - Concept: 1
-- Service: 4
+- Service: 5
 
 ## By domain
 
@@ -49,13 +50,14 @@
 - architecture-practice: 1
 - certifications: 1
 - networking-and-content-delivery: 1
+- security: 1
 - storage: 1
 
 ## By month verified (oldest = most likely stale)
 
-- 2026-11: 6
+- 2026-11: 7
 
 ## By status
 
 - concept: 1
-- current: 5
+- current: 6

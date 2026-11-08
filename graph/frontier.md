@@ -5,32 +5,37 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
+| `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner`, `kt:aws-cloudtrail` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-s3` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-bedrock-guardrails` | `kt:amazon-bedrock` |
 | `kt:amazon-bedrock-knowledge-bases` | `kt:amazon-bedrock` |
+| `kt:amazon-cloudwatch` | `kt:aws-cloudtrail` |
 | `kt:amazon-efs` | `kt:amazon-s3` |
 | `kt:amazon-emr` | `kt:amazon-athena` |
 | `kt:amazon-redshift` | `kt:amazon-athena` |
 | `kt:amazon-route-53` | `kt:amazon-cloudfront` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner` |
-| `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework` |
-| `kt:aws-cloudtrail` | `kt:amazon-bedrock` |
+| `kt:aws-config` | `kt:aws-cloudtrail` |
 | `kt:aws-glue` | `kt:amazon-athena` |
 | `kt:aws-iam` | `kt:amazon-s3` |
+| `kt:aws-kms` | `kt:aws-cloudtrail` |
 | `kt:aws-lake-formation` | `kt:amazon-athena` |
 | `kt:aws-lambda` | `kt:amazon-athena` |
 | `kt:aws-networking-and-content-delivery` | `kt:amazon-cloudfront` |
+| `kt:aws-organizations` | `kt:aws-cloudtrail` |
 | `kt:aws-regions` | `kt:amazon-s3` |
+| `kt:aws-security-services` | `kt:aws-cloudtrail` |
 | `kt:aws-storage-services` | `kt:amazon-s3` |
 | `kt:aws-waf` | `kt:amazon-cloudfront` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
 | `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
+| `kt:cloudtrail-quotas` | `kt:aws-cloudtrail` |
 | `kt:disaster-recovery-strategies` | `kt:aws-well-architected-framework` |
 | `kt:edge-locations` | `kt:amazon-cloudfront` |
 | `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework` |

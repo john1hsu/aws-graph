@@ -117,6 +117,30 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CloudTrail" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/2004/02/skos/core#altLabel> "CloudTrail" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/2004/02/skos/core#definition> "AWS's audit-logging service that records actions taken by users, roles and AWS services as events, with a free 90-day event history, trails that deliver logs to Amazon S3, anomaly detection through Insights, and the CloudTrail Lake event data store." .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS CloudTrail" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/cloudtrail-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#queriedWith> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Well-Architected Framework" .
@@ -295,6 +319,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-revisions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s1> <http://purl.org/dc/terms/title> "What Is AWS CloudTrail?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s1> <https://schema.org/url> "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s2> <http://purl.org/dc/terms/title> "How CloudTrail works" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s2> <https://schema.org/url> "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/how-cloudtrail-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s3> <http://purl.org/dc/terms/title> "AWS CloudTrail pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s3> <https://schema.org/url> "https://aws.amazon.com/cloudtrail/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s4> <http://purl.org/dc/terms/title> "Quotas in AWS CloudTrail" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s4> <https://schema.org/url> "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/WhatIsCloudTrail-Limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s5> <http://purl.org/dc/terms/title> "CloudTrail Lake availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s5> <https://schema.org/url> "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-lake-service-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <http://purl.org/dc/terms/title> "Definitions - AWS Well-Architected Framework" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
