@@ -4,10 +4,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
+| `kt:generative-ai-on-aws` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-bedrock-guardrails` | `kt:amazon-bedrock` |
 | `kt:amazon-bedrock-knowledge-bases` | `kt:amazon-bedrock` |
-| `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock` |
-| `kt:aws-certified-ai-practitioner` | `kt:amazon-bedrock` |
+| `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner` |
+| `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner` |
+| `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloudtrail` | `kt:amazon-bedrock` |
-| `kt:generative-ai-on-aws` | `kt:amazon-bedrock` |
 | `kt:service-control-policies` | `kt:amazon-bedrock` |

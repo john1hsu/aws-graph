@@ -94,6 +94,83 @@
           "@id": "kt:aws-certified-ai-practitioner"
         }
       ]
+    },
+    {
+      "@id": "kt:aws-certified-ai-practitioner",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "AWS Certified AI Practitioner",
+      "skos:definition": "AWS's foundational-level certification (exam AIF-C01) validating a conceptual understanding of AI, machine learning and generative AI, and of which AWS AI services fit which business use cases, for people who use rather than build AI/ML solutions.",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedOn": "2026-11-08",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Certified AI Practitioner (AIF-C01) - Exam Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certified AI Practitioner",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified AI Practitioner",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Content Domain 2: Fundamentals of GenAI - AWS Certified AI Practitioner",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Content Domain 3: Applications of Foundation Models - AWS Certified AI Practitioner",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Revisions - AWS Certified AI Practitioner",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-revisions.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-certified-ai-practitioner.md",
+      "skos:altLabel": [
+        "AIF-C01",
+        "AWS AI Practitioner"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        },
+        {
+          "@id": "kt:aws-certified-machine-learning-engineer-associate"
+        },
+        {
+          "@id": "kt:generative-ai-on-aws"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
     }
   ]
 }

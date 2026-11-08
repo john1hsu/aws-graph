@@ -21,6 +21,28 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified AI Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2004/02/skos/core#altLabel> "AIF-C01" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS AI Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2004/02/skos/core#definition> "AWS's foundational-level certification (exam AIF-C01) validating a conceptual understanding of AI, machine learning and generative AI, and of which AWS AI services fit which business use cases, for people who use rather than build AI/ML solutions." .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Certified AI Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://purl.org/dc/terms/title> "Amazon Bedrock FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
@@ -51,3 +73,33 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://purl.org/dc/terms/title> "AWS Certified AI Practitioner (AIF-C01) - Exam Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s2> <http://purl.org/dc/terms/title> "AWS Certified AI Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s2> <https://schema.org/url> "https://aws.amazon.com/certification/certified-ai-practitioner/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s3> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified AI Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s3> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s4> <http://purl.org/dc/terms/title> "Content Domain 2: Fundamentals of GenAI - AWS Certified AI Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s4> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s5> <http://purl.org/dc/terms/title> "Content Domain 3: Applications of Foundation Models - AWS Certified AI Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s5> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <http://purl.org/dc/terms/title> "Revisions - AWS Certified AI Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-revisions.html" .

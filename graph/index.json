@@ -20,5 +20,27 @@
       "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/amazon-bedrock.html",
       "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html"
     ]
+  },
+  {
+    "id": "kt:aws-certified-ai-practitioner",
+    "title": "AWS Certified AI Practitioner",
+    "aliases": [
+      "AIF-C01",
+      "AWS AI Practitioner"
+    ],
+    "type": "Certification",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certified-ai-practitioner.md",
+    "created": "2026-11-08",
+    "verified": "2026-11-08",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01.html",
+      "https://aws.amazon.com/certification/certified-ai-practitioner/",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-revisions.html"
+    ]
   }
 ]
