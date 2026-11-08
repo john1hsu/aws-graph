@@ -1,5 +1,28 @@
 [
   {
+    "id": "kt:amazon-athena",
+    "title": "Amazon Athena",
+    "aliases": [
+      "Athena",
+      "AWS Athena",
+      "Athena for SQL"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/amazon-athena.md",
+    "created": "2026-11-08",
+    "verified": "2026-11-08",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/athena/faqs/",
+      "https://aws.amazon.com/athena/pricing/?p=ps",
+      "https://docs.aws.amazon.com/athena/latest/ug/service-limits.html",
+      "https://docs.aws.amazon.com/general/latest/gr/athena.html",
+      "https://docs.aws.amazon.com/athena/latest/ug/workgroups-setting-control-limits-cloudwatch.html",
+      "https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena"
+    ]
+  },
+  {
     "id": "kt:amazon-bedrock",
     "title": "Amazon Bedrock",
     "aliases": [

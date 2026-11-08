@@ -1,3 +1,27 @@
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Athena" .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Athena" .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/2004/02/skos/core#altLabel> "Athena for SQL" .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/2004/02/skos/core#altLabel> "Athena" .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/2004/02/skos/core#definition> "AWS's serverless, interactive query service that runs standard SQL (on a Trino-based engine) and Apache Spark directly against data in Amazon S3 and other sources, billed per terabyte scanned or by reserved DPU capacity." .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Athena" .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lake-formation> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-emr> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Bedrock" .
@@ -43,6 +67,36 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://purl.org/dc/terms/title> "Amazon Athena FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <https://schema.org/url> "https://aws.amazon.com/athena/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s2> <http://purl.org/dc/terms/title> "Amazon Athena Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s2> <https://schema.org/url> "https://aws.amazon.com/athena/pricing/?p=ps" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s3> <http://purl.org/dc/terms/title> "Service Quotas - Amazon Athena" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s3> <https://schema.org/url> "https://docs.aws.amazon.com/athena/latest/ug/service-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s4> <http://purl.org/dc/terms/title> "Amazon Athena endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s4> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/athena.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s5> <http://purl.org/dc/terms/title> "Configure per-query and per-workgroup data usage controls - Amazon Athena" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s5> <https://schema.org/url> "https://docs.aws.amazon.com/athena/latest/ug/workgroups-setting-control-limits-cloudwatch.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Big Data Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s6> <http://purl.org/dc/terms/title> "Top 10 performance tuning tips for Amazon Athena" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://purl.org/dc/terms/title> "Amazon Bedrock FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

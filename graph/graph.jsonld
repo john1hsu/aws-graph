@@ -96,6 +96,91 @@
       ]
     },
     {
+      "@id": "kt:amazon-athena",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Athena",
+      "skos:definition": "AWS's serverless, interactive query service that runs standard SQL (on a Trino-based engine) and Apache Spark directly against data in Amazon S3 and other sources, billed per terabyte scanned or by reserved DPU capacity.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedOn": "2026-11-08",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon Athena FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/athena/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Athena Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/athena/pricing/?p=ps",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Service Quotas - Amazon Athena",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/athena/latest/ug/service-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Athena endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/athena.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure per-query and per-workgroup data usage controls - Amazon Athena",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/athena/latest/ug/workgroups-setting-control-limits-cloudwatch.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Top 10 performance tuning tips for Amazon Athena",
+          "dcterms:publisher": "Amazon Web Services (AWS Big Data Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/analytics/amazon-athena.md",
+      "skos:altLabel": [
+        "Athena",
+        "AWS Athena",
+        "Athena for SQL"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-lake-on-aws"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-lake-formation"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-glue"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-redshift"
+        },
+        {
+          "@id": "kt:amazon-emr"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-ai-practitioner",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified AI Practitioner",
