@@ -1,1 +1,53 @@
-
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Bedrock" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Bedrock" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/2004/02/skos/core#altLabel> "Bedrock" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed, serverless service for building generative AI applications and agents on foundation models from Amazon and third-party providers through a single API, with built-in retrieval, guardrails, customization and tiered per-token pricing." .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Bedrock" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://purl.org/dc/terms/title> "Amazon Bedrock FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <https://schema.org/url> "https://aws.amazon.com/bedrock/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s2> <http://purl.org/dc/terms/title> "Amazon Bedrock or Amazon SageMaker AI? - AWS Decision Guides" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s2> <https://schema.org/url> "https://docs.aws.amazon.com/decision-guides/latest/decision-guides/bedrock-or-sagemaker.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s3> <http://purl.org/dc/terms/title> "Amazon Bedrock Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s3> <https://schema.org/url> "https://aws.amazon.com/bedrock/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s4> <http://purl.org/dc/terms/title> "Route model inference requests across AWS Regions with cross-Region inference" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s4> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/cross-region-inference.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s5> <http://purl.org/dc/terms/title> "Amazon Bedrock - Generative AI inference architecture and best practices on AWS (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s5> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/amazon-bedrock.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified AI Practitioner (AIF-C01)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html" .

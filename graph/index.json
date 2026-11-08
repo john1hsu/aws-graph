@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "kt:amazon-bedrock",
+    "title": "Amazon Bedrock",
+    "aliases": [
+      "Bedrock",
+      "AWS Bedrock"
+    ],
+    "type": "Service",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-bedrock.md",
+    "created": "2026-11-08",
+    "verified": "2026-11-08",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/bedrock/faqs/",
+      "https://docs.aws.amazon.com/decision-guides/latest/decision-guides/bedrock-or-sagemaker.html",
+      "https://aws.amazon.com/bedrock/pricing/",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/cross-region-inference.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/amazon-bedrock.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html"
+    ]
+  }
+]

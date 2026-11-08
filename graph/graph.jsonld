@@ -8,5 +8,92 @@
     "schema": "https://schema.org/",
     "@base": "https://github.com/john1hsu/aws-graph/id/"
   },
-  "@graph": []
+  "@graph": [
+    {
+      "@id": "kt:amazon-bedrock",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Bedrock",
+      "skos:definition": "AWS's fully managed, serverless service for building generative AI applications and agents on foundation models from Amazon and third-party providers through a single API, with built-in retrieval, guardrails, customization and tiered per-token pricing.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedOn": "2026-11-08",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon Bedrock FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/bedrock/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock or Amazon SageMaker AI? - AWS Decision Guides",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/decision-guides/bedrock-or-sagemaker.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/bedrock/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Route model inference requests across AWS Regions with cross-Region inference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/cross-region-inference.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock - Generative AI inference architecture and best practices on AWS (AWS Prescriptive Guidance)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/amazon-bedrock.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified AI Practitioner (AIF-C01)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-bedrock.md",
+      "skos:altLabel": [
+        "Bedrock",
+        "AWS Bedrock"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:generative-ai-on-aws"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-bedrock-knowledge-bases"
+        },
+        {
+          "@id": "kt:amazon-bedrock-guardrails"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:service-control-policies"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    }
+  ]
 }
