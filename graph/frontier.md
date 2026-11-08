@@ -4,13 +4,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner`, `kt:amazon-ec2`, `kt:amazon-ecs`, `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
-| `kt:aws-regions` | `kt:amazon-ec2`, `kt:amazon-cloudwatch`, `kt:amazon-s3` |
+| `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner`, `kt:amazon-ec2`, `kt:amazon-ecs`, `kt:aws-regions`, `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
 | `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
 | `kt:aws-lambda` | `kt:amazon-athena`, `kt:amazon-ec2` |
 | `kt:aws-organizations` | `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-s3` |
+| `kt:disaster-recovery-strategies` | `kt:aws-well-architected-framework`, `kt:aws-regions` |
+| `kt:edge-locations` | `kt:aws-regions`, `kt:amazon-cloudfront` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-bedrock-guardrails` | `kt:amazon-bedrock` |
 | `kt:amazon-bedrock-knowledge-bases` | `kt:amazon-bedrock` |
@@ -22,18 +23,22 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-redshift` | `kt:amazon-athena` |
 | `kt:amazon-route-53` | `kt:amazon-cloudfront` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
+| `kt:availability-zones` | `kt:aws-regions` |
+| `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework` |
 | `kt:aws-compute-services` | `kt:amazon-ec2` |
 | `kt:aws-container-services` | `kt:amazon-ecs` |
 | `kt:aws-fargate` | `kt:amazon-ecs` |
+| `kt:aws-global-infrastructure` | `kt:aws-regions` |
 | `kt:aws-glue` | `kt:amazon-athena` |
 | `kt:aws-iam` | `kt:amazon-s3` |
 | `kt:aws-kms` | `kt:aws-cloudtrail` |
 | `kt:aws-lake-formation` | `kt:amazon-athena` |
 | `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch` |
 | `kt:aws-networking-and-content-delivery` | `kt:amazon-cloudfront` |
+| `kt:aws-partitions` | `kt:aws-regions` |
 | `kt:aws-security-services` | `kt:aws-cloudtrail` |
 | `kt:aws-storage-services` | `kt:amazon-s3` |
 | `kt:aws-waf` | `kt:amazon-cloudfront` |
@@ -43,12 +48,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
 | `kt:cloudtrail-quotas` | `kt:aws-cloudtrail` |
 | `kt:cloudwatch-quotas` | `kt:amazon-cloudwatch` |
-| `kt:disaster-recovery-strategies` | `kt:aws-well-architected-framework` |
 | `kt:ec2-instance-quotas` | `kt:amazon-ec2` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2` |
 | `kt:ecs-managed-instances` | `kt:amazon-ecs` |
 | `kt:ecs-quotas` | `kt:amazon-ecs` |
-| `kt:edge-locations` | `kt:amazon-cloudfront` |
 | `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework` |
 | `kt:reliability-pillar` | `kt:aws-well-architected-framework` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |

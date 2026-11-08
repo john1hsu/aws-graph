@@ -206,6 +206,31 @@
     ]
   },
   {
+    "id": "kt:aws-regions",
+    "title": "AWS Regions",
+    "aliases": [
+      "AWS Region",
+      "Region",
+      "Regions",
+      "AWS Regions and Availability Zones"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/aws-regions.md",
+    "created": "2026-11-08",
+    "verified": "2026-11-08",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/ja_jp/global-infrastructure/latest/regions/aws-regions.html",
+      "https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-regions.html",
+      "https://aws.amazon.com/about-aws/global-infrastructure/regions%5Faz/",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/regions.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_multiaz_region_system",
+      "https://aws.amazon.com/blogs/aws/opening-the-aws-european-sovereign-cloud",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html"
+    ]
+  },
+  {
     "id": "kt:aws-well-architected-framework",
     "title": "AWS Well-Architected Framework",
     "aliases": [

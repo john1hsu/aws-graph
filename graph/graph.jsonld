@@ -548,6 +548,100 @@
       ]
     },
     {
+      "@id": "kt:aws-regions",
+      "@type": "kto:InfrastructureConcept",
+      "skos:prefLabel": "AWS Regions",
+      "skos:definition": "A Region is a separate geographic area where AWS clusters data centers into at least three isolated Availability Zones; Regions are independent fault-isolation boundaries, belong to one partition, and newer (opt-in) Regions must be enabled per account before use.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedOn": "2026-11-08",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Regions - AWS Regions and Availability Zones",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ja_jp/global-infrastructure/latest/regions/aws-regions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable or disable AWS Regions in your account - AWS Account Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-regions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Global Infrastructure - Regions and Availability Zones",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/global-infrastructure/regions%5Faz/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Regions - AWS Fault Isolation Boundaries (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/regions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL10-BP01 Deploy the workload to multiple locations - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_multiaz_region_system",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Opening the AWS European Sovereign Cloud",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/opening-the-aws-european-sovereign-cloud",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/aws-regions.md",
+      "skos:altLabel": [
+        "AWS Region",
+        "Region",
+        "Regions",
+        "AWS Regions and Availability Zones"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:edge-locations"
+        },
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:aws-partitions"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-account-management"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-cloudwatch",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon CloudWatch",

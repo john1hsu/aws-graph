@@ -222,6 +222,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Regions" .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Region" .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Regions and Availability Zones" .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2004/02/skos/core#altLabel> "Region" .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2004/02/skos/core#altLabel> "Regions" .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2004/02/skos/core#definition> "A Region is a separate geographic area where AWS clusters data centers into at least three isolated Availability Zones; Regions are independent fault-isolation boundaries, belong to one partition, and newer (opt-in) Regions must be enabled per account before use." .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Regions" .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/edge-locations> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-account-management> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Well-Architected Framework" .
@@ -540,6 +566,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <http://purl.org/dc/terms/title> "AWS Regions - AWS Regions and Availability Zones" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <https://schema.org/url> "https://docs.aws.amazon.com/ja_jp/global-infrastructure/latest/regions/aws-regions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s2> <http://purl.org/dc/terms/title> "Enable or disable AWS Regions in your account - AWS Account Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s2> <https://schema.org/url> "https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-regions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s3> <http://purl.org/dc/terms/title> "AWS Global Infrastructure - Regions and Availability Zones" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s3> <https://schema.org/url> "https://aws.amazon.com/about-aws/global-infrastructure/regions%5Faz/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s4> <http://purl.org/dc/terms/title> "Regions - AWS Fault Isolation Boundaries (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s4> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/regions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s5> <http://purl.org/dc/terms/title> "REL10-BP01 Deploy the workload to multiple locations - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s5> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_multiaz_region_system" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s6> <http://purl.org/dc/terms/title> "Opening the AWS European Sovereign Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/opening-the-aws-european-sovereign-cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s7> <http://purl.org/dc/terms/title> "Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-regions/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <http://purl.org/dc/terms/title> "Definitions - AWS Well-Architected Framework" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
