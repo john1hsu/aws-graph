@@ -251,5 +251,30 @@
       "https://aws.amazon.com/about-aws/whats-new/2025/04/new-guidance-well-architected-tool",
       "https://aws.amazon.com/blogs/architecture/architecting-for-ai-excellence-aws-launches-three-well-architected-lenses-at-reinvent-2025"
     ]
+  },
+  {
+    "id": "kt:savings-plans",
+    "title": "Savings Plans",
+    "aliases": [
+      "AWS Savings Plans",
+      "Compute Savings Plans",
+      "EC2 Instance Savings Plans",
+      "Database Savings Plans",
+      "SageMaker AI Savings Plans"
+    ],
+    "type": "PricingModel",
+    "domain": "cost-management",
+    "file": "articles/cost-management/savings-plans.md",
+    "created": "2026-11-08",
+    "verified": "2026-11-08",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/cost-management/latest/userguide/manage-sp.html",
+      "https://aws.amazon.com/savingsplans/faq/",
+      "https://docs.aws.amazon.com/savingsplans/latest/userguide/sp-ris.html",
+      "https://docs.aws.amazon.com/savingsplans/latest/userguide/sp-applying.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/12/database-savings-plans-savings/",
+      "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/select-the-best-pricing-model.html"
+    ]
   }
 ]

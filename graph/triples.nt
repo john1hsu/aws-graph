@@ -271,6 +271,35 @@
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-tool> .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#PricingModel> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2000/01/rdf-schema#label> "Savings Plans" .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Savings Plans" .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2004/02/skos/core#altLabel> "Compute Savings Plans" .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2004/02/skos/core#altLabel> "Database Savings Plans" .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 Instance Savings Plans" .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2004/02/skos/core#altLabel> "SageMaker AI Savings Plans" .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2004/02/skos/core#definition> "AWS's commitment-based pricing model: you commit to a fixed amount of spend per hour ($/hour) for a one- or three-year term and, in return, eligible usage up to that amount is billed at discounted Savings Plans rates instead of On-Demand rates." .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2004/02/skos/core#prefLabel> "Savings Plans" .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s2> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s3> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s4> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s5> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s6> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/reserved-instances> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://purl.org/dc/terms/title> "Amazon Athena FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
@@ -631,3 +660,33 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/architecture/architecting-for-ai-excellence-aws-launches-three-well-architected-lenses-at-reinvent-2025" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <http://purl.org/dc/terms/title> "What are Savings Plans? - Savings Plans" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <https://schema.org/url> "https://docs.aws.amazon.com/cost-management/latest/userguide/manage-sp.html" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s2> <http://purl.org/dc/terms/title> "Savings Plans FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s2> <https://schema.org/url> "https://aws.amazon.com/savingsplans/faq/" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s3> <http://purl.org/dc/terms/title> "Compute Savings Plans and Reserved Instances - Savings Plans" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s3> <https://schema.org/url> "https://docs.aws.amazon.com/savingsplans/latest/userguide/sp-ris.html" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s4> <http://purl.org/dc/terms/title> "Understanding how Savings Plans apply to your usage - Savings Plans" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s4> <https://schema.org/url> "https://docs.aws.amazon.com/savingsplans/latest/userguide/sp-applying.html" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s5> <http://purl.org/dc/terms/title> "Announcing Database Savings Plans with up to 35% savings" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/12/database-savings-plans-savings/" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s6> <http://purl.org/dc/terms/title> "Select the best pricing model - Cost Optimization Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/savings-plans/s6> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/select-the-best-pricing-model.html" .

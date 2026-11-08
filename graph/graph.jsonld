@@ -548,6 +548,104 @@
       ]
     },
     {
+      "@id": "kt:savings-plans",
+      "@type": "kto:PricingModel",
+      "skos:prefLabel": "Savings Plans",
+      "skos:definition": "AWS's commitment-based pricing model: you commit to a fixed amount of spend per hour ($/hour) for a one- or three-year term and, in return, eligible usage up to that amount is billed at discounted Savings Plans rates instead of On-Demand rates.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedOn": "2026-11-08",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What are Savings Plans? - Savings Plans",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cost-management/latest/userguide/manage-sp.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Savings Plans FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/savingsplans/faq/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Compute Savings Plans and Reserved Instances - Savings Plans",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/savingsplans/latest/userguide/sp-ris.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding how Savings Plans apply to your usage - Savings Plans",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/savingsplans/latest/userguide/sp-applying.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing Database Savings Plans with up to 35% savings",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/database-savings-plans-savings/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Select the best pricing model - Cost Optimization Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/select-the-best-pricing-model.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/cost-management/savings-plans.md",
+      "skos:altLabel": [
+        "AWS Savings Plans",
+        "Compute Savings Plans",
+        "EC2 Instance Savings Plans",
+        "Database Savings Plans",
+        "SageMaker AI Savings Plans"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-pricing-fundamentals"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:spot-instances"
+        },
+        {
+          "@id": "kt:aws-cost-explorer"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:reserved-instances"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:on-demand-capacity-reservations"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-cost-explorer"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-fargate"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-regions",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS Regions",
