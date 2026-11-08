@@ -1,0 +1,95 @@
+@prefix kt:   <https://github.com/john1hsu/aws-graph/id/> .
+@prefix kto:  <https://github.com/john1hsu/aws-graph/ontology#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+# ---------------------------------------------------------------------------
+# AWS Knowledge Graph ontology
+# Every article is a node. Its class comes from frontmatter `type`; its edges
+# come from `broader` (skos:broader), `related` (skos:related) and `relations`
+# (the typed predicates below). Provenance uses PROV-O.
+# Add a class or property here BEFORE using it in an article. Reuse first.
+# ---------------------------------------------------------------------------
+
+kto: a owl:Ontology ;
+    rdfs:label "AWS Knowledge Graph ontology" ;
+    owl:versionInfo "1.0.0" .
+
+# ---- Classes ---------------------------------------------------------------
+kto:Entity          a owl:Class ; rdfs:label "Entity" .
+kto:Service         a owl:Class ; rdfs:subClassOf kto:Entity , schema:SoftwareApplication ;
+    rdfs:comment "An AWS service with its own console, API namespace and pricing: Amazon S3, AWS Lambda, Amazon Bedrock, AWS Organizations." .
+kto:Feature         a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A capability inside a service: S3 Object Lock, Lambda SnapStart, DynamoDB global tables, VPC Flow Logs, EC2 Spot Instances." .
+kto:Resource        a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A provisioned building block you create and configure: VPC, subnet, security group, IAM role, EBS volume, KMS key." .
+kto:API             a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "An API, endpoint or SDK surface: the S3 API, STS AssumeRole, the AWS SDKs, the CloudFormation resource provider API." .
+kto:Language        a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A language, template or policy syntax: IAM policy JSON, CloudFormation templates, Amazon States Language, PartiQL, Cedar." .
+kto:Tool            a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "Builder and operator tooling: AWS CLI, AWS CDK, AWS SAM, AWS Pricing Calculator, Amazon Q Developer." .
+kto:Limit           a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A service quota, hard limit, throttle or design constraint (e.g. Lambda timeout, API Gateway payload size)." .
+kto:InfrastructureConcept a owl:Class ; rdfs:subClassOf kto:Concept ;
+    rdfs:comment "A piece of AWS's physical or logical footprint: Region, Availability Zone, Local Zone, edge location, partition." .
+kto:Concept         a owl:Class ; rdfs:subClassOf kto:Entity , skos:Concept ;
+    rdfs:comment "A cloud concept or mechanism: shared responsibility model, eventual consistency, IAM policy evaluation, cold start." .
+kto:Pattern         a owl:Class ; rdfs:subClassOf kto:Concept ;
+    rdfs:comment "A recommended architecture or design pattern, including Well-Architected and Prescriptive Guidance practices." .
+kto:AntiPattern     a owl:Class ; rdfs:subClassOf kto:Concept ;
+    rdfs:comment "A known bad practice and its failure mode." .
+kto:PricingModel    a owl:Class ; rdfs:subClassOf kto:Concept ;
+    rdfs:comment "A way AWS charges or discounts: On-Demand, Savings Plans, Reserved Instances, Spot, free tier, data transfer pricing." .
+kto:SecurityControl a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A security, governance or compliance control: service control policies, permissions boundaries, encryption at rest, MFA." .
+kto:ComplianceProgram a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "An assurance or regulatory program AWS participates in: FedRAMP, DoD SRG impact levels, HIPAA eligibility, ITAR." .
+kto:Role            a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A practitioner role: cloud practitioner, solutions architect, developer, SysOps/operations, security engineer." .
+kto:Certification   a owl:Class ; rdfs:subClassOf kto:Entity , schema:EducationalOccupationalCredential .
+kto:Organization    a owl:Class ; rdfs:subClassOf kto:Entity , schema:Organization ;
+    rdfs:comment "AWS, a standards body, a regulator, a foundation (e.g. CNCF)." .
+kto:ExternalConcept a owl:Class ; rdfs:subClassOf kto:Concept ;
+    rdfs:comment "A non-AWS concept AWS builds on: OAuth 2.0, OIDC, TLS, Kubernetes, CAP theorem, the Dynamo paper. Exempt from the official-source rule." .
+kto:Source          a owl:Class ; rdfs:subClassOf prov:Entity , schema:CreativeWork .
+
+# ---- Hierarchy (SKOS) ------------------------------------------------------
+# skos:broader / skos:narrower / skos:related are used directly.
+
+# ---- Typed relations -------------------------------------------------------
+kto:partOf          a owl:ObjectProperty , owl:TransitiveProperty ; owl:inverseOf kto:hasPart ; rdfs:label "part of" .
+kto:hasPart         a owl:ObjectProperty ; rdfs:label "has part" .
+kto:dependsOn       a owl:ObjectProperty ; rdfs:label "depends on / requires" .
+kto:enables         a owl:ObjectProperty ; rdfs:label "enables" .
+kto:integratesWith  a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "integrates with" .
+kto:runsOn          a owl:ObjectProperty ; rdfs:label "runs on (compute or infrastructure underneath)" .
+kto:replacedBy      a owl:ObjectProperty ; owl:inverseOf kto:replaces ; rdfs:label "replaced by (migration path)" .
+kto:replaces        a owl:ObjectProperty ; rdfs:label "replaces" .
+kto:alternativeTo   a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "alternative to (choose between)" .
+kto:governedBy      a owl:ObjectProperty ; rdfs:range kto:Limit ; rdfs:label "governed by quota / limit" .
+kto:implements      a owl:ObjectProperty ; rdfs:label "implements pattern / standard" .
+kto:mitigates       a owl:ObjectProperty ; rdfs:label "mitigates (risk, anti-pattern, limit)" .
+kto:causes          a owl:ObjectProperty ; rdfs:label "causes (failure mode, side effect)" .
+kto:configuredVia   a owl:ObjectProperty ; rdfs:label "configured / deployed via (IaC, console, tool)" .
+kto:securedBy       a owl:ObjectProperty ; rdfs:label "secured / access-controlled by" .
+kto:monitoredBy     a owl:ObjectProperty ; rdfs:label "monitored / audited by" .
+kto:queriedWith     a owl:ObjectProperty ; rdfs:label "accessed / queried with (API, language)" .
+kto:pricedBy        a owl:ObjectProperty ; rdfs:range kto:PricingModel ; rdfs:label "priced by / discounted by" .
+kto:scopedTo        a owl:ObjectProperty ; rdfs:range kto:InfrastructureConcept ; rdfs:label "scoped to (global, Region, AZ, edge)" .
+kto:compliesWith    a owl:ObjectProperty ; rdfs:range kto:ComplianceProgram ; rdfs:label "in scope for / authorized under compliance program" .
+kto:coveredBy       a owl:ObjectProperty ; rdfs:range kto:Certification ; rdfs:label "covered by certification exam" .
+kto:usedBy          a owl:ObjectProperty ; rdfs:range kto:Role ; rdfs:label "primarily used by role" .
+kto:contrastsWith   a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "contrasts with (commonly confused)" .
+kto:instanceOf      a owl:ObjectProperty ; rdfs:label "instance of" .
+
+# ---- Datatype properties written by scripts/kg.py --------------------------
+kto:verifiedOn      a owl:DatatypeProperty ; rdfs:label "date the content was last verified against AWS sources" .
+kto:status          a owl:DatatypeProperty ; rdfs:label "lifecycle status: current, preview, closed-to-new-customers, deprecated, retired, concept" .
+kto:domain          a owl:DatatypeProperty ; rdfs:label "domain" .
+kto:sourceType      a owl:DatatypeProperty ; rdfs:label "source type" .

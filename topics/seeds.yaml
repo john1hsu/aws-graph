@@ -1,0 +1,26 @@
+# Domains the hourly run draws from. Edit freely: add domains, remove ones you
+# don't want, or add seed topics to steer what gets written next. The run picks
+# the least-covered domain for breadth runs and works the frontier for depth runs.
+# Seeds are suggestions, not a queue: skip any that already exist, and check each
+# service's lifecycle (AWS renames and retires services) before writing.
+# Mix of Cloud Practitioner foundations and Solutions Architect depth.
+
+domains:
+  global-infrastructure: [aws-regions, availability-zones, local-zones, edge-locations, aws-outposts, aws-partitions, shared-responsibility-model, aws-global-network]
+  compute: [amazon-ec2, ec2-instance-types, amazon-ec2-auto-scaling, elastic-load-balancing, application-load-balancer, aws-graviton, aws-elastic-beanstalk, aws-batch, ec2-placement-groups]
+  containers: [amazon-ecs, amazon-eks, aws-fargate, amazon-ecr, ecs-vs-eks, eks-auto-mode, container-networking-on-aws]
+  serverless-and-integration: [aws-lambda, lambda-cold-starts, amazon-api-gateway, aws-step-functions, amazon-eventbridge, amazon-sqs, amazon-sns, sqs-vs-sns-vs-eventbridge, aws-appsync]
+  storage: [amazon-s3, s3-storage-classes, s3-lifecycle-policies, s3-object-lock, amazon-ebs, amazon-efs, amazon-fsx, aws-storage-gateway, aws-backup]
+  databases: [amazon-rds, amazon-aurora, aurora-serverless-v2, amazon-dynamodb, dynamodb-partition-key-design, dynamodb-global-tables, amazon-elasticache, amazon-documentdb, amazon-neptune, purpose-built-databases]
+  networking-and-content-delivery: [amazon-vpc, subnets-and-route-tables, security-groups-vs-network-acls, nat-gateway, vpc-endpoints, aws-privatelink, aws-transit-gateway, aws-direct-connect, aws-site-to-site-vpn, amazon-route-53, amazon-cloudfront, aws-global-accelerator]
+  identity-and-access: [aws-iam, iam-policy-evaluation-logic, iam-roles, iam-identity-center, service-control-policies, permissions-boundaries, attribute-based-access-control, amazon-cognito, aws-sts]
+  security: [aws-kms, aws-secrets-manager, aws-security-hub, amazon-guardduty, aws-waf, aws-shield, amazon-inspector, aws-cloudtrail, amazon-macie, aws-certificate-manager]
+  governance-and-operations: [aws-organizations, aws-control-tower, multi-account-strategy, aws-config, amazon-cloudwatch, aws-systems-manager, aws-trusted-advisor, service-quotas, tagging-strategy, aws-health-dashboard]
+  devops-and-iac: [aws-cloudformation, aws-cdk, aws-sam, aws-codepipeline, aws-codebuild, aws-codedeploy, blue-green-deployments, infrastructure-as-code, cloudformation-drift-detection]
+  analytics: [amazon-athena, aws-glue, amazon-kinesis-data-streams, amazon-data-firehose, aws-lake-formation, amazon-emr, amazon-redshift, amazon-opensearch-service, amazon-msk, data-lake-on-aws]
+  ai-and-ml: [amazon-bedrock, amazon-bedrock-agents, amazon-bedrock-guardrails, amazon-bedrock-knowledge-bases, amazon-sagemaker-ai, amazon-q-business, amazon-q-developer, amazon-textract, amazon-comprehend, aws-trainium-and-inferentia]
+  migration-and-hybrid: [seven-rs-migration-strategies, aws-application-migration-service, aws-database-migration-service, aws-datasync, aws-transfer-family, vmware-migration-to-aws, aws-migration-acceleration-program]
+  cost-management: [aws-pricing-fundamentals, savings-plans, reserved-instances, spot-instances, aws-free-tier, aws-cost-explorer, aws-budgets, aws-compute-optimizer, aws-pricing-calculator, cost-allocation-tags, data-transfer-costs]
+  architecture-practice: [aws-well-architected-framework, operational-excellence-pillar, security-pillar, reliability-pillar, performance-efficiency-pillar, cost-optimization-pillar, sustainability-pillar, disaster-recovery-strategies, multi-region-architecture, cell-based-architecture, event-driven-architecture, aws-cloud-adoption-framework]
+  public-sector-and-compliance: [aws-govcloud-us, fedramp-on-aws, dod-cloud-computing-srg-impact-levels, aws-artifact, aws-secret-and-top-secret-regions, hipaa-eligible-services, itar-on-aws, data-residency-on-aws]
+  certifications: [aws-certified-cloud-practitioner, aws-certified-ai-practitioner, aws-certified-solutions-architect-associate, aws-certified-developer-associate, aws-certified-solutions-architect-professional, aws-certified-security-specialty]
