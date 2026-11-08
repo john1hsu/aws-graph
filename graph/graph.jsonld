@@ -256,6 +256,107 @@
           "@id": "kt:aws-certified-cloud-practitioner"
         }
       ]
+    },
+    {
+      "@id": "kt:amazon-s3",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon S3",
+      "skos:definition": "AWS's regional object storage service for storing and retrieving any amount of data as objects in buckets, with strong read-after-write consistency, multiple storage classes, and specialised bucket types for low-latency, tabular (Apache Iceberg) and vector data.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedOn": "2026-11-08",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon S3 FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/s3/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is Amazon S3? - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Simple Storage Service endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/s3.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon S3 Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/s3/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon S3 increases the maximum object size to 50 TB",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-maximum-object-size-50-tb/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Best practices design patterns: optimizing Amazon S3 performance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Top announcements of AWS re:Invent 2025",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2025/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/storage/amazon-s3.md",
+      "skos:altLabel": [
+        "Amazon Simple Storage Service",
+        "S3",
+        "AWS S3"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-storage-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:s3-storage-classes"
+        },
+        {
+          "@id": "kt:data-lake-on-aws"
+        },
+        {
+          "@id": "kt:amazon-athena"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-efs"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:amazon-s3-quotas"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-cloudfront"
+        }
+      ]
     }
   ]
 }

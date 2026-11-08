@@ -45,6 +45,30 @@
     ]
   },
   {
+    "id": "kt:amazon-s3",
+    "title": "Amazon S3",
+    "aliases": [
+      "Amazon Simple Storage Service",
+      "S3",
+      "AWS S3"
+    ],
+    "type": "Service",
+    "domain": "storage",
+    "file": "articles/storage/amazon-s3.md",
+    "created": "2026-11-08",
+    "verified": "2026-11-08",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/s3/faqs/",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+      "https://docs.aws.amazon.com/general/latest/gr/s3.html",
+      "https://aws.amazon.com/s3/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-maximum-object-size-50-tb/",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance.html",
+      "https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2025/"
+    ]
+  },
+  {
     "id": "kt:aws-certified-ai-practitioner",
     "title": "AWS Certified AI Practitioner",
     "aliases": [

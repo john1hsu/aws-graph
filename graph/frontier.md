@@ -5,18 +5,24 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
+| `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-s3` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-bedrock-guardrails` | `kt:amazon-bedrock` |
 | `kt:amazon-bedrock-knowledge-bases` | `kt:amazon-bedrock` |
+| `kt:amazon-cloudfront` | `kt:amazon-s3` |
+| `kt:amazon-efs` | `kt:amazon-s3` |
 | `kt:amazon-emr` | `kt:amazon-athena` |
 | `kt:amazon-redshift` | `kt:amazon-athena` |
-| `kt:amazon-s3` | `kt:amazon-athena` |
+| `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloudtrail` | `kt:amazon-bedrock` |
 | `kt:aws-glue` | `kt:amazon-athena` |
+| `kt:aws-iam` | `kt:amazon-s3` |
 | `kt:aws-lake-formation` | `kt:amazon-athena` |
 | `kt:aws-lambda` | `kt:amazon-athena` |
-| `kt:data-lake-on-aws` | `kt:amazon-athena` |
+| `kt:aws-regions` | `kt:amazon-s3` |
+| `kt:aws-storage-services` | `kt:amazon-s3` |
+| `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:service-control-policies` | `kt:amazon-bedrock` |

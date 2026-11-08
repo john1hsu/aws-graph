@@ -45,6 +45,33 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon S3" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS S3" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2004/02/skos/core#altLabel> "S3" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-storage-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2004/02/skos/core#definition> "AWS's regional object storage service for storing and retrieving any amount of data as objects in buckets, with strong read-after-write consistency, multiple storage classes, and specialised bucket types for low-latency, tabular (Apache Iceberg) and vector data." .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon S3" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/s3-storage-classes> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-efs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified AI Practitioner" .
@@ -127,6 +154,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://purl.org/dc/terms/title> "Amazon S3 FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <https://schema.org/url> "https://aws.amazon.com/s3/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s2> <http://purl.org/dc/terms/title> "What is Amazon S3? - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s3> <http://purl.org/dc/terms/title> "Amazon Simple Storage Service endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s3> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/s3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s4> <http://purl.org/dc/terms/title> "Amazon S3 Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s4> <https://schema.org/url> "https://aws.amazon.com/s3/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s5> <http://purl.org/dc/terms/title> "Amazon S3 increases the maximum object size to 50 TB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-maximum-object-size-50-tb/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s6> <http://purl.org/dc/terms/title> "Best practices design patterns: optimizing Amazon S3 performance" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s7> <http://purl.org/dc/terms/title> "Top announcements of AWS re:Invent 2025" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2025/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://purl.org/dc/terms/title> "AWS Certified AI Practitioner (AIF-C01) - Exam Guide" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
