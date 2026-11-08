@@ -13,7 +13,7 @@ AWS has no named releases, so freshness is by date. Every article you write or r
 
 ## 2. Pick the topic (graph-driven)
 Use the current UTC hour:
-- **Even hour → depth.** Take the highest-ranked node in `graph/frontier.md` (referenced by the most articles but not yet written) that fits a domain in `topics/seeds.yaml`. This turns dangling edges into real nodes.
+- **Even hour → depth.** Take the highest-ranked node in `graph/frontier.md` (referenced by the most articles but not yet written) that fits a domain in `topics/seeds.yaml`, **skipping any node that would belong to the domain with the most articles** (see `graph/stats.md`; on a tie for most, skip all tied domains). This turns dangling edges into real nodes without letting one domain's dense cross-links snowball into a lopsided graph.
 - **Odd hour → refresh first, then breadth.** Run `python3 scripts/kg.py stale --since <re:Invent cut-off>`. If it lists any stale article, refresh exactly the articles in its **Refresh batch for this run** per step 2a; that is this run's change. The batch size adapts so the backlog clears within about two weeks (1–4 per run) and pairs the stalest article with linked or same-domain articles so research overlaps. If it prints a WARNING that the backlog won't clear at the cap, still refresh the batch and mention the warning in the commit body. Only if nothing is stale, do breadth: take the domain in `topics/seeds.yaml` with the fewest articles (ties: alphabetical, skipping the domain of the most recent commit) and pick an unwritten seed topic, or another important topic in that domain.
 - If the frontier is empty or no frontier node fits, do an odd-hour run (refresh first, then breadth).
 
