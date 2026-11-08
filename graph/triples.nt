@@ -68,6 +68,32 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
 <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon CloudWatch" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS CloudWatch" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/2004/02/skos/core#altLabel> "CloudWatch" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/2004/02/skos/core#definition> "AWS's monitoring and observability service: it collects metrics, logs and traces from AWS resources and applications, evaluates them with alarms, visualizes them on dashboards, and adds application-performance, infrastructure and network monitoring on top." .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon CloudWatch" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/cloudwatch-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2" .
@@ -283,6 +309,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudfront/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/edge-functions-choosing.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s1> <http://purl.org/dc/terms/title> "What is Amazon CloudWatch?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s2> <http://purl.org/dc/terms/title> "Amazon CloudWatch pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s2> <https://schema.org/url> "https://aws.amazon.com/cloudwatch/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s3> <http://purl.org/dc/terms/title> "GetMetricData - Amazon CloudWatch API Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s3> <https://schema.org/url> "https://docs.aws.amazon.com/goto/WebAPI/monitoring/GetMetricData" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s4> <http://purl.org/dc/terms/title> "CloudWatch service quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s5> <http://purl.org/dc/terms/title> "New – High-Resolution Custom Metrics and Alarms for Amazon CloudWatch" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/new-high-resolution-custom-metrics-and-alarms-for-amazon-cloudwatch/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s6> <http://purl.org/dc/terms/title> "Amazon CloudWatch Omni: AI-first observability for agents and applications" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2/s1> <http://purl.org/dc/terms/title> "What is Amazon EC2? - Amazon Elastic Compute Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

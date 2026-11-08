@@ -67,6 +67,29 @@
     ]
   },
   {
+    "id": "kt:amazon-cloudwatch",
+    "title": "Amazon CloudWatch",
+    "aliases": [
+      "CloudWatch",
+      "AWS CloudWatch"
+    ],
+    "type": "Service",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/amazon-cloudwatch.md",
+    "created": "2026-11-08",
+    "verified": "2026-11-08",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.md",
+      "https://aws.amazon.com/cloudwatch/pricing/",
+      "https://docs.aws.amazon.com/goto/WebAPI/monitoring/GetMetricData",
+      "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_limits.html",
+      "https://aws.amazon.com/blogs/aws/new-high-resolution-custom-metrics-and-alarms-for-amazon-cloudwatch/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-ec2",
     "title": "Amazon EC2",
     "aliases": [

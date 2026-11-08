@@ -452,6 +452,104 @@
       ]
     },
     {
+      "@id": "kt:amazon-cloudwatch",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon CloudWatch",
+      "skos:definition": "AWS's monitoring and observability service: it collects metrics, logs and traces from AWS resources and applications, evaluates them with alarms, visualizes them on dashboards, and adds application-performance, infrastructure and network monitoring on top.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedOn": "2026-11-08",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon CloudWatch?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon CloudWatch pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/cloudwatch/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "GetMetricData - Amazon CloudWatch API Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/goto/WebAPI/monitoring/GetMetricData",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CloudWatch service quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "New – High-Resolution Custom Metrics and Alarms for Amazon CloudWatch",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/new-high-resolution-custom-metrics-and-alarms-for-amazon-cloudwatch/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/amazon-cloudwatch.md",
+      "skos:altLabel": [
+        "CloudWatch",
+        "AWS CloudWatch"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        },
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-config"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:cloudwatch-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-cloudfront",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon CloudFront",
