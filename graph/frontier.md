@@ -17,6 +17,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
+| `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework` |
 | `kt:aws-cloudtrail` | `kt:amazon-bedrock` |
 | `kt:aws-glue` | `kt:amazon-athena` |
 | `kt:aws-iam` | `kt:amazon-s3` |
@@ -24,5 +25,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-lambda` | `kt:amazon-athena` |
 | `kt:aws-regions` | `kt:amazon-s3` |
 | `kt:aws-storage-services` | `kt:amazon-s3` |
+| `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
+| `kt:cloud-architecture` | `kt:aws-well-architected-framework` |
+| `kt:disaster-recovery-strategies` | `kt:aws-well-architected-framework` |
+| `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework` |
+| `kt:reliability-pillar` | `kt:aws-well-architected-framework` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
+| `kt:security-pillar` | `kt:aws-well-architected-framework` |
 | `kt:service-control-policies` | `kt:amazon-bedrock` |

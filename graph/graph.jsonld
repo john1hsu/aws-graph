@@ -181,6 +181,88 @@
       ]
     },
     {
+      "@id": "kt:aws-well-architected-framework",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS Well-Architected Framework",
+      "skos:definition": "AWS's published set of architectural best practices and review questions, organized into six pillars (operational excellence, security, reliability, performance efficiency, cost optimization and sustainability), used to evaluate workloads and decide trade-offs.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedOn": "2026-11-08",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Definitions - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Well-Architected Tool FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/well-architected-tool/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Well-Architected Tool endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/wellarchitected.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom lenses for workloads in AWS WA Tool",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/userguide/lenses-custom.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "New Guidance in the Well-Architected Tool",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/04/new-guidance-well-architected-tool",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Architecting for AI excellence: AWS launches three Well-Architected Lenses at re:Invent 2025",
+          "dcterms:publisher": "Amazon Web Services (AWS Architecture Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/architecture/architecting-for-ai-excellence-aws-launches-three-well-architected-lenses-at-reinvent-2025",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/aws-well-architected-framework.md",
+      "skos:altLabel": [
+        "Well-Architected Framework",
+        "AWS Well-Architected"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:cloud-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-cloud-adoption-framework"
+        },
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:operational-excellence-pillar"
+        },
+        {
+          "@id": "kt:security-pillar"
+        },
+        {
+          "@id": "kt:reliability-pillar"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-well-architected-tool"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-ai-practitioner",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified AI Practitioner",

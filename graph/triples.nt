@@ -94,6 +94,29 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Well-Architected" .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/2004/02/skos/core#altLabel> "Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/cloud-architecture> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/2004/02/skos/core#definition> "AWS's published set of architectural best practices and review questions, organized into six pillars (operational excellence, security, reliability, performance efficiency, cost optimization and sustainability), used to evaluate workloads and decide trade-offs." .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/security-pillar> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-tool> .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://purl.org/dc/terms/title> "Amazon Athena FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
@@ -219,3 +242,33 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-revisions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <http://purl.org/dc/terms/title> "Definitions - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s2> <http://purl.org/dc/terms/title> "AWS Well-Architected Tool FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s2> <https://schema.org/url> "https://aws.amazon.com/well-architected-tool/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s3> <http://purl.org/dc/terms/title> "AWS Well-Architected Tool endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s3> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/wellarchitected.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s4> <http://purl.org/dc/terms/title> "Custom lenses for workloads in AWS WA Tool" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s4> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/userguide/lenses-custom.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s5> <http://purl.org/dc/terms/title> "New Guidance in the Well-Architected Tool" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/04/new-guidance-well-architected-tool" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Architecture Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s6> <http://purl.org/dc/terms/title> "Architecting for AI excellence: AWS launches three Well-Architected Lenses at re:Invent 2025" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/architecture/architecting-for-ai-excellence-aws-launches-three-well-architected-lenses-at-reinvent-2025" .

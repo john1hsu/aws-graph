@@ -89,5 +89,27 @@
       "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
       "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-revisions.html"
     ]
+  },
+  {
+    "id": "kt:aws-well-architected-framework",
+    "title": "AWS Well-Architected Framework",
+    "aliases": [
+      "Well-Architected Framework",
+      "AWS Well-Architected"
+    ],
+    "type": "Concept",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/aws-well-architected-framework.md",
+    "created": "2026-11-08",
+    "verified": "2026-11-08",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.md",
+      "https://aws.amazon.com/well-architected-tool/faqs/",
+      "https://docs.aws.amazon.com/general/latest/gr/wellarchitected.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/userguide/lenses-custom.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/04/new-guidance-well-architected-tool",
+      "https://aws.amazon.com/blogs/architecture/architecting-for-ai-excellence-aws-launches-three-well-architected-lenses-at-reinvent-2025"
+    ]
   }
 ]
