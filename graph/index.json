@@ -160,6 +160,31 @@
     ]
   },
   {
+    "id": "kt:amazon-ec2-auto-scaling",
+    "title": "Amazon EC2 Auto Scaling",
+    "aliases": [
+      "EC2 Auto Scaling",
+      "Auto Scaling groups",
+      "ASG"
+    ],
+    "type": "Service",
+    "domain": "compute",
+    "file": "articles/compute/amazon-ec2-auto-scaling.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html",
+      "https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scale-based-on-demand.html",
+      "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-quotas.html",
+      "https://aws.amazon.com/ec2/autoscaling/pricing/",
+      "https://aws.amazon.com/ec2/autoscaling/faqs/",
+      "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-warm-pools.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/ec2-auto-scaling-warm-pool-mixed-instances-policies/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/ec2-auto-scaling-synchronous-api-launch-instances/"
+    ]
+  },
+  {
     "id": "kt:amazon-ecs",
     "title": "Amazon Elastic Container Service",
     "aliases": [

@@ -670,6 +670,121 @@
       ]
     },
     {
+      "@id": "kt:amazon-ec2-auto-scaling",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon EC2 Auto Scaling",
+      "skos:definition": "The AWS service that keeps a fleet of EC2 instances (an Auto Scaling group) between a minimum and maximum size, replacing unhealthy instances and adding or removing capacity through dynamic, predictive, scheduled or manual scaling, at no charge beyond the resources it launches.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon EC2 Auto Scaling? - Amazon EC2 Auto Scaling",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Dynamic scaling for Amazon EC2 Auto Scaling",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scale-based-on-demand.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for Auto Scaling resources and groups - Amazon EC2 Auto Scaling",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EC2 Auto Scaling Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ec2/autoscaling/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EC2 Auto Scaling FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ec2/autoscaling/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Decrease latency for applications with long boot times using warm pools",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-warm-pools.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "EC2 Auto Scaling announces warm pool support for Auto Scaling groups that have mixed instances policies",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/ec2-auto-scaling-warm-pool-mixed-instances-policies/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "EC2 Auto Scaling now offers a synchronous API to launch instances inside an Auto Scaling group",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/ec2-auto-scaling-synchronous-api-launch-instances/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/compute/amazon-ec2-auto-scaling.md",
+      "skos:altLabel": [
+        "EC2 Auto Scaling",
+        "Auto Scaling groups",
+        "ASG"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compute-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:spot-instances"
+        },
+        {
+          "@id": "kt:aws-auto-scaling"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:savings-plans"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:ec2-auto-scaling-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-ec2",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon EC2",

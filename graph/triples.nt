@@ -144,6 +144,36 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 Auto Scaling" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/2004/02/skos/core#altLabel> "ASG" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/2004/02/skos/core#altLabel> "Auto Scaling groups" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 Auto Scaling" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compute-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/2004/02/skos/core#definition> "The AWS service that keeps a fleet of EC2 instances (an Auto Scaling group) between a minimum and maximum size, replacing unhealthy instances and adding or removing capacity through dynamic, predictive, scheduled or manual scaling, at no charge beyond the resources it launches." .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EC2 Auto Scaling" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <https://github.com/john1hsu/aws-graph/ontology#domain> "compute" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/ec2-auto-scaling-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2" .
@@ -791,6 +821,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb/s6> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-rdbms-dynamodb/overview.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s1> <http://purl.org/dc/terms/title> "What is Amazon EC2 Auto Scaling? - Amazon EC2 Auto Scaling" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s1> <https://schema.org/url> "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s2> <http://purl.org/dc/terms/title> "Dynamic scaling for Amazon EC2 Auto Scaling" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s2> <https://schema.org/url> "https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scale-based-on-demand.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s3> <http://purl.org/dc/terms/title> "Quotas for Auto Scaling resources and groups - Amazon EC2 Auto Scaling" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s3> <https://schema.org/url> "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s4> <http://purl.org/dc/terms/title> "Amazon EC2 Auto Scaling Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s4> <https://schema.org/url> "https://aws.amazon.com/ec2/autoscaling/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s5> <http://purl.org/dc/terms/title> "Amazon EC2 Auto Scaling FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s5> <https://schema.org/url> "https://aws.amazon.com/ec2/autoscaling/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s6> <http://purl.org/dc/terms/title> "Decrease latency for applications with long boot times using warm pools" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s6> <https://schema.org/url> "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-warm-pools.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s7> <http://purl.org/dc/terms/title> "EC2 Auto Scaling announces warm pool support for Auto Scaling groups that have mixed instances policies" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/ec2-auto-scaling-warm-pool-mixed-instances-policies/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s8> <http://purl.org/dc/terms/title> "EC2 Auto Scaling now offers a synchronous API to launch instances inside an Auto Scaling group" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-ec2-auto-scaling/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/ec2-auto-scaling-synchronous-api-launch-instances/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2/s1> <http://purl.org/dc/terms/title> "What is Amazon EC2? - Amazon Elastic Compute Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
