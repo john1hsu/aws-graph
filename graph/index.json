@@ -470,6 +470,28 @@
     ]
   },
   {
+    "id": "kt:disaster-recovery-strategies",
+    "title": "Disaster recovery strategies on AWS",
+    "aliases": [
+      "DR strategies",
+      "AWS disaster recovery strategies",
+      "backup and restore / pilot light / warm standby / multi-site active-active"
+    ],
+    "type": "Pattern",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/disaster-recovery-strategies.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_planning_for_recovery_disaster_recovery.html",
+      "https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iii-pilot-light-and-warm-standby",
+      "https://aws.amazon.com/disaster-recovery/faqs/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html"
+    ]
+  },
+  {
     "id": "kt:savings-plans",
     "title": "Savings Plans",
     "aliases": [

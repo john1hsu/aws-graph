@@ -448,6 +448,88 @@
       ]
     },
     {
+      "@id": "kt:disaster-recovery-strategies",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Disaster recovery strategies on AWS",
+      "skos:definition": "The four AWS-defined patterns for recovering a workload in another location after a disaster — backup and restore, pilot light, warm standby and multi-site active/active — which trade cost and complexity against recovery time (RTO) and recovery point (RPO) objectives.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL13-BP02 Use defined recovery strategies to meet the recovery objectives - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_planning_for_recovery_disaster_recovery.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Disaster Recovery (DR) Architecture on AWS, Part III: Pilot Light and Warm Standby",
+          "dcterms:publisher": "AWS Architecture Blog",
+          "schema:url": "https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iii-pilot-light-and-warm-standby",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Elastic Disaster Recovery FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/disaster-recovery/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Content Domain 2: Design Resilient Architectures - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/disaster-recovery-strategies.md",
+      "skos:altLabel": [
+        "DR strategies",
+        "AWS disaster recovery strategies",
+        "backup and restore / pilot light / warm standby / multi-site active-active"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:reliability-pillar"
+        },
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-regions"
+        },
+        {
+          "@id": "kt:aws-elastic-disaster-recovery"
+        },
+        {
+          "@id": "kt:aws-backup"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-route-53"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-ai-practitioner",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified AI Practitioner",
