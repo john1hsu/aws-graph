@@ -255,6 +255,29 @@
     ]
   },
   {
+    "id": "kt:aws-cdk",
+    "title": "AWS Cloud Development Kit (AWS CDK)",
+    "aliases": [
+      "AWS CDK",
+      "CDK",
+      "Cloud Development Kit"
+    ],
+    "type": "Service",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/aws-cdk.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/cdk/faqs/",
+      "https://docs.aws.amazon.com/en_us/cdk/v2/guide/constructs.html",
+      "https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping.html",
+      "https://docs.aws.amazon.com/cdk/v2/guide/deploy.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-cdk-refactor-preview",
+      "https://aws.amazon.com/blogs/opensource/aws-cdk-is-splitting-construct-library-and-cli/"
+    ]
+  },
+  {
     "id": "kt:aws-certified-ai-practitioner",
     "title": "AWS Certified AI Practitioner",
     "aliases": [

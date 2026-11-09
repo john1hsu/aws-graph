@@ -14,6 +14,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:spot-instances` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:savings-plans` |
 | `kt:amazon-api-gateway` | `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:amazon-bedrock-knowledge-bases` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock` |
+| `kt:amazon-ecr` | `kt:amazon-ecs`, `kt:aws-cdk` |
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:amazon-redshift` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:amazon-route-53` | `kt:disaster-recovery-strategies`, `kt:amazon-cloudfront` |
@@ -29,18 +30,21 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-kms` | `kt:amazon-dynamodb`, `kt:aws-cloudtrail` |
 | `kt:aws-lake-formation` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch`, `kt:aws-organizations` |
+| `kt:aws-sam` | `kt:aws-cdk`, `kt:aws-serverless-services` |
 | `kt:aws-security-services` | `kt:aws-iam`, `kt:aws-cloudtrail` |
 | `kt:aws-step-functions` | `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
+| `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation` |
+| `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:edge-locations` | `kt:aws-regions`, `kt:amazon-cloudfront` |
 | `kt:elastic-load-balancing` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2-auto-scaling` |
 | `kt:iam-identity-center` | `kt:aws-organizations`, `kt:aws-iam` |
+| `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:purpose-built-databases` | `kt:amazon-dynamodb`, `kt:amazon-rds` |
 | `kt:reliability-pillar` | `kt:aws-well-architected-framework`, `kt:disaster-recovery-strategies` |
 | `kt:reserved-instances` | `kt:aws-cost-explorer`, `kt:savings-plans` |
 | `kt:service-control-policies` | `kt:amazon-bedrock`, `kt:aws-organizations` |
 | `kt:amazon-aurora` | `kt:amazon-rds` |
-| `kt:amazon-ecr` | `kt:amazon-ecs` |
 | `kt:amazon-efs` | `kt:amazon-s3` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:amazon-vpc` | `kt:amazon-rds` |
@@ -48,7 +52,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-backup` | `kt:disaster-recovery-strategies` |
 | `kt:aws-budgets` | `kt:aws-cost-explorer` |
-| `kt:aws-cdk` | `kt:aws-cloudformation` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-cost-explorer` |
@@ -58,7 +61,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-migration-and-transfer-services` | `kt:aws-transform-mgn` |
 | `kt:aws-networking-and-content-delivery` | `kt:amazon-cloudfront` |
 | `kt:aws-pricing-fundamentals` | `kt:savings-plans` |
-| `kt:aws-sam` | `kt:aws-serverless-services` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us` |
 | `kt:aws-storage-services` | `kt:amazon-s3` |
 | `kt:aws-sts` | `kt:aws-iam` |
@@ -66,8 +68,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-transform` | `kt:aws-transform-mgn` |
 | `kt:aws-waf` | `kt:amazon-cloudfront` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
-| `kt:cloudformation-drift-detection` | `kt:aws-cloudformation` |
-| `kt:cloudformation-quotas` | `kt:aws-cloudformation` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
 | `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
 | `kt:cloudtrail-quotas` | `kt:aws-cloudtrail` |
@@ -88,7 +88,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:glue-quotas` | `kt:aws-glue` |
 | `kt:iam-policy-evaluation-logic` | `kt:aws-iam` |
 | `kt:iam-quotas` | `kt:aws-iam` |
-| `kt:infrastructure-as-code` | `kt:aws-cloudformation` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |

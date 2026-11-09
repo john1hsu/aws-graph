@@ -281,6 +281,32 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cloud Development Kit (AWS CDK)" .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS CDK" .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/2004/02/skos/core#altLabel> "CDK" .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/2004/02/skos/core#altLabel> "Cloud Development Kit" .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/2004/02/skos/core#definition> "An open-source infrastructure-as-code framework that lets you define AWS infrastructure in general-purpose programming languages, synthesizes it into CloudFormation templates and deploys it through AWS CloudFormation." .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Cloud Development Kit (AWS CDK)" .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-sam> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ecr> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-cdk> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified AI Practitioner" .
@@ -1135,6 +1161,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2025/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <http://purl.org/dc/terms/title> "AWS Cloud Development Kit FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <https://schema.org/url> "https://aws.amazon.com/cdk/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s2> <http://purl.org/dc/terms/title> "AWS CDK Constructs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s2> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/cdk/v2/guide/constructs.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s3> <http://purl.org/dc/terms/title> "AWS CDK bootstrapping" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s3> <https://schema.org/url> "https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s4> <http://purl.org/dc/terms/title> "Deploy AWS CDK applications" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s4> <https://schema.org/url> "https://docs.aws.amazon.com/cdk/v2/guide/deploy.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s5> <http://purl.org/dc/terms/title> "Introducing AWS CDK Refactor (Preview)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-cdk-refactor-preview" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Open Source Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s6> <http://purl.org/dc/terms/title> "AWS CDK is splitting Construct Library and CLI" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/opensource/aws-cdk-is-splitting-construct-library-and-cli/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://purl.org/dc/terms/title> "AWS Certified AI Practitioner (AIF-C01) - Exam Guide" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

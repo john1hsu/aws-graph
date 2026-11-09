@@ -1481,6 +1481,101 @@
       ]
     },
     {
+      "@id": "kt:aws-cdk",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Cloud Development Kit (AWS CDK)",
+      "skos:definition": "An open-source infrastructure-as-code framework that lets you define AWS infrastructure in general-purpose programming languages, synthesizes it into CloudFormation templates and deploys it through AWS CloudFormation.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Cloud Development Kit FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/cdk/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CDK Constructs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/cdk/v2/guide/constructs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CDK bootstrapping",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deploy AWS CDK applications",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cdk/v2/guide/deploy.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing AWS CDK Refactor (Preview)",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-cdk-refactor-preview",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS CDK is splitting Construct Library and CLI",
+          "dcterms:publisher": "Amazon Web Services (AWS Open Source Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/opensource/aws-cdk-is-splitting-construct-library-and-cli/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/aws-cdk.md",
+      "skos:altLabel": [
+        "AWS CDK",
+        "CDK",
+        "Cloud Development Kit"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:infrastructure-as-code"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-sam"
+        },
+        {
+          "@id": "kt:cloudformation-drift-detection"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:amazon-ecr"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:cloudformation-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cloudformation",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS CloudFormation",
