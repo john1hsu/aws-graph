@@ -254,6 +254,31 @@
     ]
   },
   {
+    "id": "kt:aws-govcloud-us",
+    "title": "AWS GovCloud (US)",
+    "aliases": [
+      "GovCloud",
+      "AWS GovCloud",
+      "AWS GovCloud (US) Regions",
+      "GovCloud (US-West)",
+      "GovCloud (US-East)"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/aws-govcloud-us.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/whatis.html",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-differences.html",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-itar.md",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-compliance.md",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://docs.aws.amazon.com/organizations/latest/APIReference/API_CreateGovCloudAccount.html"
+    ]
+  },
+  {
     "id": "kt:aws-iam",
     "title": "AWS Identity and Access Management",
     "aliases": [
