@@ -376,6 +376,34 @@
 <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Fargate" .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon ECS on Fargate" .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2004/02/skos/core#altLabel> "EKS on Fargate" .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2004/02/skos/core#altLabel> "Fargate" .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-container-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2004/02/skos/core#definition> "AWS's serverless compute engine for containers: it runs Amazon ECS tasks and Amazon EKS pods in their own isolated environments, sized and billed by requested vCPU and memory, so you never provision or patch the underlying servers." .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Fargate" .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/fargate-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-glue> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Glue" .
@@ -1151,6 +1179,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://purl.org/dc/terms/title> "Architect for AWS Fargate for Amazon ECS" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s2> <http://purl.org/dc/terms/title> "Amazon ECS task definition differences for Fargate" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/fargate-tasks-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s3> <http://purl.org/dc/terms/title> "AWS Fargate Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s3> <https://schema.org/url> "https://aws.amazon.com/fargate/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s4> <http://purl.org/dc/terms/title> "Simplify compute management with AWS Fargate - Amazon EKS" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s4> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/fargate.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s5> <http://purl.org/dc/terms/title> "Amazon ECS endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s5> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/ecs-service.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s6> <http://purl.org/dc/terms/title> "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s7> <http://purl.org/dc/terms/title> "Amazon ECS now supports tmpfs mounts on AWS Fargate and ECS Managed Instances" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-tmpfs-mounts-aws-fargate-managed-instances" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <http://purl.org/dc/terms/title> "What is AWS Glue? - AWS Glue" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

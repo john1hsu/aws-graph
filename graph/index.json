@@ -344,6 +344,30 @@
     ]
   },
   {
+    "id": "kt:aws-fargate",
+    "title": "AWS Fargate",
+    "aliases": [
+      "Fargate",
+      "Amazon ECS on Fargate",
+      "EKS on Fargate"
+    ],
+    "type": "Service",
+    "domain": "containers",
+    "file": "articles/containers/aws-fargate.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.md",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/fargate-tasks-services.html",
+      "https://aws.amazon.com/fargate/pricing/",
+      "https://docs.aws.amazon.com/eks/latest/userguide/fargate.html",
+      "https://docs.aws.amazon.com/general/latest/gr/ecs-service.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-tmpfs-mounts-aws-fargate-managed-instances"
+    ]
+  },
+  {
     "id": "kt:aws-glue",
     "title": "AWS Glue",
     "aliases": [

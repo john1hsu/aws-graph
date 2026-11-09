@@ -993,6 +993,110 @@
       ]
     },
     {
+      "@id": "kt:aws-fargate",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Fargate",
+      "skos:definition": "AWS's serverless compute engine for containers: it runs Amazon ECS tasks and Amazon EKS pods in their own isolated environments, sized and billed by requested vCPU and memory, so you never provision or patch the underlying servers.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Architect for AWS Fargate for Amazon ECS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS task definition differences for Fargate",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/fargate-tasks-services.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Fargate Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/fargate/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Simplify compute management with AWS Fargate - Amazon EKS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/fargate.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/ecs-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECS now supports tmpfs mounts on AWS Fargate and ECS Managed Instances",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-tmpfs-mounts-aws-fargate-managed-instances",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/containers/aws-fargate.md",
+      "skos:altLabel": [
+        "Fargate",
+        "Amazon ECS on Fargate",
+        "EKS on Fargate"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-container-services"
+        },
+        {
+          "@id": "kt:aws-serverless-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:savings-plans"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:fargate-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cost-explorer",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Cost Explorer",
