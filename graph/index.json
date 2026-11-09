@@ -228,6 +228,32 @@
     ]
   },
   {
+    "id": "kt:aws-iam",
+    "title": "AWS Identity and Access Management",
+    "aliases": [
+      "IAM",
+      "AWS IAM"
+    ],
+    "type": "Service",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/aws-iam.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_EvaluationLogic.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html",
+      "https://docs.aws.amazon.com/general/latest/gr/iam-service.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/IAMBestPractices.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec_identities_unique.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iam-increased-quotas/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/01/additional-policy-details-access-denied-error",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-lambda",
     "title": "AWS Lambda",
     "aliases": [
