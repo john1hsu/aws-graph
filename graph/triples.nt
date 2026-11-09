@@ -565,6 +565,31 @@
 <https://github.com/john1hsu/aws-graph/id/aws-iam> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
 <https://github.com/john1hsu/aws-graph/id/aws-iam> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-iam> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Key Management Service" .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS KMS" .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/2004/02/skos/core#altLabel> "KMS" .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed service for creating and controlling the cryptographic keys that encrypt and sign data, with keys held in FIPS 140-3 Security Level 3 validated HSMs, envelope encryption through data keys, and native integration with most AWS storage and database services." .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Key Management Service" .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-kms/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-kms/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-kms/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-kms/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-kms/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-kms/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/kms-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-kms> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Lambda" .
@@ -1574,6 +1599,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-iam/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-iam/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-iam/s9> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s1> <http://purl.org/dc/terms/title> "AWS Key Management Service (overview)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s1> <https://schema.org/url> "https://docs.aws.amazon.com/kms/latest/developerguide/overview" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s2> <http://purl.org/dc/terms/title> "AWS Key Management Service FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s2> <https://schema.org/url> "https://aws.amazon.com/kms/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s3> <http://purl.org/dc/terms/title> "AWS Key Management Service pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s3> <https://schema.org/url> "https://aws.amazon.com/kms/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s4> <http://purl.org/dc/terms/title> "Request quotas - AWS Key Management Service" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s4> <https://schema.org/url> "https://docs.aws.amazon.com/kms/latest/developerguide/requests-per-second.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s5> <http://purl.org/dc/terms/title> "How multi-Region keys work - AWS Key Management Service" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s5> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/kms/latest/developerguide/mrk-how-it-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s6> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-kms/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s1> <http://purl.org/dc/terms/title> "What is AWS Lambda?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

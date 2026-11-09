@@ -510,6 +510,28 @@
     ]
   },
   {
+    "id": "kt:aws-kms",
+    "title": "AWS Key Management Service",
+    "aliases": [
+      "AWS KMS",
+      "KMS"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/aws-kms.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/kms/latest/developerguide/overview",
+      "https://aws.amazon.com/kms/faqs/",
+      "https://aws.amazon.com/kms/pricing/",
+      "https://docs.aws.amazon.com/kms/latest/developerguide/requests-per-second.html",
+      "https://docs.aws.amazon.com/en_us/kms/latest/developerguide/mrk-how-it-works.html",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-lambda",
     "title": "AWS Lambda",
     "aliases": [

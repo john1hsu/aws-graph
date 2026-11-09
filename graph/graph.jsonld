@@ -2792,6 +2792,102 @@
       ]
     },
     {
+      "@id": "kt:aws-kms",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Key Management Service",
+      "skos:definition": "AWS's managed service for creating and controlling the cryptographic keys that encrypt and sign data, with keys held in FIPS 140-3 Security Level 3 validated HSMs, envelope encryption through data keys, and native integration with most AWS storage and database services.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Key Management Service (overview)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/kms/latest/developerguide/overview",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Key Management Service FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/kms/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Key Management Service pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/kms/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Request quotas - AWS Key Management Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/kms/latest/developerguide/requests-per-second.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How multi-Region keys work - AWS Key Management Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/kms/latest/developerguide/mrk-how-it-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security/aws-kms.md",
+      "skos:altLabel": [
+        "AWS KMS",
+        "KMS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:aws-secrets-manager"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-cloudhsm"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:kms-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-lambda",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Lambda",

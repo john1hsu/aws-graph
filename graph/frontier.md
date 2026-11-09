@@ -6,11 +6,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:amazon-eks` | `kt:aws-glue`, `kt:amazon-ecs`, `kt:aws-fargate`, `kt:aws-fargate` |
 | `kt:aws-certified-solutions-architect-associate` | `kt:disaster-recovery-strategies`, `kt:aws-certified-cloud-practitioner`, `kt:aws-iam`, `kt:iam-identity-center` |
+| `kt:aws-security-services` | `kt:aws-iam`, `kt:iam-identity-center`, `kt:aws-cloudtrail`, `kt:aws-kms` |
 | `kt:amazon-eventbridge` | `kt:aws-transform-mgn`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-lambda` |
 | `kt:aws-global-infrastructure` | `kt:aws-partitions`, `kt:aws-regions`, `kt:aws-govcloud-us` |
-| `kt:aws-kms` | `kt:amazon-dynamodb`, `kt:iam-identity-center`, `kt:aws-cloudtrail` |
-| `kt:aws-security-services` | `kt:aws-iam`, `kt:iam-identity-center`, `kt:aws-cloudtrail` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:elastic-load-balancing` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2-auto-scaling`, `kt:amazon-route-53` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
@@ -52,6 +51,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-backup` | `kt:disaster-recovery-strategies` |
 | `kt:aws-budgets` | `kt:aws-cost-explorer` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
+| `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-cost-explorer` |
 | `kt:aws-cost-management-services` | `kt:aws-cost-explorer` |
@@ -60,6 +60,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-migration-and-transfer-services` | `kt:aws-transform-mgn` |
 | `kt:aws-pricing-fundamentals` | `kt:savings-plans` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us` |
+| `kt:aws-secrets-manager` | `kt:aws-kms` |
 | `kt:aws-storage-services` | `kt:amazon-s3` |
 | `kt:aws-sts` | `kt:aws-iam` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
@@ -88,6 +89,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:iam-policy-evaluation-logic` | `kt:aws-iam` |
 | `kt:iam-quotas` | `kt:aws-iam` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |
+| `kt:kms-quotas` | `kt:aws-kms` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:multi-account-strategy` | `kt:aws-organizations` |
