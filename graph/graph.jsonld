@@ -2193,6 +2193,120 @@
       ]
     },
     {
+      "@id": "kt:iam-identity-center",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS IAM Identity Center",
+      "skos:definition": "AWS's workforce identity service (formerly AWS Single Sign-On) that connects an existing identity provider or its own user directory to AWS managed applications and, from an organization instance, to AWS accounts across AWS Organizations through permission sets and the AWS access portal.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is IAM Identity Center? - AWS IAM Identity Center",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Organization and account instances of IAM Identity Center - AWS IAM Identity Center",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/singlesignon/latest/userguide/identity-center-instances.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create, manage, and delete permission sets - AWS IAM Identity Center",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/singlesignon/latest/userguide/permissionsets.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and limits in IAM Identity Center",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/singlesignon/latest/userguide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS IAM Identity Center enables account access and application use in multiple AWS Regions (What's New with AWS, 2026-02-03)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-identity-center-multi-region-aws-account-access-and-application-deployment",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS IAM Identity Center now supports separate quotas for AWS accounts and applications (What's New with AWS, 2026-06-22)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-identity-center-separate-quotas/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS IAM Identity Center makes management of AWS account access optional for new organization instances (What's New with AWS, 2026-08-05)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-identity-center-accounts-optional/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03) exam guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02) exam guide (French edition)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/iam-identity-center.md",
+      "skos:altLabel": [
+        "IAM Identity Center",
+        "AWS Single Sign-On",
+        "AWS SSO",
+        "Identity Center"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:iam-identity-center-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        },
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-transform-mgn",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Transform MGN",

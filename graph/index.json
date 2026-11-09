@@ -704,6 +704,33 @@
     ]
   },
   {
+    "id": "kt:iam-identity-center",
+    "title": "AWS IAM Identity Center",
+    "aliases": [
+      "IAM Identity Center",
+      "AWS Single Sign-On",
+      "AWS SSO",
+      "Identity Center"
+    ],
+    "type": "Service",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/iam-identity-center.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.md",
+      "https://docs.aws.amazon.com/singlesignon/latest/userguide/identity-center-instances.html",
+      "https://docs.aws.amazon.com/singlesignon/latest/userguide/permissionsets.md",
+      "https://docs.aws.amazon.com/singlesignon/latest/userguide/limits.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-identity-center-multi-region-aws-account-access-and-application-deployment",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-identity-center-separate-quotas/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-identity-center-accounts-optional/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:savings-plans",
     "title": "Savings Plans",
     "aliases": [

@@ -5,10 +5,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:amazon-eks` | `kt:aws-glue`, `kt:amazon-ecs`, `kt:aws-fargate`, `kt:aws-fargate` |
+| `kt:aws-certified-solutions-architect-associate` | `kt:disaster-recovery-strategies`, `kt:aws-certified-cloud-practitioner`, `kt:aws-iam`, `kt:iam-identity-center` |
 | `kt:amazon-eventbridge` | `kt:aws-transform-mgn`, `kt:aws-lambda`, `kt:aws-serverless-services` |
-| `kt:aws-certified-solutions-architect-associate` | `kt:disaster-recovery-strategies`, `kt:aws-certified-cloud-practitioner`, `kt:aws-iam` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-lambda` |
 | `kt:aws-global-infrastructure` | `kt:aws-partitions`, `kt:aws-regions`, `kt:aws-govcloud-us` |
+| `kt:aws-kms` | `kt:amazon-dynamodb`, `kt:iam-identity-center`, `kt:aws-cloudtrail` |
+| `kt:aws-security-services` | `kt:aws-iam`, `kt:iam-identity-center`, `kt:aws-cloudtrail` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:elastic-load-balancing` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2-auto-scaling`, `kt:amazon-route-53` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
@@ -27,18 +29,15 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-container-services` | `kt:amazon-ecs`, `kt:aws-fargate` |
 | `kt:aws-control-tower` | `kt:aws-cloudformation`, `kt:aws-organizations` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
-| `kt:aws-kms` | `kt:amazon-dynamodb`, `kt:aws-cloudtrail` |
 | `kt:aws-lake-formation` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch`, `kt:aws-organizations` |
 | `kt:aws-networking-and-content-delivery` | `kt:amazon-cloudfront`, `kt:amazon-route-53` |
 | `kt:aws-sam` | `kt:aws-cdk`, `kt:aws-serverless-services` |
-| `kt:aws-security-services` | `kt:aws-iam`, `kt:aws-cloudtrail` |
 | `kt:aws-step-functions` | `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:edge-locations` | `kt:aws-regions`, `kt:amazon-cloudfront` |
-| `kt:iam-identity-center` | `kt:aws-organizations`, `kt:aws-iam` |
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:purpose-built-databases` | `kt:amazon-dynamodb`, `kt:amazon-rds` |
 | `kt:reliability-pillar` | `kt:aws-well-architected-framework`, `kt:disaster-recovery-strategies` |
@@ -85,6 +84,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:fargate-quotas` | `kt:aws-fargate` |
 | `kt:fedramp-on-aws` | `kt:aws-govcloud-us` |
 | `kt:glue-quotas` | `kt:aws-glue` |
+| `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
 | `kt:iam-policy-evaluation-logic` | `kt:aws-iam` |
 | `kt:iam-quotas` | `kt:aws-iam` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |
