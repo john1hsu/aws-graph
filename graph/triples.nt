@@ -550,6 +550,33 @@
 <https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS partitions" .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2004/02/skos/core#altLabel> "ARN partition" .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS partition" .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2004/02/skos/core#altLabel> "aws-cn partition" .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2004/02/skos/core#altLabel> "aws-eusc partition" .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2004/02/skos/core#altLabel> "aws-us-gov partition" .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2004/02/skos/core#altLabel> "partition (AWS)" .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2004/02/skos/core#definition> "A partition is a group of AWS Regions with its own independent IAM instance, accounts and control plane; every Region and every account belongs to exactly one partition (aws, aws-cn, aws-us-gov, aws-eusc), and partitions form a hard boundary that credentials and most cross-Region features cannot cross." .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS partitions" .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-partitions> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Regions" .
@@ -1404,6 +1431,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s1> <http://purl.org/dc/terms/title> "Partitions - AWS Fault Isolation Boundaries (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/partitions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s2> <http://purl.org/dc/terms/title> "Identify AWS resources with Amazon Resource Names (ARNs) - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s2> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference-arns" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s3> <http://purl.org/dc/terms/title> "Get AWS values using pseudo parameters - AWS CloudFormation" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s4> <http://purl.org/dc/terms/title> "AWS Standard Account Linking - AWS GovCloud (US) User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s4> <https://schema.org/url> "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/getting-started-standard-account-linking.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s5> <http://purl.org/dc/terms/title> "Accounts and credentials - Getting Started with Amazon Web Services in China" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s5> <https://schema.org/url> "https://docs.amazonaws.cn/en_us/aws/latest/userguide/accounts-and-credentials.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Security Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s6> <http://purl.org/dc/terms/title> "Architecting a secure landing zone in the AWS European Sovereign Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/security/architecting-a-secure-landing-zone-in-the-aws-european-sovereign-cloud/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <http://purl.org/dc/terms/title> "AWS Regions - AWS Regions and Availability Zones" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

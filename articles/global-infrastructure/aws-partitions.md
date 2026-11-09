@@ -65,10 +65,10 @@ A partition is AWS's largest isolation boundary: a named group of Regions. Every
 
 AWS's documentation names these partitions and their identifiers:[^s1][^s2][^s3][^s6]
 
-- `aws` — the standard commercial Regions.
-- `aws-cn` — the China (Beijing) and China (Ningxia) Regions.
-- `aws-us-gov` — the AWS GovCloud (US) Regions.
-- `aws-eusc` — the AWS European Sovereign Cloud, whose first Region is `eusc-de-east-1` in Brandenburg, Germany, and which AWS describes as physically and logically separate from existing Regions.
+- `aws` — the standard commercial Regions.[^s2][^s3]
+- `aws-cn` — the China (Beijing) and China (Ningxia) Regions.[^s3]
+- `aws-us-gov` — the AWS GovCloud (US) Regions.[^s1][^s2]
+- `aws-eusc` — the AWS European Sovereign Cloud, whose first Region is `eusc-de-east-1` in Brandenburg, Germany, and which AWS describes as physically and logically separate from existing Regions.[^s6]
 
 CloudFormation's documentation adds that resources in any other partition follow the `aws-partitionname` naming pattern, so code should not assume the list above is closed.[^s3]
 

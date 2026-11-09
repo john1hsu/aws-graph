@@ -490,6 +490,32 @@
     ]
   },
   {
+    "id": "kt:aws-partitions",
+    "title": "AWS partitions",
+    "aliases": [
+      "AWS partition",
+      "partition (AWS)",
+      "ARN partition",
+      "aws-cn partition",
+      "aws-us-gov partition",
+      "aws-eusc partition"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/aws-partitions.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/partitions.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference-arns",
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/getting-started-standard-account-linking.html",
+      "https://docs.amazonaws.cn/en_us/aws/latest/userguide/accounts-and-credentials.html",
+      "https://aws.amazon.com/blogs/security/architecting-a-secure-landing-zone-in-the-aws-european-sovereign-cloud/"
+    ]
+  },
+  {
     "id": "kt:aws-regions",
     "title": "AWS Regions",
     "aliases": [

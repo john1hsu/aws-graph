@@ -1498,6 +1498,90 @@
       ]
     },
     {
+      "@id": "kt:aws-partitions",
+      "@type": "kto:InfrastructureConcept",
+      "skos:prefLabel": "AWS partitions",
+      "skos:definition": "A partition is a group of AWS Regions with its own independent IAM instance, accounts and control plane; every Region and every account belongs to exactly one partition (aws, aws-cn, aws-us-gov, aws-eusc), and partitions form a hard boundary that credentials and most cross-Region features cannot cross.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Partitions - AWS Fault Isolation Boundaries (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/partitions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Identify AWS resources with Amazon Resource Names (ARNs) - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference-arns",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get AWS values using pseudo parameters - AWS CloudFormation",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Standard Account Linking - AWS GovCloud (US) User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/getting-started-standard-account-linking.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Accounts and credentials - Getting Started with Amazon Web Services in China",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.amazonaws.cn/en_us/aws/latest/userguide/accounts-and-credentials.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Architecting a secure landing zone in the AWS European Sovereign Cloud",
+          "dcterms:publisher": "Amazon Web Services (AWS Security Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/security/architecting-a-secure-landing-zone-in-the-aws-european-sovereign-cloud/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/aws-partitions.md",
+      "skos:altLabel": [
+        "AWS partition",
+        "partition (AWS)",
+        "ARN partition",
+        "aws-cn partition",
+        "aws-us-gov partition",
+        "aws-eusc partition"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-regions"
+        },
+        {
+          "@id": "kt:aws-govcloud-us"
+        },
+        {
+          "@id": "kt:aws-european-sovereign-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-regions",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS Regions",
