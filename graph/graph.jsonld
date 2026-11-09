@@ -2405,6 +2405,88 @@
       ]
     },
     {
+      "@id": "kt:amazon-route-53",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Route 53",
+      "skos:definition": "AWS's managed DNS service: authoritative DNS hosting in public and private hosted zones with routing policies (weighted, latency, failover, geolocation and more), health checks, domain registration, and resolver services for VPC and hybrid DNS.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Choosing a routing policy - Amazon Route 53",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing between alias and non-alias records - Amazon Route 53",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas - Amazon Route 53",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/DNSLimitations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Route 53 pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/route53/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing Amazon Route 53 accelerated recovery for managing public DNS records",
+          "dcterms:publisher": "AWS Networking & Content Delivery Blog",
+          "schema:url": "https://aws.amazon.com/blogs/networking-and-content-delivery/announcing-amazon-route-53-accelerated-recovery-for-managing-public-dns-records",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Route 53 Global Resolver is now generally available",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-route-53-global-resolver",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/amazon-route-53.md",
+      "skos:altLabel": [
+        "Route 53",
+        "Route53",
+        "AWS Route 53"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-cloudfront"
+        },
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:route-53-resolver"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:route-53-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-govcloud-us",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS GovCloud (US)",

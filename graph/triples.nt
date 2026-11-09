@@ -254,6 +254,29 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Route 53" .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Route 53" .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/2004/02/skos/core#altLabel> "Route 53" .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/2004/02/skos/core#altLabel> "Route53" .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed DNS service: authoritative DNS hosting in public and private hosted zones with routing policies (weighted, latency, failover, geolocation and more), health checks, domain registration, and resolver services for VPC and hybrid DNS." .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Route 53" .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/route-53-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/route-53-resolver> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-route-53> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon S3" .
@@ -1126,6 +1149,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s1> <http://purl.org/dc/terms/title> "Choosing a routing policy - Amazon Route 53" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s1> <https://schema.org/url> "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s2> <http://purl.org/dc/terms/title> "Choosing between alias and non-alias records - Amazon Route 53" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s2> <https://schema.org/url> "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s3> <http://purl.org/dc/terms/title> "Quotas - Amazon Route 53" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s3> <https://schema.org/url> "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/DNSLimitations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s4> <http://purl.org/dc/terms/title> "Amazon Route 53 pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s4> <https://schema.org/url> "https://aws.amazon.com/route53/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s5> <http://purl.org/dc/terms/publisher> "AWS Networking & Content Delivery Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s5> <http://purl.org/dc/terms/title> "Announcing Amazon Route 53 accelerated recovery for managing public DNS records" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/networking-and-content-delivery/announcing-amazon-route-53-accelerated-recovery-for-managing-public-dns-records" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s6> <http://purl.org/dc/terms/title> "Amazon Route 53 Global Resolver is now generally available" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-route-53-global-resolver" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://purl.org/dc/terms/title> "Amazon S3 FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

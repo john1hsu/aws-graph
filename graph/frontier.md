@@ -10,6 +10,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-lambda` |
 | `kt:aws-global-infrastructure` | `kt:aws-partitions`, `kt:aws-regions`, `kt:aws-govcloud-us` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:aws-glue`, `kt:amazon-s3` |
+| `kt:elastic-load-balancing` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2-auto-scaling`, `kt:amazon-route-53` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:spot-instances` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:savings-plans` |
 | `kt:amazon-api-gateway` | `kt:aws-lambda`, `kt:aws-serverless-services` |
@@ -17,7 +18,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-ecr` | `kt:amazon-ecs`, `kt:aws-cdk` |
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:amazon-redshift` | `kt:amazon-athena`, `kt:aws-glue` |
-| `kt:amazon-route-53` | `kt:disaster-recovery-strategies`, `kt:amazon-cloudfront` |
 | `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-sqs` | `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:availability-zones` | `kt:amazon-rds`, `kt:aws-regions` |
@@ -30,6 +30,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-kms` | `kt:amazon-dynamodb`, `kt:aws-cloudtrail` |
 | `kt:aws-lake-formation` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch`, `kt:aws-organizations` |
+| `kt:aws-networking-and-content-delivery` | `kt:amazon-cloudfront`, `kt:amazon-route-53` |
 | `kt:aws-sam` | `kt:aws-cdk`, `kt:aws-serverless-services` |
 | `kt:aws-security-services` | `kt:aws-iam`, `kt:aws-cloudtrail` |
 | `kt:aws-step-functions` | `kt:aws-lambda`, `kt:aws-serverless-services` |
@@ -37,7 +38,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:edge-locations` | `kt:aws-regions`, `kt:amazon-cloudfront` |
-| `kt:elastic-load-balancing` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2-auto-scaling` |
 | `kt:iam-identity-center` | `kt:aws-organizations`, `kt:aws-iam` |
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:purpose-built-databases` | `kt:amazon-dynamodb`, `kt:amazon-rds` |
@@ -59,7 +59,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-database-migration-service` | `kt:aws-transform-mgn` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions` |
 | `kt:aws-migration-and-transfer-services` | `kt:aws-transform-mgn` |
-| `kt:aws-networking-and-content-delivery` | `kt:amazon-cloudfront` |
 | `kt:aws-pricing-fundamentals` | `kt:savings-plans` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us` |
 | `kt:aws-storage-services` | `kt:amazon-s3` |
@@ -98,6 +97,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:permissions-boundaries` | `kt:aws-iam` |
 | `kt:rds-proxy` | `kt:amazon-rds` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
+| `kt:route-53-quotas` | `kt:amazon-route-53` |
+| `kt:route-53-resolver` | `kt:amazon-route-53` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-transform-mgn` |

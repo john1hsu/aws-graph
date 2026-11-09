@@ -231,6 +231,29 @@
     ]
   },
   {
+    "id": "kt:amazon-route-53",
+    "title": "Amazon Route 53",
+    "aliases": [
+      "Route 53",
+      "Route53",
+      "AWS Route 53"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/amazon-route-53.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html",
+      "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.md",
+      "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/DNSLimitations.html",
+      "https://aws.amazon.com/route53/pricing/",
+      "https://aws.amazon.com/blogs/networking-and-content-delivery/announcing-amazon-route-53-accelerated-recovery-for-managing-public-dns-records",
+      "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-route-53-global-resolver"
+    ]
+  },
+  {
     "id": "kt:amazon-s3",
     "title": "Amazon S3",
     "aliases": [
