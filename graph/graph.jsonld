@@ -268,6 +268,104 @@
       ]
     },
     {
+      "@id": "kt:aws-glue",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Glue",
+      "skos:definition": "AWS's serverless data integration service: a central Data Catalog plus crawlers, connections and Apache Spark-based ETL jobs for discovering, preparing and moving data into data lakes and warehouses, billed per DPU-hour.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Glue? - AWS Glue",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Glue Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/glue/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Glue endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/glue.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Glue versions - AWS Glue",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/glue/latest/dg/release-notes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Glue for Ray end of support - AWS Glue",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/glue/latest/dg/awsglue-ray-jobs-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EMR and AWS Glue - AWS Product Comparison",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compare/emr-and-glue/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/analytics/aws-glue.md",
+      "skos:altLabel": [
+        "Glue",
+        "Amazon Glue",
+        "AWS Glue ETL"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-lake-on-aws"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-lake-formation"
+        },
+        {
+          "@id": "kt:amazon-redshift"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-athena"
+        },
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-emr"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:glue-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-well-architected-framework",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS Well-Architected Framework",

@@ -300,6 +300,33 @@
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Glue" .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Glue ETL" .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Glue" .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2004/02/skos/core#altLabel> "Glue" .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2004/02/skos/core#definition> "AWS's serverless data integration service: a central Data Catalog plus crawlers, connections and Apache Spark-based ETL jobs for discovering, preparing and moving data into data lakes and warehouses, billed per DPU-hour." .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Glue" .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lake-formation> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-emr> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/glue-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-glue> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> <http://www.w3.org/2000/01/rdf-schema#label> "AWS GovCloud (US)" .
@@ -911,6 +938,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <http://purl.org/dc/terms/title> "What is AWS Glue? - AWS Glue" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <https://schema.org/url> "https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s2> <http://purl.org/dc/terms/title> "AWS Glue Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s2> <https://schema.org/url> "https://aws.amazon.com/glue/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s3> <http://purl.org/dc/terms/title> "AWS Glue endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s3> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/glue.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s4> <http://purl.org/dc/terms/title> "AWS Glue versions - AWS Glue" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s4> <https://schema.org/url> "https://docs.aws.amazon.com/glue/latest/dg/release-notes.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s5> <http://purl.org/dc/terms/title> "AWS Glue for Ray end of support - AWS Glue" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s5> <https://schema.org/url> "https://docs.aws.amazon.com/glue/latest/dg/awsglue-ray-jobs-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s6> <http://purl.org/dc/terms/title> "Amazon EMR and AWS Glue - AWS Product Comparison" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-glue/s6> <https://schema.org/url> "https://aws.amazon.com/compare/emr-and-glue/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-govcloud-us/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-govcloud-us/s1> <http://purl.org/dc/terms/title> "What Is AWS GovCloud (US)? - AWS GovCloud (US) User Guide" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-govcloud-us/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

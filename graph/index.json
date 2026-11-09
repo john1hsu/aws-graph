@@ -277,6 +277,29 @@
     ]
   },
   {
+    "id": "kt:aws-glue",
+    "title": "AWS Glue",
+    "aliases": [
+      "Glue",
+      "Amazon Glue",
+      "AWS Glue ETL"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/aws-glue.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html",
+      "https://aws.amazon.com/glue/pricing",
+      "https://docs.aws.amazon.com/general/latest/gr/glue.html",
+      "https://docs.aws.amazon.com/glue/latest/dg/release-notes.html",
+      "https://docs.aws.amazon.com/glue/latest/dg/awsglue-ray-jobs-availability-change.html",
+      "https://aws.amazon.com/compare/emr-and-glue/"
+    ]
+  },
+  {
     "id": "kt:aws-govcloud-us",
     "title": "AWS GovCloud (US)",
     "aliases": [
