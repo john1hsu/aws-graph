@@ -525,6 +525,69 @@
       ]
     },
     {
+      "@id": "kt:aws-certified-cloud-practitioner",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "AWS Certified Cloud Practitioner",
+      "skos:definition": "AWS's foundational-level certification (exam CLF-C02) validating broad, non-technical-depth knowledge of cloud concepts, AWS security and compliance, core AWS services, and AWS billing, pricing and support, aimed at people new to the cloud or working alongside AWS roles.",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Certified Cloud Practitioner - Exam Guide (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.pdf",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certified Cloud Practitioner",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certification (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-certified-cloud-practitioner.md",
+      "skos:altLabel": [
+        "CLF-C02",
+        "AWS Cloud Practitioner",
+        "CCP"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        },
+        {
+          "@id": "kt:aws-cloud-adoption-framework"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:aws-support-plans"
+        },
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-ec2",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon EC2",

@@ -230,6 +230,26 @@
     ]
   },
   {
+    "id": "kt:aws-certified-cloud-practitioner",
+    "title": "AWS Certified Cloud Practitioner",
+    "aliases": [
+      "CLF-C02",
+      "AWS Cloud Practitioner",
+      "CCP"
+    ],
+    "type": "Certification",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certified-cloud-practitioner.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/pdfs/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.pdf",
+      "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-cloudformation",
     "title": "AWS CloudFormation",
     "aliases": [

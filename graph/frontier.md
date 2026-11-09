@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner`, `kt:amazon-ec2`, `kt:amazon-ecs`, `kt:aws-regions`, `kt:amazon-cloudwatch`, `kt:aws-iam`, `kt:aws-transform-mgn`, `kt:aws-cloudtrail`, `kt:aws-lambda` |
 | `kt:aws-organizations` | `kt:amazon-bedrock-guardrails`, `kt:savings-plans`, `kt:amazon-cloudwatch`, `kt:aws-iam`, `kt:aws-govcloud-us`, `kt:aws-cloudtrail` |
 | `kt:aws-fargate` | `kt:amazon-ecs`, `kt:savings-plans`, `kt:aws-lambda` |
 | `kt:aws-partitions` | `kt:aws-regions`, `kt:aws-iam`, `kt:aws-govcloud-us` |
@@ -16,6 +15,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-eventbridge` | `kt:aws-transform-mgn`, `kt:aws-lambda` |
 | `kt:amazon-redshift` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
+| `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner` |
+| `kt:aws-certified-solutions-architect-associate` | `kt:aws-certified-cloud-practitioner`, `kt:aws-iam` |
+| `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-compute-services` | `kt:amazon-ec2`, `kt:aws-lambda` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
 | `kt:aws-cost-explorer` | `kt:savings-plans`, `kt:savings-plans` |
@@ -38,10 +40,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:availability-zones` | `kt:aws-regions` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-cdk` | `kt:aws-cloudformation` |
-| `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
-| `kt:aws-certified-solutions-architect-associate` | `kt:aws-iam` |
-| `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework` |
 | `kt:aws-container-services` | `kt:amazon-ecs` |
 | `kt:aws-control-tower` | `kt:aws-cloudformation` |
 | `kt:aws-database-migration-service` | `kt:aws-transform-mgn` |
@@ -54,6 +53,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-step-functions` | `kt:aws-lambda` |
 | `kt:aws-storage-services` | `kt:amazon-s3` |
 | `kt:aws-sts` | `kt:aws-iam` |
+| `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-transform` | `kt:aws-transform-mgn` |
 | `kt:aws-waf` | `kt:amazon-cloudfront` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
@@ -91,3 +91,4 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:security-pillar` | `kt:aws-well-architected-framework` |
 | `kt:service-control-policies` | `kt:amazon-bedrock` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-transform-mgn` |
+| `kt:shared-responsibility-model` | `kt:aws-certified-cloud-practitioner` |

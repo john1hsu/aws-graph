@@ -248,6 +248,27 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Cloud Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Cloud Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/2004/02/skos/core#altLabel> "CCP" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/2004/02/skos/core#altLabel> "CLF-C02" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/2004/02/skos/core#definition> "AWS's foundational-level certification (exam CLF-C02) validating broad, non-technical-depth knowledge of cloud concepts, AWS security and compliance, core AWS services, and AWS billing, pricing and support, aimed at people new to the cloud or working alongside AWS roles." .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Certified Cloud Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-support-plans> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CloudFormation" .
@@ -858,6 +879,21 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-revisions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s1> <http://purl.org/dc/terms/title> "AWS Certified Cloud Practitioner - Exam Guide (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s1> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s2> <http://purl.org/dc/terms/title> "AWS Certified Cloud Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s2> <https://schema.org/url> "https://aws.amazon.com/certification/certified-cloud-practitioner/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s3> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certification (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s3> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s10> <http://purl.org/dc/terms/title> "Configure and perform CDK stack synthesis" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
