@@ -322,6 +322,28 @@
     ]
   },
   {
+    "id": "kt:aws-cost-explorer",
+    "title": "AWS Cost Explorer",
+    "aliases": [
+      "Cost Explorer",
+      "Cost Explorer API"
+    ],
+    "type": "Service",
+    "domain": "cost-management",
+    "file": "articles/cost-management/aws-cost-explorer.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/console/billing/costexplorer",
+      "https://docs.aws.amazon.com/cost-management/latest/userguide/ce-enable.html",
+      "https://docs.aws.amazon.com/cost-management/latest/userguide/ce-configuring-data.html",
+      "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/pricing/",
+      "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/faqs",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-glue",
     "title": "AWS Glue",
     "aliases": [

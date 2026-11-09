@@ -6,7 +6,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:aws-certified-solutions-architect-associate` | `kt:disaster-recovery-strategies`, `kt:aws-certified-cloud-practitioner`, `kt:aws-iam` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-lambda` |
-| `kt:aws-cost-explorer` | `kt:savings-plans`, `kt:savings-plans`, `kt:aws-organizations` |
 | `kt:aws-fargate` | `kt:amazon-ecs`, `kt:savings-plans`, `kt:aws-lambda` |
 | `kt:aws-partitions` | `kt:aws-regions`, `kt:aws-iam`, `kt:aws-govcloud-us` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:aws-glue`, `kt:amazon-s3` |
@@ -34,6 +33,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:elastic-load-balancing` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2-auto-scaling` |
 | `kt:iam-identity-center` | `kt:aws-organizations`, `kt:aws-iam` |
 | `kt:reliability-pillar` | `kt:aws-well-architected-framework`, `kt:disaster-recovery-strategies` |
+| `kt:reserved-instances` | `kt:aws-cost-explorer`, `kt:savings-plans` |
 | `kt:service-control-policies` | `kt:amazon-bedrock`, `kt:aws-organizations` |
 | `kt:amazon-api-gateway` | `kt:aws-lambda` |
 | `kt:amazon-ecr` | `kt:amazon-ecs` |
@@ -45,9 +45,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-backup` | `kt:disaster-recovery-strategies` |
+| `kt:aws-budgets` | `kt:aws-cost-explorer` |
 | `kt:aws-cdk` | `kt:aws-cloudformation` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-container-services` | `kt:amazon-ecs` |
+| `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
+| `kt:aws-cost-anomaly-detection` | `kt:aws-cost-explorer` |
+| `kt:aws-cost-management-services` | `kt:aws-cost-explorer` |
 | `kt:aws-database-migration-service` | `kt:aws-transform-mgn` |
 | `kt:aws-migration-and-transfer-services` | `kt:aws-transform-mgn` |
 | `kt:aws-networking-and-content-delivery` | `kt:amazon-cloudfront` |
@@ -90,7 +94,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:organizations-quotas` | `kt:aws-organizations` |
 | `kt:permissions-boundaries` | `kt:aws-iam` |
 | `kt:purpose-built-databases` | `kt:amazon-dynamodb` |
-| `kt:reserved-instances` | `kt:savings-plans` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-transform-mgn` |

@@ -351,6 +351,31 @@
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cost Explorer" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/2004/02/skos/core#altLabel> "Cost Explorer API" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/2004/02/skos/core#altLabel> "Cost Explorer" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/2004/02/skos/core#definition> "AWS's built-in tool in the Billing and Cost Management console for viewing, filtering, grouping and forecasting AWS cost and usage data, with a free console and a pay-per-request API." .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Cost Explorer" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-budgets> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/reserved-instances> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-glue> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Glue" .
@@ -1096,6 +1121,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s1> <http://purl.org/dc/terms/title> "Analyzing your costs and usage with AWS Cost Explorer - AWS Cost Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s1> <https://schema.org/url> "https://docs.aws.amazon.com/console/billing/costexplorer" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s2> <http://purl.org/dc/terms/title> "Enabling Cost Explorer - AWS Cost Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s2> <https://schema.org/url> "https://docs.aws.amazon.com/cost-management/latest/userguide/ce-enable.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s3> <http://purl.org/dc/terms/title> "Configuring multi-year and granular data - AWS Cost Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s3> <https://schema.org/url> "https://docs.aws.amazon.com/cost-management/latest/userguide/ce-configuring-data.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s4> <http://purl.org/dc/terms/title> "AWS Cost Explorer Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s4> <https://schema.org/url> "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s5> <http://purl.org/dc/terms/title> "AWS Cost Explorer FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s5> <https://schema.org/url> "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s6> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certification (Cloud Practitioner CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <http://purl.org/dc/terms/title> "What is AWS Glue? - AWS Glue" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

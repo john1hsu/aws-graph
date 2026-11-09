@@ -993,6 +993,96 @@
       ]
     },
     {
+      "@id": "kt:aws-cost-explorer",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Cost Explorer",
+      "skos:definition": "AWS's built-in tool in the Billing and Cost Management console for viewing, filtering, grouping and forecasting AWS cost and usage data, with a free console and a pay-per-request API.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Analyzing your costs and usage with AWS Cost Explorer - AWS Cost Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/console/billing/costexplorer",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enabling Cost Explorer - AWS Cost Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cost-management/latest/userguide/ce-enable.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configuring multi-year and granular data - AWS Cost Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cost-management/latest/userguide/ce-configuring-data.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cost Explorer Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cost Explorer FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certification (Cloud Practitioner CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/cost-management/aws-cost-explorer.md",
+      "skos:altLabel": [
+        "Cost Explorer",
+        "Cost Explorer API"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-cost-management-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-budgets"
+        },
+        {
+          "@id": "kt:aws-cost-anomaly-detection"
+        },
+        {
+          "@id": "kt:aws-cost-and-usage-report"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:savings-plans"
+        },
+        {
+          "@id": "kt:reserved-instances"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:savings-plans",
       "@type": "kto:PricingModel",
       "skos:prefLabel": "Savings Plans",
