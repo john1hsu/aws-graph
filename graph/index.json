@@ -135,6 +135,32 @@
     ]
   },
   {
+    "id": "kt:amazon-ebs",
+    "title": "Amazon EBS",
+    "aliases": [
+      "Amazon Elastic Block Store",
+      "EBS",
+      "AWS EBS",
+      "Elastic Block Store"
+    ],
+    "type": "Service",
+    "domain": "storage",
+    "file": "articles/storage/amazon-ebs.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/ebs/latest/userguide/EBSFeatures.html",
+      "https://aws.amazon.com/ebs/volume-types/",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/general-purpose.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-ebs-size-provisioned-performance-gp3-volumes",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html",
+      "https://docs.aws.amazon.com/general/latest/gr/ebs-service.html",
+      "https://aws.amazon.com/ebs/pricing/",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html"
+    ]
+  },
+  {
     "id": "kt:amazon-ec2",
     "title": "Amazon EC2",
     "aliases": [

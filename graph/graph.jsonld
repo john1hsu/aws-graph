@@ -3332,6 +3332,119 @@
       ]
     },
     {
+      "@id": "kt:amazon-ebs",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon EBS",
+      "skos:definition": "AWS's network-attached block storage for Amazon EC2: persistent volumes that live in one Availability Zone, come in SSD and HDD volume types (gp3, gp2, io2 Block Express, io1, st1, sc1), and are backed up with incremental, Region-wide snapshots.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Features and benefits of Amazon EBS volumes - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/EBSFeatures.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EBS Volume Types",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ebs/volume-types/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EBS General Purpose SSD volumes - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/general-purpose.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EBS increases the maximum size and provisioned performance of General Purpose (gp3) volumes",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-ebs-size-provisioned-performance-gp3-volumes",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon EBS snapshots - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Elastic Block Store endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/ebs-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EBS Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ebs/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified Cloud Practitioner (CLF-C02) exam guide: Domain 3",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/storage/amazon-ebs.md",
+      "skos:altLabel": [
+        "Amazon Elastic Block Store",
+        "EBS",
+        "AWS EBS",
+        "Elastic Block Store"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-storage-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:ebs-snapshots"
+        },
+        {
+          "@id": "kt:aws-backup"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:ebs-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-efs"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-s3",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon S3",

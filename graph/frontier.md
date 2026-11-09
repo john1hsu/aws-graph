@@ -8,6 +8,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-eks` | `kt:aws-glue`, `kt:amazon-ecs`, `kt:aws-fargate`, `kt:aws-fargate` |
 | `kt:aws-certified-solutions-architect-associate` | `kt:disaster-recovery-strategies`, `kt:aws-certified-cloud-practitioner`, `kt:aws-iam`, `kt:iam-identity-center` |
 | `kt:amazon-eventbridge` | `kt:aws-transform-mgn`, `kt:aws-lambda`, `kt:aws-serverless-services` |
+| `kt:availability-zones` | `kt:amazon-rds`, `kt:aws-regions`, `kt:amazon-ebs` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-lambda` |
 | `kt:aws-global-infrastructure` | `kt:aws-partitions`, `kt:aws-regions`, `kt:aws-govcloud-us` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:aws-glue`, `kt:amazon-s3` |
@@ -17,11 +18,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-api-gateway` | `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:amazon-bedrock-knowledge-bases` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock` |
 | `kt:amazon-ecr` | `kt:amazon-ecs`, `kt:aws-cdk` |
+| `kt:amazon-efs` | `kt:amazon-ebs`, `kt:amazon-s3` |
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:amazon-redshift` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-sqs` | `kt:aws-lambda`, `kt:aws-serverless-services` |
-| `kt:availability-zones` | `kt:amazon-rds`, `kt:aws-regions` |
+| `kt:aws-backup` | `kt:disaster-recovery-strategies`, `kt:amazon-ebs` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
@@ -34,6 +36,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-networking-and-content-delivery` | `kt:amazon-cloudfront`, `kt:amazon-route-53` |
 | `kt:aws-sam` | `kt:aws-cdk`, `kt:aws-serverless-services` |
 | `kt:aws-step-functions` | `kt:aws-lambda`, `kt:aws-serverless-services` |
+| `kt:aws-storage-services` | `kt:amazon-ebs`, `kt:amazon-s3` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
@@ -46,13 +49,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:service-control-policies` | `kt:amazon-bedrock`, `kt:aws-organizations` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-database-migration-service`, `kt:aws-transform-mgn` |
 | `kt:amazon-aurora` | `kt:amazon-rds` |
-| `kt:amazon-efs` | `kt:amazon-s3` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:amazon-vpc` | `kt:amazon-rds` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-artifact` | `kt:fedramp-on-aws` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
-| `kt:aws-backup` | `kt:disaster-recovery-strategies` |
 | `kt:aws-budgets` | `kt:aws-cost-explorer` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
@@ -65,7 +66,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us` |
 | `kt:aws-secrets-manager` | `kt:aws-kms` |
-| `kt:aws-storage-services` | `kt:amazon-s3` |
 | `kt:aws-sts` | `kt:aws-iam` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-transform` | `kt:aws-transform-mgn` |
@@ -80,6 +80,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:dynamodb-global-tables` | `kt:amazon-dynamodb` |
 | `kt:dynamodb-partition-key-design` | `kt:amazon-dynamodb` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb` |
+| `kt:ebs-quotas` | `kt:amazon-ebs` |
+| `kt:ebs-snapshots` | `kt:amazon-ebs` |
 | `kt:ec2-auto-scaling-quotas` | `kt:amazon-ec2-auto-scaling` |
 | `kt:ec2-instance-quotas` | `kt:amazon-ec2` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2` |
