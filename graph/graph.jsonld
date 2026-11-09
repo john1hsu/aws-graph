@@ -2823,6 +2823,98 @@
       ]
     },
     {
+      "@id": "kt:fedramp-on-aws",
+      "@type": "kto:ComplianceProgram",
+      "skos:prefLabel": "FedRAMP on AWS",
+      "skos:definition": "How the U.S. government's FedRAMP cloud security program applies to AWS: AWS GovCloud (US) holds FedRAMP Certified Class D (formerly High) and the US East/West Regions Class C (formerly Moderate), scoped per service, with agencies still issuing their own ATOs on top of inherited controls.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "FedRAMP - Amazon Web Services (AWS)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/fedramp",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FedRAMP FAQs - Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/fedramp-faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Certification Classes - FedRAMP Consolidated Rules for 2026",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/2026/agencies/use/classes/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP Certification - FedRAMP Consolidated Rules for 2026",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/2026/reference/fedramp-certification/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Prepare for FedRAMP 20x with AWS automation and validation",
+          "dcterms:publisher": "AWS Public Sector Blog",
+          "schema:url": "https://aws.amazon.com/blogs/publicsector/prepare-for-fedramp-20x-with-aws-automation-and-validation",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/fedramp-on-aws.md",
+      "skos:altLabel": [
+        "FedRAMP",
+        "Federal Risk and Authorization Management Program",
+        "AWS FedRAMP",
+        "FedRAMP Certification on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        },
+        {
+          "@id": "kt:aws-artifact"
+        },
+        {
+          "@id": "kt:aws-security-services"
+        },
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        },
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:dod-cloud-computing-srg-impact-levels"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cloudtrail",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS CloudTrail",

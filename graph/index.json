@@ -753,6 +753,30 @@
     ]
   },
   {
+    "id": "kt:fedramp-on-aws",
+    "title": "FedRAMP on AWS",
+    "aliases": [
+      "FedRAMP",
+      "Federal Risk and Authorization Management Program",
+      "AWS FedRAMP",
+      "FedRAMP Certification on AWS"
+    ],
+    "type": "ComplianceProgram",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/fedramp-on-aws.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/compliance/fedramp",
+      "https://aws.amazon.com/compliance/fedramp-faqs/",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://www.fedramp.gov/2026/agencies/use/classes/",
+      "https://www.fedramp.gov/2026/reference/fedramp-certification/",
+      "https://aws.amazon.com/blogs/publicsector/prepare-for-fedramp-20x-with-aws-automation-and-validation"
+    ]
+  },
+  {
     "id": "kt:iam-identity-center",
     "title": "AWS IAM Identity Center",
     "aliases": [
