@@ -1175,6 +1175,130 @@
       ]
     },
     {
+      "@id": "kt:aws-transform-mgn",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Transform MGN",
+      "skos:definition": "AWS's rehosting (lift-and-shift) service, renamed from AWS Application Migration Service in June 2026, which continuously replicates physical, virtual and cloud servers at the block level into a staging area in your AWS account and launches them as Amazon EC2 instances for testing and a short cutover.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Application Migration Service is now AWS Transform MGN",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Transform MGN FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/application-migration-service/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "General questions - AWS Transform MGN",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/mgn/latest/ug/General-Questions-FAQ.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Network requirements for MGN - AWS Transform MGN",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/mgn/latest/ug/preparing-environments.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transform MGN endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/mgn.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Migration with AWS Application Migration Service - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-database-rehost-tools/mgn.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transform MGN and AWS Database Migration Service (DMS) - AWS Product Comparison",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compare/dms-and-transform-mgn/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transform MGN - Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/application-migration-service/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/aws-transform-mgn.md",
+      "skos:altLabel": [
+        "AWS Application Migration Service",
+        "Application Migration Service",
+        "AWS MGN",
+        "MGN"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:seven-rs-migration-strategies"
+        },
+        {
+          "@id": "kt:aws-transform"
+        },
+        {
+          "@id": "kt:aws-elastic-disaster-recovery"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-database-migration-service"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:mgn-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-cloudfront",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon CloudFront",

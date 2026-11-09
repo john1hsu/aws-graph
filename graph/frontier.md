@@ -4,9 +4,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner`, `kt:amazon-ec2`, `kt:amazon-ecs`, `kt:aws-regions`, `kt:amazon-cloudwatch`, `kt:aws-iam`, `kt:aws-cloudtrail`, `kt:aws-lambda` |
+| `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner`, `kt:amazon-ec2`, `kt:amazon-ecs`, `kt:aws-regions`, `kt:amazon-cloudwatch`, `kt:aws-iam`, `kt:aws-transform-mgn`, `kt:aws-cloudtrail`, `kt:aws-lambda` |
 | `kt:aws-organizations` | `kt:savings-plans`, `kt:amazon-cloudwatch`, `kt:aws-iam`, `kt:aws-cloudtrail` |
 | `kt:aws-fargate` | `kt:amazon-ecs`, `kt:savings-plans`, `kt:aws-lambda` |
+| `kt:amazon-eventbridge` | `kt:aws-transform-mgn`, `kt:aws-lambda` |
 | `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-compute-services` | `kt:amazon-ec2`, `kt:aws-lambda` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
@@ -28,7 +29,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-efs` | `kt:amazon-s3` |
 | `kt:amazon-eks` | `kt:amazon-ecs` |
 | `kt:amazon-emr` | `kt:amazon-athena` |
-| `kt:amazon-eventbridge` | `kt:aws-lambda` |
 | `kt:amazon-rds` | `kt:amazon-dynamodb` |
 | `kt:amazon-redshift` | `kt:amazon-athena` |
 | `kt:amazon-route-53` | `kt:amazon-cloudfront` |
@@ -43,15 +43,19 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework` |
 | `kt:aws-container-services` | `kt:amazon-ecs` |
 | `kt:aws-control-tower` | `kt:aws-cloudformation` |
+| `kt:aws-database-migration-service` | `kt:aws-transform-mgn` |
+| `kt:aws-elastic-disaster-recovery` | `kt:aws-transform-mgn` |
 | `kt:aws-global-infrastructure` | `kt:aws-regions` |
 | `kt:aws-glue` | `kt:amazon-athena` |
 | `kt:aws-lake-formation` | `kt:amazon-athena` |
 | `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch` |
+| `kt:aws-migration-and-transfer-services` | `kt:aws-transform-mgn` |
 | `kt:aws-networking-and-content-delivery` | `kt:amazon-cloudfront` |
 | `kt:aws-pricing-fundamentals` | `kt:savings-plans` |
 | `kt:aws-step-functions` | `kt:aws-lambda` |
 | `kt:aws-storage-services` | `kt:amazon-s3` |
 | `kt:aws-sts` | `kt:aws-iam` |
+| `kt:aws-transform` | `kt:aws-transform-mgn` |
 | `kt:aws-waf` | `kt:amazon-cloudfront` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework` |
@@ -73,6 +77,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:iam-quotas` | `kt:aws-iam` |
 | `kt:infrastructure-as-code` | `kt:aws-cloudformation` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |
+| `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:on-demand-capacity-reservations` | `kt:savings-plans` |
 | `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework` |
 | `kt:permissions-boundaries` | `kt:aws-iam` |
@@ -82,3 +87,4 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework` |
 | `kt:service-control-policies` | `kt:amazon-bedrock` |
+| `kt:seven-rs-migration-strategies` | `kt:aws-transform-mgn` |

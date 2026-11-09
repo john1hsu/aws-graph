@@ -330,6 +330,33 @@
     ]
   },
   {
+    "id": "kt:aws-transform-mgn",
+    "title": "AWS Transform MGN",
+    "aliases": [
+      "AWS Application Migration Service",
+      "Application Migration Service",
+      "AWS MGN",
+      "MGN"
+    ],
+    "type": "Service",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/aws-transform-mgn.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
+      "https://aws.amazon.com/application-migration-service/faqs/",
+      "https://docs.aws.amazon.com/mgn/latest/ug/General-Questions-FAQ.html",
+      "https://docs.aws.amazon.com/mgn/latest/ug/preparing-environments.html",
+      "https://docs.aws.amazon.com/general/latest/gr/mgn.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-database-rehost-tools/mgn.html",
+      "https://aws.amazon.com/compare/dms-and-transform-mgn/",
+      "https://aws.amazon.com/application-migration-service/pricing/",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-well-architected-framework",
     "title": "AWS Well-Architected Framework",
     "aliases": [
