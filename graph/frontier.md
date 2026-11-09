@@ -4,8 +4,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:aws-organizations` | `kt:amazon-bedrock-guardrails`, `kt:savings-plans`, `kt:amazon-cloudwatch`, `kt:aws-iam`, `kt:aws-govcloud-us`, `kt:aws-cloudtrail` |
 | `kt:aws-certified-solutions-architect-associate` | `kt:disaster-recovery-strategies`, `kt:aws-certified-cloud-practitioner`, `kt:aws-iam` |
+| `kt:aws-cost-explorer` | `kt:savings-plans`, `kt:savings-plans`, `kt:aws-organizations` |
 | `kt:aws-fargate` | `kt:amazon-ecs`, `kt:savings-plans`, `kt:aws-lambda` |
 | `kt:aws-partitions` | `kt:aws-regions`, `kt:aws-iam`, `kt:aws-govcloud-us` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:aws-glue`, `kt:amazon-s3` |
@@ -21,15 +21,18 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-compute-services` | `kt:amazon-ec2`, `kt:aws-lambda` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
-| `kt:aws-cost-explorer` | `kt:savings-plans`, `kt:savings-plans` |
+| `kt:aws-control-tower` | `kt:aws-cloudformation`, `kt:aws-organizations` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-global-infrastructure` | `kt:aws-regions`, `kt:aws-govcloud-us` |
 | `kt:aws-kms` | `kt:amazon-dynamodb`, `kt:aws-cloudtrail` |
 | `kt:aws-lake-formation` | `kt:amazon-athena`, `kt:aws-glue` |
+| `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch`, `kt:aws-organizations` |
 | `kt:aws-security-services` | `kt:aws-iam`, `kt:aws-cloudtrail` |
 | `kt:aws-serverless-services` | `kt:amazon-dynamodb`, `kt:aws-lambda` |
 | `kt:edge-locations` | `kt:aws-regions`, `kt:amazon-cloudfront` |
+| `kt:iam-identity-center` | `kt:aws-organizations`, `kt:aws-iam` |
 | `kt:reliability-pillar` | `kt:aws-well-architected-framework`, `kt:disaster-recovery-strategies` |
+| `kt:service-control-policies` | `kt:amazon-bedrock`, `kt:aws-organizations` |
 | `kt:spot-instances` | `kt:amazon-ec2`, `kt:savings-plans` |
 | `kt:amazon-api-gateway` | `kt:aws-lambda` |
 | `kt:amazon-ec2-auto-scaling` | `kt:amazon-ec2` |
@@ -44,9 +47,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cdk` | `kt:aws-cloudformation` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-container-services` | `kt:amazon-ecs` |
-| `kt:aws-control-tower` | `kt:aws-cloudformation` |
 | `kt:aws-database-migration-service` | `kt:aws-transform-mgn` |
-| `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch` |
 | `kt:aws-migration-and-transfer-services` | `kt:aws-transform-mgn` |
 | `kt:aws-networking-and-content-delivery` | `kt:amazon-cloudfront` |
 | `kt:aws-pricing-fundamentals` | `kt:savings-plans` |
@@ -75,20 +76,20 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ecs-quotas` | `kt:amazon-ecs` |
 | `kt:fedramp-on-aws` | `kt:aws-govcloud-us` |
 | `kt:glue-quotas` | `kt:aws-glue` |
-| `kt:iam-identity-center` | `kt:aws-iam` |
 | `kt:iam-policy-evaluation-logic` | `kt:aws-iam` |
 | `kt:iam-quotas` | `kt:aws-iam` |
 | `kt:infrastructure-as-code` | `kt:aws-cloudformation` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
+| `kt:multi-account-strategy` | `kt:aws-organizations` |
 | `kt:on-demand-capacity-reservations` | `kt:savings-plans` |
 | `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework` |
+| `kt:organizations-quotas` | `kt:aws-organizations` |
 | `kt:permissions-boundaries` | `kt:aws-iam` |
 | `kt:purpose-built-databases` | `kt:amazon-dynamodb` |
 | `kt:reserved-instances` | `kt:savings-plans` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework` |
-| `kt:service-control-policies` | `kt:amazon-bedrock` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-transform-mgn` |
 | `kt:shared-responsibility-model` | `kt:aws-certified-cloud-practitioner` |

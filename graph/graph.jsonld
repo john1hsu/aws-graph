@@ -1381,6 +1381,110 @@
       ]
     },
     {
+      "@id": "kt:aws-organizations",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Organizations",
+      "skos:definition": "AWS's free, global account-management service that groups many AWS accounts into one organization under a management account, consolidates their billing, arranges them in organizational units, and applies central policies such as service control policies.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Organizations?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Organizations FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/organizations/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and service limits for AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Terminology and concepts for AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Service control policies (SCPs) - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Organizations in AWS GovCloud (US)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-organizations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/aws-organizations.md",
+      "skos:altLabel": [
+        "Organizations",
+        "AWS Orgs"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-control-tower"
+        },
+        {
+          "@id": "kt:multi-account-strategy"
+        },
+        {
+          "@id": "kt:iam-identity-center"
+        },
+        {
+          "@id": "kt:aws-govcloud-us"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:service-control-policies"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:aws-cloudtrail"
+        },
+        {
+          "@id": "kt:aws-cost-explorer"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:organizations-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-iam",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Identity and Access Management",

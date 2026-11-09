@@ -439,6 +439,34 @@
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Orgs" .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/2004/02/skos/core#altLabel> "Organizations" .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/2004/02/skos/core#definition> "AWS's free, global account-management service that groups many AWS accounts into one organization under a management account, consolidates their billing, arranges them in organizational units, and applies central policies such as service control policies." .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-control-tower> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/organizations-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Regions" .
@@ -1153,6 +1181,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s9> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s1> <http://purl.org/dc/terms/title> "What is AWS Organizations?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s1> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s2> <http://purl.org/dc/terms/title> "AWS Organizations FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s2> <https://schema.org/url> "https://aws.amazon.com/organizations/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s3> <http://purl.org/dc/terms/title> "Quotas and service limits for AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s3> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s4> <http://purl.org/dc/terms/title> "Terminology and concepts for AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s4> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s5> <http://purl.org/dc/terms/title> "Service control policies (SCPs) - AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s5> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s6> <http://purl.org/dc/terms/title> "AWS Organizations in AWS GovCloud (US)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s6> <https://schema.org/url> "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-organizations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <http://purl.org/dc/terms/title> "AWS Regions - AWS Regions and Availability Zones" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

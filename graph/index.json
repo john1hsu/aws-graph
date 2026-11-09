@@ -396,6 +396,29 @@
     ]
   },
   {
+    "id": "kt:aws-organizations",
+    "title": "AWS Organizations",
+    "aliases": [
+      "Organizations",
+      "AWS Orgs"
+    ],
+    "type": "Service",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/aws-organizations.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html",
+      "https://aws.amazon.com/organizations/faqs/",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.html",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-organizations.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-regions",
     "title": "AWS Regions",
     "aliases": [
