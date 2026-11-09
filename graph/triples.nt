@@ -22,6 +22,29 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
 <https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Bedrock Guardrails" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/2004/02/skos/core#altLabel> "Bedrock Guardrails" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/2004/02/skos/core#altLabel> "Guardrails for Amazon Bedrock" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/2004/02/skos/core#definition> "The configurable safety and privacy layer of Amazon Bedrock that evaluates prompts and model responses against content filters, denied topics, word and sensitive-information filters, contextual grounding checks and Automated Reasoning checks, inline with inference or through the standalone ApplyGuardrail API." .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Bedrock Guardrails" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Bedrock" .
@@ -508,6 +531,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <http://purl.org/dc/terms/title> "Detect and filter harmful content by using Amazon Bedrock Guardrails" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s2> <http://purl.org/dc/terms/title> "How Amazon Bedrock Guardrails works" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s2> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-how.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s3> <http://purl.org/dc/terms/title> "Safeguard tiers for guardrails policies" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s3> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-tiers.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s4> <http://purl.org/dc/terms/title> "Amazon Bedrock Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s4> <https://schema.org/url> "https://aws.amazon.com/bedrock/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s5> <http://purl.org/dc/terms/title> "Amazon Bedrock policies - AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s5> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_bedrock.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s6> <http://purl.org/dc/terms/title> "Amazon Bedrock Guardrails announces general availability of cross-account safeguards" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-guardrails-cross-account-safeguards" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s7> <http://purl.org/dc/terms/title> "Content Domain 4: Guidelines for Responsible AI - AWS Certified AI Practitioner (AIF-C01) exam guide" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.md" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://purl.org/dc/terms/title> "Amazon Bedrock FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

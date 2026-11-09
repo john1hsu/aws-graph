@@ -5,9 +5,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner`, `kt:amazon-ec2`, `kt:amazon-ecs`, `kt:aws-regions`, `kt:amazon-cloudwatch`, `kt:aws-iam`, `kt:aws-transform-mgn`, `kt:aws-cloudtrail`, `kt:aws-lambda` |
-| `kt:aws-organizations` | `kt:savings-plans`, `kt:amazon-cloudwatch`, `kt:aws-iam`, `kt:aws-govcloud-us`, `kt:aws-cloudtrail` |
+| `kt:aws-organizations` | `kt:amazon-bedrock-guardrails`, `kt:savings-plans`, `kt:amazon-cloudwatch`, `kt:aws-iam`, `kt:aws-govcloud-us`, `kt:aws-cloudtrail` |
 | `kt:aws-fargate` | `kt:amazon-ecs`, `kt:savings-plans`, `kt:aws-lambda` |
 | `kt:aws-partitions` | `kt:aws-regions`, `kt:aws-iam`, `kt:aws-govcloud-us` |
+| `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
+| `kt:amazon-bedrock-knowledge-bases` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock` |
 | `kt:amazon-eventbridge` | `kt:aws-transform-mgn`, `kt:aws-lambda` |
 | `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-compute-services` | `kt:amazon-ec2`, `kt:aws-lambda` |
@@ -20,11 +22,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-s3` |
 | `kt:disaster-recovery-strategies` | `kt:aws-well-architected-framework`, `kt:aws-regions` |
 | `kt:edge-locations` | `kt:aws-regions`, `kt:amazon-cloudfront` |
-| `kt:generative-ai-on-aws` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:spot-instances` | `kt:amazon-ec2`, `kt:savings-plans` |
 | `kt:amazon-api-gateway` | `kt:aws-lambda` |
-| `kt:amazon-bedrock-guardrails` | `kt:amazon-bedrock` |
-| `kt:amazon-bedrock-knowledge-bases` | `kt:amazon-bedrock` |
 | `kt:amazon-ec2-auto-scaling` | `kt:amazon-ec2` |
 | `kt:amazon-ecr` | `kt:amazon-ecs` |
 | `kt:amazon-efs` | `kt:amazon-s3` |

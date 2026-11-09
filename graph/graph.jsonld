@@ -10,6 +10,93 @@
   },
   "@graph": [
     {
+      "@id": "kt:amazon-bedrock-guardrails",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon Bedrock Guardrails",
+      "skos:definition": "The configurable safety and privacy layer of Amazon Bedrock that evaluates prompts and model responses against content filters, denied topics, word and sensitive-information filters, contextual grounding checks and Automated Reasoning checks, inline with inference or through the standalone ApplyGuardrail API.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Detect and filter harmful content by using Amazon Bedrock Guardrails",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Amazon Bedrock Guardrails works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-how.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Safeguard tiers for guardrails policies",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-tiers.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/bedrock/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock policies - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_bedrock.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock Guardrails announces general availability of cross-account safeguards",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-guardrails-cross-account-safeguards",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Content Domain 4: Guidelines for Responsible AI - AWS Certified AI Practitioner (AIF-C01) exam guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.md",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-bedrock-guardrails.md",
+      "skos:altLabel": [
+        "Guardrails for Amazon Bedrock",
+        "Bedrock Guardrails"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-bedrock"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-bedrock-knowledge-bases"
+        },
+        {
+          "@id": "kt:generative-ai-on-aws"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-bedrock",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Bedrock",

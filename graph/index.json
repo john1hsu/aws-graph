@@ -45,6 +45,29 @@
     ]
   },
   {
+    "id": "kt:amazon-bedrock-guardrails",
+    "title": "Amazon Bedrock Guardrails",
+    "aliases": [
+      "Guardrails for Amazon Bedrock",
+      "Bedrock Guardrails"
+    ],
+    "type": "Feature",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-bedrock-guardrails.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-how.html",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-tiers.html",
+      "https://aws.amazon.com/bedrock/pricing/",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_bedrock.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-guardrails-cross-account-safeguards",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.md"
+    ]
+  },
+  {
     "id": "kt:amazon-cloudfront",
     "title": "Amazon CloudFront",
     "aliases": [
