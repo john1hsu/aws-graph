@@ -4,18 +4,19 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner`, `kt:amazon-ec2`, `kt:amazon-ecs`, `kt:aws-regions`, `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
-| `kt:aws-lambda` | `kt:amazon-athena`, `kt:amazon-ec2`, `kt:savings-plans` |
+| `kt:aws-certified-cloud-practitioner` | `kt:aws-certified-ai-practitioner`, `kt:amazon-ec2`, `kt:amazon-ecs`, `kt:aws-regions`, `kt:amazon-cloudwatch`, `kt:aws-cloudtrail`, `kt:aws-lambda` |
+| `kt:aws-fargate` | `kt:amazon-ecs`, `kt:savings-plans`, `kt:aws-lambda` |
 | `kt:aws-organizations` | `kt:savings-plans`, `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
 | `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
+| `kt:aws-compute-services` | `kt:amazon-ec2`, `kt:aws-lambda` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
 | `kt:aws-cost-explorer` | `kt:savings-plans`, `kt:savings-plans` |
-| `kt:aws-fargate` | `kt:amazon-ecs`, `kt:savings-plans` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-s3` |
 | `kt:disaster-recovery-strategies` | `kt:aws-well-architected-framework`, `kt:aws-regions` |
 | `kt:edge-locations` | `kt:aws-regions`, `kt:amazon-cloudfront` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
 | `kt:spot-instances` | `kt:amazon-ec2`, `kt:savings-plans` |
+| `kt:amazon-api-gateway` | `kt:aws-lambda` |
 | `kt:amazon-bedrock-guardrails` | `kt:amazon-bedrock` |
 | `kt:amazon-bedrock-knowledge-bases` | `kt:amazon-bedrock` |
 | `kt:amazon-ec2-auto-scaling` | `kt:amazon-ec2` |
@@ -23,15 +24,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-efs` | `kt:amazon-s3` |
 | `kt:amazon-eks` | `kt:amazon-ecs` |
 | `kt:amazon-emr` | `kt:amazon-athena` |
+| `kt:amazon-eventbridge` | `kt:aws-lambda` |
 | `kt:amazon-redshift` | `kt:amazon-athena` |
 | `kt:amazon-route-53` | `kt:amazon-cloudfront` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
+| `kt:amazon-sqs` | `kt:aws-lambda` |
 | `kt:availability-zones` | `kt:aws-regions` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework` |
-| `kt:aws-compute-services` | `kt:amazon-ec2` |
 | `kt:aws-container-services` | `kt:amazon-ecs` |
 | `kt:aws-global-infrastructure` | `kt:aws-regions` |
 | `kt:aws-glue` | `kt:amazon-athena` |
@@ -43,6 +45,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-partitions` | `kt:aws-regions` |
 | `kt:aws-pricing-fundamentals` | `kt:savings-plans` |
 | `kt:aws-security-services` | `kt:aws-cloudtrail` |
+| `kt:aws-serverless-services` | `kt:aws-lambda` |
+| `kt:aws-step-functions` | `kt:aws-lambda` |
 | `kt:aws-storage-services` | `kt:amazon-s3` |
 | `kt:aws-waf` | `kt:amazon-cloudfront` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
@@ -55,6 +59,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ec2-instance-types` | `kt:amazon-ec2` |
 | `kt:ecs-managed-instances` | `kt:amazon-ecs` |
 | `kt:ecs-quotas` | `kt:amazon-ecs` |
+| `kt:lambda-quotas` | `kt:aws-lambda` |
 | `kt:on-demand-capacity-reservations` | `kt:savings-plans` |
 | `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework` |
 | `kt:reliability-pillar` | `kt:aws-well-architected-framework` |

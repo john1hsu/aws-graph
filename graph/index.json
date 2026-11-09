@@ -206,6 +206,31 @@
     ]
   },
   {
+    "id": "kt:aws-lambda",
+    "title": "AWS Lambda",
+    "aliases": [
+      "Lambda",
+      "Amazon Lambda"
+    ],
+    "type": "Service",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/aws-lambda.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/lambda/latest/dg/welcome.md",
+      "https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html",
+      "https://aws.amazon.com/lambda/pricing/",
+      "https://aws.amazon.com/blogs/compute/building-fault-tolerant-long-running-application-with-aws-lambda-durable-functions",
+      "https://docs.aws.amazon.com/lambda/latest/dg/lambda-managed-instances-capacity-providers.html",
+      "https://aws.amazon.com/fr/blogs/aws/top-announcements-of-aws-reinvent-2025",
+      "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-web-functions/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-regions",
     "title": "AWS Regions",
     "aliases": [

@@ -1019,6 +1019,129 @@
       ]
     },
     {
+      "@id": "kt:aws-lambda",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Lambda",
+      "skos:definition": "AWS's serverless compute service, which runs code in response to events, API calls or HTTP requests while AWS handles servers, capacity, scaling and patching; it offers event functions, web functions and MicroVMs, with Managed Instances and durable functions as options.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Lambda?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lambda quotas - AWS Lambda",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Lambda pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/lambda/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Building fault-tolerant long-running applications with AWS Lambda durable functions",
+          "dcterms:publisher": "Amazon Web Services (AWS Compute Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/compute/building-fault-tolerant-long-running-application-with-aws-lambda-durable-functions",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Lambda Managed Instances capacity providers",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-managed-instances-capacity-providers.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Top announcements of AWS re:Invent 2025",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/fr/blogs/aws/top-announcements-of-aws-reinvent-2025",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Lambda announces Lambda Web Functions",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-web-functions/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/aws-lambda.md",
+      "skos:altLabel": [
+        "Lambda",
+        "Amazon Lambda"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compute-services"
+        },
+        {
+          "@id": "kt:aws-serverless-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-api-gateway"
+        },
+        {
+          "@id": "kt:amazon-eventbridge"
+        },
+        {
+          "@id": "kt:amazon-sqs"
+        },
+        {
+          "@id": "kt:aws-step-functions"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:lambda-quotas"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:savings-plans"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-fargate"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-s3",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon S3",
