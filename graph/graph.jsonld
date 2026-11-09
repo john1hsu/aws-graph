@@ -1385,6 +1385,102 @@
       ]
     },
     {
+      "@id": "kt:amazon-rds",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Relational Database Service",
+      "skos:definition": "AWS's managed service for running relational database engines (Db2, MariaDB, SQL Server, MySQL, Oracle and PostgreSQL) on DB instances, with AWS handling provisioning, patching, backups, Multi-AZ high availability and read replicas.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Relational Database Service (Amazon RDS)?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and constraints for Amazon RDS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Working with DB instance read replicas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon RDS FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/rds/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing Database Savings Plans with up to 35% savings",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/database-savings-plans-savings/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services (AWS Certification)",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/databases/amazon-rds.md",
+      "skos:altLabel": [
+        "Amazon RDS",
+        "RDS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:purpose-built-databases"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-aurora"
+        },
+        {
+          "@id": "kt:rds-proxy"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:rds-quotas"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:database-savings-plans"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cloudformation",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS CloudFormation",

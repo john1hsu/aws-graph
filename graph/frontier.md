@@ -18,6 +18,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-redshift` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:amazon-route-53` | `kt:disaster-recovery-strategies`, `kt:amazon-cloudfront` |
 | `kt:amazon-sagemaker-ai` | `kt:amazon-bedrock`, `kt:aws-certified-ai-practitioner` |
+| `kt:availability-zones` | `kt:amazon-rds`, `kt:aws-regions` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
@@ -31,16 +32,17 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:edge-locations` | `kt:aws-regions`, `kt:amazon-cloudfront` |
 | `kt:elastic-load-balancing` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2-auto-scaling` |
 | `kt:iam-identity-center` | `kt:aws-organizations`, `kt:aws-iam` |
+| `kt:purpose-built-databases` | `kt:amazon-dynamodb`, `kt:amazon-rds` |
 | `kt:reliability-pillar` | `kt:aws-well-architected-framework`, `kt:disaster-recovery-strategies` |
 | `kt:reserved-instances` | `kt:aws-cost-explorer`, `kt:savings-plans` |
 | `kt:service-control-policies` | `kt:amazon-bedrock`, `kt:aws-organizations` |
 | `kt:amazon-api-gateway` | `kt:aws-lambda` |
+| `kt:amazon-aurora` | `kt:amazon-rds` |
 | `kt:amazon-ecr` | `kt:amazon-ecs` |
 | `kt:amazon-efs` | `kt:amazon-s3` |
-| `kt:amazon-rds` | `kt:amazon-dynamodb` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:amazon-sqs` | `kt:aws-lambda` |
-| `kt:availability-zones` | `kt:aws-regions` |
+| `kt:amazon-vpc` | `kt:amazon-rds` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-backup` | `kt:disaster-recovery-strategies` |
@@ -70,6 +72,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
 | `kt:cloudtrail-quotas` | `kt:aws-cloudtrail` |
 | `kt:cloudwatch-quotas` | `kt:amazon-cloudwatch` |
+| `kt:database-savings-plans` | `kt:amazon-rds` |
 | `kt:dod-cloud-computing-srg-impact-levels` | `kt:aws-govcloud-us` |
 | `kt:dynamodb-global-tables` | `kt:amazon-dynamodb` |
 | `kt:dynamodb-partition-key-design` | `kt:amazon-dynamodb` |
@@ -93,7 +96,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework` |
 | `kt:organizations-quotas` | `kt:aws-organizations` |
 | `kt:permissions-boundaries` | `kt:aws-iam` |
-| `kt:purpose-built-databases` | `kt:amazon-dynamodb` |
+| `kt:rds-proxy` | `kt:amazon-rds` |
+| `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-transform-mgn` |

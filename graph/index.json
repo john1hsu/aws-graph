@@ -209,6 +209,28 @@
     ]
   },
   {
+    "id": "kt:amazon-rds",
+    "title": "Amazon Relational Database Service",
+    "aliases": [
+      "Amazon RDS",
+      "RDS"
+    ],
+    "type": "Service",
+    "domain": "databases",
+    "file": "articles/databases/amazon-rds.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+      "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html",
+      "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html",
+      "https://aws.amazon.com/rds/faqs/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/12/database-savings-plans-savings/",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-s3",
     "title": "Amazon S3",
     "aliases": [
