@@ -563,6 +563,30 @@
     ]
   },
   {
+    "id": "kt:aws-serverless-services",
+    "title": "AWS serverless services",
+    "aliases": [
+      "AWS serverless",
+      "serverless on AWS",
+      "AWS serverless portfolio"
+    ],
+    "type": "Concept",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/aws-serverless-services.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/serverless/latest/devguide/",
+      "https://docs.aws.amazon.com/decision-guides/latest/decision-guides/fargate-or-lambda.html",
+      "https://docs.aws.amazon.com/decision-guides/latest/decision-guides/sns-or-sqs-or-eventbridge.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/general-design-principles.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/optimizing-enterprise-economics-with-serverless/aws-serverless-capabilities.html",
+      "https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2025",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html"
+    ]
+  },
+  {
     "id": "kt:aws-transform-mgn",
     "title": "AWS Transform MGN",
     "aliases": [

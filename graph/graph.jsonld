@@ -2624,6 +2624,111 @@
       ]
     },
     {
+      "@id": "kt:aws-serverless-services",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS serverless services",
+      "skos:definition": "The family of AWS services you use without provisioning or managing servers, billed for what you consume and scaled automatically: compute (Lambda, Fargate), API and integration (API Gateway, SQS, SNS, EventBridge, Step Functions) and data (DynamoDB, S3, Aurora Serverless).",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Choosing an AWS serverless service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/serverless/latest/devguide/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Fargate or AWS Lambda?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/decision-guides/fargate-or-lambda.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SQS, Amazon SNS, or Amazon EventBridge?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/decision-guides/sns-or-sqs-or-eventbridge.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "General design principles - Serverless Applications Lens",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/general-design-principles.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS serverless capabilities - Optimizing Enterprise Economics with Serverless Architectures",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/optimizing-enterprise-economics-with-serverless/aws-serverless-capabilities.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Top announcements of AWS re:Invent 2025",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2025",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Content Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/aws-serverless-services.md",
+      "skos:altLabel": [
+        "AWS serverless",
+        "serverless on AWS",
+        "AWS serverless portfolio"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:cloud-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-api-gateway"
+        },
+        {
+          "@id": "kt:amazon-sqs"
+        },
+        {
+          "@id": "kt:aws-step-functions"
+        },
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:aws-fargate"
+        },
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-sam"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-s3",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon S3",
