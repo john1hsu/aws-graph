@@ -90,6 +90,28 @@
     ]
   },
   {
+    "id": "kt:amazon-dynamodb",
+    "title": "Amazon DynamoDB",
+    "aliases": [
+      "DynamoDB",
+      "DDB"
+    ],
+    "type": "Service",
+    "domain": "databases",
+    "file": "articles/databases/amazon-dynamodb.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.md",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Constraints.md",
+      "https://docs.aws.amazon.com/zh_cn/amazondynamodb/latest/developerguide/ServiceQuotas.md",
+      "https://aws.amazon.com/dynamodb/pricing/on-demand",
+      "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-dynamo-db-global-tables-multi-region-strong-consistency-generally-available/",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-rdbms-dynamodb/overview.html"
+    ]
+  },
+  {
     "id": "kt:amazon-ec2",
     "title": "Amazon EC2",
     "aliases": [

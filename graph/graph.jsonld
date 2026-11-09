@@ -646,6 +646,106 @@
       ]
     },
     {
+      "@id": "kt:amazon-dynamodb",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon DynamoDB",
+      "skos:definition": "AWS's serverless, fully managed, distributed NoSQL key-value and document database, designed for single-digit millisecond performance at any scale, with on-demand or provisioned capacity, ACID transactions, change streams and multi-Region global tables.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon DynamoDB?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Constraints in Amazon DynamoDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Constraints.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas in Amazon DynamoDB (Simplified Chinese edition of the developer guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/zh_cn/amazondynamodb/latest/developerguide/ServiceQuotas.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon DynamoDB pricing for on-demand capacity",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/dynamodb/pricing/on-demand",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon DynamoDB global tables with multi-Region strong consistency is now generally available",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-dynamo-db-global-tables-multi-region-strong-consistency-generally-available/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "DynamoDB overview - Modernizing your application by migrating from an RDBMS to Amazon DynamoDB",
+          "dcterms:publisher": "Amazon Web Services (AWS Prescriptive Guidance)",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-rdbms-dynamodb/overview.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/databases/amazon-dynamodb.md",
+      "skos:altLabel": [
+        "DynamoDB",
+        "DDB"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:purpose-built-databases"
+        },
+        {
+          "@id": "kt:aws-serverless-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:dynamodb-global-tables"
+        },
+        {
+          "@id": "kt:dynamodb-partition-key-design"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:dynamodb-quotas"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-rds"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-regions",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS Regions",
