@@ -746,6 +746,119 @@
       ]
     },
     {
+      "@id": "kt:aws-cloudformation",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS CloudFormation",
+      "skos:definition": "AWS's native infrastructure-as-code service: you declare resources in a JSON or YAML template and CloudFormation creates, updates and deletes them together as a stack, with change-set previews, drift handling and multi-account, multi-Region deployment through StackSets.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedOn": "2026-11-09",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Welcome - AWS CloudFormation API Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/AWSCloudFormation/latest/APIReference/Welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How CloudFormation works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understand CloudFormation quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CloudFormation pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/cloudformation/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CloudFormation accelerates dev-test cycle with early validation and simplified troubleshooting",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/cloudformation-dev-test-cycle-validation-troubleshooting",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Safely handle configuration drift with AWS CloudFormation drift-aware change sets",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/configuration-drift-enhanced-cloudformation-sets",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS CloudFormation 2025 year in review",
+          "dcterms:publisher": "Amazon Web Services (AWS DevOps & Developer Productivity Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/devops/aws-cloudformation-2025-year-in-review",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Reference stack outputs across accounts and Regions with AWS CloudFormation and CDK",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-cloudformation-cdk-stack/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation express mode",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Configure and perform CDK stack synthesis",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cdk/v2/guide/configure-synth.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/aws-cloudformation.md",
+      "skos:altLabel": [
+        "CloudFormation",
+        "CFN"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:infrastructure-as-code"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-cdk"
+        },
+        {
+          "@id": "kt:cloudformation-drift-detection"
+        },
+        {
+          "@id": "kt:aws-control-tower"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:cloudformation-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-regions",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS Regions",

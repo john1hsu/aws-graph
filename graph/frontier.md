@@ -36,11 +36,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-sqs` | `kt:aws-lambda` |
 | `kt:availability-zones` | `kt:aws-regions` |
 | `kt:aws-account-management` | `kt:aws-regions` |
+| `kt:aws-cdk` | `kt:aws-cloudformation` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:aws-certified-ai-practitioner` |
 | `kt:aws-certified-solutions-architect-associate` | `kt:aws-iam` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework` |
 | `kt:aws-container-services` | `kt:amazon-ecs` |
+| `kt:aws-control-tower` | `kt:aws-cloudformation` |
 | `kt:aws-global-infrastructure` | `kt:aws-regions` |
 | `kt:aws-glue` | `kt:amazon-athena` |
 | `kt:aws-lake-formation` | `kt:amazon-athena` |
@@ -53,6 +55,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-waf` | `kt:amazon-cloudfront` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework` |
+| `kt:cloudformation-drift-detection` | `kt:aws-cloudformation` |
+| `kt:cloudformation-quotas` | `kt:aws-cloudformation` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
 | `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
 | `kt:cloudtrail-quotas` | `kt:aws-cloudtrail` |
@@ -67,6 +71,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:iam-identity-center` | `kt:aws-iam` |
 | `kt:iam-policy-evaluation-logic` | `kt:aws-iam` |
 | `kt:iam-quotas` | `kt:aws-iam` |
+| `kt:infrastructure-as-code` | `kt:aws-cloudformation` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |
 | `kt:on-demand-capacity-reservations` | `kt:savings-plans` |
 | `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework` |

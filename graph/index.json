@@ -207,6 +207,32 @@
     ]
   },
   {
+    "id": "kt:aws-cloudformation",
+    "title": "AWS CloudFormation",
+    "aliases": [
+      "CloudFormation",
+      "CFN"
+    ],
+    "type": "Service",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/aws-cloudformation.md",
+    "created": "2026-11-09",
+    "verified": "2026-11-09",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/fr_fr/AWSCloudFormation/latest/APIReference/Welcome.html",
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-overview.html",
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html",
+      "https://aws.amazon.com/cloudformation/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/cloudformation-dev-test-cycle-validation-troubleshooting",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/configuration-drift-enhanced-cloudformation-sets",
+      "https://aws.amazon.com/blogs/devops/aws-cloudformation-2025-year-in-review",
+      "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-cloudformation-cdk-stack/",
+      "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
+      "https://docs.aws.amazon.com/cdk/v2/guide/configure-synth.html"
+    ]
+  },
+  {
     "id": "kt:aws-cloudtrail",
     "title": "AWS CloudTrail",
     "aliases": [
