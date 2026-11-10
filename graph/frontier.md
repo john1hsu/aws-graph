@@ -5,17 +5,17 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
+| `kt:amazon-api-gateway` | `kt:aws-certified-developer-associate`, `kt:aws-sam`, `kt:aws-lambda`, `kt:aws-serverless-services` |
+| `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-developer-associate`, `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:elastic-load-balancing`, `kt:aws-lambda` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:edge-locations` | `kt:aws-global-infrastructure`, `kt:aws-regions`, `kt:amazon-cloudfront`, `kt:aws-networking-and-content-delivery` |
 | `kt:reserved-instances` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:savings-plans`, `kt:amazon-aurora` |
-| `kt:amazon-api-gateway` | `kt:aws-sam`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:amazon-ecr` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-cdk` |
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue` |
 | `kt:amazon-sns` | `kt:aws-budgets`, `kt:amazon-eventbridge`, `kt:amazon-eventbridge` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-backup` | `kt:disaster-recovery-strategies`, `kt:amazon-ebs`, `kt:amazon-efs` |
-| `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-control-tower`, `kt:aws-cloudtrail` |
 | `kt:aws-container-services` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
 | `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch`, `kt:aws-control-tower`, `kt:aws-organizations` |

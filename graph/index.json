@@ -641,6 +641,28 @@
     ]
   },
   {
+    "id": "kt:aws-certified-developer-associate",
+    "title": "AWS Certified Developer - Associate",
+    "aliases": [
+      "DVA-C02",
+      "DVA-C03",
+      "AWS Developer Associate",
+      "AWS DVA"
+    ],
+    "type": "Certification",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certified-developer-associate.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/pdfs/aws-certification/latest/developer-associate-02/developer-associate-02.pdf",
+      "https://aws.amazon.com/certification/certified-developer-associate",
+      "https://aws.amazon.com/certification/recertification/?nc1=h_ls",
+      "https://aws.amazon.com/blogs/training-and-certification/september-2026-new-offerings/"
+    ]
+  },
+  {
     "id": "kt:aws-certified-solutions-architect-associate",
     "title": "AWS Certified Solutions Architect - Associate",
     "aliases": [

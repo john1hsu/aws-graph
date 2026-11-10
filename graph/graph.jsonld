@@ -1264,6 +1264,79 @@
       ]
     },
     {
+      "@id": "kt:aws-certified-developer-associate",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "AWS Certified Developer - Associate",
+      "skos:definition": "AWS's associate-level certification for people in a developer role, validating the ability to develop, test, deploy and debug cloud applications with AWS services, SDKs and CI/CD; exam DVA-C02 is replaced by DVA-C03 from December 1, 2026.",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Certified Developer - Associate (DVA-C02) Exam Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/aws-certification/latest/developer-associate-02/developer-associate-02.pdf",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certified Developer - Associate",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/certified-developer-associate",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certification Recertification",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/recertification/?nc1=h_ls",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification updates from AWS Training and Certification: September 2026",
+          "dcterms:publisher": "Amazon Web Services (AWS Training and Certification Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/training-and-certification/september-2026-new-offerings/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-certified-developer-associate.md",
+      "skos:altLabel": [
+        "DVA-C02",
+        "DVA-C03",
+        "AWS Developer Associate",
+        "AWS DVA"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        },
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-dynamodb"
+        },
+        {
+          "@id": "kt:aws-sam"
+        },
+        {
+          "@id": "kt:amazon-api-gateway"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-solutions-architect-associate",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified Solutions Architect - Associate",
