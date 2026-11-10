@@ -4,14 +4,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:elastic-load-balancing` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2-auto-scaling`, `kt:amazon-eks`, `kt:availability-zones`, `kt:amazon-route-53` |
+| `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:elastic-load-balancing`, `kt:aws-lambda` |
 | `kt:aws-global-infrastructure` | `kt:availability-zones`, `kt:aws-partitions`, `kt:aws-regions`, `kt:aws-govcloud-us` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-ecr` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-cdk` |
 | `kt:amazon-eventbridge` | `kt:aws-transform-mgn`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-solutions-architect-associate` |
-| `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-lambda` |
 | `kt:aws-container-services` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
+| `kt:aws-networking-and-content-delivery` | `kt:elastic-load-balancing`, `kt:amazon-cloudfront`, `kt:amazon-route-53` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:spot-instances` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:savings-plans` |
 | `kt:amazon-api-gateway` | `kt:aws-lambda`, `kt:aws-serverless-services` |
@@ -30,10 +30,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-lake-formation` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch`, `kt:aws-organizations` |
 | `kt:aws-migration-and-transfer-services` | `kt:aws-database-migration-service`, `kt:aws-transform-mgn` |
-| `kt:aws-networking-and-content-delivery` | `kt:amazon-cloudfront`, `kt:amazon-route-53` |
 | `kt:aws-sam` | `kt:aws-cdk`, `kt:aws-serverless-services` |
 | `kt:aws-step-functions` | `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-storage-services` | `kt:amazon-ebs`, `kt:amazon-s3` |
+| `kt:aws-waf` | `kt:elastic-load-balancing`, `kt:amazon-cloudfront` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
@@ -52,6 +52,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-guardduty` | `kt:aws-security-services` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
+| `kt:application-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-analytics-services` | `kt:amazon-kinesis-data-streams` |
 | `kt:aws-artifact` | `kt:fedramp-on-aws` |
@@ -72,7 +73,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-sts` | `kt:aws-iam` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-transform` | `kt:aws-transform-mgn` |
-| `kt:aws-waf` | `kt:amazon-cloudfront` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:cloud-security` | `kt:aws-security-services` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
@@ -93,8 +93,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ecs-quotas` | `kt:amazon-ecs` |
 | `kt:eks-auto-mode` | `kt:amazon-eks` |
 | `kt:eks-quotas` | `kt:amazon-eks` |
+| `kt:elb-quotas` | `kt:elastic-load-balancing` |
 | `kt:event-driven-architecture` | `kt:aws-serverless-services` |
 | `kt:fargate-quotas` | `kt:aws-fargate` |
+| `kt:gateway-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:glue-quotas` | `kt:aws-glue` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
 | `kt:iam-policy-evaluation-logic` | `kt:aws-iam` |
@@ -106,6 +108,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:local-zones` | `kt:availability-zones` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:multi-account-strategy` | `kt:aws-organizations` |
+| `kt:network-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:nist-sp-800-53` | `kt:fedramp-on-aws` |
 | `kt:on-demand-capacity-reservations` | `kt:savings-plans` |
 | `kt:organizations-quotas` | `kt:aws-organizations` |

@@ -1254,6 +1254,112 @@
       ]
     },
     {
+      "@id": "kt:elastic-load-balancing",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Elastic Load Balancing",
+      "skos:definition": "The AWS service that spreads incoming traffic across healthy targets (EC2 instances, containers, IP addresses, Lambda functions or appliances) in one or more Availability Zones, offered as Application, Network and Gateway Load Balancers plus the previous-generation Classic Load Balancer.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Elastic Load Balancing User Guide (PDF)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/elb-ug.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Elastic Load Balancing features",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/elasticloadbalancing/details",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for your Application Load Balancers - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Elastic Load Balancing pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/elasticloadbalancing/classicloadbalancer/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Document history for Application Load Balancers",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/doc-history.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/compute/elastic-load-balancing.md",
+      "skos:altLabel": [
+        "ELB",
+        "AWS Elastic Load Balancing"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compute-services"
+        },
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:availability-zones"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:application-load-balancer"
+        },
+        {
+          "@id": "kt:network-load-balancer"
+        },
+        {
+          "@id": "kt:gateway-load-balancer"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        },
+        {
+          "@id": "kt:amazon-route-53"
+        },
+        {
+          "@id": "kt:amazon-ecs"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-waf"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:elb-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-ecs",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Elastic Container Service",

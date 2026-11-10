@@ -1032,6 +1032,36 @@
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2000/01/rdf-schema#label> "Elastic Load Balancing" .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Elastic Load Balancing" .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2004/02/skos/core#altLabel> "ELB" .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compute-services> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2004/02/skos/core#definition> "The AWS service that spreads incoming traffic across healthy targets (EC2 instances, containers, IP addresses, Lambda functions or appliances) in one or more Availability Zones, offered as Application, Network and Gateway Load Balancers plus the previous-generation Classic Load Balancer." .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elastic Load Balancing" .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/application-load-balancer> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/gateway-load-balancer> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/network-load-balancer> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s2> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s3> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s4> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s5> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#domain> "compute" .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/elb-quotas> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ComplianceProgram> .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "FedRAMP on AWS" .
@@ -2474,6 +2504,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s5> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <http://purl.org/dc/terms/title> "Elastic Load Balancing User Guide (PDF)" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/elb-ug.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s2> <http://purl.org/dc/terms/title> "Elastic Load Balancing features" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s2> <https://schema.org/url> "https://aws.amazon.com/elasticloadbalancing/details" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s3> <http://purl.org/dc/terms/title> "Quotas for your Application Load Balancers - Elastic Load Balancing" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s3> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s4> <http://purl.org/dc/terms/title> "Elastic Load Balancing pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s4> <https://schema.org/url> "https://aws.amazon.com/elasticloadbalancing/classicloadbalancer/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s5> <http://purl.org/dc/terms/title> "Document history for Application Load Balancers" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s5> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/doc-history.html" .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s1> <http://purl.org/dc/terms/title> "FedRAMP - Amazon Web Services (AWS)" .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

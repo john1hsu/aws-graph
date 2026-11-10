@@ -925,6 +925,27 @@
     ]
   },
   {
+    "id": "kt:elastic-load-balancing",
+    "title": "Elastic Load Balancing",
+    "aliases": [
+      "ELB",
+      "AWS Elastic Load Balancing"
+    ],
+    "type": "Service",
+    "domain": "compute",
+    "file": "articles/compute/elastic-load-balancing.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/elb-ug.pdf",
+      "https://aws.amazon.com/elasticloadbalancing/details",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.html",
+      "https://aws.amazon.com/elasticloadbalancing/classicloadbalancer/pricing",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/doc-history.html"
+    ]
+  },
+  {
     "id": "kt:fedramp-on-aws",
     "title": "FedRAMP on AWS",
     "aliases": [
