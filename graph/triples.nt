@@ -286,6 +286,39 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EventBridge" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS EventBridge" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon CloudWatch Events" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2004/02/skos/core#altLabel> "CloudWatch Events" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2004/02/skos/core#altLabel> "EventBridge" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2004/02/skos/core#definition> "AWS's serverless event router, the evolution of CloudWatch Events: event buses receive events from AWS services, SaaS partners and your own applications and route them to targets, while Pipes connect one source to one target and Scheduler runs one-time or recurring invocations." .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EventBridge" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sns> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-step-functions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s9> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-sns> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/eventbridge-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Kinesis Data Streams" .
@@ -1554,6 +1587,51 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s1> <http://purl.org/dc/terms/title> "What Is Amazon EventBridge?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s1> <https://schema.org/url> "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s2> <http://purl.org/dc/terms/title> "EventBridge is the evolution of Amazon CloudWatch Events" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s2> <https://schema.org/url> "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-cwe-now-eb.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s3> <http://purl.org/dc/terms/title> "Amazon EventBridge quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s3> <https://schema.org/url> "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-quota.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s4> <http://purl.org/dc/terms/title> "Quotas for Amazon EventBridge Scheduler" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s4> <https://schema.org/url> "https://docs.aws.amazon.com/scheduler/latest/UserGuide/scheduler-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s5> <http://purl.org/dc/terms/title> "Amazon EventBridge pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s5> <https://schema.org/url> "https://aws.amazon.com/eventbridge/pricing/?nc1=h_ls" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s6> <http://purl.org/dc/terms/title> "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s7> <http://purl.org/dc/terms/title> "Amazon SQS, Amazon SNS, or Amazon EventBridge?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s7> <https://schema.org/url> "https://docs.aws.amazon.com/decision-guides/latest/sns-or-sqs-or-eventbridge/sns-or-sqs-or-eventbridge.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s8> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s8> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s9> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://purl.org/dc/terms/title> "What is Amazon Kinesis Data Streams? - Amazon Kinesis Data Streams" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

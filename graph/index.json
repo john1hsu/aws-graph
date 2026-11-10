@@ -259,6 +259,33 @@
     ]
   },
   {
+    "id": "kt:amazon-eventbridge",
+    "title": "Amazon EventBridge",
+    "aliases": [
+      "EventBridge",
+      "Amazon CloudWatch Events",
+      "CloudWatch Events",
+      "AWS EventBridge"
+    ],
+    "type": "Service",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/amazon-eventbridge.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.md",
+      "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-cwe-now-eb.md",
+      "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-quota.html",
+      "https://docs.aws.amazon.com/scheduler/latest/UserGuide/scheduler-quotas.html",
+      "https://aws.amazon.com/eventbridge/pricing/?nc1=h_ls",
+      "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
+      "https://docs.aws.amazon.com/decision-guides/latest/sns-or-sqs-or-eventbridge/sns-or-sqs-or-eventbridge.html",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-kinesis-data-streams",
     "title": "Amazon Kinesis Data Streams",
     "aliases": [

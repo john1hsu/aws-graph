@@ -3880,6 +3880,131 @@
       ]
     },
     {
+      "@id": "kt:amazon-eventbridge",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon EventBridge",
+      "skos:definition": "AWS's serverless event router, the evolution of CloudWatch Events: event buses receive events from AWS services, SaaS partners and your own applications and route them to targets, while Pipes connect one source to one target and Scheduler runs one-time or recurring invocations.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is Amazon EventBridge?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "EventBridge is the evolution of Amazon CloudWatch Events",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-cwe-now-eb.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EventBridge quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-quota.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for Amazon EventBridge Scheduler",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/scheduler/latest/UserGuide/scheduler-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EventBridge pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/eventbridge/pricing/?nc1=h_ls",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon SQS, Amazon SNS, or Amazon EventBridge?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/sns-or-sqs-or-eventbridge/sns-or-sqs-or-eventbridge.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/amazon-eventbridge.md",
+      "skos:altLabel": [
+        "EventBridge",
+        "Amazon CloudWatch Events",
+        "CloudWatch Events",
+        "AWS EventBridge"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-serverless-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-sqs"
+        },
+        {
+          "@id": "kt:amazon-sns"
+        },
+        {
+          "@id": "kt:aws-step-functions"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-sns"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:eventbridge-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        },
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-lambda",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Lambda",
