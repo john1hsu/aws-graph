@@ -3301,6 +3301,115 @@
       ]
     },
     {
+      "@id": "kt:aws-security-services",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS security services",
+      "skos:definition": "The family of AWS services for securing workloads in the customer's half of the shared responsibility model, which AWS groups into data protection, identity and access management, network and application protection, threat detection and continuous monitoring, and compliance and data privacy.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Appendix: AWS security, identity, and compliance services - AWS Security Reference Architecture",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/appendix.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Security OU - Security Tooling account - AWS Security Reference Architecture",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/security-tooling.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The management account, trusted access, and delegated administrators - AWS Security Reference Architecture",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/management-account.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design principles - Security pillar - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-design.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Security and compliance - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/security-and-compliance.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Security Hub now generally available with near real-time analytics and risk prioritization",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/aws/aws-security-hub-now-generally-available-with-near-real-time-analytics-and-risk-prioritization/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS launches AI-enhanced security innovations at re:Invent 2025",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/security/aws-launches-ai-enhanced-security-innovations-at-reinvent-2025",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Content Domain 2: Security and Compliance - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security/aws-security-services.md",
+      "skos:altLabel": [
+        "AWS Security",
+        "Identity",
+        "and Compliance",
+        "AWS security",
+        "identity and compliance services",
+        "security services on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:cloud-security"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:aws-kms"
+        },
+        {
+          "@id": "kt:aws-cloudtrail"
+        },
+        {
+          "@id": "kt:aws-security-hub"
+        },
+        {
+          "@id": "kt:amazon-guardduty"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:security-pillar"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-lambda",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Lambda",

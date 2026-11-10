@@ -730,6 +730,34 @@
     ]
   },
   {
+    "id": "kt:aws-security-services",
+    "title": "AWS security services",
+    "aliases": [
+      "AWS Security",
+      "Identity",
+      "and Compliance",
+      "AWS security",
+      "identity and compliance services",
+      "security services on AWS"
+    ],
+    "type": "Concept",
+    "domain": "security",
+    "file": "articles/security/aws-security-services.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/appendix.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/security-tooling.md",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/management-account.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-design.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/security-and-compliance.md",
+      "https://aws.amazon.com/blogs/aws/aws-security-hub-now-generally-available-with-near-real-time-analytics-and-risk-prioritization/",
+      "https://aws.amazon.com/blogs/security/aws-launches-ai-enhanced-security-innovations-at-reinvent-2025",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html"
+    ]
+  },
+  {
     "id": "kt:aws-serverless-services",
     "title": "AWS serverless services",
     "aliases": [

@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:aws-security-services` | `kt:aws-iam`, `kt:iam-identity-center`, `kt:fedramp-on-aws`, `kt:aws-cloudtrail`, `kt:aws-kms` |
 | `kt:amazon-eks` | `kt:aws-glue`, `kt:amazon-ecs`, `kt:aws-fargate`, `kt:aws-fargate` |
 | `kt:aws-certified-solutions-architect-associate` | `kt:disaster-recovery-strategies`, `kt:aws-certified-cloud-practitioner`, `kt:aws-iam`, `kt:iam-identity-center` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
@@ -46,10 +45,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:purpose-built-databases` | `kt:amazon-dynamodb`, `kt:amazon-rds` |
 | `kt:reliability-pillar` | `kt:aws-well-architected-framework`, `kt:disaster-recovery-strategies` |
 | `kt:reserved-instances` | `kt:aws-cost-explorer`, `kt:savings-plans` |
+| `kt:security-pillar` | `kt:aws-well-architected-framework`, `kt:aws-security-services` |
 | `kt:service-control-policies` | `kt:amazon-bedrock`, `kt:aws-organizations` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-database-migration-service`, `kt:aws-transform-mgn` |
 | `kt:amazon-aurora` | `kt:amazon-rds` |
 | `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams` |
+| `kt:amazon-guardduty` | `kt:aws-security-services` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:amazon-vpc` | `kt:amazon-rds` |
@@ -68,11 +69,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us` |
 | `kt:aws-secrets-manager` | `kt:aws-kms` |
+| `kt:aws-security-hub` | `kt:aws-security-services` |
 | `kt:aws-sts` | `kt:aws-iam` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-transform` | `kt:aws-transform-mgn` |
 | `kt:aws-waf` | `kt:amazon-cloudfront` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
+| `kt:cloud-security` | `kt:aws-security-services` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
 | `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
 | `kt:cloudtrail-quotas` | `kt:aws-cloudtrail` |
@@ -112,5 +115,4 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:sagemaker-ai-quotas` | `kt:amazon-sagemaker-ai` |
-| `kt:security-pillar` | `kt:aws-well-architected-framework` |
 | `kt:shared-responsibility-model` | `kt:aws-certified-cloud-practitioner` |
