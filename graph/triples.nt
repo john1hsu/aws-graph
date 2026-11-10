@@ -872,6 +872,34 @@
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/2000/01/rdf-schema#label> "AWS networking and content delivery" .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Networking and Content Delivery" .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS networking services" .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/2004/02/skos/core#altLabel> "networking and content delivery services on AWS" .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/2004/02/skos/core#definition> "The category of AWS services that build private networks in the cloud, connect them to each other and to on-premises sites, route and accelerate traffic at the edge, and secure it, from Amazon VPC and Transit Gateway to CloudFront, Route 53, Direct Connect and Elastic Load Balancing." .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS networking and content delivery" .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/edge-locations> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Organizations" .
@@ -2370,6 +2398,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s9> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s1> <http://purl.org/dc/terms/title> "Networking and content delivery - Overview of Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/networking-services.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s2> <http://purl.org/dc/terms/title> "Choosing an AWS networking and content delivery service - AWS Decision Guides" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s2> <https://schema.org/url> "https://docs.aws.amazon.com/decision-guides/latest/networking-on-aws-how-to-choose/choosing-networking-and-content-delivery-service.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s3> <http://purl.org/dc/terms/title> "Networking and Content Delivery on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s3> <https://schema.org/url> "https://aws.amazon.com/networking/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s4> <http://purl.org/dc/terms/title> "Migrating from AWS App Mesh to Amazon VPC Lattice" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/containers/migrating-from-aws-app-mesh-to-amazon-vpc-lattice/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s5> <http://purl.org/dc/terms/title> "Content Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s5> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s6> <http://purl.org/dc/terms/title> "AWS Weekly Roundup: AWS re:Invent keynote recap, on-demand videos, and more (December 8, 2025)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-reinvent-keynote-recap-on-demand-videos-and-more-december-8-2025" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s7> <http://purl.org/dc/terms/title> "Top announcements of AWS re:Invent 2025" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s7> <https://schema.org/url> "https://aws.amazon.com/fr/blogs/aws/top-announcements-of-aws-reinvent-2025" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s1> <http://purl.org/dc/terms/title> "What is AWS Organizations?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

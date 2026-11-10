@@ -3492,6 +3492,104 @@
       ]
     },
     {
+      "@id": "kt:aws-networking-and-content-delivery",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS networking and content delivery",
+      "skos:definition": "The category of AWS services that build private networks in the cloud, connect them to each other and to on-premises sites, route and accelerate traffic at the edge, and secure it, from Amazon VPC and Transit Gateway to CloudFront, Route 53, Direct Connect and Elastic Load Balancing.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Networking and content delivery - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/networking-services.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing an AWS networking and content delivery service - AWS Decision Guides",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/networking-on-aws-how-to-choose/choosing-networking-and-content-delivery-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Networking and Content Delivery on AWS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/networking/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Migrating from AWS App Mesh to Amazon VPC Lattice",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/containers/migrating-from-aws-app-mesh-to-amazon-vpc-lattice/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Content Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Weekly Roundup: AWS re:Invent keynote recap, on-demand videos, and more (December 8, 2025)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-reinvent-keynote-recap-on-demand-videos-and-more-december-8-2025",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Top announcements of AWS re:Invent 2025",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/fr/blogs/aws/top-announcements-of-aws-reinvent-2025",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/aws-networking-and-content-delivery.md",
+      "skos:altLabel": [
+        "AWS Networking and Content Delivery",
+        "AWS networking services",
+        "networking and content delivery services on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-security-services"
+        },
+        {
+          "@id": "kt:edge-locations"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:amazon-cloudfront"
+        },
+        {
+          "@id": "kt:amazon-route-53"
+        },
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:aws-direct-connect"
+        },
+        {
+          "@id": "kt:aws-transit-gateway"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-govcloud-us",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS GovCloud (US)",

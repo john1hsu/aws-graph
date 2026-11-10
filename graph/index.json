@@ -779,6 +779,30 @@
     ]
   },
   {
+    "id": "kt:aws-networking-and-content-delivery",
+    "title": "AWS networking and content delivery",
+    "aliases": [
+      "AWS Networking and Content Delivery",
+      "AWS networking services",
+      "networking and content delivery services on AWS"
+    ],
+    "type": "Concept",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/aws-networking-and-content-delivery.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/networking-services.md",
+      "https://docs.aws.amazon.com/decision-guides/latest/networking-on-aws-how-to-choose/choosing-networking-and-content-delivery-service.html",
+      "https://aws.amazon.com/networking/",
+      "https://aws.amazon.com/blogs/containers/migrating-from-aws-app-mesh-to-amazon-vpc-lattice/",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+      "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-reinvent-keynote-recap-on-demand-videos-and-more-december-8-2025",
+      "https://aws.amazon.com/fr/blogs/aws/top-announcements-of-aws-reinvent-2025"
+    ]
+  },
+  {
     "id": "kt:aws-organizations",
     "title": "AWS Organizations",
     "aliases": [
