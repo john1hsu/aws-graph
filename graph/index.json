@@ -405,6 +405,30 @@
     ]
   },
   {
+    "id": "kt:amazon-redshift",
+    "title": "Amazon Redshift",
+    "aliases": [
+      "Redshift",
+      "AWS Redshift",
+      "Redshift Serverless",
+      "Amazon Redshift Serverless"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/amazon-redshift.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/redshift/faqs/",
+      "https://aws.amazon.com/redshift/pricing/",
+      "https://docs.aws.amazon.com/redshift/latest/mgmt/serverless-capacity.html",
+      "https://docs.aws.amazon.com/redshift/latest/mgmt/amazon-redshift-limits.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-rg-instances-powered-by-graviton/",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-route-53",
     "title": "Amazon Route 53",
     "aliases": [

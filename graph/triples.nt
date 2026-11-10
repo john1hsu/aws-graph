@@ -461,6 +461,35 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Redshift" .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Redshift" .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Redshift Serverless" .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/2004/02/skos/core#altLabel> "Redshift Serverless" .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/2004/02/skos/core#altLabel> "Redshift" .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed, massively parallel cloud data warehouse for SQL analytics, offered as provisioned clusters (RG and RA3 nodes on Redshift Managed Storage) or as Redshift Serverless billed per RPU-hour." .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Redshift" .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-aurora> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-emr> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/redshift-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-redshift> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-route-53> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Route 53" .
@@ -2086,6 +2115,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s1> <http://purl.org/dc/terms/title> "Amazon Redshift FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s1> <https://schema.org/url> "https://aws.amazon.com/redshift/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s2> <http://purl.org/dc/terms/title> "Amazon Redshift Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s2> <https://schema.org/url> "https://aws.amazon.com/redshift/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s3> <http://purl.org/dc/terms/title> "Compute capacity for Amazon Redshift Serverless" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s3> <https://schema.org/url> "https://docs.aws.amazon.com/redshift/latest/mgmt/serverless-capacity.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s4> <http://purl.org/dc/terms/title> "Quotas and limits in Amazon Redshift" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s4> <https://schema.org/url> "https://docs.aws.amazon.com/redshift/latest/mgmt/amazon-redshift-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s5> <http://purl.org/dc/terms/title> "Amazon Redshift launches RG instances powered by AWS Graviton" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-rg-instances-powered-by-graviton/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s6> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-redshift/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s1> <http://purl.org/dc/terms/title> "Choosing a routing policy - Amazon Route 53" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-route-53/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

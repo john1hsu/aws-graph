@@ -570,6 +570,108 @@
       ]
     },
     {
+      "@id": "kt:amazon-redshift",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Redshift",
+      "skos:definition": "AWS's fully managed, massively parallel cloud data warehouse for SQL analytics, offered as provisioned clusters (RG and RA3 nodes on Redshift Managed Storage) or as Redshift Serverless billed per RPU-hour.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon Redshift FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/redshift/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Redshift Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/redshift/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Compute capacity for Amazon Redshift Serverless",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/redshift/latest/mgmt/serverless-capacity.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and limits in Amazon Redshift",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/redshift/latest/mgmt/amazon-redshift-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Redshift launches RG instances powered by AWS Graviton",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-rg-instances-powered-by-graviton/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/analytics/amazon-redshift.md",
+      "skos:altLabel": [
+        "Redshift",
+        "AWS Redshift",
+        "Redshift Serverless",
+        "Amazon Redshift Serverless"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-analytics-services"
+        },
+        {
+          "@id": "kt:data-lake-on-aws"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-glue"
+        },
+        {
+          "@id": "kt:amazon-aurora"
+        },
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-athena"
+        },
+        {
+          "@id": "kt:amazon-emr"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:redshift-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-glue",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Glue",
