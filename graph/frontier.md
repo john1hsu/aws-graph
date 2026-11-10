@@ -4,15 +4,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:availability-zones` | `kt:reliability-pillar`, `kt:amazon-rds`, `kt:aws-regions`, `kt:amazon-ebs` |
-| `kt:elastic-load-balancing` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2-auto-scaling`, `kt:amazon-eks`, `kt:amazon-route-53` |
+| `kt:elastic-load-balancing` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2-auto-scaling`, `kt:amazon-eks`, `kt:availability-zones`, `kt:amazon-route-53` |
+| `kt:aws-global-infrastructure` | `kt:availability-zones`, `kt:aws-partitions`, `kt:aws-regions`, `kt:aws-govcloud-us` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-ecr` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-cdk` |
 | `kt:amazon-eventbridge` | `kt:aws-transform-mgn`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-lambda` |
 | `kt:aws-container-services` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
-| `kt:aws-global-infrastructure` | `kt:aws-partitions`, `kt:aws-regions`, `kt:aws-govcloud-us` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:spot-instances` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:savings-plans` |
 | `kt:amazon-api-gateway` | `kt:aws-lambda`, `kt:aws-serverless-services` |
@@ -47,6 +46,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:security-pillar` | `kt:aws-well-architected-framework`, `kt:aws-security-services` |
 | `kt:service-control-policies` | `kt:amazon-bedrock`, `kt:aws-organizations` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-database-migration-service`, `kt:aws-transform-mgn` |
+| `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-aurora` | `kt:amazon-rds` |
 | `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-guardduty` | `kt:aws-security-services` |
@@ -103,6 +103,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
 | `kt:kms-quotas` | `kt:aws-kms` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |
+| `kt:local-zones` | `kt:availability-zones` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:multi-account-strategy` | `kt:aws-organizations` |
 | `kt:nist-sp-800-53` | `kt:fedramp-on-aws` |

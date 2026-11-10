@@ -374,6 +374,34 @@
     ]
   },
   {
+    "id": "kt:availability-zones",
+    "title": "Availability Zones",
+    "aliases": [
+      "Availability Zone",
+      "AWS Availability Zones",
+      "AZ",
+      "AZs",
+      "AZ ID"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/availability-zones.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/availability-zones.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/zonal-services.html",
+      "https://docs.aws.amazon.com/ram/latest/userguide/working-with-az-ids",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_multiaz_region_system.html",
+      "https://docs.aws.amazon.com/r53recovery/latest/dg/arc-zonal-shift.start-cancel.md",
+      "https://aws.amazon.com/blogs/architecture/improving-performance-and-reducing-cost-using-availability-zone-affinity",
+      "https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures",
+      "https://docs.aws.amazon.com/arc-zonal-shift/latest/api/Welcome.html"
+    ]
+  },
+  {
     "id": "kt:aws-cdk",
     "title": "AWS Cloud Development Kit (AWS CDK)",
     "aliases": [

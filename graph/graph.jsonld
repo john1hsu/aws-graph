@@ -2147,6 +2147,109 @@
       ]
     },
     {
+      "@id": "kt:availability-zones",
+      "@type": "kto:InfrastructureConcept",
+      "skos:prefLabel": "Availability Zones",
+      "skos:definition": "An Availability Zone is one or more discrete data centers with independent power, cooling and networking inside an AWS Region; every Region has at least three, and spreading a workload across AZs is AWS's baseline for high availability.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Availability Zones - AWS Regions and Availability Zones",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Availability Zones - AWS Fault Isolation Boundaries (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/availability-zones.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Zonal services - AWS Fault Isolation Boundaries (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/zonal-services.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Availability Zone IDs for your AWS resources - AWS Resource Access Manager",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ram/latest/userguide/working-with-az-ids",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL10-BP01 Deploy the workload to multiple locations - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_multiaz_region_system.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Starting, updating, or canceling a zonal shift - Amazon Application Recovery Controller (ARC)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/r53recovery/latest/dg/arc-zonal-shift.start-cancel.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Improving performance and reducing cost using Availability Zone Affinity",
+          "dcterms:publisher": "Amazon Web Services (AWS Architecture Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/architecture/improving-performance-and-reducing-cost-using-availability-zone-affinity",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Overview of Data Transfer Costs for Common Architectures",
+          "dcterms:publisher": "Amazon Web Services (AWS Architecture Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Welcome - Amazon Application Recovery Controller zonal shift API Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/arc-zonal-shift/latest/api/Welcome.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/availability-zones.md",
+      "skos:altLabel": [
+        "Availability Zone",
+        "AWS Availability Zones",
+        "AZ",
+        "AZs",
+        "AZ ID"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:reliability-pillar"
+        },
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        },
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:amazon-application-recovery-controller"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:local-zones"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-partitions",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS partitions",

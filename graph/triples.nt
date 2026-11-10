@@ -413,6 +413,35 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2000/01/rdf-schema#label> "Availability Zones" .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Availability Zones" .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2004/02/skos/core#altLabel> "AZ ID" .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2004/02/skos/core#altLabel> "AZ" .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2004/02/skos/core#altLabel> "AZs" .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2004/02/skos/core#altLabel> "Availability Zone" .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2004/02/skos/core#definition> "An Availability Zone is one or more discrete data centers with independent power, cooling and networking inside an AWS Region; every Region has at least three, and spreading a workload across AZs is AWS's baseline for high availability." .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2004/02/skos/core#prefLabel> "Availability Zones" .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s1> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s2> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s3> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s4> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s5> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s6> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s7> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s8> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/local-zones> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cloud Development Kit (AWS CDK)" .
@@ -1655,6 +1684,51 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <https://schema.org/url> "https://docs.aws.amazon.com/id_id/aws-certification/latest/userguide/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s1> <http://purl.org/dc/terms/title> "AWS Availability Zones - AWS Regions and Availability Zones" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s1> <https://schema.org/url> "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-availability-zones.md" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s2> <http://purl.org/dc/terms/title> "Availability Zones - AWS Fault Isolation Boundaries (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s2> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/availability-zones.html" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s3> <http://purl.org/dc/terms/title> "Zonal services - AWS Fault Isolation Boundaries (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s3> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/zonal-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s4> <http://purl.org/dc/terms/title> "Availability Zone IDs for your AWS resources - AWS Resource Access Manager" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s4> <https://schema.org/url> "https://docs.aws.amazon.com/ram/latest/userguide/working-with-az-ids" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s5> <http://purl.org/dc/terms/title> "REL10-BP01 Deploy the workload to multiple locations - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s5> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_multiaz_region_system.html" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s6> <http://purl.org/dc/terms/title> "Starting, updating, or canceling a zonal shift - Amazon Application Recovery Controller (ARC)" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s6> <https://schema.org/url> "https://docs.aws.amazon.com/r53recovery/latest/dg/arc-zonal-shift.start-cancel.md" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Architecture Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s7> <http://purl.org/dc/terms/title> "Improving performance and reducing cost using Availability Zone Affinity" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/architecture/improving-performance-and-reducing-cost-using-availability-zone-affinity" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Architecture Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s8> <http://purl.org/dc/terms/title> "Overview of Data Transfer Costs for Common Architectures" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s8> <https://schema.org/url> "https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <http://purl.org/dc/terms/title> "Welcome - Amazon Application Recovery Controller zonal shift API Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <https://schema.org/url> "https://docs.aws.amazon.com/arc-zonal-shift/latest/api/Welcome.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <http://purl.org/dc/terms/title> "AWS Cloud Development Kit FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
