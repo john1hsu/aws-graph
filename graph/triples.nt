@@ -1267,6 +1267,35 @@
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ComplianceProgram> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2000/01/rdf-schema#label> "DoD Cloud Computing SRG impact levels" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#altLabel> "DISA impact levels" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#altLabel> "DoD CC SRG" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#altLabel> "DoD CSP SRG" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#altLabel> "DoD Cloud Service Provider SRG" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#altLabel> "DoD Impact Levels" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#altLabel> "DoD SRG impact levels" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#altLabel> "DoD provisional authorization" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#definition> "The U.S. Department of Defense scheme, run by DISA, that grades cloud offerings by the sensitivity of DoD data they may hold (IL2, IL4, IL5, IL6); on AWS, the US East/West Regions hold IL2, AWS GovCloud (US) holds IL2, IL4 and IL5, and the AWS Secret Region holds IL6, scoped per service." .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#prefLabel> "DoD Cloud Computing SRG impact levels" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-artifact> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s1> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s2> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s3> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s4> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s5> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2000/01/rdf-schema#label> "Elastic Load Balancing" .
@@ -3054,6 +3083,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s5> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s1> <http://purl.org/dc/terms/title> "DoD Cloud Service Provider Security Requirements Guide - Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s1> <https://schema.org/url> "https://aws.amazon.com/compliance/dod/" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s2> <http://purl.org/dc/terms/title> "DoD CSM FAQs - Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s2> <https://schema.org/url> "https://aws.amazon.com/compliance/dod-csm-faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s3> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: DoD CC SRG" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s3> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/DoD_CC_SRG/" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s4> <http://purl.org/dc/terms/title> "Case Study - Logical Separation on AWS (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s4> <https://schema.org/url> "https://docs.aws.amazon.com/es_es/whitepapers/latest/logical-separation/case-study.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s5> <http://purl.org/dc/terms/publisher> "Defense Information Systems Agency (DISA)" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s5> <http://purl.org/dc/terms/title> "Cloud Computing Security Requirements Guide (CC SRG) briefing" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s5> <https://schema.org/url> "https://disa.mil/-/media/Files/DISA/News/Events/Symposium/Cloud-Computing-Security-Requirements-Guide.ashx" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <http://purl.org/dc/terms/publisher> "Schellman" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <http://purl.org/dc/terms/title> "The DoD CSP SRG and DoD MO SRG" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <https://schema.org/url> "https://www.schellman.com/blog/federal-compliance/the-dod-csp-srg-and-dod-mo-srg" .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <http://purl.org/dc/terms/title> "Elastic Load Balancing User Guide (PDF)" .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

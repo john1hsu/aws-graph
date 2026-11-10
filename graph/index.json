@@ -1120,6 +1120,33 @@
     ]
   },
   {
+    "id": "kt:dod-cloud-computing-srg-impact-levels",
+    "title": "DoD Cloud Computing SRG impact levels",
+    "aliases": [
+      "DoD CC SRG",
+      "DoD CSP SRG",
+      "DoD Cloud Service Provider SRG",
+      "DoD SRG impact levels",
+      "DoD Impact Levels",
+      "DISA impact levels",
+      "DoD provisional authorization"
+    ],
+    "type": "ComplianceProgram",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/dod-cloud-computing-srg-impact-levels.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/compliance/dod/",
+      "https://aws.amazon.com/compliance/dod-csm-faqs/",
+      "https://aws.amazon.com/compliance/services-in-scope/DoD_CC_SRG/",
+      "https://docs.aws.amazon.com/es_es/whitepapers/latest/logical-separation/case-study.html",
+      "https://disa.mil/-/media/Files/DISA/News/Events/Symposium/Cloud-Computing-Security-Requirements-Guide.ashx",
+      "https://www.schellman.com/blog/federal-compliance/the-dod-csp-srg-and-dod-mo-srg"
+    ]
+  },
+  {
     "id": "kt:elastic-load-balancing",
     "title": "Elastic Load Balancing",
     "aliases": [

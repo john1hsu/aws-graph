@@ -4203,6 +4203,98 @@
       ]
     },
     {
+      "@id": "kt:dod-cloud-computing-srg-impact-levels",
+      "@type": "kto:ComplianceProgram",
+      "skos:prefLabel": "DoD Cloud Computing SRG impact levels",
+      "skos:definition": "The U.S. Department of Defense scheme, run by DISA, that grades cloud offerings by the sensitivity of DoD data they may hold (IL2, IL4, IL5, IL6); on AWS, the US East/West Regions hold IL2, AWS GovCloud (US) holds IL2, IL4 and IL5, and the AWS Secret Region holds IL6, scoped per service.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "DoD Cloud Service Provider Security Requirements Guide - Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/dod/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DoD CSM FAQs - Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/dod-csm-faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: DoD CC SRG",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/DoD_CC_SRG/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Case Study - Logical Separation on AWS (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/es_es/whitepapers/latest/logical-separation/case-study.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Cloud Computing Security Requirements Guide (CC SRG) briefing",
+          "dcterms:publisher": "Defense Information Systems Agency (DISA)",
+          "schema:url": "https://disa.mil/-/media/Files/DISA/News/Events/Symposium/Cloud-Computing-Security-Requirements-Guide.ashx",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "The DoD CSP SRG and DoD MO SRG",
+          "dcterms:publisher": "Schellman",
+          "schema:url": "https://www.schellman.com/blog/federal-compliance/the-dod-csp-srg-and-dod-mo-srg",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/dod-cloud-computing-srg-impact-levels.md",
+      "skos:altLabel": [
+        "DoD CC SRG",
+        "DoD CSP SRG",
+        "DoD Cloud Service Provider SRG",
+        "DoD SRG impact levels",
+        "DoD Impact Levels",
+        "DISA impact levels",
+        "DoD provisional authorization"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-artifact"
+        },
+        {
+          "@id": "kt:aws-direct-connect"
+        },
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        },
+        {
+          "@id": "kt:aws-secret-and-top-secret-regions"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ]
+    },
+    {
       "@id": "kt:fedramp-on-aws",
       "@type": "kto:ComplianceProgram",
       "skos:prefLabel": "FedRAMP on AWS",
