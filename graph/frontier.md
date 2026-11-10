@@ -5,11 +5,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:availability-zones` | `kt:reliability-pillar`, `kt:amazon-rds`, `kt:aws-regions`, `kt:amazon-ebs` |
-| `kt:aws-certified-solutions-architect-associate` | `kt:disaster-recovery-strategies`, `kt:aws-certified-cloud-practitioner`, `kt:aws-iam`, `kt:iam-identity-center` |
 | `kt:elastic-load-balancing` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2-auto-scaling`, `kt:amazon-eks`, `kt:amazon-route-53` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-ecr` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-cdk` |
 | `kt:amazon-eventbridge` | `kt:aws-transform-mgn`, `kt:aws-lambda`, `kt:aws-serverless-services` |
+| `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-lambda` |
 | `kt:aws-container-services` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
 | `kt:aws-global-infrastructure` | `kt:aws-partitions`, `kt:aws-regions`, `kt:aws-govcloud-us` |
@@ -21,8 +21,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:amazon-redshift` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:amazon-sqs` | `kt:aws-lambda`, `kt:aws-serverless-services` |
+| `kt:amazon-vpc` | `kt:aws-certified-solutions-architect-associate`, `kt:amazon-rds` |
 | `kt:aws-backup` | `kt:disaster-recovery-strategies`, `kt:amazon-ebs` |
-| `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
@@ -52,12 +52,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-guardduty` | `kt:aws-security-services` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
-| `kt:amazon-vpc` | `kt:amazon-rds` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-analytics-services` | `kt:amazon-kinesis-data-streams` |
 | `kt:aws-artifact` | `kt:fedramp-on-aws` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-budgets` | `kt:aws-cost-explorer` |
+| `kt:aws-certified-solutions-architect-professional` | `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-compliance-programs` | `kt:fedramp-on-aws` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
