@@ -49,9 +49,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:service-control-policies` | `kt:amazon-bedrock`, `kt:aws-organizations` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-database-migration-service`, `kt:aws-transform-mgn` |
 | `kt:amazon-aurora` | `kt:amazon-rds` |
+| `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams` |
+| `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:amazon-vpc` | `kt:amazon-rds` |
 | `kt:aws-account-management` | `kt:aws-regions` |
+| `kt:aws-analytics-services` | `kt:amazon-kinesis-data-streams` |
 | `kt:aws-artifact` | `kt:fedramp-on-aws` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-budgets` | `kt:aws-cost-explorer` |
@@ -93,6 +96,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:iam-policy-evaluation-logic` | `kt:aws-iam` |
 | `kt:iam-quotas` | `kt:aws-iam` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |
+| `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
 | `kt:kms-quotas` | `kt:aws-kms` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |

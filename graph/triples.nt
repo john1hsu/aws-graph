@@ -259,6 +259,33 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Kinesis Data Streams" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Kinesis Streams" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2004/02/skos/core#altLabel> "KDS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2004/02/skos/core#altLabel> "Kinesis Data Streams" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed, serverless service for capturing and storing real-time data streams in ordered, replayable shards, with on-demand (Standard or Advantage) and provisioned capacity modes and retention from 24 hours up to 365 days." .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Kinesis Data Streams" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/kinesis-data-streams-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Relational Database Service" .
@@ -1327,6 +1354,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://purl.org/dc/terms/title> "What is Amazon Kinesis Data Streams? - Amazon Kinesis Data Streams" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <https://schema.org/url> "https://docs.aws.amazon.com/streams/latest/dev/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s2> <http://purl.org/dc/terms/title> "Amazon Kinesis Data Streams Terminology and concepts" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s2> <https://schema.org/url> "https://docs.aws.amazon.com/streams/latest/dev/key-concepts.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s3> <http://purl.org/dc/terms/title> "Choose the data stream capacity mode - Amazon Kinesis Data Streams" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s3> <https://schema.org/url> "https://docs.aws.amazon.com/streams/latest/dev/how-do-i-size-a-stream.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s4> <http://purl.org/dc/terms/title> "Quotas and limits - Amazon Kinesis Data Streams" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s4> <https://schema.org/url> "https://docs.aws.amazon.com/streams/latest/dev/service-sizes-and-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s5> <http://purl.org/dc/terms/title> "Amazon Kinesis Data Streams pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s5> <https://schema.org/url> "https://aws.amazon.com/kinesis/data-streams/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <http://purl.org/dc/terms/title> "Amazon Kinesis Data Streams launches On-demand Advantage mode" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-kinesis-data-streams-ondemand-advantage" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s1> <http://purl.org/dc/terms/title> "What is Amazon Relational Database Service (Amazon RDS)?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

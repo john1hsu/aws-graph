@@ -235,6 +235,29 @@
     ]
   },
   {
+    "id": "kt:amazon-kinesis-data-streams",
+    "title": "Amazon Kinesis Data Streams",
+    "aliases": [
+      "Kinesis Data Streams",
+      "KDS",
+      "Amazon Kinesis Streams"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/amazon-kinesis-data-streams.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/streams/latest/dev/introduction.html",
+      "https://docs.aws.amazon.com/streams/latest/dev/key-concepts.md",
+      "https://docs.aws.amazon.com/streams/latest/dev/how-do-i-size-a-stream.html",
+      "https://docs.aws.amazon.com/streams/latest/dev/service-sizes-and-limits.html",
+      "https://aws.amazon.com/kinesis/data-streams/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-kinesis-data-streams-ondemand-advantage"
+    ]
+  },
+  {
     "id": "kt:amazon-rds",
     "title": "Amazon Relational Database Service",
     "aliases": [

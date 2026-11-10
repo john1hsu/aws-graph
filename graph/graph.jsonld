@@ -365,6 +365,106 @@
       ]
     },
     {
+      "@id": "kt:amazon-kinesis-data-streams",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Kinesis Data Streams",
+      "skos:definition": "AWS's managed, serverless service for capturing and storing real-time data streams in ordered, replayable shards, with on-demand (Standard or Advantage) and provisioned capacity modes and retention from 24 hours up to 365 days.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Kinesis Data Streams? - Amazon Kinesis Data Streams",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/streams/latest/dev/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Kinesis Data Streams Terminology and concepts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/streams/latest/dev/key-concepts.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choose the data stream capacity mode - Amazon Kinesis Data Streams",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/streams/latest/dev/how-do-i-size-a-stream.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and limits - Amazon Kinesis Data Streams",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/streams/latest/dev/service-sizes-and-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Kinesis Data Streams pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/kinesis/data-streams/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Kinesis Data Streams launches On-demand Advantage mode",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-kinesis-data-streams-ondemand-advantage",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/analytics/amazon-kinesis-data-streams.md",
+      "skos:altLabel": [
+        "Kinesis Data Streams",
+        "KDS",
+        "Amazon Kinesis Streams"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-analytics-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-data-firehose"
+        },
+        {
+          "@id": "kt:amazon-managed-service-for-apache-flink"
+        },
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:kinesis-data-streams-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-glue",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Glue",
