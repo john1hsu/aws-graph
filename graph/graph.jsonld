@@ -183,6 +183,103 @@
       ]
     },
     {
+      "@id": "kt:amazon-sagemaker-ai",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon SageMaker AI",
+      "skos:definition": "AWS's fully managed machine learning service for building, training and deploying ML and foundation models, with managed notebooks, training jobs, HyperPod clusters and several hosted inference options; called Amazon SageMaker until December 2024, when that name passed to the broader data-and-AI platform.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon SageMaker AI?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/us_en/sagemaker/latest/dg/whatis.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing the next generation of Amazon SageMaker: The center for all your data, analytics, and AI",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-sagemaker-the-center-for-all-your-data-analytics-and-ai",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Inference options in Amazon SageMaker AI",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model-options.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SageMaker AI endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/sagemaker",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SageMaker AI pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/sagemaker-ai/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock or Amazon SageMaker AI? - AWS Decision Guides",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/bedrock-or-sagemaker/bedrock-or-sagemaker.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified AI Practitioner (AIF-C01)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/id_id/aws-certification/latest/userguide/aif-01-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-sagemaker-ai.md",
+      "skos:altLabel": [
+        "SageMaker AI",
+        "SageMaker"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:generative-ai-on-aws"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:aws-certified-machine-learning-engineer-associate"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-bedrock"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:savings-plans"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:sagemaker-ai-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-athena",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Athena",

@@ -304,6 +304,29 @@
     ]
   },
   {
+    "id": "kt:amazon-sagemaker-ai",
+    "title": "Amazon SageMaker AI",
+    "aliases": [
+      "SageMaker AI",
+      "SageMaker"
+    ],
+    "type": "Service",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-sagemaker-ai.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/us_en/sagemaker/latest/dg/whatis.html",
+      "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-sagemaker-the-center-for-all-your-data-analytics-and-ai",
+      "https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model-options.html",
+      "https://docs.aws.amazon.com/general/latest/gr/sagemaker",
+      "https://aws.amazon.com/sagemaker-ai/pricing/",
+      "https://docs.aws.amazon.com/decision-guides/latest/bedrock-or-sagemaker/bedrock-or-sagemaker.html",
+      "https://docs.aws.amazon.com/id_id/aws-certification/latest/userguide/aif-01-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-cdk",
     "title": "AWS Cloud Development Kit (AWS CDK)",
     "aliases": [
