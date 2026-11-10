@@ -97,6 +97,111 @@
       ]
     },
     {
+      "@id": "kt:amazon-bedrock-knowledge-bases",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon Bedrock Knowledge Bases",
+      "skos:definition": "The managed retrieval-augmented generation (RAG) capability of Amazon Bedrock that ingests, chunks, embeds and indexes an organization's data, or queries structured stores with generated SQL, and serves relevant passages or cited, model-generated answers through the Retrieve and RetrieveAndGenerate APIs.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Retrieving information from data sources using Amazon Bedrock Knowledge Bases",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/kb-how-retrieval.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Turning data into a knowledge base",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/kb-how-data.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Knowledge bases for Amazon Bedrock - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/retrieval-augmented-generation-options/rag-fully-managed-bedrock.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using S3 Vectors with Amazon Bedrock Knowledge Bases",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-bedrock-kb.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock Managed Knowledge Base is now generally available",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-managed-knowledge-base/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Service quotas for managed knowledge bases",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/kb-managed-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/bedrock/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Content Domain 3: Applications of Foundation Models - AWS Certified AI Practitioner (AIF-C01)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-bedrock-knowledge-bases.md",
+      "skos:altLabel": [
+        "Knowledge Bases for Amazon Bedrock",
+        "Bedrock Knowledge Bases",
+        "Amazon Bedrock Managed Knowledge Base"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:generative-ai-on-aws"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-bedrock-guardrails"
+        },
+        {
+          "@id": "kt:amazon-opensearch-service"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:amazon-redshift"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-q-business"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-bedrock",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Bedrock",

@@ -92,6 +92,31 @@
     ]
   },
   {
+    "id": "kt:amazon-bedrock-knowledge-bases",
+    "title": "Amazon Bedrock Knowledge Bases",
+    "aliases": [
+      "Knowledge Bases for Amazon Bedrock",
+      "Bedrock Knowledge Bases",
+      "Amazon Bedrock Managed Knowledge Base"
+    ],
+    "type": "Feature",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-bedrock-knowledge-bases.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/kb-how-retrieval.html",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/kb-how-data.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/retrieval-augmented-generation-options/rag-fully-managed-bedrock.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-bedrock-kb.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-managed-knowledge-base/",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/kb-managed-quotas.html",
+      "https://aws.amazon.com/bedrock/pricing/",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html"
+    ]
+  },
+  {
     "id": "kt:amazon-cloudfront",
     "title": "Amazon CloudFront",
     "aliases": [

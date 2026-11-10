@@ -74,6 +74,34 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Bedrock Knowledge Bases" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Bedrock Managed Knowledge Base" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/2004/02/skos/core#altLabel> "Bedrock Knowledge Bases" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/2004/02/skos/core#altLabel> "Knowledge Bases for Amazon Bedrock" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/2004/02/skos/core#definition> "The managed retrieval-augmented generation (RAG) capability of Amazon Bedrock that ingests, chunks, embeds and indexes an organization's data, or queries structured stores with generated SQL, and serves relevant passages or cited, model-generated answers through the Retrieve and RetrieveAndGenerate APIs." .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Bedrock Knowledge Bases" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-q-business> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Bedrock" .
@@ -1563,6 +1591,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s1> <http://purl.org/dc/terms/title> "Retrieving information from data sources using Amazon Bedrock Knowledge Bases" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s1> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/kb-how-retrieval.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s2> <http://purl.org/dc/terms/title> "Turning data into a knowledge base" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s2> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/kb-how-data.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s3> <http://purl.org/dc/terms/title> "Knowledge bases for Amazon Bedrock - AWS Prescriptive Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s3> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/retrieval-augmented-generation-options/rag-fully-managed-bedrock.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s4> <http://purl.org/dc/terms/title> "Using S3 Vectors with Amazon Bedrock Knowledge Bases" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-bedrock-kb.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s5> <http://purl.org/dc/terms/title> "Amazon Bedrock Managed Knowledge Base is now generally available" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-managed-knowledge-base/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s6> <http://purl.org/dc/terms/title> "Service quotas for managed knowledge bases" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s6> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/kb-managed-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s7> <http://purl.org/dc/terms/title> "Amazon Bedrock Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s7> <https://schema.org/url> "https://aws.amazon.com/bedrock/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s8> <http://purl.org/dc/terms/title> "Content Domain 3: Applications of Foundation Models - AWS Certified AI Practitioner (AIF-C01)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-knowledge-bases/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://purl.org/dc/terms/title> "Amazon Bedrock FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
