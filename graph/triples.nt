@@ -288,6 +288,39 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EFS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS EFS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Elastic File System" .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2004/02/skos/core#altLabel> "EFS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2004/02/skos/core#altLabel> "Elastic File System" .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-storage-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2004/02/skos/core#definition> "AWS's serverless, fully elastic shared file storage: NFSv4 file systems that grow and shrink automatically, mount concurrently from EC2, containers, Lambda and on-premises servers, and tier data across Standard, Infrequent Access and Archive storage classes." .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EFS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3-files> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-backup> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-datasync> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-ebs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-fsx> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/efs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Elastic Kubernetes Service" .
@@ -1781,6 +1814,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s1> <http://purl.org/dc/terms/title> "What is Amazon Elastic File System? - Amazon Elastic File System" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s1> <https://schema.org/url> "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s2> <http://purl.org/dc/terms/title> "Amazon EFS performance specifications - Amazon Elastic File System" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s2> <https://schema.org/url> "https://docs.aws.amazon.com/efs/latest/ug/performance.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s3> <http://purl.org/dc/terms/title> "Amazon EFS quotas - Amazon Elastic File System" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s3> <https://schema.org/url> "https://docs.aws.amazon.com/efs/latest/ug/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s4> <http://purl.org/dc/terms/title> "Amazon Elastic File System (EFS) FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s4> <https://schema.org/url> "https://aws.amazon.com/efs/faq/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s5> <http://purl.org/dc/terms/title> "Amazon EFS Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s5> <https://schema.org/url> "https://aws.amazon.com/efs/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s6> <http://purl.org/dc/terms/title> "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s7> <http://purl.org/dc/terms/title> "Announcing Amazon S3 Files, making S3 buckets accessible as file systems" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s1> <http://purl.org/dc/terms/title> "What is Amazon EKS?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

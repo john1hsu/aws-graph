@@ -259,6 +259,31 @@
     ]
   },
   {
+    "id": "kt:amazon-efs",
+    "title": "Amazon EFS",
+    "aliases": [
+      "Amazon Elastic File System",
+      "EFS",
+      "AWS EFS",
+      "Elastic File System"
+    ],
+    "type": "Service",
+    "domain": "storage",
+    "file": "articles/storage/amazon-efs.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html",
+      "https://docs.aws.amazon.com/efs/latest/ug/performance.html",
+      "https://docs.aws.amazon.com/efs/latest/ug/limits.html",
+      "https://aws.amazon.com/efs/faq/",
+      "https://aws.amazon.com/efs/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/"
+    ]
+  },
+  {
     "id": "kt:amazon-eks",
     "title": "Amazon Elastic Kubernetes Service",
     "aliases": [

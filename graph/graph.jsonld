@@ -5059,6 +5059,125 @@
       ]
     },
     {
+      "@id": "kt:amazon-efs",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon EFS",
+      "skos:definition": "AWS's serverless, fully elastic shared file storage: NFSv4 file systems that grow and shrink automatically, mount concurrently from EC2, containers, Lambda and on-premises servers, and tier data across Standard, Infrequent Access and Archive storage classes.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Elastic File System? - Amazon Elastic File System",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EFS performance specifications - Amazon Elastic File System",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/efs/latest/ug/performance.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EFS quotas - Amazon Elastic File System",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/efs/latest/ug/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Elastic File System (EFS) FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/efs/faq/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EFS Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/efs/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Announcing Amazon S3 Files, making S3 buckets accessible as file systems",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/storage/amazon-efs.md",
+      "skos:altLabel": [
+        "Amazon Elastic File System",
+        "EFS",
+        "AWS EFS",
+        "Elastic File System"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-storage-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:aws-datasync"
+        },
+        {
+          "@id": "kt:aws-backup"
+        },
+        {
+          "@id": "kt:amazon-s3-files"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-ebs"
+        },
+        {
+          "@id": "kt:amazon-fsx"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:efs-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-s3",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon S3",
