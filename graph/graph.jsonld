@@ -1289,6 +1289,107 @@
       ]
     },
     {
+      "@id": "kt:amazon-eks",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Elastic Kubernetes Service",
+      "skos:definition": "AWS's managed, certified Kubernetes-conformant service: AWS runs the Kubernetes control plane and, in EKS Auto Mode, the worker nodes too, while you deploy standard Kubernetes workloads on EC2, Fargate or your own on-premises machines (Hybrid Nodes).",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon EKS?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Automate cluster infrastructure with EKS Auto Mode",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/automode.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understand the Kubernetes version lifecycle on EKS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Elastic Kubernetes Service endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/eks.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EKS pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/eks/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing an AWS container service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/containers-on-aws-how-to-choose/choosing-aws-container-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/containers/amazon-eks.md",
+      "skos:altLabel": [
+        "Amazon EKS",
+        "EKS",
+        "AWS EKS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-container-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ecr"
+        },
+        {
+          "@id": "kt:eks-auto-mode"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-ecs"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-fargate"
+        },
+        {
+          "@id": "kt:elastic-load-balancing"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:eks-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-fargate",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Fargate",

@@ -259,6 +259,33 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-ecs> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Elastic Kubernetes Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS EKS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon EKS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/2004/02/skos/core#altLabel> "EKS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-container-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed, certified Kubernetes-conformant service: AWS runs the Kubernetes control plane and, in EKS Auto Mode, the worker nodes too, while you deploy standard Kubernetes workloads on EC2, Fargate or your own on-premises machines (Hybrid Nodes)." .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Elastic Kubernetes Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ecr> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/eks-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Kinesis Data Streams" .
@@ -1412,6 +1439,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-ecs/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s1> <http://purl.org/dc/terms/title> "What is Amazon EKS?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s1> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s2> <http://purl.org/dc/terms/title> "Automate cluster infrastructure with EKS Auto Mode" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s2> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/automode.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s3> <http://purl.org/dc/terms/title> "Understand the Kubernetes version lifecycle on EKS" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s3> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s4> <http://purl.org/dc/terms/title> "Amazon Elastic Kubernetes Service endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s4> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/eks.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s5> <http://purl.org/dc/terms/title> "Amazon EKS pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s5> <https://schema.org/url> "https://aws.amazon.com/eks/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s6> <http://purl.org/dc/terms/title> "Choosing an AWS container service" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s6> <https://schema.org/url> "https://docs.aws.amazon.com/decision-guides/latest/containers-on-aws-how-to-choose/choosing-aws-container-service.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <http://purl.org/dc/terms/title> "Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://purl.org/dc/terms/title> "What is Amazon Kinesis Data Streams? - Amazon Kinesis Data Streams" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
