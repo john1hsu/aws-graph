@@ -499,6 +499,31 @@
     ]
   },
   {
+    "id": "kt:amazon-vpc",
+    "title": "Amazon VPC",
+    "aliases": [
+      "Amazon Virtual Private Cloud",
+      "VPC",
+      "AWS VPC"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/amazon-vpc.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+      "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html",
+      "https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html",
+      "https://docs.aws.amazon.com/vpc/latest/userguide/amazon-vpc-limits.html",
+      "https://aws.amazon.com/vpc/pricing/",
+      "https://aws.amazon.com/blogs/networking-and-content-delivery/vpc-block-public-access/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-vpc-encryption-controls/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:availability-zones",
     "title": "Availability Zones",
     "aliases": [

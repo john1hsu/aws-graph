@@ -4393,6 +4393,110 @@
       ]
     },
     {
+      "@id": "kt:amazon-vpc",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon VPC",
+      "skos:definition": "The AWS service for defining logically isolated virtual networks in a Region, with your own IP ranges, Availability Zone–scoped subnets, route tables, gateways, endpoints and traffic controls, into which you launch resources such as EC2 instances, databases and load balancers.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon VPC? - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "VPC CIDR blocks - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Subnet CIDR blocks - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon VPC quotas - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/userguide/amazon-vpc-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon VPC Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/vpc/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enhancing VPC Security with Amazon VPC Block Public Access",
+          "dcterms:publisher": "AWS Networking & Content Delivery Blog",
+          "schema:url": "https://aws.amazon.com/blogs/networking-and-content-delivery/vpc-block-public-access/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS VPC Encryption Controls now available in AWS GovCloud (US) Regions",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-vpc-encryption-controls/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/amazon-vpc.md",
+      "skos:altLabel": [
+        "Amazon Virtual Private Cloud",
+        "VPC",
+        "AWS VPC"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-privatelink"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:subnets-and-route-tables"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:security-groups-vs-network-acls"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:vpc-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-networking-and-content-delivery",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS networking and content delivery",

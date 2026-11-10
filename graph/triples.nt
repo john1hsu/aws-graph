@@ -565,6 +565,33 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon VPC" .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS VPC" .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/2004/02/skos/core#altLabel> "VPC" .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/2004/02/skos/core#definition> "The AWS service for defining logically isolated virtual networks in a Region, with your own IP ranges, Availability Zone–scoped subnets, route tables, gateways, endpoints and traffic controls, into which you launch resources such as EC2 instances, databases and load balancers." .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon VPC" .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-privatelink> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/vpc-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2000/01/rdf-schema#label> "Availability Zones" .
@@ -2294,6 +2321,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <https://schema.org/url> "https://docs.aws.amazon.com/id_id/aws-certification/latest/userguide/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s1> <http://purl.org/dc/terms/title> "What is Amazon VPC? - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s1> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s2> <http://purl.org/dc/terms/title> "VPC CIDR blocks - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s2> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s3> <http://purl.org/dc/terms/title> "Subnet CIDR blocks - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s3> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s4> <http://purl.org/dc/terms/title> "Amazon VPC quotas - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s4> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/userguide/amazon-vpc-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s5> <http://purl.org/dc/terms/title> "Amazon VPC Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s5> <https://schema.org/url> "https://aws.amazon.com/vpc/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s6> <http://purl.org/dc/terms/publisher> "AWS Networking & Content Delivery Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s6> <http://purl.org/dc/terms/title> "Enhancing VPC Security with Amazon VPC Block Public Access" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/networking-and-content-delivery/vpc-block-public-access/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s7> <http://purl.org/dc/terms/title> "AWS VPC Encryption Controls now available in AWS GovCloud (US) Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-vpc-encryption-controls/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s8> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s1> <http://purl.org/dc/terms/title> "AWS Availability Zones - AWS Regions and Availability Zones" .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

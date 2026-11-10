@@ -5,7 +5,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
-| `kt:amazon-vpc` | `kt:aws-certified-solutions-architect-associate`, `kt:amazon-aurora`, `kt:amazon-rds`, `kt:aws-networking-and-content-delivery` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:elastic-load-balancing`, `kt:aws-lambda` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:edge-locations` | `kt:aws-global-infrastructure`, `kt:aws-regions`, `kt:amazon-cloudfront`, `kt:aws-networking-and-content-delivery` |
@@ -39,6 +38,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-direct-connect` | `kt:aws-networking-and-content-delivery`, `kt:dod-cloud-computing-srg-impact-levels` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-lake-formation` | `kt:amazon-athena`, `kt:aws-glue` |
+| `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us`, `kt:dod-cloud-computing-srg-impact-levels` |
 | `kt:aws-waf` | `kt:elastic-load-balancing`, `kt:amazon-cloudfront` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
@@ -72,7 +72,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions` |
 | `kt:aws-outposts` | `kt:aws-global-infrastructure` |
 | `kt:aws-pricing-fundamentals` | `kt:savings-plans` |
-| `kt:aws-privatelink` | `kt:aws-datasync` |
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-secrets-manager` | `kt:aws-kms` |
 | `kt:aws-security-hub` | `kt:aws-security-services` |
@@ -127,5 +126,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:sagemaker-ai-quotas` | `kt:amazon-sagemaker-ai` |
+| `kt:security-groups-vs-network-acls` | `kt:amazon-vpc` |
 | `kt:service-quotas` | `kt:reliability-pillar` |
 | `kt:shared-responsibility-model` | `kt:aws-certified-cloud-practitioner` |
+| `kt:subnets-and-route-tables` | `kt:amazon-vpc` |
+| `kt:vpc-quotas` | `kt:amazon-vpc` |
