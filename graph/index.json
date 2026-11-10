@@ -904,6 +904,31 @@
     ]
   },
   {
+    "id": "kt:reliability-pillar",
+    "title": "Reliability Pillar",
+    "aliases": [
+      "AWS Well-Architected Reliability Pillar",
+      "Well-Architected reliability pillar",
+      "Reliability Pillar whitepaper"
+    ],
+    "type": "Concept",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/reliability-pillar.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.md",
+      "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/design-principles.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/availability.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/disaster-recovery-dr-objectives.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel-found.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_manage_service_limits_aware_quotas_and_constraints.html",
+      "https://docs.aws.amazon.com/wellarchitected/2025-02-25/framework/rel-failmgmt.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/resiliency-and-the-components-of-reliability.html"
+    ]
+  },
+  {
     "id": "kt:savings-plans",
     "title": "Savings Plans",
     "aliases": [

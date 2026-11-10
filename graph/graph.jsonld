@@ -727,6 +727,105 @@
       ]
     },
     {
+      "@id": "kt:reliability-pillar",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Reliability Pillar",
+      "skos:definition": "The pillar of the AWS Well-Architected Framework concerned with a workload performing its intended function correctly and consistently, organized into foundations, workload architecture, change management and failure management, with five design principles and availability and DR targets.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Reliability Pillar - AWS Well-Architected Framework (introduction)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design principles - Reliability Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/design-principles.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Availability - Reliability Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/availability.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Disaster Recovery (DR) objectives - Reliability Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/disaster-recovery-dr-objectives.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Foundations - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel-found.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL01-BP01 Aware of service quotas and constraints - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_manage_service_limits_aware_quotas_and_constraints.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Failure management - AWS Well-Architected Framework (2025-02-25 version)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/2025-02-25/framework/rel-failmgmt.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Resiliency, and the components of reliability - Reliability Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/resiliency-and-the-components-of-reliability.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/reliability-pillar.md",
+      "skos:altLabel": [
+        "AWS Well-Architected Reliability Pillar",
+        "Well-Architected reliability pillar",
+        "Reliability Pillar whitepaper"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:operational-excellence-pillar"
+        },
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-ai-practitioner",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified AI Practitioner",

@@ -1012,6 +1012,32 @@
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Reliability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Well-Architected Reliability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "Reliability Pillar whitepaper" .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "Well-Architected reliability pillar" .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2004/02/skos/core#definition> "The pillar of the AWS Well-Architected Framework concerned with a workload performing its intended function correctly and consistently, organized into foundations, workload architecture, change management and failure management, with five design principles and availability and DR targets." .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reliability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s2> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s3> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s4> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s5> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s6> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s7> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s8> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/reliability-pillar> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#PricingModel> .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2000/01/rdf-schema#label> "Savings Plans" .
@@ -2351,6 +2377,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s9> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://purl.org/dc/terms/title> "Reliability Pillar - AWS Well-Architected Framework (introduction)" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.md" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s2> <http://purl.org/dc/terms/title> "Design principles - Reliability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/design-principles.html" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s3> <http://purl.org/dc/terms/title> "Availability - Reliability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/availability.html" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s4> <http://purl.org/dc/terms/title> "Disaster Recovery (DR) objectives - Reliability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s4> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/disaster-recovery-dr-objectives.html" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s5> <http://purl.org/dc/terms/title> "Foundations - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s5> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel-found.html" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s6> <http://purl.org/dc/terms/title> "REL01-BP01 Aware of service quotas and constraints - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s6> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_manage_service_limits_aware_quotas_and_constraints.html" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s7> <http://purl.org/dc/terms/title> "Failure management - AWS Well-Architected Framework (2025-02-25 version)" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s7> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/2025-02-25/framework/rel-failmgmt.html" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s8> <http://purl.org/dc/terms/title> "Resiliency, and the components of reliability - Reliability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s8> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/resiliency-and-the-components-of-reliability.html" .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <http://purl.org/dc/terms/title> "What are Savings Plans? - Savings Plans" .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

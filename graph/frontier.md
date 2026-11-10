@@ -5,10 +5,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:amazon-eks` | `kt:aws-glue`, `kt:amazon-ecs`, `kt:aws-fargate`, `kt:aws-fargate` |
+| `kt:availability-zones` | `kt:reliability-pillar`, `kt:amazon-rds`, `kt:aws-regions`, `kt:amazon-ebs` |
 | `kt:aws-certified-solutions-architect-associate` | `kt:disaster-recovery-strategies`, `kt:aws-certified-cloud-practitioner`, `kt:aws-iam`, `kt:iam-identity-center` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-eventbridge` | `kt:aws-transform-mgn`, `kt:aws-lambda`, `kt:aws-serverless-services` |
-| `kt:availability-zones` | `kt:amazon-rds`, `kt:aws-regions`, `kt:amazon-ebs` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-lambda` |
 | `kt:aws-global-infrastructure` | `kt:aws-partitions`, `kt:aws-regions`, `kt:aws-govcloud-us` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:aws-glue`, `kt:amazon-s3` |
@@ -42,8 +42,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:dod-cloud-computing-srg-impact-levels` | `kt:aws-govcloud-us`, `kt:fedramp-on-aws` |
 | `kt:edge-locations` | `kt:aws-regions`, `kt:amazon-cloudfront` |
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation` |
+| `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework`, `kt:reliability-pillar` |
 | `kt:purpose-built-databases` | `kt:amazon-dynamodb`, `kt:amazon-rds` |
-| `kt:reliability-pillar` | `kt:aws-well-architected-framework`, `kt:disaster-recovery-strategies` |
 | `kt:reserved-instances` | `kt:aws-cost-explorer`, `kt:savings-plans` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework`, `kt:aws-security-services` |
 | `kt:service-control-policies` | `kt:amazon-bedrock`, `kt:aws-organizations` |
@@ -106,7 +106,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:multi-account-strategy` | `kt:aws-organizations` |
 | `kt:nist-sp-800-53` | `kt:fedramp-on-aws` |
 | `kt:on-demand-capacity-reservations` | `kt:savings-plans` |
-| `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework` |
 | `kt:organizations-quotas` | `kt:aws-organizations` |
 | `kt:permissions-boundaries` | `kt:aws-iam` |
 | `kt:rds-proxy` | `kt:amazon-rds` |
@@ -115,4 +114,5 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:sagemaker-ai-quotas` | `kt:amazon-sagemaker-ai` |
+| `kt:service-quotas` | `kt:reliability-pillar` |
 | `kt:shared-responsibility-model` | `kt:aws-certified-cloud-practitioner` |
