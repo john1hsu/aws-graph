@@ -4,11 +4,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:aws-global-infrastructure` | `kt:availability-zones`, `kt:aws-partitions`, `kt:aws-regions`, `kt:aws-networking-and-content-delivery`, `kt:aws-govcloud-us` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-vpc` | `kt:aws-certified-solutions-architect-associate`, `kt:amazon-aurora`, `kt:amazon-rds`, `kt:aws-networking-and-content-delivery` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:elastic-load-balancing`, `kt:aws-lambda` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
+| `kt:edge-locations` | `kt:aws-global-infrastructure`, `kt:aws-regions`, `kt:amazon-cloudfront`, `kt:aws-networking-and-content-delivery` |
 | `kt:reserved-instances` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:savings-plans`, `kt:amazon-aurora` |
 | `kt:amazon-api-gateway` | `kt:aws-sam`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:amazon-ecr` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-cdk` |
@@ -23,7 +23,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-migration-and-transfer-services` | `kt:aws-database-migration-service`, `kt:aws-datasync`, `kt:aws-transform-mgn` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-storage-services` | `kt:amazon-ebs`, `kt:amazon-efs`, `kt:amazon-s3` |
-| `kt:edge-locations` | `kt:aws-regions`, `kt:amazon-cloudfront`, `kt:aws-networking-and-content-delivery` |
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:aws-sam` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:purpose-built-databases` | `kt:amazon-aurora`, `kt:amazon-dynamodb`, `kt:amazon-rds` |
@@ -45,6 +44,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:aws-serverless-services` |
+| `kt:local-zones` | `kt:availability-zones`, `kt:aws-global-infrastructure` |
 | `kt:nist-sp-800-53` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
 | `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework`, `kt:reliability-pillar` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:service-control-policies` |
@@ -60,6 +60,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-q-business` | `kt:amazon-bedrock-knowledge-bases` |
 | `kt:amazon-s3-files` | `kt:amazon-efs` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
+| `kt:amazon-web-services` | `kt:aws-global-infrastructure` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:aurora-global-database` | `kt:amazon-aurora` |
 | `kt:aurora-quotas` | `kt:amazon-aurora` |
@@ -70,6 +71,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions` |
+| `kt:aws-outposts` | `kt:aws-global-infrastructure` |
 | `kt:aws-pricing-fundamentals` | `kt:savings-plans` |
 | `kt:aws-privatelink` | `kt:aws-datasync` |
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
@@ -116,7 +118,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
 | `kt:kms-quotas` | `kt:aws-kms` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |
-| `kt:local-zones` | `kt:availability-zones` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:on-demand-capacity-reservations` | `kt:savings-plans` |

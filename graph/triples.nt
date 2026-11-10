@@ -904,6 +904,30 @@
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "AWS global infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Global Infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS global footprint" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/2004/02/skos/core#definition> "The physical footprint AWS runs its services on: Regions made of isolated Availability Zones, plus Local Zones, Wavelength Zones and Outposts that extend a Region toward users, and CloudFront edge locations, all joined by the AWS global fiber network." .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS global infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-outposts> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/edge-locations> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/local-zones> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-glue> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-glue> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Glue" .
@@ -2685,6 +2709,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-tmpfs-mounts-aws-fargate-managed-instances" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s1> <http://purl.org/dc/terms/title> "Global Infrastructure - AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s1> <https://schema.org/url> "https://aws.amazon.com/about-aws/global-infrastructure/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s2> <http://purl.org/dc/terms/title> "Regions and Zones - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s3> <http://purl.org/dc/terms/title> "AWS Regions and Availability Zones - AWS Regions and Availability Zones" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s3> <https://schema.org/url> "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions-availability-zones.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s4> <http://purl.org/dc/terms/title> "AWS service types - AWS Fault Isolation Boundaries (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s4> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/aws-service-types.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s5> <http://purl.org/dc/terms/title> "Global services - AWS Fault Isolation Boundaries (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s5> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/global-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Compute Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s6> <http://purl.org/dc/terms/title> "AWS Local Zones and AWS Outposts, choosing the right technology for your edge workload" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/aws-local-zones-and-aws-outposts-choosing-the-right-technology-for-your-edge-workload/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s7> <http://purl.org/dc/terms/title> "Content Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <http://purl.org/dc/terms/title> "What is AWS Glue? - AWS Glue" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-glue/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

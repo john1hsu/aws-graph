@@ -2869,6 +2869,94 @@
       ]
     },
     {
+      "@id": "kt:aws-global-infrastructure",
+      "@type": "kto:InfrastructureConcept",
+      "skos:prefLabel": "AWS global infrastructure",
+      "skos:definition": "The physical footprint AWS runs its services on: Regions made of isolated Availability Zones, plus Local Zones, Wavelength Zones and Outposts that extend a Region toward users, and CloudFront edge locations, all joined by the AWS global fiber network.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Global Infrastructure - AWS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/global-infrastructure/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Regions and Zones - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Regions and Availability Zones - AWS Regions and Availability Zones",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions-availability-zones.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS service types - AWS Fault Isolation Boundaries (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/aws-service-types.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Global services - AWS Fault Isolation Boundaries (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/global-services.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Local Zones and AWS Outposts, choosing the right technology for your edge workload",
+          "dcterms:publisher": "Amazon Web Services (AWS Compute Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/compute/aws-local-zones-and-aws-outposts-choosing-the-right-technology-for-your-edge-workload/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Content Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/aws-global-infrastructure.md",
+      "skos:altLabel": [
+        "AWS Global Infrastructure",
+        "AWS global footprint"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-partitions"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-regions"
+        },
+        {
+          "@id": "kt:edge-locations"
+        },
+        {
+          "@id": "kt:local-zones"
+        },
+        {
+          "@id": "kt:aws-outposts"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-partitions",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS partitions",

@@ -802,6 +802,29 @@
     ]
   },
   {
+    "id": "kt:aws-global-infrastructure",
+    "title": "AWS global infrastructure",
+    "aliases": [
+      "AWS Global Infrastructure",
+      "AWS global footprint"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/aws-global-infrastructure.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "concept",
+    "source_urls": [
+      "https://aws.amazon.com/about-aws/global-infrastructure/",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html",
+      "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions-availability-zones.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/aws-service-types.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/global-services.html",
+      "https://aws.amazon.com/blogs/compute/aws-local-zones-and-aws-outposts-choosing-the-right-technology-for-your-edge-workload/",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html"
+    ]
+  },
+  {
     "id": "kt:aws-glue",
     "title": "AWS Glue",
     "aliases": [
