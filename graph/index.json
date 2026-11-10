@@ -683,6 +683,27 @@
     ]
   },
   {
+    "id": "kt:aws-datasync",
+    "title": "AWS DataSync",
+    "aliases": [
+      "DataSync"
+    ],
+    "type": "Service",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/aws-datasync.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/datasync/latest/userguide/how-datasync-transfer-works.html",
+      "https://docs.aws.amazon.com/datasync/latest/userguide/choosing-task-mode.html",
+      "https://docs.aws.amazon.com/datasync/latest/userguide/datasync-limits.html",
+      "https://aws.amazon.com/datasync/pricing/",
+      "https://aws.amazon.com/datasync/faqs/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-fargate",
     "title": "AWS Fargate",
     "aliases": [

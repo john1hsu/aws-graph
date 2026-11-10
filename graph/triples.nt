@@ -759,6 +759,33 @@
 <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/2000/01/rdf-schema#label> "AWS DataSync" .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/2004/02/skos/core#altLabel> "DataSync" .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed online data-transfer service that copies files and objects between on-premises or other-cloud storage (NFS, SMB, HDFS, object storage, Azure Blob) and AWS storage services such as Amazon S3, Amazon EFS and Amazon FSx, or between AWS storage services, with scheduling, incremental transfers and integrity verification." .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS DataSync" .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-efs> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-fsx> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-transfer-family> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/datasync-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-privatelink> .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Fargate" .
@@ -2369,6 +2396,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-database-migration-service/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-database-migration-service/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-database-migration-service/s9> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s1> <http://purl.org/dc/terms/title> "How AWS DataSync works" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s1> <https://schema.org/url> "https://docs.aws.amazon.com/datasync/latest/userguide/how-datasync-transfer-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s2> <http://purl.org/dc/terms/title> "Choosing a task mode for your data transfer" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s2> <https://schema.org/url> "https://docs.aws.amazon.com/datasync/latest/userguide/choosing-task-mode.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s3> <http://purl.org/dc/terms/title> "AWS DataSync quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s3> <https://schema.org/url> "https://docs.aws.amazon.com/datasync/latest/userguide/datasync-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s4> <http://purl.org/dc/terms/title> "AWS DataSync pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s4> <https://schema.org/url> "https://aws.amazon.com/datasync/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s5> <http://purl.org/dc/terms/title> "AWS DataSync FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s5> <https://schema.org/url> "https://aws.amazon.com/datasync/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s6> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://purl.org/dc/terms/title> "Architect for AWS Fargate for Amazon ECS" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

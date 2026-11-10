@@ -3609,6 +3609,110 @@
       ]
     },
     {
+      "@id": "kt:aws-datasync",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS DataSync",
+      "skos:definition": "AWS's managed online data-transfer service that copies files and objects between on-premises or other-cloud storage (NFS, SMB, HDFS, object storage, Azure Blob) and AWS storage services such as Amazon S3, Amazon EFS and Amazon FSx, or between AWS storage services, with scheduling, incremental transfers and integrity verification.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How AWS DataSync works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/datasync/latest/userguide/how-datasync-transfer-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing a task mode for your data transfer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/datasync/latest/userguide/choosing-task-mode.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS DataSync quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/datasync/latest/userguide/datasync-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS DataSync pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/datasync/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS DataSync FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/datasync/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/aws-datasync.md",
+      "skos:altLabel": [
+        "DataSync"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-efs"
+        },
+        {
+          "@id": "kt:amazon-fsx"
+        },
+        {
+          "@id": "kt:aws-storage-gateway"
+        },
+        {
+          "@id": "kt:aws-transform-mgn"
+        },
+        {
+          "@id": "kt:aws-govcloud-us"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-transfer-family"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:datasync-quotas"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-privatelink"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-transform-mgn",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Transform MGN",
