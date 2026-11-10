@@ -2462,6 +2462,103 @@
       ]
     },
     {
+      "@id": "kt:aws-sam",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Serverless Application Model (AWS SAM)",
+      "skos:definition": "An open-source framework for building serverless applications on AWS: a shorthand template specification that extends AWS CloudFormation, plus the SAM CLI for building, testing locally, syncing and deploying those applications.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How AWS SAM works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS SAM FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/serverless/sam/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS SAM template anatomy",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introduction to using sam sync to sync to AWS Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/using-sam-cli-sync.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CapacityProviderConfig",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-property-function-capacityproviderconfig.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS SAM now supports WebSocket APIs for Amazon API Gateway",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-websocket-apis-api-gateway/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/aws-sam.md",
+      "skos:altLabel": [
+        "AWS SAM",
+        "SAM",
+        "SAM CLI",
+        "AWS SAM CLI",
+        "Serverless Application Model"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:infrastructure-as-code"
+        },
+        {
+          "@id": "kt:aws-serverless-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-api-gateway"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-cdk"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:availability-zones",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "Availability Zones",

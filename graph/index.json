@@ -901,6 +901,31 @@
     ]
   },
   {
+    "id": "kt:aws-sam",
+    "title": "AWS Serverless Application Model (AWS SAM)",
+    "aliases": [
+      "AWS SAM",
+      "SAM",
+      "SAM CLI",
+      "AWS SAM CLI",
+      "Serverless Application Model"
+    ],
+    "type": "Service",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/aws-sam.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam-overview.html",
+      "https://aws.amazon.com/serverless/sam/faqs/",
+      "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy.html",
+      "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/using-sam-cli-sync.html",
+      "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-property-function-capacityproviderconfig.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-websocket-apis-api-gateway/"
+    ]
+  },
+  {
     "id": "kt:aws-security-services",
     "title": "AWS security services",
     "aliases": [

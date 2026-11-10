@@ -1010,6 +1010,34 @@
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Serverless Application Model (AWS SAM)" .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS SAM CLI" .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS SAM" .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2004/02/skos/core#altLabel> "SAM CLI" .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2004/02/skos/core#altLabel> "SAM" .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2004/02/skos/core#altLabel> "Serverless Application Model" .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2004/02/skos/core#definition> "An open-source framework for building serverless applications on AWS: a shorthand template specification that extends AWS CloudFormation, plus the SAM CLI for building, testing locally, syncing and deploying those applications." .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Serverless Application Model (AWS SAM)" .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-cdk> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-security-services> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-security-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-security-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS security services" .
@@ -2622,6 +2650,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s1> <http://purl.org/dc/terms/title> "How AWS SAM works" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s1> <https://schema.org/url> "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam-overview.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s2> <http://purl.org/dc/terms/title> "AWS SAM FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s2> <https://schema.org/url> "https://aws.amazon.com/serverless/sam/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s3> <http://purl.org/dc/terms/title> "AWS SAM template anatomy" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s3> <https://schema.org/url> "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s4> <http://purl.org/dc/terms/title> "Introduction to using sam sync to sync to AWS Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s4> <https://schema.org/url> "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/using-sam-cli-sync.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s5> <http://purl.org/dc/terms/title> "CapacityProviderConfig" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s5> <https://schema.org/url> "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-property-function-capacityproviderconfig.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <http://purl.org/dc/terms/title> "AWS SAM now supports WebSocket APIs for Amazon API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-websocket-apis-api-gateway/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-security-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-security-services/s1> <http://purl.org/dc/terms/title> "Appendix: AWS security, identity, and compliance services - AWS Security Reference Architecture" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-security-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
