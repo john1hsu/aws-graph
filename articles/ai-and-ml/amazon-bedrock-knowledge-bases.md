@@ -73,13 +73,13 @@ created: 2026-11-10
 
 # Amazon Bedrock Knowledge Bases
 
-Amazon Bedrock Knowledge Bases is Bedrock's built-in way to do retrieval-augmented generation (RAG): grounding a foundation model's answer in an organization's own documents or tables instead of only its training data. It covers the whole RAG workflow (ingestion, retrieval and prompt augmentation), so teams don't have to write connectors or manage the data flow themselves, and it keeps session context for multi-turn conversations.[^s3] Answers can be traced back to their source passages, which AWS presents as a way to improve transparency and reduce hallucination.[^s3]
+Amazon Bedrock Knowledge Bases is Bedrock's built-in way to do retrieval-augmented generation (RAG): grounding a foundation model's answer in an organization's own documents or tables instead of only its training data. It covers the whole RAG workflow (ingestion, retrieval and prompt augmentation), so teams don't have to write connectors or manage the data flow themselves, and it keeps session context for multi-turn conversations.[^s3]
 
 ## How ingestion works
 
 For unstructured content, you point a knowledge base at a data source and Bedrock runs a four-step pipeline: a parser extracts the content, the documents are split into token-based chunks, an embedding model turns each chunk into a vector, and the vectors are written to an index in a vector store.[^s2] Multimodal knowledge bases embed images as visual vectors alongside text vectors, so both can be searched together.[^s2] Managed data sources include Amazon S3, Confluence, Google Drive, Microsoft OneDrive, Microsoft SharePoint, a Web Crawler and a Custom source. Connector credentials (OAuth or tokens) are stored in AWS Secrets Manager.[^s2][^s3] Source changes reach the index only when you sync, but some sources also accept direct ingestion or deletion of individual documents, so you don't need a full re-sync.[^s2]
 
-For a self-managed knowledge base you choose the vector store. Options are Amazon OpenSearch Serverless (which Bedrock can create for you), OpenSearch Service managed clusters, Amazon Neptune, Amazon Aurora, Pinecone, Redis Enterprise Cloud, MongoDB Atlas and Amazon S3 Vectors.[^s2][^s3] S3 Vectors suits large, cost-sensitive RAG datasets that don't need ultra-low latency. AWS cites sub-second cold and roughly 100 ms warm query latency, but it supports semantic search only (no hybrid search) and caps custom metadata at 1 KB and 35 keys per vector. That cap can bite with hierarchical chunking.[^s4]
+For a self-managed knowledge base you choose the vector store. Options are Amazon OpenSearch Serverless (which Bedrock can create for you), OpenSearch Service managed clusters, Amazon Neptune, Amazon Aurora, Pinecone, Redis Enterprise Cloud, MongoDB Atlas and Amazon S3 Vectors.[^s2][^s3] S3 Vectors suits large, cost-sensitive RAG datasets that don't need ultra-low latency. AWS cites sub-second cold and roughly 100 ms warm query latency, but it supports semantic search only (no hybrid search) and caps custom metadata at 1 KB and 35 keys per vector.[^s4]
 
 Structured data works differently. Knowledge bases connected to Amazon Redshift or to the AWS Glue Data Catalog (with Lake Formation) are not vectorized. Instead, Bedrock translates the natural-language question into SQL using schema metadata, query patterns and query history.[^s2]
 
@@ -87,7 +87,7 @@ Structured data works differently. Knowledge bases connected to Amazon Redshift 
 
 Applications query a knowledge base through four runtime operations:[^s1]
 
-- **Retrieve** returns the most relevant chunks or images and leaves generation to your code. Use it when you want to control the generation step yourself, for example through LangChain's Bedrock retriever.[^s1][^s3]
+- **Retrieve** returns the most relevant chunks or images and leaves generation to your code (LangChain has a Bedrock retriever for this).[^s1][^s3]
 - **RetrieveAndGenerate** runs retrieval and model inference in one managed call and returns an answer with citations to specific source chunks.[^s1]
 - **GenerateQuery** exposes the natural-language-to-SQL step for structured stores, so you can embed it in your own workflow.[^s1]
 - **AgenticRetrieveStream** uses a model to break a complex question into sub-queries, retrieve iteratively, judge whether the results are sufficient and return deduplicated chunks with trace events.[^s1]
@@ -96,7 +96,7 @@ A reranking model can reorder retrieved results by relevance with either Retriev
 
 ## Managed Knowledge Base
 
-In June 2026 AWS made **Amazon Bedrock Managed Knowledge Base** generally available. In this variant AWS also runs the vector storage, ingestion and retrieval infrastructure, so you don't operate a vector database at all. It adds hybrid search, document ranking, agentic retrieval and multimodal (text, video, audio and image) knowledge bases, and connecting it to an Amazon Bedrock AgentCore agent generates the needed permissions automatically.[^s5] At launch it was offered in US East (N. Virginia), US West (Oregon), Asia Pacific (Sydney, Tokyo), Europe (Dublin, Frankfurt, London) and AWS GovCloud (US-West).[^s5] AWS's retrieval guide now recommends the managed option for retrieval accuracy and a managed experience.[^s1]
+In June 2026 AWS made **Amazon Bedrock Managed Knowledge Base** generally available. In this variant AWS also runs the vector storage, ingestion and retrieval infrastructure, so you don't operate a vector database at all. It adds hybrid search, document ranking, agentic retrieval and multimodal (text, video, audio and image) knowledge bases, and connecting it to an Amazon Bedrock AgentCore agent generates the needed permissions automatically.[^s5] At launch it was offered in US East (N. Virginia), US West (Oregon), Asia Pacific (Sydney, Tokyo), Europe (Dublin, Frankfurt, London) and AWS GovCloud (US-West).[^s5]
 
 ## Quotas, pricing and gotchas
 
@@ -104,19 +104,15 @@ The managed-knowledge-base quotas (as of 2026-11) are as follows. Non-adjustable
 
 As of 2026-11, the Bedrock pricing page lists Managed Knowledge Base rates without naming a Region. Index storage is $5.00 per GB of raw data per month and standard retrieval is $1.00 per 1,000 Retrieve calls. Managed-LLM agentic retrieval costs $4.00 per 1,000 calls plus the underlying Retrieve calls. The managed reranker and managed parser cost nothing.[^s7] Self-managed knowledge bases bill differently: you pay for the embedding and generation models, your own vector store, per-request structured-data SQL generation and per-query rerank models.[^s7]
 
-Gotchas:
-
-- Use a separate S3 vector index for each knowledge base.[^s4]
-- S3 Vectors' default deletion policy, `Delete`, removes vectors when the knowledge base or data source is deleted. Set `Retain` if you need to keep them.[^s4]
-- Unsynced source changes are invisible to queries.[^s2]
+Also, give each knowledge base its own S3 vector index, and note that the default `Delete` policy removes vectors when the knowledge base or data source is deleted (set `Retain` to keep them).[^s4] Unsynced source changes are invisible to queries.[^s2]
 
 ## When to use it (and when not)
 
-Choose Knowledge Bases when a Bedrock application needs answers grounded in company content with citations, without building and operating a RAG pipeline.[^s3] Use **Retrieve** with your own prompt orchestration when you need control over generation, and **RetrieveAndGenerate** for the fastest path.[^s1] AWS's RAG guidance also lists Amazon Q Business as a separate fully managed RAG option, so compare the two before building.[^s3] RAG is also one of several customization approaches, alongside prompting, fine-tuning and pre-training, with different cost trade-offs.[^s8]
+Choose Knowledge Bases when a Bedrock application needs cited answers from company content without running its own RAG pipeline.[^s3] Use **Retrieve** with your own prompt orchestration when you need control over generation, and **RetrieveAndGenerate** for the fastest path.[^s1] AWS's RAG guidance also lists Amazon Q Business as a separate fully managed RAG option, so compare the two before building.[^s3]
 
 ## Connections
 
-Knowledge Bases is a capability of **Amazon Bedrock** within the broader **generative AI on AWS** landscape. It sits alongside **Amazon Bedrock Guardrails**, Bedrock's safety layer, in RAG applications, and can be attached to Bedrock agents that pick the right knowledge base for each request.[^s3] It ingests from **Amazon S3** and other connectors, can store vectors in **Amazon OpenSearch Service** (Serverless or managed clusters) and other stores, and queries **Amazon Redshift** directly for structured data.[^s2] **Amazon Q Business** is the alternative fully managed RAG product.[^s3] Knowledge bases and quotas are per **AWS Region**.[^s6] The AIF-C01 exam guide names Amazon Bedrock Knowledge Bases as its example of RAG, so it is covered by the **AWS Certified AI Practitioner** certification.[^s8]
+Knowledge Bases is a capability of **Amazon Bedrock** within the broader **generative AI on AWS** landscape. It sits alongside **Amazon Bedrock Guardrails**, Bedrock's safety layer, in RAG applications.[^s3] It ingests from **Amazon S3** and other connectors, can store vectors in **Amazon OpenSearch Service** (Serverless or managed clusters) and other stores, and queries **Amazon Redshift** directly for structured data.[^s2] **Amazon Q Business** is the alternative fully managed RAG product.[^s3] Knowledge bases and quotas are per **AWS Region**.[^s6] The AIF-C01 exam guide names Amazon Bedrock Knowledge Bases as its example of RAG, so it is covered by the **AWS Certified AI Practitioner** certification.[^s8]
 
 ## Sources
 [^s1]: Amazon Web Services, "Retrieving information from data sources using Amazon Bedrock Knowledge Bases". https://docs.aws.amazon.com/bedrock/latest/userguide/kb-how-retrieval.html (accessed 2026-11-10)
