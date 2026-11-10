@@ -475,6 +475,34 @@
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Budgets" .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Budgets Actions" .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/2004/02/skos/core#altLabel> "Budget actions" .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/2004/02/skos/core#altLabel> "Budgets" .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/2004/02/skos/core#definition> "AWS's cost-control service for setting cost, usage, Reserved Instance and Savings Plans budgets that send alerts on actual or forecasted overruns and can run actions such as applying an IAM policy or SCP or stopping EC2 and RDS instances." .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Budgets" .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sns> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/reserved-instances> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-budgets> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cloud Development Kit (AWS CDK)" .
@@ -1837,6 +1865,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <https://schema.org/url> "https://docs.aws.amazon.com/arc-zonal-shift/latest/api/Welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s1> <http://purl.org/dc/terms/title> "Managing your costs with AWS Budgets - AWS Cost Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s1> <https://schema.org/url> "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s2> <http://purl.org/dc/terms/title> "Budget methods - AWS Cost Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s2> <https://schema.org/url> "https://docs.aws.amazon.com/cost-management/latest/userguide/budget-methods.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s3> <http://purl.org/dc/terms/title> "Configuring budget actions - AWS Cost Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s3> <https://schema.org/url> "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-controls.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s4> <http://purl.org/dc/terms/title> "Configuring a budget action - AWS Cost Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s4> <https://schema.org/url> "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-action-configure.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s5> <http://purl.org/dc/terms/title> "AWS Budgets Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s5> <https://schema.org/url> "https://aws.amazon.com/aws-cost-management/aws-budgets/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s6> <http://purl.org/dc/terms/title> "AWS Budgets FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s6> <https://schema.org/url> "https://aws.amazon.com/aws-cost-management/aws-budgets/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certification (Cloud Practitioner CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s7> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <http://purl.org/dc/terms/title> "AWS Cloud Development Kit FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

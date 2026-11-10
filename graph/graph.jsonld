@@ -1661,6 +1661,106 @@
       ]
     },
     {
+      "@id": "kt:aws-budgets",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Budgets",
+      "skos:definition": "AWS's cost-control service for setting cost, usage, Reserved Instance and Savings Plans budgets that send alerts on actual or forecasted overruns and can run actions such as applying an IAM policy or SCP or stopping EC2 and RDS instances.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Managing your costs with AWS Budgets - AWS Cost Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Budget methods - AWS Cost Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budget-methods.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configuring budget actions - AWS Cost Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-controls.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configuring a budget action - AWS Cost Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-action-configure.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Budgets Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/aws-cost-management/aws-budgets/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Budgets FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/aws-cost-management/aws-budgets/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certification (Cloud Practitioner CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/cost-management/aws-budgets.md",
+      "skos:altLabel": [
+        "Budgets",
+        "AWS Budgets Actions",
+        "Budget actions"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-cost-management-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-cost-explorer"
+        },
+        {
+          "@id": "kt:aws-cost-anomaly-detection"
+        },
+        {
+          "@id": "kt:amazon-sns"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:savings-plans"
+        },
+        {
+          "@id": "kt:reserved-instances"
+        },
+        {
+          "@id": "kt:service-control-policies"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cost-explorer",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Cost Explorer",

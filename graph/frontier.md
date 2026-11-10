@@ -8,25 +8,29 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-global-infrastructure` | `kt:availability-zones`, `kt:aws-partitions`, `kt:aws-regions`, `kt:aws-govcloud-us` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-ecr` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-cdk` |
+| `kt:amazon-sns` | `kt:aws-budgets`, `kt:amazon-eventbridge`, `kt:amazon-eventbridge` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-container-services` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
 | `kt:aws-networking-and-content-delivery` | `kt:elastic-load-balancing`, `kt:amazon-cloudfront`, `kt:amazon-route-53` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:aws-glue`, `kt:amazon-s3` |
+| `kt:reserved-instances` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:savings-plans` |
+| `kt:service-control-policies` | `kt:amazon-bedrock`, `kt:aws-budgets`, `kt:aws-organizations` |
 | `kt:spot-instances` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:savings-plans` |
 | `kt:amazon-api-gateway` | `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:amazon-bedrock-knowledge-bases` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock` |
 | `kt:amazon-efs` | `kt:amazon-ebs`, `kt:amazon-s3` |
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:amazon-redshift` | `kt:amazon-athena`, `kt:aws-glue` |
-| `kt:amazon-sns` | `kt:amazon-eventbridge`, `kt:amazon-eventbridge` |
 | `kt:amazon-vpc` | `kt:aws-certified-solutions-architect-associate`, `kt:amazon-rds` |
 | `kt:aws-backup` | `kt:disaster-recovery-strategies`, `kt:amazon-ebs` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-cloudtrail` |
 | `kt:aws-control-tower` | `kt:aws-cloudformation`, `kt:aws-organizations` |
+| `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
+| `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-lake-formation` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch`, `kt:aws-organizations` |
@@ -43,9 +47,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework`, `kt:reliability-pillar` |
 | `kt:purpose-built-databases` | `kt:amazon-dynamodb`, `kt:amazon-rds` |
-| `kt:reserved-instances` | `kt:aws-cost-explorer`, `kt:savings-plans` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework`, `kt:aws-security-services` |
-| `kt:service-control-policies` | `kt:amazon-bedrock`, `kt:aws-organizations` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-database-migration-service`, `kt:aws-transform-mgn` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-aurora` | `kt:amazon-rds` |
@@ -58,13 +60,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-analytics-services` | `kt:amazon-kinesis-data-streams` |
 | `kt:aws-artifact` | `kt:fedramp-on-aws` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
-| `kt:aws-budgets` | `kt:aws-cost-explorer` |
 | `kt:aws-certified-solutions-architect-professional` | `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-compliance-programs` | `kt:fedramp-on-aws` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
-| `kt:aws-cost-anomaly-detection` | `kt:aws-cost-explorer` |
-| `kt:aws-cost-management-services` | `kt:aws-cost-explorer` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions` |
 | `kt:aws-pricing-fundamentals` | `kt:savings-plans` |
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |

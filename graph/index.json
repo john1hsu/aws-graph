@@ -429,6 +429,30 @@
     ]
   },
   {
+    "id": "kt:aws-budgets",
+    "title": "AWS Budgets",
+    "aliases": [
+      "Budgets",
+      "AWS Budgets Actions",
+      "Budget actions"
+    ],
+    "type": "Service",
+    "domain": "cost-management",
+    "file": "articles/cost-management/aws-budgets.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+      "https://docs.aws.amazon.com/cost-management/latest/userguide/budget-methods.html",
+      "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-controls.md",
+      "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-action-configure.html",
+      "https://aws.amazon.com/aws-cost-management/aws-budgets/pricing",
+      "https://aws.amazon.com/aws-cost-management/aws-budgets/faqs/",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-cdk",
     "title": "AWS Cloud Development Kit (AWS CDK)",
     "aliases": [
