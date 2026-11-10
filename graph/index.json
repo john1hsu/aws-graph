@@ -1291,6 +1291,30 @@
     ]
   },
   {
+    "id": "kt:operational-excellence-pillar",
+    "title": "Operational Excellence Pillar",
+    "aliases": [
+      "AWS Well-Architected Operational Excellence Pillar",
+      "Well-Architected operational excellence pillar",
+      "Operational Excellence Pillar whitepaper"
+    ],
+    "type": "Concept",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/operational-excellence-pillar.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-design-principles.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-definition.md",
+      "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/document-revisions.html",
+      "https://docs.aws.amazon.com/wellarchitected/2024-06-27/framework/oe-prepare.html",
+      "https://docs.aws.amazon.com/en_en/wellarchitected/latest/framework/oe-operate.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-evolve.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.md"
+    ]
+  },
+  {
     "id": "kt:reliability-pillar",
     "title": "Reliability Pillar",
     "aliases": [

@@ -934,6 +934,97 @@
       ]
     },
     {
+      "@id": "kt:operational-excellence-pillar",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Operational Excellence Pillar",
+      "skos:definition": "The pillar of the AWS Well-Architected Framework concerned with running and evolving workloads to deliver business value, built on eight design principles and four best practice areas (Organization, Prepare, Operate, Evolve) covering questions OPS 1 to OPS 11.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Design principles - AWS Well-Architected Framework (operational excellence)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-design-principles.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Definition - AWS Well-Architected Framework (operational excellence)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-definition.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Document revisions - Operational Excellence Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/document-revisions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prepare - AWS Well-Architected Framework (2024-06-27 version)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/2024-06-27/framework/oe-prepare.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Operate - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_en/wellarchitected/latest/framework/oe-operate.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Evolve - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-evolve.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified Cloud Practitioner (CLF-C02) exam guide - Content Domain 1: Cloud Concepts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.md",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/operational-excellence-pillar.md",
+      "skos:altLabel": [
+        "AWS Well-Architected Operational Excellence Pillar",
+        "Well-Architected operational excellence pillar",
+        "Operational Excellence Pillar whitepaper"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:reliability-pillar"
+        },
+        {
+          "@id": "kt:security-pillar"
+        },
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:reliability-pillar",
       "@type": "kto:Concept",
       "skos:prefLabel": "Reliability Pillar",

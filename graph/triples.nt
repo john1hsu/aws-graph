@@ -1464,6 +1464,31 @@
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Operational Excellence Pillar" .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Well-Architected Operational Excellence Pillar" .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "Operational Excellence Pillar whitepaper" .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "Well-Architected operational excellence pillar" .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2004/02/skos/core#definition> "The pillar of the AWS Well-Architected Framework concerned with running and evolving workloads to deliver business value, built on eight design principles and four best practice areas (Organization, Prepare, Operate, Evolve) covering questions OPS 1 to OPS 11." .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Operational Excellence Pillar" .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/security-pillar> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s2> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s3> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s4> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s5> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s6> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Reliability Pillar" .
@@ -3399,6 +3424,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s9> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://purl.org/dc/terms/title> "Design principles - AWS Well-Architected Framework (operational excellence)" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-design-principles.html" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s2> <http://purl.org/dc/terms/title> "Definition - AWS Well-Architected Framework (operational excellence)" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-definition.md" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s3> <http://purl.org/dc/terms/title> "Document revisions - Operational Excellence Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/document-revisions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s4> <http://purl.org/dc/terms/title> "Prepare - AWS Well-Architected Framework (2024-06-27 version)" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s4> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/2024-06-27/framework/oe-prepare.html" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s5> <http://purl.org/dc/terms/title> "Operate - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s5> <https://schema.org/url> "https://docs.aws.amazon.com/en_en/wellarchitected/latest/framework/oe-operate.html" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s6> <http://purl.org/dc/terms/title> "Evolve - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s6> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-evolve.html" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <http://purl.org/dc/terms/title> "AWS Certified Cloud Practitioner (CLF-C02) exam guide - Content Domain 1: Cloud Concepts" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.md" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://purl.org/dc/terms/title> "Reliability Pillar - AWS Well-Architected Framework (introduction)" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
