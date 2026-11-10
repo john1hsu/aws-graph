@@ -1949,6 +1949,115 @@
       ]
     },
     {
+      "@id": "kt:amazon-aurora",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Aurora",
+      "skos:definition": "AWS's MySQL- and PostgreSQL-compatible relational database engine, managed through Amazon RDS, that separates compute (a writer plus up to 15 reader instances) from a distributed cluster volume replicated six ways across Availability Zones and growing automatically to as much as 256 TiB.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Aurora?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "High availability for Amazon Aurora",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and constraints for Amazon Aurora",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/CHAP_Limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Aurora storage",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/Aurora.Overview.StorageReliability.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Aurora Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/rds/aurora/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Aurora MySQL database clusters now support up to 256 TiB of storage volume",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-aurora-mysql-database-clusters-256-tib-storage",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate",
+          "dcterms:publisher": "Amazon Web Services (AWS Certification)",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/databases/amazon-aurora.md",
+      "skos:altLabel": [
+        "Aurora",
+        "Aurora MySQL",
+        "Aurora PostgreSQL"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:purpose-built-databases"
+        },
+        {
+          "@id": "kt:amazon-rds"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aurora-serverless-v2"
+        },
+        {
+          "@id": "kt:aurora-global-database"
+        },
+        {
+          "@id": "kt:rds-proxy"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:aurora-quotas"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:reserved-instances"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-dynamodb",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon DynamoDB",

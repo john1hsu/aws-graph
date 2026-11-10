@@ -22,6 +22,35 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
 <https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-athena> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Aurora" .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/2004/02/skos/core#altLabel> "Aurora MySQL" .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/2004/02/skos/core#altLabel> "Aurora PostgreSQL" .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/2004/02/skos/core#altLabel> "Aurora" .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-rds> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/2004/02/skos/core#definition> "AWS's MySQL- and PostgreSQL-compatible relational database engine, managed through Amazon RDS, that separates compute (a writer plus up to 15 reader instances) from a distributed cluster volume replicated six ways across Availability Zones and growing automatically to as much as 256 TiB." .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Aurora" .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aurora-global-database> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/rds-proxy> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/aurora-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/reserved-instances> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-aurora> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Bedrock Guardrails" .
@@ -1293,6 +1322,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s1> <http://purl.org/dc/terms/title> "What is Amazon Aurora?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s1> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s2> <http://purl.org/dc/terms/title> "High availability for Amazon Aurora" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s3> <http://purl.org/dc/terms/title> "Quotas and constraints for Amazon Aurora" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s3> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/CHAP_Limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s4> <http://purl.org/dc/terms/title> "Amazon Aurora storage" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s4> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/Aurora.Overview.StorageReliability.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s5> <http://purl.org/dc/terms/title> "Amazon Aurora Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s5> <https://schema.org/url> "https://aws.amazon.com/rds/aurora/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s6> <http://purl.org/dc/terms/title> "Amazon Aurora MySQL database clusters now support up to 256 TiB of storage volume" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-aurora-mysql-database-clusters-256-tib-storage" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Certification)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-aurora/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <http://purl.org/dc/terms/title> "Detect and filter harmful content by using Amazon Bedrock Guardrails" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

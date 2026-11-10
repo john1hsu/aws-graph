@@ -5,18 +5,19 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:aws-global-infrastructure` | `kt:availability-zones`, `kt:aws-partitions`, `kt:aws-regions`, `kt:aws-networking-and-content-delivery`, `kt:aws-govcloud-us` |
+| `kt:amazon-vpc` | `kt:aws-certified-solutions-architect-associate`, `kt:amazon-aurora`, `kt:amazon-rds`, `kt:aws-networking-and-content-delivery` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:elastic-load-balancing`, `kt:aws-lambda` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
+| `kt:reserved-instances` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:savings-plans`, `kt:amazon-aurora` |
 | `kt:amazon-ecr` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-cdk` |
 | `kt:amazon-sns` | `kt:aws-budgets`, `kt:amazon-eventbridge`, `kt:amazon-eventbridge` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
-| `kt:amazon-vpc` | `kt:aws-certified-solutions-architect-associate`, `kt:amazon-rds`, `kt:aws-networking-and-content-delivery` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-container-services` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:edge-locations` | `kt:aws-regions`, `kt:amazon-cloudfront`, `kt:aws-networking-and-content-delivery` |
-| `kt:reserved-instances` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:savings-plans` |
+| `kt:purpose-built-databases` | `kt:amazon-aurora`, `kt:amazon-dynamodb`, `kt:amazon-rds` |
 | `kt:service-control-policies` | `kt:amazon-bedrock`, `kt:aws-budgets`, `kt:aws-organizations` |
 | `kt:spot-instances` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:savings-plans` |
 | `kt:amazon-api-gateway` | `kt:aws-lambda`, `kt:aws-serverless-services` |
@@ -45,16 +46,18 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:aws-serverless-services` |
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:operational-excellence-pillar` | `kt:aws-well-architected-framework`, `kt:reliability-pillar` |
-| `kt:purpose-built-databases` | `kt:amazon-dynamodb`, `kt:amazon-rds` |
+| `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework`, `kt:aws-security-services` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-database-migration-service`, `kt:aws-transform-mgn` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
-| `kt:amazon-aurora` | `kt:amazon-rds` |
 | `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-guardduty` | `kt:aws-security-services` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing` |
+| `kt:aurora-global-database` | `kt:amazon-aurora` |
+| `kt:aurora-quotas` | `kt:amazon-aurora` |
+| `kt:aurora-serverless-v2` | `kt:amazon-aurora` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-analytics-services` | `kt:amazon-kinesis-data-streams` |
 | `kt:aws-artifact` | `kt:fedramp-on-aws` |
@@ -114,7 +117,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:on-demand-capacity-reservations` | `kt:savings-plans` |
 | `kt:organizations-quotas` | `kt:aws-organizations` |
 | `kt:permissions-boundaries` | `kt:aws-iam` |
-| `kt:rds-proxy` | `kt:amazon-rds` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:route-53-quotas` | `kt:amazon-route-53` |
 | `kt:route-53-resolver` | `kt:amazon-route-53` |

@@ -23,6 +23,30 @@
     ]
   },
   {
+    "id": "kt:amazon-aurora",
+    "title": "Amazon Aurora",
+    "aliases": [
+      "Aurora",
+      "Aurora MySQL",
+      "Aurora PostgreSQL"
+    ],
+    "type": "Service",
+    "domain": "databases",
+    "file": "articles/databases/amazon-aurora.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html",
+      "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.md",
+      "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/CHAP_Limits.html",
+      "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/Aurora.Overview.StorageReliability.html",
+      "https://aws.amazon.com/rds/aurora/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-aurora-mysql-database-clusters-256-tib-storage",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-bedrock",
     "title": "Amazon Bedrock",
     "aliases": [
