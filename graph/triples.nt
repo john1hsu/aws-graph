@@ -1292,6 +1292,31 @@
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/2000/01/rdf-schema#label> "Service control policies (SCPs)" .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Organizations service control policies" .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "SCP" .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "SCPs" .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/2004/02/skos/core#definition> "An AWS Organizations policy type that sets the maximum permissions available to IAM users and roles (including the root user) in member accounts; SCPs act as guardrails and never grant access themselves." .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/2004/02/skos/core#prefLabel> "Service control policies (SCPs)" .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-control-tower> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s1> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s2> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s3> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s4> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s5> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/permissions-boundaries> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/resource-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#domain> "identity-and-access" .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/organizations-quotas> .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://purl.org/dc/terms/title> "Amazon Athena FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
@@ -2942,3 +2967,33 @@
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s6> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/select-the-best-pricing-model.html" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s1> <http://purl.org/dc/terms/title> "Service control policies (SCPs) - AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s1> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s2> <http://purl.org/dc/terms/title> "SCP evaluation - AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s2> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_evaluation.md" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s3> <http://purl.org/dc/terms/title> "Quotas and service limits for AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s3> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.md" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s4> <http://purl.org/dc/terms/title> "AWS Organizations now supports higher quotas for service control policies (SCPs)" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s5> <http://purl.org/dc/terms/publisher> "AWS Security Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s5> <http://purl.org/dc/terms/title> "Unlock new possibilities: AWS Organizations service control policy now supports full IAM language" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/security/unlock-new-possibilities-aws-organizations-service-control-policy-now-supports-full-iam-language" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <http://purl.org/dc/terms/title> "AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf" .

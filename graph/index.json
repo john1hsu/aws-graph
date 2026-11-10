@@ -1144,5 +1144,28 @@
       "https://aws.amazon.com/about-aws/whats-new/2025/12/database-savings-plans-savings/",
       "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/select-the-best-pricing-model.html"
     ]
+  },
+  {
+    "id": "kt:service-control-policies",
+    "title": "Service control policies (SCPs)",
+    "aliases": [
+      "SCP",
+      "SCPs",
+      "AWS Organizations service control policies"
+    ],
+    "type": "Feature",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/service-control-policies.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_evaluation.md",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.md",
+      "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
+      "https://aws.amazon.com/blogs/security/unlock-new-possibilities-aws-organizations-service-control-policy-now-supports-full-iam-language",
+      "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf"
+    ]
   }
 ]

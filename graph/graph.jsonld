@@ -3183,6 +3183,94 @@
       ]
     },
     {
+      "@id": "kt:service-control-policies",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Service control policies (SCPs)",
+      "skos:definition": "An AWS Organizations policy type that sets the maximum permissions available to IAM users and roles (including the root user) in member accounts; SCPs act as guardrails and never grant access themselves.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Service control policies (SCPs) - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SCP evaluation - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_evaluation.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and service limits for AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Organizations now supports higher quotas for service control policies (SCPs)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Unlock new possibilities: AWS Organizations service control policy now supports full IAM language",
+          "dcterms:publisher": "AWS Security Blog",
+          "schema:url": "https://aws.amazon.com/blogs/security/unlock-new-possibilities-aws-organizations-service-control-policy-now-supports-full-iam-language",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/service-control-policies.md",
+      "skos:altLabel": [
+        "SCP",
+        "SCPs",
+        "AWS Organizations service control policies"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:aws-control-tower"
+        },
+        {
+          "@id": "kt:multi-account-strategy"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:permissions-boundaries"
+        },
+        {
+          "@id": "kt:resource-control-policies"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:organizations-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-database-migration-service",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Database Migration Service",
