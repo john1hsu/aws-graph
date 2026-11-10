@@ -609,6 +609,31 @@
     ]
   },
   {
+    "id": "kt:aws-control-tower",
+    "title": "AWS Control Tower",
+    "aliases": [
+      "Control Tower",
+      "AWS Control Tower landing zone"
+    ],
+    "type": "Service",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/aws-control-tower.md",
+    "created": "2026-11-10",
+    "verified": "2026-11-10",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.md",
+      "https://docs.aws.amazon.com/controltower/latest/userguide/how-control-tower-works.md",
+      "https://docs.aws.amazon.com/controltower/latest/userguide/key-changes-lz-v4.html",
+      "https://docs.aws.amazon.com/controltower/latest/userguide/limits.md",
+      "https://aws.amazon.com/controltower/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-control-tower-controls-dedicated-experience",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-controltower.md",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-cost-explorer",
     "title": "AWS Cost Explorer",
     "aliases": [

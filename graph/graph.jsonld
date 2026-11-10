@@ -2938,6 +2938,123 @@
       ]
     },
     {
+      "@id": "kt:aws-control-tower",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Control Tower",
+      "skos:definition": "AWS's managed service for setting up and governing a multi-account AWS environment: it orchestrates AWS Organizations, IAM Identity Center, Service Catalog, AWS Config and CloudTrail to build a landing zone, applies preventive, detective and proactive controls, and vends new accounts through Account Factory.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedOn": "2026-11-10",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is AWS Control Tower? - AWS Control Tower",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How AWS Control Tower works - AWS Control Tower",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/controltower/latest/userguide/how-control-tower-works.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Key changes (landing zone v4.0) - AWS Control Tower",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/controltower/latest/userguide/key-changes-lz-v4.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Limitations and quotas in AWS Control Tower",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/controltower/latest/userguide/limits.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Control Tower pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/controltower/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Control Tower introduces a controls-dedicated experience",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-control-tower-controls-dedicated-experience",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Control Tower in AWS GovCloud (US)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-controltower.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/aws-control-tower.md",
+      "skos:altLabel": [
+        "Control Tower",
+        "AWS Control Tower landing zone"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:iam-identity-center"
+        },
+        {
+          "@id": "kt:multi-account-strategy"
+        },
+        {
+          "@id": "kt:service-control-policies"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-config"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:control-tower-quotas"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-organizations",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Organizations",

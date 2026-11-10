@@ -674,6 +674,35 @@
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Control Tower" .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Control Tower landing zone" .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/2004/02/skos/core#altLabel> "Control Tower" .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed service for setting up and governing a multi-account AWS environment: it orchestrates AWS Organizations, IAM Identity Center, Service Catalog, AWS Config and CloudTrail to build a landing zone, applies preventive, detective and proactive controls, and vends new accounts through Account Factory." .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Control Tower" .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s9> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/control-tower-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cost Explorer" .
@@ -2215,6 +2244,51 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s1> <http://purl.org/dc/terms/title> "What Is AWS Control Tower? - AWS Control Tower" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s1> <https://schema.org/url> "https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s2> <http://purl.org/dc/terms/title> "How AWS Control Tower works - AWS Control Tower" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s2> <https://schema.org/url> "https://docs.aws.amazon.com/controltower/latest/userguide/how-control-tower-works.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s3> <http://purl.org/dc/terms/title> "Key changes (landing zone v4.0) - AWS Control Tower" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s3> <https://schema.org/url> "https://docs.aws.amazon.com/controltower/latest/userguide/key-changes-lz-v4.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s4> <http://purl.org/dc/terms/title> "Limitations and quotas in AWS Control Tower" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s4> <https://schema.org/url> "https://docs.aws.amazon.com/controltower/latest/userguide/limits.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s5> <http://purl.org/dc/terms/title> "AWS Control Tower pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s5> <https://schema.org/url> "https://aws.amazon.com/controltower/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s6> <http://purl.org/dc/terms/title> "AWS Control Tower introduces a controls-dedicated experience" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-control-tower-controls-dedicated-experience" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s7> <http://purl.org/dc/terms/title> "AWS Control Tower in AWS GovCloud (US)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s7> <https://schema.org/url> "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-controltower.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s8> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s8> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s9> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s1> <http://purl.org/dc/terms/title> "Analyzing your costs and usage with AWS Cost Explorer - AWS Cost Management" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
