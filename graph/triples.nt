@@ -686,6 +686,36 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon SNS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS SNS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Simple Notification Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/2004/02/skos/core#altLabel> "SNS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/2004/02/skos/core#altLabel> "Simple Notification Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed publish/subscribe service: publishers send messages to a topic and SNS pushes copies to every subscribed endpoint (SQS queues, Lambda functions, Firehose streams, HTTP/S, email, SMS and mobile push), with standard and FIFO topic types, filtering, retries and dead-letter queues." .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon SNS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/sns-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sns> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Textract" .
@@ -2942,6 +2972,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <https://schema.org/url> "https://docs.aws.amazon.com/id_id/aws-certification/latest/userguide/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s1> <http://purl.org/dc/terms/title> "Amazon SNS features and capabilities" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s1> <https://schema.org/url> "https://docs.aws.amazon.com/sns/latest/dg/welcome-features.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s2> <http://purl.org/dc/terms/title> "Amazon Simple Notification Service endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s2> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/sns.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s3> <http://purl.org/dc/terms/title> "Amazon SNS FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s3> <https://schema.org/url> "https://aws.amazon.com/sns/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s4> <http://purl.org/dc/terms/title> "Amazon SNS message delivery retries" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s4> <https://schema.org/url> "https://docs.aws.amazon.com/sns/latest/dg/sns-message-delivery-retries.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s5> <http://purl.org/dc/terms/title> "Publishing large messages with Amazon SNS and Amazon S3" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s5> <https://schema.org/url> "https://docs.aws.amazon.com/sns/latest/dg/large-message-payloads.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s6> <http://purl.org/dc/terms/title> "Amazon SNS now supports sending SMS in additional AWS Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sns-sms-region-expansion" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s7> <http://purl.org/dc/terms/title> "Amazon SNS FIFO topics are now available in AWS GovCloud (US) Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2023/12/amazon-sns-fifo-topics-aws-govcloud-us-regions" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s8> <http://purl.org/dc/terms/title> "In-Scope AWS Services – AWS Certified Solutions Architect – Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <http://purl.org/dc/terms/title> "Amazon Textract FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

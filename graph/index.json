@@ -605,6 +605,32 @@
     ]
   },
   {
+    "id": "kt:amazon-sns",
+    "title": "Amazon SNS",
+    "aliases": [
+      "Amazon Simple Notification Service",
+      "SNS",
+      "Simple Notification Service",
+      "AWS SNS"
+    ],
+    "type": "Service",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/amazon-sns.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/sns/latest/dg/welcome-features.md",
+      "https://docs.aws.amazon.com/general/latest/gr/sns.html",
+      "https://aws.amazon.com/sns/faqs",
+      "https://docs.aws.amazon.com/sns/latest/dg/sns-message-delivery-retries.md",
+      "https://docs.aws.amazon.com/sns/latest/dg/large-message-payloads.md",
+      "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sns-sms-region-expansion",
+      "https://aws.amazon.com/about-aws/whats-new/2023/12/amazon-sns-fifo-topics-aws-govcloud-us-regions",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-textract",
     "title": "Amazon Textract",
     "aliases": [

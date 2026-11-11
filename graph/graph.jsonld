@@ -6920,6 +6920,119 @@
       ]
     },
     {
+      "@id": "kt:amazon-sns",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon SNS",
+      "skos:definition": "AWS's fully managed publish/subscribe service: publishers send messages to a topic and SNS pushes copies to every subscribed endpoint (SQS queues, Lambda functions, Firehose streams, HTTP/S, email, SMS and mobile push), with standard and FIFO topic types, filtering, retries and dead-letter queues.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon SNS features and capabilities",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/sns/latest/dg/welcome-features.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Simple Notification Service endpoints and quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/sns.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SNS FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/sns/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SNS message delivery retries",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/sns/latest/dg/sns-message-delivery-retries.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Publishing large messages with Amazon SNS and Amazon S3",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/sns/latest/dg/large-message-payloads.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SNS now supports sending SMS in additional AWS Regions",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sns-sms-region-expansion",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon SNS FIFO topics are now available in AWS GovCloud (US) Regions",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2023/12/amazon-sns-fifo-topics-aws-govcloud-us-regions",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services – AWS Certified Solutions Architect – Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/amazon-sns.md",
+      "skos:altLabel": [
+        "Amazon Simple Notification Service",
+        "SNS",
+        "Simple Notification Service",
+        "AWS SNS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-serverless-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-sqs"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-data-firehose"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:sns-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-lambda",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Lambda",
