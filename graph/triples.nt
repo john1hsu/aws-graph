@@ -467,6 +467,36 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EMR" .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon EMR Serverless" .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Elastic MapReduce" .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2004/02/skos/core#altLabel> "EMR on EKS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2004/02/skos/core#altLabel> "EMR" .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2004/02/skos/core#altLabel> "Elastic MapReduce" .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed big data platform for running open-source frameworks such as Apache Spark, Hive, Trino, Flink and HBase at scale, deployable as EC2 clusters, on Amazon EKS, or serverless, with an EMR charge added on top of the underlying compute." .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EMR" .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-emr> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EventBridge" .
@@ -2617,6 +2647,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s1> <http://purl.org/dc/terms/title> "Understanding how to create and work with Amazon EMR clusters - Amazon EMR" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s1> <https://schema.org/url> "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-overview.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s2> <http://purl.org/dc/terms/title> "Amazon EMR architecture and service layers - Amazon EMR" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s2> <https://schema.org/url> "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-overview-arch.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s3> <http://purl.org/dc/terms/title> "What is Amazon EMR Serverless? - Amazon EMR" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s3> <https://schema.org/url> "https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/emr-serverless.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s4> <http://purl.org/dc/terms/title> "Amazon EMR Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s4> <https://schema.org/url> "https://aws.amazon.com/emr/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s5> <http://purl.org/dc/terms/title> "Amazon EMR FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s5> <https://schema.org/url> "https://aws.amazon.com/emr/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s6> <http://purl.org/dc/terms/title> "Amazon EMR - Big Data Analytics Options on AWS (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-emr/s6> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/big-data-analytics-options/amazon-emr" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s1> <http://purl.org/dc/terms/title> "What Is Amazon EventBridge?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

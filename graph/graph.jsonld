@@ -567,6 +567,109 @@
       ]
     },
     {
+      "@id": "kt:amazon-emr",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon EMR",
+      "skos:definition": "AWS's managed big data platform for running open-source frameworks such as Apache Spark, Hive, Trino, Flink and HBase at scale, deployable as EC2 clusters, on Amazon EKS, or serverless, with an EMR charge added on top of the underlying compute.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understanding how to create and work with Amazon EMR clusters - Amazon EMR",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EMR architecture and service layers - Amazon EMR",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-overview-arch.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is Amazon EMR Serverless? - Amazon EMR",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/emr-serverless.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EMR Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/emr/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EMR FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/emr/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EMR - Big Data Analytics Options on AWS (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/big-data-analytics-options/amazon-emr",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/analytics/amazon-emr.md",
+      "skos:altLabel": [
+        "EMR",
+        "Amazon Elastic MapReduce",
+        "Elastic MapReduce",
+        "Amazon EMR Serverless",
+        "EMR on EKS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-lake-on-aws"
+        },
+        {
+          "@id": "kt:aws-analytics-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-glue"
+        },
+        {
+          "@id": "kt:amazon-athena"
+        },
+        {
+          "@id": "kt:amazon-redshift"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:spot-instances"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-kinesis-data-streams",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Kinesis Data Streams",

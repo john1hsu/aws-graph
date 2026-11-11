@@ -414,6 +414,31 @@
     ]
   },
   {
+    "id": "kt:amazon-emr",
+    "title": "Amazon EMR",
+    "aliases": [
+      "EMR",
+      "Amazon Elastic MapReduce",
+      "Elastic MapReduce",
+      "Amazon EMR Serverless",
+      "EMR on EKS"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/amazon-emr.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-overview.html",
+      "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-overview-arch.html",
+      "https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/emr-serverless.html",
+      "https://aws.amazon.com/emr/pricing/",
+      "https://aws.amazon.com/emr/faqs/",
+      "https://docs.aws.amazon.com/whitepapers/latest/big-data-analytics-options/amazon-emr"
+    ]
+  },
+  {
     "id": "kt:amazon-eventbridge",
     "title": "Amazon EventBridge",
     "aliases": [
