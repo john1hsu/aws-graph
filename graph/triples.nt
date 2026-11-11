@@ -1868,6 +1868,35 @@
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-tool> .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2000/01/rdf-schema#label> "Blue/green deployments" .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2004/02/skos/core#altLabel> "Blue-green deployment" .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2004/02/skos/core#altLabel> "Blue/green deployment" .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2004/02/skos/core#altLabel> "Red/black deployment" .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/ci-cd> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2004/02/skos/core#definition> "A release pattern that runs the current version (blue) and the new version (green) as two separate environments and moves traffic from blue to green only after green is validated, keeping blue available for a fast rollback." .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blue/green deployments" .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-rds> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-codedeploy> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s1> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s2> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s3> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s4> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s5> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/rolling-deployments> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/canary-deployments> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://www.w3.org/2000/01/rdf-schema#label> "Disaster recovery strategies on AWS" .
@@ -4613,6 +4642,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/architecture/architecting-for-ai-excellence-aws-launches-three-well-architected-lenses-at-reinvent-2025" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s1> <http://purl.org/dc/terms/title> "Introduction - Blue/Green Deployments on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s2> <http://purl.org/dc/terms/title> "Services for blue/green deployments - Blue/Green Deployments on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s2> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/services-for-bluegreen-deployments.html" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s3> <http://purl.org/dc/terms/title> "When Blue/Green Deployments Are Not Recommended - Blue/Green Deployments on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s3> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/when-bluegreen-deployments-are-not-recommended.html" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s4> <http://purl.org/dc/terms/title> "Amazon ECS blue/green deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-blue-green.html" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s5> <http://purl.org/dc/terms/title> "Working with deployment configurations in CodeDeploy" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s5> <https://schema.org/url> "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <http://purl.org/dc/terms/title> "Overview of Amazon RDS Blue/Green Deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments-overview.html" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://purl.org/dc/terms/title> "Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

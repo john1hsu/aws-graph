@@ -1637,6 +1637,29 @@
     ]
   },
   {
+    "id": "kt:blue-green-deployments",
+    "title": "Blue/green deployments",
+    "aliases": [
+      "Blue-green deployment",
+      "Blue/green deployment",
+      "Red/black deployment"
+    ],
+    "type": "Pattern",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/blue-green-deployments.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/introduction.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/services-for-bluegreen-deployments.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/when-bluegreen-deployments-are-not-recommended.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-blue-green.html",
+      "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html",
+      "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments-overview.html"
+    ]
+  },
+  {
     "id": "kt:disaster-recovery-strategies",
     "title": "Disaster recovery strategies on AWS",
     "aliases": [

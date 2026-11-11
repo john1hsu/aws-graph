@@ -4261,6 +4261,112 @@
       ]
     },
     {
+      "@id": "kt:blue-green-deployments",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Blue/green deployments",
+      "skos:definition": "A release pattern that runs the current version (blue) and the new version (green) as two separate environments and moves traffic from blue to green only after green is validated, keeping blue available for a fast rollback.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Introduction - Blue/Green Deployments on AWS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Services for blue/green deployments - Blue/Green Deployments on AWS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/services-for-bluegreen-deployments.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "When Blue/Green Deployments Are Not Recommended - Blue/Green Deployments on AWS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/when-bluegreen-deployments-are-not-recommended.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS blue/green deployments",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-blue-green.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Working with deployment configurations in CodeDeploy",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Overview of Amazon RDS Blue/Green Deployments",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments-overview.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/blue-green-deployments.md",
+      "skos:altLabel": [
+        "Blue-green deployment",
+        "Blue/green deployment",
+        "Red/black deployment"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:ci-cd"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-codedeploy"
+        },
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-rds"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:immutable-infrastructure"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-route-53"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:canary-deployments"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:rolling-deployments"
+        }
+      ]
+    },
+    {
       "@id": "kt:availability-zones",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "Availability Zones",

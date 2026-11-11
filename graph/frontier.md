@@ -26,6 +26,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact` |
 | `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams`, `kt:amazon-sns` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
+| `kt:aws-codedeploy` | `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
@@ -38,6 +39,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-sts` | `kt:aws-iam`, `kt:permissions-boundaries` |
 | `kt:aws-transfer-family` | `kt:aws-datasync`, `kt:aws-migration-and-transfer-services` |
 | `kt:aws-transform` | `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
+| `kt:ci-cd` | `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
@@ -74,7 +76,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-batch` | `kt:aws-compute-services` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-codebuild` | `kt:aws-codepipeline` |
-| `kt:aws-codedeploy` | `kt:aws-codepipeline` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
 | `kt:aws-developer-tools` | `kt:aws-codepipeline` |
@@ -89,7 +90,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-systems-manager` | `kt:aws-management-and-governance-services` |
 | `kt:aws-transit-gateway` | `kt:aws-networking-and-content-delivery` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
-| `kt:ci-cd` | `kt:aws-codepipeline` |
+| `kt:canary-deployments` | `kt:blue-green-deployments` |
 | `kt:cloud-security` | `kt:aws-security-services` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
 | `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
@@ -118,6 +119,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:glue-quotas` | `kt:aws-glue` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
 | `kt:iam-roles` | `kt:permissions-boundaries` |
+| `kt:immutable-infrastructure` | `kt:blue-green-deployments` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |
 | `kt:karpenter` | `kt:eks-auto-mode` |
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
@@ -129,6 +131,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
 | `kt:resource-control-policies` | `kt:service-control-policies` |
+| `kt:rolling-deployments` | `kt:blue-green-deployments` |
 | `kt:route-53-quotas` | `kt:amazon-route-53` |
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
