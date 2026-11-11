@@ -4861,6 +4861,109 @@
       ]
     },
     {
+      "@id": "kt:aws-management-and-governance-services",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS management and governance services",
+      "skos:definition": "The AWS service category for running and controlling cloud environments: account structure and guardrails (Organizations, Control Tower), configuration and audit (Config, CloudTrail), monitoring (CloudWatch, Managed Grafana and Prometheus), operations (Systems Manager), provisioning (CloudFormation, Service Catalog) and optimization advice (Trusted Advisor, Compute Optimizer).",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Management and governance - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/management-governance.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Management and Governance Cloud Environment Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/management-and-governance-guide/management-and-governance-cloud-environment-guide.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Journey to cloud-ready environments - Management and Governance Cloud Environment Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/management-and-governance-guide/journey-to-cloud-ready-environments.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Control services - Management and Governance Cloud Environment Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/management-and-governance-guide/aws-controls-and-guardrails-services.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS OpsWorks Stacks End of Life FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/opsworks/latest/userguide/stacks-eol-faqs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Proton Service Deprecation and Migration Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/proton/latest/userguide/proton-end-of-support.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/aws-management-and-governance-services.md",
+      "skos:altLabel": [
+        "AWS management and governance",
+        "AWS management tools",
+        "AWS Management & Governance",
+        "management and governance on AWS",
+        "AWS M&G services"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:multi-account-strategy"
+        },
+        {
+          "@id": "kt:aws-security-services"
+        },
+        {
+          "@id": "kt:aws-well-architected-framework"
+        },
+        {
+          "@id": "kt:aws-cloud-adoption-framework"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:aws-control-tower"
+        },
+        {
+          "@id": "kt:aws-config"
+        },
+        {
+          "@id": "kt:amazon-cloudwatch"
+        },
+        {
+          "@id": "kt:aws-systems-manager"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-organizations",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Organizations",

@@ -1500,6 +1500,37 @@
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS management and governance services" .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS M&G services" .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Management & Governance" .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS management and governance" .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS management tools" .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2004/02/skos/core#altLabel> "management and governance on AWS" .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2004/02/skos/core#definition> "The AWS service category for running and controlling cloud environments: account structure and guardrails (Organizations, Control Tower), configuration and audit (Config, CloudTrail), monitoring (CloudWatch, Managed Grafana and Prometheus), operations (Systems Manager), provisioning (CloudFormation, Service Catalog) and optimization advice (Trusted Advisor, Compute Optimizer)." .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS management and governance services" .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-control-tower> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-systems-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS migration and transfer services" .
@@ -4077,6 +4108,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s9> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s1> <http://purl.org/dc/terms/title> "Management and governance - Overview of Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/management-governance.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s2> <http://purl.org/dc/terms/title> "Management and Governance Cloud Environment Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/management-and-governance-guide/management-and-governance-cloud-environment-guide.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s3> <http://purl.org/dc/terms/title> "Journey to cloud-ready environments - Management and Governance Cloud Environment Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/management-and-governance-guide/journey-to-cloud-ready-environments.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s4> <http://purl.org/dc/terms/title> "Control services - Management and Governance Cloud Environment Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s4> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/management-and-governance-guide/aws-controls-and-guardrails-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s5> <http://purl.org/dc/terms/title> "AWS OpsWorks Stacks End of Life FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s5> <https://schema.org/url> "https://docs.aws.amazon.com/opsworks/latest/userguide/stacks-eol-faqs.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s6> <http://purl.org/dc/terms/title> "AWS Proton Service Deprecation and Migration Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s6> <https://schema.org/url> "https://docs.aws.amazon.com/proton/latest/userguide/proton-end-of-support.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s1> <http://purl.org/dc/terms/title> "Migration and transfer - Overview of Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

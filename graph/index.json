@@ -1314,6 +1314,32 @@
     ]
   },
   {
+    "id": "kt:aws-management-and-governance-services",
+    "title": "AWS management and governance services",
+    "aliases": [
+      "AWS management and governance",
+      "AWS management tools",
+      "AWS Management & Governance",
+      "management and governance on AWS",
+      "AWS M&G services"
+    ],
+    "type": "Concept",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/aws-management-and-governance-services.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/management-governance.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/management-and-governance-guide/management-and-governance-cloud-environment-guide.md",
+      "https://docs.aws.amazon.com/wellarchitected/latest/management-and-governance-guide/journey-to-cloud-ready-environments.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/management-and-governance-guide/aws-controls-and-guardrails-services.html",
+      "https://docs.aws.amazon.com/opsworks/latest/userguide/stacks-eol-faqs.html",
+      "https://docs.aws.amazon.com/proton/latest/userguide/proton-end-of-support.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-migration-and-transfer-services",
     "title": "AWS migration and transfer services",
     "aliases": [
