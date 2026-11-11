@@ -8,15 +8,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:spot-instances` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-graviton`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-developer-associate`, `kt:aws-certified-solutions-architect-associate` |
+| `kt:aws-container-services` | `kt:amazon-ecr`, `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:edge-locations` | `kt:aws-global-infrastructure`, `kt:aws-regions`, `kt:amazon-cloudfront`, `kt:aws-networking-and-content-delivery` |
-| `kt:amazon-ecr` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-cdk` |
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue` |
 | `kt:amazon-sns` | `kt:aws-budgets`, `kt:amazon-eventbridge`, `kt:amazon-eventbridge` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-backup` | `kt:disaster-recovery-strategies`, `kt:amazon-ebs`, `kt:amazon-efs` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-control-tower`, `kt:aws-cloudtrail` |
-| `kt:aws-container-services` | `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
 | `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch`, `kt:aws-control-tower`, `kt:aws-organizations` |
 | `kt:aws-migration-and-transfer-services` | `kt:aws-database-migration-service`, `kt:aws-datasync`, `kt:aws-transform-mgn` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
@@ -57,6 +56,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-guardduty` | `kt:aws-security-services` |
+| `kt:amazon-inspector` | `kt:amazon-ecr` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-opensearch-service` | `kt:amazon-bedrock-knowledge-bases` |
 | `kt:amazon-q-business` | `kt:amazon-bedrock-knowledge-bases` |
@@ -100,6 +100,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ebs-snapshots` | `kt:amazon-ebs` |
 | `kt:ec2-auto-scaling-quotas` | `kt:amazon-ec2-auto-scaling` |
 | `kt:ec2-instance-quotas` | `kt:amazon-ec2` |
+| `kt:ecr-quotas` | `kt:amazon-ecr` |
 | `kt:ecs-managed-instances` | `kt:amazon-ecs` |
 | `kt:ecs-quotas` | `kt:amazon-ecs` |
 | `kt:efs-quotas` | `kt:amazon-efs` |

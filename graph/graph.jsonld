@@ -1831,6 +1831,129 @@
       ]
     },
     {
+      "@id": "kt:amazon-ecr",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Elastic Container Registry",
+      "skos:definition": "AWS's managed container image registry, which stores, scans, replicates and serves Docker images, OCI images and OCI-compatible artifacts from IAM-controlled private repositories (plus public repositories via ECR Public) to ECS, EKS, Fargate, Lambda and other clients.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Elastic Container Registry?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECR service quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/service-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Elastic Container Registry Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ecr/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Scanning Amazon Elastic Container Registry container images with Amazon Inspector",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/inspector/latest/user/scanning-ecr.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Archiving an image in Amazon ECR",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/archive_restore_image.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECR now supports cross-repository layer sharing to optimize storage and improve push performance",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecr-cross-repository-layer-sharing",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECR now supports image layers up to 200 GB",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-image-layers/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECR pull through cache now supports additional upstream registries",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecr-pull-through-cache-additional-registries/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Developer - Associate",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/containers/amazon-ecr.md",
+      "skos:altLabel": [
+        "Amazon ECR",
+        "ECR",
+        "AWS ECR",
+        "Amazon ECR Public"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-container-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        },
+        {
+          "@id": "kt:aws-fargate"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-inspector"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:ecr-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        },
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-ecs",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Elastic Container Service",
