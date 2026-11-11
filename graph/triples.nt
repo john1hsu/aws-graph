@@ -712,6 +712,34 @@
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Artifact" .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Artifact Agreements" .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Artifact Reports" .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/2004/02/skos/core#altLabel> "Artifact" .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/2004/02/skos/core#definition> "AWS's free, self-service portal for downloading AWS's own audit reports and certifications (SOC, PCI DSS, ISO and more) and for reviewing, accepting and terminating legal agreements such as the HIPAA Business Associate Addendum, per account or across an AWS Organizations organization." .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Artifact" .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-marketplace-vendor-insights> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-backup> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Backup" .
@@ -2883,6 +2911,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <https://schema.org/url> "https://docs.aws.amazon.com/arc-zonal-shift/latest/api/Welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s1> <http://purl.org/dc/terms/title> "What is AWS Artifact?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s1> <https://schema.org/url> "https://docs.aws.amazon.com/artifact/latest/ug/what-is-aws-artifact.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s2> <http://purl.org/dc/terms/title> "AWS Artifact FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s2> <https://schema.org/url> "https://aws.amazon.com/artifact/faq" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s3> <http://purl.org/dc/terms/title> "Managing agreements in AWS Artifact" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s3> <https://schema.org/url> "https://docs.aws.amazon.com/artifact/latest/ug/managing-agreements.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s4> <http://purl.org/dc/terms/title> "AWS Artifact now includes Assurance Assistant for compliance inquiries" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s5> <http://purl.org/dc/terms/title> "AWS Artifact in AWS GovCloud (US)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s5> <https://schema.org/url> "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-artifact.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s6> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certification (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s1> <http://purl.org/dc/terms/title> "What is AWS Backup? - AWS Backup" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

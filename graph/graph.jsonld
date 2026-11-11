@@ -5488,6 +5488,105 @@
       ]
     },
     {
+      "@id": "kt:aws-artifact",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Artifact",
+      "skos:definition": "AWS's free, self-service portal for downloading AWS's own audit reports and certifications (SOC, PCI DSS, ISO and more) and for reviewing, accepting and terminating legal agreements such as the HIPAA Business Associate Addendum, per account or across an AWS Organizations organization.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Artifact?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/artifact/latest/ug/what-is-aws-artifact.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Artifact FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/artifact/faq",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Managing agreements in AWS Artifact",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/artifact/latest/ug/managing-agreements.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Artifact now includes Assurance Assistant for compliance inquiries",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Artifact in AWS GovCloud (US)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-artifact.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certification (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/aws-artifact.md",
+      "skos:altLabel": [
+        "Artifact",
+        "AWS Artifact Reports",
+        "AWS Artifact Agreements"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compliance-programs"
+        },
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        },
+        {
+          "@id": "kt:dod-cloud-computing-srg-impact-levels"
+        },
+        {
+          "@id": "kt:hipaa-eligible-services"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:aws-marketplace-vendor-insights"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-govcloud-us",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS GovCloud (US)",

@@ -633,6 +633,29 @@
     ]
   },
   {
+    "id": "kt:aws-artifact",
+    "title": "AWS Artifact",
+    "aliases": [
+      "Artifact",
+      "AWS Artifact Reports",
+      "AWS Artifact Agreements"
+    ],
+    "type": "Service",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/aws-artifact.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/artifact/latest/ug/what-is-aws-artifact.html",
+      "https://aws.amazon.com/artifact/faq",
+      "https://docs.aws.amazon.com/artifact/latest/ug/managing-agreements.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-artifact.html",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-backup",
     "title": "AWS Backup",
     "aliases": [

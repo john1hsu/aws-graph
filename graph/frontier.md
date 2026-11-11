@@ -19,6 +19,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
+| `kt:aws-compliance-programs` | `kt:aws-artifact`, `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
 | `kt:aws-direct-connect` | `kt:aws-migration-and-transfer-services`, `kt:aws-networking-and-content-delivery`, `kt:dod-cloud-computing-srg-impact-levels` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-organizations`, `kt:service-control-policies` |
@@ -27,10 +28,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-fsx` | `kt:aws-datasync`, `kt:amazon-efs` |
 | `kt:amazon-web-services` | `kt:aws-global-infrastructure`, `kt:aws-migration-and-transfer-services` |
 | `kt:aws-analytics-services` | `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
-| `kt:aws-artifact` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner` |
-| `kt:aws-compliance-programs` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
@@ -55,6 +54,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:on-demand-capacity-reservations` | `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds` |
+| `kt:shared-responsibility-model` | `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-guardduty` | `kt:aws-security-services` |
@@ -80,6 +80,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-developer-tools` | `kt:aws-codepipeline` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions` |
 | `kt:aws-firewall-manager` | `kt:aws-waf` |
+| `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
 | `kt:aws-outposts` | `kt:aws-global-infrastructure` |
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-secrets-manager` | `kt:aws-kms` |
@@ -118,6 +119,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:fargate-quotas` | `kt:aws-fargate` |
 | `kt:gateway-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:glue-quotas` | `kt:aws-glue` |
+| `kt:hipaa-eligible-services` | `kt:aws-artifact` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
 | `kt:iam-roles` | `kt:permissions-boundaries` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |
@@ -135,6 +137,5 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sagemaker-ai-quotas` | `kt:amazon-sagemaker-ai` |
 | `kt:security-groups-vs-network-acls` | `kt:amazon-vpc` |
 | `kt:service-quotas` | `kt:reliability-pillar` |
-| `kt:shared-responsibility-model` | `kt:aws-certified-cloud-practitioner` |
 | `kt:subnets-and-route-tables` | `kt:amazon-vpc` |
 | `kt:vpc-quotas` | `kt:amazon-vpc` |
