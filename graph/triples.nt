@@ -1,3 +1,32 @@
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/2004/02/skos/core#altLabel> "API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon API GW" .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed service for creating, publishing, securing and monitoring REST, HTTP and WebSocket APIs that front Lambda functions, other AWS services or HTTP backends, handling throttling, authorization and versioning for you." .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s9> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/application-load-balancer> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Athena" .
@@ -1620,6 +1649,56 @@
 <https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/organizations-quotas> .
 <https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Developer - Associate" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s1> <http://purl.org/dc/terms/title> "What is Amazon API Gateway?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s1> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s2> <http://purl.org/dc/terms/title> "Choose between REST APIs and HTTP APIs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s2> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s3> <http://purl.org/dc/terms/title> "Amazon API Gateway quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s3> <https://schema.org/url> "https://docs.aws.amazon.com/us_en/apigateway/latest/developerguide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s4> <http://purl.org/dc/terms/title> "Quotas for configuring and running a REST API in API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s4> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-execution-service-limits-table" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s5> <http://purl.org/dc/terms/title> "Quotas for configuring and running an HTTP API in API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s5> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s6> <http://purl.org/dc/terms/title> "Amazon API Gateway pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s6> <https://schema.org/url> "https://aws.amazon.com/api-gateway/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s7> <http://purl.org/dc/terms/title> "Amazon API Gateway - Choosing the right AWS service for your microservice endpoints" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s7> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-the-right-aws-service-for-your-microservice-endpoints/api-gateway.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s8> <http://purl.org/dc/terms/title> "Amazon API Gateway adds MCP proxy support" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/12/api-gateway-mcp-proxy-support" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s9> <http://purl.org/dc/terms/title> "Amazon API Gateway now supports mutual TLS for backend integrations" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://purl.org/dc/terms/title> "Amazon Athena FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

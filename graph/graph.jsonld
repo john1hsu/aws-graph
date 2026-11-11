@@ -5248,6 +5248,122 @@
       ]
     },
     {
+      "@id": "kt:amazon-api-gateway",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon API Gateway",
+      "skos:definition": "AWS's managed service for creating, publishing, securing and monitoring REST, HTTP and WebSocket APIs that front Lambda functions, other AWS services or HTTP backends, handling throttling, authorization and versioning for you.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon API Gateway?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choose between REST APIs and HTTP APIs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon API Gateway quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/us_en/apigateway/latest/developerguide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for configuring and running a REST API in API Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-execution-service-limits-table",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for configuring and running an HTTP API in API Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon API Gateway pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/api-gateway/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon API Gateway - Choosing the right AWS service for your microservice endpoints",
+          "dcterms:publisher": "Amazon Web Services (AWS Prescriptive Guidance)",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-the-right-aws-service-for-your-microservice-endpoints/api-gateway.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon API Gateway adds MCP proxy support",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/api-gateway-mcp-proxy-support",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon API Gateway now supports mutual TLS for backend integrations",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Developer - Associate",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/amazon-api-gateway.md",
+      "skos:altLabel": [
+        "API Gateway",
+        "AWS API Gateway",
+        "Amazon API GW"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-serverless-services"
+        },
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:application-load-balancer"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-waf"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-gateway-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-eventbridge",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon EventBridge",

@@ -1,5 +1,32 @@
 [
   {
+    "id": "kt:amazon-api-gateway",
+    "title": "Amazon API Gateway",
+    "aliases": [
+      "API Gateway",
+      "AWS API Gateway",
+      "Amazon API GW"
+    ],
+    "type": "Service",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/amazon-api-gateway.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html",
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html",
+      "https://docs.aws.amazon.com/us_en/apigateway/latest/developerguide/limits.html",
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-execution-service-limits-table",
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-quotas.html",
+      "https://aws.amazon.com/api-gateway/pricing/",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-the-right-aws-service-for-your-microservice-endpoints/api-gateway.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/12/api-gateway-mcp-proxy-support",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/",
+      "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-athena",
     "title": "Amazon Athena",
     "aliases": [
