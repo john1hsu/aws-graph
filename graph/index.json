@@ -1635,6 +1635,30 @@
     ]
   },
   {
+    "id": "kt:eks-auto-mode",
+    "title": "Amazon EKS Auto Mode",
+    "aliases": [
+      "EKS Auto Mode",
+      "EKS Auto"
+    ],
+    "type": "Feature",
+    "domain": "containers",
+    "file": "articles/containers/eks-auto-mode.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/eks/latest/userguide/create-node-pool.md",
+      "https://docs.aws.amazon.com/eks/latest/userguide/create-node-class.md",
+      "https://docs.aws.amazon.com/us_en/eks/latest/userguide/auto-networking.html",
+      "https://docs.aws.amazon.com/eks/latest/userguide/auto-cost-control.html",
+      "https://aws.amazon.com/eks/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-eks-auto-mode/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-eks-auto-mode-aws-govcloud-us-east-west",
+      "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price"
+    ]
+  },
+  {
     "id": "kt:elastic-load-balancing",
     "title": "Elastic Load Balancing",
     "aliases": [

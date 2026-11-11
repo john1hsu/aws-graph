@@ -2741,6 +2741,112 @@
       ]
     },
     {
+      "@id": "kt:eks-auto-mode",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon EKS Auto Mode",
+      "skos:definition": "An Amazon EKS operating mode in which AWS also runs the cluster's data plane: it launches, scales, patches and retires EC2 worker nodes through Karpenter-style NodePools and NodeClasses, and supplies built-in networking, load balancing and storage, for a per-instance management fee.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create a Node Pool for EKS Auto Mode",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/create-node-pool.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Node Class for Amazon EKS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/create-node-class.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn about VPC Networking and Load Balancing in EKS Auto Mode",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/us_en/eks/latest/userguide/auto-networking.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Cost optimization in EKS Auto Mode",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/auto-cost-control.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EKS pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/eks/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing Amazon EKS Auto Mode",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-eks-auto-mode/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon EKS Auto Mode now available in AWS GovCloud (US-East) and (US-West)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-eks-auto-mode-aws-govcloud-us-east-west",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon EKS Auto Mode reduces GPU management fees by up to 60%",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/containers/eks-auto-mode.md",
+      "skos:altLabel": [
+        "EKS Auto Mode",
+        "EKS Auto"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:spot-instances"
+        },
+        {
+          "@id": "kt:aws-govcloud-us"
+        },
+        {
+          "@id": "kt:karpenter"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-fargate"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-budgets",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Budgets",

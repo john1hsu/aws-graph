@@ -110,7 +110,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ecs-managed-instances` | `kt:amazon-ecs` |
 | `kt:ecs-quotas` | `kt:amazon-ecs` |
 | `kt:efs-quotas` | `kt:amazon-efs` |
-| `kt:eks-auto-mode` | `kt:amazon-eks` |
 | `kt:eks-quotas` | `kt:amazon-eks` |
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing` |
@@ -121,6 +120,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
 | `kt:iam-roles` | `kt:permissions-boundaries` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |
+| `kt:karpenter` | `kt:eks-auto-mode` |
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
 | `kt:kms-quotas` | `kt:aws-kms` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |

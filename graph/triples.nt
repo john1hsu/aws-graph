@@ -1860,6 +1860,33 @@
 <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> .
 <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EKS Auto Mode" .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/2004/02/skos/core#altLabel> "EKS Auto Mode" .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/2004/02/skos/core#altLabel> "EKS Auto" .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/2004/02/skos/core#definition> "An Amazon EKS operating mode in which AWS also runs the cluster's data plane: it launches, scales, patches and retires EC2 worker nodes through Karpenter-style NodePools and NodeClasses, and supplies built-in networking, load balancing and storage, for a per-instance management fee." .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EKS Auto Mode" .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/karpenter> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s1> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s2> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s3> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s4> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s5> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s6> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s7> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s8> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2000/01/rdf-schema#label> "Elastic Load Balancing" .
@@ -4485,6 +4512,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "partner" .
 <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <https://schema.org/url> "https://www.schellman.com/blog/federal-compliance/the-dod-csp-srg-and-dod-mo-srg" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s1> <http://purl.org/dc/terms/title> "Create a Node Pool for EKS Auto Mode" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s1> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/create-node-pool.md" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s2> <http://purl.org/dc/terms/title> "Create a Node Class for Amazon EKS" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s2> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/create-node-class.md" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s3> <http://purl.org/dc/terms/title> "Learn about VPC Networking and Load Balancing in EKS Auto Mode" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s3> <https://schema.org/url> "https://docs.aws.amazon.com/us_en/eks/latest/userguide/auto-networking.html" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s4> <http://purl.org/dc/terms/title> "Cost optimization in EKS Auto Mode" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s4> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/auto-cost-control.html" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s5> <http://purl.org/dc/terms/title> "Amazon EKS pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s5> <https://schema.org/url> "https://aws.amazon.com/eks/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s6> <http://purl.org/dc/terms/title> "Announcing Amazon EKS Auto Mode" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-eks-auto-mode/" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s7> <http://purl.org/dc/terms/title> "Amazon EKS Auto Mode now available in AWS GovCloud (US-East) and (US-West)" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-eks-auto-mode-aws-govcloud-us-east-west" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s8> <http://purl.org/dc/terms/title> "Amazon EKS Auto Mode reduces GPU management fees by up to 60%" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price" .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <http://purl.org/dc/terms/title> "Elastic Load Balancing User Guide (PDF)" .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
