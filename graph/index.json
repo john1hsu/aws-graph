@@ -885,6 +885,29 @@
     ]
   },
   {
+    "id": "kt:aws-certified-solutions-architect-professional",
+    "title": "AWS Certified Solutions Architect - Professional",
+    "aliases": [
+      "SAP-C02",
+      "SAP-C03",
+      "AWS Solutions Architect Professional",
+      "AWS SAP"
+    ],
+    "type": "Certification",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certified-solutions-architect-professional.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-professional-02/solutions-architect-professional-02.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-professional-02/solutions-architect-professional-02-domain1.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-professional-02/solutions-architect-professional-02-domain4.html",
+      "https://aws.amazon.com/certification/certified-solutions-architect-professional/?ch=sec&d=1&sec=rmg",
+      "https://aws.amazon.com/blogs/training-and-certification/september-2026-new-offerings/"
+    ]
+  },
+  {
     "id": "kt:aws-cloudformation",
     "title": "AWS CloudFormation",
     "aliases": [

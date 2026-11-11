@@ -1001,6 +1001,30 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Solutions Architect - Professional" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS SAP" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Solutions Architect Professional" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#altLabel> "SAP-C02" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#altLabel> "SAP-C03" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#definition> "AWS's professional-level architecture certification, validating advanced skill in designing optimized AWS solutions for complex organizations, migrations and modernization in line with the AWS Well-Architected Framework; exam SAP-C02 is being replaced by SAP-C03 in November 2026." .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Certified Solutions Architect - Professional" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-control-tower> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CloudFormation" .
@@ -3347,6 +3371,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-associate/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-associate/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-associate/s3> <https://schema.org/url> "https://aws.amazon.com/certification/recertification/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s1> <http://purl.org/dc/terms/title> "AWS Certified Solutions Architect - Professional (SAP-C02) Exam Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s1> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-professional-02/solutions-architect-professional-02.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s2> <http://purl.org/dc/terms/title> "Content Domain 1: Design Solutions for Organizational Complexity (SAP-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s2> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-professional-02/solutions-architect-professional-02-domain1.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s3> <http://purl.org/dc/terms/title> "Content Domain 4: Accelerate Workload Migration and Modernization (SAP-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s3> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-professional-02/solutions-architect-professional-02-domain4.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s4> <http://purl.org/dc/terms/title> "AWS Certified Solutions Architect - Professional" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s4> <https://schema.org/url> "https://aws.amazon.com/certification/certified-solutions-architect-professional/?ch=sec&d=1&sec=rmg" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s5> <http://purl.org/dc/terms/title> "Certification updates from AWS Training and Certification: September 2026" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/september-2026-new-offerings/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s10> <http://purl.org/dc/terms/title> "Configure and perform CDK stack synthesis" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
