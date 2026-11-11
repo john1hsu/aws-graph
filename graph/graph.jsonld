@@ -4822,6 +4822,102 @@
       ]
     },
     {
+      "@id": "kt:aws-migration-and-transfer-services",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS migration and transfer services",
+      "skos:definition": "The Migration and Transfer category of the AWS portfolio: services for assessing an on-premises estate, moving servers, databases and mainframe workloads to AWS, and transferring data online or offline, now increasingly organized around AWS Transform after Migration Hub and Snowball Edge closed to new customers.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Migration and transfer - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/migration-services.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing AWS migration services and tools",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/migration-on-aws-how-to-choose/migration-on-aws-how-to-choose.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Migration Hub availability change - AWS Migration Hub",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/migrationhub/latest/ug/migrationhub-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Snowball Edge availability change - AWS Snowball Edge Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/snowball/latest/developer-guide/snowball-edge-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Data Transfer Terminal pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/data-transfer-terminal/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transform for VMware is now generally available",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-transform-vmware-generally-available",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certification (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/aws-migration-and-transfer-services.md",
+      "skos:altLabel": [
+        "AWS Migration and Transfer",
+        "Migration and Transfer category",
+        "AWS migration services",
+        "migration and transfer services on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:seven-rs-migration-strategies"
+        },
+        {
+          "@id": "kt:aws-direct-connect"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-transform-mgn"
+        },
+        {
+          "@id": "kt:aws-database-migration-service"
+        },
+        {
+          "@id": "kt:aws-datasync"
+        },
+        {
+          "@id": "kt:aws-transform"
+        },
+        {
+          "@id": "kt:aws-transfer-family"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-transform-mgn",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Transform MGN",

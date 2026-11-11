@@ -18,12 +18,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:purpose-built-databases` | `kt:amazon-aurora`, `kt:amazon-dynamodb`, `kt:amazon-elasticache`, `kt:amazon-rds` |
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
-| `kt:aws-migration-and-transfer-services` | `kt:aws-database-migration-service`, `kt:aws-datasync`, `kt:aws-transform-mgn` |
+| `kt:aws-direct-connect` | `kt:aws-migration-and-transfer-services`, `kt:aws-networking-and-content-delivery`, `kt:dod-cloud-computing-srg-impact-levels` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-waf` | `kt:elastic-load-balancing`, `kt:amazon-cloudfront`, `kt:amazon-api-gateway` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework`, `kt:operational-excellence-pillar`, `kt:aws-security-services` |
+| `kt:seven-rs-migration-strategies` | `kt:aws-database-migration-service`, `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
 | `kt:amazon-fsx` | `kt:aws-datasync`, `kt:amazon-efs` |
+| `kt:amazon-web-services` | `kt:aws-global-infrastructure`, `kt:aws-migration-and-transfer-services` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:amazon-api-gateway` |
 | `kt:aws-analytics-services` | `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
 | `kt:aws-artifact` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
@@ -32,7 +34,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-compliance-programs` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
-| `kt:aws-direct-connect` | `kt:aws-networking-and-content-delivery`, `kt:dod-cloud-computing-srg-impact-levels` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-lake-formation` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:aws-nitro-system` | `kt:aws-graviton`, `kt:aws-graviton` |
@@ -40,6 +41,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us`, `kt:dod-cloud-computing-srg-impact-levels` |
 | `kt:aws-security-hub` | `kt:aws-config`, `kt:aws-security-services` |
+| `kt:aws-transfer-family` | `kt:aws-datasync`, `kt:aws-migration-and-transfer-services` |
+| `kt:aws-transform` | `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
@@ -51,7 +54,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:permissions-boundaries` | `kt:aws-iam`, `kt:service-control-policies` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds` |
-| `kt:seven-rs-migration-strategies` | `kt:aws-database-migration-service`, `kt:aws-transform-mgn` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-guardduty` | `kt:aws-security-services` |
@@ -61,7 +63,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-q-business` | `kt:amazon-bedrock-knowledge-bases` |
 | `kt:amazon-s3-files` | `kt:amazon-efs` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
-| `kt:amazon-web-services` | `kt:aws-global-infrastructure` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
 | `kt:aurora-global-database` | `kt:amazon-aurora` |
 | `kt:aurora-quotas` | `kt:amazon-aurora` |
@@ -83,8 +84,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-storage-gateway` | `kt:aws-datasync` |
 | `kt:aws-sts` | `kt:aws-iam` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
-| `kt:aws-transfer-family` | `kt:aws-datasync` |
-| `kt:aws-transform` | `kt:aws-transform-mgn` |
 | `kt:aws-transit-gateway` | `kt:aws-networking-and-content-delivery` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:ci-cd` | `kt:aws-codepipeline` |

@@ -1171,6 +1171,31 @@
     ]
   },
   {
+    "id": "kt:aws-migration-and-transfer-services",
+    "title": "AWS migration and transfer services",
+    "aliases": [
+      "AWS Migration and Transfer",
+      "Migration and Transfer category",
+      "AWS migration services",
+      "migration and transfer services on AWS"
+    ],
+    "type": "Concept",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/aws-migration-and-transfer-services.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/migration-services.html",
+      "https://docs.aws.amazon.com/decision-guides/latest/migration-on-aws-how-to-choose/migration-on-aws-how-to-choose.html",
+      "https://docs.aws.amazon.com/migrationhub/latest/ug/migrationhub-availability-change.html",
+      "https://docs.aws.amazon.com/snowball/latest/developer-guide/snowball-edge-availability-change.html",
+      "https://aws.amazon.com/data-transfer-terminal/pricing",
+      "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-transform-vmware-generally-available",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-networking-and-content-delivery",
     "title": "AWS networking and content delivery",
     "aliases": [

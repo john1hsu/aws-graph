@@ -1333,6 +1333,34 @@
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS migration and transfer services" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Migration and Transfer" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS migration services" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/2004/02/skos/core#altLabel> "Migration and Transfer category" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/2004/02/skos/core#altLabel> "migration and transfer services on AWS" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/2004/02/skos/core#definition> "The Migration and Transfer category of the AWS portfolio: services for assessing an on-premises estate, moving servers, databases and mainframe workloads to AWS, and transferring data online or offline, now increasingly organized around AWS Transform after Migration Hub and Snowball Edge closed to new customers." .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS migration and transfer services" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-datasync> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-transfer-family> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-transform> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <http://www.w3.org/2000/01/rdf-schema#label> "AWS networking and content delivery" .
@@ -3592,6 +3620,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s9> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s1> <http://purl.org/dc/terms/title> "Migration and transfer - Overview of Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/migration-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s2> <http://purl.org/dc/terms/title> "Choosing AWS migration services and tools" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s2> <https://schema.org/url> "https://docs.aws.amazon.com/decision-guides/latest/migration-on-aws-how-to-choose/migration-on-aws-how-to-choose.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s3> <http://purl.org/dc/terms/title> "AWS Migration Hub availability change - AWS Migration Hub" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s3> <https://schema.org/url> "https://docs.aws.amazon.com/migrationhub/latest/ug/migrationhub-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s4> <http://purl.org/dc/terms/title> "AWS Snowball Edge availability change - AWS Snowball Edge Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s4> <https://schema.org/url> "https://docs.aws.amazon.com/snowball/latest/developer-guide/snowball-edge-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s5> <http://purl.org/dc/terms/title> "AWS Data Transfer Terminal pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s5> <https://schema.org/url> "https://aws.amazon.com/data-transfer-terminal/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s6> <http://purl.org/dc/terms/title> "AWS Transform for VMware is now generally available" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-transform-vmware-generally-available" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certification (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s7> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s1> <http://purl.org/dc/terms/title> "Networking and content delivery - Overview of Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
