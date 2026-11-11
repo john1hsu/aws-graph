@@ -977,6 +977,30 @@
     ]
   },
   {
+    "id": "kt:aws-compute-services",
+    "title": "AWS compute services",
+    "aliases": [
+      "AWS compute",
+      "compute on AWS",
+      "AWS compute portfolio",
+      "AWS compute category"
+    ],
+    "type": "Concept",
+    "domain": "compute",
+    "file": "articles/compute/aws-compute-services.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html",
+      "https://docs.aws.amazon.com/decision-guides/latest/compute-on-aws-how-to-choose/choosing-aws-compute-service.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/perf_compute_hardware_select_best_compute_options.html",
+      "https://docs.aws.amazon.com/decision-guides/latest/fargate-or-lambda/fargate-or-lambda.html",
+      "https://docs.aws.amazon.com/ja_jp/apprunner/latest/dg/apprunner-availability-change.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html"
+    ]
+  },
+  {
     "id": "kt:aws-config",
     "title": "AWS Config",
     "aliases": [

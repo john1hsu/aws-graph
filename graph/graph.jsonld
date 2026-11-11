@@ -2013,6 +2013,104 @@
       ]
     },
     {
+      "@id": "kt:aws-compute-services",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS compute services",
+      "skos:definition": "The family of AWS services that run your code: virtual machine instances (Amazon EC2 and Lightsail), containers (ECS, EKS, Fargate), serverless functions (Lambda), batch processing (AWS Batch) and hybrid/edge compute (Outposts, Local Zones, Wavelength), plus the scaling, load-balancing and pricing tools that sit around them.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Compute - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing an AWS compute service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/compute-on-aws-how-to-choose/choosing-aws-compute-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PERF02-BP01 Select the best compute options for your workload - Performance Efficiency Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/perf_compute_hardware_select_best_compute_options.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Fargate or AWS Lambda?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/fargate-or-lambda/fargate-or-lambda.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS App Runner availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ja_jp/apprunner/latest/dg/apprunner-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/compute/aws-compute-services.md",
+      "skos:altLabel": [
+        "AWS compute",
+        "compute on AWS",
+        "AWS compute portfolio",
+        "AWS compute category"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-container-services"
+        },
+        {
+          "@id": "kt:aws-serverless-services"
+        },
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:aws-fargate"
+        },
+        {
+          "@id": "kt:aws-batch"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:savings-plans"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-graviton",
       "@type": "kto:Feature",
       "skos:prefLabel": "AWS Graviton",
