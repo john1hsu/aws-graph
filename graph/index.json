@@ -1440,6 +1440,32 @@
     ]
   },
   {
+    "id": "kt:reserved-instances",
+    "title": "Reserved Instances",
+    "aliases": [
+      "Amazon EC2 Reserved Instances",
+      "EC2 Reserved Instances",
+      "RIs",
+      "Standard Reserved Instances",
+      "Convertible Reserved Instances",
+      "Reserved DB instances"
+    ],
+    "type": "PricingModel",
+    "domain": "cost-management",
+    "file": "articles/cost-management/reserved-instances.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-reserved-instances.html",
+      "https://aws.amazon.com/ec2/pricing/reserved-instances/",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/apply_ri.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-limits.html",
+      "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithReservedDBInstances.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md"
+    ]
+  },
+  {
     "id": "kt:savings-plans",
     "title": "Savings Plans",
     "aliases": [

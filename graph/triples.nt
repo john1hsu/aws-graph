@@ -1626,6 +1626,37 @@
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#PricingModel> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2000/01/rdf-schema#label> "Reserved Instances" .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon EC2 Reserved Instances" .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#altLabel> "Convertible Reserved Instances" .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 Reserved Instances" .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#altLabel> "RIs" .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#altLabel> "Reserved DB instances" .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#altLabel> "Standard Reserved Instances" .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#definition> "A billing discount, not a physical server: you commit to a specific instance configuration (instance type, Region, tenancy and platform) for a one- or three-year term, and matching On-Demand usage is billed at a reduced rate. Offered for Amazon EC2 and, as reserved DB instances, for Amazon RDS and Aurora." .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reserved Instances" .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-budgets> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s1> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s2> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s3> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s4> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s5> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s6> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-rds> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/reserved-instances> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#PricingModel> .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2000/01/rdf-schema#label> "Savings Plans" .
@@ -3750,6 +3781,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s8> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/resiliency-and-the-components-of-reliability.html" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s1> <http://purl.org/dc/terms/title> "Reserved Instances for Amazon EC2 overview - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-reserved-instances.html" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s2> <http://purl.org/dc/terms/title> "Amazon EC2 Reserved Instances Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s2> <https://schema.org/url> "https://aws.amazon.com/ec2/pricing/reserved-instances/" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s3> <http://purl.org/dc/terms/title> "How Reserved Instance discounts are applied - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/apply_ri.html" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s4> <http://purl.org/dc/terms/title> "Reserved Instance quotas - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s5> <http://purl.org/dc/terms/title> "Reserved DB instances for Amazon RDS - Amazon Relational Database Service" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithReservedDBInstances.html" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s6> <http://purl.org/dc/terms/title> "AWS Certified Cloud Practitioner (CLF-C02) exam guide - Content Domain 4: Billing, Pricing, and Support" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/reserved-instances/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md" .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <http://purl.org/dc/terms/title> "What are Savings Plans? - Savings Plans" .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

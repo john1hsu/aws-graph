@@ -2322,6 +2322,110 @@
       ]
     },
     {
+      "@id": "kt:reserved-instances",
+      "@type": "kto:PricingModel",
+      "skos:prefLabel": "Reserved Instances",
+      "skos:definition": "A billing discount, not a physical server: you commit to a specific instance configuration (instance type, Region, tenancy and platform) for a one- or three-year term, and matching On-Demand usage is billed at a reduced rate. Offered for Amazon EC2 and, as reserved DB instances, for Amazon RDS and Aurora.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Reserved Instances for Amazon EC2 overview - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-reserved-instances.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EC2 Reserved Instances Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ec2/pricing/reserved-instances/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Reserved Instance discounts are applied - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/apply_ri.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Reserved Instance quotas - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Reserved DB instances for Amazon RDS - Amazon Relational Database Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithReservedDBInstances.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified Cloud Practitioner (CLF-C02) exam guide - Content Domain 4: Billing, Pricing, and Support",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/cost-management/reserved-instances.md",
+      "skos:altLabel": [
+        "Amazon EC2 Reserved Instances",
+        "EC2 Reserved Instances",
+        "RIs",
+        "Standard Reserved Instances",
+        "Convertible Reserved Instances",
+        "Reserved DB instances"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-pricing-fundamentals"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:spot-instances"
+        },
+        {
+          "@id": "kt:aws-cost-explorer"
+        },
+        {
+          "@id": "kt:aws-budgets"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:savings-plans"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:on-demand-capacity-reservations"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-rds"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:savings-plans",
       "@type": "kto:PricingModel",
       "skos:prefLabel": "Savings Plans",
