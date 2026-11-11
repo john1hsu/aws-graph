@@ -41,6 +41,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us`, `kt:dod-cloud-computing-srg-impact-levels` |
 | `kt:aws-security-hub` | `kt:aws-config`, `kt:aws-security-services` |
+| `kt:aws-sts` | `kt:aws-iam`, `kt:permissions-boundaries` |
 | `kt:aws-transfer-family` | `kt:aws-datasync`, `kt:aws-migration-and-transfer-services` |
 | `kt:aws-transform` | `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
@@ -48,11 +49,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:aws-serverless-services` |
+| `kt:iam-policy-evaluation-logic` | `kt:aws-iam`, `kt:permissions-boundaries` |
+| `kt:iam-quotas` | `kt:aws-iam`, `kt:permissions-boundaries` |
 | `kt:local-zones` | `kt:availability-zones`, `kt:aws-global-infrastructure` |
 | `kt:nist-sp-800-53` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
 | `kt:on-demand-capacity-reservations` | `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:service-control-policies` |
-| `kt:permissions-boundaries` | `kt:aws-iam`, `kt:service-control-policies` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams` |
@@ -82,7 +84,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-secrets-manager` | `kt:aws-kms` |
 | `kt:aws-storage-gateway` | `kt:aws-datasync` |
-| `kt:aws-sts` | `kt:aws-iam` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-transit-gateway` | `kt:aws-networking-and-content-delivery` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
@@ -117,8 +118,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:gateway-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:glue-quotas` | `kt:aws-glue` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
-| `kt:iam-policy-evaluation-logic` | `kt:aws-iam` |
-| `kt:iam-quotas` | `kt:aws-iam` |
+| `kt:iam-roles` | `kt:permissions-boundaries` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
 | `kt:kms-quotas` | `kt:aws-kms` |

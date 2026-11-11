@@ -4506,6 +4506,80 @@
       ]
     },
     {
+      "@id": "kt:permissions-boundaries",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "IAM permissions boundaries",
+      "skos:definition": "An advanced AWS IAM feature that attaches a managed policy to an IAM user or role as the maximum set of permissions its identity-based policies can grant; it limits access but never grants any on its own, and is mainly used to delegate safe role creation to developers.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Permissions boundaries for IAM entities - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/IAM/latest/UserGuide/access_policies_boundaries.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "When and where to use IAM permissions boundaries",
+          "dcterms:publisher": "AWS Security Blog",
+          "schema:url": "https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Delegate permission management to developers by using IAM permissions boundaries",
+          "dcterms:publisher": "AWS Security Blog",
+          "schema:url": "https://aws.amazon.com/blogs/security/delegate-permission-management-to-developers-using-iam-permissions-boundaries",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "IAM and AWS STS quotas - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS IAM now provides higher maximum quotas for roles, role trust policies, instance profiles, managed policies, and identity providers",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iam-increased-quotas/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/permissions-boundaries.md",
+      "skos:altLabel": [
+        "permissions boundary",
+        "permission boundaries",
+        "IAM permission boundary"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:iam-policy-evaluation-logic"
+        },
+        {
+          "@id": "kt:iam-roles"
+        },
+        {
+          "@id": "kt:aws-sts"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:service-control-policies"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:iam-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:service-control-policies",
       "@type": "kto:Feature",
       "skos:prefLabel": "Service control policies (SCPs)",

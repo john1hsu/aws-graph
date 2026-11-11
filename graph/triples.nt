@@ -1779,6 +1779,28 @@
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/2000/01/rdf-schema#label> "IAM permissions boundaries" .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/2004/02/skos/core#altLabel> "IAM permission boundary" .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/2004/02/skos/core#altLabel> "permission boundaries" .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/2004/02/skos/core#altLabel> "permissions boundary" .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/2004/02/skos/core#definition> "An advanced AWS IAM feature that attaches a managed policy to an IAM user or role as the maximum set of permissions its identity-based policies can grant; it limits access but never grants any on its own, and is mainly used to delegate safe role creation to developers." .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/2004/02/skos/core#prefLabel> "IAM permissions boundaries" .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-sts> .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-roles> .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s1> .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s2> .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s3> .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s4> .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s5> .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <https://github.com/john1hsu/aws-graph/ontology#domain> "identity-and-access" .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/iam-quotas> .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Reliability Pillar" .
@@ -4160,6 +4182,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.md" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s1> <http://purl.org/dc/terms/title> "Permissions boundaries for IAM entities - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s1> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/IAM/latest/UserGuide/access_policies_boundaries.html" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s2> <http://purl.org/dc/terms/publisher> "AWS Security Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s2> <http://purl.org/dc/terms/title> "When and where to use IAM permissions boundaries" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s2> <https://schema.org/url> "https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s3> <http://purl.org/dc/terms/publisher> "AWS Security Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s3> <http://purl.org/dc/terms/title> "Delegate permission management to developers by using IAM permissions boundaries" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s3> <https://schema.org/url> "https://aws.amazon.com/blogs/security/delegate-permission-management-to-developers-using-iam-permissions-boundaries" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s4> <http://purl.org/dc/terms/title> "IAM and AWS STS quotas - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s4> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.md" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s5> <http://purl.org/dc/terms/title> "AWS IAM now provides higher maximum quotas for roles, role trust policies, instance profiles, managed policies, and identity providers" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iam-increased-quotas/" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://purl.org/dc/terms/title> "Reliability Pillar - AWS Well-Architected Framework (introduction)" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

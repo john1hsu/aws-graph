@@ -1565,6 +1565,28 @@
     ]
   },
   {
+    "id": "kt:permissions-boundaries",
+    "title": "IAM permissions boundaries",
+    "aliases": [
+      "permissions boundary",
+      "permission boundaries",
+      "IAM permission boundary"
+    ],
+    "type": "Feature",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/permissions-boundaries.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/en_us/IAM/latest/UserGuide/access_policies_boundaries.html",
+      "https://aws.amazon.com/blogs/security/when-and-where-to-use-iam-permissions-boundaries",
+      "https://aws.amazon.com/blogs/security/delegate-permission-management-to-developers-using-iam-permissions-boundaries",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.md",
+      "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iam-increased-quotas/"
+    ]
+  },
+  {
     "id": "kt:reliability-pillar",
     "title": "Reliability Pillar",
     "aliases": [
