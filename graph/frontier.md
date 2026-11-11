@@ -18,15 +18,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:purpose-built-databases` | `kt:amazon-aurora`, `kt:amazon-dynamodb`, `kt:amazon-elasticache`, `kt:amazon-rds` |
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
+| `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
 | `kt:aws-direct-connect` | `kt:aws-migration-and-transfer-services`, `kt:aws-networking-and-content-delivery`, `kt:dod-cloud-computing-srg-impact-levels` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
-| `kt:aws-waf` | `kt:elastic-load-balancing`, `kt:amazon-cloudfront`, `kt:amazon-api-gateway` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework`, `kt:operational-excellence-pillar`, `kt:aws-security-services` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-database-migration-service`, `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
 | `kt:amazon-fsx` | `kt:aws-datasync`, `kt:amazon-efs` |
 | `kt:amazon-web-services` | `kt:aws-global-infrastructure`, `kt:aws-migration-and-transfer-services` |
-| `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:amazon-api-gateway` |
 | `kt:aws-analytics-services` | `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
 | `kt:aws-artifact` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
@@ -80,9 +79,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
 | `kt:aws-developer-tools` | `kt:aws-codepipeline` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions` |
+| `kt:aws-firewall-manager` | `kt:aws-waf` |
 | `kt:aws-outposts` | `kt:aws-global-infrastructure` |
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-secrets-manager` | `kt:aws-kms` |
+| `kt:aws-shield` | `kt:aws-waf` |
 | `kt:aws-storage-gateway` | `kt:aws-datasync` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-transit-gateway` | `kt:aws-networking-and-content-delivery` |

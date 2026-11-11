@@ -6068,6 +6068,99 @@
       ]
     },
     {
+      "@id": "kt:aws-waf",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS WAF",
+      "skos:definition": "AWS's managed layer 7 web application firewall: a web ACL (shown as a protection pack in the new console) of rules and rule groups inspects HTTP(S) requests sent to CloudFront, Application Load Balancers, API Gateway and other front doors, and allows, blocks, counts or challenges them.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How AWS WAF works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/waf/latest/developerguide/how-aws-waf-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Resources that you can protect with AWS WAF",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/waf/latest/developerguide/how-aws-waf-works-resources.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS WAF quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/waf/latest/developerguide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS WAF Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/waf/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing the new console experience for AWS WAF",
+          "dcterms:publisher": "AWS Security Blog",
+          "schema:url": "https://aws.amazon.com/blogs/security/introducing-the-new-console-experience-for-aws-waf",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services (AWS Certified Cloud Practitioner CLF-C02), French edition",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security/aws-waf.md",
+      "skos:altLabel": [
+        "AWS Web Application Firewall",
+        "WAF",
+        "AWS WAFV2"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-shield"
+        },
+        {
+          "@id": "kt:aws-firewall-manager"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-cloudfront"
+        },
+        {
+          "@id": "kt:application-load-balancer"
+        },
+        {
+          "@id": "kt:amazon-api-gateway"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-api-gateway",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon API Gateway",
