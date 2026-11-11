@@ -1324,6 +1324,120 @@
       ]
     },
     {
+      "@id": "kt:security-pillar",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Security Pillar",
+      "skos:definition": "The pillar of the AWS Well-Architected Framework concerned with protecting data, systems and assets, built on seven design principles and seven best practice areas (security foundations, identity and access management, detection, infrastructure protection, data protection, incident response and application security) covering questions SEC 1 to SEC 11.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Security Pillar - AWS Well-Architected Framework (introduction)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design principles - AWS Well-Architected Framework (Security)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-design.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Definition - AWS Well-Architected Framework (Security)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-def.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Document revisions - Security Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/document-revisions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Security foundations - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-security.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SEC01-BP01 Separate workloads using accounts - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec_securely_operate_multi_accounts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Incident response - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-incresp.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Application security - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-appsec.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified Cloud Practitioner (CLF-C02) - Domain 1: Cloud Concepts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/security-pillar.md",
+      "skos:altLabel": [
+        "AWS Well-Architected Security Pillar",
+        "Well-Architected security pillar",
+        "Security Pillar whitepaper"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:operational-excellence-pillar"
+        },
+        {
+          "@id": "kt:reliability-pillar"
+        },
+        {
+          "@id": "kt:aws-security-services"
+        },
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-control-tower"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-ai-practitioner",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified AI Practitioner",

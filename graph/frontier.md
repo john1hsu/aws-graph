@@ -23,8 +23,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-pricing-fundamentals` | `kt:reserved-instances`, `kt:savings-plans`, `kt:spot-instances` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-organizations`, `kt:service-control-policies` |
-| `kt:security-pillar` | `kt:aws-well-architected-framework`, `kt:operational-excellence-pillar`, `kt:aws-security-services` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-database-migration-service`, `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
+| `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact` |
 | `kt:amazon-fsx` | `kt:aws-datasync`, `kt:amazon-efs` |
 | `kt:amazon-web-services` | `kt:aws-global-infrastructure`, `kt:aws-migration-and-transfer-services` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
@@ -53,7 +53,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:on-demand-capacity-reservations` | `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds` |
-| `kt:shared-responsibility-model` | `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract` |
 | `kt:amazon-comprehend` | `kt:amazon-textract` |

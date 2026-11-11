@@ -1756,6 +1756,32 @@
     ]
   },
   {
+    "id": "kt:security-pillar",
+    "title": "Security Pillar",
+    "aliases": [
+      "AWS Well-Architected Security Pillar",
+      "Well-Architected security pillar",
+      "Security Pillar whitepaper"
+    ],
+    "type": "Concept",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/security-pillar.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-design.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-def.md",
+      "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/document-revisions.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-security.md",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec_securely_operate_multi_accounts.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-incresp.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-appsec.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html"
+    ]
+  },
+  {
     "id": "kt:service-control-policies",
     "title": "Service control policies (SCPs)",
     "aliases": [
