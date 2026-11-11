@@ -1777,5 +1777,29 @@
       "https://aws.amazon.com/blogs/security/unlock-new-possibilities-aws-organizations-service-control-policy-now-supports-full-iam-language",
       "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf"
     ]
+  },
+  {
+    "id": "kt:spot-instances",
+    "title": "Amazon EC2 Spot Instances",
+    "aliases": [
+      "Spot Instances",
+      "EC2 Spot",
+      "Spot capacity"
+    ],
+    "type": "PricingModel",
+    "domain": "cost-management",
+    "file": "articles/cost-management/spot-instances.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/ec2/spot/",
+      "https://aws.amazon.com/ec2/spot/pricing",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-interruptions.md",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-instance-termination-notices.md",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-best-practices.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-limits.md",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md"
+    ]
   }
 ]

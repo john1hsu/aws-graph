@@ -2847,6 +2847,111 @@
       ]
     },
     {
+      "@id": "kt:spot-instances",
+      "@type": "kto:PricingModel",
+      "skos:prefLabel": "Amazon EC2 Spot Instances",
+      "skos:definition": "An EC2 purchasing option that runs instances on spare EC2 capacity at a steep discount to On-Demand, in exchange for letting Amazon EC2 reclaim the capacity with a two-minute interruption notice. Suited to stateless, fault-tolerant and flexible workloads.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon EC2 Spot Instances",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ec2/spot/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EC2 Spot Instances Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ec2/spot/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Spot Instance interruptions - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-interruptions.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Spot Instance interruption notices - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-instance-termination-notices.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best practices for Amazon EC2 Spot - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-best-practices.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Spot Instance quotas - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-limits.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified Cloud Practitioner (CLF-C02) exam guide - Content Domain 4: Billing, Pricing, and Support",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/cost-management/spot-instances.md",
+      "skos:altLabel": [
+        "Spot Instances",
+        "EC2 Spot",
+        "Spot capacity"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-pricing-fundamentals"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        },
+        {
+          "@id": "kt:amazon-emr"
+        },
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:reserved-instances"
+        },
+        {
+          "@id": "kt:savings-plans"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-aurora",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Aurora",

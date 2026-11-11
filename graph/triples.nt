@@ -4567,3 +4567,67 @@
 <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <http://purl.org/dc/terms/title> "Amazon EC2 Spot Instances" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <https://schema.org/url> "https://aws.amazon.com/ec2/spot/" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s2> <http://purl.org/dc/terms/title> "Amazon EC2 Spot Instances Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s2> <https://schema.org/url> "https://aws.amazon.com/ec2/spot/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s3> <http://purl.org/dc/terms/title> "Spot Instance interruptions - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-interruptions.md" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s4> <http://purl.org/dc/terms/title> "Spot Instance interruption notices - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-instance-termination-notices.md" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s5> <http://purl.org/dc/terms/title> "Best practices for Amazon EC2 Spot - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-best-practices.html" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s6> <http://purl.org/dc/terms/title> "Spot Instance quotas - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-limits.md" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s7> <http://purl.org/dc/terms/title> "AWS Certified Cloud Practitioner (CLF-C02) exam guide - Content Domain 4: Billing, Pricing, and Support" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/spot-instances/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md" .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#PricingModel> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 Spot Instances" .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 Spot" .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2004/02/skos/core#altLabel> "Spot Instances" .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2004/02/skos/core#altLabel> "Spot capacity" .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2004/02/skos/core#definition> "An EC2 purchasing option that runs instances on spare EC2 capacity at a steep discount to On-Demand, in exchange for letting Amazon EC2 reclaim the capacity with a two-minute interruption notice. Suited to stateless, fault-tolerant and flexible workloads." .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EC2 Spot Instances" .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-emr> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s2> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s3> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s4> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s5> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s6> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s7> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/reserved-instances> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/spot-instances> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .

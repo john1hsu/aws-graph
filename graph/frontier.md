@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:spot-instances` | `kt:amazon-emr`, `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-graviton`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:amazon-sns` | `kt:amazon-textract`, `kt:aws-budgets`, `kt:aws-config`, `kt:amazon-eventbridge`, `kt:amazon-eventbridge` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-graviton`, `kt:elastic-load-balancing`, `kt:aws-lambda` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-emr`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
@@ -21,6 +20,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-analytics-services` | `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
 | `kt:aws-compliance-programs` | `kt:aws-artifact`, `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
 | `kt:aws-direct-connect` | `kt:aws-migration-and-transfer-services`, `kt:aws-networking-and-content-delivery`, `kt:dod-cloud-computing-srg-impact-levels` |
+| `kt:aws-pricing-fundamentals` | `kt:reserved-instances`, `kt:savings-plans`, `kt:spot-instances` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework`, `kt:operational-excellence-pillar`, `kt:aws-security-services` |
@@ -34,7 +34,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-lake-formation` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:aws-nitro-system` | `kt:aws-graviton`, `kt:aws-graviton` |
-| `kt:aws-pricing-fundamentals` | `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us`, `kt:dod-cloud-computing-srg-impact-levels` |
 | `kt:aws-security-hub` | `kt:aws-config`, `kt:aws-security-services` |
