@@ -947,6 +947,32 @@
     ]
   },
   {
+    "id": "kt:aws-graviton",
+    "title": "AWS Graviton",
+    "aliases": [
+      "Graviton",
+      "AWS Graviton processors",
+      "Graviton2",
+      "Graviton3",
+      "Graviton4",
+      "Graviton5"
+    ],
+    "type": "Feature",
+    "domain": "compute",
+    "file": "articles/compute/aws-graviton.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://aws.github.io/graviton/",
+      "https://aws.amazon.com/ec2/graviton/getting-started",
+      "https://aws.amazon.com/blogs/aws/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-c9g-c9gd-instances-graviton5-processors-available/",
+      "https://docs.aws.amazon.com/lambda/latest/dg/foundation-arch.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/net-graviton.html"
+    ]
+  },
+  {
     "id": "kt:aws-iam",
     "title": "AWS Identity and Access Management",
     "aliases": [

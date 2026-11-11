@@ -1625,6 +1625,106 @@
       ]
     },
     {
+      "@id": "kt:aws-graviton",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "AWS Graviton",
+      "skos:definition": "AWS's own family of Arm64 server processors, used in Amazon EC2 instance families marked with a \"g\" (such as M8g, C9g and T4g) and behind arm64 Lambda functions, aimed at better price performance than comparable x86 instances for Linux workloads.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Graviton Technical Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.github.io/graviton/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Getting started with AWS Graviton",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ec2/graviton/getting-started",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Now available: Amazon EC2 M9g and M9gd instances powered by new AWS Graviton5 processors",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon EC2 C9g and C9gd compute optimized instances are now available",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-c9g-c9gd-instances-graviton5-processors-available/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Selecting and configuring an instruction set architecture for your Lambda function",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/foundation-arch.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Graviton instances and containers - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/net-graviton.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/compute/aws-graviton.md",
+      "skos:altLabel": [
+        "Graviton",
+        "AWS Graviton processors",
+        "Graviton2",
+        "Graviton3",
+        "Graviton4",
+        "Graviton5"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-compute-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:ec2-instance-types"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        },
+        {
+          "@id": "kt:aws-nitro-system"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:savings-plans"
+        },
+        {
+          "@id": "kt:spot-instances"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-nitro-system"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:elastic-load-balancing",
       "@type": "kto:Service",
       "skos:prefLabel": "Elastic Load Balancing",
