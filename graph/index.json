@@ -607,6 +607,31 @@
     ]
   },
   {
+    "id": "kt:aws-backup",
+    "title": "AWS Backup",
+    "aliases": [
+      "Backup",
+      "AWS Backup service"
+    ],
+    "type": "Service",
+    "domain": "storage",
+    "file": "articles/storage/aws-backup.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html",
+      "https://docs.aws.amazon.com/aws-backup/latest/devguide/aws-backup-limits.html",
+      "https://docs.aws.amazon.com/aws-backup/latest/devguide/vault-lock.html",
+      "https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html",
+      "https://aws.amazon.com/backup/faqs/",
+      "https://aws.amazon.com/backup/pricing",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-budgets",
     "title": "AWS Budgets",
     "aliases": [

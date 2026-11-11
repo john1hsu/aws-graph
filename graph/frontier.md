@@ -9,17 +9,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:spot-instances` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-graviton`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-developer-associate`, `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-container-services` | `kt:amazon-ecr`, `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
+| `kt:aws-storage-services` | `kt:amazon-ebs`, `kt:amazon-efs`, `kt:amazon-s3`, `kt:aws-backup` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:edge-locations` | `kt:aws-global-infrastructure`, `kt:aws-regions`, `kt:amazon-cloudfront`, `kt:aws-networking-and-content-delivery` |
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue` |
 | `kt:amazon-sns` | `kt:aws-budgets`, `kt:amazon-eventbridge`, `kt:amazon-eventbridge` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
-| `kt:aws-backup` | `kt:disaster-recovery-strategies`, `kt:amazon-ebs`, `kt:amazon-efs` |
 | `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-control-tower`, `kt:aws-cloudtrail` |
 | `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch`, `kt:aws-control-tower`, `kt:aws-organizations` |
 | `kt:aws-migration-and-transfer-services` | `kt:aws-database-migration-service`, `kt:aws-datasync`, `kt:aws-transform-mgn` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
-| `kt:aws-storage-services` | `kt:amazon-ebs`, `kt:amazon-efs`, `kt:amazon-s3` |
 | `kt:aws-waf` | `kt:elastic-load-balancing`, `kt:amazon-cloudfront`, `kt:amazon-api-gateway` |
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:aws-sam` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-organizations`, `kt:service-control-policies` |
@@ -69,6 +68,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aurora-serverless-v2` | `kt:amazon-aurora` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
+| `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-certified-solutions-architect-professional` | `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |

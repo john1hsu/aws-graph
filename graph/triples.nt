@@ -682,6 +682,39 @@
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Backup" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Backup service" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2004/02/skos/core#altLabel> "Backup" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-storage-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed, policy-based backup service: backup plans schedule and retain recovery points for EBS, EC2, S3, EFS, FSx, RDS, Aurora, DynamoDB and other resources in encrypted backup vaults, with cross-Region and cross-account copies, Vault Lock immutability and organization-wide backup policies." .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Backup" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ebs> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-efs> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s9> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-budgets> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Budgets" .
@@ -2653,6 +2686,51 @@
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <https://schema.org/url> "https://docs.aws.amazon.com/arc-zonal-shift/latest/api/Welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s1> <http://purl.org/dc/terms/title> "What is AWS Backup? - AWS Backup" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s1> <https://schema.org/url> "https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s2> <http://purl.org/dc/terms/title> "AWS Backup quotas - AWS Backup" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s2> <https://schema.org/url> "https://docs.aws.amazon.com/aws-backup/latest/devguide/aws-backup-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s3> <http://purl.org/dc/terms/title> "AWS Backup Vault Lock - AWS Backup" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s3> <https://schema.org/url> "https://docs.aws.amazon.com/aws-backup/latest/devguide/vault-lock.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s4> <http://purl.org/dc/terms/title> "Logically air-gapped vault - AWS Backup" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s4> <https://schema.org/url> "https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s5> <http://purl.org/dc/terms/title> "AWS Backup FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s5> <https://schema.org/url> "https://aws.amazon.com/backup/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s6> <http://purl.org/dc/terms/title> "AWS Backup pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s6> <https://schema.org/url> "https://aws.amazon.com/backup/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s7> <http://purl.org/dc/terms/title> "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s8> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s8> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s9> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s1> <http://purl.org/dc/terms/title> "Managing your costs with AWS Budgets - AWS Cost Management" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
