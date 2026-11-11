@@ -12,6 +12,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-storage-services` | `kt:amazon-ebs`, `kt:amazon-efs`, `kt:amazon-s3`, `kt:aws-backup` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:edge-locations` | `kt:aws-global-infrastructure`, `kt:aws-regions`, `kt:amazon-cloudfront`, `kt:aws-networking-and-content-delivery` |
+| `kt:purpose-built-databases` | `kt:amazon-aurora`, `kt:amazon-dynamodb`, `kt:amazon-elasticache`, `kt:amazon-rds` |
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue` |
 | `kt:amazon-sns` | `kt:aws-budgets`, `kt:amazon-eventbridge`, `kt:amazon-eventbridge` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
@@ -22,7 +23,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-waf` | `kt:elastic-load-balancing`, `kt:amazon-cloudfront`, `kt:amazon-api-gateway` |
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:aws-sam` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-organizations`, `kt:service-control-policies` |
-| `kt:purpose-built-databases` | `kt:amazon-aurora`, `kt:amazon-dynamodb`, `kt:amazon-rds` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework`, `kt:operational-excellence-pillar`, `kt:aws-security-services` |
 | `kt:amazon-fsx` | `kt:aws-datasync`, `kt:amazon-efs` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:amazon-api-gateway` |
@@ -90,6 +90,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudtrail-quotas` | `kt:aws-cloudtrail` |
 | `kt:cloudwatch-quotas` | `kt:amazon-cloudwatch` |
 | `kt:control-tower-quotas` | `kt:aws-control-tower` |
+| `kt:database-caching-strategies` | `kt:amazon-elasticache` |
 | `kt:database-savings-plans` | `kt:amazon-rds` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |
@@ -106,6 +107,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:efs-quotas` | `kt:amazon-efs` |
 | `kt:eks-auto-mode` | `kt:amazon-eks` |
 | `kt:eks-quotas` | `kt:amazon-eks` |
+| `kt:elasticache-quotas` | `kt:amazon-elasticache` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing` |
 | `kt:eventbridge-quotas` | `kt:amazon-eventbridge` |
 | `kt:fargate-quotas` | `kt:aws-fargate` |

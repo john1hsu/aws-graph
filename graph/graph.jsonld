@@ -2856,6 +2856,112 @@
       ]
     },
     {
+      "@id": "kt:amazon-elasticache",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon ElastiCache",
+      "skos:definition": "AWS's fully managed in-memory data store and cache service, compatible with the Valkey, Redis OSS and Memcached engines, offered either as a pay-per-use serverless cache or as node-based clusters you size yourself.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon ElastiCache?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing between deployment options - Amazon ElastiCache",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.deployment.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for ElastiCache",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/quota-limits.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ElastiCache pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/elasticache/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ElastiCache version 8.0 for Valkey brings faster scaling and improved memory efficiency",
+          "dcterms:publisher": "Amazon Web Services (AWS Database Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/database/amazon-elasticache-version-8-0-for-valkey-brings-faster-scaling-and-improved-memory-efficiency",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Caching patterns - Database Caching Strategies Using Redis (AWS whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/databases/amazon-elasticache.md",
+      "skos:altLabel": [
+        "ElastiCache",
+        "ElastiCache Serverless",
+        "ElastiCache for Valkey",
+        "ElastiCache for Redis OSS",
+        "ElastiCache for Memcached"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:purpose-built-databases"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-rds"
+        },
+        {
+          "@id": "kt:amazon-aurora"
+        },
+        {
+          "@id": "kt:amazon-dynamodb"
+        },
+        {
+          "@id": "kt:database-caching-strategies"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:elasticache-quotas"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-rds",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Relational Database Service",

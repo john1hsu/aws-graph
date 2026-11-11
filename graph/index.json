@@ -388,6 +388,32 @@
     ]
   },
   {
+    "id": "kt:amazon-elasticache",
+    "title": "Amazon ElastiCache",
+    "aliases": [
+      "ElastiCache",
+      "ElastiCache Serverless",
+      "ElastiCache for Valkey",
+      "ElastiCache for Redis OSS",
+      "ElastiCache for Memcached"
+    ],
+    "type": "Service",
+    "domain": "databases",
+    "file": "articles/databases/amazon-elasticache.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.md",
+      "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.deployment.html",
+      "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/quota-limits.md",
+      "https://aws.amazon.com/elasticache/pricing/",
+      "https://aws.amazon.com/blogs/database/amazon-elasticache-version-8-0-for-valkey-brings-faster-scaling-and-improved-memory-efficiency",
+      "https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-eventbridge",
     "title": "Amazon EventBridge",
     "aliases": [

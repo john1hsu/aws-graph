@@ -437,6 +437,36 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon ElastiCache" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2004/02/skos/core#altLabel> "ElastiCache Serverless" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2004/02/skos/core#altLabel> "ElastiCache for Memcached" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2004/02/skos/core#altLabel> "ElastiCache for Redis OSS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2004/02/skos/core#altLabel> "ElastiCache for Valkey" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2004/02/skos/core#altLabel> "ElastiCache" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed in-memory data store and cache service, compatible with the Valkey, Redis OSS and Memcached engines, offered either as a pay-per-use serverless cache or as node-based clusters you size yourself." .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon ElastiCache" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-aurora> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-rds> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/database-caching-strategies> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/elasticache-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EventBridge" .
@@ -2366,6 +2396,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s1> <http://purl.org/dc/terms/title> "What is Amazon ElastiCache?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s2> <http://purl.org/dc/terms/title> "Choosing between deployment options - Amazon ElastiCache" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.deployment.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s3> <http://purl.org/dc/terms/title> "Quotas for ElastiCache" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/quota-limits.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s4> <http://purl.org/dc/terms/title> "Amazon ElastiCache pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s4> <https://schema.org/url> "https://aws.amazon.com/elasticache/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Database Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s5> <http://purl.org/dc/terms/title> "Amazon ElastiCache version 8.0 for Valkey brings faster scaling and improved memory efficiency" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/database/amazon-elasticache-version-8-0-for-valkey-brings-faster-scaling-and-improved-memory-efficiency" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s6> <http://purl.org/dc/terms/title> "Caching patterns - Database Caching Strategies Using Redis (AWS whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s6> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s1> <http://purl.org/dc/terms/title> "What Is Amazon EventBridge?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
