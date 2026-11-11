@@ -1803,6 +1803,30 @@
     ]
   },
   {
+    "id": "kt:purpose-built-databases",
+    "title": "Purpose-built databases",
+    "aliases": [
+      "purpose-built databases on AWS",
+      "AWS database services",
+      "AWS databases",
+      "choosing an AWS database"
+    ],
+    "type": "Concept",
+    "domain": "databases",
+    "file": "articles/databases/purpose-built-databases.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/decision-guides/latest/databases-on-aws-how-to-choose/databases-on-aws-how-to-choose.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/perf_data_use_purpose_built_data_store.html",
+      "https://docs.aws.amazon.com/timestream/latest/developerguide/AmazonTimestreamForLiveAnalytics-availability-change.html",
+      "https://docs.aws.amazon.com/general/latest/gr/qldb.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/12/database-savings-plans-savings/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html"
+    ]
+  },
+  {
     "id": "kt:reliability-pillar",
     "title": "Reliability Pillar",
     "aliases": [

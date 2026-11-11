@@ -4,17 +4,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:amazon-web-services` | `kt:aws-compute-services`, `kt:purpose-built-databases`, `kt:aws-global-infrastructure`, `kt:aws-management-and-governance-services`, `kt:aws-migration-and-transfer-services` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-developer-associate`, `kt:aws-certified-solutions-architect-associate`, `kt:aws-certified-solutions-architect-professional` |
 | `kt:aws-container-services` | `kt:aws-compute-services`, `kt:amazon-ecr`, `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-emr`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:aws-lambda`, `kt:aws-serverless-services` |
-| `kt:amazon-web-services` | `kt:aws-compute-services`, `kt:aws-global-infrastructure`, `kt:aws-management-and-governance-services`, `kt:aws-migration-and-transfer-services` |
 | `kt:aws-storage-services` | `kt:amazon-ebs`, `kt:amazon-efs`, `kt:amazon-s3`, `kt:aws-backup` |
 | `kt:edge-locations` | `kt:aws-global-infrastructure`, `kt:aws-regions`, `kt:amazon-cloudfront`, `kt:aws-networking-and-content-delivery` |
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:aws-codepipeline`, `kt:aws-sam` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-management-and-governance-services`, `kt:aws-organizations`, `kt:service-control-policies` |
-| `kt:purpose-built-databases` | `kt:amazon-aurora`, `kt:amazon-dynamodb`, `kt:amazon-elasticache`, `kt:amazon-rds` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-certified-solutions-architect-professional`, `kt:aws-database-migration-service`, `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
 | `kt:aws-analytics-services` | `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
@@ -42,6 +41,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
+| `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
+| `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton` |
 | `kt:hipaa-eligible-services` | `kt:amazon-textract`, `kt:aws-artifact` |
 | `kt:iam-policy-evaluation-logic` | `kt:aws-iam`, `kt:permissions-boundaries` |
@@ -57,6 +58,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-guardduty` | `kt:aws-security-services` |
 | `kt:amazon-inspector` | `kt:amazon-ecr` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
+| `kt:amazon-neptune` | `kt:purpose-built-databases` |
 | `kt:amazon-opensearch-service` | `kt:amazon-bedrock-knowledge-bases` |
 | `kt:amazon-q-business` | `kt:amazon-bedrock-knowledge-bases` |
 | `kt:amazon-s3-files` | `kt:amazon-efs` |
@@ -95,8 +97,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudtrail-quotas` | `kt:aws-cloudtrail` |
 | `kt:cloudwatch-quotas` | `kt:amazon-cloudwatch` |
 | `kt:control-tower-quotas` | `kt:aws-control-tower` |
-| `kt:database-caching-strategies` | `kt:amazon-elasticache` |
-| `kt:database-savings-plans` | `kt:amazon-rds` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |
 | `kt:dynamodb-global-tables` | `kt:amazon-dynamodb` |
@@ -126,6 +126,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lambda-quotas` | `kt:aws-lambda` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing` |
+| `kt:performance-efficiency-pillar` | `kt:purpose-built-databases` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
 | `kt:resource-control-policies` | `kt:service-control-policies` |

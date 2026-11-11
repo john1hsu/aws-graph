@@ -2052,6 +2052,36 @@
 <https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/iam-quotas> .
 <https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2000/01/rdf-schema#label> "Purpose-built databases" .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS database services" .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS databases" .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#altLabel> "choosing an AWS database" .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#altLabel> "purpose-built databases on AWS" .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#definition> "AWS's approach of matching each workload to a database engineered for its data model and access pattern (relational, key-value, document, wide-column, graph, in-memory, time-series or vector) instead of forcing every workload into one general-purpose database." .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#prefLabel> "Purpose-built databases" .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/database-caching-strategies> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s1> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s2> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s3> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s4> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s5> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s6> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-aurora> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-elasticache> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-neptune> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-rds> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/database-savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Reliability Pillar" .
@@ -4778,6 +4808,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iam-increased-quotas/" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s1> <http://purl.org/dc/terms/title> "Choosing an AWS database service" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s1> <https://schema.org/url> "https://docs.aws.amazon.com/decision-guides/latest/databases-on-aws-how-to-choose/databases-on-aws-how-to-choose.html" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s2> <http://purl.org/dc/terms/title> "PERF03-BP01 Use a purpose-built data store that best supports your data access and storage requirements" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/perf_data_use_purpose_built_data_store.html" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s3> <http://purl.org/dc/terms/title> "Amazon Timestream for LiveAnalytics availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s3> <https://schema.org/url> "https://docs.aws.amazon.com/timestream/latest/developerguide/AmazonTimestreamForLiveAnalytics-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s4> <http://purl.org/dc/terms/title> "Services in Full Shutdown - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s4> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/qldb.html" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s5> <http://purl.org/dc/terms/title> "Announcing Database Savings Plans with up to 35% savings" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/12/database-savings-plans-savings/" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s6> <http://purl.org/dc/terms/title> "Content Domain 3: Design High-Performing Architectures - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/purpose-built-databases/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://purl.org/dc/terms/title> "Reliability Pillar - AWS Well-Architected Framework (introduction)" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

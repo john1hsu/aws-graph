@@ -3755,6 +3755,107 @@
       ]
     },
     {
+      "@id": "kt:purpose-built-databases",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Purpose-built databases",
+      "skos:definition": "AWS's approach of matching each workload to a database engineered for its data model and access pattern (relational, key-value, document, wide-column, graph, in-memory, time-series or vector) instead of forcing every workload into one general-purpose database.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Choosing an AWS database service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/databases-on-aws-how-to-choose/databases-on-aws-how-to-choose.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PERF03-BP01 Use a purpose-built data store that best supports your data access and storage requirements",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/perf_data_use_purpose_built_data_store.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Timestream for LiveAnalytics availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/timestream/latest/developerguide/AmazonTimestreamForLiveAnalytics-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Services in Full Shutdown - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/qldb.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing Database Savings Plans with up to 35% savings",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/database-savings-plans-savings/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Content Domain 3: Design High-Performing Architectures - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/databases/purpose-built-databases.md",
+      "skos:altLabel": [
+        "purpose-built databases on AWS",
+        "AWS database services",
+        "AWS databases",
+        "choosing an AWS database"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        },
+        {
+          "@id": "kt:performance-efficiency-pillar"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-database-migration-service"
+        },
+        {
+          "@id": "kt:database-caching-strategies"
+        },
+        {
+          "@id": "kt:amazon-redshift"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:amazon-rds"
+        },
+        {
+          "@id": "kt:amazon-aurora"
+        },
+        {
+          "@id": "kt:amazon-dynamodb"
+        },
+        {
+          "@id": "kt:amazon-elasticache"
+        },
+        {
+          "@id": "kt:amazon-neptune"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:database-savings-plans"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cdk",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Cloud Development Kit (AWS CDK)",
