@@ -836,6 +836,28 @@
     ]
   },
   {
+    "id": "kt:aws-codepipeline",
+    "title": "AWS CodePipeline",
+    "aliases": [
+      "CodePipeline",
+      "Amazon CodePipeline"
+    ],
+    "type": "Service",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/aws-codepipeline.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/codepipeline/latest/userguide/pipeline-types-planning.html",
+      "https://aws.amazon.com/codepipeline/pricing",
+      "https://docs.aws.amazon.com/codepipeline/latest/userguide/limits.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://docs.aws.amazon.com/pdfs/aws-certification/latest/developer-associate-03/developer-associate-03.pdf"
+    ]
+  },
+  {
     "id": "kt:aws-config",
     "title": "AWS Config",
     "aliases": [

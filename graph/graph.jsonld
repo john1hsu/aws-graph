@@ -3266,6 +3266,106 @@
       ]
     },
     {
+      "@id": "kt:aws-codepipeline",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS CodePipeline",
+      "skos:definition": "AWS's managed continuous delivery service that models a software release as a pipeline of stages and actions (source, build, test, approval, deploy) and runs it automatically on each change, billed per active pipeline (V1) or per action execution minute (V2).",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What type of pipeline is right for me?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/codepipeline/latest/userguide/pipeline-types-planning.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CodePipeline pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/codepipeline/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas in AWS CodePipeline",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/codepipeline/latest/userguide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CodePipeline now available in Asia Pacific (New Zealand) region",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified Developer - Associate (DVA-C03) Exam Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/aws-certification/latest/developer-associate-03/developer-associate-03.pdf",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/aws-codepipeline.md",
+      "skos:altLabel": [
+        "CodePipeline",
+        "Amazon CodePipeline"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-developer-tools"
+        },
+        {
+          "@id": "kt:ci-cd"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-codebuild"
+        },
+        {
+          "@id": "kt:aws-codedeploy"
+        },
+        {
+          "@id": "kt:infrastructure-as-code"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-cloudformation"
+        },
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-sam",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Serverless Application Model (AWS SAM)",

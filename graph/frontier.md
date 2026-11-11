@@ -14,13 +14,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-storage-services` | `kt:amazon-ebs`, `kt:amazon-efs`, `kt:amazon-s3`, `kt:aws-backup` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:edge-locations` | `kt:aws-global-infrastructure`, `kt:aws-regions`, `kt:amazon-cloudfront`, `kt:aws-networking-and-content-delivery` |
+| `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:aws-codepipeline`, `kt:aws-sam` |
 | `kt:purpose-built-databases` | `kt:amazon-aurora`, `kt:amazon-dynamodb`, `kt:amazon-elasticache`, `kt:amazon-rds` |
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-migration-and-transfer-services` | `kt:aws-database-migration-service`, `kt:aws-datasync`, `kt:aws-transform-mgn` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-waf` | `kt:elastic-load-balancing`, `kt:amazon-cloudfront`, `kt:amazon-api-gateway` |
-| `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:aws-sam` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:security-pillar` | `kt:aws-well-architected-framework`, `kt:operational-excellence-pillar`, `kt:aws-security-services` |
 | `kt:amazon-fsx` | `kt:aws-datasync`, `kt:amazon-efs` |
@@ -71,8 +71,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-certified-solutions-architect-professional` | `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
+| `kt:aws-codebuild` | `kt:aws-codepipeline` |
+| `kt:aws-codedeploy` | `kt:aws-codepipeline` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
+| `kt:aws-developer-tools` | `kt:aws-codepipeline` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions` |
 | `kt:aws-outposts` | `kt:aws-global-infrastructure` |
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
@@ -84,6 +87,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-transform` | `kt:aws-transform-mgn` |
 | `kt:aws-transit-gateway` | `kt:aws-networking-and-content-delivery` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
+| `kt:ci-cd` | `kt:aws-codepipeline` |
 | `kt:cloud-security` | `kt:aws-security-services` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
 | `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
