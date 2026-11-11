@@ -4,10 +4,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:amazon-sns` | `kt:amazon-textract`, `kt:aws-budgets`, `kt:aws-config`, `kt:amazon-eventbridge`, `kt:amazon-eventbridge` |
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-graviton`, `kt:elastic-load-balancing`, `kt:aws-lambda` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:spot-instances` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-graviton`, `kt:reserved-instances`, `kt:savings-plans` |
-| `kt:amazon-sns` | `kt:aws-budgets`, `kt:aws-config`, `kt:amazon-eventbridge`, `kt:amazon-eventbridge` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-developer-associate`, `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-container-services` | `kt:amazon-ecr`, `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
 | `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch`, `kt:aws-config`, `kt:aws-control-tower`, `kt:aws-organizations` |
@@ -47,6 +47,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:aws-serverless-services` |
+| `kt:hipaa-eligible-services` | `kt:amazon-textract`, `kt:aws-artifact` |
 | `kt:iam-policy-evaluation-logic` | `kt:aws-iam`, `kt:permissions-boundaries` |
 | `kt:iam-quotas` | `kt:aws-iam`, `kt:permissions-boundaries` |
 | `kt:local-zones` | `kt:availability-zones`, `kt:aws-global-infrastructure` |
@@ -56,6 +57,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds` |
 | `kt:shared-responsibility-model` | `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
+| `kt:amazon-bedrock-data-automation` | `kt:amazon-textract` |
+| `kt:amazon-comprehend` | `kt:amazon-textract` |
 | `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-guardduty` | `kt:aws-security-services` |
 | `kt:amazon-inspector` | `kt:amazon-ecr` |
@@ -69,6 +72,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aurora-quotas` | `kt:amazon-aurora` |
 | `kt:aurora-serverless-v2` | `kt:amazon-aurora` |
 | `kt:aws-account-management` | `kt:aws-regions` |
+| `kt:aws-ai-services` | `kt:amazon-textract` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-certified-solutions-architect-professional` | `kt:aws-certified-solutions-architect-associate` |
@@ -119,7 +123,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:fargate-quotas` | `kt:aws-fargate` |
 | `kt:gateway-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:glue-quotas` | `kt:aws-glue` |
-| `kt:hipaa-eligible-services` | `kt:aws-artifact` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
 | `kt:iam-roles` | `kt:permissions-boundaries` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |

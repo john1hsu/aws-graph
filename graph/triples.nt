@@ -656,6 +656,32 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Textract" .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Textract" .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/2004/02/skos/core#altLabel> "Textract" .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-ai-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/2004/02/skos/core#definition> "AWS's pretrained machine-learning service that extracts printed and handwritten text, forms (key-value pairs), tables, signatures, layout and answers to natural-language queries from scanned documents and images, with specialised APIs for invoices and receipts, identity documents and mortgage loan packages." .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Textract" .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-comprehend> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-sns> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-textract> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon VPC" .
@@ -2826,6 +2852,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <https://schema.org/url> "https://docs.aws.amazon.com/id_id/aws-certification/latest/userguide/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <http://purl.org/dc/terms/title> "Amazon Textract FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <https://schema.org/url> "https://aws.amazon.com/textract/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s2> <http://purl.org/dc/terms/title> "Set Quotas in Amazon Textract (hard limits)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s2> <https://schema.org/url> "https://docs.aws.amazon.com/textract/latest/dg/limits-document.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s3> <http://purl.org/dc/terms/title> "Calling Amazon Textract Asynchronous Operations" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s3> <https://schema.org/url> "https://docs.aws.amazon.com/textract/latest/dg/api-async.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s4> <http://purl.org/dc/terms/title> "Amazon Textract Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s4> <https://schema.org/url> "https://aws.amazon.com/textract/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s5> <http://purl.org/dc/terms/publisher> "AWS Machine Learning Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s5> <http://purl.org/dc/terms/title> "Accelerate intelligent document processing with generative AI on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/machine-learning/accelerate-intelligent-document-processing-with-generative-ai-on-aws" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s6> <http://purl.org/dc/terms/title> "AWS Certified AI Practitioner (AIF-C01): In-scope AWS services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s6> <https://schema.org/url> "https://docs.aws.amazon.com/it_it/aws-certification/latest/userguide/aif-01-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s1> <http://purl.org/dc/terms/title> "What is Amazon VPC? - Amazon Virtual Private Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

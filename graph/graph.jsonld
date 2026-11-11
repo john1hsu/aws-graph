@@ -385,6 +385,103 @@
       ]
     },
     {
+      "@id": "kt:amazon-textract",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Textract",
+      "skos:definition": "AWS's pretrained machine-learning service that extracts printed and handwritten text, forms (key-value pairs), tables, signatures, layout and answers to natural-language queries from scanned documents and images, with specialised APIs for invoices and receipts, identity documents and mortgage loan packages.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon Textract FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/textract/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set Quotas in Amazon Textract (hard limits)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/textract/latest/dg/limits-document.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Calling Amazon Textract Asynchronous Operations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/textract/latest/dg/api-async.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Textract Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/textract/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Accelerate intelligent document processing with generative AI on AWS",
+          "dcterms:publisher": "AWS Machine Learning Blog",
+          "schema:url": "https://aws.amazon.com/blogs/machine-learning/accelerate-intelligent-document-processing-with-generative-ai-on-aws",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Certified AI Practitioner (AIF-C01): In-scope AWS services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/it_it/aws-certification/latest/userguide/aif-01-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-textract.md",
+      "skos:altLabel": [
+        "Textract",
+        "AWS Textract"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-ai-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-comprehend"
+        },
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:amazon-sns"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-bedrock-data-automation"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:hipaa-eligible-services"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-athena",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Athena",

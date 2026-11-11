@@ -580,6 +580,28 @@
     ]
   },
   {
+    "id": "kt:amazon-textract",
+    "title": "Amazon Textract",
+    "aliases": [
+      "Textract",
+      "AWS Textract"
+    ],
+    "type": "Service",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-textract.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/textract/faqs",
+      "https://docs.aws.amazon.com/textract/latest/dg/limits-document.html",
+      "https://docs.aws.amazon.com/textract/latest/dg/api-async.html",
+      "https://aws.amazon.com/textract/pricing/",
+      "https://aws.amazon.com/blogs/machine-learning/accelerate-intelligent-document-processing-with-generative-ai-on-aws",
+      "https://docs.aws.amazon.com/it_it/aws-certification/latest/userguide/aif-01-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-vpc",
     "title": "Amazon VPC",
     "aliases": [
