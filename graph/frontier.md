@@ -7,17 +7,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-compute-services` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-graviton`, `kt:elastic-load-balancing`, `kt:aws-lambda` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:spot-instances` | `kt:amazon-ec2-auto-scaling`, `kt:amazon-ec2`, `kt:aws-graviton`, `kt:reserved-instances`, `kt:savings-plans` |
+| `kt:amazon-sns` | `kt:aws-budgets`, `kt:aws-config`, `kt:amazon-eventbridge`, `kt:amazon-eventbridge` |
 | `kt:aws-certification-program` | `kt:aws-certified-ai-practitioner`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-developer-associate`, `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-container-services` | `kt:amazon-ecr`, `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
+| `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch`, `kt:aws-config`, `kt:aws-control-tower`, `kt:aws-organizations` |
 | `kt:aws-storage-services` | `kt:amazon-ebs`, `kt:amazon-efs`, `kt:amazon-s3`, `kt:aws-backup` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:edge-locations` | `kt:aws-global-infrastructure`, `kt:aws-regions`, `kt:amazon-cloudfront`, `kt:aws-networking-and-content-delivery` |
 | `kt:purpose-built-databases` | `kt:amazon-aurora`, `kt:amazon-dynamodb`, `kt:amazon-elasticache`, `kt:amazon-rds` |
 | `kt:amazon-emr` | `kt:amazon-athena`, `kt:amazon-redshift`, `kt:aws-glue` |
-| `kt:amazon-sns` | `kt:aws-budgets`, `kt:amazon-eventbridge`, `kt:amazon-eventbridge` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
-| `kt:aws-config` | `kt:amazon-cloudwatch`, `kt:aws-control-tower`, `kt:aws-cloudtrail` |
-| `kt:aws-management-and-governance-services` | `kt:amazon-cloudwatch`, `kt:aws-control-tower`, `kt:aws-organizations` |
 | `kt:aws-migration-and-transfer-services` | `kt:aws-database-migration-service`, `kt:aws-datasync`, `kt:aws-transform-mgn` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-waf` | `kt:elastic-load-balancing`, `kt:amazon-cloudfront`, `kt:amazon-api-gateway` |
@@ -40,6 +39,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-pricing-fundamentals` | `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us`, `kt:dod-cloud-computing-srg-impact-levels` |
+| `kt:aws-security-hub` | `kt:aws-config`, `kt:aws-security-services` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
@@ -71,12 +71,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-certified-solutions-architect-professional` | `kt:aws-certified-solutions-architect-associate` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
+| `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions` |
 | `kt:aws-outposts` | `kt:aws-global-infrastructure` |
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-secrets-manager` | `kt:aws-kms` |
-| `kt:aws-security-hub` | `kt:aws-security-services` |
 | `kt:aws-storage-gateway` | `kt:aws-datasync` |
 | `kt:aws-sts` | `kt:aws-iam` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |

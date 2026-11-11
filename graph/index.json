@@ -836,6 +836,30 @@
     ]
   },
   {
+    "id": "kt:aws-config",
+    "title": "AWS Config",
+    "aliases": [
+      "Config"
+    ],
+    "type": "Service",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/aws-config.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.md",
+      "https://docs.aws.amazon.com/config/latest/developerguide/how-does-config-work.md",
+      "https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config_components.md",
+      "https://docs.aws.amazon.com/config/latest/developerguide/configlimits.md",
+      "https://aws.amazon.com/config/pricing",
+      "https://aws.amazon.com/about-aws/whats-new/2024/12/aws-config-service-linked-recorder",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-supports-internal-service-linked-rules",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-control-tower",
     "title": "AWS Control Tower",
     "aliases": [

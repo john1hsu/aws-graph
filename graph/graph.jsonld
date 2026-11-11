@@ -3830,6 +3830,123 @@
       ]
     },
     {
+      "@id": "kt:aws-config",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Config",
+      "skos:definition": "AWS's resource inventory, configuration-history and compliance service: it records the configuration of supported resources as configuration items, evaluates them against managed or custom Config rules and conformance packs, and aggregates the results across accounts and Regions.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is AWS Config? - AWS Config",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How AWS Config Works - AWS Config",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/config/latest/developerguide/how-does-config-work.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Components of an AWS Config Rule - AWS Config",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config_components.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Service Limits for AWS Config",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/config/latest/developerguide/configlimits.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Config pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/config/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Config now supports a service-linked recorder",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/12/aws-config-service-linked-recorder",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Config now supports internal service linked rules",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-supports-internal-service-linked-rules",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/aws-config.md",
+      "skos:altLabel": [
+        "Config"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-control-tower"
+        },
+        {
+          "@id": "kt:aws-cloudtrail"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:aws-security-hub"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-sns"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:aws-config-quotas"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-control-tower",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Control Tower",
