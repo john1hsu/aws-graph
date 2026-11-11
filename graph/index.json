@@ -1540,6 +1540,31 @@
     ]
   },
   {
+    "id": "kt:aws-storage-services",
+    "title": "AWS storage services",
+    "aliases": [
+      "AWS storage",
+      "storage on AWS",
+      "AWS storage portfolio",
+      "AWS storage category",
+      "AWS cloud storage services"
+    ],
+    "type": "Concept",
+    "domain": "storage",
+    "file": "articles/storage/aws-storage-services.md",
+    "created": "2026-11-11",
+    "verified": "2026-11-11",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html",
+      "https://docs.aws.amazon.com/decision-guides/latest/storage-on-aws-how-to-choose/choosing-aws-storage-service.html",
+      "https://docs.aws.amazon.com/en_us/wellarchitected/latest/framework/perf-data.html",
+      "https://docs.aws.amazon.com/snowball/latest/developer-guide/snowball-edge-availability-change.html",
+      "https://docs.aws.amazon.com/filegateway/latest/filefsxw/available-regions-intro.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html"
+    ]
+  },
+  {
     "id": "kt:aws-transform-mgn",
     "title": "AWS Transform MGN",
     "aliases": [

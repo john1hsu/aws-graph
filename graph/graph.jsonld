@@ -8205,6 +8205,103 @@
           "@id": "kt:aws-certified-solutions-architect-associate"
         }
       ]
+    },
+    {
+      "@id": "kt:aws-storage-services",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS storage services",
+      "skos:definition": "The AWS service category for keeping data: object storage (Amazon S3), block storage (Amazon EBS, instance store), managed file systems (Amazon EFS, the Amazon FSx family), caching and hybrid access (Amazon File Cache, AWS Storage Gateway) and data protection (AWS Backup, AWS Elastic Disaster Recovery).",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedOn": "2026-11-11",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Storage - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing an AWS storage service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/storage-on-aws-how-to-choose/choosing-aws-storage-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data management - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/wellarchitected/latest/framework/perf-data.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Snowball Edge availability change - AWS Snowball Edge Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/snowball/latest/developer-guide/snowball-edge-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon FSx File Gateway availability - Amazon FSx File Gateway User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/filegateway/latest/filefsxw/available-regions-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/storage/aws-storage-services.md",
+      "skos:altLabel": [
+        "AWS storage",
+        "storage on AWS",
+        "AWS storage portfolio",
+        "AWS storage category",
+        "AWS cloud storage services"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-compute-services"
+        },
+        {
+          "@id": "kt:purpose-built-databases"
+        },
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:amazon-ebs"
+        },
+        {
+          "@id": "kt:amazon-efs"
+        },
+        {
+          "@id": "kt:amazon-fsx"
+        },
+        {
+          "@id": "kt:aws-storage-gateway"
+        },
+        {
+          "@id": "kt:aws-backup"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
     }
   ]
 }
