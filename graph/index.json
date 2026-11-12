@@ -1833,6 +1833,30 @@
     ]
   },
   {
+    "id": "kt:iam-policy-evaluation-logic",
+    "title": "IAM policy evaluation logic",
+    "aliases": [
+      "policy evaluation logic",
+      "IAM policy evaluation",
+      "AWS policy evaluation logic",
+      "enforcement code logic"
+    ],
+    "type": "Concept",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/iam-policy-evaluation-logic.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_EvaluationLogic.html",
+      "https://docs.aws.amazon.com/jp_ja/IAM/latest/UserGuide/reference_policies_evaluation-logic_policy-eval-denyallow.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic_policy-eval-basics.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic-cross-account.html",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html",
+      "https://docs.aws.amazon.com/IAM/latest/UsingPolicySimulatorGuide/iam-policy-simulator-guide.html"
+    ]
+  },
+  {
     "id": "kt:operational-excellence-pillar",
     "title": "Operational Excellence Pillar",
     "aliases": [

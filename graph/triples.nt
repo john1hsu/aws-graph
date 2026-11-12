@@ -2093,6 +2093,33 @@
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2000/01/rdf-schema#label> "IAM policy evaluation logic" .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS policy evaluation logic" .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "IAM policy evaluation" .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "enforcement code logic" .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "policy evaluation logic" .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2004/02/skos/core#definition> "The rules AWS applies to every authenticated request to decide allow or deny: start from an implicit deny, let any applicable explicit Deny win, require an Allow from each guardrail policy type (RCPs, SCPs, permissions boundaries, session policies), and combine identity-based and resource-based grants differently for same-account and cross-account requests." .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "IAM policy evaluation logic" .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-sts> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-policy-simulator> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-roles> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/permissions-boundaries> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s1> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s2> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s3> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s4> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s5> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s6> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/resource-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <https://github.com/john1hsu/aws-graph/ontology#domain> "identity-and-access" .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Operational Excellence Pillar" .
@@ -4926,6 +4953,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s9> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s1> <http://purl.org/dc/terms/title> "Policy evaluation logic - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s1> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_EvaluationLogic.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s2> <http://purl.org/dc/terms/title> "How AWS enforcement code logic evaluates requests to allow or deny access - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s2> <https://schema.org/url> "https://docs.aws.amazon.com/jp_ja/IAM/latest/UserGuide/reference_policies_evaluation-logic_policy-eval-denyallow.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s3> <http://purl.org/dc/terms/title> "Policy evaluation for requests within a single account - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s3> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic_policy-eval-basics.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s4> <http://purl.org/dc/terms/title> "Cross-account policy evaluation logic - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s4> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic-cross-account.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s5> <http://purl.org/dc/terms/title> "Service control policies (SCPs) - AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s5> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s6> <http://purl.org/dc/terms/title> "IAM policy testing with the IAM policy simulator - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s6> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UsingPolicySimulatorGuide/iam-policy-simulator-guide.html" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://purl.org/dc/terms/title> "Design principles - AWS Well-Architected Framework (operational excellence)" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

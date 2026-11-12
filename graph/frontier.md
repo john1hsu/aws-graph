@@ -21,6 +21,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-direct-connect` | `kt:aws-migration-and-transfer-services`, `kt:aws-networking-and-content-delivery`, `kt:dod-cloud-computing-srg-impact-levels` |
 | `kt:aws-pricing-fundamentals` | `kt:reserved-instances`, `kt:savings-plans`, `kt:spot-instances` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
+| `kt:aws-sts` | `kt:aws-iam`, `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:aws-serverless-services` |
 | `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact` |
 | `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams`, `kt:amazon-sns` |
@@ -36,7 +37,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-security-hub` | `kt:aws-config`, `kt:aws-security-services` |
 | `kt:aws-shield` | `kt:edge-locations`, `kt:aws-waf` |
 | `kt:aws-storage-gateway` | `kt:aws-datasync`, `kt:aws-storage-services` |
-| `kt:aws-sts` | `kt:aws-iam`, `kt:permissions-boundaries` |
 | `kt:aws-transfer-family` | `kt:aws-datasync`, `kt:aws-migration-and-transfer-services` |
 | `kt:aws-transform` | `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
 | `kt:ci-cd` | `kt:aws-codepipeline`, `kt:blue-green-deployments` |
@@ -47,13 +47,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton` |
 | `kt:hipaa-eligible-services` | `kt:amazon-textract`, `kt:aws-artifact` |
-| `kt:iam-policy-evaluation-logic` | `kt:aws-iam`, `kt:permissions-boundaries` |
 | `kt:iam-quotas` | `kt:aws-iam`, `kt:permissions-boundaries` |
+| `kt:iam-roles` | `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
 | `kt:local-zones` | `kt:availability-zones`, `kt:aws-global-infrastructure` |
 | `kt:nist-sp-800-53` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
 | `kt:on-demand-capacity-reservations` | `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds` |
+| `kt:resource-control-policies` | `kt:iam-policy-evaluation-logic`, `kt:service-control-policies` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract` |
 | `kt:amazon-comprehend` | `kt:amazon-textract` |
@@ -118,7 +119,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:gateway-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:glue-quotas` | `kt:aws-glue` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
-| `kt:iam-roles` | `kt:permissions-boundaries` |
+| `kt:iam-policy-simulator` | `kt:iam-policy-evaluation-logic` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |
 | `kt:karpenter` | `kt:eks-auto-mode` |
@@ -130,7 +131,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:performance-efficiency-pillar` | `kt:purpose-built-databases` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
-| `kt:resource-control-policies` | `kt:service-control-policies` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments` |
 | `kt:route-53-quotas` | `kt:amazon-route-53` |
 | `kt:route-53-resolver` | `kt:amazon-route-53` |

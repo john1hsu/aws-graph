@@ -5603,6 +5603,96 @@
       ]
     },
     {
+      "@id": "kt:iam-policy-evaluation-logic",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "IAM policy evaluation logic",
+      "skos:definition": "The rules AWS applies to every authenticated request to decide allow or deny: start from an implicit deny, let any applicable explicit Deny win, require an Allow from each guardrail policy type (RCPs, SCPs, permissions boundaries, session policies), and combine identity-based and resource-based grants differently for same-account and cross-account requests.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Policy evaluation logic - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_EvaluationLogic.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How AWS enforcement code logic evaluates requests to allow or deny access - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/jp_ja/IAM/latest/UserGuide/reference_policies_evaluation-logic_policy-eval-denyallow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Policy evaluation for requests within a single account - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic_policy-eval-basics.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Cross-account policy evaluation logic - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic-cross-account.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Service control policies (SCPs) - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "IAM policy testing with the IAM policy simulator - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UsingPolicySimulatorGuide/iam-policy-simulator-guide.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/iam-policy-evaluation-logic.md",
+      "skos:altLabel": [
+        "policy evaluation logic",
+        "IAM policy evaluation",
+        "AWS policy evaluation logic",
+        "enforcement code logic"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:permissions-boundaries"
+        },
+        {
+          "@id": "kt:iam-roles"
+        },
+        {
+          "@id": "kt:aws-sts"
+        },
+        {
+          "@id": "kt:aws-kms"
+        },
+        {
+          "@id": "kt:iam-policy-simulator"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:service-control-policies"
+        },
+        {
+          "@id": "kt:resource-control-policies"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ]
+    },
+    {
       "@id": "kt:permissions-boundaries",
       "@type": "kto:Feature",
       "skos:prefLabel": "IAM permissions boundaries",
