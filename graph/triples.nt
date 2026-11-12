@@ -1104,6 +1104,31 @@
 <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/2000/01/rdf-schema#label> "AWS compliance programs" .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Compliance Programs" .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS assurance programs" .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS risk and compliance program" .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/2004/02/skos/core#definition> "The umbrella of third-party certifications and attestations, laws and regulations, and industry frameworks that AWS is audited against or aligns with, together with the Services in Scope lists and AWS Artifact reports customers use to inherit AWS's side of the controls." .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS compliance programs" .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-artifact> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-compute-services> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-compute-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-compute-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS compute services" .
@@ -3791,6 +3816,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-codepipeline/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-codepipeline/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-codepipeline/s6> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/developer-associate-03/developer-associate-03.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s1> <http://purl.org/dc/terms/title> "AWS Compliance Programs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s1> <https://schema.org/url> "https://aws.amazon.com/en/compliance/programs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s2> <http://purl.org/dc/terms/title> "AWS Compliance FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s2> <https://schema.org/url> "https://aws.amazon.com/compliance/faq/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s3> <http://purl.org/dc/terms/title> "AWS risk and compliance program - Amazon Web Services: Risk and Compliance" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s3> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-risk-and-compliance/aws-risk-and-compliance-program.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s4> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s4> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s5> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: SOC" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s5> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/SOC" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s6> <http://purl.org/dc/terms/title> "Compliance Validation for AWS Config" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s6> <https://schema.org/url> "https://docs.aws.amazon.com/config/latest/developerguide/config-compliance.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-compute-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-compute-services/s1> <http://purl.org/dc/terms/title> "Compute - Overview of Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-compute-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -6957,6 +6957,94 @@
       ]
     },
     {
+      "@id": "kt:aws-compliance-programs",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS compliance programs",
+      "skos:definition": "The umbrella of third-party certifications and attestations, laws and regulations, and industry frameworks that AWS is audited against or aligns with, together with the Services in Scope lists and AWS Artifact reports customers use to inherit AWS's side of the controls.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Compliance Programs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/en/compliance/programs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Compliance FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/faq/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS risk and compliance program - Amazon Web Services: Risk and Compliance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-risk-and-compliance/aws-risk-and-compliance-program.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: SOC",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/SOC",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Compliance Validation for AWS Config",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/config/latest/developerguide/config-compliance.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/aws-compliance-programs.md",
+      "skos:altLabel": [
+        "AWS Compliance Programs",
+        "AWS assurance programs",
+        "AWS risk and compliance program"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-config"
+        },
+        {
+          "@id": "kt:aws-european-sovereign-cloud"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        },
+        {
+          "@id": "kt:dod-cloud-computing-srg-impact-levels"
+        },
+        {
+          "@id": "kt:hipaa-eligible-services"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-artifact"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-govcloud-us",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS GovCloud (US)",

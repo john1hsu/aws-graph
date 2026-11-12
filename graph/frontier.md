@@ -13,21 +13,22 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:seven-rs-migration-strategies` |
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:aws-codepipeline`, `kt:aws-sam` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-management-and-governance-services`, `kt:aws-organizations`, `kt:service-control-policies` |
+| `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
 | `kt:amazon-fsx` | `kt:aws-datasync`, `kt:amazon-efs`, `kt:aws-storage-services` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
 | `kt:aws-analytics-services` | `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
-| `kt:aws-compliance-programs` | `kt:aws-artifact`, `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
 | `kt:aws-pricing-fundamentals` | `kt:reserved-instances`, `kt:savings-plans`, `kt:spot-instances` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-sts` | `kt:aws-iam`, `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:aws-serverless-services` |
-| `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact` |
+| `kt:hipaa-eligible-services` | `kt:amazon-textract`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
 | `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams`, `kt:amazon-sns` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-codedeploy` | `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
+| `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs` |
 | `kt:aws-lake-formation` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:aws-nitro-system` | `kt:aws-graviton`, `kt:aws-graviton` |
 | `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc` |
@@ -45,7 +46,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton` |
-| `kt:hipaa-eligible-services` | `kt:amazon-textract`, `kt:aws-artifact` |
 | `kt:iam-quotas` | `kt:aws-iam`, `kt:permissions-boundaries` |
 | `kt:iam-roles` | `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
 | `kt:local-zones` | `kt:availability-zones`, `kt:aws-global-infrastructure` |
@@ -81,7 +81,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
 | `kt:aws-developer-tools` | `kt:aws-codepipeline` |
-| `kt:aws-european-sovereign-cloud` | `kt:aws-partitions` |
 | `kt:aws-firewall-manager` | `kt:aws-waf` |
 | `kt:aws-global-accelerator` | `kt:edge-locations` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |

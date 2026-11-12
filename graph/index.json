@@ -977,6 +977,29 @@
     ]
   },
   {
+    "id": "kt:aws-compliance-programs",
+    "title": "AWS compliance programs",
+    "aliases": [
+      "AWS Compliance Programs",
+      "AWS assurance programs",
+      "AWS risk and compliance program"
+    ],
+    "type": "Concept",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/aws-compliance-programs.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "concept",
+    "source_urls": [
+      "https://aws.amazon.com/en/compliance/programs/",
+      "https://aws.amazon.com/compliance/faq/",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-risk-and-compliance/aws-risk-and-compliance-program.html",
+      "https://aws.amazon.com/compliance/services-in-scope",
+      "https://aws.amazon.com/compliance/services-in-scope/SOC",
+      "https://docs.aws.amazon.com/config/latest/developerguide/config-compliance.html"
+    ]
+  },
+  {
     "id": "kt:aws-compute-services",
     "title": "AWS compute services",
     "aliases": [
