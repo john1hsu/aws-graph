@@ -4736,6 +4736,96 @@
       ]
     },
     {
+      "@id": "kt:edge-locations",
+      "@type": "kto:InfrastructureConcept",
+      "skos:prefLabel": "Edge locations",
+      "skos:definition": "AWS edge locations (points of presence) are a globally distributed network of sites, separate from Regions and Availability Zones, that host edge services such as Amazon CloudFront, Amazon Route 53 and AWS Global Accelerator close to end users and connect back to Regions over the AWS backbone.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Points of presence - AWS Fault Isolation Boundaries (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/points-of-presence.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon CloudFront Key Features",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/cloudfront/features/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Global Infrastructure",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/global-infrastructure/index.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How AWS Global Accelerator works - AWS Global Accelerator",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/global-accelerator/latest/dg/introduction-how-it-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Shield Standard overview - AWS WAF, AWS Firewall Manager, AWS Shield Advanced",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-standard-summary.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Content Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/edge-locations.md",
+      "skos:altLabel": [
+        "AWS edge locations",
+        "Edge location",
+        "Points of presence",
+        "Point of presence",
+        "PoP",
+        "PoPs",
+        "AWS edge network",
+        "Regional edge caches"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-route-53"
+        },
+        {
+          "@id": "kt:aws-shield"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:amazon-cloudfront"
+        },
+        {
+          "@id": "kt:aws-global-accelerator"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-cloudwatch",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon CloudWatch",

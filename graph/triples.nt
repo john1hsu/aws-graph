@@ -1950,6 +1950,35 @@
 <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> .
 <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2000/01/rdf-schema#label> "Edge locations" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS edge locations" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS edge network" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#altLabel> "Edge location" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#altLabel> "PoP" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#altLabel> "PoPs" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#altLabel> "Point of presence" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#altLabel> "Points of presence" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#altLabel> "Regional edge caches" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#definition> "AWS edge locations (points of presence) are a globally distributed network of sites, separate from Regions and Availability Zones, that host edge services such as Amazon CloudFront, Amazon Route 53 and AWS Global Accelerator close to end users and connect back to Regions over the AWS backbone." .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edge locations" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-shield> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s2> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s3> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s4> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s5> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s6> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> .
+<https://github.com/john1hsu/aws-graph/id/edge-locations> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EKS Auto Mode" .
@@ -4727,6 +4756,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "partner" .
 <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <https://schema.org/url> "https://www.schellman.com/blog/federal-compliance/the-dod-csp-srg-and-dod-mo-srg" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <http://purl.org/dc/terms/title> "Points of presence - AWS Fault Isolation Boundaries (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/points-of-presence.html" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s2> <http://purl.org/dc/terms/title> "Amazon CloudFront Key Features" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s2> <https://schema.org/url> "https://aws.amazon.com/cloudfront/features/" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s3> <http://purl.org/dc/terms/title> "AWS Global Infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s3> <https://schema.org/url> "https://aws.amazon.com/about-aws/global-infrastructure/index.md" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s4> <http://purl.org/dc/terms/title> "How AWS Global Accelerator works - AWS Global Accelerator" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s4> <https://schema.org/url> "https://docs.aws.amazon.com/global-accelerator/latest/dg/introduction-how-it-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s5> <http://purl.org/dc/terms/title> "AWS Shield Standard overview - AWS WAF, AWS Firewall Manager, AWS Shield Advanced" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s5> <https://schema.org/url> "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-standard-summary.html" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s6> <http://purl.org/dc/terms/title> "Content Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/edge-locations/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
 <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s1> <http://purl.org/dc/terms/title> "Create a Node Pool for EKS Auto Mode" .
 <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

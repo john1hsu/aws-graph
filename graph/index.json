@@ -1709,6 +1709,34 @@
     ]
   },
   {
+    "id": "kt:edge-locations",
+    "title": "Edge locations",
+    "aliases": [
+      "AWS edge locations",
+      "Edge location",
+      "Points of presence",
+      "Point of presence",
+      "PoP",
+      "PoPs",
+      "AWS edge network",
+      "Regional edge caches"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/edge-locations.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/points-of-presence.html",
+      "https://aws.amazon.com/cloudfront/features/",
+      "https://aws.amazon.com/about-aws/global-infrastructure/index.md",
+      "https://docs.aws.amazon.com/global-accelerator/latest/dg/introduction-how-it-works.html",
+      "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-standard-summary.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html"
+    ]
+  },
+  {
     "id": "kt:eks-auto-mode",
     "title": "Amazon EKS Auto Mode",
     "aliases": [

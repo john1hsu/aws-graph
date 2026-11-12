@@ -10,7 +10,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-emr`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:aws-lambda`, `kt:aws-serverless-services` |
-| `kt:edge-locations` | `kt:aws-global-infrastructure`, `kt:aws-regions`, `kt:amazon-cloudfront`, `kt:aws-networking-and-content-delivery` |
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:aws-codepipeline`, `kt:aws-sam` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-management-and-governance-services`, `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:seven-rs-migration-strategies` | `kt:aws-certified-solutions-architect-professional`, `kt:aws-database-migration-service`, `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
@@ -35,6 +34,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us`, `kt:dod-cloud-computing-srg-impact-levels` |
 | `kt:aws-security-hub` | `kt:aws-config`, `kt:aws-security-services` |
+| `kt:aws-shield` | `kt:edge-locations`, `kt:aws-waf` |
 | `kt:aws-storage-gateway` | `kt:aws-datasync`, `kt:aws-storage-services` |
 | `kt:aws-sts` | `kt:aws-iam`, `kt:permissions-boundaries` |
 | `kt:aws-transfer-family` | `kt:aws-datasync`, `kt:aws-migration-and-transfer-services` |
@@ -81,11 +81,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-developer-tools` | `kt:aws-codepipeline` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions` |
 | `kt:aws-firewall-manager` | `kt:aws-waf` |
+| `kt:aws-global-accelerator` | `kt:edge-locations` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
 | `kt:aws-outposts` | `kt:aws-global-infrastructure` |
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-secrets-manager` | `kt:aws-kms` |
-| `kt:aws-shield` | `kt:aws-waf` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-systems-manager` | `kt:aws-management-and-governance-services` |
 | `kt:aws-transit-gateway` | `kt:aws-networking-and-content-delivery` |
