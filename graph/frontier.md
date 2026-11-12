@@ -18,11 +18,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
 | `kt:aws-analytics-services` | `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
 | `kt:aws-pricing-fundamentals` | `kt:reserved-instances`, `kt:savings-plans`, `kt:spot-instances` |
+| `kt:aws-security-hub` | `kt:aws-config`, `kt:amazon-guardduty`, `kt:aws-security-services` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-sts` | `kt:aws-iam`, `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:aws-serverless-services` |
 | `kt:hipaa-eligible-services` | `kt:amazon-textract`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
 | `kt:amazon-data-firehose` | `kt:amazon-kinesis-data-streams`, `kt:amazon-sns` |
+| `kt:amazon-inspector` | `kt:amazon-ecr`, `kt:amazon-guardduty` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-codedeploy` | `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
@@ -33,7 +35,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-nitro-system` | `kt:aws-graviton`, `kt:aws-graviton` |
 | `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us`, `kt:dod-cloud-computing-srg-impact-levels` |
-| `kt:aws-security-hub` | `kt:aws-config`, `kt:aws-security-services` |
 | `kt:aws-shield` | `kt:edge-locations`, `kt:aws-waf` |
 | `kt:aws-storage-gateway` | `kt:aws-datasync`, `kt:aws-storage-services` |
 | `kt:aws-transfer-family` | `kt:aws-datasync`, `kt:aws-migration-and-transfer-services` |
@@ -57,8 +58,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract` |
 | `kt:amazon-comprehend` | `kt:amazon-textract` |
-| `kt:amazon-guardduty` | `kt:aws-security-services` |
-| `kt:amazon-inspector` | `kt:amazon-ecr` |
+| `kt:amazon-detective` | `kt:amazon-guardduty` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-neptune` | `kt:purpose-built-databases` |
 | `kt:amazon-opensearch-service` | `kt:amazon-bedrock-knowledge-bases` |
@@ -119,6 +119,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:fargate-quotas` | `kt:aws-fargate` |
 | `kt:gateway-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:glue-quotas` | `kt:aws-glue` |
+| `kt:guardduty-quotas` | `kt:amazon-guardduty` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
 | `kt:iam-policy-simulator` | `kt:iam-policy-evaluation-logic` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments` |

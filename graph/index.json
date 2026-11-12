@@ -466,6 +466,28 @@
     ]
   },
   {
+    "id": "kt:amazon-guardduty",
+    "title": "Amazon GuardDuty",
+    "aliases": [
+      "GuardDuty"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/amazon-guardduty.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html",
+      "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_concepts.html",
+      "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_limits.html",
+      "https://aws.amazon.com/guardduty/pricing",
+      "https://aws.amazon.com/blogs/aws/amazon-guardduty-adds-extended-threat-detection-for-amazon-ec2-and-amazon-ecs",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-kinesis-data-streams",
     "title": "Amazon Kinesis Data Streams",
     "aliases": [

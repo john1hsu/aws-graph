@@ -530,6 +530,33 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon GuardDuty" .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/2004/02/skos/core#altLabel> "GuardDuty" .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed threat detection service, which continuously analyzes CloudTrail management events, VPC flow logs and DNS logs, plus optional protection plans for S3, EKS, runtime, malware, RDS, Lambda and AI workloads, and reports suspicious activity as findings per Region." .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon GuardDuty" .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-detective> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-inspector> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-security-hub> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/guardduty-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Kinesis Data Streams" .
@@ -3116,6 +3143,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s1> <http://purl.org/dc/terms/title> "What is Amazon GuardDuty?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s1> <https://schema.org/url> "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s2> <http://purl.org/dc/terms/title> "Concepts and key terms in Amazon GuardDuty" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s2> <https://schema.org/url> "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s3> <http://purl.org/dc/terms/title> "Amazon GuardDuty quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s3> <https://schema.org/url> "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s4> <http://purl.org/dc/terms/title> "Amazon GuardDuty pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s4> <https://schema.org/url> "https://aws.amazon.com/guardduty/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s5> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s5> <http://purl.org/dc/terms/title> "Amazon GuardDuty adds Extended Threat Detection for Amazon EC2 and Amazon ECS" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/amazon-guardduty-adds-extended-threat-detection-for-amazon-ec2-and-amazon-ecs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s6> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s6> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services (AWS Certified Cloud Practitioner CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s7> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://purl.org/dc/terms/title> "What is Amazon Kinesis Data Streams? - Amazon Kinesis Data Streams" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

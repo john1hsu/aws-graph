@@ -7327,6 +7327,115 @@
       ]
     },
     {
+      "@id": "kt:amazon-guardduty",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon GuardDuty",
+      "skos:definition": "AWS's managed threat detection service, which continuously analyzes CloudTrail management events, VPC flow logs and DNS logs, plus optional protection plans for S3, EKS, runtime, malware, RDS, Lambda and AI workloads, and reports suspicious activity as findings per Region.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon GuardDuty?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Concepts and key terms in Amazon GuardDuty",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon GuardDuty quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon GuardDuty pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/guardduty/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon GuardDuty adds Extended Threat Detection for Amazon EC2 and Amazon ECS",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/blogs/aws/amazon-guardduty-adds-extended-threat-detection-for-amazon-ec2-and-amazon-ecs",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services (AWS Certified Cloud Practitioner CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security/amazon-guardduty.md",
+      "skos:altLabel": [
+        "GuardDuty"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-security-hub"
+        },
+        {
+          "@id": "kt:amazon-detective"
+        },
+        {
+          "@id": "kt:amazon-inspector"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:guardduty-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cloudtrail",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS CloudTrail",
