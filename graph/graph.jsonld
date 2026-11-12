@@ -673,6 +673,94 @@
       ]
     },
     {
+      "@id": "kt:amazon-data-firehose",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Data Firehose",
+      "skos:definition": "AWS's fully managed streaming-delivery (streaming ETL) service: producers send records to a Firehose stream, which buffers, optionally transforms or converts them, and delivers them to destinations such as Amazon S3, Amazon Redshift, OpenSearch, Apache Iceberg tables, Splunk, Snowflake or HTTP endpoints, with no servers or shards to manage.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Data Firehose? - Amazon Data Firehose",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Data Firehose Quota - Amazon Data Firehose",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/firehose/latest/dev/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Data Firehose FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/firehose/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Data Firehose pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/firehose/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing Amazon Data Firehose, formerly known as Amazon Kinesis Data Firehose",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-data-firehose-formerly-kinesis-data-firehose/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Data Firehose and Kinesis Data Streams — AWS Product Comparison",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compare/data-firehose-and-kinesis-data-streams/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/analytics/amazon-data-firehose.md",
+      "skos:altLabel": [
+        "Amazon Kinesis Data Firehose",
+        "Kinesis Data Firehose",
+        "Kinesis Firehose",
+        "Firehose"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-analytics-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-kinesis-data-streams"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-redshift"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:amazon-data-firehose-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-emr",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon EMR",

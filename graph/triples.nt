@@ -203,6 +203,31 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Data Firehose" .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Kinesis Data Firehose" .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/2004/02/skos/core#altLabel> "Firehose" .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/2004/02/skos/core#altLabel> "Kinesis Data Firehose" .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/2004/02/skos/core#altLabel> "Kinesis Firehose" .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed streaming-delivery (streaming ETL) service: producers send records to a Firehose stream, which buffers, optionally transforms or converts them, and delivers them to destinations such as Amazon S3, Amazon Redshift, OpenSearch, Apache Iceberg tables, Splunk, Snowflake or HTTP endpoints, with no servers or shards to manage." .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Data Firehose" .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon DynamoDB" .
@@ -2761,6 +2786,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s1> <http://purl.org/dc/terms/title> "What is Amazon Data Firehose? - Amazon Data Firehose" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s1> <https://schema.org/url> "https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s2> <http://purl.org/dc/terms/title> "Amazon Data Firehose Quota - Amazon Data Firehose" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s2> <https://schema.org/url> "https://docs.aws.amazon.com/firehose/latest/dev/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s3> <http://purl.org/dc/terms/title> "Amazon Data Firehose FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s3> <https://schema.org/url> "https://aws.amazon.com/firehose/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s4> <http://purl.org/dc/terms/title> "Amazon Data Firehose pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s4> <https://schema.org/url> "https://aws.amazon.com/firehose/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s5> <http://purl.org/dc/terms/title> "Introducing Amazon Data Firehose, formerly known as Amazon Kinesis Data Firehose" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-data-firehose-formerly-kinesis-data-firehose/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <http://purl.org/dc/terms/title> "Amazon Data Firehose and Kinesis Data Streams — AWS Product Comparison" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <https://schema.org/url> "https://aws.amazon.com/compare/data-firehose-and-kinesis-data-streams/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb/s1> <http://purl.org/dc/terms/title> "What is Amazon DynamoDB?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

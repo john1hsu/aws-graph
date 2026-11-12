@@ -189,6 +189,30 @@
     ]
   },
   {
+    "id": "kt:amazon-data-firehose",
+    "title": "Amazon Data Firehose",
+    "aliases": [
+      "Amazon Kinesis Data Firehose",
+      "Kinesis Data Firehose",
+      "Kinesis Firehose",
+      "Firehose"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/amazon-data-firehose.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html",
+      "https://docs.aws.amazon.com/firehose/latest/dev/limits.html",
+      "https://aws.amazon.com/firehose/faqs/",
+      "https://aws.amazon.com/firehose/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-data-firehose-formerly-kinesis-data-firehose/",
+      "https://aws.amazon.com/compare/data-firehose-and-kinesis-data-streams/"
+    ]
+  },
+  {
     "id": "kt:amazon-dynamodb",
     "title": "Amazon DynamoDB",
     "aliases": [
