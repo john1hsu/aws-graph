@@ -2452,6 +2452,34 @@
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-account strategy" .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS multi-account strategy" .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "Organizing your AWS environment using multiple accounts" .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "multi-account environment" .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/2004/02/skos/core#definition> "AWS's recommended practice of spreading workloads across many AWS accounts, grouped into organizational units (OUs) in AWS Organizations, so that each account acts as a security, access, billing and quota boundary that controls can be applied to at the OU level." .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Multi-account strategy" .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/landing-zone> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/security-pillar> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s1> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s2> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s3> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s4> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s5> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s6> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s7> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s8> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-control-tower> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/organizations-quotas> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Operational Excellence Pillar" .
@@ -5767,6 +5795,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/getting-started-terraform/faq.html" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s1> <http://purl.org/dc/terms/title> "Benefits of using multiple AWS accounts - Organizing Your AWS Environment Using Multiple Accounts" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/benefits-of-using-multiple-aws-accounts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s2> <http://purl.org/dc/terms/title> "Design principles for your multi-account strategy - Organizing Your AWS Environment Using Multiple Accounts" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s2> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/design-principles-for-your-multi-account-strategy.html" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s3> <http://purl.org/dc/terms/title> "Recommended OUs and accounts - Organizing Your AWS Environment Using Multiple Accounts" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s3> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/recommended-ous-and-accounts" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s4> <http://purl.org/dc/terms/title> "Best practices for managing organizational units (OUs) with AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s4> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_ous_best_practices.html" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s5> <http://purl.org/dc/terms/title> "Best practices for a multi-account environment - AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s5> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_best-practices.md" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s6> <http://purl.org/dc/terms/title> "Quotas and service limits for AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s6> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.md" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s7> <http://purl.org/dc/terms/title> "SEC01-BP01 Separate workloads using accounts - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s7> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec_securely_operate_multi_accounts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s8> <http://purl.org/dc/terms/title> "AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://purl.org/dc/terms/title> "Design principles - AWS Well-Architected Framework (operational excellence)" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

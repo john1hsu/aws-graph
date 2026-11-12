@@ -2150,6 +2150,31 @@
     ]
   },
   {
+    "id": "kt:multi-account-strategy",
+    "title": "Multi-account strategy",
+    "aliases": [
+      "AWS multi-account strategy",
+      "multi-account environment",
+      "Organizing your AWS environment using multiple accounts"
+    ],
+    "type": "Pattern",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/multi-account-strategy.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/benefits-of-using-multiple-aws-accounts.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/design-principles-for-your-multi-account-strategy.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/recommended-ous-and-accounts",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_ous_best_practices.html",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_best-practices.md",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.md",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec_securely_operate_multi_accounts.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf"
+    ]
+  },
+  {
     "id": "kt:operational-excellence-pillar",
     "title": "Operational Excellence Pillar",
     "aliases": [

@@ -12,7 +12,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-nitro-system` | `kt:aws-trainium-and-inferentia`, `kt:aws-graviton`, `kt:aws-graviton`, `kt:ec2-placement-groups` |
 | `kt:aws-pricing-fundamentals` | `kt:aws-free-tier`, `kt:reserved-instances`, `kt:savings-plans`, `kt:spot-instances` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
-| `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-management-and-governance-services`, `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
 | `kt:amazon-fsx` | `kt:aws-datasync`, `kt:amazon-efs`, `kt:aws-storage-services` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
@@ -24,6 +23,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton`, `kt:ec2-placement-groups` |
 | `kt:hipaa-eligible-services` | `kt:amazon-textract`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
+| `kt:organizations-quotas` | `kt:aws-organizations`, `kt:multi-account-strategy`, `kt:service-control-policies` |
 | `kt:amazon-inspector` | `kt:amazon-ecr`, `kt:amazon-guardduty` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:dynamodb-global-tables` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
@@ -51,7 +51,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:local-zones` | `kt:availability-zones`, `kt:aws-global-infrastructure` |
 | `kt:nist-sp-800-53` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
-| `kt:organizations-quotas` | `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds` |
 | `kt:resource-control-policies` | `kt:iam-policy-evaluation-logic`, `kt:service-control-policies` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
@@ -134,6 +133,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
 | `kt:kms-quotas` | `kt:aws-kms` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |
+| `kt:landing-zone` | `kt:multi-account-strategy` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:migration-wave-planning` | `kt:seven-rs-migration-strategies` |
 | `kt:multi-region-architecture` | `kt:dynamodb-global-tables` |

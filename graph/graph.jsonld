@@ -6236,6 +6236,113 @@
       ]
     },
     {
+      "@id": "kt:multi-account-strategy",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Multi-account strategy",
+      "skos:definition": "AWS's recommended practice of spreading workloads across many AWS accounts, grouped into organizational units (OUs) in AWS Organizations, so that each account acts as a security, access, billing and quota boundary that controls can be applied to at the OU level.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Benefits of using multiple AWS accounts - Organizing Your AWS Environment Using Multiple Accounts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/benefits-of-using-multiple-aws-accounts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design principles for your multi-account strategy - Organizing Your AWS Environment Using Multiple Accounts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/design-principles-for-your-multi-account-strategy.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Recommended OUs and accounts - Organizing Your AWS Environment Using Multiple Accounts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/recommended-ous-and-accounts",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best practices for managing organizational units (OUs) with AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_ous_best_practices.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best practices for a multi-account environment - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_best-practices.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and service limits for AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SEC01-BP01 Separate workloads using accounts - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec_securely_operate_multi_accounts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/multi-account-strategy.md",
+      "skos:altLabel": [
+        "AWS multi-account strategy",
+        "multi-account environment",
+        "Organizing your AWS environment using multiple accounts"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:iam-identity-center"
+        },
+        {
+          "@id": "kt:security-pillar"
+        },
+        {
+          "@id": "kt:landing-zone"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-control-tower"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:service-control-policies"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:organizations-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-iam",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Identity and Access Management",
