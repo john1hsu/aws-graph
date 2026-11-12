@@ -2125,6 +2125,33 @@
 <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Transfer Family" .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Transfer for SFTP" .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/2004/02/skos/core#altLabel> "Transfer Family" .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed file-transfer service that exposes SFTP, FTPS, FTP and AS2 endpoints, browser-based web apps and outbound connectors in front of Amazon S3 and Amazon EFS, so partners and applications can keep their existing clients while files land directly in AWS storage." .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Transfer Family" .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-efs> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-datasync> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/transfer-family-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-transfer-family> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Transform MGN" .
@@ -5556,6 +5583,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s6> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/ml-inferentia.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s1> <http://purl.org/dc/terms/title> "What is AWS Transfer Family?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s1> <https://schema.org/url> "https://docs.aws.amazon.com/transfer/latest/userguide/what-is-aws-transfer-family.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s2> <http://purl.org/dc/terms/title> "Configuring an SFTP, FTPS, or FTP server endpoint" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s2> <https://schema.org/url> "https://docs.aws.amazon.com/transfer/latest/userguide/sftp-for-transfer-family.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s3> <http://purl.org/dc/terms/title> "AWS Transfer Family endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s3> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/transfer-service.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s4> <http://purl.org/dc/terms/title> "AWS Transfer Family Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s4> <https://schema.org/url> "https://aws.amazon.com/aws-transfer-family/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s5> <http://purl.org/dc/terms/title> "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s6> <http://purl.org/dc/terms/title> "Managing users for server endpoints" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s6> <https://schema.org/url> "https://docs.aws.amazon.com/transfer/latest/userguide/create-user.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transfer-family/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transform-mgn/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transform-mgn/s1> <http://purl.org/dc/terms/title> "AWS Application Migration Service is now AWS Transform MGN" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transform-mgn/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

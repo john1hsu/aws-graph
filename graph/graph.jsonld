@@ -7382,6 +7382,111 @@
       ]
     },
     {
+      "@id": "kt:aws-transfer-family",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Transfer Family",
+      "skos:definition": "AWS's fully managed file-transfer service that exposes SFTP, FTPS, FTP and AS2 endpoints, browser-based web apps and outbound connectors in front of Amazon S3 and Amazon EFS, so partners and applications can keep their existing clients while files land directly in AWS storage.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Transfer Family?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/transfer/latest/userguide/what-is-aws-transfer-family.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configuring an SFTP, FTPS, or FTP server endpoint",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/transfer/latest/userguide/sftp-for-transfer-family.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transfer Family endpoints and quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/transfer-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transfer Family Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/aws-transfer-family/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Managing users for server endpoints",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/transfer/latest/userguide/create-user.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/aws-transfer-family.md",
+      "skos:altLabel": [
+        "Transfer Family",
+        "AWS Transfer for SFTP"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-efs"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-govcloud-us"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-datasync"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:transfer-family-quotas"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-secrets-manager"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-transform-mgn",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Transform MGN",

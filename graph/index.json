@@ -1860,6 +1860,29 @@
     ]
   },
   {
+    "id": "kt:aws-transfer-family",
+    "title": "AWS Transfer Family",
+    "aliases": [
+      "Transfer Family",
+      "AWS Transfer for SFTP"
+    ],
+    "type": "Service",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/aws-transfer-family.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/transfer/latest/userguide/what-is-aws-transfer-family.html",
+      "https://docs.aws.amazon.com/transfer/latest/userguide/sftp-for-transfer-family.html",
+      "https://docs.aws.amazon.com/general/latest/gr/transfer-service.html",
+      "https://aws.amazon.com/aws-transfer-family/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+      "https://docs.aws.amazon.com/transfer/latest/userguide/create-user.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-transform-mgn",
     "title": "AWS Transform MGN",
     "aliases": [

@@ -36,9 +36,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-lake-formation` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us`, `kt:dod-cloud-computing-srg-impact-levels` |
+| `kt:aws-secrets-manager` | `kt:aws-transfer-family`, `kt:aws-kms` |
 | `kt:aws-shield` | `kt:edge-locations`, `kt:aws-waf` |
 | `kt:aws-storage-gateway` | `kt:aws-datasync`, `kt:aws-storage-services` |
-| `kt:aws-transfer-family` | `kt:aws-datasync`, `kt:aws-migration-and-transfer-services` |
 | `kt:aws-transform` | `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
 | `kt:aws-transit-gateway` | `kt:aws-direct-connect`, `kt:aws-networking-and-content-delivery` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
@@ -85,7 +85,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
 | `kt:aws-resource-access-manager` | `kt:ec2-placement-groups` |
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
-| `kt:aws-secrets-manager` | `kt:aws-kms` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect` |
 | `kt:aws-skill-builder` | `kt:aws-certification-program` |
@@ -151,4 +150,5 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sns-quotas` | `kt:amazon-sns` |
 | `kt:sqs-quotas` | `kt:amazon-sqs` |
 | `kt:subnets-and-route-tables` | `kt:amazon-vpc` |
+| `kt:transfer-family-quotas` | `kt:aws-transfer-family` |
 | `kt:vpc-quotas` | `kt:amazon-vpc` |
