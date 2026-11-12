@@ -2338,6 +2338,33 @@
 <https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/organizations-quotas> .
 <https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2000/01/rdf-schema#label> "7 Rs migration strategies" .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#altLabel> "6 Rs migration strategies" .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#altLabel> "7 Rs" .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS migration strategies" .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#altLabel> "Seven Rs of migration" .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#altLabel> "rehost replatform refactor retire retain relocate repurchase" .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#definition> "AWS's set of seven per-workload migration strategies — retire, retain, rehost, relocate, repurchase, replatform and refactor/re-architect — used during portfolio assessment to decide how each application moves (or doesn't) to the AWS Cloud." .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#prefLabel> "7 Rs migration strategies" .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-rds> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-graviton> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s1> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s2> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s3> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s4> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s5> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/migration-wave-planning> .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Developer - Associate" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
@@ -5248,6 +5275,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s1> <http://purl.org/dc/terms/title> "About the migration strategies - AWS Prescriptive Guidance (Large migrations to the AWS Cloud)" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s1> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/migration-strategies.html" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Executive in Residence Blog, Stephen Orban)" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s2> <http://purl.org/dc/terms/title> "6 Strategies for Migrating Applications to the Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s2> <https://schema.org/url> "https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s3> <http://purl.org/dc/terms/title> "Iterating the 6 Rs migration strategy selection - Application portfolio assessment guide for AWS Cloud migration" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s3> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/application-portfolio-assessment-guide/iterating-7-rs-migration-strategy-selection.html" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s4> <http://purl.org/dc/terms/title> "Overview - Best practices for assessing applications to be retired during a migration to the AWS Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s4> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-retiring-applications/overview.html" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s5> <http://purl.org/dc/terms/title> "Phases of a large migration - AWS Prescriptive Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s5> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/phases.html" .
 <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <http://purl.org/dc/terms/title> "Amazon EC2 Spot Instances" .
 <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

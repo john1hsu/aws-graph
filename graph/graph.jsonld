@@ -6303,6 +6303,91 @@
       ]
     },
     {
+      "@id": "kt:seven-rs-migration-strategies",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "7 Rs migration strategies",
+      "skos:definition": "AWS's set of seven per-workload migration strategies — retire, retain, rehost, relocate, repurchase, replatform and refactor/re-architect — used during portfolio assessment to decide how each application moves (or doesn't) to the AWS Cloud.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "About the migration strategies - AWS Prescriptive Guidance (Large migrations to the AWS Cloud)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/migration-strategies.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "6 Strategies for Migrating Applications to the Cloud",
+          "dcterms:publisher": "Amazon Web Services (AWS Executive in Residence Blog, Stephen Orban)",
+          "schema:url": "https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Iterating the 6 Rs migration strategy selection - Application portfolio assessment guide for AWS Cloud migration",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/application-portfolio-assessment-guide/iterating-7-rs-migration-strategy-selection.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Overview - Best practices for assessing applications to be retired during a migration to the AWS Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-retiring-applications/overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Phases of a large migration - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/phases.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/seven-rs-migration-strategies.md",
+      "skos:altLabel": [
+        "Seven Rs of migration",
+        "7 Rs",
+        "6 Rs migration strategies",
+        "AWS migration strategies",
+        "rehost replatform refactor retire retain relocate repurchase"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        },
+        {
+          "@id": "kt:aws-cloud-adoption-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-transform-mgn"
+        },
+        {
+          "@id": "kt:aws-database-migration-service"
+        },
+        {
+          "@id": "kt:aws-graviton"
+        },
+        {
+          "@id": "kt:amazon-rds"
+        },
+        {
+          "@id": "kt:aws-certified-solutions-architect-professional"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:application-portfolio-assessment"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:migration-wave-planning"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-cloudfront",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon CloudFront",

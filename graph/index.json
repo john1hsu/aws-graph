@@ -2052,6 +2052,30 @@
     ]
   },
   {
+    "id": "kt:seven-rs-migration-strategies",
+    "title": "7 Rs migration strategies",
+    "aliases": [
+      "Seven Rs of migration",
+      "7 Rs",
+      "6 Rs migration strategies",
+      "AWS migration strategies",
+      "rehost replatform refactor retire retain relocate repurchase"
+    ],
+    "type": "Concept",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/seven-rs-migration-strategies.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/migration-strategies.html",
+      "https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/application-portfolio-assessment-guide/iterating-7-rs-migration-strategy-selection.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-retiring-applications/overview.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/phases.html"
+    ]
+  },
+  {
     "id": "kt:spot-instances",
     "title": "Amazon EC2 Spot Instances",
     "aliases": [
