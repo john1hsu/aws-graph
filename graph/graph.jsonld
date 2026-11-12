@@ -8166,6 +8166,116 @@
       ]
     },
     {
+      "@id": "kt:aws-transit-gateway",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Transit Gateway",
+      "skos:definition": "AWS's Regional, managed layer-3 router that acts as a hub connecting VPCs, Site-to-Site VPN, Direct Connect gateways, SD-WAN appliances and other transit gateways, with multiple route tables for network segmentation.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Transit Gateway for Amazon VPC?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How AWS Transit Gateway works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/tgw/how-transit-gateways-work.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transit Gateway Quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/tgw/transit-gateway-quotas",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transit Gateway pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/transit-gateway/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transit Gateway design best practices",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/tgw//tgw-best-design-practices.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS announces general availability of Policy-Based Routing on AWS Transit Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-transit-gateway-policy-based-routing/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Transit Gateway FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/transit-gateway/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-scope AWS services - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/aws-transit-gateway.md",
+      "skos:altLabel": [
+        "Transit Gateway",
+        "TGW",
+        "AWS TGW"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-cloud-wan"
+        },
+        {
+          "@id": "kt:multi-account-strategy"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-direct-connect"
+        },
+        {
+          "@id": "kt:aws-site-to-site-vpn"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:vpc-peering"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:transit-gateway-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-artifact",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Artifact",

@@ -27,6 +27,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:multi-account-strategy`, `kt:service-control-policies` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:dynamodb-global-tables` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
+| `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-codedeploy` | `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
@@ -38,9 +39,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us`, `kt:dod-cloud-computing-srg-impact-levels` |
 | `kt:aws-secrets-manager` | `kt:aws-transfer-family`, `kt:aws-kms` |
 | `kt:aws-shield` | `kt:edge-locations`, `kt:aws-waf` |
+| `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-storage-gateway` | `kt:aws-datasync`, `kt:aws-storage-services` |
 | `kt:aws-transform` | `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
-| `kt:aws-transit-gateway` | `kt:aws-direct-connect`, `kt:aws-networking-and-content-delivery` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
@@ -72,7 +73,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-batch` | `kt:aws-compute-services` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-free-tier` |
-| `kt:aws-cloud-wan` | `kt:aws-direct-connect` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-codebuild` | `kt:aws-codepipeline` |
 | `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar` |
@@ -85,7 +85,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-resource-access-manager` | `kt:ec2-placement-groups` |
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
-| `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect` |
 | `kt:aws-skill-builder` | `kt:aws-certification-program` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-systems-manager` | `kt:aws-management-and-governance-services` |
@@ -151,4 +150,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sqs-quotas` | `kt:amazon-sqs` |
 | `kt:subnets-and-route-tables` | `kt:amazon-vpc` |
 | `kt:transfer-family-quotas` | `kt:aws-transfer-family` |
+| `kt:transit-gateway-quotas` | `kt:aws-transit-gateway` |
+| `kt:vpc-peering` | `kt:aws-transit-gateway` |
 | `kt:vpc-quotas` | `kt:amazon-vpc` |

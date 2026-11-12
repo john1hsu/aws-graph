@@ -2184,6 +2184,35 @@
 <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Transit Gateway" .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS TGW" .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/2004/02/skos/core#altLabel> "TGW" .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/2004/02/skos/core#altLabel> "Transit Gateway" .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/2004/02/skos/core#definition> "AWS's Regional, managed layer-3 router that acts as a hub connecting VPCs, Site-to-Site VPN, Direct Connect gateways, SD-WAN appliances and other transit gateways, with multiple route tables for network segmentation." .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Transit Gateway" .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/vpc-peering> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/transit-gateway-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-waf> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-waf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-waf> <http://www.w3.org/2000/01/rdf-schema#label> "AWS WAF" .
@@ -5691,6 +5720,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-transform-mgn/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transform-mgn/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transform-mgn/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s1> <http://purl.org/dc/terms/title> "What is AWS Transit Gateway for Amazon VPC?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s1> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s2> <http://purl.org/dc/terms/title> "How AWS Transit Gateway works" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s2> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/tgw/how-transit-gateways-work.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s3> <http://purl.org/dc/terms/title> "AWS Transit Gateway Quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s3> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/tgw/transit-gateway-quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s4> <http://purl.org/dc/terms/title> "AWS Transit Gateway pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s4> <https://schema.org/url> "https://aws.amazon.com/transit-gateway/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s5> <http://purl.org/dc/terms/title> "AWS Transit Gateway design best practices" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s5> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/tgw//tgw-best-design-practices.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s6> <http://purl.org/dc/terms/title> "AWS announces general availability of Policy-Based Routing on AWS Transit Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-transit-gateway-policy-based-routing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s7> <http://purl.org/dc/terms/title> "AWS Transit Gateway FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s7> <https://schema.org/url> "https://aws.amazon.com/transit-gateway/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s8> <http://purl.org/dc/terms/title> "In-scope AWS services - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-waf/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-waf/s1> <http://purl.org/dc/terms/title> "How AWS WAF works" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-waf/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

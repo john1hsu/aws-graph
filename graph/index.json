@@ -1910,6 +1910,31 @@
     ]
   },
   {
+    "id": "kt:aws-transit-gateway",
+    "title": "AWS Transit Gateway",
+    "aliases": [
+      "Transit Gateway",
+      "TGW",
+      "AWS TGW"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/aws-transit-gateway.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html",
+      "https://docs.aws.amazon.com/vpc/latest/tgw/how-transit-gateways-work.html",
+      "https://docs.aws.amazon.com/vpc/latest/tgw/transit-gateway-quotas",
+      "https://aws.amazon.com/transit-gateway/pricing/",
+      "https://docs.aws.amazon.com/vpc/latest/tgw//tgw-best-design-practices.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-transit-gateway-policy-based-routing/",
+      "https://aws.amazon.com/transit-gateway/faqs",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-waf",
     "title": "AWS WAF",
     "aliases": [
