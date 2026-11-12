@@ -2024,6 +2024,32 @@
     ]
   },
   {
+    "id": "kt:performance-efficiency-pillar",
+    "title": "Performance Efficiency Pillar",
+    "aliases": [
+      "AWS Well-Architected Performance Efficiency Pillar",
+      "Well-Architected performance efficiency pillar",
+      "Performance Efficiency Pillar whitepaper"
+    ],
+    "type": "Concept",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/performance-efficiency-pillar.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/design-principles.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf-def.html",
+      "https://docs.aws.amazon.com/en_us/wellarchitected/latest/framework/perf-arch.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf-02.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf_compute_hardware_select_best_compute_options.html",
+      "https://docs.aws.amazon.com/en_us/wellarchitected/latest/framework/perf-networking.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf_networking_choose_workload_location_network_requirements.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf-05.html"
+    ]
+  },
+  {
     "id": "kt:permissions-boundaries",
     "title": "IAM permissions boundaries",
     "aliases": [

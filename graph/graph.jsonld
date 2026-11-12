@@ -1419,6 +1419,118 @@
       ]
     },
     {
+      "@id": "kt:performance-efficiency-pillar",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Performance Efficiency Pillar",
+      "skos:definition": "The pillar of the AWS Well-Architected Framework concerned with using cloud resources efficiently to meet performance requirements and keeping that efficiency as demand and technology change, organized into five best practice areas and five design principles.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Performance Efficiency Pillar - AWS Well-Architected Framework (introduction)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design principles - Performance Efficiency Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/design-principles.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Definition (performance efficiency) - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf-def.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Architecture selection - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/wellarchitected/latest/framework/perf-arch.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PERF 2. How do you select and use compute resources in your workload?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf-02.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PERF02-BP01 Select the best compute options for your workload - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf_compute_hardware_select_best_compute_options.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Networking and content delivery - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/wellarchitected/latest/framework/perf-networking.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PERF04-BP06 Choose your workload's location based on network requirements - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf_networking_choose_workload_location_network_requirements.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PERF 5. How do your organizational practices and culture contribute to performance efficiency in your workload?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf-05.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/performance-efficiency-pillar.md",
+      "skos:altLabel": [
+        "AWS Well-Architected Performance Efficiency Pillar",
+        "Well-Architected performance efficiency pillar",
+        "Performance Efficiency Pillar whitepaper"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:reliability-pillar"
+        },
+        {
+          "@id": "kt:purpose-built-databases"
+        },
+        {
+          "@id": "kt:aws-graviton"
+        },
+        {
+          "@id": "kt:amazon-cloudfront"
+        },
+        {
+          "@id": "kt:aws-global-accelerator"
+        },
+        {
+          "@id": "kt:cost-optimization-pillar"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-compute-optimizer"
+        }
+      ]
+    },
+    {
       "@id": "kt:reliability-pillar",
       "@type": "kto:Concept",
       "skos:prefLabel": "Reliability Pillar",

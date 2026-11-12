@@ -2305,6 +2305,36 @@
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Performance Efficiency Pillar" .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Well-Architected Performance Efficiency Pillar" .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "Performance Efficiency Pillar whitepaper" .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "Well-Architected performance efficiency pillar" .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2004/02/skos/core#definition> "The pillar of the AWS Well-Architected Framework concerned with using cloud resources efficiently to meet performance requirements and keeping that efficiency as demand and technology change, organized into five best practice areas and five design principles." .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Performance Efficiency Pillar" .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-graviton> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s1> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s2> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s3> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s4> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s5> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s6> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s7> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s8> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s9> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/permissions-boundaries> <http://www.w3.org/2000/01/rdf-schema#label> "IAM permissions boundaries" .
@@ -5395,6 +5425,51 @@
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.md" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s1> <http://purl.org/dc/terms/title> "Performance Efficiency Pillar - AWS Well-Architected Framework (introduction)" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s1> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s2> <http://purl.org/dc/terms/title> "Design principles - Performance Efficiency Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/design-principles.html" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s3> <http://purl.org/dc/terms/title> "Definition (performance efficiency) - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf-def.html" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s4> <http://purl.org/dc/terms/title> "Architecture selection - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s4> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/wellarchitected/latest/framework/perf-arch.html" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s5> <http://purl.org/dc/terms/title> "PERF 2. How do you select and use compute resources in your workload?" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s5> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf-02.html" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s6> <http://purl.org/dc/terms/title> "PERF02-BP01 Select the best compute options for your workload - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s6> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf_compute_hardware_select_best_compute_options.html" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s7> <http://purl.org/dc/terms/title> "Networking and content delivery - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s7> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/wellarchitected/latest/framework/perf-networking.html" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s8> <http://purl.org/dc/terms/title> "PERF04-BP06 Choose your workload's location based on network requirements - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s8> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf_networking_choose_workload_location_network_requirements.html" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s9> <http://purl.org/dc/terms/title> "PERF 5. How do your organizational practices and culture contribute to performance efficiency in your workload?" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s9> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf-05.html" .
 <https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s1> <http://purl.org/dc/terms/title> "Permissions boundaries for IAM entities - AWS Identity and Access Management" .
 <https://github.com/john1hsu/aws-graph/id/source/permissions-boundaries/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

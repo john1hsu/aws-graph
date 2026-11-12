@@ -30,6 +30,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs` |
+| `kt:aws-global-accelerator` | `kt:performance-efficiency-pillar`, `kt:edge-locations` |
 | `kt:aws-lake-formation` | `kt:amazon-athena`, `kt:aws-glue` |
 | `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us`, `kt:dod-cloud-computing-srg-impact-levels` |
@@ -77,11 +78,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-codebuild` | `kt:aws-codepipeline` |
+| `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
 | `kt:aws-developer-tools` | `kt:aws-codepipeline` |
 | `kt:aws-firewall-manager` | `kt:aws-waf` |
-| `kt:aws-global-accelerator` | `kt:edge-locations` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
 | `kt:aws-outposts` | `kt:aws-global-infrastructure` |
@@ -99,6 +100,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudtrail-quotas` | `kt:aws-cloudtrail` |
 | `kt:cloudwatch-quotas` | `kt:amazon-cloudwatch` |
 | `kt:control-tower-quotas` | `kt:aws-control-tower` |
+| `kt:cost-optimization-pillar` | `kt:performance-efficiency-pillar` |
 | `kt:data-transfer-costs` | `kt:aws-direct-connect` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |
@@ -134,7 +136,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:migration-wave-planning` | `kt:seven-rs-migration-strategies` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing` |
-| `kt:performance-efficiency-pillar` | `kt:purpose-built-databases` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments` |
