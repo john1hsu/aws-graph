@@ -555,6 +555,34 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon FSx" .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS FSx" .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon FSx family" .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/2004/02/skos/core#altLabel> "FSx" .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-storage-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/2004/02/skos/core#definition> "AWS's family of fully managed file systems built on established file system software — FSx for NetApp ONTAP, FSx for OpenZFS, FSx for Windows File Server and FSx for Lustre — for lifting existing NAS, Windows and Linux file workloads to AWS or running high-performance parallel file storage." .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon FSx" .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-datasync> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-efs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/fsx-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-fsx> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon GuardDuty" .
@@ -3513,6 +3541,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eventbridge/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s1> <http://purl.org/dc/terms/title> "Choosing an Amazon FSx File System" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s1> <https://schema.org/url> "https://aws.amazon.com/fsx/when-to-choose-fsx/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s2> <http://purl.org/dc/terms/title> "What is Amazon FSx for Lustre? - FSx for Lustre" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s2> <https://schema.org/url> "https://docs.aws.amazon.com/fsx/latest/LustreGuide/what-is.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s3> <http://purl.org/dc/terms/title> "What is FSx for Windows File Server? - Amazon FSx for Windows File Server" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s3> <https://schema.org/url> "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s4> <http://purl.org/dc/terms/title> "What is Amazon FSx for NetApp ONTAP? - FSx for ONTAP" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s4> <https://schema.org/url> "https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s5> <http://purl.org/dc/terms/title> "What is Amazon FSx for OpenZFS? - FSx for OpenZFS" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s5> <https://schema.org/url> "https://docs.aws.amazon.com/es_es/fsx/latest/OpenZFSGuide/what-is-fsx.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s6> <http://purl.org/dc/terms/title> "Quotas - Amazon FSx for Windows File Server" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s7> <http://purl.org/dc/terms/title> "Amazon FSx for NetApp ONTAP now supports Amazon S3 access" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-fsx/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-fsx-netapp-ontap-s3-access" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s1> <http://purl.org/dc/terms/title> "What is Amazon GuardDuty?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

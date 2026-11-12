@@ -490,6 +490,30 @@
     ]
   },
   {
+    "id": "kt:amazon-fsx",
+    "title": "Amazon FSx",
+    "aliases": [
+      "FSx",
+      "Amazon FSx family",
+      "AWS FSx"
+    ],
+    "type": "Service",
+    "domain": "storage",
+    "file": "articles/storage/amazon-fsx.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/fsx/when-to-choose-fsx/",
+      "https://docs.aws.amazon.com/fsx/latest/LustreGuide/what-is.html",
+      "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html",
+      "https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.md",
+      "https://docs.aws.amazon.com/es_es/fsx/latest/OpenZFSGuide/what-is-fsx.md",
+      "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/limits.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-fsx-netapp-ontap-s3-access"
+    ]
+  },
+  {
     "id": "kt:amazon-guardduty",
     "title": "Amazon GuardDuty",
     "aliases": [

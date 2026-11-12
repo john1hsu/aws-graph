@@ -9835,6 +9835,112 @@
       ]
     },
     {
+      "@id": "kt:amazon-fsx",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon FSx",
+      "skos:definition": "AWS's family of fully managed file systems built on established file system software — FSx for NetApp ONTAP, FSx for OpenZFS, FSx for Windows File Server and FSx for Lustre — for lifting existing NAS, Windows and Linux file workloads to AWS or running high-performance parallel file storage.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Choosing an Amazon FSx File System",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/fsx/when-to-choose-fsx/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is Amazon FSx for Lustre? - FSx for Lustre",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fsx/latest/LustreGuide/what-is.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is FSx for Windows File Server? - Amazon FSx for Windows File Server",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is Amazon FSx for NetApp ONTAP? - FSx for ONTAP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is Amazon FSx for OpenZFS? - FSx for OpenZFS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/es_es/fsx/latest/OpenZFSGuide/what-is-fsx.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas - Amazon FSx for Windows File Server",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon FSx for NetApp ONTAP now supports Amazon S3 access",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-fsx-netapp-ontap-s3-access",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/storage/amazon-fsx.md",
+      "skos:altLabel": [
+        "FSx",
+        "Amazon FSx family",
+        "AWS FSx"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-storage-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:aws-datasync"
+        },
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-efs"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:fsx-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-s3",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon S3",

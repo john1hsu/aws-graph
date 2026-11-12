@@ -13,7 +13,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-pricing-fundamentals` | `kt:aws-free-tier`, `kt:reserved-instances`, `kt:savings-plans`, `kt:spot-instances` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
-| `kt:amazon-fsx` | `kt:aws-datasync`, `kt:amazon-efs`, `kt:aws-storage-services` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
 | `kt:aws-security-hub` | `kt:aws-config`, `kt:amazon-guardduty`, `kt:aws-security-services` |
@@ -123,6 +122,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:elb-quotas` | `kt:elastic-load-balancing` |
 | `kt:eventbridge-quotas` | `kt:amazon-eventbridge` |
 | `kt:fargate-quotas` | `kt:aws-fargate` |
+| `kt:fsx-quotas` | `kt:amazon-fsx` |
 | `kt:gateway-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:glue-quotas` | `kt:aws-glue` |
 | `kt:guardduty-quotas` | `kt:amazon-guardduty` |
