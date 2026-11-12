@@ -7,10 +7,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-web-services` | `kt:aws-certification-program`, `kt:aws-compute-services`, `kt:purpose-built-databases`, `kt:aws-global-infrastructure`, `kt:aws-management-and-governance-services`, `kt:aws-migration-and-transfer-services`, `kt:aws-storage-services` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-emr`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
-| `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-analytics-services` | `kt:amazon-data-firehose`, `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-nitro-system` | `kt:aws-trainium-and-inferentia`, `kt:aws-graviton`, `kt:aws-graviton`, `kt:ec2-placement-groups` |
+| `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:aws-codepipeline`, `kt:aws-sam` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-management-and-governance-services`, `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
@@ -21,7 +21,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-sts` | `kt:aws-iam`, `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton`, `kt:ec2-placement-groups` |
-| `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:aws-serverless-services` |
 | `kt:hipaa-eligible-services` | `kt:amazon-textract`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:amazon-inspector` | `kt:amazon-ecr`, `kt:amazon-guardduty` |
@@ -60,6 +59,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
 | `kt:amazon-detective` | `kt:amazon-guardduty` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
+| `kt:amazon-mq` | `kt:amazon-sqs` |
 | `kt:amazon-neptune` | `kt:purpose-built-databases` |
 | `kt:amazon-opensearch-service` | `kt:amazon-bedrock-knowledge-bases` |
 | `kt:amazon-q-business` | `kt:amazon-bedrock-knowledge-bases` |
@@ -148,5 +148,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:security-groups-vs-network-acls` | `kt:amazon-vpc` |
 | `kt:service-quotas` | `kt:reliability-pillar` |
 | `kt:sns-quotas` | `kt:amazon-sns` |
+| `kt:sqs-quotas` | `kt:amazon-sqs` |
 | `kt:subnets-and-route-tables` | `kt:amazon-vpc` |
 | `kt:vpc-quotas` | `kt:amazon-vpc` |

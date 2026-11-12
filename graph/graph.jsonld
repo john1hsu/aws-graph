@@ -8763,6 +8763,125 @@
       ]
     },
     {
+      "@id": "kt:amazon-sqs",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon SQS",
+      "skos:definition": "AWS's fully managed, pull-based message queue for decoupling producers from consumers, offering standard queues (at-least-once, best-effort ordering), FIFO queues (ordered, exactly-once processing) and fair queues for multi-tenant workloads, with dead-letter queues and KMS encryption.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon SQS FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://www.aws.amazon.com/sqs/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SQS queue types",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-queue-types.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SQS message quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/quotas-messages.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SQS pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/sqs/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SQS increases maximum message payload size to 1 MiB",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-sqs-max-payload-size-1mib",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon SQS introduces fair queues for multi-tenant workloads",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-sqs-introduces-fair",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services – AWS Certified Solutions Architect – Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services – AWS Certified Developer – Associate (DVA-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/amazon-sqs.md",
+      "skos:altLabel": [
+        "Amazon Simple Queue Service",
+        "SQS",
+        "Simple Queue Service",
+        "AWS SQS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-serverless-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-sns"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-kinesis-data-streams"
+        },
+        {
+          "@id": "kt:amazon-mq"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:sqs-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        },
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-lambda",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Lambda",

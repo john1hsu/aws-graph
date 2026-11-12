@@ -677,6 +677,32 @@
     ]
   },
   {
+    "id": "kt:amazon-sqs",
+    "title": "Amazon SQS",
+    "aliases": [
+      "Amazon Simple Queue Service",
+      "SQS",
+      "Simple Queue Service",
+      "AWS SQS"
+    ],
+    "type": "Service",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/amazon-sqs.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://www.aws.amazon.com/sqs/faqs",
+      "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-queue-types.html",
+      "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/quotas-messages.html",
+      "https://aws.amazon.com/sqs/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-sqs-max-payload-size-1mib",
+      "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-sqs-introduces-fair",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-textract",
     "title": "Amazon Textract",
     "aliases": [

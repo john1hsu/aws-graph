@@ -768,6 +768,38 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-sns> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/amazon-sns> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-sns> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon SQS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS SQS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Simple Queue Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/2004/02/skos/core#altLabel> "SQS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/2004/02/skos/core#altLabel> "Simple Queue Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed, pull-based message queue for decoupling producers from consumers, offering standard queues (at-least-once, best-effort ordering), FIFO queues (ordered, exactly-once processing) and fair queues for multi-tenant workloads, with dead-letter queues and KMS encryption." .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon SQS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sns> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-mq> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/sqs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Textract" .
@@ -3608,6 +3640,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s1> <http://purl.org/dc/terms/title> "Amazon SQS FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s1> <https://schema.org/url> "https://www.aws.amazon.com/sqs/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s2> <http://purl.org/dc/terms/title> "Amazon SQS queue types" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-queue-types.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s3> <http://purl.org/dc/terms/title> "Amazon SQS message quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/quotas-messages.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s4> <http://purl.org/dc/terms/title> "Amazon SQS pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s4> <https://schema.org/url> "https://aws.amazon.com/sqs/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s5> <http://purl.org/dc/terms/title> "Amazon SQS increases maximum message payload size to 1 MiB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-sqs-max-payload-size-1mib" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s6> <http://purl.org/dc/terms/title> "Amazon SQS introduces fair queues for multi-tenant workloads" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-sqs-introduces-fair" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services – AWS Certified Solutions Architect – Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s8> <http://purl.org/dc/terms/title> "In-Scope AWS Services – AWS Certified Developer – Associate (DVA-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <http://purl.org/dc/terms/title> "Amazon Textract FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
