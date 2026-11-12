@@ -2140,6 +2140,34 @@
 <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> .
 <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 placement groups" .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 placement groups" .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "cluster placement group" .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "partition placement group" .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "placement groups" .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "precision time placement group" .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "spread placement group" .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#definition> "An optional Amazon EC2 feature that tells EC2 how to position a set of interdependent instances on the underlying hardware: packed together (cluster), split across rack-isolated partitions (partition), each on distinct hardware (spread), or on hardware with high-precision time sources (precision time)." .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EC2 placement groups" .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-outposts> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s1> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s2> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s3> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s4> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s5> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-nitro-system> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#domain> "compute" .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/edge-locations> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2000/01/rdf-schema#label> "Edge locations" .
@@ -5260,6 +5288,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "partner" .
 <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <https://schema.org/url> "https://www.schellman.com/blog/federal-compliance/the-dod-csp-srg-and-dod-mo-srg" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s1> <http://purl.org/dc/terms/title> "Placement groups for your Amazon EC2 instances" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s2> <http://purl.org/dc/terms/title> "Placement strategies for your placement groups" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s2> <https://schema.org/url> "https://docs.aws.amazon.com/us_en/AWSEC2/latest/UserGuide/placement-strategies.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s3> <http://purl.org/dc/terms/title> "Shared placement groups" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s3> <https://schema.org/url> "https://docs.aws.eu/AWSEC2/latest/UserGuide/share-placement-group.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Compute Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s4> <http://purl.org/dc/terms/title> "Using partition placement groups for large distributed and replicated workloads in Amazon EC2" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/using-partition-placement-groups-for-large-distributed-and-replicated-workloads-in-amazon-ec2" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s5> <http://purl.org/dc/terms/title> "Amazon Time Sync Service adds microsecond-accurate time to 26 additional EC2 instance types" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-time-sync-precision-time-placement-group" .
 <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <http://purl.org/dc/terms/title> "Points of presence - AWS Fault Isolation Boundaries (whitepaper)" .
 <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

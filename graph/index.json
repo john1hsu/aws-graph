@@ -1878,6 +1878,31 @@
     ]
   },
   {
+    "id": "kt:ec2-placement-groups",
+    "title": "Amazon EC2 placement groups",
+    "aliases": [
+      "EC2 placement groups",
+      "placement groups",
+      "cluster placement group",
+      "partition placement group",
+      "spread placement group",
+      "precision time placement group"
+    ],
+    "type": "Feature",
+    "domain": "compute",
+    "file": "articles/compute/ec2-placement-groups.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html",
+      "https://docs.aws.amazon.com/us_en/AWSEC2/latest/UserGuide/placement-strategies.html",
+      "https://docs.aws.eu/AWSEC2/latest/UserGuide/share-placement-group.html",
+      "https://aws.amazon.com/blogs/compute/using-partition-placement-groups-for-large-distributed-and-replicated-workloads-in-amazon-ec2",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-time-sync-precision-time-placement-group"
+    ]
+  },
+  {
     "id": "kt:edge-locations",
     "title": "Edge locations",
     "aliases": [

@@ -2598,6 +2598,94 @@
       ]
     },
     {
+      "@id": "kt:ec2-placement-groups",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon EC2 placement groups",
+      "skos:definition": "An optional Amazon EC2 feature that tells EC2 how to position a set of interdependent instances on the underlying hardware: packed together (cluster), split across rack-isolated partitions (partition), each on distinct hardware (spread), or on hardware with high-precision time sources (precision time).",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Placement groups for your Amazon EC2 instances",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Placement strategies for your placement groups",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/us_en/AWSEC2/latest/UserGuide/placement-strategies.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Shared placement groups",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.eu/AWSEC2/latest/UserGuide/share-placement-group.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using partition placement groups for large distributed and replicated workloads in Amazon EC2",
+          "dcterms:publisher": "Amazon Web Services (AWS Compute Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/compute/using-partition-placement-groups-for-large-distributed-and-replicated-workloads-in-amazon-ec2",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Time Sync Service adds microsecond-accurate time to 26 additional EC2 instance types",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-time-sync-precision-time-placement-group",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/compute/ec2-placement-groups.md",
+      "skos:altLabel": [
+        "EC2 placement groups",
+        "placement groups",
+        "cluster placement group",
+        "partition placement group",
+        "spread placement group",
+        "precision time placement group"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:ec2-instance-types"
+        },
+        {
+          "@id": "kt:aws-outposts"
+        },
+        {
+          "@id": "kt:reliability-pillar"
+        },
+        {
+          "@id": "kt:spot-instances"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:on-demand-capacity-reservations"
+        },
+        {
+          "@id": "kt:aws-resource-access-manager"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-nitro-system"
+        }
+      ]
+    },
+    {
       "@id": "kt:elastic-load-balancing",
       "@type": "kto:Service",
       "skos:prefLabel": "Elastic Load Balancing",
