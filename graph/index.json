@@ -1117,6 +1117,32 @@
     ]
   },
   {
+    "id": "kt:aws-container-services",
+    "title": "AWS container services",
+    "aliases": [
+      "AWS containers",
+      "containers on AWS",
+      "AWS container portfolio",
+      "AWS containers category"
+    ],
+    "type": "Concept",
+    "domain": "containers",
+    "file": "articles/containers/aws-container-services.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/decision-guides/latest/containers-on-aws-how-to-choose/choosing-aws-container-service.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/containers.html",
+      "https://aws.amazon.com/blogs/containers/amazon-ecs-vs-amazon-eks-making-sense-of-aws-container-services",
+      "https://aws.amazon.com/ecs/pricing/",
+      "https://aws.amazon.com/eks/pricing/",
+      "https://docs.aws.amazon.com/ja_jp/apprunner/latest/dg/apprunner-availability-change.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/announcing-amazon-ecs-express-mode",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-control-tower",
     "title": "AWS Control Tower",
     "aliases": [

@@ -3024,6 +3024,113 @@
       ]
     },
     {
+      "@id": "kt:aws-container-services",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS container services",
+      "skos:definition": "The family of AWS services for building, storing, orchestrating and running container images: a registry (Amazon ECR), orchestrators (Amazon ECS, Amazon EKS, Red Hat OpenShift Service on AWS), compute capacity (AWS Fargate, Amazon EC2, Outposts) and higher-level options such as ECS Express Mode, Lightsail, AWS Batch and Lambda container images.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Choosing an AWS container service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/containers-on-aws-how-to-choose/choosing-aws-container-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Containers - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/containers.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS vs Amazon EKS: making sense of AWS container services",
+          "dcterms:publisher": "Amazon Web Services (AWS Containers Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/containers/amazon-ecs-vs-amazon-eks-making-sense-of-aws-container-services",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECS Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ecs/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EKS pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/eks/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS App Runner availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ja_jp/apprunner/latest/dg/apprunner-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing Amazon ECS Express Mode",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/announcing-amazon-ecs-express-mode",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/containers/aws-container-services.md",
+      "skos:altLabel": [
+        "AWS containers",
+        "containers on AWS",
+        "AWS container portfolio",
+        "AWS containers category"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compute-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-serverless-services"
+        },
+        {
+          "@id": "kt:aws-app-runner"
+        },
+        {
+          "@id": "kt:red-hat-openshift-service-on-aws"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        },
+        {
+          "@id": "kt:aws-fargate"
+        },
+        {
+          "@id": "kt:amazon-ecr"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:savings-plans"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-fargate",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Fargate",

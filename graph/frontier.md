@@ -6,7 +6,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:amazon-web-services` | `kt:aws-certification-program`, `kt:aws-compute-services`, `kt:purpose-built-databases`, `kt:aws-global-infrastructure`, `kt:aws-management-and-governance-services`, `kt:aws-migration-and-transfer-services`, `kt:aws-storage-services` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
-| `kt:aws-container-services` | `kt:aws-compute-services`, `kt:amazon-ecr`, `kt:amazon-ecs`, `kt:amazon-eks`, `kt:aws-fargate` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-emr`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
 | `kt:amazon-sqs` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-analytics-services` | `kt:amazon-data-firehose`, `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
@@ -72,6 +71,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aurora-serverless-v2` | `kt:amazon-aurora` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-ai-services` | `kt:amazon-textract` |
+| `kt:aws-app-runner` | `kt:aws-container-services` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-batch` | `kt:aws-compute-services` |
@@ -137,6 +137,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:migration-wave-planning` | `kt:seven-rs-migration-strategies` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
+| `kt:red-hat-openshift-service-on-aws` | `kt:aws-container-services` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments` |
 | `kt:route-53-quotas` | `kt:amazon-route-53` |
