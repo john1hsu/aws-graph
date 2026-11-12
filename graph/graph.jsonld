@@ -482,6 +482,112 @@
       ]
     },
     {
+      "@id": "kt:aws-trainium-and-inferentia",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "AWS Trainium and Inferentia",
+      "skos:definition": "AWS's own families of machine learning accelerator chips: Trainium (now in its third generation) for training and large-scale inference, and Inferentia for cost-efficient inference, offered through EC2 Trn and Inf instances and programmed with the AWS Neuron SDK.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Trainium",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ai/machine-learning/trainium/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing Amazon EC2 Trn3 UltraServers for faster, lower-cost generative AI training",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon EC2 Trn3 Architecture",
+          "dcterms:publisher": "Amazon Web Services (AWS Neuron Documentation)",
+          "schema:url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/about-neuron/arch/neuron-hardware/trn3-arch.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EC2 Trn2 Instances and Trn2 UltraServers for AI/ML training and inference are now available",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/amazon-ec2-trn2-instances-and-trn2-ultraservers-for-aiml-training-and-inference-is-now-available/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon EC2 Inf2 Instances",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ec2/instance-types/inf2/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use AWS Inferentia instances with Amazon EKS for Machine Learning",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/ml-inferentia.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/aws-trainium-and-inferentia.md",
+      "skos:altLabel": [
+        "AWS Trainium",
+        "AWS Inferentia",
+        "Trainium",
+        "Inferentia",
+        "Trainium2",
+        "Trainium3",
+        "Inferentia2"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:generative-ai-on-aws"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-graviton"
+        },
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        },
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        },
+        {
+          "@id": "kt:eks-auto-mode"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-neuron-sdk"
+        },
+        {
+          "@id": "kt:aws-nitro-system"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:ec2-gpu-instances"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:ec2-capacity-blocks-for-ml"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-athena",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Athena",

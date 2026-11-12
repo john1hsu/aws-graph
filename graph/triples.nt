@@ -1865,6 +1865,39 @@
 <https://github.com/john1hsu/aws-graph/id/aws-storage-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> .
 <https://github.com/john1hsu/aws-graph/id/aws-storage-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-storage-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Trainium and Inferentia" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Inferentia" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Trainium" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#altLabel> "Inferentia" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#altLabel> "Inferentia2" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#altLabel> "Trainium" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#altLabel> "Trainium2" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#altLabel> "Trainium3" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#definition> "AWS's own families of machine learning accelerator chips: Trainium (now in its third generation) for training and large-scale inference, and Inferentia for cost-efficient inference, offered through EC2 Trn and Inf instances and programmed with the AWS Neuron SDK." .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Trainium and Inferentia" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-graviton> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/ec2-gpu-instances> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-neuron-sdk> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-nitro-system> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Transform MGN" .
@@ -4798,6 +4831,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-storage-services/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-storage-services/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-storage-services/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s1> <http://purl.org/dc/terms/title> "AWS Trainium" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s1> <https://schema.org/url> "https://aws.amazon.com/ai/machine-learning/trainium/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s2> <http://purl.org/dc/terms/title> "Announcing Amazon EC2 Trn3 UltraServers for faster, lower-cost generative AI training" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s2> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Neuron Documentation)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s3> <http://purl.org/dc/terms/title> "Amazon EC2 Trn3 Architecture" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s3> <https://schema.org/url> "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/about-neuron/arch/neuron-hardware/trn3-arch.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s4> <http://purl.org/dc/terms/title> "Amazon EC2 Trn2 Instances and Trn2 UltraServers for AI/ML training and inference are now available" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/amazon-ec2-trn2-instances-and-trn2-ultraservers-for-aiml-training-and-inference-is-now-available/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s5> <http://purl.org/dc/terms/title> "Amazon EC2 Inf2 Instances" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s5> <https://schema.org/url> "https://aws.amazon.com/ec2/instance-types/inf2/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s6> <http://purl.org/dc/terms/title> "Use AWS Inferentia instances with Amazon EKS for Machine Learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s6> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/ml-inferentia.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transform-mgn/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transform-mgn/s1> <http://purl.org/dc/terms/title> "AWS Application Migration Service is now AWS Transform MGN" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transform-mgn/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

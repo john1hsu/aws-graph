@@ -1634,6 +1634,33 @@
     ]
   },
   {
+    "id": "kt:aws-trainium-and-inferentia",
+    "title": "AWS Trainium and Inferentia",
+    "aliases": [
+      "AWS Trainium",
+      "AWS Inferentia",
+      "Trainium",
+      "Inferentia",
+      "Trainium2",
+      "Trainium3",
+      "Inferentia2"
+    ],
+    "type": "Feature",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/aws-trainium-and-inferentia.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/ai/machine-learning/trainium/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/",
+      "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/about-neuron/arch/neuron-hardware/trn3-arch.html",
+      "https://aws.amazon.com/blogs/aws/amazon-ec2-trn2-instances-and-trn2-ultraservers-for-aiml-training-and-inference-is-now-available/",
+      "https://aws.amazon.com/ec2/instance-types/inf2/",
+      "https://docs.aws.amazon.com/eks/latest/userguide/ml-inferentia.html"
+    ]
+  },
+  {
     "id": "kt:aws-transform-mgn",
     "title": "AWS Transform MGN",
     "aliases": [
