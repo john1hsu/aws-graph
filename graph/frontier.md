@@ -7,12 +7,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-web-services` | `kt:aws-certification-program`, `kt:aws-compute-services`, `kt:purpose-built-databases`, `kt:aws-global-infrastructure`, `kt:aws-management-and-governance-services`, `kt:aws-migration-and-transfer-services`, `kt:aws-storage-services` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-emr`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:amazon-s3` |
+| `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact`, `kt:aws-compliance-programs`, `kt:hipaa-eligible-services` |
 | `kt:aws-analytics-services` | `kt:amazon-data-firehose`, `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-nitro-system` | `kt:aws-trainium-and-inferentia`, `kt:aws-graviton`, `kt:aws-graviton`, `kt:ec2-placement-groups` |
 | `kt:aws-pricing-fundamentals` | `kt:aws-free-tier`, `kt:reserved-instances`, `kt:savings-plans`, `kt:spot-instances` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
-| `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
 | `kt:amazon-inspector` | `kt:amazon-ecr`, `kt:amazon-guardduty`, `kt:aws-security-hub` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
@@ -20,9 +20,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ci-cd` | `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton`, `kt:ec2-placement-groups` |
-| `kt:hipaa-eligible-services` | `kt:amazon-textract`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
 | `kt:iam-quotas` | `kt:aws-iam`, `kt:aws-sts`, `kt:permissions-boundaries` |
 | `kt:iam-roles` | `kt:aws-sts`, `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
+| `kt:nist-sp-800-53` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws`, `kt:hipaa-eligible-services` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:multi-account-strategy`, `kt:service-control-policies` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:dynamodb-global-tables` |
@@ -46,7 +46,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
-| `kt:nist-sp-800-53` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds` |
 | `kt:resource-control-policies` | `kt:iam-policy-evaluation-logic`, `kt:service-control-policies` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
@@ -125,6 +124,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:gateway-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:glue-quotas` | `kt:aws-glue` |
 | `kt:guardduty-quotas` | `kt:amazon-guardduty` |
+| `kt:hitrust-csf` | `kt:hipaa-eligible-services` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
 | `kt:iam-policy-simulator` | `kt:iam-policy-evaluation-logic` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |

@@ -2483,6 +2483,34 @@
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ComplianceProgram> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2000/01/rdf-schema#label> "HIPAA eligible services" .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Business Associate Addendum" .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS HIPAA Eligible Services" .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS HIPAA compliance" .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#altLabel> "HIPAA BAA on AWS" .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#altLabel> "HIPAA Eligible Services" .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#altLabel> "HIPAA on AWS" .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#definition> "How AWS supports workloads regulated by the U.S. HIPAA rules: customers accept AWS's Business Associate Addendum (BAA) in AWS Artifact, and may then process protected health information only in the AWS services AWS lists as HIPAA eligible, configured under the shared responsibility model." .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#prefLabel> "HIPAA eligible services" .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-textract> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s1> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s2> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s3> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s4> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-artifact> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/hitrust-csf> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <http://www.w3.org/2000/01/rdf-schema#label> "AWS IAM Identity Center" .
@@ -5988,6 +6016,26 @@
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/publicsector/prepare-for-fedramp-20x-with-aws-automation-and-validation" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s1> <http://purl.org/dc/terms/title> "HIPAA Eligible Services (AWS Services in Scope by Compliance Program: HIPAA BAA)" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s1> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/HIPAA_BAA/" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s2> <http://purl.org/dc/terms/title> "HIPAA Compliance - Amazon Web Services (AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s2> <https://schema.org/url> "https://aws.amazon.com/de/compliance/hipaa-compliance/" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s3> <http://purl.org/dc/terms/title> "Managing agreements in AWS Artifact" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s3> <https://schema.org/url> "https://docs.aws.amazon.com/artifact/latest/ug/managing-agreements.html" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s4> <http://purl.org/dc/terms/publisher> "U.S. Department of Health and Human Services" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s4> <http://purl.org/dc/terms/title> "Guidance on HIPAA & Cloud Computing" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s4> <https://schema.org/url> "https://www.hhs.gov/hipaa/for-professionals/special-topics/cloud-computing" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s1> <http://purl.org/dc/terms/title> "What is IAM Identity Center? - AWS IAM Identity Center" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

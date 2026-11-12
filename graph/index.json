@@ -2173,6 +2173,30 @@
     ]
   },
   {
+    "id": "kt:hipaa-eligible-services",
+    "title": "HIPAA eligible services",
+    "aliases": [
+      "HIPAA Eligible Services",
+      "AWS HIPAA Eligible Services",
+      "HIPAA on AWS",
+      "AWS HIPAA compliance",
+      "HIPAA BAA on AWS",
+      "AWS Business Associate Addendum"
+    ],
+    "type": "ComplianceProgram",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/hipaa-eligible-services.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/compliance/services-in-scope/HIPAA_BAA/",
+      "https://aws.amazon.com/de/compliance/hipaa-compliance/",
+      "https://docs.aws.amazon.com/artifact/latest/ug/managing-agreements.html",
+      "https://www.hhs.gov/hipaa/for-professionals/special-topics/cloud-computing"
+    ]
+  },
+  {
     "id": "kt:iam-identity-center",
     "title": "AWS IAM Identity Center",
     "aliases": [

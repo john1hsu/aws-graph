@@ -8635,6 +8635,95 @@
       ]
     },
     {
+      "@id": "kt:hipaa-eligible-services",
+      "@type": "kto:ComplianceProgram",
+      "skos:prefLabel": "HIPAA eligible services",
+      "skos:definition": "How AWS supports workloads regulated by the U.S. HIPAA rules: customers accept AWS's Business Associate Addendum (BAA) in AWS Artifact, and may then process protected health information only in the AWS services AWS lists as HIPAA eligible, configured under the shared responsibility model.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "HIPAA Eligible Services (AWS Services in Scope by Compliance Program: HIPAA BAA)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/HIPAA_BAA/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "HIPAA Compliance - Amazon Web Services (AWS)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/de/compliance/hipaa-compliance/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Managing agreements in AWS Artifact",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/artifact/latest/ug/managing-agreements.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Guidance on HIPAA & Cloud Computing",
+          "dcterms:publisher": "U.S. Department of Health and Human Services",
+          "schema:url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/cloud-computing",
+          "kto:sourceType": "government"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/hipaa-eligible-services.md",
+      "skos:altLabel": [
+        "HIPAA Eligible Services",
+        "AWS HIPAA Eligible Services",
+        "HIPAA on AWS",
+        "AWS HIPAA compliance",
+        "HIPAA BAA on AWS",
+        "AWS Business Associate Addendum"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-kms"
+        },
+        {
+          "@id": "kt:aws-cloudtrail"
+        },
+        {
+          "@id": "kt:amazon-textract"
+        },
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-artifact"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:hitrust-csf"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-guardduty",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon GuardDuty",
