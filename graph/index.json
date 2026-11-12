@@ -1312,6 +1312,30 @@
     ]
   },
   {
+    "id": "kt:aws-free-tier",
+    "title": "AWS Free Tier",
+    "aliases": [
+      "Free Tier",
+      "AWS Free plan",
+      "AWS Free account plan",
+      "AWS Free Tier credits"
+    ],
+    "type": "PricingModel",
+    "domain": "cost-management",
+    "file": "articles/cost-management/aws-free-tier.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free-tier-plans.html",
+      "https://docs.aws.amazon.com/en_us/awsaccountbilling/latest/aboutv2/free-tier.html",
+      "https://aws.amazon.com/free/faqs/",
+      "https://aws.amazon.com/blogs/aws/aws-free-tier-update-new-customers-can-get-started-and-explore-aws-with-up-to-200-in-credits",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience",
+      "https://aws.amazon.com/lambda/pricing/"
+    ]
+  },
+  {
     "id": "kt:aws-global-infrastructure",
     "title": "AWS global infrastructure",
     "aliases": [

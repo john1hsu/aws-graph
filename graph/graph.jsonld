@@ -3619,6 +3619,101 @@
       ]
     },
     {
+      "@id": "kt:aws-free-tier",
+      "@type": "kto:PricingModel",
+      "skos:prefLabel": "AWS Free Tier",
+      "skos:definition": "AWS's no-cost offer for new customers: up to USD $200 in credits, a choice between a Free account plan (up to six months, no charges, select services) and a Paid account plan, plus always-free monthly allowances on more than 30 services.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Choosing an AWS Free Tier plan - AWS Billing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free-tier-plans.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Explore AWS services with AWS Free Tier - AWS Billing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/awsaccountbilling/latest/aboutv2/free-tier.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Free Tier FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/free/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Free Tier update: New customers can get started and explore AWS with up to $200 in credits",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/blogs/aws/aws-free-tier-update-new-customers-can-get-started-and-explore-aws-with-up-to-200-in-credits",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "New AWS experience helps builders get started and ship faster",
+          "dcterms:publisher": "What's New with AWS",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Lambda pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/lambda/pricing/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/cost-management/aws-free-tier.md",
+      "skos:altLabel": [
+        "Free Tier",
+        "AWS Free plan",
+        "AWS Free account plan",
+        "AWS Free Tier credits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-pricing-fundamentals"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-budgets"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:savings-plans"
+        },
+        {
+          "@id": "kt:reserved-instances"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-budgets"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:aws-control-tower"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-billing-and-cost-management"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        }
+      ]
+    },
+    {
       "@id": "kt:reserved-instances",
       "@type": "kto:PricingModel",
       "skos:prefLabel": "Reserved Instances",

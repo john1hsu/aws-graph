@@ -1491,6 +1491,34 @@
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#PricingModel> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Free Tier" .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Free Tier credits" .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Free account plan" .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Free plan" .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/2004/02/skos/core#altLabel> "Free Tier" .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/2004/02/skos/core#definition> "AWS's no-cost offer for new customers: up to USD $200 in credits, a choice between a Free account plan (up to six months, no charges, select services) and a Paid account plan, plus always-free monthly allowances on more than 30 services." .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Free Tier" .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-budgets> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/reserved-instances> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-budgets> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-control-tower> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-billing-and-cost-management> .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-free-tier> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "AWS global infrastructure" .
@@ -4550,6 +4578,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-tmpfs-mounts-aws-fargate-managed-instances" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s1> <http://purl.org/dc/terms/title> "Choosing an AWS Free Tier plan - AWS Billing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s1> <https://schema.org/url> "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free-tier-plans.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s2> <http://purl.org/dc/terms/title> "Explore AWS services with AWS Free Tier - AWS Billing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s2> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/awsaccountbilling/latest/aboutv2/free-tier.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s3> <http://purl.org/dc/terms/title> "AWS Free Tier FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s3> <https://schema.org/url> "https://aws.amazon.com/free/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s4> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s4> <http://purl.org/dc/terms/title> "AWS Free Tier update: New customers can get started and explore AWS with up to $200 in credits" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/aws-free-tier-update-new-customers-can-get-started-and-explore-aws-with-up-to-200-in-credits" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s5> <http://purl.org/dc/terms/publisher> "What's New with AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s5> <http://purl.org/dc/terms/title> "New AWS experience helps builders get started and ship faster" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s6> <http://purl.org/dc/terms/title> "AWS Lambda pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s6> <https://schema.org/url> "https://aws.amazon.com/lambda/pricing/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s1> <http://purl.org/dc/terms/title> "Global Infrastructure - AWS" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

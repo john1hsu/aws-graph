@@ -10,13 +10,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-analytics-services` | `kt:amazon-data-firehose`, `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-nitro-system` | `kt:aws-trainium-and-inferentia`, `kt:aws-graviton`, `kt:aws-graviton`, `kt:ec2-placement-groups` |
+| `kt:aws-pricing-fundamentals` | `kt:aws-free-tier`, `kt:reserved-instances`, `kt:savings-plans`, `kt:spot-instances` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:infrastructure-as-code` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:aws-codepipeline`, `kt:aws-sam` |
 | `kt:multi-account-strategy` | `kt:aws-control-tower`, `kt:aws-management-and-governance-services`, `kt:aws-organizations`, `kt:service-control-policies` |
 | `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
 | `kt:amazon-fsx` | `kt:aws-datasync`, `kt:amazon-efs`, `kt:aws-storage-services` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
-| `kt:aws-pricing-fundamentals` | `kt:reserved-instances`, `kt:savings-plans`, `kt:spot-instances` |
 | `kt:aws-security-hub` | `kt:aws-config`, `kt:amazon-guardduty`, `kt:aws-security-services` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:aws-sts` | `kt:aws-iam`, `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
@@ -76,6 +76,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-batch` | `kt:aws-compute-services` |
+| `kt:aws-billing-and-cost-management` | `kt:aws-free-tier` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-codebuild` | `kt:aws-codepipeline` |
