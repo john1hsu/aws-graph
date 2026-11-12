@@ -1928,6 +1928,30 @@
     ]
   },
   {
+    "id": "kt:dynamodb-global-tables",
+    "title": "Amazon DynamoDB global tables",
+    "aliases": [
+      "DynamoDB global tables",
+      "DynamoDB multi-Region replication",
+      "MRSC global tables",
+      "MREC global tables"
+    ],
+    "type": "Feature",
+    "domain": "databases",
+    "file": "articles/databases/dynamodb-global-tables.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables_HowItWorks.html",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/global-tables-billing.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/dynamodb-global-tables/faq.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/02/dynamodb-gt-multi-account",
+      "https://aws.amazon.com/blogs/database/amazon-dynamodb-global-tables-now-support-replication-across-aws-accounts",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/globaltables-disassociate.html"
+    ]
+  },
+  {
     "id": "kt:ec2-placement-groups",
     "title": "Amazon EC2 placement groups",
     "aliases": [

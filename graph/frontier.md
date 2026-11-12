@@ -25,6 +25,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:hipaa-eligible-services` | `kt:amazon-textract`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:amazon-inspector` | `kt:amazon-ecr`, `kt:amazon-guardduty` |
+| `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:dynamodb-global-tables` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-codedeploy` | `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
@@ -67,7 +68,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
 | `kt:application-portfolio-assessment` | `kt:seven-rs-migration-strategies` |
-| `kt:aurora-global-database` | `kt:amazon-aurora` |
 | `kt:aurora-quotas` | `kt:amazon-aurora` |
 | `kt:aurora-serverless-v2` | `kt:amazon-aurora` |
 | `kt:aws-account-management` | `kt:aws-regions` |
@@ -107,7 +107,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:datasync-quotas` | `kt:aws-datasync` |
 | `kt:devops` | `kt:infrastructure-as-code` |
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |
-| `kt:dynamodb-global-tables` | `kt:amazon-dynamodb` |
 | `kt:dynamodb-partition-key-design` | `kt:amazon-dynamodb` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb` |
 | `kt:ebs-quotas` | `kt:amazon-ebs` |
@@ -137,6 +136,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lambda-quotas` | `kt:aws-lambda` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:migration-wave-planning` | `kt:seven-rs-migration-strategies` |
+| `kt:multi-region-architecture` | `kt:dynamodb-global-tables` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:red-hat-openshift-service-on-aws` | `kt:aws-container-services` |

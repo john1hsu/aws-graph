@@ -2200,6 +2200,33 @@
 <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> .
 <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon DynamoDB global tables" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "DynamoDB global tables" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "DynamoDB multi-Region replication" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "MREC global tables" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "MRSC global tables" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/2004/02/skos/core#definition> "A DynamoDB feature that keeps replica tables in several AWS Regions (and optionally several accounts) in sync as one multi-active table, with either eventually consistent (MREC) or strongly consistent (MRSC) multi-Region replication and a 99.999% availability SLA." .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon DynamoDB global tables" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aurora-global-database> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-region-architecture> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s1> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s2> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s3> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s4> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s5> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-backup> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 placement groups" .
@@ -5445,6 +5472,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "partner" .
 <https://github.com/john1hsu/aws-graph/id/source/dod-cloud-computing-srg-impact-levels/s6> <https://schema.org/url> "https://www.schellman.com/blog/federal-compliance/the-dod-csp-srg-and-dod-mo-srg" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s1> <http://purl.org/dc/terms/title> "How DynamoDB global tables work" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s1> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables_HowItWorks.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s2> <http://purl.org/dc/terms/title> "Understanding Amazon DynamoDB billing for global tables" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s2> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/global-tables-billing.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s3> <http://purl.org/dc/terms/title> "Global tables FAQ - Using Amazon DynamoDB global tables" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s3> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/dynamodb-global-tables/faq.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s4> <http://purl.org/dc/terms/title> "Amazon DynamoDB global tables now support replication across multiple AWS accounts" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/02/dynamodb-gt-multi-account" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Database Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s5> <http://purl.org/dc/terms/title> "Amazon DynamoDB global tables now support replication across AWS accounts" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/database/amazon-dynamodb-global-tables-now-support-replication-across-aws-accounts" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <http://purl.org/dc/terms/title> "Disassociating a global table replica" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/globaltables-disassociate.html" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s1> <http://purl.org/dc/terms/title> "Placement groups for your Amazon EC2 instances" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

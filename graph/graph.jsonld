@@ -4432,6 +4432,102 @@
       ]
     },
     {
+      "@id": "kt:dynamodb-global-tables",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon DynamoDB global tables",
+      "skos:definition": "A DynamoDB feature that keeps replica tables in several AWS Regions (and optionally several accounts) in sync as one multi-active table, with either eventually consistent (MREC) or strongly consistent (MRSC) multi-Region replication and a 99.999% availability SLA.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How DynamoDB global tables work",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables_HowItWorks.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding Amazon DynamoDB billing for global tables",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/global-tables-billing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Global tables FAQ - Using Amazon DynamoDB global tables",
+          "dcterms:publisher": "Amazon Web Services (AWS Prescriptive Guidance)",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/dynamodb-global-tables/faq.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon DynamoDB global tables now support replication across multiple AWS accounts",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/02/dynamodb-gt-multi-account",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon DynamoDB global tables now support replication across AWS accounts",
+          "dcterms:publisher": "Amazon Web Services (AWS Database Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/database/amazon-dynamodb-global-tables-now-support-replication-across-aws-accounts",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Disassociating a global table replica",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/globaltables-disassociate.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/databases/dynamodb-global-tables.md",
+      "skos:altLabel": [
+        "DynamoDB global tables",
+        "DynamoDB multi-Region replication",
+        "MRSC global tables",
+        "MREC global tables"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        },
+        {
+          "@id": "kt:multi-region-architecture"
+        },
+        {
+          "@id": "kt:aurora-global-database"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-backup"
+        }
+      ]
+    },
+    {
       "@id": "kt:purpose-built-databases",
       "@type": "kto:Concept",
       "skos:prefLabel": "Purpose-built databases",
