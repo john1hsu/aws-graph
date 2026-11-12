@@ -2150,6 +2150,30 @@
     ]
   },
   {
+    "id": "kt:local-zones",
+    "title": "AWS Local Zones",
+    "aliases": [
+      "Local Zones",
+      "Local Zone",
+      "AWS Local Zone",
+      "Local Zone group"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/local-zones.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html",
+      "https://docs.aws.amazon.com/local-zones/latest/ug/getting-started.html",
+      "https://aws.amazon.com/about-aws/global-infrastructure/localzones/faqs/",
+      "https://aws.amazon.com/about-aws/global-infrastructure/localzones/features/",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/hybrid-cloud-best-practices/resiliency.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada/"
+    ]
+  },
+  {
     "id": "kt:multi-account-strategy",
     "title": "Multi-account strategy",
     "aliases": [

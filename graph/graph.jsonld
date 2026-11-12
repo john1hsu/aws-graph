@@ -5697,6 +5697,103 @@
       ]
     },
     {
+      "@id": "kt:local-zones",
+      "@type": "kto:InfrastructureConcept",
+      "skos:prefLabel": "AWS Local Zones",
+      "skos:definition": "AWS Local Zones are extensions of an AWS Region placed in or near large metro areas, running a core subset of services such as EC2, EBS, VPC subnets and Application Load Balancer so latency-sensitive parts of a workload can sit close to users while the rest stays in the parent Region.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Regions and Zones - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Getting started with AWS Local Zones - AWS Local Zones User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/local-zones/latest/ug/getting-started.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Local Zones FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/global-infrastructure/localzones/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Local Zones Features",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/global-infrastructure/localzones/features/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Resiliency at the edge - AWS Prescriptive Guidance (Best practices for building a hybrid cloud architecture)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/hybrid-cloud-best-practices/resiliency.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/local-zones.md",
+      "skos:altLabel": [
+        "Local Zones",
+        "Local Zone",
+        "AWS Local Zone",
+        "Local Zone group"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-direct-connect"
+        },
+        {
+          "@id": "kt:edge-locations"
+        },
+        {
+          "@id": "kt:ec2-placement-groups"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-outposts"
+        },
+        {
+          "@id": "kt:aws-wavelength"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-cloudwatch",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon CloudWatch",

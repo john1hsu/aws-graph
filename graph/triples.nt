@@ -2452,6 +2452,34 @@
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Local Zones" .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Local Zone" .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2004/02/skos/core#altLabel> "Local Zone group" .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2004/02/skos/core#altLabel> "Local Zone" .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2004/02/skos/core#altLabel> "Local Zones" .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2004/02/skos/core#definition> "AWS Local Zones are extensions of an AWS Region placed in or near large metro areas, running a core subset of services such as EC2, EBS, VPC subnets and Application Load Balancer so latency-sensitive parts of a workload can sit close to users while the rest stays in the parent Region." .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Local Zones" .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/edge-locations> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/local-zones/s2> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/local-zones/s3> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/local-zones/s4> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/local-zones/s5> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/local-zones/s6> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-outposts> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-wavelength> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-account strategy" .
@@ -5795,6 +5823,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/getting-started-terraform/faq.html" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <http://purl.org/dc/terms/title> "Regions and Zones - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s2> <http://purl.org/dc/terms/title> "Getting started with AWS Local Zones - AWS Local Zones User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s2> <https://schema.org/url> "https://docs.aws.amazon.com/local-zones/latest/ug/getting-started.html" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s3> <http://purl.org/dc/terms/title> "AWS Local Zones FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s3> <https://schema.org/url> "https://aws.amazon.com/about-aws/global-infrastructure/localzones/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s4> <http://purl.org/dc/terms/title> "AWS Local Zones Features" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/global-infrastructure/localzones/features/" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s5> <http://purl.org/dc/terms/title> "Resiliency at the edge - AWS Prescriptive Guidance (Best practices for building a hybrid cloud architecture)" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s5> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/hybrid-cloud-best-practices/resiliency.html" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s6> <http://purl.org/dc/terms/title> "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/local-zones/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada/" .
 <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s1> <http://purl.org/dc/terms/title> "Benefits of using multiple AWS accounts - Organizing Your AWS Environment Using Multiple Accounts" .
 <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
