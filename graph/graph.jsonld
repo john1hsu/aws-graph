@@ -8828,6 +8828,117 @@
       ]
     },
     {
+      "@id": "kt:aws-security-hub",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Security Hub",
+      "skos:definition": "AWS's unified cloud security service, generally available since December 2025, which correlates findings from Security Hub CSPM, Amazon GuardDuty, Amazon Inspector and Amazon Macie into prioritized exposure findings with attack paths, trends and automated response workflows.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Introduction to AWS Security Hub",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub-v2.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What are Security Hub and Security Hub CSPM?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/securityhub/latest/userguide/what-are-securityhub-services.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Security Hub concepts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-v2-concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Security Hub pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/security-hub/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Security Hub now generally available with near real-time analytics and risk prioritization",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/blogs/aws/aws-security-hub-now-generally-available-with-near-real-time-analytics-and-risk-prioritization",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Security Hub launches Extended plan for pay-as-you-go partner solutions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/02/sec-hub-extended",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services (AWS Certified Cloud Practitioner CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security/aws-security-hub.md",
+      "skos:altLabel": [
+        "Security Hub",
+        "Security Hub Essentials"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-guardduty"
+        },
+        {
+          "@id": "kt:amazon-inspector"
+        },
+        {
+          "@id": "kt:amazon-macie"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-security-hub-cspm"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-config"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-security-services",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS security services",

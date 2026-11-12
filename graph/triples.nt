@@ -1941,6 +1941,34 @@
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Security Hub" .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/2004/02/skos/core#altLabel> "Security Hub Essentials" .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/2004/02/skos/core#altLabel> "Security Hub" .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/2004/02/skos/core#definition> "AWS's unified cloud security service, generally available since December 2025, which correlates findings from Security Hub CSPM, Amazon GuardDuty, Amazon Inspector and Amazon Macie into prioritized exposure findings with attack paths, trends and automated response workflows." .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Security Hub" .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-guardduty> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-inspector> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-macie> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-security-hub-cspm> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-security-hub> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-security-services> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-security-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-security-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS security services" .
@@ -5298,6 +5326,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-websocket-apis-api-gateway/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s1> <http://purl.org/dc/terms/title> "Introduction to AWS Security Hub" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s1> <https://schema.org/url> "https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub-v2.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s2> <http://purl.org/dc/terms/title> "What are Security Hub and Security Hub CSPM?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s2> <https://schema.org/url> "https://docs.aws.amazon.com/securityhub/latest/userguide/what-are-securityhub-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s3> <http://purl.org/dc/terms/title> "Security Hub concepts" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s3> <https://schema.org/url> "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-v2-concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s4> <http://purl.org/dc/terms/title> "AWS Security Hub pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s4> <https://schema.org/url> "https://aws.amazon.com/security-hub/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s5> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s5> <http://purl.org/dc/terms/title> "AWS Security Hub now generally available with near real-time analytics and risk prioritization" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/aws-security-hub-now-generally-available-with-near-real-time-analytics-and-risk-prioritization" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s6> <http://purl.org/dc/terms/title> "AWS Security Hub launches Extended plan for pay-as-you-go partner solutions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/02/sec-hub-extended" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s7> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s7> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s8> <http://purl.org/dc/terms/title> "In-Scope AWS Services (AWS Certified Cloud Practitioner CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s8> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-security-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-security-services/s1> <http://purl.org/dc/terms/title> "Appendix: AWS security, identity, and compliance services - AWS Security Reference Architecture" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-security-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

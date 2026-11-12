@@ -13,9 +13,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-pricing-fundamentals` | `kt:aws-free-tier`, `kt:reserved-instances`, `kt:savings-plans`, `kt:spot-instances` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
+| `kt:amazon-inspector` | `kt:amazon-ecr`, `kt:amazon-guardduty`, `kt:aws-security-hub` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
-| `kt:aws-security-hub` | `kt:aws-config`, `kt:amazon-guardduty`, `kt:aws-security-services` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:ci-cd` | `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
@@ -25,7 +25,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:iam-roles` | `kt:aws-sts`, `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:multi-account-strategy`, `kt:service-control-policies` |
-| `kt:amazon-inspector` | `kt:amazon-ecr`, `kt:amazon-guardduty` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:dynamodb-global-tables` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-codedeploy` | `kt:aws-codepipeline`, `kt:blue-green-deployments` |
@@ -55,6 +54,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-comprehend` | `kt:amazon-textract` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
 | `kt:amazon-detective` | `kt:amazon-guardduty` |
+| `kt:amazon-macie` | `kt:aws-security-hub` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-mq` | `kt:amazon-sqs` |
 | `kt:amazon-neptune` | `kt:purpose-built-databases` |
@@ -86,6 +86,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-resource-access-manager` | `kt:ec2-placement-groups` |
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-secrets-manager` | `kt:aws-kms` |
+| `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect` |
 | `kt:aws-skill-builder` | `kt:aws-certification-program` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |

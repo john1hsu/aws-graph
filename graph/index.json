@@ -1704,6 +1704,30 @@
     ]
   },
   {
+    "id": "kt:aws-security-hub",
+    "title": "AWS Security Hub",
+    "aliases": [
+      "Security Hub",
+      "Security Hub Essentials"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/aws-security-hub.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub-v2.html",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/what-are-securityhub-services.html",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-v2-concepts.html",
+      "https://aws.amazon.com/security-hub/pricing/",
+      "https://aws.amazon.com/blogs/aws/aws-security-hub-now-generally-available-with-near-real-time-analytics-and-risk-prioritization",
+      "https://aws.amazon.com/about-aws/whats-new/2026/02/sec-hub-extended",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-security-services",
     "title": "AWS security services",
     "aliases": [
