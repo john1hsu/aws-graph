@@ -2398,6 +2398,33 @@
 <https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
 <https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructure as code" .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2004/02/skos/core#altLabel> "IaC" .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2004/02/skos/core#altLabel> "Infrastructure-as-code" .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2004/02/skos/core#altLabel> "Operations as code" .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/devops> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2004/02/skos/core#definition> "The practice of defining and provisioning cloud infrastructure through version-controlled configuration files or programs instead of manual console steps, so environments are repeatable, reviewable and deployable through the same pipelines as application code." .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2004/02/skos/core#prefLabel> "Infrastructure as code" .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cdk> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-sam> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s2> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s3> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s4> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s5> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s6> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s7> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/ci-cd> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Operational Excellence Pillar" .
@@ -5643,6 +5670,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s6> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UsingPolicySimulatorGuide/iam-policy-simulator-guide.html" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <http://purl.org/dc/terms/title> "Infrastructure as code - Introduction to DevOps on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s2> <http://purl.org/dc/terms/title> "Choosing an infrastructure as code tool for your organization - AWS Prescriptive Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s2> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/choose-iac-tool/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s3> <http://purl.org/dc/terms/title> "Choosing an IaC tool - AWS Prescriptive Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s3> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/choose-iac-tool/choose-tool.html" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s4> <http://purl.org/dc/terms/title> "Design principles - AWS Well-Architected Framework (Operational excellence)" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s4> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-design-principles.html" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s5> <http://purl.org/dc/terms/title> "REL08-BP05 Deploy changes with automation - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s5> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_tracking_change_management_automated_changemgmt.html" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s6> <http://purl.org/dc/terms/title> "Detect unmanaged configuration changes to stacks and resources with drift detection - AWS CloudFormation" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s7> <http://purl.org/dc/terms/title> "Generate templates from existing resources with IaC generator - AWS CloudFormation" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s7> <https://schema.org/url> "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/generate-IaC.html" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <http://purl.org/dc/terms/title> "FAQ - Getting started with Terraform (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/getting-started-terraform/faq.html" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://purl.org/dc/terms/title> "Design principles - AWS Well-Architected Framework (operational excellence)" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

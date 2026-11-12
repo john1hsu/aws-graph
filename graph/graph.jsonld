@@ -5044,6 +5044,104 @@
       ]
     },
     {
+      "@id": "kt:infrastructure-as-code",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Infrastructure as code",
+      "skos:definition": "The practice of defining and provisioning cloud infrastructure through version-controlled configuration files or programs instead of manual console steps, so environments are repeatable, reviewable and deployable through the same pipelines as application code.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Infrastructure as code - Introduction to DevOps on AWS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing an infrastructure as code tool for your organization - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/choose-iac-tool/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing an IaC tool - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/choose-iac-tool/choose-tool.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design principles - AWS Well-Architected Framework (Operational excellence)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-design-principles.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL08-BP05 Deploy changes with automation - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_tracking_change_management_automated_changemgmt.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Detect unmanaged configuration changes to stacks and resources with drift detection - AWS CloudFormation",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Generate templates from existing resources with IaC generator - AWS CloudFormation",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/generate-IaC.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FAQ - Getting started with Terraform (AWS Prescriptive Guidance)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/getting-started-terraform/faq.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/infrastructure-as-code.md",
+      "skos:altLabel": [
+        "IaC",
+        "Infrastructure-as-code",
+        "Operations as code"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:devops"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-cloudformation"
+        },
+        {
+          "@id": "kt:aws-cdk"
+        },
+        {
+          "@id": "kt:aws-sam"
+        },
+        {
+          "@id": "kt:cloudformation-drift-detection"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:ci-cd"
+        },
+        {
+          "@id": "kt:immutable-infrastructure"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-codepipeline"
+        }
+      ]
+    },
+    {
       "@id": "kt:availability-zones",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "Availability Zones",
