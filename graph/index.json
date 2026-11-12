@@ -1120,6 +1120,30 @@
     ]
   },
   {
+    "id": "kt:aws-direct-connect",
+    "title": "AWS Direct Connect",
+    "aliases": [
+      "Direct Connect",
+      "DX",
+      "AWS DX"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/aws-direct-connect.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/hybrid-networking-lens/aws-direct-connect.md",
+      "https://docs.aws.amazon.com/directconnect/latest/UserGuide/limits.html",
+      "https://aws.amazon.com/directconnect/pricing/pay-as-you-go/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/",
+      "https://aws.amazon.com/directconnect/resiliency-recommendation",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-fargate",
     "title": "AWS Fargate",
     "aliases": [

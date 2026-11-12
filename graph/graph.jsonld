@@ -6662,6 +6662,104 @@
       ]
     },
     {
+      "@id": "kt:aws-direct-connect",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Direct Connect",
+      "skos:definition": "AWS's private, dedicated network connectivity service: a fiber link from your network into an AWS Direct Connect location, carrying BGP-routed virtual interfaces to VPCs, transit gateways and AWS public services without traversing the public internet.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Direct Connect? - AWS Direct Connect User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Direct Connect - Hybrid Networking Lens, AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/hybrid-networking-lens/aws-direct-connect.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Direct Connect quotas - AWS Direct Connect User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Direct Connect Pay-as-you-go pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/directconnect/pricing/pay-as-you-go/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Direct Connect announces flat-rate pricing for dedicated connections",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Direct Connect Resiliency Recommendations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/directconnect/resiliency-recommendation",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-scope AWS services - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/aws-direct-connect.md",
+      "skos:altLabel": [
+        "Direct Connect",
+        "DX",
+        "AWS DX"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-cloud-wan"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-site-to-site-vpn"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-transit-gateway"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:data-transfer-costs"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-networking-and-content-delivery",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS networking and content delivery",

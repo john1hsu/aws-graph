@@ -1274,6 +1274,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-privatelink> .
 <https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Direct Connect" .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS DX" .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "DX" .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "Direct Connect" .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/2004/02/skos/core#definition> "AWS's private, dedicated network connectivity service: a fiber link from your network into an AWS Direct Connect location, carrying BGP-routed virtual interfaces to VPCs, transit gateways and AWS public services without traversing the public internet." .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Direct Connect" .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/data-transfer-costs> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Fargate" .
@@ -3995,6 +4021,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s1> <http://purl.org/dc/terms/title> "What is Direct Connect? - AWS Direct Connect User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s1> <https://schema.org/url> "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s2> <http://purl.org/dc/terms/title> "AWS Direct Connect - Hybrid Networking Lens, AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/hybrid-networking-lens/aws-direct-connect.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s3> <http://purl.org/dc/terms/title> "Direct Connect quotas - AWS Direct Connect User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s3> <https://schema.org/url> "https://docs.aws.amazon.com/directconnect/latest/UserGuide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s4> <http://purl.org/dc/terms/title> "AWS Direct Connect Pay-as-you-go pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s4> <https://schema.org/url> "https://aws.amazon.com/directconnect/pricing/pay-as-you-go/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s5> <http://purl.org/dc/terms/title> "AWS Direct Connect announces flat-rate pricing for dedicated connections" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s6> <http://purl.org/dc/terms/title> "AWS Direct Connect Resiliency Recommendations" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s6> <https://schema.org/url> "https://aws.amazon.com/directconnect/resiliency-recommendation" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s7> <http://purl.org/dc/terms/title> "In-scope AWS services - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://purl.org/dc/terms/title> "Architect for AWS Fargate for Amazon ECS" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
