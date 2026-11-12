@@ -6564,6 +6564,134 @@
       ]
     },
     {
+      "@id": "kt:aws-sts",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Security Token Service",
+      "skos:definition": "The AWS web service that issues short-lived, scoped temporary security credentials (access key, secret key and session token) for assumed IAM roles, federated users and MFA-protected sessions, so people and workloads can reach AWS without long-term access keys.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Temporary security credentials in IAM - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Compare AWS STS credentials - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_sts-comparison.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AssumeRole - AWS Security Token Service API Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRole.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS STS Regions and endpoints - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_region-endpoints.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage AWS STS in an AWS Region - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_enable-regions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How to use Regional AWS STS endpoints",
+          "dcterms:publisher": "AWS Security Blog",
+          "schema:url": "https://aws.amazon.com/blogs/security/how-to-use-regional-aws-sts-endpoints/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AssumeRoot - AWS Security Token Service API Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRoot.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Simplify access to external services using AWS IAM Outbound Identity Federation",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/blogs/aws/simplify-access-to-external-services-using-aws-iam-outbound-identity-federation/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS STS now supports cross-partition federation for AWS identities",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-sts-cross-partition/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide_C03.pdf",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "What is IAM? - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/aws-sts.md",
+      "skos:altLabel": [
+        "AWS STS",
+        "STS",
+        "Security Token Service"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:iam-roles"
+        },
+        {
+          "@id": "kt:iam-identity-center"
+        },
+        {
+          "@id": "kt:iam-policy-evaluation-logic"
+        },
+        {
+          "@id": "kt:permissions-boundaries"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:iam-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:iam-identity-center",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS IAM Identity Center",

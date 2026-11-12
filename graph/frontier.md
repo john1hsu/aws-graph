@@ -17,11 +17,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
 | `kt:aws-security-hub` | `kt:aws-config`, `kt:amazon-guardduty`, `kt:aws-security-services` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
-| `kt:aws-sts` | `kt:aws-iam`, `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
 | `kt:ci-cd` | `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton`, `kt:ec2-placement-groups` |
 | `kt:hipaa-eligible-services` | `kt:amazon-textract`, `kt:aws-artifact`, `kt:aws-compliance-programs` |
+| `kt:iam-quotas` | `kt:aws-iam`, `kt:aws-sts`, `kt:permissions-boundaries` |
+| `kt:iam-roles` | `kt:aws-sts`, `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:multi-account-strategy`, `kt:service-control-policies` |
 | `kt:amazon-inspector` | `kt:amazon-ecr`, `kt:amazon-guardduty` |
@@ -45,8 +46,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
-| `kt:iam-quotas` | `kt:aws-iam`, `kt:permissions-boundaries` |
-| `kt:iam-roles` | `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:nist-sp-800-53` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds` |

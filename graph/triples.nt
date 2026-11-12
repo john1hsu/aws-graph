@@ -2032,6 +2032,38 @@
 <https://github.com/john1hsu/aws-graph/id/aws-storage-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> .
 <https://github.com/john1hsu/aws-graph/id/aws-storage-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-storage-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Security Token Service" .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS STS" .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/2004/02/skos/core#altLabel> "STS" .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/2004/02/skos/core#altLabel> "Security Token Service" .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/2004/02/skos/core#definition> "The AWS web service that issues short-lived, scoped temporary security credentials (access key, secret key and session token) for assumed IAM roles, federated users and MFA-protected sessions, so people and workloads can reach AWS without long-term access keys." .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Security Token Service" .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-roles> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/permissions-boundaries> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s10> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s11> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s9> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#domain> "identity-and-access" .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/iam-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Trainium and Inferentia" .
@@ -5371,6 +5403,61 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-storage-services/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-storage-services/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-storage-services/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s10> <http://purl.org/dc/terms/title> "AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s10> <https://schema.org/url> "https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide_C03.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s11> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s11> <http://purl.org/dc/terms/title> "What is IAM? - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s11> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s11> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s1> <http://purl.org/dc/terms/title> "Temporary security credentials in IAM - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s1> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s2> <http://purl.org/dc/terms/title> "Compare AWS STS credentials - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s2> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_sts-comparison.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s3> <http://purl.org/dc/terms/title> "AssumeRole - AWS Security Token Service API Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s3> <https://schema.org/url> "https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRole.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s4> <http://purl.org/dc/terms/title> "AWS STS Regions and endpoints - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s4> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_region-endpoints.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s5> <http://purl.org/dc/terms/title> "Manage AWS STS in an AWS Region - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s5> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_enable-regions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s6> <http://purl.org/dc/terms/publisher> "AWS Security Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s6> <http://purl.org/dc/terms/title> "How to use Regional AWS STS endpoints" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/security/how-to-use-regional-aws-sts-endpoints/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s7> <http://purl.org/dc/terms/title> "AssumeRoot - AWS Security Token Service API Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s7> <https://schema.org/url> "https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRoot.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s8> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s8> <http://purl.org/dc/terms/title> "Simplify access to external services using AWS IAM Outbound Identity Federation" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s8> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/simplify-access-to-external-services-using-aws-iam-outbound-identity-federation/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s9> <http://purl.org/dc/terms/title> "AWS STS now supports cross-partition federation for AWS identities" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-sts/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-sts-cross-partition/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s1> <http://purl.org/dc/terms/title> "AWS Trainium" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -1781,6 +1781,34 @@
     ]
   },
   {
+    "id": "kt:aws-sts",
+    "title": "AWS Security Token Service",
+    "aliases": [
+      "AWS STS",
+      "STS",
+      "Security Token Service"
+    ],
+    "type": "Service",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/aws-sts.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_sts-comparison.html",
+      "https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRole.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_region-endpoints.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_enable-regions.html",
+      "https://aws.amazon.com/blogs/security/how-to-use-regional-aws-sts-endpoints/",
+      "https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRoot.html",
+      "https://aws.amazon.com/blogs/aws/simplify-access-to-external-services-using-aws-iam-outbound-identity-federation/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-sts-cross-partition/",
+      "https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide_C03.pdf",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+    ]
+  },
+  {
     "id": "kt:aws-trainium-and-inferentia",
     "title": "AWS Trainium and Inferentia",
     "aliases": [
