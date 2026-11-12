@@ -1632,6 +1632,87 @@
       ]
     },
     {
+      "@id": "kt:aws-certification-program",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS Certification program",
+      "skos:definition": "AWS's family of proctored, role-based credentials, organised into Business, Foundational, Associate, Professional and Specialty levels, with shared rules for pricing, delivery, retakes, three-year validity and recertification.",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedOn": "2026-11-12",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Certification Exam Guides",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/examguides/aws-certification-exam-guides.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certification FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/en/certification/faqs/",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Recertification | AWS Certification Renewal",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/recertification/",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Recertification | AWS Certification Information and Policies",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/policies/recertification/",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Exam Updates, Beta Exams, and New Certifications | Coming Soon to AWS Certification",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/coming-soon/",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Register now: Exam update and new name for cloud operations certification",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/jp/blogs/training-and-certification/exam-update-and-new-name-for-operations-certification/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-certification-program.md",
+      "skos:altLabel": [
+        "AWS Certification",
+        "AWS Certifications",
+        "AWS Training and Certification exams"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-skill-builder"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        },
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        },
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        },
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        },
+        {
+          "@id": "kt:aws-certified-solutions-architect-professional"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-ai-practitioner",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified AI Practitioner",

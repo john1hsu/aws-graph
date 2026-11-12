@@ -965,6 +965,30 @@
 <https://github.com/john1hsu/aws-graph/id/aws-cdk> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-cdk> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-cdk> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certification program" .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Certification" .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Training and Certification exams" .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/2004/02/skos/core#definition> "AWS's family of proctored, role-based credentials, organised into Business, Foundational, Associate, Professional and Specialty levels, with shared rules for pricing, delivery, retakes, three-year validity and recertification." .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Certification program" .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-skill-builder> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-certification-program> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified AI Practitioner" .
@@ -3751,6 +3775,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/opensource/aws-cdk-is-splitting-construct-library-and-cli/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s1> <http://purl.org/dc/terms/title> "AWS Certification Exam Guides" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s1> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/examguides/aws-certification-exam-guides.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s2> <http://purl.org/dc/terms/title> "AWS Certification FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s2> <https://schema.org/url> "https://aws.amazon.com/en/certification/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s3> <http://purl.org/dc/terms/title> "AWS Recertification | AWS Certification Renewal" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s3> <https://schema.org/url> "https://aws.amazon.com/certification/recertification/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s4> <http://purl.org/dc/terms/title> "AWS Recertification | AWS Certification Information and Policies" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s4> <https://schema.org/url> "https://aws.amazon.com/certification/policies/recertification/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s5> <http://purl.org/dc/terms/title> "Exam Updates, Beta Exams, and New Certifications | Coming Soon to AWS Certification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s5> <https://schema.org/url> "https://aws.amazon.com/certification/coming-soon/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s6> <http://purl.org/dc/terms/title> "Register now: Exam update and new name for cloud operations certification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s6> <https://schema.org/url> "https://aws.amazon.com/jp/blogs/training-and-certification/exam-update-and-new-name-for-operations-certification/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://purl.org/dc/terms/title> "AWS Certified AI Practitioner (AIF-C01) - Exam Guide" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

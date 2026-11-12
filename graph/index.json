@@ -847,6 +847,29 @@
     ]
   },
   {
+    "id": "kt:aws-certification-program",
+    "title": "AWS Certification program",
+    "aliases": [
+      "AWS Certification",
+      "AWS Certifications",
+      "AWS Training and Certification exams"
+    ],
+    "type": "Concept",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certification-program.md",
+    "created": "2026-11-12",
+    "verified": "2026-11-12",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/aws-certification/latest/examguides/aws-certification-exam-guides.html",
+      "https://aws.amazon.com/en/certification/faqs/",
+      "https://aws.amazon.com/certification/recertification/",
+      "https://aws.amazon.com/certification/policies/recertification/",
+      "https://aws.amazon.com/certification/coming-soon/",
+      "https://aws.amazon.com/jp/blogs/training-and-certification/exam-update-and-new-name-for-operations-certification/"
+    ]
+  },
+  {
     "id": "kt:aws-certified-ai-practitioner",
     "title": "AWS Certified AI Practitioner",
     "aliases": [
