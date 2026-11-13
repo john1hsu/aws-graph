@@ -44,6 +44,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
+| `kt:ecs-quotas` | `kt:amazon-ecs`, `kt:ecs-managed-instances` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds` |
 | `kt:resource-control-policies` | `kt:iam-policy-evaluation-logic`, `kt:service-control-policies` |
@@ -88,6 +89,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-systems-manager` | `kt:aws-management-and-governance-services` |
 | `kt:aws-wavelength` | `kt:local-zones` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
+| `kt:bottlerocket` | `kt:ecs-managed-instances` |
 | `kt:canary-deployments` | `kt:blue-green-deployments` |
 | `kt:cloud-security` | `kt:aws-security-services` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
@@ -108,8 +110,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ec2-gpu-instances` | `kt:aws-trainium-and-inferentia` |
 | `kt:ec2-instance-quotas` | `kt:amazon-ec2` |
 | `kt:ecr-quotas` | `kt:amazon-ecr` |
-| `kt:ecs-managed-instances` | `kt:amazon-ecs` |
-| `kt:ecs-quotas` | `kt:amazon-ecs` |
 | `kt:efs-quotas` | `kt:amazon-efs` |
 | `kt:eks-quotas` | `kt:amazon-eks` |
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |

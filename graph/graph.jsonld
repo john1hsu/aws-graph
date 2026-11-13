@@ -3804,6 +3804,106 @@
       ]
     },
     {
+      "@id": "kt:ecs-managed-instances",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon ECS Managed Instances",
+      "skos:definition": "A fully managed compute option for Amazon ECS in which AWS provisions, scales, patches and replaces Bottlerocket-based EC2 instances in your account to run your tasks, while you keep EC2-level choice of instance types, GPUs and purchase options for a per-instance management fee.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Architect for Amazon ECS Managed Instances",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ManagedInstances.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing Amazon ECS Managed Instances for containerized applications",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ecs-managed-instances-for-containerized-applications",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECS Managed Instances Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ecs/managed-instances/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS Managed Instances now supports Amazon EC2 Spot Instances (Indonesian edition)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/id/about-aws/whats-new/2025/12/amazon-ecs-managed-instances-ec2-spot-instances/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECS announces Managed Daemons for ECS Managed Instances",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-managed-daemons",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/containers/ecs-managed-instances.md",
+      "skos:altLabel": [
+        "ECS Managed Instances",
+        "ECS MI"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ecs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-fargate"
+        },
+        {
+          "@id": "kt:eks-auto-mode"
+        },
+        {
+          "@id": "kt:aws-container-services"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:amazon-ecs"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:bottlerocket"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-fargate"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:spot-instances"
+        },
+        {
+          "@id": "kt:savings-plans"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:ecs-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:eks-auto-mode",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon EKS Auto Mode",

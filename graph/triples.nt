@@ -2561,6 +2561,33 @@
 <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
 <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon ECS Managed Instances" .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/2004/02/skos/core#altLabel> "ECS MI" .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/2004/02/skos/core#altLabel> "ECS Managed Instances" .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/2004/02/skos/core#definition> "A fully managed compute option for Amazon ECS in which AWS provisions, scales, patches and replaces Bottlerocket-based EC2 instances in your account to run your tasks, while you keep EC2-level choice of instance types, GPUs and purchase options for a per-instance management fee." .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon ECS Managed Instances" .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-container-services> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s1> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s2> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s3> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s4> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s5> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s6> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/ecs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/bottlerocket> .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/edge-locations> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2000/01/rdf-schema#label> "Edge locations" .
@@ -6347,6 +6374,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-time-sync-precision-time-placement-group" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s1> <http://purl.org/dc/terms/title> "Architect for Amazon ECS Managed Instances" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ManagedInstances.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s2> <http://purl.org/dc/terms/title> "Announcing Amazon ECS Managed Instances for containerized applications" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s2> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/announcing-amazon-ecs-managed-instances-for-containerized-applications" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s3> <http://purl.org/dc/terms/title> "Amazon ECS Managed Instances Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s3> <https://schema.org/url> "https://aws.amazon.com/ecs/managed-instances/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s4> <http://purl.org/dc/terms/title> "Amazon ECS Managed Instances now supports Amazon EC2 Spot Instances (Indonesian edition)" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s4> <https://schema.org/url> "https://aws.amazon.com/id/about-aws/whats-new/2025/12/amazon-ecs-managed-instances-ec2-spot-instances/" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s5> <http://purl.org/dc/terms/title> "Amazon ECS announces Managed Daemons for ECS Managed Instances" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-managed-daemons" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s6> <http://purl.org/dc/terms/title> "Amazon ECS Managed Instances adds cross-instance and Spot consolidation" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/" .
 <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <http://purl.org/dc/terms/title> "Points of presence - AWS Fault Isolation Boundaries (whitepaper)" .
 <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -2245,6 +2245,28 @@
     ]
   },
   {
+    "id": "kt:ecs-managed-instances",
+    "title": "Amazon ECS Managed Instances",
+    "aliases": [
+      "ECS Managed Instances",
+      "ECS MI"
+    ],
+    "type": "Feature",
+    "domain": "containers",
+    "file": "articles/containers/ecs-managed-instances.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ManagedInstances.html",
+      "https://aws.amazon.com/blogs/aws/announcing-amazon-ecs-managed-instances-for-containerized-applications",
+      "https://aws.amazon.com/ecs/managed-instances/pricing",
+      "https://aws.amazon.com/id/about-aws/whats-new/2025/12/amazon-ecs-managed-instances-ec2-spot-instances/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-managed-daemons",
+      "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/"
+    ]
+  },
+  {
     "id": "kt:edge-locations",
     "title": "Edge locations",
     "aliases": [
