@@ -6350,6 +6350,127 @@
       ]
     },
     {
+      "@id": "kt:ci-cd",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Continuous integration and continuous delivery",
+      "skos:definition": "The DevOps practice of merging small code changes frequently into a shared main branch with automated builds and tests (CI), then automatically promoting every validated change through test environments so it is always ready for production (continuous delivery) or released to production with no manual gate (continuous deployment).",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is continuous integration and continuous delivery/deployment? - Practicing Continuous Integration and Continuous Delivery on AWS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/what-is-continuous-integration-and-continuous-deliverydeployment.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding CI/CD - AWS Prescriptive Guidance (The CI/CD litmus test)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-cicd-litmus/understanding-cicd.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Indicators for continuous integration - DevOps Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/indicators-for-ci.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "[DL.CI.2] Trigger builds automatically upon source code modifications - DevOps Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/dl.ci.2-trigger-builds-automatically-upon-source-code-modifications.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "[DL.CD.7] Remove manual approvals to practice continuous deployment - DevOps Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/dl.cd.7-remove-manual-approvals-to-practice-continuous-deployment.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Metrics for continuous delivery - DevOps Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/metrics-for-continuous-delivery.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "OPS05-BP04 Use build and deployment management systems - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_en/wellarchitected/latest/framework/ops_dev_integ_build_mgmt_sys.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Continuous integration and continuous delivery - AWS CAF Platform perspective (AWS Prescriptive Guidance)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-caf-platform-perspective/ci-cd.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Automating safe, hands-off deployments (Amazon Builders' Library, Clare Liguori)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://builder.aws.com/content/3ErTKQOTKc5NIw031UePBPxTQ6I/automating-safe-hands-off-deployments",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Content Domain 3: Deployment - AWS Certified Developer - Associate (DVA-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/developer-associate-02-domain3.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Content Domain 3: Testing and Deployment - AWS Certified Developer - Associate (DVA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-03/developer-associate-03-domain3.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/ci-cd.md",
+      "skos:altLabel": [
+        "CI/CD",
+        "CICD",
+        "Continuous integration",
+        "Continuous delivery",
+        "Continuous deployment",
+        "CI/CD pipeline"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:devops"
+        },
+        {
+          "@id": "kt:operational-excellence-pillar"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-codepipeline"
+        },
+        {
+          "@id": "kt:aws-codebuild"
+        },
+        {
+          "@id": "kt:aws-codedeploy"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:blue-green-deployments"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:infrastructure-as-code",
       "@type": "kto:Concept",
       "skos:prefLabel": "Infrastructure as code",

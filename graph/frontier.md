@@ -8,14 +8,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-agentcore`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-analytics-services` | `kt:amazon-data-firehose`, `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift`, `kt:data-lake-on-aws` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
-| `kt:ci-cd` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
+| `kt:aws-codedeploy` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:ci-cd` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton`, `kt:aws-nitro-system`, `kt:ec2-placement-groups` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:iam-roles` | `kt:aws-sts`, `kt:iam-policy-evaluation-logic`, `kt:iam-quotas`, `kt:permissions-boundaries` |
 | `kt:nist-sp-800-53` | `kt:aws-secret-and-top-secret-regions`, `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws`, `kt:hipaa-eligible-services` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:multi-account-strategy`, `kt:iam-quotas`, `kt:service-control-policies` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
-| `kt:aws-codedeploy` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
 | `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc`, `kt:aws-storage-gateway` |
 | `kt:aws-secrets-manager` | `kt:aws-systems-manager`, `kt:aws-transfer-family`, `kt:aws-kms` |
@@ -41,6 +40,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
+| `kt:devops` | `kt:ci-cd`, `kt:infrastructure-as-code` |
 | `kt:ecs-quotas` | `kt:amazon-ecs`, `kt:ecs-managed-instances` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
@@ -100,7 +100,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cost-allocation-tags` | `kt:aws-migration-acceleration-program` |
 | `kt:data-warehouse` | `kt:data-lake-on-aws` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |
-| `kt:devops` | `kt:infrastructure-as-code` |
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |
 | `kt:dynamodb-partition-key-design` | `kt:amazon-dynamodb` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb` |

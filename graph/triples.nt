@@ -2725,6 +2725,39 @@
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2000/01/rdf-schema#label> "Continuous integration and continuous delivery" .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#altLabel> "CI/CD pipeline" .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#altLabel> "CI/CD" .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#altLabel> "CICD" .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#altLabel> "Continuous delivery" .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#altLabel> "Continuous deployment" .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#altLabel> "Continuous integration" .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/devops> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#definition> "The DevOps practice of merging small code changes frequently into a shared main branch with automated builds and tests (CI), then automatically promoting every validated change through test environments so it is always ready for production (continuous delivery) or released to production with no manual gate (continuous deployment)." .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#prefLabel> "Continuous integration and continuous delivery" .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-codebuild> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-codedeploy> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s10> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s11> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s1> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s2> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s3> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s4> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s5> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s6> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s7> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s8> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Cost Optimization Pillar" .
@@ -6954,6 +6987,61 @@
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments-overview.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s10> <http://purl.org/dc/terms/title> "Content Domain 3: Deployment - AWS Certified Developer - Associate (DVA-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s10> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/developer-associate-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s11> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s11> <http://purl.org/dc/terms/title> "Content Domain 3: Testing and Deployment - AWS Certified Developer - Associate (DVA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s11> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s11> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-03/developer-associate-03-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s1> <http://purl.org/dc/terms/title> "What is continuous integration and continuous delivery/deployment? - Practicing Continuous Integration and Continuous Delivery on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/what-is-continuous-integration-and-continuous-deliverydeployment.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s2> <http://purl.org/dc/terms/title> "Understanding CI/CD - AWS Prescriptive Guidance (The CI/CD litmus test)" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s2> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-cicd-litmus/understanding-cicd.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s3> <http://purl.org/dc/terms/title> "Indicators for continuous integration - DevOps Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/indicators-for-ci.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s4> <http://purl.org/dc/terms/title> "[DL.CI.2] Trigger builds automatically upon source code modifications - DevOps Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s4> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/dl.ci.2-trigger-builds-automatically-upon-source-code-modifications.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s5> <http://purl.org/dc/terms/title> "[DL.CD.7] Remove manual approvals to practice continuous deployment - DevOps Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s5> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/dl.cd.7-remove-manual-approvals-to-practice-continuous-deployment.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s6> <http://purl.org/dc/terms/title> "Metrics for continuous delivery - DevOps Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s6> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/metrics-for-continuous-delivery.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s7> <http://purl.org/dc/terms/title> "OPS05-BP04 Use build and deployment management systems - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s7> <https://schema.org/url> "https://docs.aws.amazon.com/en_en/wellarchitected/latest/framework/ops_dev_integ_build_mgmt_sys.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s8> <http://purl.org/dc/terms/title> "Continuous integration and continuous delivery - AWS CAF Platform perspective (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s8> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-caf-platform-perspective/ci-cd.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <http://purl.org/dc/terms/title> "Automating safe, hands-off deployments (Amazon Builders' Library, Clare Liguori)" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <https://schema.org/url> "https://builder.aws.com/content/3ErTKQOTKc5NIw031UePBPxTQ6I/automating-safe-hands-off-deployments" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://purl.org/dc/terms/title> "Cost Optimization Pillar - AWS Well-Architected Framework (abstract and introduction)" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

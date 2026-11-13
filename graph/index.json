@@ -2378,6 +2378,37 @@
     ]
   },
   {
+    "id": "kt:ci-cd",
+    "title": "Continuous integration and continuous delivery",
+    "aliases": [
+      "CI/CD",
+      "CICD",
+      "Continuous integration",
+      "Continuous delivery",
+      "Continuous deployment",
+      "CI/CD pipeline"
+    ],
+    "type": "Concept",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/ci-cd.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/what-is-continuous-integration-and-continuous-deliverydeployment.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-cicd-litmus/understanding-cicd.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/indicators-for-ci.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/dl.ci.2-trigger-builds-automatically-upon-source-code-modifications.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/dl.cd.7-remove-manual-approvals-to-practice-continuous-deployment.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/metrics-for-continuous-delivery.html",
+      "https://docs.aws.amazon.com/en_en/wellarchitected/latest/framework/ops_dev_integ_build_mgmt_sys.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-caf-platform-perspective/ci-cd.html",
+      "https://builder.aws.com/content/3ErTKQOTKc5NIw031UePBPxTQ6I/automating-safe-hands-off-deployments",
+      "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/developer-associate-02-domain3.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-03/developer-associate-03-domain3.html"
+    ]
+  },
+  {
     "id": "kt:cost-optimization-pillar",
     "title": "Cost Optimization Pillar",
     "aliases": [
