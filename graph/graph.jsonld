@@ -2340,6 +2340,82 @@
       ]
     },
     {
+      "@id": "kt:aws-certified-security-specialty",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "AWS Certified Security - Specialty",
+      "skos:definition": "AWS's specialty-level certification for people responsible for securing cloud solutions, validating knowledge of detection, incident response, infrastructure security, identity, data protection and security governance on AWS; the current exam version is SCS-C03.",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Certified Security - Specialty (SCS-C03) exam guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/security-specialty-03/security-specialty-03.md",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certified Security - Specialty",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/certified-security-specialty",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Recertification",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/recertification/",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS expands AI certification portfolio and updates security certification",
+          "dcterms:publisher": "Amazon Web Services (AWS Training and Certification Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/training-and-certification/big-news-aws-expands-ai-certification-portfolio-and-updates-security-certification",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Training and Certification new offerings: December 2025",
+          "dcterms:publisher": "Amazon Web Services (AWS Training and Certification Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/training-and-certification/december-2025-new-offerings",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-certified-security-specialty.md",
+      "skos:altLabel": [
+        "SCS-C03",
+        "SCS-C02",
+        "AWS Security Specialty",
+        "AWS Certified Security Specialty"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-security-services"
+        },
+        {
+          "@id": "kt:security-pillar"
+        },
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:aws-kms"
+        },
+        {
+          "@id": "kt:amazon-guardduty"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-professional"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-solutions-architect-associate",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified Solutions Architect - Associate",

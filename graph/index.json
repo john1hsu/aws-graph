@@ -1007,6 +1007,29 @@
     ]
   },
   {
+    "id": "kt:aws-certified-security-specialty",
+    "title": "AWS Certified Security - Specialty",
+    "aliases": [
+      "SCS-C03",
+      "SCS-C02",
+      "AWS Security Specialty",
+      "AWS Certified Security Specialty"
+    ],
+    "type": "Certification",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certified-security-specialty.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/aws-certification/latest/security-specialty-03/security-specialty-03.md",
+      "https://aws.amazon.com/certification/certified-security-specialty",
+      "https://aws.amazon.com/certification/recertification/",
+      "https://aws.amazon.com/blogs/training-and-certification/big-news-aws-expands-ai-certification-portfolio-and-updates-security-certification",
+      "https://aws.amazon.com/blogs/training-and-certification/december-2025-new-offerings"
+    ]
+  },
+  {
     "id": "kt:aws-certified-solutions-architect-associate",
     "title": "AWS Certified Solutions Architect - Associate",
     "aliases": [

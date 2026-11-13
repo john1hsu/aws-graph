@@ -1143,6 +1143,30 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Security - Specialty" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Certified Security Specialty" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Security Specialty" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2004/02/skos/core#altLabel> "SCS-C02" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2004/02/skos/core#altLabel> "SCS-C03" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2004/02/skos/core#definition> "AWS's specialty-level certification for people responsible for securing cloud solutions, validating knowledge of detection, incident response, infrastructure security, identity, data protection and security governance on AWS; the current exam version is SCS-C03." .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Certified Security - Specialty" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-guardduty> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/security-pillar> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Solutions Architect - Associate" .
@@ -4542,6 +4566,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-developer-associate/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-developer-associate/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-developer-associate/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/september-2026-new-offerings/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s1> <http://purl.org/dc/terms/title> "AWS Certified Security - Specialty (SCS-C03) exam guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s1> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/security-specialty-03/security-specialty-03.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s2> <http://purl.org/dc/terms/title> "AWS Certified Security - Specialty" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s2> <https://schema.org/url> "https://aws.amazon.com/certification/certified-security-specialty" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s3> <http://purl.org/dc/terms/title> "AWS Recertification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s3> <https://schema.org/url> "https://aws.amazon.com/certification/recertification/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Training and Certification Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s4> <http://purl.org/dc/terms/title> "AWS expands AI certification portfolio and updates security certification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/big-news-aws-expands-ai-certification-portfolio-and-updates-security-certification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Training and Certification Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s5> <http://purl.org/dc/terms/title> "AWS Training and Certification new offerings: December 2025" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/december-2025-new-offerings" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-associate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-associate/s1> <http://purl.org/dc/terms/title> "AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-associate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
