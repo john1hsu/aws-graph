@@ -4195,6 +4195,95 @@
       ]
     },
     {
+      "@id": "kt:aws-pricing-fundamentals",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS pricing fundamentals",
+      "skos:definition": "The core principles behind how AWS bills: pay-as-you-go for what you consume, lower rates in exchange for a usage commitment, lower per-unit rates at higher volume, and three main cost drivers (compute, storage and outbound data transfer).",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Key principles - How AWS Pricing Works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/key-principles",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How AWS Pricing Works - Abstract and introduction",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/abstract-and-introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/pricing/?nc2=h_ql_pr_ln",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Content Domain 4: Billing, Pricing, and Support - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Amazon VPC Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/vpc/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cost Optimization - How AWS Pricing Works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/aws-cost-optimization.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/cost-management/aws-pricing-fundamentals.md",
+      "skos:altLabel": [
+        "How AWS pricing works",
+        "AWS pricing principles",
+        "AWS pricing models"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cost-optimization-pillar"
+        },
+        {
+          "@id": "kt:aws-cost-explorer"
+        },
+        {
+          "@id": "kt:data-transfer-costs"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:savings-plans"
+        },
+        {
+          "@id": "kt:reserved-instances"
+        },
+        {
+          "@id": "kt:spot-instances"
+        },
+        {
+          "@id": "kt:aws-free-tier"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:reserved-instances",
       "@type": "kto:PricingModel",
       "skos:prefLabel": "Reserved Instances",

@@ -1749,6 +1749,29 @@
     ]
   },
   {
+    "id": "kt:aws-pricing-fundamentals",
+    "title": "AWS pricing fundamentals",
+    "aliases": [
+      "How AWS pricing works",
+      "AWS pricing principles",
+      "AWS pricing models"
+    ],
+    "type": "Concept",
+    "domain": "cost-management",
+    "file": "articles/cost-management/aws-pricing-fundamentals.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/key-principles",
+      "https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/abstract-and-introduction.html",
+      "https://aws.amazon.com/pricing/?nc2=h_ql_pr_ln",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+      "https://aws.amazon.com/vpc/pricing/",
+      "https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/aws-cost-optimization.html"
+    ]
+  },
+  {
     "id": "kt:aws-regions",
     "title": "AWS Regions",
     "aliases": [
