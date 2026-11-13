@@ -1528,6 +1528,29 @@
     ]
   },
   {
+    "id": "kt:aws-lake-formation",
+    "title": "AWS Lake Formation",
+    "aliases": [
+      "Lake Formation",
+      "Amazon Lake Formation"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/aws-lake-formation.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/en_us/lake-formation/latest/dg/what-is-lake-formation.html",
+      "https://docs.aws.amazon.com/lake-formation/latest/dg/change-settings.html",
+      "https://aws.amazon.com/lake-formation/pricing/",
+      "https://docs.aws.amazon.com/en_gb/general/latest/gr/lake-formation.html",
+      "https://aws.amazon.com/lake-formation/faqs",
+      "https://aws.amazon.com/blogs/big-data/deprecation-of-lake-formations-governed-tables-feature",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-lambda",
     "title": "AWS Lambda",
     "aliases": [

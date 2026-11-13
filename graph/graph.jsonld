@@ -1262,6 +1262,106 @@
       ]
     },
     {
+      "@id": "kt:aws-lake-formation",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Lake Formation",
+      "skos:definition": "AWS's data lake governance service: a grant/revoke permissions layer over the AWS Glue Data Catalog and Amazon S3 that enforces database-, table-, column-, row- and cell-level access for engines such as Athena, Redshift Spectrum, EMR and Glue, and shares data across accounts.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Lake Formation? - AWS Lake Formation",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/lake-formation/latest/dg/what-is-lake-formation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Changing the default settings for your data lake - AWS Lake Formation",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lake-formation/latest/dg/change-settings.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Lake Formation Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/lake-formation/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Lake Formation endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_gb/general/latest/gr/lake-formation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Lake Formation FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/lake-formation/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deprecation of Lake Formation's Governed Tables Feature",
+          "dcterms:publisher": "AWS Big Data Blog",
+          "schema:url": "https://aws.amazon.com/blogs/big-data/deprecation-of-lake-formations-governed-tables-feature",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/analytics/aws-lake-formation.md",
+      "skos:altLabel": [
+        "Lake Formation",
+        "Amazon Lake Formation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-lake-on-aws"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:amazon-athena"
+        },
+        {
+          "@id": "kt:amazon-redshift"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-glue"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:lake-formation-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-well-architected-framework",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS Well-Architected Framework",

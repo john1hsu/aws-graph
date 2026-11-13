@@ -1741,6 +1741,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-kms> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-kms> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-kms> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Lake Formation" .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Lake Formation" .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/2004/02/skos/core#altLabel> "Lake Formation" .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/2004/02/skos/core#definition> "AWS's data lake governance service: a grant/revoke permissions layer over the AWS Glue Data Catalog and Amazon S3 that enforces database-, table-, column-, row- and cell-level access for engines such as Athena, Redshift Spectrum, EMR and Glue, and shares data across accounts." .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Lake Formation" .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/lake-formation-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Lambda" .
@@ -5187,6 +5213,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-kms/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-kms/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-kms/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s1> <http://purl.org/dc/terms/title> "What is AWS Lake Formation? - AWS Lake Formation" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s1> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/lake-formation/latest/dg/what-is-lake-formation.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s2> <http://purl.org/dc/terms/title> "Changing the default settings for your data lake - AWS Lake Formation" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s2> <https://schema.org/url> "https://docs.aws.amazon.com/lake-formation/latest/dg/change-settings.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s3> <http://purl.org/dc/terms/title> "AWS Lake Formation Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s3> <https://schema.org/url> "https://aws.amazon.com/lake-formation/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s4> <http://purl.org/dc/terms/title> "AWS Lake Formation endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s4> <https://schema.org/url> "https://docs.aws.amazon.com/en_gb/general/latest/gr/lake-formation.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s5> <http://purl.org/dc/terms/title> "AWS Lake Formation FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s5> <https://schema.org/url> "https://aws.amazon.com/lake-formation/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s6> <http://purl.org/dc/terms/publisher> "AWS Big Data Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s6> <http://purl.org/dc/terms/title> "Deprecation of Lake Formation's Governed Tables Feature" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/big-data/deprecation-of-lake-formations-governed-tables-feature" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s1> <http://purl.org/dc/terms/title> "What is AWS Lambda?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
