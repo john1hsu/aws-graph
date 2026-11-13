@@ -637,6 +637,39 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-guardduty> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Inspector" .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Inspector v2" .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/2004/02/skos/core#altLabel> "Inspector" .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/2004/02/skos/core#altLabel> "inspector2" .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/2004/02/skos/core#definition> "AWS's automated vulnerability management service, which continually scans EC2 instances, machine images, ECR container images, Lambda functions and source code repositories for software vulnerabilities, code issues and unintended network exposure, and ranks findings with a contextual risk score." .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Inspector" .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ecr> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-guardduty> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-security-hub> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s9> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-systems-manager> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Kinesis Data Streams" .
@@ -3999,6 +4032,51 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-guardduty/s7> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s1> <http://purl.org/dc/terms/title> "Automated scan types in Amazon Inspector" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s1> <https://schema.org/url> "https://docs.aws.amazon.com/inspector/latest/user/scanning-resources.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s2> <http://purl.org/dc/terms/title> "Amazon Inspector FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s2> <https://schema.org/url> "https://aws.amazon.com/inspector/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s3> <http://purl.org/dc/terms/title> "Amazon Inspector pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s3> <https://schema.org/url> "https://aws.amazon.com/inspector/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s4> <http://purl.org/dc/terms/publisher> "What's New with AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s4> <http://purl.org/dc/terms/title> "Amazon Inspector launches code security to shift security left in development" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-inspector-code-security-shift-security-development" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s5> <http://purl.org/dc/terms/publisher> "What's New with AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s5> <http://purl.org/dc/terms/title> "Amazon Inspector agentless vulnerability assessments for Amazon EC2 are now Generally Available (GA)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-inspector-agentless-vulnerability-assessments-ec2-ga" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s6> <http://purl.org/dc/terms/title> "Amazon Inspector Classic end of support" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s6> <https://schema.org/url> "https://docs.aws.amazon.com/inspector/v1/userguide/inspector-migration.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s7> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s7> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s8> <http://purl.org/dc/terms/title> "In-Scope AWS Services (AWS Certified Cloud Practitioner CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s8> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s9> <http://purl.org/dc/terms/title> "In-Scope AWS Services (AWS Certified Security - Specialty SCS-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s9> <https://schema.org/url> "https://docs.aws.amazon.com/zh_cn/aws-certification/latest/userguide/scs-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://purl.org/dc/terms/title> "What is Amazon Kinesis Data Streams? - Amazon Kinesis Data Streams" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

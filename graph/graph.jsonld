@@ -9691,6 +9691,133 @@
       ]
     },
     {
+      "@id": "kt:amazon-inspector",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Inspector",
+      "skos:definition": "AWS's automated vulnerability management service, which continually scans EC2 instances, machine images, ECR container images, Lambda functions and source code repositories for software vulnerabilities, code issues and unintended network exposure, and ranks findings with a contextual risk score.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Automated scan types in Amazon Inspector",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/inspector/latest/user/scanning-resources.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Inspector FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/inspector/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Inspector pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/inspector/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Inspector launches code security to shift security left in development",
+          "dcterms:publisher": "What's New with AWS",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-inspector-code-security-shift-security-development",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Inspector agentless vulnerability assessments for Amazon EC2 are now Generally Available (GA)",
+          "dcterms:publisher": "What's New with AWS",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-inspector-agentless-vulnerability-assessments-ec2-ga",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Inspector Classic end of support",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/inspector/v1/userguide/inspector-migration.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services (AWS Certified Cloud Practitioner CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services (AWS Certified Security - Specialty SCS-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/zh_cn/aws-certification/latest/userguide/scs-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security/amazon-inspector.md",
+      "skos:altLabel": [
+        "Inspector",
+        "Amazon Inspector v2",
+        "inspector2"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-guardduty"
+        },
+        {
+          "@id": "kt:aws-security-hub"
+        },
+        {
+          "@id": "kt:amazon-ecr"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-systems-manager"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        },
+        {
+          "@id": "kt:aws-certified-security-specialty"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cloudtrail",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS CloudTrail",

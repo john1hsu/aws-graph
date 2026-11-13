@@ -559,6 +559,32 @@
     ]
   },
   {
+    "id": "kt:amazon-inspector",
+    "title": "Amazon Inspector",
+    "aliases": [
+      "Inspector",
+      "Amazon Inspector v2",
+      "inspector2"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/amazon-inspector.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/inspector/latest/user/scanning-resources.html",
+      "https://aws.amazon.com/inspector/faqs",
+      "https://aws.amazon.com/inspector/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-inspector-code-security-shift-security-development",
+      "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-inspector-agentless-vulnerability-assessments-ec2-ga",
+      "https://docs.aws.amazon.com/inspector/v1/userguide/inspector-migration.html",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+      "https://docs.aws.amazon.com/zh_cn/aws-certification/latest/userguide/scs-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-kinesis-data-streams",
     "title": "Amazon Kinesis Data Streams",
     "aliases": [
