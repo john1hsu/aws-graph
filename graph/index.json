@@ -823,6 +823,29 @@
     ]
   },
   {
+    "id": "kt:application-load-balancer",
+    "title": "Application Load Balancer",
+    "aliases": [
+      "ALB",
+      "AWS Application Load Balancer",
+      "Elastic Load Balancing Application Load Balancer"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/application-load-balancer.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.html",
+      "https://aws.amazon.com/elasticloadbalancing/classicloadbalancer/pricing",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/listener-authenticate-users.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-the-right-aws-service-for-your-microservice-endpoints/app-load-balancer.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-application-load-balancer-target-optimizer"
+    ]
+  },
+  {
     "id": "kt:aurora-serverless-v2",
     "title": "Amazon Aurora Serverless",
     "aliases": [

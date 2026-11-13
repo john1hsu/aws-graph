@@ -9212,6 +9212,98 @@
       ]
     },
     {
+      "@id": "kt:application-load-balancer",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Application Load Balancer",
+      "skos:definition": "The layer-7 load balancer type in Elastic Load Balancing: it terminates HTTP, HTTPS and gRPC traffic, evaluates prioritized listener rules on hosts, paths, headers and other request attributes, and forwards each request to a target group of instances, IP addresses, containers or a Lambda function.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is an Application Load Balancer? - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for your Application Load Balancers - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Elastic Load Balancing pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/elasticloadbalancing/classicloadbalancer/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Authenticate users using an Application Load Balancer - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/listener-authenticate-users.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Application Load Balancer - Choosing the right AWS service for your microservice endpoints (AWS Prescriptive Guidance)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-the-right-aws-service-for-your-microservice-endpoints/app-load-balancer.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Application Load Balancer launches Target Optimizer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-application-load-balancer-target-optimizer",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/application-load-balancer.md",
+      "skos:altLabel": [
+        "ALB",
+        "AWS Application Load Balancer",
+        "Elastic Load Balancing Application Load Balancer"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:network-load-balancer"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-waf"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-api-gateway"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:elb-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-direct-connect",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Direct Connect",

@@ -941,6 +941,31 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> .
 <https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/2000/01/rdf-schema#label> "Application Load Balancer" .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/2004/02/skos/core#altLabel> "ALB" .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Application Load Balancer" .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/2004/02/skos/core#altLabel> "Elastic Load Balancing Application Load Balancer" .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/2004/02/skos/core#definition> "The layer-7 load balancer type in Elastic Load Balancing: it terminates HTTP, HTTPS and gRPC traffic, evaluates prioritized listener rules on hosts, paths, headers and other request attributes, and forwards each request to a target group of instances, IP addresses, containers or a Lambda function." .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Application Load Balancer" .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/network-load-balancer> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s1> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s2> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s3> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s4> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s5> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/elb-quotas> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Aurora Serverless" .
@@ -4583,6 +4608,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s1> <http://purl.org/dc/terms/title> "What is an Application Load Balancer? - Elastic Load Balancing" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s1> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s2> <http://purl.org/dc/terms/title> "Quotas for your Application Load Balancers - Elastic Load Balancing" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s2> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s3> <http://purl.org/dc/terms/title> "Elastic Load Balancing pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s3> <https://schema.org/url> "https://aws.amazon.com/elasticloadbalancing/classicloadbalancer/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s4> <http://purl.org/dc/terms/title> "Authenticate users using an Application Load Balancer - Elastic Load Balancing" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s4> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/listener-authenticate-users.html" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s5> <http://purl.org/dc/terms/title> "Application Load Balancer - Choosing the right AWS service for your microservice endpoints (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s5> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-the-right-aws-service-for-your-microservice-endpoints/app-load-balancer.html" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <http://purl.org/dc/terms/title> "AWS Application Load Balancer launches Target Optimizer" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-application-load-balancer-target-optimizer" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <http://purl.org/dc/terms/title> "How Aurora serverless works" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

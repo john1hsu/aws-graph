@@ -14,7 +14,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:iam-roles` | `kt:aws-sts`, `kt:iam-policy-evaluation-logic`, `kt:iam-quotas`, `kt:permissions-boundaries` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:multi-account-strategy`, `kt:iam-quotas`, `kt:service-control-policies` |
-| `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
 | `kt:aws-codedeploy` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
@@ -46,8 +45,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:ecs-quotas` | `kt:amazon-ecs`, `kt:ecs-managed-instances` |
+| `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
+| `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:resource-control-policies` | `kt:iam-policy-evaluation-logic`, `kt:service-control-policies` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract` |
@@ -111,7 +112,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:efs-quotas` | `kt:amazon-efs` |
 | `kt:eks-quotas` | `kt:amazon-eks` |
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |
-| `kt:elb-quotas` | `kt:elastic-load-balancing` |
 | `kt:eventbridge-quotas` | `kt:amazon-eventbridge` |
 | `kt:fargate-quotas` | `kt:aws-fargate` |
 | `kt:fsx-quotas` | `kt:amazon-fsx` |
@@ -130,7 +130,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:landing-zone` | `kt:multi-account-strategy` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:multi-region-architecture` | `kt:dynamodb-global-tables` |
-| `kt:network-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:red-hat-openshift-service-on-aws` | `kt:aws-container-services` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
