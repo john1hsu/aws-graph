@@ -96,7 +96,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudwatch-quotas` | `kt:amazon-cloudwatch` |
 | `kt:comprehend-quotas` | `kt:amazon-comprehend` |
 | `kt:control-tower-quotas` | `kt:aws-control-tower` |
-| `kt:cost-optimization-pillar` | `kt:performance-efficiency-pillar` |
 | `kt:data-transfer-costs` | `kt:aws-direct-connect` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |
 | `kt:devops` | `kt:infrastructure-as-code` |
@@ -149,6 +148,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sns-quotas` | `kt:amazon-sns` |
 | `kt:sqs-quotas` | `kt:amazon-sqs` |
 | `kt:subnets-and-route-tables` | `kt:amazon-vpc` |
+| `kt:sustainability-pillar` | `kt:cost-optimization-pillar` |
 | `kt:transfer-family-quotas` | `kt:aws-transfer-family` |
 | `kt:transit-gateway-quotas` | `kt:aws-transit-gateway` |
 | `kt:vpc-peering` | `kt:aws-transit-gateway` |

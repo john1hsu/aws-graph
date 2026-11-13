@@ -1444,6 +1444,110 @@
       ]
     },
     {
+      "@id": "kt:cost-optimization-pillar",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Cost Optimization Pillar",
+      "skos:definition": "The pillar of the AWS Well-Architected Framework concerned with running workloads that deliver business value at the lowest price point, organized into five best practice areas (from Cloud Financial Management to optimizing over time), eleven COST questions and five design principles.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Cost Optimization Pillar - AWS Well-Architected Framework (abstract and introduction)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design principles - Cost Optimization Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/design-principles.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "COST 1. How do you implement cloud financial management? - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-01.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Expenditure and usage awareness - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-aware.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Cost-effective resources - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-cereso.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "COST07-BP01 Perform pricing model analysis - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost_pricing_model_analysis.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage demand and supply resources - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-mandem.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Optimize over time - AWS Well-Architected Framework (2023-10-03 version)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/2023-10-03/framework/cost-opti.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best practices (cost optimization) - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-bp.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/cost-optimization-pillar.md",
+      "skos:altLabel": [
+        "AWS Well-Architected Cost Optimization Pillar",
+        "Well-Architected cost optimization pillar",
+        "Cost Optimization Pillar whitepaper"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:performance-efficiency-pillar"
+        },
+        {
+          "@id": "kt:sustainability-pillar"
+        },
+        {
+          "@id": "kt:savings-plans"
+        },
+        {
+          "@id": "kt:spot-instances"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cost-explorer"
+        },
+        {
+          "@id": "kt:aws-budgets"
+        }
+      ]
+    },
+    {
       "@id": "kt:disaster-recovery-strategies",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Disaster recovery strategies on AWS",

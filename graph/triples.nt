@@ -2344,6 +2344,34 @@
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Cost Optimization Pillar" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Well-Architected Cost Optimization Pillar" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "Cost Optimization Pillar whitepaper" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "Well-Architected cost optimization pillar" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2004/02/skos/core#definition> "The pillar of the AWS Well-Architected Framework concerned with running workloads that deliver business value at the lowest price point, organized into five best practice areas (from Cloud Financial Management to optimizing over time), eleven COST questions and five design principles." .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cost Optimization Pillar" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s2> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s3> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s4> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s5> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s6> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s7> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s8> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s9> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-budgets> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://www.w3.org/2000/01/rdf-schema#label> "Disaster recovery strategies on AWS" .
@@ -5993,6 +6021,51 @@
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments-overview.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://purl.org/dc/terms/title> "Cost Optimization Pillar - AWS Well-Architected Framework (abstract and introduction)" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s2> <http://purl.org/dc/terms/title> "Design principles - Cost Optimization Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/design-principles.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s3> <http://purl.org/dc/terms/title> "COST 1. How do you implement cloud financial management? - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-01.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s4> <http://purl.org/dc/terms/title> "Expenditure and usage awareness - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s4> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-aware.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s5> <http://purl.org/dc/terms/title> "Cost-effective resources - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s5> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-cereso.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s6> <http://purl.org/dc/terms/title> "COST07-BP01 Perform pricing model analysis - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s6> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost_pricing_model_analysis.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s7> <http://purl.org/dc/terms/title> "Manage demand and supply resources - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s7> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-mandem.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s8> <http://purl.org/dc/terms/title> "Optimize over time - AWS Well-Architected Framework (2023-10-03 version)" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s8> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/2023-10-03/framework/cost-opti.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s9> <http://purl.org/dc/terms/title> "Best practices (cost optimization) - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s9> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-bp.html" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://purl.org/dc/terms/title> "Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
