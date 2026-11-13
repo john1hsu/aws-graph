@@ -5102,6 +5102,102 @@
       ]
     },
     {
+      "@id": "kt:aurora-serverless-v2",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon Aurora Serverless",
+      "skos:definition": "An on-demand, autoscaling capacity mode for Amazon Aurora in which each writer or reader runs as a db.serverless instance that scales in place, in steps as small as 0.5 Aurora capacity units (ACUs), and can pause at 0 ACUs when idle; billed per second of ACU usage.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How Aurora serverless works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.how-it-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Scaling to Zero ACUs with automatic pause and resume for Aurora serverless",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2-auto-pause.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Requirements and limitations for Aurora serverless",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.requirements.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Aurora Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/rds/aurora/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate",
+          "dcterms:publisher": "Amazon Web Services (AWS Certification)",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/databases/aurora-serverless-v2.md",
+      "skos:altLabel": [
+        "Aurora Serverless v2",
+        "Aurora serverless",
+        "Amazon Aurora Serverless v2",
+        "db.serverless"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-aurora"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aurora-global-database"
+        },
+        {
+          "@id": "kt:rds-proxy"
+        },
+        {
+          "@id": "kt:aws-serverless-services"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:aurora-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:dynamodb-global-tables",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon DynamoDB global tables",

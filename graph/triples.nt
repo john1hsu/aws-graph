@@ -941,6 +941,33 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> .
 <https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-vpc> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Aurora Serverless" .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Aurora Serverless v2" .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2004/02/skos/core#altLabel> "Aurora Serverless v2" .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2004/02/skos/core#altLabel> "Aurora serverless" .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2004/02/skos/core#altLabel> "db.serverless" .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-aurora> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2004/02/skos/core#definition> "An on-demand, autoscaling capacity mode for Amazon Aurora in which each writer or reader runs as a db.serverless instance that scales in place, in steps as small as 0.5 Aurora capacity units (ACUs), and can pause at 0 ACUs when idle; billed per second of ACU usage." .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Aurora Serverless" .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aurora-global-database> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/rds-proxy> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s2> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s3> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s4> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s5> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s6> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/aurora-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <http://www.w3.org/2000/01/rdf-schema#label> "Availability Zones" .
@@ -4417,6 +4444,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <http://purl.org/dc/terms/title> "How Aurora serverless works" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.how-it-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s2> <http://purl.org/dc/terms/title> "Scaling to Zero ACUs with automatic pause and resume for Aurora serverless" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2-auto-pause.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s3> <http://purl.org/dc/terms/title> "Requirements and limitations for Aurora serverless" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.requirements.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s4> <http://purl.org/dc/terms/title> "Amazon Aurora Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s4> <https://schema.org/url> "https://aws.amazon.com/rds/aurora/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s5> <http://purl.org/dc/terms/title> "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling/" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Certification)" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s6> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s1> <http://purl.org/dc/terms/title> "AWS Availability Zones - AWS Regions and Availability Zones" .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -12,6 +12,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton`, `kt:aws-nitro-system`, `kt:ec2-placement-groups` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
+| `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
 | `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:ci-cd` | `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
@@ -21,7 +22,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:nist-sp-800-53` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws`, `kt:hipaa-eligible-services` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:multi-account-strategy`, `kt:service-control-policies` |
-| `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:dynamodb-global-tables` |
+| `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds`, `kt:aurora-serverless-v2` |
+| `kt:aurora-quotas` | `kt:amazon-aurora`, `kt:aurora-serverless-v2` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-textract` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
@@ -46,7 +48,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:ecs-quotas` | `kt:amazon-ecs`, `kt:ecs-managed-instances` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
-| `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds` |
 | `kt:resource-control-policies` | `kt:iam-policy-evaluation-logic`, `kt:service-control-policies` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract` |
@@ -63,8 +64,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
 | `kt:application-portfolio-assessment` | `kt:seven-rs-migration-strategies` |
-| `kt:aurora-quotas` | `kt:amazon-aurora` |
-| `kt:aurora-serverless-v2` | `kt:amazon-aurora` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-app-runner` | `kt:aws-container-services` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |

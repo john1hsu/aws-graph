@@ -823,6 +823,30 @@
     ]
   },
   {
+    "id": "kt:aurora-serverless-v2",
+    "title": "Amazon Aurora Serverless",
+    "aliases": [
+      "Aurora Serverless v2",
+      "Aurora serverless",
+      "Amazon Aurora Serverless v2",
+      "db.serverless"
+    ],
+    "type": "Feature",
+    "domain": "databases",
+    "file": "articles/databases/aurora-serverless-v2.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.how-it-works.html",
+      "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2-auto-pause.html",
+      "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.requirements.html",
+      "https://aws.amazon.com/rds/aurora/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:availability-zones",
     "title": "Availability Zones",
     "aliases": [
