@@ -2340,6 +2340,39 @@
 <https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Systems Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS SSM" .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon EC2 Systems Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Simple Systems Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2004/02/skos/core#altLabel> "SSM" .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2004/02/skos/core#altLabel> "Systems Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2004/02/skos/core#definition> "AWS's operations service for viewing, managing and operating nodes at scale across AWS, on-premises and other clouds, through a unified console plus tools such as Session Manager, Run Command, Patch Manager, Automation and Parameter Store, all built on the SSM Agent." .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Systems Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s9> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/ssm-agent> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/systems-manager-parameter-store> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/systems-manager-session-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Trainium and Inferentia" .
@@ -6257,6 +6290,51 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-sts-cross-partition/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s1> <http://purl.org/dc/terms/title> "What is AWS Systems Manager?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s1> <https://schema.org/url> "https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s2> <http://purl.org/dc/terms/title> "AWS Systems Manager Session Manager" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s2> <https://schema.org/url> "https://docs.aws.amazon.com/systems-manager/latest/userguide//session-manager.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s3> <http://purl.org/dc/terms/title> "Managing parameter tiers - AWS Systems Manager" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s3> <https://schema.org/url> "https://docs.aws.amazon.com/systems-manager/latest/userguide/parameter-store-advanced-parameters.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s4> <http://purl.org/dc/terms/title> "AWS Systems Manager pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s4> <https://schema.org/url> "https://aws.amazon.com/systems-manager/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s5> <http://purl.org/dc/terms/title> "Document history - AWS Systems Manager" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s5> <https://schema.org/url> "https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-release-history.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s6> <http://purl.org/dc/terms/title> "AWS Systems Manager simplifies Azure VM management and hybrid node pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-systems-manager-multicloud-vm/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s7> <http://purl.org/dc/terms/title> "AWS Systems Manager Incident Manager availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s7> <https://schema.org/url> "https://docs.aws.amazon.com/incident-manager/latest/userguide/incident-manager-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s8> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s8> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s9> <http://purl.org/dc/terms/title> "AWS Systems Manager change management tools" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s9> <https://schema.org/url> "https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-actions-and-change.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s1> <http://purl.org/dc/terms/title> "AWS Trainium" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-trainium-and-inferentia/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

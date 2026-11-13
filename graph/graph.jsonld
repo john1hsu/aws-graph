@@ -7277,6 +7277,127 @@
       ]
     },
     {
+      "@id": "kt:aws-systems-manager",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Systems Manager",
+      "skos:definition": "AWS's operations service for viewing, managing and operating nodes at scale across AWS, on-premises and other clouds, through a unified console plus tools such as Session Manager, Run Command, Patch Manager, Automation and Parameter Store, all built on the SSM Agent.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Systems Manager?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Systems Manager Session Manager",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/systems-manager/latest/userguide//session-manager.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Managing parameter tiers - AWS Systems Manager",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/parameter-store-advanced-parameters.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Systems Manager pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/systems-manager/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Document history - AWS Systems Manager",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-release-history.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Systems Manager simplifies Azure VM management and hybrid node pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-systems-manager-multicloud-vm/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Systems Manager Incident Manager availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/incident-manager/latest/userguide/incident-manager-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Systems Manager change management tools",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-actions-and-change.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/aws-systems-manager.md",
+      "skos:altLabel": [
+        "Systems Manager",
+        "SSM",
+        "Amazon Simple Systems Manager",
+        "Amazon EC2 Systems Manager",
+        "AWS SSM"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:amazon-cloudwatch"
+        },
+        {
+          "@id": "kt:aws-config"
+        },
+        {
+          "@id": "kt:aws-secrets-manager"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:systems-manager-session-manager"
+        },
+        {
+          "@id": "kt:systems-manager-parameter-store"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:ssm-agent"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:multi-account-strategy",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Multi-account strategy",

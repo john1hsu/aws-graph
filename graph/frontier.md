@@ -18,6 +18,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
 | `kt:aws-codedeploy` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
+| `kt:aws-secrets-manager` | `kt:aws-systems-manager`, `kt:aws-transfer-family`, `kt:aws-kms` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:nist-sp-800-53` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws`, `kt:hipaa-eligible-services` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
@@ -35,11 +36,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-global-accelerator` | `kt:performance-efficiency-pillar`, `kt:edge-locations` |
 | `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc` |
 | `kt:aws-secret-and-top-secret-regions` | `kt:aws-govcloud-us`, `kt:dod-cloud-computing-srg-impact-levels` |
-| `kt:aws-secrets-manager` | `kt:aws-transfer-family`, `kt:aws-kms` |
 | `kt:aws-shield` | `kt:edge-locations`, `kt:aws-waf` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-storage-gateway` | `kt:aws-datasync`, `kt:aws-storage-services` |
-| `kt:aws-systems-manager` | `kt:aws-management-and-governance-services`, `kt:amazon-inspector` |
 | `kt:aws-transform` | `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
@@ -142,9 +141,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:security-groups-vs-network-acls` | `kt:amazon-vpc` |
 | `kt:sns-quotas` | `kt:amazon-sns` |
 | `kt:sqs-quotas` | `kt:amazon-sqs` |
+| `kt:ssm-agent` | `kt:aws-systems-manager` |
 | `kt:step-functions-quotas` | `kt:aws-step-functions` |
 | `kt:subnets-and-route-tables` | `kt:amazon-vpc` |
 | `kt:sustainability-pillar` | `kt:cost-optimization-pillar` |
+| `kt:systems-manager-parameter-store` | `kt:aws-systems-manager` |
+| `kt:systems-manager-session-manager` | `kt:aws-systems-manager` |
 | `kt:transfer-family-quotas` | `kt:aws-transfer-family` |
 | `kt:transit-gateway-quotas` | `kt:aws-transit-gateway` |
 | `kt:vpc-peering` | `kt:aws-transit-gateway` |
