@@ -1948,6 +1948,30 @@
     ]
   },
   {
+    "id": "kt:aws-step-functions",
+    "title": "AWS Step Functions",
+    "aliases": [
+      "Step Functions",
+      "Amazon Step Functions",
+      "SFN"
+    ],
+    "type": "Service",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/aws-step-functions.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.amazonaws.cn/en_us/step-functions/latest/dg/welcome.html",
+      "https://docs.aws.amazon.com/step-functions/latest/dg/limits.html",
+      "https://aws.amazon.com/step-functions/pricing",
+      "https://aws.amazon.com/pt/step-functions/faqs/",
+      "https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/step-functions-workflows.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-step-functions-service-quotas",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-storage-services",
     "title": "AWS storage services",
     "aliases": [

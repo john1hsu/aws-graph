@@ -14,7 +14,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
-| `kt:aws-step-functions` | `kt:amazon-eventbridge`, `kt:aws-lambda`, `kt:aws-serverless-services` |
 | `kt:ci-cd` | `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:iam-quotas` | `kt:aws-iam`, `kt:aws-sts`, `kt:permissions-boundaries` |
@@ -62,6 +61,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-q-business` | `kt:amazon-bedrock-knowledge-bases` |
 | `kt:amazon-s3-files` | `kt:amazon-efs` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
+| `kt:amazon-swf` | `kt:aws-step-functions` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
 | `kt:application-portfolio-assessment` | `kt:seven-rs-migration-strategies` |
 | `kt:aws-account-management` | `kt:aws-regions` |
@@ -144,6 +144,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:service-quotas` | `kt:reliability-pillar` |
 | `kt:sns-quotas` | `kt:amazon-sns` |
 | `kt:sqs-quotas` | `kt:amazon-sqs` |
+| `kt:step-functions-quotas` | `kt:aws-step-functions` |
 | `kt:subnets-and-route-tables` | `kt:amazon-vpc` |
 | `kt:sustainability-pillar` | `kt:cost-optimization-pillar` |
 | `kt:transfer-family-quotas` | `kt:aws-transfer-family` |
