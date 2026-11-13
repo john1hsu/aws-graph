@@ -9895,6 +9895,116 @@
       ]
     },
     {
+      "@id": "kt:aws-secret-and-top-secret-regions",
+      "@type": "kto:InfrastructureConcept",
+      "skos:prefLabel": "AWS Secret and Top Secret Regions",
+      "skos:definition": "AWS's physically and network-isolated Regions for U.S. classified workloads: two Secret-level Regions (Secret, 2017, and Secret-West, 2025), authorized at DoD SRG IL6 and ICD 503, and two Top Secret Regions (Top Secret-East, 2014, and Top Secret-West, 2021) for the intelligence, defense and national security communities.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Secret Cloud - Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/federal/secret-cloud/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Top Secret Cloud - Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/federal/top-secret-cloud/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: DoD CC SRG",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/DoD_CC_SRG/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Secret-West Region is now available",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-secret-west-region-is-now-available",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Announcing the New AWS Secret Region",
+          "dcterms:publisher": "AWS Public Sector Blog",
+          "schema:url": "https://aws.amazon.com/blogs/publicsector/announcing-the-new-aws-secret-region",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Announcing second AWS Top Secret Region, extending support for U.S. government classified missions",
+          "dcterms:publisher": "AWS Public Sector Blog",
+          "schema:url": "https://aws.amazon.com/blogs/publicsector/announcing-second-aws-top-secret-region-extending-support-us-government-classified-missions",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon to launch second Secret cloud Region in 2025",
+          "dcterms:publisher": "AWS Public Sector Blog",
+          "schema:url": "https://aws.amazon.com/blogs/publicsector/amazon-to-launch-second-secret-cloud-region-in-2025",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "15 additional AWS services authorized at DoD Impact Level 6 for the AWS Secret Region",
+          "dcterms:publisher": "AWS Security Blog",
+          "schema:url": "https://aws.amazon.com/blogs/security/15-additional-aws-services-authorized-dod-impact-level-6-aws-secret-region",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/aws-secret-and-top-secret-regions.md",
+      "skos:altLabel": [
+        "AWS Secret Region",
+        "AWS Secret Cloud",
+        "AWS Secret-West",
+        "AWS Top Secret Cloud",
+        "AWS Top Secret-East",
+        "AWS Top Secret-West",
+        "AWS classified Regions"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-regions"
+        },
+        {
+          "@id": "kt:aws-govcloud-us"
+        },
+        {
+          "@id": "kt:availability-zones"
+        },
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:dod-cloud-computing-srg-impact-levels"
+        },
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:icd-503"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-direct-connect"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        }
+      ]
+    },
+    {
       "@id": "kt:dod-cloud-computing-srg-impact-levels",
       "@type": "kto:ComplianceProgram",
       "skos:prefLabel": "DoD Cloud Computing SRG impact levels",

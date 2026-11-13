@@ -2215,6 +2215,39 @@
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Secret and Top Secret Regions" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Secret Cloud" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Secret Region" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Secret-West" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Top Secret Cloud" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Top Secret-East" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Top Secret-West" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS classified Regions" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#definition> "AWS's physically and network-isolated Regions for U.S. classified workloads: two Secret-level Regions (Secret, 2017, and Secret-West, 2025), authorized at DoD SRG IL6 and ICD 503, and two Top Secret Regions (Top Secret-East, 2014, and Top Secret-West, 2021) for the intelligence, defense and national security communities." .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Secret and Top Secret Regions" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/icd-503> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Security Hub" .
@@ -6168,6 +6201,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-websocket-apis-api-gateway/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s1> <http://purl.org/dc/terms/title> "AWS Secret Cloud - Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s1> <https://schema.org/url> "https://aws.amazon.com/federal/secret-cloud/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s2> <http://purl.org/dc/terms/title> "AWS Top Secret Cloud - Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s2> <https://schema.org/url> "https://aws.amazon.com/federal/top-secret-cloud/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s3> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: DoD CC SRG" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s3> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/DoD_CC_SRG/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s4> <http://purl.org/dc/terms/title> "AWS Secret-West Region is now available" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-secret-west-region-is-now-available" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s5> <http://purl.org/dc/terms/publisher> "AWS Public Sector Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s5> <http://purl.org/dc/terms/title> "Announcing the New AWS Secret Region" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/publicsector/announcing-the-new-aws-secret-region" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s6> <http://purl.org/dc/terms/publisher> "AWS Public Sector Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s6> <http://purl.org/dc/terms/title> "Announcing second AWS Top Secret Region, extending support for U.S. government classified missions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/publicsector/announcing-second-aws-top-secret-region-extending-support-us-government-classified-missions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s7> <http://purl.org/dc/terms/publisher> "AWS Public Sector Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s7> <http://purl.org/dc/terms/title> "Amazon to launch second Secret cloud Region in 2025" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/publicsector/amazon-to-launch-second-secret-cloud-region-in-2025" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s8> <http://purl.org/dc/terms/publisher> "AWS Security Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s8> <http://purl.org/dc/terms/title> "15 additional AWS services authorized at DoD Impact Level 6 for the AWS Secret Region" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s8> <https://schema.org/url> "https://aws.amazon.com/blogs/security/15-additional-aws-services-authorized-dod-impact-level-6-aws-secret-region" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s1> <http://purl.org/dc/terms/title> "Introduction to AWS Security Hub" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

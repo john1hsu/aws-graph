@@ -1942,6 +1942,35 @@
     ]
   },
   {
+    "id": "kt:aws-secret-and-top-secret-regions",
+    "title": "AWS Secret and Top Secret Regions",
+    "aliases": [
+      "AWS Secret Region",
+      "AWS Secret Cloud",
+      "AWS Secret-West",
+      "AWS Top Secret Cloud",
+      "AWS Top Secret-East",
+      "AWS Top Secret-West",
+      "AWS classified Regions"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/aws-secret-and-top-secret-regions.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/federal/secret-cloud/",
+      "https://aws.amazon.com/federal/top-secret-cloud/",
+      "https://aws.amazon.com/compliance/services-in-scope/DoD_CC_SRG/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-secret-west-region-is-now-available",
+      "https://aws.amazon.com/blogs/publicsector/announcing-the-new-aws-secret-region",
+      "https://aws.amazon.com/blogs/publicsector/announcing-second-aws-top-secret-region-extending-support-us-government-classified-missions",
+      "https://aws.amazon.com/blogs/publicsector/amazon-to-launch-second-secret-cloud-region-in-2025",
+      "https://aws.amazon.com/blogs/security/15-additional-aws-services-authorized-dod-impact-level-6-aws-secret-region"
+    ]
+  },
+  {
     "id": "kt:aws-security-hub",
     "title": "AWS Security Hub",
     "aliases": [
