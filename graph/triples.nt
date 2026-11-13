@@ -2364,6 +2364,46 @@
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Storage Gateway" .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon S3 File Gateway" .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 File Gateway" .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#altLabel> "Storage Gateway" .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#altLabel> "Tape Gateway" .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#altLabel> "Virtual Tape Library gateway" .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#altLabel> "Volume Gateway" .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-storage-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#definition> "AWS's hybrid cloud storage service: a gateway appliance (VM, or EC2 instance) that runs near on-premises applications and presents Amazon S3-backed storage over standard protocols, as NFS/SMB file shares (S3 File Gateway), iSCSI block volumes (Volume Gateway) or an iSCSI virtual tape library (Tape Gateway)." .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Storage Gateway" .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-fsx> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-backup> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-datasync> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s10> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s11> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s12> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s9> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/storage-gateway-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ebs> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-privatelink> .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-storage-gateway> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-storage-services> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-storage-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-storage-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS storage services" .
@@ -6391,6 +6431,66 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s10> <http://purl.org/dc/terms/title> "AWS Storage Gateway now supports FIPS-compliant private connectivity for Amazon S3 File Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s10> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/storage-gateway-fips-privatelink-s3/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s11> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s11> <http://purl.org/dc/terms/title> "AWS Storage Gateway adds console support for copying file shares across gateways" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s11> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s11> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-storage-gateway-console-copy-file-shares/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s12> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s12> <http://purl.org/dc/terms/title> "In-scope AWS services - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s12> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s12> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s1> <http://purl.org/dc/terms/title> "What is Volume Gateway? - AWS Storage Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s1> <https://schema.org/url> "https://docs.aws.amazon.com/storagegateway/latest/vgw/WhatIsStorageGateway.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s2> <http://purl.org/dc/terms/title> "How Tape Gateway works - AWS Storage Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s2> <https://schema.org/url> "https://docs.aws.amazon.com/storagegateway/latest/tgw/StorageGatewayConcepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s3> <http://purl.org/dc/terms/title> "How Amazon S3 File Gateway works - AWS Storage Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s3> <https://schema.org/url> "https://docs.aws.amazon.com/filegateway/latest/files3/file-gateway-concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s4> <http://purl.org/dc/terms/title> "Limits and quotas for Amazon S3 File Gateway - AWS Storage Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s4> <https://schema.org/url> "https://docs.aws.amazon.com/filegateway/latest/files3/fgw-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s5> <http://purl.org/dc/terms/title> "AWS Storage Gateway quotas (Volume Gateway) - AWS Storage Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s5> <https://schema.org/url> "https://docs.aws.amazon.com/storagegateway/latest/vgw/resource-gateway-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s6> <http://purl.org/dc/terms/title> "AWS Storage Gateway FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s6> <https://schema.org/url> "https://aws.amazon.com/storagegateway/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s7> <http://purl.org/dc/terms/title> "AWS Storage Gateway pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s7> <https://schema.org/url> "https://aws.amazon.com/storagegateway/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s8> <http://purl.org/dc/terms/title> "What is Amazon FSx File Gateway - AWS Storage Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s8> <https://schema.org/url> "https://docs.aws.amazon.com/filegateway/latest/filefsxw/what-is-file-fsxw.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s9> <http://purl.org/dc/terms/title> "Using the AWS Storage Gateway Hardware Appliance - AWS Storage Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-storage-gateway/s9> <https://schema.org/url> "https://docs.aws.amazon.com/filegateway/latest/files3/hardware-appliance.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-storage-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-storage-services/s1> <http://purl.org/dc/terms/title> "Storage - Overview of Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-storage-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -12388,6 +12388,161 @@
       ]
     },
     {
+      "@id": "kt:aws-storage-gateway",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Storage Gateway",
+      "skos:definition": "AWS's hybrid cloud storage service: a gateway appliance (VM, or EC2 instance) that runs near on-premises applications and presents Amazon S3-backed storage over standard protocols, as NFS/SMB file shares (S3 File Gateway), iSCSI block volumes (Volume Gateway) or an iSCSI virtual tape library (Tape Gateway).",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Volume Gateway? - AWS Storage Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/storagegateway/latest/vgw/WhatIsStorageGateway.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Tape Gateway works - AWS Storage Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/storagegateway/latest/tgw/StorageGatewayConcepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Amazon S3 File Gateway works - AWS Storage Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/filegateway/latest/files3/file-gateway-concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Limits and quotas for Amazon S3 File Gateway - AWS Storage Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/filegateway/latest/files3/fgw-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Storage Gateway quotas (Volume Gateway) - AWS Storage Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/storagegateway/latest/vgw/resource-gateway-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Storage Gateway FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/storagegateway/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Storage Gateway pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/storagegateway/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is Amazon FSx File Gateway - AWS Storage Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/filegateway/latest/filefsxw/what-is-file-fsxw.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using the AWS Storage Gateway Hardware Appliance - AWS Storage Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/filegateway/latest/files3/hardware-appliance.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Storage Gateway now supports FIPS-compliant private connectivity for Amazon S3 File Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/storage-gateway-fips-privatelink-s3/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Storage Gateway adds console support for copying file shares across gateways",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-storage-gateway-console-copy-file-shares/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-scope AWS services - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/storage/aws-storage-gateway.md",
+      "skos:altLabel": [
+        "Storage Gateway",
+        "Amazon S3 File Gateway",
+        "S3 File Gateway",
+        "Volume Gateway",
+        "Tape Gateway",
+        "Virtual Tape Library gateway"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-storage-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-datasync"
+        },
+        {
+          "@id": "kt:amazon-fsx"
+        },
+        {
+          "@id": "kt:aws-backup"
+        },
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ebs"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-privatelink"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:storage-gateway-quotas"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        },
+        {
+          "@id": "kt:hipaa-eligible-services"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-storage-services",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS storage services",

@@ -2071,6 +2071,38 @@
     ]
   },
   {
+    "id": "kt:aws-storage-gateway",
+    "title": "AWS Storage Gateway",
+    "aliases": [
+      "Storage Gateway",
+      "Amazon S3 File Gateway",
+      "S3 File Gateway",
+      "Volume Gateway",
+      "Tape Gateway",
+      "Virtual Tape Library gateway"
+    ],
+    "type": "Service",
+    "domain": "storage",
+    "file": "articles/storage/aws-storage-gateway.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/storagegateway/latest/vgw/WhatIsStorageGateway.html",
+      "https://docs.aws.amazon.com/storagegateway/latest/tgw/StorageGatewayConcepts.html",
+      "https://docs.aws.amazon.com/filegateway/latest/files3/file-gateway-concepts.html",
+      "https://docs.aws.amazon.com/filegateway/latest/files3/fgw-quotas.html",
+      "https://docs.aws.amazon.com/storagegateway/latest/vgw/resource-gateway-limits.html",
+      "https://aws.amazon.com/storagegateway/faqs",
+      "https://aws.amazon.com/storagegateway/pricing/",
+      "https://docs.aws.amazon.com/filegateway/latest/filefsxw/what-is-file-fsxw.html",
+      "https://docs.aws.amazon.com/filegateway/latest/files3/hardware-appliance.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/storage-gateway-fips-privatelink-s3/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-storage-gateway-console-copy-file-shares/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-storage-services",
     "title": "AWS storage services",
     "aliases": [

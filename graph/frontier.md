@@ -18,6 +18,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
 | `kt:aws-codedeploy` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
+| `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc`, `kt:aws-storage-gateway` |
 | `kt:aws-secrets-manager` | `kt:aws-systems-manager`, `kt:aws-transfer-family`, `kt:aws-kms` |
 | `kt:aws-transform` | `kt:aws-migration-acceleration-program`, `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
@@ -34,10 +35,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs` |
 | `kt:aws-global-accelerator` | `kt:performance-efficiency-pillar`, `kt:edge-locations` |
-| `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc` |
 | `kt:aws-shield` | `kt:edge-locations`, `kt:aws-waf` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
-| `kt:aws-storage-gateway` | `kt:aws-datasync`, `kt:aws-storage-services` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
@@ -143,6 +142,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sqs-quotas` | `kt:amazon-sqs` |
 | `kt:ssm-agent` | `kt:aws-systems-manager` |
 | `kt:step-functions-quotas` | `kt:aws-step-functions` |
+| `kt:storage-gateway-quotas` | `kt:aws-storage-gateway` |
 | `kt:subnets-and-route-tables` | `kt:amazon-vpc` |
 | `kt:sustainability-pillar` | `kt:cost-optimization-pillar` |
 | `kt:systems-manager-parameter-store` | `kt:aws-systems-manager` |
