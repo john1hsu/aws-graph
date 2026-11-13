@@ -2900,6 +2900,109 @@
       ]
     },
     {
+      "@id": "kt:aws-nitro-system",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "AWS Nitro System",
+      "skos:definition": "The hardware and software platform underneath modern Amazon EC2 instances: dedicated Nitro Cards for networking, storage and management, a Nitro Security Chip, and a minimal hypervisor, designed so instances get nearly all host resources and AWS operators have no access to customer data.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The components of the Nitro System - The Security Design of the AWS Nitro System",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/security-design-of-aws-nitro-system/the-components-of-the-nitro-system.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The Nitro System journey - The Security Design of the AWS Nitro System",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/security-design-of-aws-nitro-system/the-nitro-system-journey.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Instances built on the AWS Nitro System",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ec2/latest/instancetypes/ec2-nitro-instances.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Nitro System",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ec2/nitro/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is Nitro Enclaves?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Nitro System gets independent affirmation of its confidential compute capabilities",
+          "dcterms:publisher": "Amazon Web Services (AWS Compute Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/compute/aws-nitro-system-gets-independent-affirmation-of-its-confidential-compute-capabilities",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Nitro Isolation Engine: Formally verifying the hypervisor in the AWS Nitro System",
+          "dcterms:publisher": "Amazon Web Services (AWS Compute Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/compute/aws-nitro-isolation-engine-formally-verifying-the-hypervisor-in-the-aws-nitro-system/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/compute/aws-nitro-system.md",
+      "skos:altLabel": [
+        "Nitro System",
+        "AWS Nitro",
+        "Nitro Hypervisor",
+        "Nitro Cards",
+        "Nitro Security Chip"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-compute-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-graviton"
+        },
+        {
+          "@id": "kt:ec2-instance-types"
+        },
+        {
+          "@id": "kt:aws-trainium-and-inferentia"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:ec2-placement-groups"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:aws-nitro-enclaves"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ebs"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-kms"
+        }
+      ]
+    },
+    {
       "@id": "kt:ec2-placement-groups",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon EC2 placement groups",

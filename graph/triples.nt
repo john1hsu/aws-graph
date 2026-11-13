@@ -1885,6 +1885,37 @@
 <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
 <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Nitro System" .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Nitro" .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#altLabel> "Nitro Cards" .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#altLabel> "Nitro Hypervisor" .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#altLabel> "Nitro Security Chip" .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#altLabel> "Nitro System" .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compute-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#definition> "The hardware and software platform underneath modern Amazon EC2 instances: dedicated Nitro Cards for networking, storage and management, a Nitro Security Chip, and a minimal hypervisor, designed so instances get nearly all host resources and AWS operators have no access to customer data." .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Nitro System" .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-graviton> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <https://github.com/john1hsu/aws-graph/ontology#domain> "compute" .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/aws-nitro-enclaves> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ebs> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-nitro-system> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-organizations> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Organizations" .
@@ -5451,6 +5482,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-networking-and-content-delivery/s7> <https://schema.org/url> "https://aws.amazon.com/fr/blogs/aws/top-announcements-of-aws-reinvent-2025" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s1> <http://purl.org/dc/terms/title> "The components of the Nitro System - The Security Design of the AWS Nitro System" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/security-design-of-aws-nitro-system/the-components-of-the-nitro-system.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s2> <http://purl.org/dc/terms/title> "The Nitro System journey - The Security Design of the AWS Nitro System" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s2> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/security-design-of-aws-nitro-system/the-nitro-system-journey.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s3> <http://purl.org/dc/terms/title> "Instances built on the AWS Nitro System" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s3> <https://schema.org/url> "https://docs.aws.amazon.com/ec2/latest/instancetypes/ec2-nitro-instances.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s4> <http://purl.org/dc/terms/title> "AWS Nitro System" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s4> <https://schema.org/url> "https://aws.amazon.com/ec2/nitro/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s5> <http://purl.org/dc/terms/title> "What is Nitro Enclaves?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s5> <https://schema.org/url> "https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Compute Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s6> <http://purl.org/dc/terms/title> "AWS Nitro System gets independent affirmation of its confidential compute capabilities" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/aws-nitro-system-gets-independent-affirmation-of-its-confidential-compute-capabilities" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Compute Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s7> <http://purl.org/dc/terms/title> "AWS Nitro Isolation Engine: Formally verifying the hypervisor in the AWS Nitro System" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-nitro-system/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/aws-nitro-isolation-engine-formally-verifying-the-hypervisor-in-the-aws-nitro-system/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s1> <http://purl.org/dc/terms/title> "What is AWS Organizations?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

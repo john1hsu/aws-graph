@@ -1651,6 +1651,32 @@
     ]
   },
   {
+    "id": "kt:aws-nitro-system",
+    "title": "AWS Nitro System",
+    "aliases": [
+      "Nitro System",
+      "AWS Nitro",
+      "Nitro Hypervisor",
+      "Nitro Cards",
+      "Nitro Security Chip"
+    ],
+    "type": "Feature",
+    "domain": "compute",
+    "file": "articles/compute/aws-nitro-system.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/security-design-of-aws-nitro-system/the-components-of-the-nitro-system.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/security-design-of-aws-nitro-system/the-nitro-system-journey.html",
+      "https://docs.aws.amazon.com/ec2/latest/instancetypes/ec2-nitro-instances.html",
+      "https://aws.amazon.com/ec2/nitro/",
+      "https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave.html",
+      "https://aws.amazon.com/blogs/compute/aws-nitro-system-gets-independent-affirmation-of-its-confidential-compute-capabilities",
+      "https://aws.amazon.com/blogs/compute/aws-nitro-isolation-engine-formally-verifying-the-hypervisor-in-the-aws-nitro-system/"
+    ]
+  },
+  {
     "id": "kt:aws-organizations",
     "title": "AWS Organizations",
     "aliases": [
