@@ -1697,6 +1697,31 @@
     ]
   },
   {
+    "id": "kt:aws-migration-acceleration-program",
+    "title": "AWS Migration Acceleration Program",
+    "aliases": [
+      "Migration Acceleration Program",
+      "AWS MAP",
+      "MAP 2.0",
+      "MAP for Windows",
+      "MAP for VMware"
+    ],
+    "type": "Concept",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/aws-migration-acceleration-program.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/map/",
+      "https://docs.aws.amazon.com/MAP/latest/userguide/getting-started.html",
+      "https://docs.aws.amazon.com/MAP/latest/userguide/setting-up.html",
+      "https://docs.aws.amazon.com/migrationhub/latest/launchguide/map.html",
+      "https://aws.amazon.com/about-aws/whats-new/2024/07/streamlined-map-funding-approval-aws-partner-central",
+      "https://aws.amazon.com/blogs/migration-and-modernization/aws-migration-acceleration-program-for-vmware"
+    ]
+  },
+  {
     "id": "kt:aws-migration-and-transfer-services",
     "title": "AWS migration and transfer services",
     "aliases": [

@@ -8433,6 +8433,101 @@
       ]
     },
     {
+      "@id": "kt:aws-migration-acceleration-program",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS Migration Acceleration Program",
+      "skos:definition": "AWS's commercial program for large enterprise migrations, which packages a three-phase methodology (assess, mobilize, migrate and modernize), partner and AWS Professional Services support, tooling and training with AWS investments — service credits or partner funding — earned by tagging migrated resources with the map-migrated tag.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Migration Acceleration Program (MAP)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/map/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Getting started - AWS Migration Acceleration Program 2.0 Tagging Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/MAP/latest/userguide/getting-started.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tagging key combinations - AWS Migration Acceleration Program 2.0 Tagging Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/MAP/latest/userguide/setting-up.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Migration Acceleration Program (MAP) - AWS Migration Hub launch guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/migrationhub/latest/launchguide/map.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing streamlined Migration Acceleration Program (MAP) funding and approval process in AWS Partner Central",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/07/streamlined-map-funding-approval-aws-partner-central",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Migration Acceleration Program for VMware",
+          "dcterms:publisher": "Amazon Web Services (AWS Migration & Modernization Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/migration-and-modernization/aws-migration-acceleration-program-for-vmware",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/aws-migration-acceleration-program.md",
+      "skos:altLabel": [
+        "Migration Acceleration Program",
+        "AWS MAP",
+        "MAP 2.0",
+        "MAP for Windows",
+        "MAP for VMware"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:seven-rs-migration-strategies"
+        },
+        {
+          "@id": "kt:aws-cloud-adoption-framework"
+        },
+        {
+          "@id": "kt:aws-transform"
+        },
+        {
+          "@id": "kt:vmware-migration-to-aws"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-transform-mgn"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:cost-allocation-tags"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cost-explorer"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:migration-wave-planning"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-migration-and-transfer-services",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS migration and transfer services",

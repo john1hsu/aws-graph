@@ -1940,6 +1940,34 @@
 <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-systems-manager> .
 <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Migration Acceleration Program" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS MAP" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2004/02/skos/core#altLabel> "MAP 2.0" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2004/02/skos/core#altLabel> "MAP for VMware" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2004/02/skos/core#altLabel> "MAP for Windows" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2004/02/skos/core#altLabel> "Migration Acceleration Program" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2004/02/skos/core#definition> "AWS's commercial program for large enterprise migrations, which packages a three-phase methodology (assess, mobilize, migrate and modernize), partner and AWS Professional Services support, tooling and training with AWS investments — service credits or partner funding — earned by tagging migrated resources with the map-migrated tag." .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Migration Acceleration Program" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transform> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/migration-wave-planning> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS migration and transfer services" .
@@ -5790,6 +5818,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-management-and-governance-services/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s1> <http://purl.org/dc/terms/title> "AWS Migration Acceleration Program (MAP)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s1> <https://schema.org/url> "https://aws.amazon.com/map/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s2> <http://purl.org/dc/terms/title> "Getting started - AWS Migration Acceleration Program 2.0 Tagging Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s2> <https://schema.org/url> "https://docs.aws.amazon.com/MAP/latest/userguide/getting-started.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s3> <http://purl.org/dc/terms/title> "Tagging key combinations - AWS Migration Acceleration Program 2.0 Tagging Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s3> <https://schema.org/url> "https://docs.aws.amazon.com/MAP/latest/userguide/setting-up.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s4> <http://purl.org/dc/terms/title> "Migration Acceleration Program (MAP) - AWS Migration Hub launch guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s4> <https://schema.org/url> "https://docs.aws.amazon.com/migrationhub/latest/launchguide/map.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s5> <http://purl.org/dc/terms/title> "Announcing streamlined Migration Acceleration Program (MAP) funding and approval process in AWS Partner Central" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2024/07/streamlined-map-funding-approval-aws-partner-central" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Migration & Modernization Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s6> <http://purl.org/dc/terms/title> "AWS Migration Acceleration Program for VMware" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-migration-acceleration-program/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/migration-and-modernization/aws-migration-acceleration-program-for-vmware" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s1> <http://purl.org/dc/terms/title> "Migration and transfer - Overview of Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-migration-and-transfer-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
