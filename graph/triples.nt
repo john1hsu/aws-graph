@@ -2900,6 +2900,30 @@
 <https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
 <https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "IAM quotas" .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "IAM and AWS STS quotas" .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "IAM limits" .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "IAM service quotas" .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-account object counts, attachment limits, character and size limits, and STS request rate that constrain AWS Identity and Access Management and AWS STS; some are adjustable through Service Quotas (requested in US East (N. Virginia)), many are fixed." .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "IAM quotas" .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-sts> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-roles> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/organizations-quotas> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "identity-and-access" .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/iam-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructure as code" .
@@ -6878,6 +6902,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-policy-evaluation-logic/s6> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UsingPolicySimulatorGuide/iam-policy-simulator-guide.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s1> <http://purl.org/dc/terms/title> "IAM and AWS STS quotas - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.md" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s2> <http://purl.org/dc/terms/title> "AWS Identity and Access Management endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/iam-service.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s3> <http://purl.org/dc/terms/title> "AWS IAM increases quotas (What's New with AWS, 2026-05-05)" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s3> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iam-increased-quotas/" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s4> <http://purl.org/dc/terms/title> "Methods to assume a role - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s5> <http://purl.org/dc/terms/title> "Requesting a quota increase - Service Quotas User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s5> <https://schema.org/url> "https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html" .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <http://purl.org/dc/terms/title> "Infrastructure as code - Introduction to DevOps on AWS" .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -7840,6 +7840,88 @@
       ]
     },
     {
+      "@id": "kt:iam-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "IAM quotas",
+      "skos:definition": "The per-account object counts, attachment limits, character and size limits, and STS request rate that constrain AWS Identity and Access Management and AWS STS; some are adjustable through Service Quotas (requested in US East (N. Virginia)), many are fixed.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "IAM and AWS STS quotas - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Identity and Access Management endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/iam-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS IAM increases quotas (What's New with AWS, 2026-05-05)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iam-increased-quotas/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Methods to assume a role - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Requesting a quota increase - Service Quotas User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/iam-quotas.md",
+      "skos:altLabel": [
+        "IAM and AWS STS quotas",
+        "IAM limits",
+        "IAM service quotas"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-sts"
+        },
+        {
+          "@id": "kt:iam-roles"
+        },
+        {
+          "@id": "kt:service-quotas"
+        },
+        {
+          "@id": "kt:multi-account-strategy"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-partitions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:organizations-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:permissions-boundaries",
       "@type": "kto:Feature",
       "skos:prefLabel": "IAM permissions boundaries",

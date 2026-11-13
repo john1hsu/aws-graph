@@ -12,17 +12,17 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ci-cd` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton`, `kt:aws-nitro-system`, `kt:ec2-placement-groups` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
+| `kt:iam-roles` | `kt:aws-sts`, `kt:iam-policy-evaluation-logic`, `kt:iam-quotas`, `kt:permissions-boundaries` |
+| `kt:organizations-quotas` | `kt:aws-organizations`, `kt:multi-account-strategy`, `kt:iam-quotas`, `kt:service-control-policies` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
 | `kt:aws-codedeploy` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
-| `kt:iam-quotas` | `kt:aws-iam`, `kt:aws-sts`, `kt:permissions-boundaries` |
-| `kt:iam-roles` | `kt:aws-sts`, `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
 | `kt:nist-sp-800-53` | `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws`, `kt:hipaa-eligible-services` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
-| `kt:organizations-quotas` | `kt:aws-organizations`, `kt:multi-account-strategy`, `kt:service-control-policies` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds`, `kt:aurora-serverless-v2` |
+| `kt:service-quotas` | `kt:reliability-pillar`, `kt:iam-quotas`, `kt:iam-quotas` |
 | `kt:aurora-quotas` | `kt:amazon-aurora`, `kt:aurora-serverless-v2` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-textract` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
@@ -140,7 +140,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:sagemaker-ai-quotas` | `kt:amazon-sagemaker-ai` |
 | `kt:security-groups-vs-network-acls` | `kt:amazon-vpc` |
-| `kt:service-quotas` | `kt:reliability-pillar` |
 | `kt:sns-quotas` | `kt:amazon-sns` |
 | `kt:sqs-quotas` | `kt:amazon-sqs` |
 | `kt:step-functions-quotas` | `kt:aws-step-functions` |

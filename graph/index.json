@@ -2535,6 +2535,28 @@
     ]
   },
   {
+    "id": "kt:iam-quotas",
+    "title": "IAM quotas",
+    "aliases": [
+      "IAM and AWS STS quotas",
+      "IAM limits",
+      "IAM service quotas"
+    ],
+    "type": "Limit",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/iam-quotas.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.md",
+      "https://docs.aws.amazon.com/general/latest/gr/iam-service.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iam-increased-quotas/",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use.html",
+      "https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html"
+    ]
+  },
+  {
     "id": "kt:infrastructure-as-code",
     "title": "Infrastructure as code",
     "aliases": [
