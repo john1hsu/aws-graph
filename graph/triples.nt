@@ -7924,6 +7924,66 @@
 <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s10> <http://purl.org/dc/terms/title> "Document revisions - Sustainability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s10> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/document-revisions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s11> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s11> <http://purl.org/dc/terms/title> "Announcing the AWS Sustainability console: programmatic access, configurable CSV reports, and Scope 1-3 reporting in one place" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s11> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s11> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/announcing-the-aws-sustainability-console-programmatic-access-configurable-csv-reports-and-scope-1-3-reporting-in-one-place" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s12> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s12> <http://purl.org/dc/terms/title> "AWS' Customer Carbon Footprint Tool now includes Scope 3 emissions data" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s12> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s12> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-customer-carbon-footprint-tool-scope-3-emissions-data" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s1> <http://purl.org/dc/terms/title> "Sustainability Pillar - AWS Well-Architected Framework (introduction)" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s1> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s2> <http://purl.org/dc/terms/title> "Design principles (sustainability) - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus-design-principles.html" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s3> <http://purl.org/dc/terms/title> "The shared responsibility model - Sustainability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/the-shared-responsibility-model.html" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s4> <http://purl.org/dc/terms/title> "Definition (sustainability) - AWS Well-Architected Framework (2024-06-27 version)" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s4> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/2024-06-27/framework/sus-def.html" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s5> <http://purl.org/dc/terms/title> "SUS01-BP01 Choose Region based on both business requirements and sustainability goals" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s5> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus_sus_region_a2.html" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s6> <http://purl.org/dc/terms/title> "Alignment to demand - AWS Well-Architected Framework (2024-06-27 version)" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s6> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/2024-06-27/framework/sus-user-behavior-patterns.html" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s7> <http://purl.org/dc/terms/title> "Improvement process - Sustainability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s7> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/improvement-process.html" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s8> <http://purl.org/dc/terms/title> "Evaluate specific improvements - Sustainability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s8> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/evaluate-specific-improvements.html" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s9> <http://purl.org/dc/terms/title> "Sustainability as a non-functional requirement - Sustainability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s9> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-as-a-non-functional-requirement.html" .
 <https://github.com/john1hsu/aws-graph/id/spot-instances> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#PricingModel> .
 <https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 Spot Instances" .
@@ -7953,3 +8013,35 @@
 <https://github.com/john1hsu/aws-graph/id/spot-instances> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
 <https://github.com/john1hsu/aws-graph/id/spot-instances> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/spot-instances> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Sustainability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Well-Architected Sustainability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "Sustainability Pillar whitepaper" .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2004/02/skos/core#altLabel> "Well-Architected sustainability pillar" .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2004/02/skos/core#definition> "The sixth pillar of the AWS Well-Architected Framework, concerned with reducing the environmental impact of cloud workloads by maximizing utilization and minimizing the resources provisioned, organized into six best practice areas, six design principles and an iterative improvement process." .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sustainability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-graviton> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s10> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s11> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s12> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s1> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s2> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s3> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s4> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s5> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s6> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s7> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s8> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s9> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-sustainability-console> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .

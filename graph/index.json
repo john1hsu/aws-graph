@@ -3107,5 +3107,34 @@
       "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-limits.md",
       "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md"
     ]
+  },
+  {
+    "id": "kt:sustainability-pillar",
+    "title": "Sustainability Pillar",
+    "aliases": [
+      "AWS Well-Architected Sustainability Pillar",
+      "Well-Architected sustainability pillar",
+      "Sustainability Pillar whitepaper"
+    ],
+    "type": "Concept",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/sustainability-pillar.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus-design-principles.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/the-shared-responsibility-model.html",
+      "https://docs.aws.amazon.com/wellarchitected/2024-06-27/framework/sus-def.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus_sus_region_a2.html",
+      "https://docs.aws.amazon.com/wellarchitected/2024-06-27/framework/sus-user-behavior-patterns.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/improvement-process.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/evaluate-specific-improvements.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-as-a-non-functional-requirement.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/document-revisions.html",
+      "https://aws.amazon.com/blogs/aws/announcing-the-aws-sustainability-console-programmatic-access-configurable-csv-reports-and-scope-1-3-reporting-in-one-place",
+      "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-customer-carbon-footprint-tool-scope-3-emissions-data"
+    ]
   }
 ]

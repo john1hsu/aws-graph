@@ -85,6 +85,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-skill-builder` | `kt:aws-certification-program` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
+| `kt:aws-sustainability-console` | `kt:sustainability-pillar` |
 | `kt:aws-wavelength` | `kt:local-zones` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:bottlerocket` | `kt:ecs-managed-instances` |
@@ -147,7 +148,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:step-functions-quotas` | `kt:aws-step-functions` |
 | `kt:storage-gateway-quotas` | `kt:aws-storage-gateway` |
 | `kt:subnets-and-route-tables` | `kt:amazon-vpc` |
-| `kt:sustainability-pillar` | `kt:cost-optimization-pillar` |
 | `kt:systems-manager-parameter-store` | `kt:aws-systems-manager` |
 | `kt:systems-manager-session-manager` | `kt:aws-systems-manager` |
 | `kt:transfer-family-quotas` | `kt:aws-transfer-family` |

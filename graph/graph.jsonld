@@ -2261,6 +2261,135 @@
       ]
     },
     {
+      "@id": "kt:sustainability-pillar",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Sustainability Pillar",
+      "skos:definition": "The sixth pillar of the AWS Well-Architected Framework, concerned with reducing the environmental impact of cloud workloads by maximizing utilization and minimizing the resources provisioned, organized into six best practice areas, six design principles and an iterative improvement process.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Sustainability Pillar - AWS Well-Architected Framework (introduction)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design principles (sustainability) - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus-design-principles.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The shared responsibility model - Sustainability Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/the-shared-responsibility-model.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Definition (sustainability) - AWS Well-Architected Framework (2024-06-27 version)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/2024-06-27/framework/sus-def.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SUS01-BP01 Choose Region based on both business requirements and sustainability goals",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus_sus_region_a2.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Alignment to demand - AWS Well-Architected Framework (2024-06-27 version)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/2024-06-27/framework/sus-user-behavior-patterns.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Improvement process - Sustainability Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/improvement-process.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Evaluate specific improvements - Sustainability Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/evaluate-specific-improvements.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Sustainability as a non-functional requirement - Sustainability Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-as-a-non-functional-requirement.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Document revisions - Sustainability Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/document-revisions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing the AWS Sustainability console: programmatic access, configurable CSV reports, and Scope 1-3 reporting in one place",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/announcing-the-aws-sustainability-console-programmatic-access-configurable-csv-reports-and-scope-1-3-reporting-in-one-place",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS' Customer Carbon Footprint Tool now includes Scope 3 emissions data",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-customer-carbon-footprint-tool-scope-3-emissions-data",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/sustainability-pillar.md",
+      "skos:altLabel": [
+        "AWS Well-Architected Sustainability Pillar",
+        "Well-Architected sustainability pillar",
+        "Sustainability Pillar whitepaper"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cost-optimization-pillar"
+        },
+        {
+          "@id": "kt:performance-efficiency-pillar"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:aws-graviton"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-sustainability-console"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certification-program",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS Certification program",
