@@ -3008,6 +3008,31 @@
 <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/migration-wave-planning> .
 <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2000/01/rdf-schema#label> "AWS shared responsibility model" .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2004/02/skos/core#altLabel> "Security of the cloud vs security in the cloud" .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2004/02/skos/core#altLabel> "Shared Responsibility Model" .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2004/02/skos/core#altLabel> "Shared responsibility model" .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2004/02/skos/core#altLabel> "Shared security responsibility model" .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/security-pillar> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2004/02/skos/core#definition> "The AWS shared responsibility model divides security and compliance duties between AWS, which secures the cloud itself (facilities, hardware, network, host OS and virtualization), and the customer, who secures what they run in it; the customer's share shrinks as services become more managed." .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS shared responsibility model" .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-artifact> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s1> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s2> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s3> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s4> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/amazon-rds> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Developer - Associate" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
@@ -6743,6 +6768,26 @@
 <https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s5> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/phases.html" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s1> <http://purl.org/dc/terms/title> "Shared responsibility - Security Pillar (AWS Well-Architected Framework)" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s1> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/shared-responsibility.html" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s2> <http://purl.org/dc/terms/title> "Understanding the security scope - AWS Prescriptive Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s2> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-accelerating-security-maturity/understanding-the-security-scope.html" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s3> <http://purl.org/dc/terms/title> "Understanding the shared responsibility model for Lambda runtime management - AWS Lambda" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s3> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/runtime-management-shared.html" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s4> <http://purl.org/dc/terms/title> "AWS Certified Cloud Practitioner (CLF-C02) exam guide - Domain 2: Security and Compliance" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s4> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html" .
 <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <http://purl.org/dc/terms/title> "Amazon EC2 Spot Instances" .
 <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

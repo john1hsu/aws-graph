@@ -2638,6 +2638,28 @@
     ]
   },
   {
+    "id": "kt:shared-responsibility-model",
+    "title": "AWS shared responsibility model",
+    "aliases": [
+      "Shared responsibility model",
+      "Shared Responsibility Model",
+      "Security of the cloud vs security in the cloud",
+      "Shared security responsibility model"
+    ],
+    "type": "Concept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/shared-responsibility-model.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/shared-responsibility.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-accelerating-security-maturity/understanding-the-security-scope.html",
+      "https://docs.aws.amazon.com/lambda/latest/dg/runtime-management-shared.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html"
+    ]
+  },
+  {
     "id": "kt:spot-instances",
     "title": "Amazon EC2 Spot Instances",
     "aliases": [

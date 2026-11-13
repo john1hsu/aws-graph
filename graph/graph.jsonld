@@ -5992,6 +5992,84 @@
       ]
     },
     {
+      "@id": "kt:shared-responsibility-model",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS shared responsibility model",
+      "skos:definition": "The AWS shared responsibility model divides security and compliance duties between AWS, which secures the cloud itself (facilities, hardware, network, host OS and virtualization), and the customer, who secures what they run in it; the customer's share shrinks as services become more managed.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Shared responsibility - Security Pillar (AWS Well-Architected Framework)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/shared-responsibility.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding the security scope - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-accelerating-security-maturity/understanding-the-security-scope.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding the shared responsibility model for Lambda runtime management - AWS Lambda",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/runtime-management-shared.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified Cloud Practitioner (CLF-C02) exam guide - Domain 2: Security and Compliance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/shared-responsibility-model.md",
+      "skos:altLabel": [
+        "Shared responsibility model",
+        "Shared Responsibility Model",
+        "Security of the cloud vs security in the cloud",
+        "Shared security responsibility model"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-pillar"
+        },
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-artifact"
+        },
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-fargate"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-rds"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-cloudwatch",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon CloudWatch",

@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-web-services` | `kt:aws-certification-program`, `kt:aws-compute-services`, `kt:purpose-built-databases`, `kt:aws-global-infrastructure`, `kt:aws-management-and-governance-services`, `kt:aws-migration-and-transfer-services`, `kt:aws-storage-services` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-emr`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:aws-lake-formation`, `kt:amazon-s3` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
-| `kt:shared-responsibility-model` | `kt:security-pillar`, `kt:aws-certified-cloud-practitioner`, `kt:aws-artifact`, `kt:aws-compliance-programs`, `kt:hipaa-eligible-services` |
 | `kt:aws-analytics-services` | `kt:amazon-data-firehose`, `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-nitro-system` | `kt:aws-trainium-and-inferentia`, `kt:aws-graviton`, `kt:aws-graviton`, `kt:ec2-placement-groups` |
