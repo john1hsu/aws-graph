@@ -96,6 +96,30 @@
     ]
   },
   {
+    "id": "kt:amazon-bedrock-agentcore",
+    "title": "Amazon Bedrock AgentCore",
+    "aliases": [
+      "AgentCore",
+      "Bedrock AgentCore",
+      "AWS AgentCore"
+    ],
+    "type": "Service",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-bedrock-agentcore.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-bedrock-agentcore-available",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
+      "https://aws.amazon.com/bedrock/agentcore/pricing/",
+      "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/bedrock-agentcore-limits.html",
+      "https://aws.amazon.com/bedrock/agentcore/faqs/",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-bedrock-guardrails",
     "title": "Amazon Bedrock Guardrails",
     "aliases": [

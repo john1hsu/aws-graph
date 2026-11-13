@@ -5,8 +5,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:amazon-web-services` | `kt:aws-certification-program`, `kt:aws-compute-services`, `kt:aws-pricing-fundamentals`, `kt:purpose-built-databases`, `kt:aws-global-infrastructure`, `kt:aws-management-and-governance-services`, `kt:aws-migration-and-transfer-services`, `kt:aws-storage-services` |
+| `kt:generative-ai-on-aws` | `kt:amazon-bedrock-agentcore`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:data-lake-on-aws` | `kt:amazon-athena`, `kt:amazon-emr`, `kt:amazon-redshift`, `kt:aws-glue`, `kt:aws-lake-formation`, `kt:amazon-s3` |
-| `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-analytics-services` | `kt:amazon-data-firehose`, `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
 | `kt:ci-cd` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
@@ -48,7 +48,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:resource-control-policies` | `kt:iam-policy-evaluation-logic`, `kt:service-control-policies` |
+| `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
+| `kt:amazon-bedrock-agents` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract` |
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |

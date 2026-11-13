@@ -10,6 +10,109 @@
   },
   "@graph": [
     {
+      "@id": "kt:amazon-bedrock-agentcore",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Bedrock AgentCore",
+      "skos:definition": "AWS's agentic platform of modular, consumption-priced services (Runtime, Memory, Gateway, Identity, Browser, Code Interpreter, Observability, Policy, Evaluations and more) for deploying and operating AI agents built with any framework and any model, inside or outside Amazon Bedrock.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Overview - Amazon Bedrock AgentCore (What is Amazon Bedrock AgentCore?)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock AgentCore is now generally available",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-bedrock-agentcore-available",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AgentCore harness is now generally available",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock AgentCore Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/bedrock/agentcore/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for Amazon Bedrock AgentCore",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/bedrock-agentcore-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock AgentCore FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/bedrock/agentcore/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified AI Practitioner (AIF-C01)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-bedrock-agentcore.md",
+      "skos:altLabel": [
+        "AgentCore",
+        "Bedrock AgentCore",
+        "AWS AgentCore"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:generative-ai-on-aws"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:amazon-bedrock-guardrails"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-bedrock-agents"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:agentcore-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-bedrock-guardrails",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon Bedrock Guardrails",
