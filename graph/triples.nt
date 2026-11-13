@@ -1324,6 +1324,33 @@
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CodeBuild" .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon CodeBuild" .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/2004/02/skos/core#altLabel> "CodeBuild" .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-developer-tools> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/ci-cd> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed build service that compiles source, runs tests and produces deployable artifacts in fresh, isolated environments on EC2 or Lambda compute, billed by build minute (or second) with no build servers to operate." .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS CodeBuild" .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-codedeploy> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ecr> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-codebuild> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CodePipeline" .
@@ -4926,6 +4953,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s1> <http://purl.org/dc/terms/title> "AWS CodeBuild FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s1> <https://schema.org/url> "https://aws.amazon.com/codebuild/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s2> <http://purl.org/dc/terms/title> "AWS CodeBuild pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s2> <https://schema.org/url> "https://aws.amazon.com/codebuild/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s3> <http://purl.org/dc/terms/title> "Quotas for AWS CodeBuild" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s3> <https://schema.org/url> "https://docs.aws.amazon.com/codebuild/latest/userguide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s4> <http://purl.org/dc/terms/title> "Build environment compute modes and types" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s4> <https://schema.org/url> "https://docs.aws.amazon.com/codebuild/latest/userguide/build-env-ref-compute-types.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s5> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s5> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s6> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Developer - Associate (DVA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-03/dva-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-codepipeline/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-codepipeline/s1> <http://purl.org/dc/terms/title> "What type of pipeline is right for me?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-codepipeline/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -5603,6 +5603,106 @@
       ]
     },
     {
+      "@id": "kt:aws-codebuild",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS CodeBuild",
+      "skos:definition": "AWS's fully managed build service that compiles source, runs tests and produces deployable artifacts in fresh, isolated environments on EC2 or Lambda compute, billed by build minute (or second) with no build servers to operate.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS CodeBuild FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/codebuild/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CodeBuild pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/codebuild/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for AWS CodeBuild",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/codebuild/latest/userguide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Build environment compute modes and types",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/codebuild/latest/userguide/build-env-ref-compute-types.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Developer - Associate (DVA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-03/dva-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/aws-codebuild.md",
+      "skos:altLabel": [
+        "CodeBuild",
+        "Amazon CodeBuild"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-developer-tools"
+        },
+        {
+          "@id": "kt:ci-cd"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-codepipeline"
+        },
+        {
+          "@id": "kt:aws-codedeploy"
+        },
+        {
+          "@id": "kt:infrastructure-as-code"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ecr"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-codepipeline",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS CodePipeline",

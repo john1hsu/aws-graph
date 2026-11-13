@@ -1170,6 +1170,28 @@
     ]
   },
   {
+    "id": "kt:aws-codebuild",
+    "title": "AWS CodeBuild",
+    "aliases": [
+      "CodeBuild",
+      "Amazon CodeBuild"
+    ],
+    "type": "Service",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/aws-codebuild.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/codebuild/faqs/",
+      "https://aws.amazon.com/codebuild/pricing/",
+      "https://docs.aws.amazon.com/codebuild/latest/userguide/limits.html",
+      "https://docs.aws.amazon.com/codebuild/latest/userguide/build-env-ref-compute-types.html",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-03/dva-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-codepipeline",
     "title": "AWS CodePipeline",
     "aliases": [

@@ -9,12 +9,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-analytics-services` | `kt:amazon-data-firehose`, `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:seven-rs-migration-strategies` |
+| `kt:ci-cd` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton`, `kt:aws-nitro-system`, `kt:ec2-placement-groups` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:application-load-balancer` | `kt:elastic-load-balancing`, `kt:aws-waf`, `kt:amazon-api-gateway` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
+| `kt:aws-codedeploy` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
-| `kt:ci-cd` | `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:iam-quotas` | `kt:aws-iam`, `kt:aws-sts`, `kt:permissions-boundaries` |
 | `kt:iam-roles` | `kt:aws-sts`, `kt:iam-policy-evaluation-logic`, `kt:permissions-boundaries` |
@@ -26,9 +27,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-textract` |
 | `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
-| `kt:aws-codedeploy` | `kt:aws-codepipeline`, `kt:blue-green-deployments` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
+| `kt:aws-developer-tools` | `kt:aws-codebuild`, `kt:aws-codepipeline` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs` |
 | `kt:aws-global-accelerator` | `kt:performance-efficiency-pillar`, `kt:edge-locations` |
@@ -71,11 +72,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-batch` | `kt:aws-compute-services` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-free-tier` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
-| `kt:aws-codebuild` | `kt:aws-codepipeline` |
 | `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
-| `kt:aws-developer-tools` | `kt:aws-codepipeline` |
 | `kt:aws-firewall-manager` | `kt:aws-waf` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
