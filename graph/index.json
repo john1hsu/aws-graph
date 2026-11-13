@@ -2404,6 +2404,32 @@
     ]
   },
   {
+    "id": "kt:data-lake-on-aws",
+    "title": "Data lake on AWS",
+    "aliases": [
+      "AWS data lake",
+      "data lakes on AWS",
+      "S3 data lake",
+      "Amazon S3 data lake"
+    ],
+    "type": "Pattern",
+    "domain": "analytics",
+    "file": "articles/analytics/data-lake-on-aws.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "concept",
+    "source_urls": [
+      "https://aws.amazon.com/compare/the-difference-between-a-data-warehouse-data-lake-and-data-mart",
+      "https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/data-lake-foundation.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/securing-protecting-managing-data.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/apache-iceberg-on-aws/data-lakes.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-regions-quotas.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-aws-data/aws-architecture.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/01/amazon-s3-tables-10000-tables-bucket"
+    ]
+  },
+  {
     "id": "kt:disaster-recovery-strategies",
     "title": "Disaster recovery strategies on AWS",
     "aliases": [

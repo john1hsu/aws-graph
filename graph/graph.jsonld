@@ -1465,6 +1465,118 @@
       ]
     },
     {
+      "@id": "kt:data-lake-on-aws",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Data lake on AWS",
+      "skos:definition": "The architecture pattern of storing structured, semi-structured and unstructured data in its native form on Amazon S3, cataloguing it in the AWS Glue Data Catalog, governing it with Lake Formation and querying it in place with decoupled engines such as Athena, EMR and Redshift.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What's the Difference Between a Data Warehouse, Data Lake, and Data Mart?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compare/the-difference-between-a-data-warehouse-data-lake-and-data-mart",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data lake foundation - Storage Best Practices for Data and Analytics Applications",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/data-lake-foundation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Securing, protecting, and managing data - Storage Best Practices for Data and Analytics Applications",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/securing-protecting-managing-data.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Modern data lakes - AWS Prescriptive Guidance (Using Apache Iceberg on AWS)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/apache-iceberg-on-aws/data-lakes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Working with Amazon S3 Tables and table buckets - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "S3 Tables AWS Regions, endpoints, and service quotas - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-regions-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS modern data architecture - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-aws-data/aws-architecture.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon S3 Tables now support 10,000 tables per table bucket",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/01/amazon-s3-tables-10000-tables-bucket",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/analytics/data-lake-on-aws.md",
+      "skos:altLabel": [
+        "AWS data lake",
+        "data lakes on AWS",
+        "S3 data lake",
+        "Amazon S3 data lake"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-analytics-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-redshift"
+        },
+        {
+          "@id": "kt:amazon-emr"
+        },
+        {
+          "@id": "kt:amazon-data-firehose"
+        },
+        {
+          "@id": "kt:apache-iceberg"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-glue"
+        },
+        {
+          "@id": "kt:aws-lake-formation"
+        },
+        {
+          "@id": "kt:amazon-athena"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:data-warehouse"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-well-architected-framework",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS Well-Architected Framework",

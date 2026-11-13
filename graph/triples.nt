@@ -2753,6 +2753,37 @@
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "Data lake on AWS" .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS data lake" .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon S3 data lake" .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 data lake" .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "data lakes on AWS" .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/2004/02/skos/core#definition> "The architecture pattern of storing structured, semi-structured and unstructured data in its native form on Amazon S3, cataloguing it in the AWS Glue Data Catalog, governing it with Lake Formation and querying it in place with decoupled engines such as Athena, EMR and Redshift." .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data lake on AWS" .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-emr> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/apache-iceberg> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s1> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s2> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s3> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s4> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s5> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s6> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s7> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s8> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/data-warehouse> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-lake-formation> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://www.w3.org/2000/01/rdf-schema#label> "Disaster recovery strategies on AWS" .
@@ -6968,6 +6999,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s9> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-bp.html" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s1> <http://purl.org/dc/terms/title> "What's the Difference Between a Data Warehouse, Data Lake, and Data Mart?" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s1> <https://schema.org/url> "https://aws.amazon.com/compare/the-difference-between-a-data-warehouse-data-lake-and-data-mart" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s2> <http://purl.org/dc/terms/title> "Data lake foundation - Storage Best Practices for Data and Analytics Applications" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s2> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/data-lake-foundation.html" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s3> <http://purl.org/dc/terms/title> "Securing, protecting, and managing data - Storage Best Practices for Data and Analytics Applications" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s3> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/securing-protecting-managing-data.html" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s4> <http://purl.org/dc/terms/title> "Modern data lakes - AWS Prescriptive Guidance (Using Apache Iceberg on AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s4> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/apache-iceberg-on-aws/data-lakes.html" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s5> <http://purl.org/dc/terms/title> "Working with Amazon S3 Tables and table buckets - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables.html" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s6> <http://purl.org/dc/terms/title> "S3 Tables AWS Regions, endpoints, and service quotas - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-regions-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s7> <http://purl.org/dc/terms/title> "AWS modern data architecture - AWS Prescriptive Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s7> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-aws-data/aws-architecture.html" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s8> <http://purl.org/dc/terms/title> "Amazon S3 Tables now support 10,000 tables per table bucket" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/01/amazon-s3-tables-10000-tables-bucket" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://purl.org/dc/terms/title> "Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
