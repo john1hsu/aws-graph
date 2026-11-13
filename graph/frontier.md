@@ -25,7 +25,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:service-quotas` | `kt:reliability-pillar`, `kt:iam-quotas`, `kt:iam-quotas` |
 | `kt:aurora-quotas` | `kt:amazon-aurora`, `kt:aurora-serverless-v2` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-textract` |
-| `kt:aws-certified-machine-learning-engineer-associate` | `kt:amazon-sagemaker-ai`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer` |

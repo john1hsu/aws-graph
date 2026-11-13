@@ -1104,6 +1104,27 @@
     ]
   },
   {
+    "id": "kt:aws-certified-machine-learning-engineer-associate",
+    "title": "AWS Certified Machine Learning Engineer - Associate",
+    "aliases": [
+      "MLA-C01",
+      "MLA-C02",
+      "AWS ML Engineer Associate",
+      "AWS MLA"
+    ],
+    "type": "Certification",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certified-machine-learning-engineer-associate.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/pdfs/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01.pdf",
+      "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate",
+      "https://aws.amazon.com/blogs/training-and-certification/updates-to-aws-certified-machine-learning-engineer-associate-mla-c02/"
+    ]
+  },
+  {
     "id": "kt:aws-certified-security-specialty",
     "title": "AWS Certified Security - Specialty",
     "aliases": [

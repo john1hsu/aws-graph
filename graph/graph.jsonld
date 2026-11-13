@@ -2684,6 +2684,73 @@
       ]
     },
     {
+      "@id": "kt:aws-certified-machine-learning-engineer-associate",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "AWS Certified Machine Learning Engineer - Associate",
+      "skos:definition": "AWS's associate-level certification for ML engineers, validating the ability to prepare data, build, deploy, orchestrate, monitor and secure ML solutions on AWS (centred on SageMaker AI); exam MLA-C01 is being replaced by MLA-C02, which adds generative and agentic AI and has been in beta since September 2026.",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Certified Machine Learning Engineer - Associate (MLA-C01) Exam Guide (PDF)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01.pdf",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certified Machine Learning Engineer - Associate",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Updates to AWS Certified Machine Learning Engineer - Associate (MLA-C02)",
+          "dcterms:publisher": "Amazon Web Services (AWS Training and Certification Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/training-and-certification/updates-to-aws-certified-machine-learning-engineer-associate-mla-c02/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-certified-machine-learning-engineer-associate.md",
+      "skos:altLabel": [
+        "MLA-C01",
+        "MLA-C02",
+        "AWS ML Engineer Associate",
+        "AWS MLA"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        },
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        },
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:aws-glue"
+        },
+        {
+          "@id": "kt:ci-cd"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        },
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-security-specialty",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified Security - Specialty",
