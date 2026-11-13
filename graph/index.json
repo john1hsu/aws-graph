@@ -189,6 +189,29 @@
     ]
   },
   {
+    "id": "kt:amazon-comprehend",
+    "title": "Amazon Comprehend",
+    "aliases": [
+      "Comprehend",
+      "AWS Comprehend",
+      "Amazon Comprehend Custom"
+    ],
+    "type": "Service",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-comprehend.md",
+    "created": "2026-11-13",
+    "verified": "2026-11-13",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html",
+      "https://docs.aws.amazon.com/comprehend/latest/dg/comprehend-availability-change.html",
+      "https://docs.aws.amazon.com/comprehend/latest/dg/guidelines-and-limits.html",
+      "https://aws.amazon.com/comprehend/pricing",
+      "https://docs.aws.amazon.com/comprehend/latest/dg/trust-safety.html",
+      "https://docs.aws.amazon.com/it_it/aws-certification/latest/userguide/aif-01-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-data-firehose",
     "title": "Amazon Data Firehose",
     "aliases": [

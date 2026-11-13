@@ -288,6 +288,104 @@
       ]
     },
     {
+      "@id": "kt:amazon-comprehend",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Comprehend",
+      "skos:definition": "AWS's pretrained natural-language-processing service that extracts entities, key phrases, dominant language, sentiment, syntax and personally identifiable information from text, detects toxic content, and lets you train custom classifiers and entity recognizers without ML expertise.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedOn": "2026-11-13",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Comprehend?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Comprehend feature availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/comprehend/latest/dg/comprehend-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Guidelines and quotas (Amazon Comprehend)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/comprehend/latest/dg/guidelines-and-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Comprehend Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/comprehend/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trust and safety (Amazon Comprehend)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/comprehend/latest/dg/trust-safety.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified AI Practitioner (AIF-C01): In-scope AWS services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/it_it/aws-certification/latest/userguide/aif-01-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-comprehend.md",
+      "skos:altLabel": [
+        "Comprehend",
+        "AWS Comprehend",
+        "Amazon Comprehend Custom"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-ai-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-textract"
+        },
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:amazon-comprehend-medical"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:amazon-bedrock-guardrails"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:comprehend-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-sagemaker-ai",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon SageMaker AI",

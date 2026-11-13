@@ -203,6 +203,33 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Comprehend" .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Comprehend" .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Comprehend Custom" .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/2004/02/skos/core#altLabel> "Comprehend" .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-ai-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/2004/02/skos/core#definition> "AWS's pretrained natural-language-processing service that extracts entities, key phrases, dominant language, sentiment, syntax and personally identifiable information from text, detects toxic content, and lets you train custom classifiers and entity recognizers without ML expertise." .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Comprehend" .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-comprehend-medical> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-textract> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/comprehend-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Data Firehose" .
@@ -3240,6 +3267,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s1> <http://purl.org/dc/terms/title> "What is Amazon Comprehend?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s1> <https://schema.org/url> "https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s2> <http://purl.org/dc/terms/title> "Amazon Comprehend feature availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s2> <https://schema.org/url> "https://docs.aws.amazon.com/comprehend/latest/dg/comprehend-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s3> <http://purl.org/dc/terms/title> "Guidelines and quotas (Amazon Comprehend)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s3> <https://schema.org/url> "https://docs.aws.amazon.com/comprehend/latest/dg/guidelines-and-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s4> <http://purl.org/dc/terms/title> "Amazon Comprehend Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s4> <https://schema.org/url> "https://aws.amazon.com/comprehend/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s5> <http://purl.org/dc/terms/title> "Trust and safety (Amazon Comprehend)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s5> <https://schema.org/url> "https://docs.aws.amazon.com/comprehend/latest/dg/trust-safety.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s6> <http://purl.org/dc/terms/title> "AWS Certified AI Practitioner (AIF-C01): In-scope AWS services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s6> <https://schema.org/url> "https://docs.aws.amazon.com/it_it/aws-certification/latest/userguide/aif-01-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s1> <http://purl.org/dc/terms/title> "What is Amazon Data Firehose? - Amazon Data Firehose" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
