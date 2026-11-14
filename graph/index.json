@@ -2091,6 +2091,32 @@
     ]
   },
   {
+    "id": "kt:aws-secrets-manager",
+    "title": "AWS Secrets Manager",
+    "aliases": [
+      "Secrets Manager"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/aws-secrets-manager.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html",
+      "https://aws.amazon.com/secrets-manager/faqs",
+      "https://aws.amazon.com/secrets-manager/pricing/",
+      "https://docs.aws.amazon.com/secretsmanager/latest/userguide/reference_limits.html",
+      "https://docs.aws.amazon.com/secretsmanager/latest/userguide/replicate-secrets.html",
+      "https://docs.aws.amazon.com/cli/latest/reference/secretsmanager/delete-secret.html",
+      "https://docs.aws.amazon.com/secretsmanager/latest/userguide/best-practices",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-secrets-manager-managed-external-secrets",
+      "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-cisco-netskope/",
+      "https://aws.amazon.com/blogs/security/how-to-choose-the-right-aws-service-for-managing-secrets-and-configurations",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-security-hub",
     "title": "AWS Security Hub",
     "aliases": [

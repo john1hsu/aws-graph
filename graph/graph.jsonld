@@ -12186,6 +12186,139 @@
       ]
     },
     {
+      "@id": "kt:aws-secrets-manager",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Secrets Manager",
+      "skos:definition": "AWS's managed service for storing, retrieving, rotating and auditing secrets such as database credentials, API keys and OAuth tokens, encrypted with AWS KMS and optionally replicated to other Regions, so applications fetch credentials at runtime instead of hard-coding them.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Secrets Manager?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Secrets Manager FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/secrets-manager/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Secrets Manager pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/secrets-manager/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Secrets Manager quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/reference_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Replicate AWS Secrets Manager secrets across Regions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/replicate-secrets.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "delete-secret - AWS CLI Command Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cli/latest/reference/secretsmanager/delete-secret.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Secrets Manager best practices",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/best-practices",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Secrets Manager announces managed external secrets",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-secrets-manager-managed-external-secrets",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Secrets Manager adds managed external secrets support for Cisco Security Platform and Netskope",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-cisco-netskope/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "How to choose the right AWS service for managing secrets and configurations",
+          "dcterms:publisher": "Amazon Web Services (AWS Security Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/security/how-to-choose-the-right-aws-service-for-managing-secrets-and-configurations",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security/aws-secrets-manager.md",
+      "skos:altLabel": [
+        "Secrets Manager"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:aws-privatelink"
+        },
+        {
+          "@id": "kt:amazon-rds"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-systems-manager"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:secrets-manager-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-security-hub",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Security Hub",

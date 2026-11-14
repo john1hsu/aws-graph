@@ -2385,6 +2385,37 @@
 <https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
 <https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Secrets Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/2004/02/skos/core#altLabel> "Secrets Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed service for storing, retrieving, rotating and auditing secrets such as database credentials, API keys and OAuth tokens, encrypted with AWS KMS and optionally replicated to other Regions, so applications fetch credentials at runtime instead of hard-coding them." .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Secrets Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-rds> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-privatelink> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s10> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s11> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s9> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-systems-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/secrets-manager-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-secrets-manager> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-security-hub> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Security Hub" .
@@ -6791,6 +6822,61 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s8> <https://schema.org/url> "https://aws.amazon.com/blogs/security/15-additional-aws-services-authorized-dod-impact-level-6-aws-secret-region" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Security Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s10> <http://purl.org/dc/terms/title> "How to choose the right AWS service for managing secrets and configurations" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s10> <https://schema.org/url> "https://aws.amazon.com/blogs/security/how-to-choose-the-right-aws-service-for-managing-secrets-and-configurations" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s11> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s11> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s11> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s11> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s1> <http://purl.org/dc/terms/title> "What is AWS Secrets Manager?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s1> <https://schema.org/url> "https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s2> <http://purl.org/dc/terms/title> "AWS Secrets Manager FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s2> <https://schema.org/url> "https://aws.amazon.com/secrets-manager/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s3> <http://purl.org/dc/terms/title> "AWS Secrets Manager pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s3> <https://schema.org/url> "https://aws.amazon.com/secrets-manager/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s4> <http://purl.org/dc/terms/title> "AWS Secrets Manager quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s4> <https://schema.org/url> "https://docs.aws.amazon.com/secretsmanager/latest/userguide/reference_limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s5> <http://purl.org/dc/terms/title> "Replicate AWS Secrets Manager secrets across Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s5> <https://schema.org/url> "https://docs.aws.amazon.com/secretsmanager/latest/userguide/replicate-secrets.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s6> <http://purl.org/dc/terms/title> "delete-secret - AWS CLI Command Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s6> <https://schema.org/url> "https://docs.aws.amazon.com/cli/latest/reference/secretsmanager/delete-secret.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s7> <http://purl.org/dc/terms/title> "AWS Secrets Manager best practices" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s7> <https://schema.org/url> "https://docs.aws.amazon.com/secretsmanager/latest/userguide/best-practices" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s8> <http://purl.org/dc/terms/title> "AWS Secrets Manager announces managed external secrets" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-secrets-manager-managed-external-secrets" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s9> <http://purl.org/dc/terms/title> "AWS Secrets Manager adds managed external secrets support for Cisco Security Platform and Netskope" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-secrets-manager/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-cisco-netskope/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s1> <http://purl.org/dc/terms/title> "Introduction to AWS Security Hub" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-security-hub/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

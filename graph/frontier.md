@@ -13,7 +13,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:service-quotas` | `kt:reliability-pillar`, `kt:organizations-quotas`, `kt:iam-quotas`, `kt:iam-quotas` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
-| `kt:aws-secrets-manager` | `kt:aws-systems-manager`, `kt:aws-transfer-family`, `kt:aws-kms` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds`, `kt:aurora-serverless-v2` |
@@ -143,6 +142,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:sagemaker-ai-quotas` | `kt:amazon-sagemaker-ai` |
+| `kt:secrets-manager-quotas` | `kt:aws-secrets-manager` |
 | `kt:sns-quotas` | `kt:amazon-sns` |
 | `kt:sqs-quotas` | `kt:amazon-sqs` |
 | `kt:ssm-agent` | `kt:aws-systems-manager` |
