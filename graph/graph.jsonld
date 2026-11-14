@@ -13105,6 +13105,132 @@
       ]
     },
     {
+      "@id": "kt:aws-appsync",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS AppSync",
+      "skos:definition": "AWS's serverless API service for GraphQL and real-time Pub/Sub: GraphQL APIs expose many data sources behind one endpoint with resolvers and WebSocket subscriptions, while AppSync Events provides managed WebSocket channels for broadcasting events to large numbers of subscribers.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS AppSync?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/appsync/latest/devguide/what-is-appsync.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is AWS AppSync Events?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/appsync/latest/eventapi/event-api-welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Attaching a data source in AWS AppSync",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/appsync/latest/devguide/attaching-a-data-source.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS AppSync endpoints and quotas",
+          "dcterms:publisher": "Amazon Web Services (AWS General Reference)",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/appsync.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS AppSync Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/appsync/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS AppSync FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/appsync/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing AWS AppSync Events: serverless WebSocket APIs to power real-time web and mobile experiences at any scale",
+          "dcterms:publisher": "Amazon Web Services (Front-End Web & Mobile Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/mobile/announcing-aws-appsync-events-serverless-websocket-apis/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Enhance real-time applications with AWS AppSync Events data source integrations",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/enhance-real-time-applications-with-aws-appsync-events-data-source-integrations/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Developer - Associate (DVA-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/aws-appsync.md",
+      "skos:altLabel": [
+        "AppSync",
+        "Amazon AppSync",
+        "AWS AppSync GraphQL",
+        "AWS AppSync Events",
+        "AppSync Events"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-serverless-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-dynamodb"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-eventbridge"
+        },
+        {
+          "@id": "kt:aws-amplify"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-api-gateway"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:amazon-cognito"
+        },
+        {
+          "@id": "kt:aws-waf"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:appsync-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-lambda",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Lambda",
@@ -13303,6 +13429,9 @@
         },
         {
           "@id": "kt:amazon-eventbridge"
+        },
+        {
+          "@id": "kt:aws-appsync"
         }
       ],
       "kto:hasPart": [

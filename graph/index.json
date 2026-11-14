@@ -947,6 +947,34 @@
     ]
   },
   {
+    "id": "kt:aws-appsync",
+    "title": "AWS AppSync",
+    "aliases": [
+      "AppSync",
+      "Amazon AppSync",
+      "AWS AppSync GraphQL",
+      "AWS AppSync Events",
+      "AppSync Events"
+    ],
+    "type": "Service",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/aws-appsync.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/appsync/latest/devguide/what-is-appsync.html",
+      "https://docs.aws.amazon.com/appsync/latest/eventapi/event-api-welcome.html",
+      "https://docs.aws.amazon.com/appsync/latest/devguide/attaching-a-data-source.html",
+      "https://docs.aws.amazon.com/general/latest/gr/appsync.html",
+      "https://aws.amazon.com/appsync/pricing/",
+      "https://aws.amazon.com/appsync/faqs/",
+      "https://aws.amazon.com/blogs/mobile/announcing-aws-appsync-events-serverless-websocket-apis/",
+      "https://aws.amazon.com/blogs/aws/enhance-real-time-applications-with-aws-appsync-events-data-source-integrations/",
+      "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-artifact",
     "title": "AWS Artifact",
     "aliases": [

@@ -11,7 +11,7 @@ summary: >-
 verified: 2026-11-09
 status: concept
 broader: [kt:cloud-architecture]
-related: [kt:amazon-api-gateway, kt:amazon-sqs, kt:aws-step-functions, kt:amazon-eventbridge]
+related: [kt:amazon-api-gateway, kt:amazon-sqs, kt:aws-step-functions, kt:amazon-eventbridge, kt:aws-appsync]
 relations:
   - {predicate: hasPart, object: kt:aws-lambda}
   - {predicate: hasPart, object: kt:aws-fargate}

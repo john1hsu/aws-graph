@@ -50,6 +50,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-bedrock-agents` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract` |
+| `kt:amazon-cognito` | `kt:aws-appsync` |
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
 | `kt:amazon-detective` | `kt:amazon-guardduty` |
@@ -66,8 +67,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
 | `kt:application-portfolio-assessment` | `kt:seven-rs-migration-strategies` |
+| `kt:appsync-quotas` | `kt:aws-appsync` |
 | `kt:attribute-based-instance-type-selection` | `kt:ec2-instance-types` |
 | `kt:aws-account-management` | `kt:aws-regions` |
+| `kt:aws-amplify` | `kt:aws-appsync` |
 | `kt:aws-app-runner` | `kt:aws-container-services` |
 | `kt:aws-audit-manager` | `kt:nist-sp-800-53` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
