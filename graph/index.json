@@ -2963,6 +2963,31 @@
     ]
   },
   {
+    "id": "kt:nist-sp-800-53",
+    "title": "NIST SP 800-53",
+    "aliases": [
+      "NIST 800-53",
+      "NIST SP 800-53 Rev. 5",
+      "NIST Special Publication 800-53",
+      "Security and Privacy Controls for Information Systems and Organizations",
+      "800-53 Rev 5"
+    ],
+    "type": "ExternalConcept",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/nist-sp-800-53.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "concept",
+    "source_urls": [
+      "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+      "https://csrc.nist.gov/news/2025/nist-releases-revision-to-sp-800-53-controls",
+      "https://csrc.nist.gov/news/2020/control-baselines-nist-publishes-sp-800-53b",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/standards-reference-nist-800-53.html",
+      "https://docs.aws.amazon.com/config/latest/developerguide/operational-best-practices-for-nist-800-53_rev_5.html",
+      "https://docs.aws.amazon.com/audit-manager/latest/userguide/NIST800-53r5.html"
+    ]
+  },
+  {
     "id": "kt:operational-excellence-pillar",
     "title": "Operational Excellence Pillar",
     "aliases": [

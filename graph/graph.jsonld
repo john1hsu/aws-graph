@@ -11187,6 +11187,91 @@
       ]
     },
     {
+      "@id": "kt:nist-sp-800-53",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "NIST SP 800-53",
+      "skos:definition": "NIST's catalog of security and privacy controls (Revision 5, 20 control families, currently at Release 5.2.0) that underpins U.S. federal authorization programs; on AWS it is mapped, never fully automated, through Security Hub CSPM controls, AWS Config conformance packs and Audit Manager.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "NIST Releases Revision to SP 800-53 Controls",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/news/2025/nist-releases-revision-to-sp-800-53-controls",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Control Baselines for Information Systems and Organizations: NIST Publishes SP 800-53B",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/news/2020/control-baselines-nist-publishes-sp-800-53b",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "NIST SP 800-53 Revision 5 in Security Hub CSPM",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/securityhub/latest/userguide/standards-reference-nist-800-53.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Operational Best Practices for NIST 800-53 rev 5 - AWS Config",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/config/latest/developerguide/operational-best-practices-for-nist-800-53_rev_5.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "NIST SP 800-53 Rev 5 - AWS Audit Manager",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/audit-manager/latest/userguide/NIST800-53r5.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/nist-sp-800-53.md",
+      "skos:altLabel": [
+        "NIST 800-53",
+        "NIST SP 800-53 Rev. 5",
+        "NIST Special Publication 800-53",
+        "Security and Privacy Controls for Information Systems and Organizations",
+        "800-53 Rev 5"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        },
+        {
+          "@id": "kt:dod-cloud-computing-srg-impact-levels"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-security-hub"
+        },
+        {
+          "@id": "kt:aws-config"
+        },
+        {
+          "@id": "kt:aws-audit-manager"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:nist-cybersecurity-framework"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-guardduty",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon GuardDuty",

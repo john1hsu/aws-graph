@@ -3387,6 +3387,32 @@
 <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
 <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2000/01/rdf-schema#label> "NIST SP 800-53" .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#altLabel> "800-53 Rev 5" .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#altLabel> "NIST 800-53" .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#altLabel> "NIST SP 800-53 Rev. 5" .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#altLabel> "NIST Special Publication 800-53" .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#altLabel> "Security and Privacy Controls for Information Systems and Organizations" .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#definition> "NIST's catalog of security and privacy controls (Revision 5, 20 control families, currently at Release 5.2.0) that underpins U.S. federal authorization programs; on AWS it is mapped, never fully automated, through Security Hub CSPM controls, AWS Config conformance packs and Audit Manager." .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#prefLabel> "NIST SP 800-53" .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s1> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s2> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s3> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s4> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s5> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s6> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/nist-cybersecurity-framework> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-audit-manager> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-security-hub> .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Operational Excellence Pillar" .
@@ -7887,6 +7913,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s1> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s1> <http://purl.org/dc/terms/title> "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s1> <https://schema.org/url> "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s2> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s2> <http://purl.org/dc/terms/title> "NIST Releases Revision to SP 800-53 Controls" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s2> <https://schema.org/url> "https://csrc.nist.gov/news/2025/nist-releases-revision-to-sp-800-53-controls" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s3> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s3> <http://purl.org/dc/terms/title> "Control Baselines for Information Systems and Organizations: NIST Publishes SP 800-53B" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s3> <https://schema.org/url> "https://csrc.nist.gov/news/2020/control-baselines-nist-publishes-sp-800-53b" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s4> <http://purl.org/dc/terms/title> "NIST SP 800-53 Revision 5 in Security Hub CSPM" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s4> <https://schema.org/url> "https://docs.aws.amazon.com/securityhub/latest/userguide/standards-reference-nist-800-53.html" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s5> <http://purl.org/dc/terms/title> "Operational Best Practices for NIST 800-53 rev 5 - AWS Config" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s5> <https://schema.org/url> "https://docs.aws.amazon.com/config/latest/developerguide/operational-best-practices-for-nist-800-53_rev_5.html" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s6> <http://purl.org/dc/terms/title> "NIST SP 800-53 Rev 5 - AWS Audit Manager" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s6> <https://schema.org/url> "https://docs.aws.amazon.com/audit-manager/latest/userguide/NIST800-53r5.html" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://purl.org/dc/terms/title> "Design principles - AWS Well-Architected Framework (operational excellence)" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

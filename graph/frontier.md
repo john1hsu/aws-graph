@@ -10,7 +10,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-codedeploy` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:ci-cd` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
-| `kt:nist-sp-800-53` | `kt:aws-secret-and-top-secret-regions`, `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws`, `kt:hipaa-eligible-services` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:multi-account-strategy`, `kt:iam-quotas`, `kt:service-control-policies` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
 | `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
@@ -71,6 +70,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:attribute-based-instance-type-selection` | `kt:ec2-instance-types` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-app-runner` | `kt:aws-container-services` |
+| `kt:aws-audit-manager` | `kt:nist-sp-800-53` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-batch` | `kt:aws-compute-services` |
@@ -134,6 +134,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:landing-zone` | `kt:multi-account-strategy` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:multi-region-architecture` | `kt:dynamodb-global-tables` |
+| `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:red-hat-openshift-service-on-aws` | `kt:aws-container-services` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
