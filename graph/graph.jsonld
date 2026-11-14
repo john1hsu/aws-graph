@@ -4987,6 +4987,105 @@
       ]
     },
     {
+      "@id": "kt:cost-allocation-tags",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Cost allocation tags",
+      "skos:definition": "A Billing and Cost Management feature that turns resource tag keys, once activated by the management (or standalone) account, into dimensions for grouping and filtering AWS costs in Cost Explorer, Budgets and cost and usage reports; tags are either user-defined or AWS-generated.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Organizing and tracking costs using AWS cost allocation tags - AWS Billing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using AWS-generated tags - AWS Billing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/aws-tags.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Activating user-defined cost allocation tags - AWS Billing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/activating-tags.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Backfill cost allocation tags - AWS Billing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-allocation-backfill.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cost Allocation Tags now support retroactive application",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-cost-allocation-tags-retroactive-application",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Organizations – Tag policies - Best Practices for Tagging AWS Resources",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/aws-organizations-tag-policies.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Cost Allocation Blog Series #2: AWS Generated vs User-defined Cost Allocation Tag",
+          "dcterms:publisher": "Amazon Web Services (AWS Cloud Financial Management Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws-cost-management/cost-allocation-blog-series-2-aws-generated-vs-user-defined-cost-allocation-tag",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/cost-management/cost-allocation-tags.md",
+      "skos:altLabel": [
+        "AWS cost allocation tags",
+        "Cost allocation tagging",
+        "aws:createdBy tag"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-billing-and-cost-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-cost-explorer"
+        },
+        {
+          "@id": "kt:aws-budgets"
+        },
+        {
+          "@id": "kt:cost-optimization-pillar"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:aws-cost-and-usage-report"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-tag-editor"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:tag-policies"
+        }
+      ]
+    },
+    {
       "@id": "kt:reserved-instances",
       "@type": "kto:PricingModel",
       "skos:prefLabel": "Reserved Instances",

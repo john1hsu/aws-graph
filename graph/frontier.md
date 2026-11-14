@@ -23,8 +23,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:service-quotas` | `kt:reliability-pillar`, `kt:iam-quotas`, `kt:iam-quotas` |
 | `kt:aurora-quotas` | `kt:amazon-aurora`, `kt:aurora-serverless-v2` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-textract` |
+| `kt:aws-billing-and-cost-management` | `kt:aws-free-tier`, `kt:cost-allocation-tags` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar`, `kt:ec2-instance-types` |
+| `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-developer-tools` | `kt:aws-codebuild`, `kt:aws-codepipeline` |
@@ -72,11 +74,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-batch` | `kt:aws-compute-services` |
-| `kt:aws-billing-and-cost-management` | `kt:aws-free-tier` |
 | `kt:aws-cloud-map` | `kt:container-networking-on-aws` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
-| `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
 | `kt:aws-firewall-manager` | `kt:aws-waf` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
@@ -87,6 +87,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-skill-builder` | `kt:aws-certification-program` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-sustainability-console` | `kt:sustainability-pillar` |
+| `kt:aws-tag-editor` | `kt:cost-allocation-tags` |
 | `kt:aws-wavelength` | `kt:local-zones` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:bottlerocket` | `kt:ecs-managed-instances` |
@@ -98,7 +99,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudwatch-quotas` | `kt:amazon-cloudwatch` |
 | `kt:comprehend-quotas` | `kt:amazon-comprehend` |
 | `kt:control-tower-quotas` | `kt:aws-control-tower` |
-| `kt:cost-allocation-tags` | `kt:aws-migration-acceleration-program` |
 | `kt:data-warehouse` | `kt:data-lake-on-aws` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |
@@ -149,6 +149,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:storage-gateway-quotas` | `kt:aws-storage-gateway` |
 | `kt:systems-manager-parameter-store` | `kt:aws-systems-manager` |
 | `kt:systems-manager-session-manager` | `kt:aws-systems-manager` |
+| `kt:tag-policies` | `kt:cost-allocation-tags` |
 | `kt:transfer-family-quotas` | `kt:aws-transfer-family` |
 | `kt:transit-gateway-quotas` | `kt:aws-transit-gateway` |
 | `kt:vmware-migration-to-aws` | `kt:aws-migration-acceleration-program` |

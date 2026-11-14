@@ -2454,6 +2454,30 @@
     ]
   },
   {
+    "id": "kt:cost-allocation-tags",
+    "title": "Cost allocation tags",
+    "aliases": [
+      "AWS cost allocation tags",
+      "Cost allocation tagging",
+      "aws:createdBy tag"
+    ],
+    "type": "Feature",
+    "domain": "cost-management",
+    "file": "articles/cost-management/cost-allocation-tags.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.md",
+      "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/aws-tags.md",
+      "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/activating-tags.md",
+      "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-allocation-backfill.md",
+      "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-cost-allocation-tags-retroactive-application",
+      "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/aws-organizations-tag-policies.html",
+      "https://aws.amazon.com/blogs/aws-cost-management/cost-allocation-blog-series-2-aws-generated-vs-user-defined-cost-allocation-tag"
+    ]
+  },
+  {
     "id": "kt:cost-optimization-pillar",
     "title": "Cost Optimization Pillar",
     "aliases": [

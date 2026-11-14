@@ -2809,6 +2809,33 @@
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/2000/01/rdf-schema#label> "Cost allocation tags" .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS cost allocation tags" .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/2004/02/skos/core#altLabel> "Cost allocation tagging" .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/2004/02/skos/core#altLabel> "aws:createdBy tag" .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-billing-and-cost-management> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/2004/02/skos/core#definition> "A Billing and Cost Management feature that turns resource tag keys, once activated by the management (or standalone) account, into dimensions for grouping and filtering AWS costs in Cost Explorer, Budgets and cost and usage reports; tags are either user-defined or AWS-generated." .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cost allocation tags" .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-budgets> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s1> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s2> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s3> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s4> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s5> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s6> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s7> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-tag-editor> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/tag-policies> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Cost Optimization Pillar" .
@@ -7190,6 +7217,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s1> <http://purl.org/dc/terms/title> "Organizing and tracking costs using AWS cost allocation tags - AWS Billing" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s1> <https://schema.org/url> "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.md" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s2> <http://purl.org/dc/terms/title> "Using AWS-generated tags - AWS Billing" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s2> <https://schema.org/url> "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/aws-tags.md" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s3> <http://purl.org/dc/terms/title> "Activating user-defined cost allocation tags - AWS Billing" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s3> <https://schema.org/url> "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/activating-tags.md" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s4> <http://purl.org/dc/terms/title> "Backfill cost allocation tags - AWS Billing" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s4> <https://schema.org/url> "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-allocation-backfill.md" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s5> <http://purl.org/dc/terms/title> "AWS Cost Allocation Tags now support retroactive application" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-cost-allocation-tags-retroactive-application" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s6> <http://purl.org/dc/terms/title> "AWS Organizations – Tag policies - Best Practices for Tagging AWS Resources" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s6> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/aws-organizations-tag-policies.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Cloud Financial Management Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s7> <http://purl.org/dc/terms/title> "Cost Allocation Blog Series #2: AWS Generated vs User-defined Cost Allocation Tag" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/aws-cost-management/cost-allocation-blog-series-2-aws-generated-vs-user-defined-cost-allocation-tag" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://purl.org/dc/terms/title> "Cost Optimization Pillar - AWS Well-Architected Framework (abstract and introduction)" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
