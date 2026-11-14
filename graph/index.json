@@ -2967,6 +2967,31 @@
     ]
   },
   {
+    "id": "kt:ecs-quotas",
+    "title": "Amazon ECS quotas",
+    "aliases": [
+      "ECS quotas",
+      "ECS service quotas",
+      "ECS limits",
+      "Amazon ECS service limits",
+      "ECS API throttling limits"
+    ],
+    "type": "Limit",
+    "domain": "containers",
+    "file": "articles/containers/ecs-quotas.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/general/latest/gr/ecs-service.md",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/request-throttling.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/operating-at-scale-service-quotas.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service_limits.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/throttling.html",
+      "https://docs.aws.amazon.com/general/latest/gr/cloud_map.html"
+    ]
+  },
+  {
     "id": "kt:edge-locations",
     "title": "Edge locations",
     "aliases": [

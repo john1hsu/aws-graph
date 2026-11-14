@@ -16,6 +16,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:resource-control-policies` | `kt:organizations-quotas`, `kt:iam-policy-evaluation-logic`, `kt:service-control-policies` |
 | `kt:aurora-quotas` | `kt:amazon-aurora`, `kt:aurora-serverless-v2` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-free-tier`, `kt:cost-allocation-tags` |
+| `kt:aws-cloud-map` | `kt:container-networking-on-aws`, `kt:ecs-quotas` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar`, `kt:ec2-instance-types` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
@@ -34,8 +35,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:devops` | `kt:ci-cd`, `kt:infrastructure-as-code` |
-| `kt:ecs-quotas` | `kt:amazon-ecs`, `kt:ecs-managed-instances` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
+| `kt:fargate-quotas` | `kt:aws-fargate`, `kt:ecs-quotas` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
@@ -73,7 +74,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-batch` | `kt:aws-compute-services` |
-| `kt:aws-cloud-map` | `kt:container-networking-on-aws` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-firewall-manager` | `kt:aws-waf` |
@@ -117,7 +117,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:elastic-beanstalk-quotas` | `kt:aws-elastic-beanstalk` |
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |
 | `kt:eventbridge-quotas` | `kt:amazon-eventbridge` |
-| `kt:fargate-quotas` | `kt:aws-fargate` |
 | `kt:fsx-quotas` | `kt:amazon-fsx` |
 | `kt:gateway-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:glue-quotas` | `kt:aws-glue` |

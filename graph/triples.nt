@@ -3404,6 +3404,33 @@
 <https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/bottlerocket> .
 <https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon ECS quotas" .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon ECS service limits" .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "ECS API throttling limits" .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "ECS limits" .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "ECS quotas" .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "ECS service quotas" .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-account, per-Region resource limits (clusters, services, tasks, container instances, task definition size) and token-bucket API rate limits that constrain Amazon ECS; resource counts are mostly fixed, while API burst and sustained rates can be raised." .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon ECS quotas" .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloud-map> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s6> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/fargate-quotas> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/ecs-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/edge-locations> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/edge-locations> <http://www.w3.org/2000/01/rdf-schema#label> "Edge locations" .
@@ -8379,6 +8406,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s1> <http://purl.org/dc/terms/title> "Amazon ECS endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/ecs-service.md" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s2> <http://purl.org/dc/terms/title> "Request throttling for the Amazon ECS API" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/request-throttling.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s3> <http://purl.org/dc/terms/title> "Handle Amazon ECS service quotas and API throttling limits" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/operating-at-scale-service-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s4> <http://purl.org/dc/terms/title> "Amazon ECS service quotas - Amazon Elastic Container Service" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service_limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s5> <http://purl.org/dc/terms/title> "AWS Fargate throttling quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/throttling.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s6> <http://purl.org/dc/terms/title> "AWS Cloud Map endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s6> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/cloud_map.html" .
 <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <http://purl.org/dc/terms/title> "Points of presence - AWS Fault Isolation Boundaries (whitepaper)" .
 <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
