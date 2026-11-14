@@ -282,6 +282,35 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon DocumentDB (with MongoDB compatibility)" .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon DocumentDB" .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2004/02/skos/core#altLabel> "DocDB" .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2004/02/skos/core#altLabel> "DocumentDB Serverless" .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2004/02/skos/core#altLabel> "DocumentDB elastic clusters" .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2004/02/skos/core#altLabel> "DocumentDB" .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed, MongoDB API-compatible JSON document database, which separates compute instances from a six-way replicated cluster storage volume and comes as instance-based clusters, serverless capacity, or sharded elastic clusters." .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon DocumentDB (with MongoDB compatibility)" .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-aurora> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/documentdb-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon DynamoDB" .
@@ -4093,6 +4122,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <https://schema.org/url> "https://aws.amazon.com/compare/data-firehose-and-kinesis-data-streams/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s1> <http://purl.org/dc/terms/title> "What is Amazon DocumentDB (with MongoDB compatibility)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s1> <https://schema.org/url> "https://docs.aws.amazon.com/documentdb/latest/devguide/what-is.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s2> <http://purl.org/dc/terms/title> "Amazon DocumentDB elastic clusters: how it works" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s2> <https://schema.org/url> "https://docs.aws.amazon.com/documentdb/latest/devguide/elastic-how-it-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s3> <http://purl.org/dc/terms/title> "How Amazon DocumentDB serverless works" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s3> <https://schema.org/url> "https://docs.aws.amazon.com/documentdb/latest/devguide/docdb-serverless-how-it-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s4> <http://purl.org/dc/terms/title> "Amazon DocumentDB quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s4> <https://schema.org/url> "https://docs.aws.amazon.com/documentdb/latest/devguide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s5> <http://purl.org/dc/terms/title> "Amazon DocumentDB Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s5> <https://schema.org/url> "https://aws.amazon.com/documentdb/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s6> <http://purl.org/dc/terms/title> "Amazon DocumentDB (with MongoDB compatibility) FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s6> <https://schema.org/url> "https://aws.amazon.com/documentdb/faqs/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb/s1> <http://purl.org/dc/terms/title> "What is Amazon DynamoDB?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

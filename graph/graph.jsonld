@@ -5502,6 +5502,108 @@
       ]
     },
     {
+      "@id": "kt:amazon-documentdb",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon DocumentDB (with MongoDB compatibility)",
+      "skos:definition": "AWS's fully managed, MongoDB API-compatible JSON document database, which separates compute instances from a six-way replicated cluster storage volume and comes as instance-based clusters, serverless capacity, or sharded elastic clusters.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon DocumentDB (with MongoDB compatibility)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/documentdb/latest/devguide/what-is.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon DocumentDB elastic clusters: how it works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/documentdb/latest/devguide/elastic-how-it-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Amazon DocumentDB serverless works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/documentdb/latest/devguide/docdb-serverless-how-it-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon DocumentDB quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/documentdb/latest/devguide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon DocumentDB Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/documentdb/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon DocumentDB (with MongoDB compatibility) FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/documentdb/faqs/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/databases/amazon-documentdb.md",
+      "skos:altLabel": [
+        "Amazon DocumentDB",
+        "DocumentDB",
+        "DocDB",
+        "DocumentDB elastic clusters",
+        "DocumentDB Serverless"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:purpose-built-databases"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-dynamodb"
+        },
+        {
+          "@id": "kt:amazon-aurora"
+        },
+        {
+          "@id": "kt:aws-database-migration-service"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:documentdb-quotas"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-dynamodb",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon DynamoDB",

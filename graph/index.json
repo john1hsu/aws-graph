@@ -260,6 +260,31 @@
     ]
   },
   {
+    "id": "kt:amazon-documentdb",
+    "title": "Amazon DocumentDB (with MongoDB compatibility)",
+    "aliases": [
+      "Amazon DocumentDB",
+      "DocumentDB",
+      "DocDB",
+      "DocumentDB elastic clusters",
+      "DocumentDB Serverless"
+    ],
+    "type": "Service",
+    "domain": "databases",
+    "file": "articles/databases/amazon-documentdb.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/documentdb/latest/devguide/what-is.html",
+      "https://docs.aws.amazon.com/documentdb/latest/devguide/elastic-how-it-works.html",
+      "https://docs.aws.amazon.com/documentdb/latest/devguide/docdb-serverless-how-it-works.html",
+      "https://docs.aws.amazon.com/documentdb/latest/devguide/limits.html",
+      "https://aws.amazon.com/documentdb/pricing/",
+      "https://aws.amazon.com/documentdb/faqs/"
+    ]
+  },
+  {
     "id": "kt:amazon-dynamodb",
     "title": "Amazon DynamoDB",
     "aliases": [

@@ -102,6 +102,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-warehouse` | `kt:data-lake-on-aws` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |
+| `kt:documentdb-quotas` | `kt:amazon-documentdb` |
 | `kt:dynamodb-partition-key-design` | `kt:amazon-dynamodb` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb` |
 | `kt:ebs-quotas` | `kt:amazon-ebs` |
