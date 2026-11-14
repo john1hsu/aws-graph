@@ -4062,6 +4062,36 @@
 <https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/organizations-quotas> .
 <https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/service-control-policies> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Service Quotas" .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Service Quotas" .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS service limits console" .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Service Quotas console" .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The free AWS service that shows default and applied quota values for AWS services in one place, submits and tracks quota increase requests, pre-seeds increases for new accounts through organization request templates, and (with automatic management) watches usage and can raise quotas on your behalf." .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Service Quotas" .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-quotas> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/organizations-quotas> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-quotas/s10> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-quotas/s11> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-quotas/s6> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-quotas/s7> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-quotas/s8> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/service-quotas/s9> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/service-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> <http://www.w3.org/2000/01/rdf-schema#label> "7 Rs migration strategies" .
@@ -9139,6 +9169,61 @@
 <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/service-control-policies/s6> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s10> <http://purl.org/dc/terms/title> "Service Quotas in AWS GovCloud (US) - AWS GovCloud (US) User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s10> <https://schema.org/url> "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-servicequotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s11> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Cloud Operations Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s11> <http://purl.org/dc/terms/title> "Service Quota Observability Across Regions and Accounts (AWS Cloud Operations Blog, 2023-07-18)" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s11> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s11> <https://schema.org/url> "https://aws.amazon.com/blogs/mt/service-quota-observability-across-regions-and-accounts" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s1> <http://purl.org/dc/terms/title> "What is Service Quotas? - Service Quotas User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/servicequotas/latest/userguide/intro.html" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s2> <http://purl.org/dc/terms/title> "AWS service quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s3> <http://purl.org/dc/terms/title> "Service quotas for Service Quotas - Service Quotas User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/servicequotas/latest/userguide/reference_limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s4> <http://purl.org/dc/terms/title> "Using Service Quotas request templates - Service Quotas User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/servicequotas/latest/userguide/organization-templates.html" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s5> <http://purl.org/dc/terms/title> "Visualizing your service quotas and setting alarms - Amazon CloudWatch User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Quotas-Visualize-Alarms.html" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s6> <http://purl.org/dc/terms/title> "REL01-BP01 Aware of service quotas and constraints - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s6> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_manage_service_limits_aware_quotas_and_constraints.html" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s7> <http://purl.org/dc/terms/title> "Automatic quota management is now generally available for AWS Service Quotas (What's New with AWS, 2025-10-07)" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/10/automatic-quota-management-service-quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s8> <http://purl.org/dc/terms/title> "AWS Service Quotas adds support for automatic quota management (What's New with AWS, 2025-11-25)" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/automatic-quota-management-service-quota-management" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s9> <http://purl.org/dc/terms/title> "Introducing Service Quotas: View and manage your quotas for AWS services from one central location (What's New with AWS, 2019-06-24)" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/service-quotas/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2019/06/introducing-service-quotas-view-and-manage-quotas-for-aws-services-from-one-location" .
 <https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s1> <http://purl.org/dc/terms/title> "About the migration strategies - AWS Prescriptive Guidance (Large migrations to the AWS Cloud)" .
 <https://github.com/john1hsu/aws-graph/id/source/seven-rs-migration-strategies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

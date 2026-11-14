@@ -9223,6 +9223,122 @@
       ]
     },
     {
+      "@id": "kt:service-quotas",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Service Quotas",
+      "skos:definition": "The free AWS service that shows default and applied quota values for AWS services in one place, submits and tracks quota increase requests, pre-seeds increases for new accounts through organization request templates, and (with automatic management) watches usage and can raise quotas on your behalf.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Service Quotas? - Service Quotas User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/servicequotas/latest/userguide/intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS service quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Service quotas for Service Quotas - Service Quotas User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/servicequotas/latest/userguide/reference_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using Service Quotas request templates - Service Quotas User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/servicequotas/latest/userguide/organization-templates.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Visualizing your service quotas and setting alarms - Amazon CloudWatch User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Quotas-Visualize-Alarms.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL01-BP01 Aware of service quotas and constraints - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_manage_service_limits_aware_quotas_and_constraints.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Automatic quota management is now generally available for AWS Service Quotas (What's New with AWS, 2025-10-07)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/10/automatic-quota-management-service-quotas",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Service Quotas adds support for automatic quota management (What's New with AWS, 2025-11-25)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/automatic-quota-management-service-quota-management",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Introducing Service Quotas: View and manage your quotas for AWS services from one central location (What's New with AWS, 2019-06-24)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2019/06/introducing-service-quotas-view-and-manage-quotas-for-aws-services-from-one-location",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Service Quotas in AWS GovCloud (US) - AWS GovCloud (US) User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-servicequotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Service Quota Observability Across Regions and Accounts (AWS Cloud Operations Blog, 2023-07-18)",
+          "dcterms:publisher": "Amazon Web Services (AWS Cloud Operations Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/mt/service-quota-observability-across-regions-and-accounts",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/service-quotas.md",
+      "skos:altLabel": [
+        "AWS Service Quotas",
+        "AWS service limits console",
+        "Service Quotas console"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:iam-quotas"
+        },
+        {
+          "@id": "kt:organizations-quotas"
+        },
+        {
+          "@id": "kt:reliability-pillar"
+        },
+        {
+          "@id": "kt:aws-trusted-advisor"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-iam",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Identity and Access Management",

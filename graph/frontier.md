@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-web-services` | `kt:aws-analytics-services`, `kt:aws-certification-program`, `kt:aws-compute-services`, `kt:aws-pricing-fundamentals`, `kt:purpose-built-databases`, `kt:aws-global-infrastructure`, `kt:aws-management-and-governance-services`, `kt:aws-migration-and-transfer-services`, `kt:aws-storage-services` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-agentcore`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-q-business`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
-| `kt:service-quotas` | `kt:reliability-pillar`, `kt:organizations-quotas`, `kt:iam-quotas`, `kt:iam-quotas` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |
 | `kt:aws-developer-tools` | `kt:aws-codebuild`, `kt:aws-codedeploy`, `kt:aws-codepipeline` |
@@ -87,6 +86,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-sustainability-console` | `kt:sustainability-pillar` |
 | `kt:aws-tag-editor` | `kt:cost-allocation-tags` |
+| `kt:aws-trusted-advisor` | `kt:service-quotas` |
 | `kt:aws-wavelength` | `kt:local-zones` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:bottlerocket` | `kt:ecs-managed-instances` |

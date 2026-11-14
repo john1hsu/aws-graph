@@ -3550,6 +3550,34 @@
     ]
   },
   {
+    "id": "kt:service-quotas",
+    "title": "Service Quotas",
+    "aliases": [
+      "AWS Service Quotas",
+      "AWS service limits console",
+      "Service Quotas console"
+    ],
+    "type": "Service",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/service-quotas.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/servicequotas/latest/userguide/intro.html",
+      "https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html",
+      "https://docs.aws.amazon.com/servicequotas/latest/userguide/reference_limits.html",
+      "https://docs.aws.amazon.com/servicequotas/latest/userguide/organization-templates.html",
+      "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Quotas-Visualize-Alarms.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_manage_service_limits_aware_quotas_and_constraints.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/10/automatic-quota-management-service-quotas",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/automatic-quota-management-service-quota-management",
+      "https://aws.amazon.com/about-aws/whats-new/2019/06/introducing-service-quotas-view-and-manage-quotas-for-aws-services-from-one-location",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-servicequotas.html",
+      "https://aws.amazon.com/blogs/mt/service-quota-observability-across-regions-and-accounts"
+    ]
+  },
+  {
     "id": "kt:seven-rs-migration-strategies",
     "title": "7 Rs migration strategies",
     "aliases": [
