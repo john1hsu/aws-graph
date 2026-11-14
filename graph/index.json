@@ -1662,6 +1662,34 @@
     ]
   },
   {
+    "id": "kt:aws-elastic-beanstalk",
+    "title": "AWS Elastic Beanstalk",
+    "aliases": [
+      "Elastic Beanstalk",
+      "Amazon Elastic Beanstalk",
+      "EB",
+      "Beanstalk"
+    ],
+    "type": "Service",
+    "domain": "compute",
+    "file": "articles/compute/aws-elastic-beanstalk.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome",
+      "https://aws.amazon.com/elasticbeanstalk/pricing",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-beanstalk-cluster-mode/",
+      "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.rolling-version-deploy.html",
+      "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts-worker.html",
+      "https://docs.aws.amazon.com/general/latest/gr/elasticbeanstalk.html",
+      "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/applications-lifecycle.html",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-fargate",
     "title": "AWS Fargate",
     "aliases": [

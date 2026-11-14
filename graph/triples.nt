@@ -1899,6 +1899,41 @@
 <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Elastic Beanstalk" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Elastic Beanstalk" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2004/02/skos/core#altLabel> "Beanstalk" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2004/02/skos/core#altLabel> "EB" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2004/02/skos/core#altLabel> "Elastic Beanstalk" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compute-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed application-deployment service: you upload code or a container and Elastic Beanstalk provisions and operates the EC2 instances (Standard mode) or Amazon EKS cluster (Cluster mode), load balancing, scaling and health monitoring in your own account, at no charge beyond the resources used." .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Elastic Beanstalk" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s10> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s9> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#domain> "compute" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/elastic-beanstalk-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Fargate" .
@@ -6434,6 +6469,56 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s10> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s10> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s1> <http://purl.org/dc/terms/title> "What is AWS Elastic Beanstalk?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s1> <https://schema.org/url> "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s2> <http://purl.org/dc/terms/title> "AWS Elastic Beanstalk pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s2> <https://schema.org/url> "https://aws.amazon.com/elasticbeanstalk/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s3> <http://purl.org/dc/terms/title> "AWS Elastic Beanstalk introduces Cluster Mode to run multiple applications on shared infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s3> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-beanstalk-cluster-mode/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s4> <http://purl.org/dc/terms/title> "Deployment policies and settings" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s4> <https://schema.org/url> "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.rolling-version-deploy.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s5> <http://purl.org/dc/terms/title> "Elastic Beanstalk worker environments" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s5> <https://schema.org/url> "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts-worker.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s6> <http://purl.org/dc/terms/title> "AWS Elastic Beanstalk endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s6> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/elasticbeanstalk.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s7> <http://purl.org/dc/terms/title> "Configuring application version lifecycle settings" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s7> <https://schema.org/url> "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/applications-lifecycle.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s8> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s8> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s9> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Developer - Associate (DVA-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://purl.org/dc/terms/title> "Architect for AWS Fargate for Amazon ECS" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

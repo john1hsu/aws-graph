@@ -3655,6 +3655,138 @@
       ]
     },
     {
+      "@id": "kt:aws-elastic-beanstalk",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Elastic Beanstalk",
+      "skos:definition": "AWS's managed application-deployment service: you upload code or a container and Elastic Beanstalk provisions and operates the EC2 instances (Standard mode) or Amazon EKS cluster (Cluster mode), load balancing, scaling and health monitoring in your own account, at no charge beyond the resources used.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Elastic Beanstalk?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Elastic Beanstalk pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/elasticbeanstalk/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Elastic Beanstalk introduces Cluster Mode to run multiple applications on shared infrastructure",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-beanstalk-cluster-mode/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Deployment policies and settings",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.rolling-version-deploy.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Elastic Beanstalk worker environments",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts-worker.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Elastic Beanstalk endpoints and quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/elasticbeanstalk.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configuring application version lifecycle settings",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/applications-lifecycle.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Developer - Associate (DVA-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/compute/aws-elastic-beanstalk.md",
+      "skos:altLabel": [
+        "Elastic Beanstalk",
+        "Amazon Elastic Beanstalk",
+        "EB",
+        "Beanstalk"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compute-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        },
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:amazon-sqs"
+        },
+        {
+          "@id": "kt:blue-green-deployments"
+        },
+        {
+          "@id": "kt:eks-auto-mode"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:elastic-beanstalk-quotas"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        },
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-graviton",
       "@type": "kto:Feature",
       "skos:prefLabel": "AWS Graviton",
