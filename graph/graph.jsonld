@@ -7220,6 +7220,102 @@
       ]
     },
     {
+      "@id": "kt:aws-outposts",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Outposts",
+      "skos:definition": "AWS Outposts is a fully managed service that installs AWS-owned racks or servers at a customer's own site and runs them as an extension of an Availability Zone in a parent Region, so the same EC2, EBS, VPC and other APIs can serve workloads that need on-premises latency, local processing or data residency.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Outposts? - AWS Outposts (User Guide for Outposts racks)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/outposts/latest/userguide/what-is-outposts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Outposts racks FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/outposts/rack/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Outposts servers FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/outposts/servers/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Outposts racks pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/outposts/rack/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Second-generation AWS Outposts racks now in the AWS GovCloud (US) Regions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program - FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/aws-outposts.md",
+      "skos:altLabel": [
+        "Outposts",
+        "Outpost",
+        "AWS Outposts racks",
+        "AWS Outposts servers",
+        "Outposts rack",
+        "Outposts server"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-govcloud-us"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:local-zones"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-direct-connect"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-partitions",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS partitions",

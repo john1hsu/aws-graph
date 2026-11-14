@@ -12,7 +12,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:service-quotas` | `kt:reliability-pillar`, `kt:organizations-quotas`, `kt:iam-quotas`, `kt:iam-quotas` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
-| `kt:aws-outposts` | `kt:ec2-placement-groups`, `kt:aws-global-infrastructure`, `kt:local-zones` |
 | `kt:aws-privatelink` | `kt:aws-datasync`, `kt:amazon-vpc`, `kt:aws-storage-gateway` |
 | `kt:aws-secrets-manager` | `kt:aws-systems-manager`, `kt:aws-transfer-family`, `kt:aws-kms` |
 | `kt:aws-transform` | `kt:aws-migration-acceleration-program`, `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |

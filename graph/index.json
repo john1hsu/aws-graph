@@ -1913,6 +1913,32 @@
     ]
   },
   {
+    "id": "kt:aws-outposts",
+    "title": "AWS Outposts",
+    "aliases": [
+      "Outposts",
+      "Outpost",
+      "AWS Outposts racks",
+      "AWS Outposts servers",
+      "Outposts rack",
+      "Outposts server"
+    ],
+    "type": "Service",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/aws-outposts.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/outposts/latest/userguide/what-is-outposts.html",
+      "https://aws.amazon.com/outposts/rack/faqs",
+      "https://aws.amazon.com/outposts/servers/faqs",
+      "https://aws.amazon.com/outposts/rack/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/"
+    ]
+  },
+  {
     "id": "kt:aws-partitions",
     "title": "AWS partitions",
     "aliases": [

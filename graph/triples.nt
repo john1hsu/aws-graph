@@ -2187,6 +2187,35 @@
 <https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-organizations> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Outposts" .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Outposts racks" .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Outposts servers" .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2004/02/skos/core#altLabel> "Outpost" .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2004/02/skos/core#altLabel> "Outposts rack" .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2004/02/skos/core#altLabel> "Outposts server" .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2004/02/skos/core#altLabel> "Outposts" .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2004/02/skos/core#definition> "AWS Outposts is a fully managed service that installs AWS-owned racks or servers at a customer's own site and runs them as an extension of an Availability Zone in a parent Region, so the same EC2, EBS, VPC and other APIs can serve workloads that need on-premises latency, local processing or data residency." .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Outposts" .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/local-zones> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-outposts> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/aws-partitions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS partitions" .
@@ -6498,6 +6527,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-organizations/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s1> <http://purl.org/dc/terms/title> "What is AWS Outposts? - AWS Outposts (User Guide for Outposts racks)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s1> <https://schema.org/url> "https://docs.aws.amazon.com/outposts/latest/userguide/what-is-outposts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s2> <http://purl.org/dc/terms/title> "AWS Outposts racks FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s2> <https://schema.org/url> "https://aws.amazon.com/outposts/rack/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s3> <http://purl.org/dc/terms/title> "AWS Outposts servers FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s3> <https://schema.org/url> "https://aws.amazon.com/outposts/servers/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s4> <http://purl.org/dc/terms/title> "AWS Outposts racks pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s4> <https://schema.org/url> "https://aws.amazon.com/outposts/rack/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s5> <http://purl.org/dc/terms/title> "Second-generation AWS Outposts racks now in the AWS GovCloud (US) Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s6> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program - FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-outposts/s6> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s1> <http://purl.org/dc/terms/title> "Partitions - AWS Fault Isolation Boundaries (whitepaper)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
