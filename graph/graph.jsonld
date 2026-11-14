@@ -13901,6 +13901,98 @@
       ]
     },
     {
+      "@id": "kt:amazon-s3-files",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon S3 Files",
+      "skos:definition": "An Amazon S3 capability, generally available since 2026-04, that exposes a general purpose S3 bucket (or prefix) as a shared NFS v4.1/4.2 file system for EC2, Lambda, ECS and EKS. Built on Amazon EFS, it caches the active working set on low-latency storage and keeps the file system and bucket synchronized in both directions, so the data never leaves S3.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Working with Amazon S3 Files - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-files.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Unsupported features, limits, and quotas - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-files-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prerequisites for S3 Files - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/it_it/AmazonS3/latest/userguide/s3-files-prereq-policies.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing Amazon S3 Files, making S3 buckets accessible as file systems",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Launching S3 Files, making S3 buckets accessible as file systems",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/launching-s3-files-making-s3-buckets-accessible-as-file-systems",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/storage/amazon-s3-files.md",
+      "skos:altLabel": [
+        "S3 Files",
+        "S3 file system"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:aws-storage-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-efs"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-storage-gateway"
+        },
+        {
+          "@id": "kt:amazon-fsx"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eks"
+        },
+        {
+          "@id": "kt:amazon-ecs"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-s3",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon S3",

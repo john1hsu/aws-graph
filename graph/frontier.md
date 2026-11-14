@@ -61,7 +61,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-neptune` | `kt:purpose-built-databases` |
 | `kt:amazon-opensearch-service` | `kt:amazon-bedrock-knowledge-bases` |
 | `kt:amazon-q-business` | `kt:amazon-bedrock-knowledge-bases` |
-| `kt:amazon-s3-files` | `kt:amazon-efs` |
 | `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:amazon-swf` | `kt:aws-step-functions` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |

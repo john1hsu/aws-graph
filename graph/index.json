@@ -750,6 +750,27 @@
     ]
   },
   {
+    "id": "kt:amazon-s3-files",
+    "title": "Amazon S3 Files",
+    "aliases": [
+      "S3 Files",
+      "S3 file system"
+    ],
+    "type": "Feature",
+    "domain": "storage",
+    "file": "articles/storage/amazon-s3-files.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-files.md",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-files-quotas.html",
+      "https://docs.aws.amazon.com/it_it/AmazonS3/latest/userguide/s3-files-prereq-policies.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files",
+      "https://aws.amazon.com/blogs/aws/launching-s3-files-making-s3-buckets-accessible-as-file-systems"
+    ]
+  },
+  {
     "id": "kt:amazon-sagemaker-ai",
     "title": "Amazon SageMaker AI",
     "aliases": [
