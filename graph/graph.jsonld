@@ -8767,6 +8767,92 @@
       ]
     },
     {
+      "@id": "kt:iam-roles",
+      "@type": "kto:Resource",
+      "skos:prefLabel": "IAM roles",
+      "skos:definition": "An IAM identity with a trust policy and permissions policies that people, applications, AWS services or federated users assume to get temporary security credentials, instead of holding long-term passwords or access keys.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "IAM roles - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Methods to assume a role - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "IAM and AWS STS quotas - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The confused deputy problem - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Identity and Access Management streamlines assignment of IAM roles to workforce users with account access manager (What's New with AWS)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-aam/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/iam-roles.md",
+      "skos:altLabel": [
+        "IAM role",
+        "AWS IAM role"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:iam-identity-center"
+        },
+        {
+          "@id": "kt:permissions-boundaries"
+        },
+        {
+          "@id": "kt:iam-policy-evaluation-logic"
+        },
+        {
+          "@id": "kt:multi-account-strategy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-sts"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:iam-quotas"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:iam-users"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ]
+    },
+    {
       "@id": "kt:permissions-boundaries",
       "@type": "kto:Feature",
       "skos:prefLabel": "IAM permissions boundaries",

@@ -10,7 +10,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-codedeploy` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:ci-cd` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
-| `kt:iam-roles` | `kt:aws-sts`, `kt:iam-policy-evaluation-logic`, `kt:iam-quotas`, `kt:permissions-boundaries` |
 | `kt:nist-sp-800-53` | `kt:aws-secret-and-top-secret-regions`, `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws`, `kt:hipaa-eligible-services` |
 | `kt:organizations-quotas` | `kt:aws-organizations`, `kt:multi-account-strategy`, `kt:iam-quotas`, `kt:service-control-policies` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
@@ -124,6 +123,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:hitrust-csf` | `kt:hipaa-eligible-services` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
 | `kt:iam-policy-simulator` | `kt:iam-policy-evaluation-logic` |
+| `kt:iam-users` | `kt:iam-roles` |
 | `kt:icd-503` | `kt:aws-secret-and-top-secret-regions` |
 | `kt:itar-on-aws` | `kt:aws-govcloud-us` |
 | `kt:karpenter` | `kt:eks-auto-mode` |

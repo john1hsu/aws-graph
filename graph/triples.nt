@@ -3253,6 +3253,30 @@
 <https://github.com/john1hsu/aws-graph/id/iam-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
 <https://github.com/john1hsu/aws-graph/id/iam-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/iam-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Resource> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/2000/01/rdf-schema#label> "IAM roles" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS IAM role" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/2004/02/skos/core#altLabel> "IAM role" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/2004/02/skos/core#definition> "An IAM identity with a trust policy and permissions policies that people, applications, AWS services or federated users assume to get temporary security credentials, instead of holding long-term passwords or access keys." .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/2004/02/skos/core#prefLabel> "IAM roles" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/permissions-boundaries> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-roles/s1> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-roles/s2> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-roles/s3> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-roles/s4> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-roles/s5> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/iam-users> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-sts> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <https://github.com/john1hsu/aws-graph/ontology#domain> "identity-and-access" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/iam-quotas> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructure as code" .
@@ -7666,6 +7690,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s5> <https://schema.org/url> "https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s1> <http://purl.org/dc/terms/title> "IAM roles - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s1> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s2> <http://purl.org/dc/terms/title> "Methods to assume a role - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s2> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s3> <http://purl.org/dc/terms/title> "IAM and AWS STS quotas - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s3> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s4> <http://purl.org/dc/terms/title> "The confused deputy problem - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s4> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s5> <http://purl.org/dc/terms/title> "AWS Identity and Access Management streamlines assignment of IAM roles to workforce users with account access manager (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-aam/" .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <http://purl.org/dc/terms/title> "Infrastructure as code - Introduction to DevOps on AWS" .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

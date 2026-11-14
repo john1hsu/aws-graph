@@ -2844,6 +2844,27 @@
     ]
   },
   {
+    "id": "kt:iam-roles",
+    "title": "IAM roles",
+    "aliases": [
+      "IAM role",
+      "AWS IAM role"
+    ],
+    "type": "Resource",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/iam-roles.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-aam/"
+    ]
+  },
+  {
     "id": "kt:infrastructure-as-code",
     "title": "Infrastructure as code",
     "aliases": [
