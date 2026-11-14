@@ -2555,6 +2555,30 @@
     ]
   },
   {
+    "id": "kt:ec2-instance-types",
+    "title": "Amazon EC2 instance types",
+    "aliases": [
+      "EC2 instance types",
+      "EC2 instance families",
+      "instance type",
+      "EC2 instance type naming conventions"
+    ],
+    "type": "Feature",
+    "domain": "compute",
+    "file": "articles/compute/ec2-instance-types.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.eu/ec2/latest/instancetypes/instance-type-names.html",
+      "https://docs.aws.amazon.com/ec2/latest/instancetypes/instance-types.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-discovery.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resize-limitations.html",
+      "https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-asg-instance-type-requirements.html",
+      "https://aws.amazon.com/blogs/aws/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors/"
+    ]
+  },
+  {
     "id": "kt:ec2-placement-groups",
     "title": "Amazon EC2 placement groups",
     "aliases": [

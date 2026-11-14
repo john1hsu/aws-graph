@@ -9,7 +9,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-analytics-services` | `kt:amazon-data-firehose`, `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift`, `kt:data-lake-on-aws` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-codedeploy` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:ci-cd` |
-| `kt:ec2-instance-types` | `kt:amazon-ec2`, `kt:aws-graviton`, `kt:aws-nitro-system`, `kt:ec2-placement-groups` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:iam-roles` | `kt:aws-sts`, `kt:iam-policy-evaluation-logic`, `kt:iam-quotas`, `kt:permissions-boundaries` |
 | `kt:nist-sp-800-53` | `kt:aws-secret-and-top-secret-regions`, `kt:dod-cloud-computing-srg-impact-levels`, `kt:fedramp-on-aws`, `kt:hipaa-eligible-services` |
@@ -26,6 +25,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aurora-quotas` | `kt:amazon-aurora`, `kt:aurora-serverless-v2` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-textract` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
+| `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar`, `kt:ec2-instance-types` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-developer-tools` | `kt:aws-codebuild`, `kt:aws-codepipeline` |
@@ -65,6 +65,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
 | `kt:application-portfolio-assessment` | `kt:seven-rs-migration-strategies` |
+| `kt:attribute-based-instance-type-selection` | `kt:ec2-instance-types` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-app-runner` | `kt:aws-container-services` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
@@ -72,7 +73,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-batch` | `kt:aws-compute-services` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-free-tier` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
-| `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
 | `kt:aws-firewall-manager` | `kt:aws-waf` |

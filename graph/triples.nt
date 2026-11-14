@@ -2920,6 +2920,34 @@
 <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 instance types" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 instance families" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 instance type naming conventions" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 instance types" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2004/02/skos/core#altLabel> "instance type" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2004/02/skos/core#definition> "The catalogue of fixed hardware configurations (CPU, memory, storage, networking and accelerators) that every Amazon EC2 instance is launched with, organized into families and generations and named by a series-generation-options.size convention such as c7gn.xlarge." .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EC2 instance types" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-graviton> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s2> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s3> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s4> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s5> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s6> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/attribute-based-instance-type-selection> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-nitro-system> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <https://github.com/john1hsu/aws-graph/ontology#domain> "compute" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 placement groups" .
@@ -7250,6 +7278,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/globaltables-disassociate.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <http://purl.org/dc/terms/title> "Amazon EC2 instance type naming conventions" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <https://schema.org/url> "https://docs.aws.eu/ec2/latest/instancetypes/instance-type-names.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s2> <http://purl.org/dc/terms/title> "Amazon EC2 instance types" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s2> <https://schema.org/url> "https://docs.aws.amazon.com/ec2/latest/instancetypes/instance-types.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s3> <http://purl.org/dc/terms/title> "Find an Amazon EC2 instance type" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-discovery.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s4> <http://purl.org/dc/terms/title> "Compatibility for changing the instance type" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resize-limitations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s5> <http://purl.org/dc/terms/title> "Create mixed instances group using attribute-based instance type selection" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s5> <https://schema.org/url> "https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-asg-instance-type-requirements.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s6> <http://purl.org/dc/terms/title> "Now available: Amazon EC2 M9g and M9gd instances powered by new AWS Graviton5 processors" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors/" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s1> <http://purl.org/dc/terms/title> "Placement groups for your Amazon EC2 instances" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

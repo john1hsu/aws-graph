@@ -3490,6 +3490,103 @@
       ]
     },
     {
+      "@id": "kt:ec2-instance-types",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon EC2 instance types",
+      "skos:definition": "The catalogue of fixed hardware configurations (CPU, memory, storage, networking and accelerators) that every Amazon EC2 instance is launched with, organized into families and generations and named by a series-generation-options.size convention such as c7gn.xlarge.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon EC2 instance type naming conventions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.eu/ec2/latest/instancetypes/instance-type-names.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EC2 instance types",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ec2/latest/instancetypes/instance-types.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Find an Amazon EC2 instance type",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-discovery.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Compatibility for changing the instance type",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resize-limitations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create mixed instances group using attribute-based instance type selection",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-asg-instance-type-requirements.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Now available: Amazon EC2 M9g and M9gd instances powered by new AWS Graviton5 processors",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/compute/ec2-instance-types.md",
+      "skos:altLabel": [
+        "EC2 instance types",
+        "EC2 instance families",
+        "instance type",
+        "EC2 instance type naming conventions"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-graviton"
+        },
+        {
+          "@id": "kt:ec2-placement-groups"
+        },
+        {
+          "@id": "kt:aws-trainium-and-inferentia"
+        },
+        {
+          "@id": "kt:spot-instances"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-nitro-system"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        },
+        {
+          "@id": "kt:aws-compute-optimizer"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:attribute-based-instance-type-selection"
+        }
+      ]
+    },
+    {
       "@id": "kt:ec2-placement-groups",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon EC2 placement groups",
