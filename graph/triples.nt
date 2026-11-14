@@ -2781,6 +2781,34 @@
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "Container networking on AWS" .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "ECS network modes" .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "EKS pod networking" .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "awsvpc networking" .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "container network modes on AWS" .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-container-services> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2004/02/skos/core#definition> "How containers on Amazon ECS and Amazon EKS get IP addresses, security groups and service-to-service connectivity inside an Amazon VPC: ECS task network modes (awsvpc, bridge, host), the Amazon VPC CNI for Kubernetes pods (secondary IPs, prefix delegation, security groups for pods) and ECS Service Connect." .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2004/02/skos/core#prefLabel> "Container networking on AWS" .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s2> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s3> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s4> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s5> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s6> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-cloud-map> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Cost Optimization Pillar" .
@@ -7108,6 +7136,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <https://schema.org/url> "https://builder.aws.com/content/3ErTKQOTKc5NIw031UePBPxTQ6I/automating-safe-hands-off-deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <http://purl.org/dc/terms/title> "Amazon ECS task networking options for EC2" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest//developerguide/task-networking.html" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s2> <http://purl.org/dc/terms/title> "AWSVPC mode (Amazon ECS Best Practices Guide)" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/bestpracticesguide/networking-networkmode-awsvpc.html" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s3> <http://purl.org/dc/terms/title> "Amazon VPC CNI (Amazon EKS Best Practices Guide)" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s3> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/best-practices/vpc-cni.html" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s4> <http://purl.org/dc/terms/title> "Prefix Mode for Linux (Amazon EKS Best Practices Guide)" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s4> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/best-practices/prefix-mode-linux.html" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s5> <http://purl.org/dc/terms/title> "Security Groups Per Pod (Amazon EKS Best Practices Guide)" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s5> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/best-practices/sgpp.html" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s6> <http://purl.org/dc/terms/title> "Use Service Connect to connect Amazon ECS services with short names" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://purl.org/dc/terms/title> "Cost Optimization Pillar - AWS Well-Architected Framework (abstract and introduction)" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

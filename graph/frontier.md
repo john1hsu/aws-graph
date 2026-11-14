@@ -46,6 +46,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:resource-control-policies` | `kt:iam-policy-evaluation-logic`, `kt:service-control-policies` |
+| `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
+| `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-bedrock-agents` | `kt:amazon-bedrock-agentcore` |
@@ -72,6 +74,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-batch` | `kt:aws-compute-services` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-free-tier` |
+| `kt:aws-cloud-map` | `kt:container-networking-on-aws` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer` |
@@ -139,13 +142,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
 | `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:sagemaker-ai-quotas` | `kt:amazon-sagemaker-ai` |
-| `kt:security-groups-vs-network-acls` | `kt:amazon-vpc` |
 | `kt:sns-quotas` | `kt:amazon-sns` |
 | `kt:sqs-quotas` | `kt:amazon-sqs` |
 | `kt:ssm-agent` | `kt:aws-systems-manager` |
 | `kt:step-functions-quotas` | `kt:aws-step-functions` |
 | `kt:storage-gateway-quotas` | `kt:aws-storage-gateway` |
-| `kt:subnets-and-route-tables` | `kt:amazon-vpc` |
 | `kt:systems-manager-parameter-store` | `kt:aws-systems-manager` |
 | `kt:systems-manager-session-manager` | `kt:aws-systems-manager` |
 | `kt:transfer-family-quotas` | `kt:aws-transfer-family` |

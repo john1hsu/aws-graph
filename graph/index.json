@@ -2430,6 +2430,30 @@
     ]
   },
   {
+    "id": "kt:container-networking-on-aws",
+    "title": "Container networking on AWS",
+    "aliases": [
+      "ECS network modes",
+      "EKS pod networking",
+      "awsvpc networking",
+      "container network modes on AWS"
+    ],
+    "type": "Concept",
+    "domain": "containers",
+    "file": "articles/containers/container-networking-on-aws.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AmazonECS/latest//developerguide/task-networking.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/bestpracticesguide/networking-networkmode-awsvpc.html",
+      "https://docs.aws.amazon.com/eks/latest/best-practices/vpc-cni.html",
+      "https://docs.aws.amazon.com/eks/latest/best-practices/prefix-mode-linux.html",
+      "https://docs.aws.amazon.com/eks/latest/best-practices/sgpp.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html"
+    ]
+  },
+  {
     "id": "kt:cost-optimization-pillar",
     "title": "Cost Optimization Pillar",
     "aliases": [

@@ -4312,6 +4312,101 @@
       ]
     },
     {
+      "@id": "kt:container-networking-on-aws",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Container networking on AWS",
+      "skos:definition": "How containers on Amazon ECS and Amazon EKS get IP addresses, security groups and service-to-service connectivity inside an Amazon VPC: ECS task network modes (awsvpc, bridge, host), the Amazon VPC CNI for Kubernetes pods (secondary IPs, prefix delegation, security groups for pods) and ECS Service Connect.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon ECS task networking options for EC2",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest//developerguide/task-networking.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWSVPC mode (Amazon ECS Best Practices Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/bestpracticesguide/networking-networkmode-awsvpc.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon VPC CNI (Amazon EKS Best Practices Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/best-practices/vpc-cni.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prefix Mode for Linux (Amazon EKS Best Practices Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/best-practices/prefix-mode-linux.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Security Groups Per Pod (Amazon EKS Best Practices Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/best-practices/sgpp.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Service Connect to connect Amazon ECS services with short names",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/containers/container-networking-on-aws.md",
+      "skos:altLabel": [
+        "ECS network modes",
+        "EKS pod networking",
+        "awsvpc networking",
+        "container network modes on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-container-services"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        },
+        {
+          "@id": "kt:aws-fargate"
+        },
+        {
+          "@id": "kt:eks-auto-mode"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:subnets-and-route-tables"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:security-groups-vs-network-acls"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:aws-cloud-map"
+        }
+      ]
+    },
+    {
       "@id": "kt:ecs-managed-instances",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon ECS Managed Instances",
