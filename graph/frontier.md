@@ -7,14 +7,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-web-services` | `kt:aws-analytics-services`, `kt:aws-certification-program`, `kt:aws-compute-services`, `kt:aws-pricing-fundamentals`, `kt:purpose-built-databases`, `kt:aws-global-infrastructure`, `kt:aws-management-and-governance-services`, `kt:aws-migration-and-transfer-services`, `kt:aws-storage-services` |
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-agentcore`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-q-business`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
-| `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
+| `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds`, `kt:aurora-global-database`, `kt:aurora-serverless-v2` |
+| `kt:aurora-quotas` | `kt:amazon-aurora`, `kt:aurora-global-database`, `kt:aurora-serverless-v2` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |
 | `kt:aws-developer-tools` | `kt:aws-codebuild`, `kt:aws-codedeploy`, `kt:aws-codepipeline` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
-| `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds`, `kt:aurora-serverless-v2` |
 | `kt:resource-control-policies` | `kt:organizations-quotas`, `kt:iam-policy-evaluation-logic`, `kt:service-control-policies` |
-| `kt:aurora-quotas` | `kt:amazon-aurora`, `kt:aurora-serverless-v2` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-free-tier`, `kt:cost-allocation-tags` |
 | `kt:aws-cloud-map` | `kt:container-networking-on-aws`, `kt:ecs-quotas` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |

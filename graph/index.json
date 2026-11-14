@@ -938,6 +938,30 @@
     ]
   },
   {
+    "id": "kt:aurora-global-database",
+    "title": "Amazon Aurora Global Database",
+    "aliases": [
+      "Aurora Global Database",
+      "Aurora global databases",
+      "Aurora global cluster"
+    ],
+    "type": "Feature",
+    "domain": "databases",
+    "file": "articles/databases/aurora-global-database.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/aurora-global-database.html",
+      "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database-disaster-recovery.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/aurora-replication-options/aurora-global-database.html",
+      "https://aws.amazon.com/rds/aurora/pricing",
+      "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-aurora-global-database-support-10-secondary-region-clusters",
+      "https://aws.amazon.com/blogs/database/amazon-aurora-global-database-introduces-support-for-up-to-10-secondary-regions",
+      "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-global-database-managed-minor"
+    ]
+  },
+  {
     "id": "kt:aurora-serverless-v2",
     "title": "Amazon Aurora Serverless",
     "aliases": [

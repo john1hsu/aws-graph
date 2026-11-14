@@ -6496,6 +6496,107 @@
       ]
     },
     {
+      "@id": "kt:aurora-global-database",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon Aurora Global Database",
+      "skos:definition": "An Amazon Aurora feature that spans one database across AWS Regions: a single writable primary cluster plus up to 10 read-only secondary clusters, kept in sync by storage-level asynchronous replication that typically lags under a second, with switchover and failover to move the primary.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Using Amazon Aurora Global Database",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/aurora-global-database.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using switchover or failover in an Amazon Aurora global database",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database-disaster-recovery.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Aurora global databases (Replication options for Amazon Aurora)",
+          "dcterms:publisher": "Amazon Web Services (AWS Prescriptive Guidance)",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/aurora-replication-options/aurora-global-database.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Aurora Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/rds/aurora/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Aurora Global Database introduces support for up to 10 secondary Region clusters",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-aurora-global-database-support-10-secondary-region-clusters",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Aurora Global Database introduces support for up to 10 secondary Regions",
+          "dcterms:publisher": "Amazon Web Services (AWS Database Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/database/amazon-aurora-global-database-introduces-support-for-up-to-10-secondary-regions",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Aurora Global Database now supports managed minor version upgrades",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-global-database-managed-minor",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/databases/aurora-global-database.md",
+      "skos:altLabel": [
+        "Aurora Global Database",
+        "Aurora global databases",
+        "Aurora global cluster"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-aurora"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aurora-serverless-v2"
+        },
+        {
+          "@id": "kt:rds-proxy"
+        },
+        {
+          "@id": "kt:reliability-pillar"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:dynamodb-global-tables"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:aurora-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:aurora-serverless-v2",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon Aurora Serverless",

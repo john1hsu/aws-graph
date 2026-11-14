@@ -1073,6 +1073,33 @@
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Aurora Global Database" .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/2004/02/skos/core#altLabel> "Aurora Global Database" .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/2004/02/skos/core#altLabel> "Aurora global cluster" .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/2004/02/skos/core#altLabel> "Aurora global databases" .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-aurora> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/2004/02/skos/core#definition> "An Amazon Aurora feature that spans one database across AWS Regions: a single writable primary cluster plus up to 10 read-only secondary clusters, kept in sync by storage-level asynchronous replication that typically lags under a second, with switchover and failover to move the primary." .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Aurora Global Database" .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/rds-proxy> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s1> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s2> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s3> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s4> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s5> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s6> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s7> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/aurora-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aurora-global-database> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Aurora Serverless" .
@@ -5536,6 +5563,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-application-load-balancer-target-optimizer" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s1> <http://purl.org/dc/terms/title> "Using Amazon Aurora Global Database" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s1> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/aurora-global-database.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s2> <http://purl.org/dc/terms/title> "Using switchover or failover in an Amazon Aurora global database" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database-disaster-recovery.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s3> <http://purl.org/dc/terms/title> "Aurora global databases (Replication options for Amazon Aurora)" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s3> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/aurora-replication-options/aurora-global-database.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s4> <http://purl.org/dc/terms/title> "Amazon Aurora Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s4> <https://schema.org/url> "https://aws.amazon.com/rds/aurora/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s5> <http://purl.org/dc/terms/title> "Amazon Aurora Global Database introduces support for up to 10 secondary Region clusters" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-aurora-global-database-support-10-secondary-region-clusters" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Database Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s6> <http://purl.org/dc/terms/title> "Amazon Aurora Global Database introduces support for up to 10 secondary Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/database/amazon-aurora-global-database-introduces-support-for-up-to-10-secondary-regions" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s7> <http://purl.org/dc/terms/title> "Amazon Aurora Global Database now supports managed minor version upgrades" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-global-database-managed-minor" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <http://purl.org/dc/terms/title> "How Aurora serverless works" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
