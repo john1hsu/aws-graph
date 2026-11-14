@@ -9,11 +9,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-analytics-services` | `kt:amazon-data-firehose`, `kt:amazon-emr`, `kt:amazon-kinesis-data-streams`, `kt:amazon-redshift`, `kt:data-lake-on-aws` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-codedeploy` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:ci-cd` |
+| `kt:aws-transform` | `kt:aws-migration-acceleration-program`, `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn`, `kt:vmware-migration-to-aws` |
 | `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:service-quotas` | `kt:reliability-pillar`, `kt:organizations-quotas`, `kt:iam-quotas`, `kt:iam-quotas` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
 | `kt:aws-secrets-manager` | `kt:aws-systems-manager`, `kt:aws-transfer-family`, `kt:aws-kms` |
-| `kt:aws-transform` | `kt:aws-migration-acceleration-program`, `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds`, `kt:aurora-serverless-v2` |
@@ -54,6 +54,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
 | `kt:amazon-detective` | `kt:amazon-guardduty` |
+| `kt:amazon-elastic-vmware-service` | `kt:vmware-migration-to-aws` |
 | `kt:amazon-macie` | `kt:aws-security-hub` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-mq` | `kt:amazon-sqs` |
@@ -152,6 +153,5 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:tag-policies` | `kt:cost-allocation-tags` |
 | `kt:transfer-family-quotas` | `kt:aws-transfer-family` |
 | `kt:transit-gateway-quotas` | `kt:aws-transit-gateway` |
-| `kt:vmware-migration-to-aws` | `kt:aws-migration-acceleration-program` |
 | `kt:vpc-endpoints` | `kt:aws-privatelink` |
 | `kt:vpc-quotas` | `kt:amazon-vpc` |

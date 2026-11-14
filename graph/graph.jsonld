@@ -10139,6 +10139,91 @@
       ]
     },
     {
+      "@id": "kt:vmware-migration-to-aws",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "VMware migration to AWS",
+      "skos:definition": "The set of paths AWS offers for moving VMware vSphere workloads to the AWS Cloud: rehosting VMs onto Amazon EC2 (planned with AWS Transform and executed by AWS Transform MGN), running VMware Cloud Foundation unchanged on Amazon Elastic VMware Service, or modernizing onto cloud-native services.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Transitioning from VMware to the AWS Cloud — Introduction",
+          "dcterms:publisher": "Amazon Web Services (AWS Prescriptive Guidance)",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/transitioning-from-vmware-to-the-aws-cloud/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What are VMware alternatives?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/what-is/vmware-alternatives/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is Amazon Elastic VMware Service?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/evs/latest/userguide/what-is-evs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Concepts and components of Amazon EVS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/evs/latest/userguide/concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EVS FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/evs/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transform for VMware (AWS Transform User Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/transform/latest/userguide/transform-app-vmware",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/vmware-migration-to-aws.md",
+      "skos:altLabel": [
+        "Migrating VMware workloads to AWS",
+        "VMware to AWS migration",
+        "VMware exit to AWS",
+        "Transitioning from VMware to the AWS Cloud"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        },
+        {
+          "@id": "kt:seven-rs-migration-strategies"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-migration-acceleration-program"
+        },
+        {
+          "@id": "kt:aws-transform"
+        },
+        {
+          "@id": "kt:aws-outposts"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-transform-mgn"
+        },
+        {
+          "@id": "kt:amazon-elastic-vmware-service"
+        },
+        {
+          "@id": "kt:aws-transit-gateway"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-cloudfront",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon CloudFront",

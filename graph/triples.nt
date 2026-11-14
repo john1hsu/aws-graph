@@ -8641,6 +8641,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s9> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-as-a-non-functional-requirement.html" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s1> <http://purl.org/dc/terms/title> "Transitioning from VMware to the AWS Cloud — Introduction" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s1> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/transitioning-from-vmware-to-the-aws-cloud/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s2> <http://purl.org/dc/terms/title> "What are VMware alternatives?" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s2> <https://schema.org/url> "https://aws.amazon.com/what-is/vmware-alternatives/" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s3> <http://purl.org/dc/terms/title> "What is Amazon Elastic VMware Service?" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s3> <https://schema.org/url> "https://docs.aws.amazon.com/evs/latest/userguide/what-is-evs.html" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s4> <http://purl.org/dc/terms/title> "Concepts and components of Amazon EVS" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s4> <https://schema.org/url> "https://docs.aws.amazon.com/evs/latest/userguide/concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s5> <http://purl.org/dc/terms/title> "Amazon EVS FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s5> <https://schema.org/url> "https://aws.amazon.com/evs/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s6> <http://purl.org/dc/terms/title> "AWS Transform for VMware (AWS Transform User Guide)" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s6> <https://schema.org/url> "https://docs.aws.amazon.com/transform/latest/userguide/transform-app-vmware" .
 <https://github.com/john1hsu/aws-graph/id/spot-instances> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#PricingModel> .
 <https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 Spot Instances" .
@@ -8702,3 +8732,29 @@
 <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2000/01/rdf-schema#label> "VMware migration to AWS" .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "Migrating VMware workloads to AWS" .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "Transitioning from VMware to the AWS Cloud" .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "VMware exit to AWS" .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "VMware to AWS migration" .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2004/02/skos/core#definition> "The set of paths AWS offers for moving VMware vSphere workloads to the AWS Cloud: rehosting VMs onto Amazon EC2 (planned with AWS Transform and executed by AWS Transform MGN), running VMware Cloud Foundation unchanged on Amazon Elastic VMware Service, or modernizing onto cloud-native services." .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2004/02/skos/core#prefLabel> "VMware migration to AWS" .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-outposts> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transform> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s1> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s2> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s3> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s4> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s5> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s6> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .

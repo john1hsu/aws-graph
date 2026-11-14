@@ -3405,5 +3405,29 @@
       "https://aws.amazon.com/blogs/aws/announcing-the-aws-sustainability-console-programmatic-access-configurable-csv-reports-and-scope-1-3-reporting-in-one-place",
       "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-customer-carbon-footprint-tool-scope-3-emissions-data"
     ]
+  },
+  {
+    "id": "kt:vmware-migration-to-aws",
+    "title": "VMware migration to AWS",
+    "aliases": [
+      "Migrating VMware workloads to AWS",
+      "VMware to AWS migration",
+      "VMware exit to AWS",
+      "Transitioning from VMware to the AWS Cloud"
+    ],
+    "type": "Concept",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/vmware-migration-to-aws.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/transitioning-from-vmware-to-the-aws-cloud/introduction.html",
+      "https://aws.amazon.com/what-is/vmware-alternatives/",
+      "https://docs.aws.amazon.com/evs/latest/userguide/what-is-evs.html",
+      "https://docs.aws.amazon.com/evs/latest/userguide/concepts.html",
+      "https://aws.amazon.com/evs/faqs",
+      "https://docs.aws.amazon.com/transform/latest/userguide/transform-app-vmware"
+    ]
   }
 ]
