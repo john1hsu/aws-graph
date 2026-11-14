@@ -10525,6 +10525,91 @@
       ]
     },
     {
+      "@id": "kt:aws-transform",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Transform",
+      "skos:definition": "AWS's agentic AI service for migration and modernization: specialized AI agents assess on-premises estates, plan and execute VMware and other server migrations, port .NET and SQL Server workloads, refactor mainframe COBOL, and run organization-wide custom code transformations, with humans reviewing and approving each plan.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Transform FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/transform/faq",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transform — AWS Transform launch guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/transform/latest/launchguide/aws-transform.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Getting started with AWS Transform",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/transform/latest/userguide/getting-started.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transform pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/transform/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Transform is now generally available",
+          "dcterms:publisher": "Amazon Web Services (AWS Migration & Modernization Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/migration-and-modernization/aws-transform-generally-available",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS launches AWS Transform custom to accelerate organization-wide application modernization",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-custom-organization-wide-modernization",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/aws-transform.md",
+      "skos:altLabel": [
+        "Amazon Q Developer transformation capabilities",
+        "AWS Transform for .NET",
+        "AWS Transform for mainframe",
+        "AWS Transform for VMware",
+        "AWS Transform custom"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:vmware-migration-to-aws"
+        },
+        {
+          "@id": "kt:seven-rs-migration-strategies"
+        },
+        {
+          "@id": "kt:amazon-q-developer"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-transform-mgn"
+        },
+        {
+          "@id": "kt:aws-database-migration-service"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ]
+    },
+    {
       "@id": "kt:seven-rs-migration-strategies",
       "@type": "kto:Concept",
       "skos:prefLabel": "7 Rs migration strategies",

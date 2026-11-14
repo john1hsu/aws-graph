@@ -2926,6 +2926,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Transform" .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Transform custom" .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Transform for .NET" .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Transform for VMware" .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Transform for mainframe" .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Q Developer transformation capabilities" .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/2004/02/skos/core#definition> "AWS's agentic AI service for migration and modernization: specialized AI agents assess on-premises estates, plan and execute VMware and other server migrations, port .NET and SQL Server workloads, refactor mainframe COBOL, and run organization-wide custom code transformations, with humans reviewing and approving each plan." .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Transform" .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-q-developer> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transform/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transform/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transform/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transform/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transform/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-transform/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-transform> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Transit Gateway" .
@@ -7703,6 +7729,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-transform-mgn/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transform-mgn/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transform-mgn/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s1> <http://purl.org/dc/terms/title> "AWS Transform FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s1> <https://schema.org/url> "https://aws.amazon.com/transform/faq" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s2> <http://purl.org/dc/terms/title> "AWS Transform — AWS Transform launch guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s2> <https://schema.org/url> "https://docs.aws.amazon.com/transform/latest/launchguide/aws-transform.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s3> <http://purl.org/dc/terms/title> "Getting started with AWS Transform" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s3> <https://schema.org/url> "https://docs.aws.amazon.com/transform/latest/userguide/getting-started.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s4> <http://purl.org/dc/terms/title> "AWS Transform pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s4> <https://schema.org/url> "https://aws.amazon.com/transform/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Migration & Modernization Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s5> <http://purl.org/dc/terms/title> "AWS Transform is now generally available" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/migration-and-modernization/aws-transform-generally-available" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s6> <http://purl.org/dc/terms/title> "AWS launches AWS Transform custom to accelerate organization-wide application modernization" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-transform/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-custom-organization-wide-modernization" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s1> <http://purl.org/dc/terms/title> "What is AWS Transit Gateway for Amazon VPC?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

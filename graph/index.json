@@ -2519,6 +2519,31 @@
     ]
   },
   {
+    "id": "kt:aws-transform",
+    "title": "AWS Transform",
+    "aliases": [
+      "Amazon Q Developer transformation capabilities",
+      "AWS Transform for .NET",
+      "AWS Transform for mainframe",
+      "AWS Transform for VMware",
+      "AWS Transform custom"
+    ],
+    "type": "Service",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/aws-transform.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/transform/faq",
+      "https://docs.aws.amazon.com/transform/latest/launchguide/aws-transform.html",
+      "https://docs.aws.amazon.com/transform/latest/userguide/getting-started.html",
+      "https://aws.amazon.com/transform/pricing",
+      "https://aws.amazon.com/blogs/migration-and-modernization/aws-transform-generally-available",
+      "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-custom-organization-wide-modernization"
+    ]
+  },
+  {
     "id": "kt:aws-transform-mgn",
     "title": "AWS Transform MGN",
     "aliases": [
