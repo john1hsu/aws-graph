@@ -2471,6 +2471,30 @@
 <https://github.com/john1hsu/aws-graph/id/aws-partitions> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-partitions> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-partitions> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Tool> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Pricing Calculator" .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/2004/02/skos/core#altLabel> "In-console Pricing Calculator" .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/2004/02/skos/core#altLabel> "Pricing Calculator" .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/2004/02/skos/core#altLabel> "calculator.aws" .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/2004/02/skos/core#definition> "AWS's cost-estimation tool, offered as a free public website (calculator.aws) and as a feature of the Billing and Cost Management console that can import historical usage and apply an account's own discounts, Savings Plans and Reserved Instances to workload or whole-bill estimates." .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Pricing Calculator" .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/reserved-instances> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <http://www.w3.org/2000/01/rdf-schema#label> "AWS pricing fundamentals" .
@@ -2481,6 +2505,7 @@
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <http://www.w3.org/2004/02/skos/core#definition> "The core principles behind how AWS bills: pay-as-you-go for what you consume, lower rates in exchange for a usage commitment, lower per-unit rates at higher volume, and three main cost drivers (compute, storage and outbound data transfer)." .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS pricing fundamentals" .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/data-transfer-costs> .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-fundamentals/s1> .
@@ -7253,6 +7278,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/security/architecting-a-secure-landing-zone-in-the-aws-european-sovereign-cloud/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s1> <http://purl.org/dc/terms/title> "What is AWS Pricing Calculator?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s1> <https://schema.org/url> "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/what-is-pricing-calculator.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s2> <http://purl.org/dc/terms/title> "Sharing your estimate - AWS Pricing Calculator" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s2> <https://schema.org/url> "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/save-share-estimate.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s3> <http://purl.org/dc/terms/title> "Generating estimates with Pricing Calculator - AWS Cost Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s3> <https://schema.org/url> "https://docs.aws.amazon.com/cost-management/latest/userguide/pricing-calculator.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s4> <http://purl.org/dc/terms/title> "AWS Pricing Calculator FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s4> <https://schema.org/url> "https://aws.amazon.com/aws-cost-management/aws-pricing-calculator/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s5> <http://purl.org/dc/terms/title> "AWS Pricing Calculator, now generally available, supports discounts and purchase commitment" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-pricing-calculator-discounts-purchase-commitments/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s6> <http://purl.org/dc/terms/title> "Content Domain 4: Billing, Pricing, and Support - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-fundamentals/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-fundamentals/s1> <http://purl.org/dc/terms/title> "Key principles - How AWS Pricing Works" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-fundamentals/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

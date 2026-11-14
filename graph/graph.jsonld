@@ -5488,6 +5488,91 @@
       ]
     },
     {
+      "@id": "kt:aws-pricing-calculator",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "AWS Pricing Calculator",
+      "skos:definition": "AWS's cost-estimation tool, offered as a free public website (calculator.aws) and as a feature of the Billing and Cost Management console that can import historical usage and apply an account's own discounts, Savings Plans and Reserved Instances to workload or whole-bill estimates.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Pricing Calculator?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/what-is-pricing-calculator.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Sharing your estimate - AWS Pricing Calculator",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/save-share-estimate.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Generating estimates with Pricing Calculator - AWS Cost Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cost-management/latest/userguide/pricing-calculator.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Pricing Calculator FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/aws-cost-management/aws-pricing-calculator/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Pricing Calculator, now generally available, supports discounts and purchase commitment",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-pricing-calculator-discounts-purchase-commitments/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Content Domain 4: Billing, Pricing, and Support - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/cost-management/aws-pricing-calculator.md",
+      "skos:altLabel": [
+        "Pricing Calculator",
+        "calculator.aws",
+        "In-console Pricing Calculator"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-cost-management-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-pricing-fundamentals"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-cost-explorer"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:savings-plans"
+        },
+        {
+          "@id": "kt:reserved-instances"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-pricing-fundamentals",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS pricing fundamentals",
@@ -5554,6 +5639,9 @@
         },
         {
           "@id": "kt:data-transfer-costs"
+        },
+        {
+          "@id": "kt:aws-pricing-calculator"
         }
       ],
       "kto:hasPart": [

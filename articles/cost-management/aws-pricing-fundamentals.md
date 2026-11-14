@@ -11,7 +11,7 @@ summary: >-
 verified: 2026-11-13
 status: concept
 broader: [kt:amazon-web-services]
-related: [kt:cost-optimization-pillar, kt:aws-cost-explorer, kt:data-transfer-costs]
+related: [kt:cost-optimization-pillar, kt:aws-cost-explorer, kt:data-transfer-costs, kt:aws-pricing-calculator]
 relations:
   - {predicate: hasPart, object: kt:savings-plans}
   - {predicate: hasPart, object: kt:reserved-instances}

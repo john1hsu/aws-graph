@@ -2156,6 +2156,29 @@
     ]
   },
   {
+    "id": "kt:aws-pricing-calculator",
+    "title": "AWS Pricing Calculator",
+    "aliases": [
+      "Pricing Calculator",
+      "calculator.aws",
+      "In-console Pricing Calculator"
+    ],
+    "type": "Tool",
+    "domain": "cost-management",
+    "file": "articles/cost-management/aws-pricing-calculator.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/what-is-pricing-calculator.html",
+      "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/save-share-estimate.html",
+      "https://docs.aws.amazon.com/cost-management/latest/userguide/pricing-calculator.html",
+      "https://aws.amazon.com/aws-cost-management/aws-pricing-calculator/faqs",
+      "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-pricing-calculator-discounts-purchase-commitments/",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html"
+    ]
+  },
+  {
     "id": "kt:aws-pricing-fundamentals",
     "title": "AWS pricing fundamentals",
     "aliases": [

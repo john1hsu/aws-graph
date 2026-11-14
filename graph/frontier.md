@@ -10,6 +10,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds`, `kt:aurora-global-database`, `kt:aurora-serverless-v2` |
 | `kt:aurora-quotas` | `kt:amazon-aurora`, `kt:aurora-global-database`, `kt:aurora-serverless-v2` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |
+| `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-pricing-calculator` |
 | `kt:aws-developer-tools` | `kt:aws-codebuild`, `kt:aws-codedeploy`, `kt:aws-codepipeline` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
@@ -20,7 +21,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar`, `kt:ec2-instance-types` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
-| `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs` |
 | `kt:aws-global-accelerator` | `kt:performance-efficiency-pillar`, `kt:edge-locations` |
