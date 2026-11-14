@@ -1129,6 +1129,36 @@
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS analytics services" .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS analytics category" .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS analytics portfolio" .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS analytics" .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS data analytics services" .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2004/02/skos/core#altLabel> "analytics on AWS" .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2004/02/skos/core#definition> "The AWS service category for turning raw data into answers: interactive and big-data processing (Athena, EMR, Glue), streaming (Kinesis, Data Firehose, Managed Service for Apache Flink, MSK), warehousing (Redshift), search analytics (OpenSearch Service), business intelligence (Quick), and governance and collaboration (Lake Formation, DataZone, Clean Rooms), increasingly fronted by the next generation of Amazon SageMaker." .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS analytics services" .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-storage-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-emr> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-appsync> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-appsync> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-appsync> <http://www.w3.org/2000/01/rdf-schema#label> "AWS AppSync" .
@@ -5383,6 +5413,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <https://schema.org/url> "https://docs.aws.amazon.com/arc-zonal-shift/latest/api/Welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s1> <http://purl.org/dc/terms/title> "Analytics - Overview of Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s2> <http://purl.org/dc/terms/title> "Choosing an AWS analytics service" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s2> <https://schema.org/url> "https://docs.aws.amazon.com/decision-guides/latest/analytics-on-aws-how-to-choose/analytics-on-aws-how-to-choose.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s3> <http://purl.org/dc/terms/title> "Best practice 8.1 - Identify analytics solutions that best suit your technical challenges (Data Analytics Lens)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/analytics-lens/best-practice-8.1-identify-analytics-solutions-that-best-suit-your-technical-challenges..html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s4> <http://purl.org/dc/terms/publisher> "AWS Business Intelligence Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s4> <http://purl.org/dc/terms/title> "Reimagine business intelligence: Amazon QuickSight evolves to Amazon Quick Suite" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/business-intelligence/reimagine-business-intelligence-amazon-quicksight-evolves-to-amazon-quick-suite" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s5> <http://purl.org/dc/terms/title> "What Is Amazon CloudSearch? - Amazon CloudSearch Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s5> <https://schema.org/url> "https://docs.aws.amazon.com/cloudsearch/latest/developerguide/what-is-cloudsearch.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s6> <http://purl.org/dc/terms/title> "Document History - AWS Data Pipeline Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s6> <https://schema.org/url> "https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/DocHistory.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s7> <http://purl.org/dc/terms/title> "Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-appsync/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-appsync/s1> <http://purl.org/dc/terms/title> "What is AWS AppSync?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-appsync/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

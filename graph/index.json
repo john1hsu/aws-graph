@@ -990,6 +990,32 @@
     ]
   },
   {
+    "id": "kt:aws-analytics-services",
+    "title": "AWS analytics services",
+    "aliases": [
+      "AWS analytics",
+      "analytics on AWS",
+      "AWS analytics portfolio",
+      "AWS analytics category",
+      "AWS data analytics services"
+    ],
+    "type": "Concept",
+    "domain": "analytics",
+    "file": "articles/analytics/aws-analytics-services.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html",
+      "https://docs.aws.amazon.com/decision-guides/latest/analytics-on-aws-how-to-choose/analytics-on-aws-how-to-choose.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/analytics-lens/best-practice-8.1-identify-analytics-solutions-that-best-suit-your-technical-challenges..html",
+      "https://aws.amazon.com/blogs/business-intelligence/reimagine-business-intelligence-amazon-quicksight-evolves-to-amazon-quick-suite",
+      "https://docs.aws.amazon.com/cloudsearch/latest/developerguide/what-is-cloudsearch.html",
+      "https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/DocHistory.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html"
+    ]
+  },
+  {
     "id": "kt:aws-appsync",
     "title": "AWS AppSync",
     "aliases": [

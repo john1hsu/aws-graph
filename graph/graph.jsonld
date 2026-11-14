@@ -1361,6 +1361,106 @@
       ]
     },
     {
+      "@id": "kt:aws-analytics-services",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS analytics services",
+      "skos:definition": "The AWS service category for turning raw data into answers: interactive and big-data processing (Athena, EMR, Glue), streaming (Kinesis, Data Firehose, Managed Service for Apache Flink, MSK), warehousing (Redshift), search analytics (OpenSearch Service), business intelligence (Quick), and governance and collaboration (Lake Formation, DataZone, Clean Rooms), increasingly fronted by the next generation of Amazon SageMaker.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Analytics - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing an AWS analytics service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/analytics-on-aws-how-to-choose/analytics-on-aws-how-to-choose.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best practice 8.1 - Identify analytics solutions that best suit your technical challenges (Data Analytics Lens)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/analytics-lens/best-practice-8.1-identify-analytics-solutions-that-best-suit-your-technical-challenges..html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Reimagine business intelligence: Amazon QuickSight evolves to Amazon Quick Suite",
+          "dcterms:publisher": "AWS Business Intelligence Blog",
+          "schema:url": "https://aws.amazon.com/blogs/business-intelligence/reimagine-business-intelligence-amazon-quicksight-evolves-to-amazon-quick-suite",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "What Is Amazon CloudSearch? - Amazon CloudSearch Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cloudsearch/latest/developerguide/what-is-cloudsearch.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Document History - AWS Data Pipeline Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/DocHistory.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/analytics/aws-analytics-services.md",
+      "skos:altLabel": [
+        "AWS analytics",
+        "analytics on AWS",
+        "AWS analytics portfolio",
+        "AWS analytics category",
+        "AWS data analytics services"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-lake-on-aws"
+        },
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        },
+        {
+          "@id": "kt:aws-storage-services"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:amazon-athena"
+        },
+        {
+          "@id": "kt:amazon-redshift"
+        },
+        {
+          "@id": "kt:amazon-emr"
+        },
+        {
+          "@id": "kt:aws-glue"
+        },
+        {
+          "@id": "kt:amazon-kinesis-data-streams"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-glue",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Glue",
