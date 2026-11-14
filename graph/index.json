@@ -3037,6 +3037,30 @@
     ]
   },
   {
+    "id": "kt:organizations-quotas",
+    "title": "AWS Organizations quotas",
+    "aliases": [
+      "Organizations quotas",
+      "AWS Organizations limits",
+      "Organizations service limits"
+    ],
+    "type": "Limit",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/organizations-quotas.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.html",
+      "https://docs.aws.amazon.com/en_gb/general/latest/gr/ao.html",
+      "https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-closing.html",
+      "https://docs.aws.amazon.com/servicequotas/latest/userguide/organization-templates.html",
+      "https://aws.amazon.com/id/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000",
+      "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/"
+    ]
+  },
+  {
     "id": "kt:performance-efficiency-pillar",
     "title": "Performance Efficiency Pillar",
     "aliases": [

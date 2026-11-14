@@ -3467,6 +3467,32 @@
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Organizations quotas" .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Organizations limits" .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Organizations quotas" .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Organizations service limits" .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The organization-wide limits on accounts, OUs, policies, attachments, invitations, account closures and API request rates in AWS Organizations; a handful are adjustable through Service Quotas in us-east-1, while most structural and policy-attachment limits are fixed." .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Organizations quotas" .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-control-tower> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/resource-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s6> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s7> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/iam-quotas> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/organizations-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Performance Efficiency Pillar" .
@@ -8037,6 +8063,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.md" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s1> <http://purl.org/dc/terms/title> "Quotas and service limits for AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s2> <http://purl.org/dc/terms/title> "AWS Organizations endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/en_gb/general/latest/gr/ao.html" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s3> <http://purl.org/dc/terms/title> "Close an AWS account - AWS Account Management" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-closing.html" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s4> <http://purl.org/dc/terms/title> "Using Service Quotas request templates - Service Quotas User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/servicequotas/latest/userguide/organization-templates.html" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s5> <http://purl.org/dc/terms/title> "AWS Organizations now supports higher quotas for service control policies (What's New with AWS, 2026-05-15)" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s5> <https://schema.org/url> "https://aws.amazon.com/id/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s6> <http://purl.org/dc/terms/title> "AWS Organizations increases RCP quota to 2,000 per organization (What's New with AWS, 2026-07-22)" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s7> <http://purl.org/dc/terms/title> "AWS Organizations now provides maximum account quota visibility in Service Quotas (What's New with AWS, 2026-08-03)" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/" .
 <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s1> <http://purl.org/dc/terms/title> "Performance Efficiency Pillar - AWS Well-Architected Framework (introduction)" .
 <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

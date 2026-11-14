@@ -8430,6 +8430,100 @@
       ]
     },
     {
+      "@id": "kt:organizations-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "AWS Organizations quotas",
+      "skos:definition": "The organization-wide limits on accounts, OUs, policies, attachments, invitations, account closures and API request rates in AWS Organizations; a handful are adjustable through Service Quotas in us-east-1, while most structural and policy-attachment limits are fixed.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Quotas and service limits for AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Organizations endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_gb/general/latest/gr/ao.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Close an AWS account - AWS Account Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-closing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using Service Quotas request templates - Service Quotas User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/servicequotas/latest/userguide/organization-templates.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Organizations now supports higher quotas for service control policies (What's New with AWS, 2026-05-15)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/id/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Organizations increases RCP quota to 2,000 per organization (What's New with AWS, 2026-07-22)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Organizations now provides maximum account quota visibility in Service Quotas (What's New with AWS, 2026-08-03)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/organizations-quotas.md",
+      "skos:altLabel": [
+        "Organizations quotas",
+        "AWS Organizations limits",
+        "Organizations service limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:service-control-policies"
+        },
+        {
+          "@id": "kt:multi-account-strategy"
+        },
+        {
+          "@id": "kt:aws-control-tower"
+        },
+        {
+          "@id": "kt:resource-control-policies"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:iam-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-partitions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-iam",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Identity and Access Management",
