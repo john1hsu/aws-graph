@@ -6806,6 +6806,109 @@
       ]
     },
     {
+      "@id": "kt:aws-codedeploy",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS CodeDeploy",
+      "skos:definition": "AWS's managed deployment service that rolls application revisions out to EC2 instances, on-premises servers, Lambda functions and ECS services, using in-place or blue/green deployments with canary, linear or all-at-once traffic shifting and automatic rollback.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is CodeDeploy?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/codedeploy/latest/userguide/welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CodeDeploy FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/codedeploy/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CodeDeploy quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/codedeploy/latest/userguide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Working with deployment configurations in CodeDeploy",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing between Amazon ECS Blue/Green Native or AWS CodeDeploy in AWS CDK",
+          "dcterms:publisher": "Amazon Web Services (AWS DevOps & Developer Productivity Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/devops/choosing-between-amazon-ecs-blue-green-native-or-aws-codedeploy-in-aws-cdk",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Developer - Associate (DVA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-03/dva-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/aws-codedeploy.md",
+      "skos:altLabel": [
+        "CodeDeploy",
+        "Amazon CodeDeploy"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-developer-tools"
+        },
+        {
+          "@id": "kt:ci-cd"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-codepipeline"
+        },
+        {
+          "@id": "kt:aws-codebuild"
+        },
+        {
+          "@id": "kt:canary-deployments"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:blue-green-deployments"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        },
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:ecs-native-blue-green-deployments"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:codedeploy-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-codepipeline",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS CodePipeline",

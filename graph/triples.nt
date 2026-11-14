@@ -1570,6 +1570,34 @@
 <https://github.com/john1hsu/aws-graph/id/aws-codebuild> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-codebuild> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-codebuild> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CodeDeploy" .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon CodeDeploy" .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/2004/02/skos/core#altLabel> "CodeDeploy" .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-developer-tools> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/ci-cd> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed deployment service that rolls application revisions out to EC2 instances, on-premises servers, Lambda functions and ECS services, using in-place or blue/green deployments with canary, linear or all-at-once traffic shifting and automatic rollback." .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS CodeDeploy" .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-codebuild> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/canary-deployments> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/codedeploy-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-codedeploy> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CodePipeline" .
@@ -5947,6 +5975,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-codebuild/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-03/dva-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s1> <http://purl.org/dc/terms/title> "What is CodeDeploy?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s1> <https://schema.org/url> "https://docs.aws.amazon.com/codedeploy/latest/userguide/welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s2> <http://purl.org/dc/terms/title> "AWS CodeDeploy FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s2> <https://schema.org/url> "https://aws.amazon.com/codedeploy/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s3> <http://purl.org/dc/terms/title> "CodeDeploy quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s3> <https://schema.org/url> "https://docs.aws.amazon.com/codedeploy/latest/userguide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s4> <http://purl.org/dc/terms/title> "Working with deployment configurations in CodeDeploy" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s4> <https://schema.org/url> "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS DevOps & Developer Productivity Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s5> <http://purl.org/dc/terms/title> "Choosing between Amazon ECS Blue/Green Native or AWS CodeDeploy in AWS CDK" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/devops/choosing-between-amazon-ecs-blue-green-native-or-aws-codedeploy-in-aws-cdk" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s6> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Developer - Associate (DVA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-codedeploy/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-03/dva-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-codepipeline/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-codepipeline/s1> <http://purl.org/dc/terms/title> "What type of pipeline is right for me?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-codepipeline/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

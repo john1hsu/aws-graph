@@ -1382,6 +1382,28 @@
     ]
   },
   {
+    "id": "kt:aws-codedeploy",
+    "title": "AWS CodeDeploy",
+    "aliases": [
+      "CodeDeploy",
+      "Amazon CodeDeploy"
+    ],
+    "type": "Service",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/aws-codedeploy.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/codedeploy/latest/userguide/welcome.html",
+      "https://aws.amazon.com/codedeploy/faqs",
+      "https://docs.aws.amazon.com/codedeploy/latest/userguide/limits.html",
+      "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html",
+      "https://aws.amazon.com/blogs/devops/choosing-between-amazon-ecs-blue-green-native-or-aws-codedeploy-in-aws-cdk",
+      "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-03/dva-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-codepipeline",
     "title": "AWS CodePipeline",
     "aliases": [
