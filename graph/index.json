@@ -1204,6 +1204,26 @@
     ]
   },
   {
+    "id": "kt:aws-certified-data-engineer-associate",
+    "title": "AWS Certified Data Engineer - Associate",
+    "aliases": [
+      "DEA-C01",
+      "AWS Data Engineer Associate",
+      "AWS DEA"
+    ],
+    "type": "Certification",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certified-data-engineer-associate.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/pdfs/aws-certification/latest/data-engineer-associate-01/data-engineer-associate-01.pdf",
+      "https://aws.amazon.com/certification/certified-data-engineer-associate/",
+      "https://aws.amazon.com/blogs/training-and-certification/registration-open-for-aws-certified-data-engineer-associate-beta-exam/"
+    ]
+  },
+  {
     "id": "kt:aws-certified-developer-associate",
     "title": "AWS Certified Developer - Associate",
     "aliases": [

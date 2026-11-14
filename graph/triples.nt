@@ -1375,6 +1375,29 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Data Engineer - Associate" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS DEA" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Data Engineer Associate" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2004/02/skos/core#altLabel> "DEA-C01" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2004/02/skos/core#definition> "AWS's associate-level certification for data engineers, validating the ability to build, orchestrate, operate and secure data pipelines and data stores on AWS (exam DEA-C01); it launched in 2024 as the successor to the retired AWS Certified Data Analytics - Specialty." .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Certified Data Engineer - Associate" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lake-formation> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Developer - Associate" .
@@ -5765,6 +5788,21 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s3> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s1> <http://purl.org/dc/terms/title> "Exam Guide (DEA-C01): AWS Certified Data Engineer - Associate (PDF)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s1> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/data-engineer-associate-01/data-engineer-associate-01.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s2> <http://purl.org/dc/terms/title> "AWS Certified Data Engineer - Associate" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s2> <https://schema.org/url> "https://aws.amazon.com/certification/certified-data-engineer-associate/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Training and Certification Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s3> <http://purl.org/dc/terms/title> "Registration open for AWS Certified Data Engineer - Associate beta exam" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s3> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/registration-open-for-aws-certified-data-engineer-associate-beta-exam/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-developer-associate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-developer-associate/s1> <http://purl.org/dc/terms/title> "AWS Certified Developer - Associate (DVA-C02) Exam Guide" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-developer-associate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

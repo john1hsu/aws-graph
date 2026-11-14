@@ -2910,6 +2910,75 @@
       ]
     },
     {
+      "@id": "kt:aws-certified-data-engineer-associate",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "AWS Certified Data Engineer - Associate",
+      "skos:definition": "AWS's associate-level certification for data engineers, validating the ability to build, orchestrate, operate and secure data pipelines and data stores on AWS (exam DEA-C01); it launched in 2024 as the successor to the retired AWS Certified Data Analytics - Specialty.",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Exam Guide (DEA-C01): AWS Certified Data Engineer - Associate (PDF)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/aws-certification/latest/data-engineer-associate-01/data-engineer-associate-01.pdf",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certified Data Engineer - Associate",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/certified-data-engineer-associate/",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Registration open for AWS Certified Data Engineer - Associate beta exam",
+          "dcterms:publisher": "Amazon Web Services (AWS Training and Certification Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/training-and-certification/registration-open-for-aws-certified-data-engineer-associate-beta-exam/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-certified-data-engineer-associate.md",
+      "skos:altLabel": [
+        "DEA-C01",
+        "AWS Data Engineer Associate",
+        "AWS DEA"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-glue"
+        },
+        {
+          "@id": "kt:amazon-redshift"
+        },
+        {
+          "@id": "kt:aws-lake-formation"
+        },
+        {
+          "@id": "kt:amazon-athena"
+        },
+        {
+          "@id": "kt:data-lake-on-aws"
+        },
+        {
+          "@id": "kt:aws-analytics-services"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-certified-machine-learning-engineer-associate"
+        },
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-developer-associate",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified Developer - Associate",
