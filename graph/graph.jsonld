@@ -10701,6 +10701,118 @@
       ]
     },
     {
+      "@id": "kt:aws-privatelink",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS PrivateLink",
+      "skos:definition": "AWS's technology for privately connecting a VPC to AWS services, other accounts' endpoint services, SaaS offerings and shared resources through VPC endpoints with private IP addresses, without internet gateways, NAT, VPNs or VPC peering.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS PrivateLink?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/privatelink/what-is-privatelink.html?ref=faun",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS PrivateLink concepts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/privatelink/concepts.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS PrivateLink quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-limits-endpoints.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS PrivateLink pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/privatelink/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS PrivateLink FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/privatelink/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS PrivateLink now supports cross-region connectivity",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/11/aws-privatelink-across-region-connectivity",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS PrivateLink now supports cross-region connectivity for AWS Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-privatelink-cross-region-connectivity-aws-services",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-scope AWS services - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/aws-privatelink.md",
+      "skos:altLabel": [
+        "PrivateLink",
+        "VPC endpoint services"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:vpc-endpoints"
+        },
+        {
+          "@id": "kt:amazon-route-53"
+        },
+        {
+          "@id": "kt:aws-transit-gateway"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-direct-connect"
+        },
+        {
+          "@id": "kt:aws-resource-access-manager"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:vpc-peering"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-transit-gateway",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Transit Gateway",

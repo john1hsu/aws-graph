@@ -2269,6 +2269,35 @@
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/2000/01/rdf-schema#label> "AWS PrivateLink" .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/2004/02/skos/core#altLabel> "PrivateLink" .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/2004/02/skos/core#altLabel> "VPC endpoint services" .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/2004/02/skos/core#definition> "AWS's technology for privately connecting a VPC to AWS services, other accounts' endpoint services, SaaS offerings and shared resources through VPC endpoints with private IP addresses, without internet gateways, NAT, VPNs or VPC peering." .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS PrivateLink" .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/vpc-endpoints> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/vpc-peering> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-privatelink> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Regions" .
@@ -6617,6 +6646,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-fundamentals/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-fundamentals/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-fundamentals/s6> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/aws-cost-optimization.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s1> <http://purl.org/dc/terms/title> "What is AWS PrivateLink?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s1> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/privatelink/what-is-privatelink.html?ref=faun" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s2> <http://purl.org/dc/terms/title> "AWS PrivateLink concepts" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s2> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/privatelink/concepts.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s3> <http://purl.org/dc/terms/title> "AWS PrivateLink quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s3> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-limits-endpoints.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s4> <http://purl.org/dc/terms/title> "AWS PrivateLink pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s4> <https://schema.org/url> "https://aws.amazon.com/privatelink/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s5> <http://purl.org/dc/terms/title> "AWS PrivateLink FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s5> <https://schema.org/url> "https://aws.amazon.com/privatelink/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s6> <http://purl.org/dc/terms/title> "AWS PrivateLink now supports cross-region connectivity" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2024/11/aws-privatelink-across-region-connectivity" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s7> <http://purl.org/dc/terms/title> "AWS PrivateLink now supports cross-region connectivity for AWS Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-privatelink-cross-region-connectivity-aws-services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s8> <http://purl.org/dc/terms/title> "In-scope AWS services - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-privatelink/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <http://purl.org/dc/terms/title> "AWS Regions - AWS Regions and Availability Zones" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

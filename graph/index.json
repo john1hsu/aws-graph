@@ -1988,6 +1988,30 @@
     ]
   },
   {
+    "id": "kt:aws-privatelink",
+    "title": "AWS PrivateLink",
+    "aliases": [
+      "PrivateLink",
+      "VPC endpoint services"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/aws-privatelink.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/vpc/latest/privatelink/what-is-privatelink.html?ref=faun",
+      "https://docs.aws.amazon.com/vpc/latest/privatelink/concepts.md",
+      "https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-limits-endpoints.html",
+      "https://aws.amazon.com/privatelink/pricing/",
+      "https://aws.amazon.com/privatelink/faqs",
+      "https://aws.amazon.com/about-aws/whats-new/2024/11/aws-privatelink-across-region-connectivity",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-privatelink-cross-region-connectivity-aws-services",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-regions",
     "title": "AWS Regions",
     "aliases": [
