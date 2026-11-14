@@ -753,6 +753,31 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Q Business" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Q for business" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/2004/02/skos/core#altLabel> "Q Business" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-ai-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed generative-AI assistant for employees that answers questions with citations from connected enterprise data, respects source permissions and can take actions through plugins; closed to new customers since July 30, 2026, with AWS directing customers to Amazon Quick." .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Q Business" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-kendra> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <https://github.com/john1hsu/aws-graph/ontology#replacedBy> <https://github.com/john1hsu/aws-graph/id/amazon-quick> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <https://github.com/john1hsu/aws-graph/ontology#status> "closed-to-new-customers" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-business> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Relational Database Service" .
@@ -4888,6 +4913,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-kinesis-data-streams-ondemand-advantage" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s1> <http://purl.org/dc/terms/title> "Amazon Q Business availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s1> <https://schema.org/url> "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/qbusiness-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s2> <http://purl.org/dc/terms/title> "AWS Service Availability Updates (What's New, June 30, 2026)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s2> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s3> <http://purl.org/dc/terms/title> "How Amazon Q Business works" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s3> <https://schema.org/url> "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/how-it-works.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s4> <http://purl.org/dc/terms/title> "Key concepts of Amazon Q Business" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s4> <https://schema.org/url> "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/concepts-terms.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s5> <http://purl.org/dc/terms/title> "Amazon Q Business subscription tiers and index types" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s5> <https://schema.org/url> "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/tiers.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s6> <http://purl.org/dc/terms/title> "Amazon Q Business pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s6> <https://schema.org/url> "https://aws.amazon.com/q/business/pricing/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s1> <http://purl.org/dc/terms/title> "What is Amazon Relational Database Service (Amazon RDS)?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

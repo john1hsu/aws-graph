@@ -657,6 +657,28 @@
     ]
   },
   {
+    "id": "kt:amazon-q-business",
+    "title": "Amazon Q Business",
+    "aliases": [
+      "Q Business",
+      "Amazon Q for business"
+    ],
+    "type": "Service",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-q-business.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "closed-to-new-customers",
+    "source_urls": [
+      "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/qbusiness-availability-change.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/",
+      "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/how-it-works.md",
+      "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/concepts-terms.md",
+      "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/tiers.md",
+      "https://aws.amazon.com/q/business/pricing/"
+    ]
+  },
+  {
     "id": "kt:amazon-rds",
     "title": "Amazon Relational Database Service",
     "aliases": [

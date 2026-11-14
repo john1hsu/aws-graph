@@ -489,6 +489,100 @@
       ]
     },
     {
+      "@id": "kt:amazon-q-business",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Q Business",
+      "skos:definition": "AWS's managed generative-AI assistant for employees that answers questions with citations from connected enterprise data, respects source permissions and can take actions through plugins; closed to new customers since July 30, 2026, with AWS directing customers to Amazon Quick.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "closed-to-new-customers",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon Q Business availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/qbusiness-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Service Availability Updates (What's New, June 30, 2026)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "How Amazon Q Business works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/how-it-works.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Key concepts of Amazon Q Business",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/concepts-terms.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Q Business subscription tiers and index types",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/tiers.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Q Business pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/q/business/pricing/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-q-business.md",
+      "skos:altLabel": [
+        "Q Business",
+        "Amazon Q for business"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:generative-ai-on-aws"
+        },
+        {
+          "@id": "kt:aws-ai-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-bedrock-knowledge-bases"
+        },
+        {
+          "@id": "kt:amazon-bedrock"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:amazon-quick"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:iam-identity-center"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-kendra"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-bedrock-knowledge-bases"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-sagemaker-ai",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon SageMaker AI",
