@@ -9,7 +9,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-codedeploy` | `kt:aws-codebuild`, `kt:aws-codepipeline`, `kt:blue-green-deployments`, `kt:ci-cd` |
 | `kt:aws-transform` | `kt:aws-migration-acceleration-program`, `kt:aws-migration-and-transfer-services`, `kt:aws-transform-mgn`, `kt:vmware-migration-to-aws` |
-| `kt:event-driven-architecture` | `kt:amazon-eventbridge`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:aws-serverless-services` |
 | `kt:service-quotas` | `kt:reliability-pillar`, `kt:organizations-quotas`, `kt:iam-quotas`, `kt:iam-quotas` |
 | `kt:aurora-global-database` | `kt:amazon-aurora`, `kt:aurora-serverless-v2`, `kt:dynamodb-global-tables` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |

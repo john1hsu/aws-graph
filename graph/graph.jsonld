@@ -2039,6 +2039,111 @@
       ]
     },
     {
+      "@id": "kt:event-driven-architecture",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Event-driven architecture",
+      "skos:definition": "An architecture style in which decoupled services communicate by publishing, routing and consuming events (records of state changes) through an event router or messaging service instead of calling each other directly; on AWS it is typically built with EventBridge, SNS, SQS, Lambda and Step Functions.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedOn": "2026-11-14",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is EDA (Event-Driven Architecture)?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/what-is/eda/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Event-driven architectures - Serverless Applications Lens",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/it_it/wellarchitected/latest/serverless-applications-lens/event-driven-architectures.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EventBridge - Integrating microservices by using AWS serverless services (AWS Prescriptive Guidance)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-integrating-microservices/eventbridge.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL04-BP04 Make mutating operations idempotent - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_prevent_interaction_failure_idempotent.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How EventBridge retries delivering events",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rule-retry-policy.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Operating Lambda: Design principles in event-driven architectures – Part 2",
+          "dcterms:publisher": "AWS Compute Blog",
+          "schema:url": "https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Certified Solutions Architect - Associate Exam Guide (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/event-driven-architecture.md",
+      "skos:altLabel": [
+        "EDA",
+        "event-driven architectures",
+        "event-driven design"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        },
+        {
+          "@id": "kt:aws-serverless-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        },
+        {
+          "@id": "kt:amazon-sqs"
+        },
+        {
+          "@id": "kt:amazon-sns"
+        },
+        {
+          "@id": "kt:aws-step-functions"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-kinesis-data-streams"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-step-functions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:operational-excellence-pillar",
       "@type": "kto:Concept",
       "skos:prefLabel": "Operational Excellence Pillar",

@@ -3378,6 +3378,35 @@
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Event-driven architecture" .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "EDA" .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "event-driven architectures" .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "event-driven design" .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#definition> "An architecture style in which decoupled services communicate by publishing, routing and consuming events (records of state changes) through an event router or messaging service instead of calling each other directly; on AWS it is typically built with EventBridge, SNS, SQS, Lambda and Step Functions." .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Event-driven architecture" .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sns> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-step-functions> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s1> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s2> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s3> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s4> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s5> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s6> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s7> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-step-functions> .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ComplianceProgram> .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "FedRAMP on AWS" .
@@ -8178,6 +8207,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s5> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/doc-history.html" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s1> <http://purl.org/dc/terms/title> "What is EDA (Event-Driven Architecture)?" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s1> <https://schema.org/url> "https://aws.amazon.com/what-is/eda/" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s2> <http://purl.org/dc/terms/title> "Event-driven architectures - Serverless Applications Lens" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s2> <https://schema.org/url> "https://docs.aws.amazon.com/it_it/wellarchitected/latest/serverless-applications-lens/event-driven-architectures.html" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s3> <http://purl.org/dc/terms/title> "Amazon EventBridge - Integrating microservices by using AWS serverless services (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s3> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-integrating-microservices/eventbridge.html" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s4> <http://purl.org/dc/terms/title> "REL04-BP04 Make mutating operations idempotent - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s4> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_prevent_interaction_failure_idempotent.html" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s5> <http://purl.org/dc/terms/title> "How EventBridge retries delivering events" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s5> <https://schema.org/url> "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rule-retry-policy.html" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s6> <http://purl.org/dc/terms/publisher> "AWS Compute Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s6> <http://purl.org/dc/terms/title> "Operating Lambda: Design principles in event-driven architectures – Part 2" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s7> <http://purl.org/dc/terms/title> "AWS Certified Solutions Architect - Associate Exam Guide (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s7> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf" .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s1> <http://purl.org/dc/terms/title> "FedRAMP - Amazon Web Services (AWS)" .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

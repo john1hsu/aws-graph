@@ -2945,6 +2945,30 @@
     ]
   },
   {
+    "id": "kt:event-driven-architecture",
+    "title": "Event-driven architecture",
+    "aliases": [
+      "EDA",
+      "event-driven architectures",
+      "event-driven design"
+    ],
+    "type": "Pattern",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/event-driven-architecture.md",
+    "created": "2026-11-14",
+    "verified": "2026-11-14",
+    "status": "concept",
+    "source_urls": [
+      "https://aws.amazon.com/what-is/eda/",
+      "https://docs.aws.amazon.com/it_it/wellarchitected/latest/serverless-applications-lens/event-driven-architectures.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-integrating-microservices/eventbridge.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_prevent_interaction_failure_idempotent.html",
+      "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rule-retry-policy.html",
+      "https://aws.amazon.com/blogs/compute/operating-lambda-design-principles-in-event-driven-architectures-part-2",
+      "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf"
+    ]
+  },
+  {
     "id": "kt:fedramp-on-aws",
     "title": "FedRAMP on AWS",
     "aliases": [
