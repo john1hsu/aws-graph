@@ -988,6 +988,29 @@
     ]
   },
   {
+    "id": "kt:amazon-web-services",
+    "title": "Amazon Web Services",
+    "aliases": [
+      "AWS",
+      "AWS Cloud",
+      "Amazon Web Services (AWS)"
+    ],
+    "type": "Organization",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/amazon-web-services.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html",
+      "https://aws.amazon.com/what-is-aws/",
+      "https://aws.amazon.com/about-aws/global-infrastructure/",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+      "https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm"
+    ]
+  },
+  {
     "id": "kt:application-load-balancer",
     "title": "Application Load Balancer",
     "aliases": [

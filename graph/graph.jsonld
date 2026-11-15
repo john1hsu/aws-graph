@@ -8375,6 +8375,89 @@
       ]
     },
     {
+      "@id": "kt:amazon-web-services",
+      "@type": "kto:Organization",
+      "skos:prefLabel": "Amazon Web Services",
+      "skos:definition": "Amazon's cloud computing business and platform, which since 2006 has offered on-demand compute, storage, database, networking, analytics, AI and other IT services as pay-as-you-go web services running on its own global infrastructure.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Overview of Amazon Web Services (whitepaper): Introduction",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Six advantages of cloud computing - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is AWS?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/what-is-aws/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Global Infrastructure - AWS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/global-infrastructure/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified Cloud Practitioner (CLF-C02) exam guide: Content Domain 1: Cloud Concepts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Amazon.com Announces Third Quarter Results (Form 8-K, Exhibit 99.1)",
+          "dcterms:publisher": "Amazon.com, Inc. via U.S. SEC EDGAR",
+          "schema:url": "https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/amazon-web-services.md",
+      "skos:altLabel": [
+        "AWS",
+        "AWS Cloud",
+        "Amazon Web Services (AWS)"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:cloud-computing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-pricing-fundamentals"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        },
+        {
+          "@id": "kt:aws-compute-services"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:availability-zones",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "Availability Zones",
