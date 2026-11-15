@@ -12,7 +12,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-pricing-calculator` |
 | `kt:aws-developer-tools` | `kt:aws-codebuild`, `kt:aws-codedeploy`, `kt:aws-codepipeline` |
-| `kt:aws-shield` | `kt:edge-locations`, `kt:aws-global-accelerator`, `kt:aws-waf` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones`, `kt:aws-global-accelerator` |
@@ -25,6 +24,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs` |
+| `kt:aws-firewall-manager` | `kt:aws-shield`, `kt:aws-waf` |
 | `kt:aws-resource-access-manager` | `kt:ec2-placement-groups`, `kt:aws-privatelink` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments` |
@@ -75,7 +75,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-batch` | `kt:aws-compute-services` |
 | `kt:aws-certified-advanced-networking-specialty` | `kt:aws-global-accelerator` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
-| `kt:aws-firewall-manager` | `kt:aws-waf` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
 | `kt:aws-nitro-enclaves` | `kt:aws-nitro-system` |

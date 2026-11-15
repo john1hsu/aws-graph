@@ -13995,6 +13995,113 @@
       ]
     },
     {
+      "@id": "kt:aws-shield",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Shield",
+      "skos:definition": "AWS's managed DDoS protection service: Shield Standard automatically defends every AWS customer against common network- and transport-layer attacks at no charge, while the paid Shield Advanced subscription adds protection for explicitly enrolled resources, AWS WAF-based application-layer mitigation, the Shield Response Team and DDoS cost protection.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How AWS Shield and Shield Advanced work",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Shield Standard overview",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-standard-summary.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Shield Advanced capabilities and options",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/waf/latest/developerguide/ddos-advanced-summary-capabilities.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Shield Advanced protected resources",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-advanced-summary-protected-resources.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Shield pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/shield/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Shield FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/shield/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Shield network security director now supports multi-account analysis",
+          "dcterms:publisher": "What's New with AWS",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-shield-network-security-director-multi-account-analysis",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services (AWS Certified Cloud Practitioner CLF-C02), French edition",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security/aws-shield.md",
+      "skos:altLabel": [
+        "Shield",
+        "AWS Shield Standard",
+        "AWS Shield Advanced",
+        "Shield Advanced"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-waf"
+        },
+        {
+          "@id": "kt:aws-firewall-manager"
+        },
+        {
+          "@id": "kt:edge-locations"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-cloudfront"
+        },
+        {
+          "@id": "kt:amazon-route-53"
+        },
+        {
+          "@id": "kt:aws-global-accelerator"
+        },
+        {
+          "@id": "kt:elastic-load-balancing"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-waf",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS WAF",

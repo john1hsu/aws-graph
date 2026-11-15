@@ -2815,6 +2815,36 @@
 <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> .
 <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Shield" .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Shield Advanced" .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Shield Standard" .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/2004/02/skos/core#altLabel> "Shield Advanced" .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/2004/02/skos/core#altLabel> "Shield" .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed DDoS protection service: Shield Standard automatically defends every AWS customer against common network- and transport-layer attacks at no charge, while the paid Shield Advanced subscription adds protection for explicitly enrolled resources, AWS WAF-based application-layer mitigation, the Shield Response Team and DDoS cost protection." .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Shield" .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-firewall-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/edge-locations> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-shield/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-shield/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-shield/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-shield/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-shield/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-shield/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-shield/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-shield/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-shield> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Step Functions" .
@@ -7829,6 +7859,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-serverless-services/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-serverless-services/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-serverless-services/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s1> <http://purl.org/dc/terms/title> "How AWS Shield and Shield Advanced work" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s1> <https://schema.org/url> "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s2> <http://purl.org/dc/terms/title> "AWS Shield Standard overview" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s2> <https://schema.org/url> "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-standard-summary.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s3> <http://purl.org/dc/terms/title> "AWS Shield Advanced capabilities and options" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s3> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/waf/latest/developerguide/ddos-advanced-summary-capabilities.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s4> <http://purl.org/dc/terms/title> "AWS Shield Advanced protected resources" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s4> <https://schema.org/url> "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-advanced-summary-protected-resources.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s5> <http://purl.org/dc/terms/title> "AWS Shield pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s5> <https://schema.org/url> "https://aws.amazon.com/shield/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s6> <http://purl.org/dc/terms/title> "AWS Shield FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s6> <https://schema.org/url> "https://aws.amazon.com/shield/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s7> <http://purl.org/dc/terms/publisher> "What's New with AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s7> <http://purl.org/dc/terms/title> "AWS Shield network security director now supports multi-account analysis" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-shield-network-security-director-multi-account-analysis" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s8> <http://purl.org/dc/terms/title> "In-Scope AWS Services (AWS Certified Cloud Practitioner CLF-C02), French edition" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-shield/s8> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s1> <http://purl.org/dc/terms/title> "What is Step Functions?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

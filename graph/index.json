@@ -2455,6 +2455,32 @@
     ]
   },
   {
+    "id": "kt:aws-shield",
+    "title": "AWS Shield",
+    "aliases": [
+      "Shield",
+      "AWS Shield Standard",
+      "AWS Shield Advanced",
+      "Shield Advanced"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/aws-shield.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview",
+      "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-standard-summary.html",
+      "https://docs.aws.amazon.com/en_us/waf/latest/developerguide/ddos-advanced-summary-capabilities.html",
+      "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-advanced-summary-protected-resources.html",
+      "https://aws.amazon.com/shield/pricing",
+      "https://aws.amazon.com/shield/faqs",
+      "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-shield-network-security-director-multi-account-analysis",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-step-functions",
     "title": "AWS Step Functions",
     "aliases": [

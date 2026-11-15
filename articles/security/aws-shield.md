@@ -86,12 +86,12 @@ Shield Advanced protects only the resources you explicitly add, either directly 
 
 On top of enrollment, the subscription adds:[^s3]
 
-- **Application-layer protection through AWS WAF.** Protected resources need an associated web ACL. Automatic layer 7 mitigation adds a rule group consuming 150 WCUs, rate-limits known DDoS sources, and creates and manages WAF rules during an attack in count or block mode.
-- **Health-based detection** using Route 53 health checks, which reduces false positives. It works for every protected type except Route 53 hosted zones.
-- **Protection groups** that detect and mitigate across a set of resources treated as one application. Membership criteria can add new resources automatically.
-- **Enhanced visibility** through the Shield API, the console and Amazon CloudWatch metrics.
-- **Shield Response Team (SRT)** access for custom mitigations during an attack, plus optional **proactive engagement**, where the SRT contacts you when a health check goes unhealthy during a detected event. Both require a Business or Enterprise Support plan, and proactive engagement also needs health-based detection.
-- **Cost protection**, issued as Shield Advanced service credits for bill spikes caused by an attack, including spikes in Shield data transfer out fees.
+- **Application-layer protection through AWS WAF.** Protected resources need an associated web ACL. Automatic layer 7 mitigation adds a rule group consuming 150 WCUs, rate-limits known DDoS sources, and creates and manages WAF rules during an attack in count or block mode.[^s3]
+- **Health-based detection** using Route 53 health checks, which reduces false positives. It works for every protected type except Route 53 hosted zones.[^s3]
+- **Protection groups** that detect and mitigate across a set of resources treated as one application. Membership criteria can add new resources automatically.[^s3]
+- **Enhanced visibility** through the Shield API, the console and Amazon CloudWatch metrics.[^s3]
+- **Shield Response Team (SRT)** access for custom mitigations during an attack, plus optional **proactive engagement**, where the SRT contacts you when a health check goes unhealthy during a detected event. Both require a Business or Enterprise Support plan, and proactive engagement also needs health-based detection.[^s3]
+- **Cost protection**, issued as Shield Advanced service credits for bill spikes caused by an attack, including spikes in Shield data transfer out fees.[^s3]
 
 ## Quotas, pricing and gotchas
 
