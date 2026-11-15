@@ -3898,6 +3898,31 @@
 <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-step-functions> .
 <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Fargate quotas" .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Fargate launch rate limits" .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Fargate limits" .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Fargate quotas" .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Fargate service quotas" .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Fargate vCPU quota" .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-account, per-Region limits on AWS Fargate: concurrent vCPU quotas for On-Demand and Spot capacity, token-bucket launch-rate quotas shared by Amazon ECS tasks and Amazon EKS pods, and a separate RunTask API rate. The vCPU and launch-rate quotas are adjustable through Service Quotas." .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Fargate quotas" .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/ecs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/fargate-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ComplianceProgram> .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "FedRAMP on AWS" .
@@ -9443,6 +9468,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s7> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s1> <http://purl.org/dc/terms/title> "Amazon ECS endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/ecs-service.html" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s2> <http://purl.org/dc/terms/title> "AWS Fargate throttling quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/throttling.html" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Containers Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s3> <http://purl.org/dc/terms/title> "Migrating Fargate service quotas to vCPU-based quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s3> <https://schema.org/url> "https://aws.amazon.com/blogs/containers/migrating-fargate-service-quotas-to-vcpu-based-quotas/" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s4> <http://purl.org/dc/terms/title> "AWS Fargate usage metrics" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/monitoring-fargate-usage.html" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s5> <http://purl.org/dc/terms/title> "Understand Fargate Pod configuration details" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/fargate-quotas/s5> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/fargate-pod-configuration.html" .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s1> <http://purl.org/dc/terms/title> "FedRAMP - Amazon Web Services (AWS)" .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

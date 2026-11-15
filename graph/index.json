@@ -3400,6 +3400,30 @@
     ]
   },
   {
+    "id": "kt:fargate-quotas",
+    "title": "AWS Fargate quotas",
+    "aliases": [
+      "Fargate quotas",
+      "Fargate service quotas",
+      "Fargate limits",
+      "Fargate vCPU quota",
+      "Fargate launch rate limits"
+    ],
+    "type": "Limit",
+    "domain": "containers",
+    "file": "articles/containers/fargate-quotas.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/general/latest/gr/ecs-service.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/throttling.html",
+      "https://aws.amazon.com/blogs/containers/migrating-fargate-service-quotas-to-vcpu-based-quotas/",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/monitoring-fargate-usage.html",
+      "https://docs.aws.amazon.com/eks/latest/userguide/fargate-pod-configuration.html"
+    ]
+  },
+  {
     "id": "kt:fedramp-on-aws",
     "title": "FedRAMP on AWS",
     "aliases": [

@@ -5663,6 +5663,89 @@
       ]
     },
     {
+      "@id": "kt:fargate-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "AWS Fargate quotas",
+      "skos:definition": "The per-account, per-Region limits on AWS Fargate: concurrent vCPU quotas for On-Demand and Spot capacity, token-bucket launch-rate quotas shared by Amazon ECS tasks and Amazon EKS pods, and a separate RunTask API rate. The vCPU and launch-rate quotas are adjustable through Service Quotas.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon ECS endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/ecs-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Fargate throttling quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/throttling.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Migrating Fargate service quotas to vCPU-based quotas",
+          "dcterms:publisher": "Amazon Web Services (AWS Containers Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/containers/migrating-fargate-service-quotas-to-vcpu-based-quotas/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Fargate usage metrics",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/monitoring-fargate-usage.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understand Fargate Pod configuration details",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/fargate-pod-configuration.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/containers/fargate-quotas.md",
+      "skos:altLabel": [
+        "Fargate quotas",
+        "Fargate service quotas",
+        "Fargate limits",
+        "Fargate vCPU quota",
+        "Fargate launch rate limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-fargate"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:ecs-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-budgets",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Budgets",

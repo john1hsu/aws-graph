@@ -31,7 +31,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:devops` | `kt:ci-cd`, `kt:infrastructure-as-code` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
-| `kt:fargate-quotas` | `kt:aws-fargate`, `kt:ecs-quotas` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:kms-quotas` | `kt:aws-kms`, `kt:amazon-s3-quotas` |
 | `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
