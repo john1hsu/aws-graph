@@ -2023,6 +2023,39 @@
 <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS cost management services" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Cloud Financial Management services" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS cost management category" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS cost management tools" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS cost management" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2004/02/skos/core#altLabel> "cost management on AWS" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2004/02/skos/core#definition> "The AWS service category for seeing, organizing, planning and reducing cloud spend: cost analysis (Cost Explorer, data exports, Cost Anomaly Detection), cost organization (cost allocation tags, cost categories), budgeting and planning (AWS Budgets, AWS Pricing Calculator), savings (Cost Optimization Hub, Savings Plans, reservations) and showback or chargeback (AWS Billing Conductor)." .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS cost management services" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-billing-and-cost-management> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-budgets> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Database Migration Service" .
@@ -7080,6 +7113,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s1> <http://purl.org/dc/terms/title> "Cloud Financial Management - Overview of Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/aws-cost-management.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s2> <http://purl.org/dc/terms/title> "What is AWS Billing and Cost Management? - AWS Billing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s2> <https://schema.org/url> "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s3> <http://purl.org/dc/terms/title> "Practice Cloud Financial Management - Cost Optimization Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/practice-cloud-financial-management.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s4> <http://purl.org/dc/terms/title> "AWS Cost Explorer Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s4> <https://schema.org/url> "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s5> <http://purl.org/dc/terms/title> "AWS Budgets Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s5> <https://schema.org/url> "https://aws.amazon.com/aws-cost-management/aws-budgets/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s6> <http://purl.org/dc/terms/title> "Content Domain 4: Billing, Pricing, and Support - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s7> <http://purl.org/dc/terms/title> "Top announcements of AWS re:Invent 2025" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2025" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-database-migration-service/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-database-migration-service/s10> <http://purl.org/dc/terms/title> "AWS Certified Cloud Practitioner - Exam Guide (CLF-C02)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-database-migration-service/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

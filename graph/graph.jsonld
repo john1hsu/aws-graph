@@ -5853,6 +5853,117 @@
       ]
     },
     {
+      "@id": "kt:aws-cost-management-services",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS cost management services",
+      "skos:definition": "The AWS service category for seeing, organizing, planning and reducing cloud spend: cost analysis (Cost Explorer, data exports, Cost Anomaly Detection), cost organization (cost allocation tags, cost categories), budgeting and planning (AWS Budgets, AWS Pricing Calculator), savings (Cost Optimization Hub, Savings Plans, reservations) and showback or chargeback (AWS Billing Conductor).",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Cloud Financial Management - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/aws-cost-management.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is AWS Billing and Cost Management? - AWS Billing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Practice Cloud Financial Management - Cost Optimization Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/practice-cloud-financial-management.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cost Explorer Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Budgets Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/aws-cost-management/aws-budgets/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Content Domain 4: Billing, Pricing, and Support - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Top announcements of AWS re:Invent 2025",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2025",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/cost-management/aws-cost-management-services.md",
+      "skos:altLabel": [
+        "AWS cost management",
+        "AWS Cloud Financial Management services",
+        "AWS cost management tools",
+        "cost management on AWS",
+        "AWS cost management category"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-billing-and-cost-management"
+        },
+        {
+          "@id": "kt:aws-pricing-fundamentals"
+        },
+        {
+          "@id": "kt:cost-optimization-pillar"
+        },
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-cost-explorer"
+        },
+        {
+          "@id": "kt:aws-budgets"
+        },
+        {
+          "@id": "kt:aws-pricing-calculator"
+        },
+        {
+          "@id": "kt:cost-allocation-tags"
+        },
+        {
+          "@id": "kt:aws-cost-anomaly-detection"
+        },
+        {
+          "@id": "kt:savings-plans"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-free-tier",
       "@type": "kto:PricingModel",
       "skos:prefLabel": "AWS Free Tier",

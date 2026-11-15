@@ -7,19 +7,18 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-agentcore`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-q-business`, `kt:amazon-q-developer`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:aurora-quotas` | `kt:amazon-aurora`, `kt:aurora-global-database`, `kt:aurora-serverless-v2` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |
-| `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-pricing-calculator` |
+| `kt:aws-billing-and-cost-management` | `kt:aws-cost-management-services`, `kt:aws-free-tier`, `kt:cost-allocation-tags` |
+| `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
 | `kt:aws-developer-tools` | `kt:aws-codebuild`, `kt:aws-codedeploy`, `kt:aws-codepipeline` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:amazon-application-recovery-controller` | `kt:availability-zones`, `kt:aws-global-accelerator` |
-| `kt:aws-billing-and-cost-management` | `kt:aws-free-tier`, `kt:cost-allocation-tags` |
 | `kt:aws-cloud-map` | `kt:container-networking-on-aws`, `kt:ecs-quotas` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-cloudhsm` | `kt:itar-on-aws`, `kt:aws-kms` |
 | `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar`, `kt:ec2-instance-types` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
-| `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs` |
 | `kt:aws-firewall-manager` | `kt:aws-shield`, `kt:aws-waf` |

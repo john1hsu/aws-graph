@@ -1778,6 +1778,32 @@
     ]
   },
   {
+    "id": "kt:aws-cost-management-services",
+    "title": "AWS cost management services",
+    "aliases": [
+      "AWS cost management",
+      "AWS Cloud Financial Management services",
+      "AWS cost management tools",
+      "cost management on AWS",
+      "AWS cost management category"
+    ],
+    "type": "Concept",
+    "domain": "cost-management",
+    "file": "articles/cost-management/aws-cost-management-services.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/aws-cost-management.html",
+      "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.md",
+      "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/practice-cloud-financial-management.html",
+      "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/pricing/",
+      "https://aws.amazon.com/aws-cost-management/aws-budgets/pricing",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md",
+      "https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2025"
+    ]
+  },
+  {
     "id": "kt:aws-database-migration-service",
     "title": "AWS Database Migration Service",
     "aliases": [
