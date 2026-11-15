@@ -3765,6 +3765,33 @@
 <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "Data residency on AWS" .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS data residency" .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "data localization on AWS" .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "data residency controls" .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "in-country data storage on AWS" .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/2004/02/skos/core#definition> "How customers keep content stored and processed in a chosen geography on AWS: they pick the Regions, AWS commits not to move content out of them without agreement, and customers enforce the boundary with Region-restricting policies, AWS Control Tower data residency controls and, where no local Region exists, AWS Outposts or Local Zones." .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data residency on AWS" .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-nitro-system> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-outposts> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/local-zones> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s1> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s2> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s3> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s4> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s5> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-control-tower> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://www.w3.org/2000/01/rdf-schema#label> "Disaster recovery strategies on AWS" .
@@ -9551,6 +9578,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/data-lake-on-aws/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/01/amazon-s3-tables-10000-tables-bucket" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s1> <http://purl.org/dc/terms/title> "Data Privacy FAQ" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s1> <https://schema.org/url> "https://aws.amazon.com/compliance/data-privacy-faq/" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s2> <http://purl.org/dc/terms/title> "Defining Boundaries for Regional Services Access - Navigating GDPR Compliance on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s2> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/navigating-gdpr-compliance/defining-boundaries-for-regional-services-access.html" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s3> <http://purl.org/dc/terms/title> "Optional controls - Designing an AWS Control Tower landing zone (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s3> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/designing-control-tower-landing-zone/optional.html" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s4> <http://purl.org/dc/terms/title> "DRHCREL03-BP01 Use AWS Outposts or Local Zones for scenarios where data must reside within a country or jurisdiction without a local AWS Region - Data Residency and Hybrid Cloud Lens" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s4> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/data-residency-hybrid-cloud-services-lens/drhcrel03-bp01.html" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s5> <http://purl.org/dc/terms/publisher> "AWS Compute Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s5> <http://purl.org/dc/terms/title> "Architecting for data residency with AWS Outposts rack and landing zone guardrails" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/architecting-for-data-residency-with-aws-outposts-rack-and-landing-zone-guardrails/" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <http://purl.org/dc/terms/title> "European Digital Sovereignty FAQ" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <https://schema.org/url> "https://aws.amazon.com/compliance/europe-digital-sovereignty/faq/" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://purl.org/dc/terms/title> "Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

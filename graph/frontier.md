@@ -10,6 +10,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-billing-and-cost-management` | `kt:aws-cost-management-services`, `kt:aws-free-tier`, `kt:cost-allocation-tags` |
 | `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar`, `kt:ec2-instance-types`, `kt:aws-trusted-advisor` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
+| `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs`, `kt:data-residency-on-aws` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:devops` | `kt:aws-developer-tools`, `kt:ci-cd`, `kt:infrastructure-as-code` |
@@ -19,7 +20,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
-| `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs` |
 | `kt:aws-firewall-manager` | `kt:aws-shield`, `kt:aws-waf` |
 | `kt:aws-resource-access-manager` | `kt:ec2-placement-groups`, `kt:aws-privatelink` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |

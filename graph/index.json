@@ -3283,6 +3283,30 @@
     ]
   },
   {
+    "id": "kt:data-residency-on-aws",
+    "title": "Data residency on AWS",
+    "aliases": [
+      "AWS data residency",
+      "data localization on AWS",
+      "data residency controls",
+      "in-country data storage on AWS"
+    ],
+    "type": "Concept",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/data-residency-on-aws.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "concept",
+    "source_urls": [
+      "https://aws.amazon.com/compliance/data-privacy-faq/",
+      "https://docs.aws.amazon.com/whitepapers/latest/navigating-gdpr-compliance/defining-boundaries-for-regional-services-access.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/designing-control-tower-landing-zone/optional.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/data-residency-hybrid-cloud-services-lens/drhcrel03-bp01.html",
+      "https://aws.amazon.com/blogs/compute/architecting-for-data-residency-with-aws-outposts-rack-and-landing-zone-guardrails/",
+      "https://aws.amazon.com/compliance/europe-digital-sovereignty/faq/"
+    ]
+  },
+  {
     "id": "kt:disaster-recovery-strategies",
     "title": "Disaster recovery strategies on AWS",
     "aliases": [

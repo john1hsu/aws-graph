@@ -14129,6 +14129,98 @@
       ]
     },
     {
+      "@id": "kt:data-residency-on-aws",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Data residency on AWS",
+      "skos:definition": "How customers keep content stored and processed in a chosen geography on AWS: they pick the Regions, AWS commits not to move content out of them without agreement, and customers enforce the boundary with Region-restricting policies, AWS Control Tower data residency controls and, where no local Region exists, AWS Outposts or Local Zones.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data Privacy FAQ",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/data-privacy-faq/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Defining Boundaries for Regional Services Access - Navigating GDPR Compliance on AWS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/navigating-gdpr-compliance/defining-boundaries-for-regional-services-access.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Optional controls - Designing an AWS Control Tower landing zone (AWS Prescriptive Guidance)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/designing-control-tower-landing-zone/optional.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DRHCREL03-BP01 Use AWS Outposts or Local Zones for scenarios where data must reside within a country or jurisdiction without a local AWS Region - Data Residency and Hybrid Cloud Lens",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/data-residency-hybrid-cloud-services-lens/drhcrel03-bp01.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Architecting for data residency with AWS Outposts rack and landing zone guardrails",
+          "dcterms:publisher": "AWS Compute Blog",
+          "schema:url": "https://aws.amazon.com/blogs/compute/architecting-for-data-residency-with-aws-outposts-rack-and-landing-zone-guardrails/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "European Digital Sovereignty FAQ",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/europe-digital-sovereignty/faq/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/data-residency-on-aws.md",
+      "skos:altLabel": [
+        "AWS data residency",
+        "data localization on AWS",
+        "data residency controls",
+        "in-country data storage on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-european-sovereign-cloud"
+        },
+        {
+          "@id": "kt:aws-outposts"
+        },
+        {
+          "@id": "kt:local-zones"
+        },
+        {
+          "@id": "kt:aws-nitro-system"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-control-tower"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:service-control-policies"
+        },
+        {
+          "@id": "kt:aws-kms"
+        }
+      ]
+    },
+    {
       "@id": "kt:dod-cloud-computing-srg-impact-levels",
       "@type": "kto:ComplianceProgram",
       "skos:prefLabel": "DoD Cloud Computing SRG impact levels",
