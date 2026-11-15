@@ -753,6 +753,35 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon OpenSearch Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS OpenSearch" .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon ES" .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Elasticsearch Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon OpenSearch" .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2004/02/skos/core#altLabel> "OpenSearch Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed search and analytics service for running OpenSearch (and legacy Elasticsearch OSS up to 7.10) as provisioned domains or as OpenSearch Serverless collections, used for log analytics, observability, full-text search and vector search." .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon OpenSearch Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/opensearch-service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Q Business" .
@@ -5427,6 +5456,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-kinesis-data-streams-ondemand-advantage" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <http://purl.org/dc/terms/title> "What is Amazon OpenSearch Service?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <https://schema.org/url> "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s2> <http://purl.org/dc/terms/title> "Amazon OpenSearch Service FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s2> <https://schema.org/url> "https://aws.amazon.com/opensearch-service/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s3> <http://purl.org/dc/terms/title> "Amazon OpenSearch Service Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s3> <https://schema.org/url> "https://aws.amazon.com/opensearch-service/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s4> <http://purl.org/dc/terms/title> "Amazon OpenSearch Service quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s4> <https://schema.org/url> "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s5> <http://purl.org/dc/terms/title> "Amazon OpenSearch Service rename - Summary of changes" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s5> <https://schema.org/url> "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/rename.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s6> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s6> <http://purl.org/dc/terms/title> "Introducing the next generation of Amazon OpenSearch Serverless for building your agentic AI applications" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s1> <http://purl.org/dc/terms/title> "Amazon Q Business availability change" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

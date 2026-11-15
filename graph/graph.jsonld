@@ -1346,6 +1346,106 @@
       ]
     },
     {
+      "@id": "kt:amazon-opensearch-service",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon OpenSearch Service",
+      "skos:definition": "AWS's managed search and analytics service for running OpenSearch (and legacy Elasticsearch OSS up to 7.10) as provisioned domains or as OpenSearch Serverless collections, used for log analytics, observability, full-text search and vector search.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon OpenSearch Service?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon OpenSearch Service FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/opensearch-service/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon OpenSearch Service Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/opensearch-service/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon OpenSearch Service quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon OpenSearch Service rename - Summary of changes",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/rename.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing the next generation of Amazon OpenSearch Serverless for building your agentic AI applications",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/analytics/amazon-opensearch-service.md",
+      "skos:altLabel": [
+        "Amazon Elasticsearch Service",
+        "Amazon ES",
+        "OpenSearch Service",
+        "AWS OpenSearch",
+        "Amazon OpenSearch"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-analytics-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-bedrock-knowledge-bases"
+        },
+        {
+          "@id": "kt:amazon-dynamodb"
+        },
+        {
+          "@id": "kt:amazon-kinesis-data-streams"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-data-firehose"
+        },
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:opensearch-service-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-redshift",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Redshift",

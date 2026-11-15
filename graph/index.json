@@ -657,6 +657,31 @@
     ]
   },
   {
+    "id": "kt:amazon-opensearch-service",
+    "title": "Amazon OpenSearch Service",
+    "aliases": [
+      "Amazon Elasticsearch Service",
+      "Amazon ES",
+      "OpenSearch Service",
+      "AWS OpenSearch",
+      "Amazon OpenSearch"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/amazon-opensearch-service.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html",
+      "https://aws.amazon.com/opensearch-service/faqs/",
+      "https://aws.amazon.com/opensearch-service/pricing",
+      "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/limits.html",
+      "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/rename.html",
+      "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/"
+    ]
+  },
+  {
     "id": "kt:amazon-q-business",
     "title": "Amazon Q Business",
     "aliases": [

@@ -57,7 +57,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
 | `kt:amazon-mq` | `kt:amazon-sqs` |
 | `kt:amazon-neptune` | `kt:purpose-built-databases` |
-| `kt:amazon-opensearch-service` | `kt:amazon-bedrock-knowledge-bases` |
 | `kt:amazon-quick` | `kt:amazon-q-business` |
 | `kt:amazon-swf` | `kt:aws-step-functions` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
@@ -135,6 +134,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:landing-zone` | `kt:multi-account-strategy` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
+| `kt:opensearch-service-quotas` | `kt:amazon-opensearch-service` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:red-hat-openshift-service-on-aws` | `kt:aws-container-services` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
