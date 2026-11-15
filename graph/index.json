@@ -1598,6 +1598,28 @@
     ]
   },
   {
+    "id": "kt:aws-cloudhsm",
+    "title": "AWS CloudHSM",
+    "aliases": [
+      "CloudHSM",
+      "Amazon CloudHSM"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/aws-cloudhsm.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/cloudhsm/latest/userguide/introduction.html",
+      "https://aws.amazon.com/cloudhsm/faqs/",
+      "https://docs.aws.amazon.com/cloudhsm/latest/userguide/limits.html",
+      "https://docs.aws.amazon.com/cloudhsm/latest/userguide/compliance-dep-notif.html",
+      "https://docs.aws.amazon.com/kms/latest/developerguide/keystore-cloudhsm.html",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/"
+    ]
+  },
+  {
     "id": "kt:aws-cloudtrail",
     "title": "AWS CloudTrail",
     "aliases": [

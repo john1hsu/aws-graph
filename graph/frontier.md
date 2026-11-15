@@ -17,7 +17,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:aws-cloud-map` | `kt:container-networking-on-aws`, `kt:ecs-quotas` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
-| `kt:aws-cloudhsm` | `kt:itar-on-aws`, `kt:aws-kms` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs` |
@@ -70,6 +69,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
 | `kt:aws-nitro-enclaves` | `kt:aws-nitro-system` |
+| `kt:aws-payment-cryptography` | `kt:aws-cloudhsm` |
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-skill-builder` | `kt:aws-certification-program` |
@@ -83,6 +83,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloud-security` | `kt:aws-security-services` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
 | `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
+| `kt:cloudhsm-quotas` | `kt:aws-cloudhsm` |
 | `kt:cloudtrail-quotas` | `kt:aws-cloudtrail` |
 | `kt:cloudwatch-quotas` | `kt:amazon-cloudwatch` |
 | `kt:codedeploy-quotas` | `kt:aws-codedeploy` |

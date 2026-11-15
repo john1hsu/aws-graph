@@ -1807,6 +1807,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CloudHSM" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon CloudHSM" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/2004/02/skos/core#altLabel> "CloudHSM" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/2004/02/skos/core#definition> "AWS's service for running single-tenant hardware security modules (HSMs), grouped into highly available clusters, where you alone manage the keys and HSM users and call them through standard interfaces such as PKCS #11, JCE and Microsoft CNG/KSP." .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS CloudHSM" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/cloudhsm-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CloudTrail" .
@@ -6988,6 +7014,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s9> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s1> <http://purl.org/dc/terms/title> "What is AWS CloudHSM?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s1> <https://schema.org/url> "https://docs.aws.amazon.com/cloudhsm/latest/userguide/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s2> <http://purl.org/dc/terms/title> "AWS CloudHSM FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s2> <https://schema.org/url> "https://aws.amazon.com/cloudhsm/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s3> <http://purl.org/dc/terms/title> "AWS CloudHSM quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s3> <https://schema.org/url> "https://docs.aws.amazon.com/cloudhsm/latest/userguide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s4> <http://purl.org/dc/terms/title> "Deprecation Notifications - AWS CloudHSM" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s4> <https://schema.org/url> "https://docs.aws.amazon.com/cloudhsm/latest/userguide/compliance-dep-notif.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s5> <http://purl.org/dc/terms/title> "AWS CloudHSM key stores - AWS Key Management Service" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s5> <https://schema.org/url> "https://docs.aws.amazon.com/kms/latest/developerguide/keystore-cloudhsm.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s6> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloudhsm/s6> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s1> <http://purl.org/dc/terms/title> "What Is AWS CloudTrail?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudtrail/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

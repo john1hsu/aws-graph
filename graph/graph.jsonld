@@ -14720,6 +14720,105 @@
       ]
     },
     {
+      "@id": "kt:aws-cloudhsm",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS CloudHSM",
+      "skos:definition": "AWS's service for running single-tenant hardware security modules (HSMs), grouped into highly available clusters, where you alone manage the keys and HSM users and call them through standard interfaces such as PKCS #11, JCE and Microsoft CNG/KSP.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS CloudHSM?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cloudhsm/latest/userguide/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CloudHSM FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/cloudhsm/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CloudHSM quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cloudhsm/latest/userguide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deprecation Notifications - AWS CloudHSM",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cloudhsm/latest/userguide/compliance-dep-notif.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CloudHSM key stores - AWS Key Management Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/kms/latest/developerguide/keystore-cloudhsm.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security/aws-cloudhsm.md",
+      "skos:altLabel": [
+        "CloudHSM",
+        "Amazon CloudHSM"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-kms"
+        },
+        {
+          "@id": "kt:aws-payment-cryptography"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:cloudhsm-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cloudtrail",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS CloudTrail",
