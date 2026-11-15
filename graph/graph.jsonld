@@ -7246,6 +7246,115 @@
       ]
     },
     {
+      "@id": "kt:rds-proxy",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon RDS Proxy",
+      "skos:definition": "A fully managed, highly available database proxy for Amazon RDS and Aurora that pools and multiplexes client connections, keeps them open through failovers, and can enforce IAM authentication in front of the database.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon RDS Proxy",
+          "dcterms:publisher": "Amazon Web Services (Amazon RDS User Guide)",
+          "schema:url": "https://docs.aws.amazon.com/us_us/AmazonRDS/latest/UserGuide/rds-proxy.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RDS Proxy concepts and terminology",
+          "dcterms:publisher": "Amazon Web Services (Amazon RDS User Guide)",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.howitworks.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon RDS Proxy for Aurora",
+          "dcterms:publisher": "Amazon Web Services (Amazon Aurora User Guide)",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/rds-proxy",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RDS Proxy connection considerations",
+          "dcterms:publisher": "Amazon Web Services (Amazon Aurora User Guide)",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/rds-proxy-connections.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon RDS Proxy pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/rds/proxy/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon RDS Proxy FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/rds/proxy/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon RDS Proxy announces support for end-to-end IAM authentication",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-rds-proxy-end-to-end-iam-authentication",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon RDS Proxy now available in the AWS GovCloud (US) Regions (Spanish-language edition)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/es/about-aws/whats-new/2025/04/amazon-rds-proxy-aws-govcloud-us-regions/?nc1=h_ls",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Using RDS Proxy with Aurora global databases",
+          "dcterms:publisher": "Amazon Web Services (Amazon Aurora User Guide)",
+          "schema:url": "https://docs.aws.amazon.com/hi_in/AmazonRDS/latest/AuroraUserGuide/rds-proxy-gdb.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/databases/rds-proxy.md",
+      "skos:altLabel": [
+        "RDS Proxy"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-rds"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-aurora"
+        },
+        {
+          "@id": "kt:aurora-serverless-v2"
+        },
+        {
+          "@id": "kt:aurora-global-database"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-secrets-manager"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cdk",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Cloud Development Kit (AWS CDK)",

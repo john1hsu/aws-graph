@@ -3712,6 +3712,30 @@
     ]
   },
   {
+    "id": "kt:rds-proxy",
+    "title": "Amazon RDS Proxy",
+    "aliases": [
+      "RDS Proxy"
+    ],
+    "type": "Feature",
+    "domain": "databases",
+    "file": "articles/databases/rds-proxy.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/us_us/AmazonRDS/latest/UserGuide/rds-proxy.html",
+      "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.howitworks.md",
+      "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/rds-proxy",
+      "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/rds-proxy-connections.html",
+      "https://aws.amazon.com/rds/proxy/pricing",
+      "https://aws.amazon.com/rds/proxy/faqs/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-rds-proxy-end-to-end-iam-authentication",
+      "https://aws.amazon.com/es/about-aws/whats-new/2025/04/amazon-rds-proxy-aws-govcloud-us-regions/?nc1=h_ls",
+      "https://docs.aws.amazon.com/hi_in/AmazonRDS/latest/AuroraUserGuide/rds-proxy-gdb.html"
+    ]
+  },
+  {
     "id": "kt:reliability-pillar",
     "title": "Reliability Pillar",
     "aliases": [
