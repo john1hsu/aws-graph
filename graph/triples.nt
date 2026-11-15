@@ -2017,6 +2017,36 @@
 <https://github.com/john1hsu/aws-graph/id/aws-free-tier> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-billing-and-cost-management> .
 <https://github.com/john1hsu/aws-graph/id/aws-free-tier> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-free-tier> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Global Accelerator" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/2004/02/skos/core#altLabel> "AGA" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/2004/02/skos/core#altLabel> "Global Accelerator" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/2004/02/skos/core#definition> "A global network-layer service that gives an application static anycast IP addresses advertised from AWS edge locations, then carries TCP and UDP traffic over the AWS backbone to the nearest healthy Regional endpoint, with fast health-based failover and per-Region traffic dials." .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Global Accelerator" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-global-network> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/edge-locations> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-region-architecture> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/global-accelerator-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-shield> .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "AWS global infrastructure" .
@@ -6778,6 +6808,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-free-tier/s6> <https://schema.org/url> "https://aws.amazon.com/lambda/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s1> <http://purl.org/dc/terms/title> "What is AWS Global Accelerator? - AWS Global Accelerator" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s1> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/global-accelerator/latest/dg/what-is-global-accelerator.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s2> <http://purl.org/dc/terms/title> "AWS Global Accelerator FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s2> <https://schema.org/url> "https://aws.amazon.com/global-accelerator/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s3> <http://purl.org/dc/terms/title> "Quotas for AWS Global Accelerator" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s3> <https://schema.org/url> "https://docs.aws.amazon.com/global-accelerator/latest/dg/limits-global-accelerator.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s4> <http://purl.org/dc/terms/title> "AWS Global Accelerator pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s4> <https://schema.org/url> "https://aws.amazon.com/global-accelerator/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s5> <http://purl.org/dc/terms/title> "Endpoints for standard accelerators in AWS Global Accelerator" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s5> <https://schema.org/url> "https://docs.aws.amazon.com/global-accelerator/latest/dg/about-endpoints.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (Networking & Content Delivery Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s6> <http://purl.org/dc/terms/title> "Maximising application resiliency with AWS Global Accelerator" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/networking-and-content-delivery/maximising-application-resiliency-with-aws-global-accelerator" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s8> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Advanced Networking - Specialty" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-global-accelerator/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/ans-01-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s1> <http://purl.org/dc/terms/title> "Global Infrastructure - AWS" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-global-infrastructure/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

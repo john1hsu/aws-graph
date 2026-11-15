@@ -11941,6 +11941,121 @@
       ]
     },
     {
+      "@id": "kt:aws-global-accelerator",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Global Accelerator",
+      "skos:definition": "A global network-layer service that gives an application static anycast IP addresses advertised from AWS edge locations, then carries TCP and UDP traffic over the AWS backbone to the nearest healthy Regional endpoint, with fast health-based failover and per-Region traffic dials.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Global Accelerator? - AWS Global Accelerator",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/global-accelerator/latest/dg/what-is-global-accelerator.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Global Accelerator FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/global-accelerator/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for AWS Global Accelerator",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/global-accelerator/latest/dg/limits-global-accelerator.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Global Accelerator pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/global-accelerator/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Endpoints for standard accelerators in AWS Global Accelerator",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/global-accelerator/latest/dg/about-endpoints.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Maximising application resiliency with AWS Global Accelerator",
+          "dcterms:publisher": "Amazon Web Services (Networking & Content Delivery Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/networking-and-content-delivery/maximising-application-resiliency-with-aws-global-accelerator",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Advanced Networking - Specialty",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/ans-01-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/aws-global-accelerator.md",
+      "skos:altLabel": [
+        "Global Accelerator",
+        "AGA"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-global-network"
+        },
+        {
+          "@id": "kt:edge-locations"
+        },
+        {
+          "@id": "kt:multi-region-architecture"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:amazon-cloudfront"
+        },
+        {
+          "@id": "kt:amazon-route-53"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:amazon-application-recovery-controller"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-shield"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:global-accelerator-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        },
+        {
+          "@id": "kt:aws-certified-advanced-networking-specialty"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-networking-and-content-delivery",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS networking and content delivery",

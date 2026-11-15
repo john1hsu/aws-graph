@@ -1762,6 +1762,30 @@
     ]
   },
   {
+    "id": "kt:aws-global-accelerator",
+    "title": "AWS Global Accelerator",
+    "aliases": [
+      "Global Accelerator",
+      "AGA"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/aws-global-accelerator.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/en_us/global-accelerator/latest/dg/what-is-global-accelerator.html",
+      "https://aws.amazon.com/global-accelerator/faqs",
+      "https://docs.aws.amazon.com/global-accelerator/latest/dg/limits-global-accelerator.html",
+      "https://aws.amazon.com/global-accelerator/pricing",
+      "https://docs.aws.amazon.com/global-accelerator/latest/dg/about-endpoints.md",
+      "https://aws.amazon.com/blogs/networking-and-content-delivery/maximising-application-resiliency-with-aws-global-accelerator",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/ans-01-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-global-infrastructure",
     "title": "AWS global infrastructure",
     "aliases": [

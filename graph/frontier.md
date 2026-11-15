@@ -12,9 +12,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-pricing-calculator` |
 | `kt:aws-developer-tools` | `kt:aws-codebuild`, `kt:aws-codedeploy`, `kt:aws-codepipeline` |
-| `kt:aws-global-accelerator` | `kt:performance-efficiency-pillar`, `kt:aws-global-network`, `kt:edge-locations` |
+| `kt:aws-shield` | `kt:edge-locations`, `kt:aws-global-accelerator`, `kt:aws-waf` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
+| `kt:amazon-application-recovery-controller` | `kt:availability-zones`, `kt:aws-global-accelerator` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-free-tier`, `kt:cost-allocation-tags` |
 | `kt:aws-cloud-map` | `kt:container-networking-on-aws`, `kt:ecs-quotas` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
@@ -24,7 +25,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs` |
 | `kt:aws-resource-access-manager` | `kt:ec2-placement-groups`, `kt:aws-privatelink` |
-| `kt:aws-shield` | `kt:edge-locations`, `kt:aws-waf` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments` |
 | `kt:cloud-architecture` | `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
@@ -37,12 +37,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:fargate-quotas` | `kt:aws-fargate`, `kt:ecs-quotas` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
+| `kt:multi-region-architecture` | `kt:dynamodb-global-tables`, `kt:aws-global-accelerator` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
-| `kt:amazon-application-recovery-controller` | `kt:availability-zones` |
 | `kt:amazon-bedrock-agents` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract` |
 | `kt:amazon-cognito` | `kt:aws-appsync` |
@@ -72,6 +72,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-batch` | `kt:aws-compute-services` |
+| `kt:aws-certified-advanced-networking-specialty` | `kt:aws-global-accelerator` |
 | `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-firewall-manager` | `kt:aws-waf` |
@@ -118,6 +119,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:eventbridge-quotas` | `kt:amazon-eventbridge` |
 | `kt:fsx-quotas` | `kt:amazon-fsx` |
 | `kt:gateway-load-balancer` | `kt:elastic-load-balancing` |
+| `kt:global-accelerator-quotas` | `kt:aws-global-accelerator` |
 | `kt:glue-quotas` | `kt:aws-glue` |
 | `kt:guardduty-quotas` | `kt:amazon-guardduty` |
 | `kt:hitrust-csf` | `kt:hipaa-eligible-services` |
@@ -133,7 +135,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lambda-quotas` | `kt:aws-lambda` |
 | `kt:landing-zone` | `kt:multi-account-strategy` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
-| `kt:multi-region-architecture` | `kt:dynamodb-global-tables` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:red-hat-openshift-service-on-aws` | `kt:aws-container-services` |
