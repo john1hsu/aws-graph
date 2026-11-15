@@ -27,6 +27,38 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
 <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Application Recovery Controller" .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2004/02/skos/core#altLabel> "ARC" .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon ARC" .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Route 53 Application Recovery Controller" .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2004/02/skos/core#altLabel> "Route 53 ARC" .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2004/02/skos/core#altLabel> "Route 53 Application Recovery Controller" .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2004/02/skos/core#definition> "AWS's application recovery service: zonal shift and zonal autoshift move traffic for supported resources away from an impaired Availability Zone, while Region switch plans and routing controls fail an application over to a replica in another AWS Region." .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Application Recovery Controller" .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-region-architecture> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aurora-global-database> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-athena> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Athena" .
@@ -4761,6 +4793,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s1> <http://purl.org/dc/terms/title> "What is ARC? - Amazon Application Recovery Controller (ARC)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s1> <https://schema.org/url> "https://docs.aws.amazon.com/r53recovery/latest/dg/what-is-route53-recovery.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s2> <http://purl.org/dc/terms/title> "Amazon Application Recovery Controller FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s2> <https://schema.org/url> "https://aws.amazon.com/application-recovery-controller/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s3> <http://purl.org/dc/terms/title> "Amazon Application Recovery Controller pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s3> <https://schema.org/url> "https://aws.amazon.com/application-recovery-controller/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s4> <http://purl.org/dc/terms/title> "Amazon Application Recovery Controller (ARC) readiness check availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s4> <https://schema.org/url> "https://docs.aws.amazon.com/r53recovery/latest/dg/arc-readiness-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s5> <http://purl.org/dc/terms/title> "Compare multi-AZ and multi-Region recovery capabilities in ARC" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s5> <https://schema.org/url> "https://docs.aws.amazon.com/r53recovery/latest/dg/compare-capabilities.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s6> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s6> <http://purl.org/dc/terms/title> "Introducing Amazon Application Recovery Controller Region switch: A multi-Region application recovery service" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/introducing-amazon-application-recovery-controller-region-switch-a-multi-region-application-recovery-service/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s7> <http://purl.org/dc/terms/title> "Amazon Application Recovery Controller (ARC) endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s7> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/arc.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s8> <http://purl.org/dc/terms/title> "Amazon Application Recovery Controller (ARC) in AWS GovCloud (US)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s8> <https://schema.org/url> "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-arc-zonal-shift.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://purl.org/dc/terms/title> "Amazon Athena FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-athena/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

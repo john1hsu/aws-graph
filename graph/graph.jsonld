@@ -12547,6 +12547,115 @@
       ]
     },
     {
+      "@id": "kt:amazon-application-recovery-controller",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Application Recovery Controller",
+      "skos:definition": "AWS's application recovery service: zonal shift and zonal autoshift move traffic for supported resources away from an impaired Availability Zone, while Region switch plans and routing controls fail an application over to a replica in another AWS Region.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is ARC? - Amazon Application Recovery Controller (ARC)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/r53recovery/latest/dg/what-is-route53-recovery.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Application Recovery Controller FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/application-recovery-controller/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Application Recovery Controller pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/application-recovery-controller/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Application Recovery Controller (ARC) readiness check availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/r53recovery/latest/dg/arc-readiness-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Compare multi-AZ and multi-Region recovery capabilities in ARC",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/r53recovery/latest/dg/compare-capabilities.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing Amazon Application Recovery Controller Region switch: A multi-Region application recovery service",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/blogs/aws/introducing-amazon-application-recovery-controller-region-switch-a-multi-region-application-recovery-service/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Application Recovery Controller (ARC) endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/arc.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Application Recovery Controller (ARC) in AWS GovCloud (US)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-arc-zonal-shift.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/amazon-application-recovery-controller.md",
+      "skos:altLabel": [
+        "ARC",
+        "Amazon ARC",
+        "Route 53 Application Recovery Controller",
+        "Amazon Route 53 Application Recovery Controller",
+        "Route 53 ARC"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:availability-zones"
+        },
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        },
+        {
+          "@id": "kt:multi-region-architecture"
+        },
+        {
+          "@id": "kt:reliability-pillar"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:amazon-route-53"
+        },
+        {
+          "@id": "kt:aws-global-accelerator"
+        },
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        },
+        {
+          "@id": "kt:aurora-global-database"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-cloudfront",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon CloudFront",

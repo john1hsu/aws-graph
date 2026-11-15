@@ -27,6 +27,33 @@
     ]
   },
   {
+    "id": "kt:amazon-application-recovery-controller",
+    "title": "Amazon Application Recovery Controller",
+    "aliases": [
+      "ARC",
+      "Amazon ARC",
+      "Route 53 Application Recovery Controller",
+      "Amazon Route 53 Application Recovery Controller",
+      "Route 53 ARC"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/amazon-application-recovery-controller.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/r53recovery/latest/dg/what-is-route53-recovery.html",
+      "https://aws.amazon.com/application-recovery-controller/faqs/",
+      "https://aws.amazon.com/application-recovery-controller/pricing/",
+      "https://docs.aws.amazon.com/r53recovery/latest/dg/arc-readiness-availability-change.html",
+      "https://docs.aws.amazon.com/r53recovery/latest/dg/compare-capabilities.html",
+      "https://aws.amazon.com/blogs/aws/introducing-amazon-application-recovery-controller-region-switch-a-multi-region-application-recovery-service/",
+      "https://docs.aws.amazon.com/general/latest/gr/arc.html",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-arc-zonal-shift.html"
+    ]
+  },
+  {
     "id": "kt:amazon-athena",
     "title": "Amazon Athena",
     "aliases": [
