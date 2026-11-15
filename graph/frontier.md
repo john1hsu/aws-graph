@@ -132,6 +132,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:red-hat-openshift-service-on-aws` | `kt:aws-container-services` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
+| `kt:role-based-access-control` | `kt:attribute-based-access-control` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments` |
 | `kt:route-53-quotas` | `kt:amazon-route-53` |
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
@@ -145,6 +146,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:systems-manager-parameter-store` | `kt:aws-systems-manager` |
 | `kt:systems-manager-session-manager` | `kt:aws-systems-manager` |
 | `kt:tag-policies` | `kt:cost-allocation-tags` |
+| `kt:tagging-strategy` | `kt:attribute-based-access-control` |
 | `kt:transfer-family-quotas` | `kt:aws-transfer-family` |
 | `kt:transit-gateway-quotas` | `kt:aws-transit-gateway` |
 | `kt:vpc-endpoints` | `kt:aws-privatelink` |

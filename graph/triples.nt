@@ -1209,6 +1209,31 @@
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/2000/01/rdf-schema#label> "Attribute-based access control (ABAC) on AWS" .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/2004/02/skos/core#altLabel> "ABAC authorization" .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/2004/02/skos/core#altLabel> "ABAC" .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/2004/02/skos/core#altLabel> "attribute-based access control" .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/2004/02/skos/core#altLabel> "tag-based access control" .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/2004/02/skos/core#definition> "An authorization strategy in which AWS IAM policies grant or deny access by comparing attributes (tags) on the calling principal or session with tags on the target resource and in the request, so a few policies can cover resources and teams that change over time." .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/2004/02/skos/core#prefLabel> "Attribute-based access control (ABAC) on AWS" .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s1> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s2> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s3> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s4> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s5> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s6> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/role-based-access-control> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/tagging-strategy> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <https://github.com/john1hsu/aws-graph/ontology#domain> "identity-and-access" .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/iam-quotas> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/aurora-global-database> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Aurora Global Database" .
@@ -6268,6 +6293,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-application-load-balancer-target-optimizer" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s1> <http://purl.org/dc/terms/title> "Define permissions based on attributes with ABAC authorization - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s1> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_attribute-based-access-control.html" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s2> <http://purl.org/dc/terms/title> "IAM tutorial: Define permissions to access AWS resources based on tags" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s2> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_attribute-based-access-control" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s3> <http://purl.org/dc/terms/title> "Pass session tags in AWS STS - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s3> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s4> <http://purl.org/dc/terms/title> "Attribute-based access control - AWS IAM Identity Center" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s4> <https://schema.org/url> "https://docs.aws.amazon.com/singlesignon/latest/userguide/abac.html" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s5> <http://purl.org/dc/terms/title> "ABAC for individual resources - Best Practices for Tagging AWS Resources" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s5> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/abac-for-individual-resources.html" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s6> <http://purl.org/dc/terms/publisher> "National Institute of Standards and Technology" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s6> <http://purl.org/dc/terms/title> "NIST SP 800-162: Guide to Attribute Based Access Control (ABAC) Definition and Considerations" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s6> <https://schema.org/url> "https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.800-162.pdf" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s1> <http://purl.org/dc/terms/title> "Using Amazon Aurora Global Database" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

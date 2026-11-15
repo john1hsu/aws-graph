@@ -1061,6 +1061,30 @@
     ]
   },
   {
+    "id": "kt:attribute-based-access-control",
+    "title": "Attribute-based access control (ABAC) on AWS",
+    "aliases": [
+      "ABAC",
+      "attribute-based access control",
+      "tag-based access control",
+      "ABAC authorization"
+    ],
+    "type": "Pattern",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/attribute-based-access-control.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_attribute-based-access-control.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_attribute-based-access-control",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html",
+      "https://docs.aws.amazon.com/singlesignon/latest/userguide/abac.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/abac-for-individual-resources.html",
+      "https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.800-162.pdf"
+    ]
+  },
+  {
     "id": "kt:aurora-global-database",
     "title": "Amazon Aurora Global Database",
     "aliases": [
