@@ -15633,6 +15633,96 @@
       ]
     },
     {
+      "@id": "kt:amazon-s3-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Amazon S3 quotas",
+      "skos:definition": "The account-, bucket- and object-level limits that constrain Amazon S3: adjustable bucket, access point and replication quotas; fixed object, multipart, policy, tag and configuration limits; per-prefix request-rate baselines; and separate limit sets for table buckets and vector buckets.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon Simple Storage Service endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/s3.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "General purpose bucket quotas, limitations, and restrictions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/BucketRestrictions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best practices design patterns: optimizing Amazon S3 performance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon S3 increases the maximum object size to 50 TB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-maximum-object-size-50-tb/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "S3 Tables AWS Regions, endpoints, and service quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-regions-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "S3 Vectors limitations and restrictions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-limitations.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/storage/amazon-s3-quotas.md",
+      "skos:altLabel": [
+        "S3 quotas",
+        "S3 service quotas",
+        "S3 limits",
+        "Amazon S3 service limits",
+        "Amazon Simple Storage Service quotas"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:s3-storage-classes"
+        },
+        {
+          "@id": "kt:amazon-s3-files"
+        },
+        {
+          "@id": "kt:aws-kms"
+        },
+        {
+          "@id": "kt:amazon-cloudfront"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:kms-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-s3",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon S3",

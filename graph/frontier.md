@@ -37,9 +37,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:fargate-quotas` | `kt:aws-fargate`, `kt:ecs-quotas` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
+| `kt:kms-quotas` | `kt:aws-kms`, `kt:amazon-s3-quotas` |
 | `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:multi-region-architecture` | `kt:dynamodb-global-tables`, `kt:aws-global-accelerator` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
+| `kt:s3-storage-classes` | `kt:amazon-s3-quotas`, `kt:amazon-s3` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
@@ -59,7 +61,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-opensearch-service` | `kt:amazon-bedrock-knowledge-bases` |
 | `kt:amazon-q-developer` | `kt:aws-transform` |
 | `kt:amazon-quick` | `kt:amazon-q-business` |
-| `kt:amazon-s3-quotas` | `kt:amazon-s3` |
 | `kt:amazon-swf` | `kt:aws-step-functions` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
@@ -128,7 +129,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:icd-503` | `kt:aws-secret-and-top-secret-regions` |
 | `kt:karpenter` | `kt:eks-auto-mode` |
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
-| `kt:kms-quotas` | `kt:aws-kms` |
 | `kt:lake-formation-quotas` | `kt:aws-lake-formation` |
 | `kt:lambda-provisioned-concurrency` | `kt:lambda-cold-starts` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |
@@ -142,7 +142,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:rolling-deployments` | `kt:blue-green-deployments` |
 | `kt:route-53-quotas` | `kt:amazon-route-53` |
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
-| `kt:s3-storage-classes` | `kt:amazon-s3` |
 | `kt:sagemaker-ai-quotas` | `kt:amazon-sagemaker-ai` |
 | `kt:secrets-manager-quotas` | `kt:aws-secrets-manager` |
 | `kt:sns-quotas` | `kt:amazon-sns` |

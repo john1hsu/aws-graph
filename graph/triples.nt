@@ -881,6 +881,33 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-s3-files> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3-files> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3-files> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon S3 quotas" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon S3 service limits" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Simple Storage Service quotas" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 limits" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 quotas" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 service quotas" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The account-, bucket- and object-level limits that constrain Amazon S3: adjustable bucket, access point and replication quotas; fixed object, multipart, policy, tag and configuration limits; per-prefix request-rate baselines; and separate limit sets for table buckets and vector buckets." .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon S3 quotas" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3-files> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/s3-storage-classes> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/kms-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-s3> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon S3" .
@@ -5497,6 +5524,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3-files/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3-files/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3-files/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/launching-s3-files-making-s3-buckets-accessible-as-file-systems" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s1> <http://purl.org/dc/terms/title> "Amazon Simple Storage Service endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/s3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s2> <http://purl.org/dc/terms/title> "General purpose bucket quotas, limitations, and restrictions" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/BucketRestrictions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s3> <http://purl.org/dc/terms/title> "Best practices design patterns: optimizing Amazon S3 performance" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s4> <http://purl.org/dc/terms/title> "Amazon S3 increases the maximum object size to 50 TB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-maximum-object-size-50-tb/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s5> <http://purl.org/dc/terms/title> "S3 Tables AWS Regions, endpoints, and service quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-regions-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s6> <http://purl.org/dc/terms/title> "S3 Vectors limitations and restrictions" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-s3-quotas/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-limitations.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://purl.org/dc/terms/title> "Amazon S3 FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-s3/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -793,6 +793,31 @@
     ]
   },
   {
+    "id": "kt:amazon-s3-quotas",
+    "title": "Amazon S3 quotas",
+    "aliases": [
+      "S3 quotas",
+      "S3 service quotas",
+      "S3 limits",
+      "Amazon S3 service limits",
+      "Amazon Simple Storage Service quotas"
+    ],
+    "type": "Limit",
+    "domain": "storage",
+    "file": "articles/storage/amazon-s3-quotas.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/general/latest/gr/s3.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/BucketRestrictions.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-maximum-object-size-50-tb/",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-regions-quotas.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-limitations.html"
+    ]
+  },
+  {
     "id": "kt:amazon-sagemaker-ai",
     "title": "Amazon SageMaker AI",
     "aliases": [
