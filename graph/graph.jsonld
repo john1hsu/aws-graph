@@ -8079,6 +8079,9 @@
       "skos:related": [
         {
           "@id": "kt:aws-partitions"
+        },
+        {
+          "@id": "kt:aws-global-network"
         }
       ],
       "kto:hasPart": [
@@ -8098,6 +8101,88 @@
       "kto:coveredBy": [
         {
           "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
+      "@id": "kt:aws-global-network",
+      "@type": "kto:InfrastructureConcept",
+      "skos:prefLabel": "AWS Global Network",
+      "skos:definition": "The private, AWS-operated fiber backbone that interconnects Regions, Availability Zones, edge locations and Direct Connect locations, carrying inter-Region and edge traffic off the public internet with redundant paths and layered, automatic encryption.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Global Network",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/global-infrastructure/global-network/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data protection in Amazon EC2 - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/data-protection.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon VPC FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/vpc/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How AWS Global Accelerator works - AWS Global Accelerator",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/global-accelerator/latest/dg/introduction-how-it-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Access to AWS Regions - AWS Direct Connect",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/remote_regions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Building resilience: Inside AWS's nine million kilometers of fiber-optic cabling",
+          "dcterms:publisher": "Amazon Web Services (AWS Insights blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws-insights/building-resilience-inside-awss-nine-million-kilometers-of-fiber-optic-cabling/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/aws-global-network.md",
+      "skos:altLabel": [
+        "AWS global backbone",
+        "AWS backbone network",
+        "AWS backbone",
+        "AWS private backbone"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:edge-locations"
+        },
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:aws-global-accelerator"
+        },
+        {
+          "@id": "kt:aws-direct-connect"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-transit-gateway"
         }
       ]
     },

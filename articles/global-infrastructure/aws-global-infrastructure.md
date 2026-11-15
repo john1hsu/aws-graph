@@ -11,7 +11,7 @@ summary: >-
 verified: 2026-11-10
 status: concept
 broader: [kt:amazon-web-services]
-related: [kt:aws-partitions]
+related: [kt:aws-partitions, kt:aws-global-network]
 relations:
   - {predicate: hasPart, object: kt:aws-regions}
   - {predicate: hasPart, object: kt:edge-locations}

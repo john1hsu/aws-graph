@@ -12,6 +12,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |
 | `kt:aws-cost-management-services` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-pricing-calculator` |
 | `kt:aws-developer-tools` | `kt:aws-codebuild`, `kt:aws-codedeploy`, `kt:aws-codepipeline` |
+| `kt:aws-global-accelerator` | `kt:performance-efficiency-pillar`, `kt:aws-global-network`, `kt:edge-locations` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-free-tier`, `kt:cost-allocation-tags` |
@@ -22,7 +23,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs` |
-| `kt:aws-global-accelerator` | `kt:performance-efficiency-pillar`, `kt:edge-locations` |
 | `kt:aws-resource-access-manager` | `kt:ec2-placement-groups`, `kt:aws-privatelink` |
 | `kt:aws-shield` | `kt:edge-locations`, `kt:aws-waf` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |

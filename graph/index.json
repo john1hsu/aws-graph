@@ -1785,6 +1785,30 @@
     ]
   },
   {
+    "id": "kt:aws-global-network",
+    "title": "AWS Global Network",
+    "aliases": [
+      "AWS global backbone",
+      "AWS backbone network",
+      "AWS backbone",
+      "AWS private backbone"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/aws-global-network.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "concept",
+    "source_urls": [
+      "https://aws.amazon.com/about-aws/global-infrastructure/global-network/",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/data-protection.html",
+      "https://aws.amazon.com/vpc/faqs/",
+      "https://docs.aws.amazon.com/global-accelerator/latest/dg/introduction-how-it-works.html",
+      "https://docs.aws.amazon.com/directconnect/latest/UserGuide/remote_regions.html",
+      "https://aws.amazon.com/blogs/aws-insights/building-resilience-inside-awss-nine-million-kilometers-of-fiber-optic-cabling/"
+    ]
+  },
+  {
     "id": "kt:aws-glue",
     "title": "AWS Glue",
     "aliases": [
