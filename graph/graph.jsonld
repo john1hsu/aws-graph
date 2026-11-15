@@ -8252,6 +8252,112 @@
       ]
     },
     {
+      "@id": "kt:aws-developer-tools",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS developer tools",
+      "skos:definition": "The AWS service category for writing, storing, building, testing, releasing and debugging software: source and artifact repositories (CodeCommit, CodeArtifact), CI/CD (CodeBuild, CodePipeline, CodeDeploy), browser and AI coding aids (CloudShell, Amazon Q Developer, Infrastructure Composer) and troubleshooting and resilience testing (X-Ray, Fault Injection Service).",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Developer tools - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/developer-tools",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CodeCommit Returns to General Availability",
+          "dcterms:publisher": "Amazon Web Services (AWS DevOps & Developer Productivity Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/devops/aws-codecommit-returns-to-general-availability",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Document history for the AWS Cloud9 User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cloud9/latest/user-guide/history.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How to migrate from CodeCatalyst - Amazon CodeCatalyst",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/codecatalyst/latest/userguide/migration.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Development lifecycle - DevOps Guidance",
+          "dcterms:publisher": "Amazon Web Services (AWS Well-Architected)",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/development-lifecycle.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Content Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/aws-developer-tools.md",
+      "skos:altLabel": [
+        "AWS Developer Tools category",
+        "AWS developer tools services",
+        "AWS Code services",
+        "AWS Code* services",
+        "developer tools on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:ci-cd"
+        },
+        {
+          "@id": "kt:infrastructure-as-code"
+        },
+        {
+          "@id": "kt:devops"
+        },
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-codepipeline"
+        },
+        {
+          "@id": "kt:aws-codebuild"
+        },
+        {
+          "@id": "kt:aws-codedeploy"
+        },
+        {
+          "@id": "kt:aws-codecommit"
+        },
+        {
+          "@id": "kt:aws-x-ray"
+        },
+        {
+          "@id": "kt:amazon-q-developer"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-sam",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Serverless Application Model (AWS SAM)",

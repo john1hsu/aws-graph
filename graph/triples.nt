@@ -2114,6 +2114,38 @@
 <https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-privatelink> .
 <https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-datasync> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2000/01/rdf-schema#label> "AWS developer tools" .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Code services" .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Code* services" .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Developer Tools category" .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS developer tools services" .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2004/02/skos/core#altLabel> "developer tools on AWS" .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2004/02/skos/core#definition> "The AWS service category for writing, storing, building, testing, releasing and debugging software: source and artifact repositories (CodeCommit, CodeArtifact), CI/CD (CodeBuild, CodePipeline, CodeDeploy), browser and AI coding aids (CloudShell, Amazon Q Developer, Infrastructure Composer) and troubleshooting and resilience testing (X-Ray, Fault Injection Service)." .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS developer tools" .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ci-cd> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/devops> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-q-developer> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-codebuild> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-codecommit> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-codedeploy> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-x-ray> .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-developer-tools> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Direct Connect" .
@@ -7253,6 +7285,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-datasync/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s1> <http://purl.org/dc/terms/title> "Developer tools - Overview of Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/developer-tools" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS DevOps & Developer Productivity Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s2> <http://purl.org/dc/terms/title> "AWS CodeCommit Returns to General Availability" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s2> <https://schema.org/url> "https://aws.amazon.com/blogs/devops/aws-codecommit-returns-to-general-availability" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s3> <http://purl.org/dc/terms/title> "Document history for the AWS Cloud9 User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s3> <https://schema.org/url> "https://docs.aws.amazon.com/cloud9/latest/user-guide/history.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s4> <http://purl.org/dc/terms/title> "How to migrate from CodeCatalyst - Amazon CodeCatalyst" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s4> <https://schema.org/url> "https://docs.aws.amazon.com/codecatalyst/latest/userguide/migration.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Well-Architected)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s5> <http://purl.org/dc/terms/title> "Development lifecycle - DevOps Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s5> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/development-lifecycle.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s6> <http://purl.org/dc/terms/title> "Content Domain 3: Cloud Technology and Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-developer-tools/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s1> <http://purl.org/dc/terms/title> "What is Direct Connect? - AWS Direct Connect User Guide" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

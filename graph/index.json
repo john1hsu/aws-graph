@@ -1852,6 +1852,32 @@
     ]
   },
   {
+    "id": "kt:aws-developer-tools",
+    "title": "AWS developer tools",
+    "aliases": [
+      "AWS Developer Tools category",
+      "AWS developer tools services",
+      "AWS Code services",
+      "AWS Code* services",
+      "developer tools on AWS"
+    ],
+    "type": "Concept",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/aws-developer-tools.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/developer-tools",
+      "https://aws.amazon.com/blogs/devops/aws-codecommit-returns-to-general-availability",
+      "https://docs.aws.amazon.com/cloud9/latest/user-guide/history.html",
+      "https://docs.aws.amazon.com/codecatalyst/latest/userguide/migration.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/development-lifecycle.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-direct-connect",
     "title": "AWS Direct Connect",
     "aliases": [
