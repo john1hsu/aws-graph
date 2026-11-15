@@ -679,6 +679,29 @@
     ]
   },
   {
+    "id": "kt:amazon-q-developer",
+    "title": "Amazon Q Developer",
+    "aliases": [
+      "Q Developer",
+      "Amazon Q Developer Pro",
+      "Q Developer IDE plugins"
+    ],
+    "type": "Service",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-q-developer.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "closed-to-new-customers",
+    "source_urls": [
+      "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html",
+      "https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/",
+      "https://aws.amazon.com/q/developer/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/11/q-developer-renamed-aws-assistant/",
+      "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html",
+      "https://docs.aws.amazon.com/general/latest/gr/amazonqdev.html"
+    ]
+  },
+  {
     "id": "kt:amazon-rds",
     "title": "Amazon Relational Database Service",
     "aliases": [

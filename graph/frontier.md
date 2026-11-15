@@ -5,7 +5,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:amazon-web-services` | `kt:aws-analytics-services`, `kt:aws-certification-program`, `kt:aws-compute-services`, `kt:aws-pricing-fundamentals`, `kt:purpose-built-databases`, `kt:aws-global-infrastructure`, `kt:aws-management-and-governance-services`, `kt:aws-migration-and-transfer-services`, `kt:aws-storage-services` |
-| `kt:generative-ai-on-aws` | `kt:amazon-bedrock-agentcore`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-q-business`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
+| `kt:generative-ai-on-aws` | `kt:amazon-bedrock-agentcore`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-q-business`, `kt:amazon-q-developer`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-cloud-adoption-framework` | `kt:aws-well-architected-framework`, `kt:aws-certified-cloud-practitioner`, `kt:aws-management-and-governance-services`, `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:rds-proxy` | `kt:amazon-aurora`, `kt:amazon-rds`, `kt:aurora-global-database`, `kt:aurora-serverless-v2` |
 | `kt:aurora-quotas` | `kt:amazon-aurora`, `kt:aurora-global-database`, `kt:aurora-serverless-v2` |
@@ -59,7 +59,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-mq` | `kt:amazon-sqs` |
 | `kt:amazon-neptune` | `kt:purpose-built-databases` |
 | `kt:amazon-opensearch-service` | `kt:amazon-bedrock-knowledge-bases` |
-| `kt:amazon-q-developer` | `kt:aws-transform` |
 | `kt:amazon-quick` | `kt:amazon-q-business` |
 | `kt:amazon-swf` | `kt:aws-step-functions` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
@@ -129,6 +128,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:icd-503` | `kt:aws-secret-and-top-secret-regions` |
 | `kt:karpenter` | `kt:eks-auto-mode` |
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
+| `kt:kiro` | `kt:amazon-q-developer` |
 | `kt:lake-formation-quotas` | `kt:aws-lake-formation` |
 | `kt:lambda-provisioned-concurrency` | `kt:lambda-cold-starts` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |

@@ -778,6 +778,30 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-q-business> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
 <https://github.com/john1hsu/aws-graph/id/amazon-q-business> <https://github.com/john1hsu/aws-graph/ontology#status> "closed-to-new-customers" .
 <https://github.com/john1hsu/aws-graph/id/amazon-q-business> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Q Developer" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Q Developer Pro" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/2004/02/skos/core#altLabel> "Q Developer IDE plugins" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/2004/02/skos/core#altLabel> "Q Developer" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/2004/02/skos/core#definition> "AWS's generative-AI assistant for building and operating on AWS, delivered as IDE plugins with chat, inline completions, code generation, security scanning and code transformation; closed to new subscriptions and Free Tier sign-ups since May 15, 2026, with IDE plugin support ending April 30, 2027 and AWS directing developers to Kiro." .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Q Developer" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-q-business> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transform> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-transform> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <https://github.com/john1hsu/aws-graph/ontology#replacedBy> <https://github.com/john1hsu/aws-graph/id/kiro> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <https://github.com/john1hsu/aws-graph/ontology#status> "closed-to-new-customers" .
+<https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Relational Database Service" .
@@ -5409,6 +5433,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s6> <https://schema.org/url> "https://aws.amazon.com/q/business/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s1> <http://purl.org/dc/terms/title> "What is Amazon Q Developer?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s1> <https://schema.org/url> "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS DevOps Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s2> <http://purl.org/dc/terms/title> "Amazon Q Developer end-of-support announcement" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s2> <https://schema.org/url> "https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s3> <http://purl.org/dc/terms/title> "Amazon Q Developer pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s3> <https://schema.org/url> "https://aws.amazon.com/q/developer/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s4> <http://purl.org/dc/terms/title> "Amazon Q Developer in console is now the AWS assistant (What's New, November 5, 2026)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/11/q-developer-renamed-aws-assistant/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s5> <http://purl.org/dc/terms/title> "Using Amazon Q Developer on the command line" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s5> <https://schema.org/url> "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s6> <http://purl.org/dc/terms/title> "Amazon Q Developer endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s6> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/amazonqdev.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s1> <http://purl.org/dc/terms/title> "What is Amazon Relational Database Service (Amazon RDS)?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
