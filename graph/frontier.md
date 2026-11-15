@@ -130,7 +130,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
 | `kt:kms-quotas` | `kt:aws-kms` |
 | `kt:lake-formation-quotas` | `kt:aws-lake-formation` |
+| `kt:lambda-provisioned-concurrency` | `kt:lambda-cold-starts` |
 | `kt:lambda-quotas` | `kt:aws-lambda` |
+| `kt:lambda-snapstart` | `kt:lambda-cold-starts` |
 | `kt:landing-zone` | `kt:multi-account-strategy` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |

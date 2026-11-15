@@ -3400,6 +3400,28 @@
     ]
   },
   {
+    "id": "kt:lambda-cold-starts",
+    "title": "Lambda cold starts",
+    "aliases": [
+      "AWS Lambda cold start",
+      "Lambda cold start latency",
+      "Lambda Init phase latency"
+    ],
+    "type": "Concept",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/lambda-cold-starts.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/lambda/latest/operatorguide/static-initialization.html",
+      "https://docs.aws.amazon.com/lambda/latest/dg/snapstart.md",
+      "https://docs.aws.amazon.com/lambda/latest/dg/provisioned-concurrency.html",
+      "https://aws.amazon.com/blogs/compute/aws-lambda-standardizes-billing-for-init-phase",
+      "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/"
+    ]
+  },
+  {
     "id": "kt:local-zones",
     "title": "AWS Local Zones",
     "aliases": [

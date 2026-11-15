@@ -15126,6 +15126,83 @@
       ]
     },
     {
+      "@id": "kt:lambda-cold-starts",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Lambda cold starts",
+      "skos:definition": "The extra latency, and billed time, an AWS Lambda invocation incurs when Lambda must create and initialize a new execution environment (download code, start the runtime and extensions, run static init code) before the handler runs; mitigated by lean initialization, SnapStart and provisioned concurrency.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understanding the Lambda execution environment lifecycle - AWS Lambda",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/operatorguide/static-initialization.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Improving startup performance with Lambda SnapStart",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/snapstart.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configuring provisioned concurrency for an Event Function - AWS Lambda",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/provisioned-concurrency.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Lambda standardizes billing for INIT Phase",
+          "dcterms:publisher": "AWS Compute Blog",
+          "schema:url": "https://aws.amazon.com/blogs/compute/aws-lambda-standardizes-billing-for-init-phase",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Lambda now supports SnapStart for container image functions",
+          "dcterms:publisher": "What's New with AWS",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/lambda-cold-starts.md",
+      "skos:altLabel": [
+        "AWS Lambda cold start",
+        "Lambda cold start latency",
+        "Lambda Init phase latency"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-serverless-services"
+        },
+        {
+          "@id": "kt:amazon-api-gateway"
+        },
+        {
+          "@id": "kt:lambda-snapstart"
+        },
+        {
+          "@id": "kt:lambda-provisioned-concurrency"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-fargate"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-ebs",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon EBS",

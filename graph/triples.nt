@@ -3897,6 +3897,29 @@
 <https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/2000/01/rdf-schema#label> "Lambda cold starts" .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Lambda cold start" .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/2004/02/skos/core#altLabel> "Lambda Init phase latency" .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/2004/02/skos/core#altLabel> "Lambda cold start latency" .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/2004/02/skos/core#definition> "The extra latency, and billed time, an AWS Lambda invocation incurs when Lambda must create and initialize a new execution environment (download code, start the runtime and extensions, run static init code) before the handler runs; mitigated by lean initialization, SnapStart and provisioned concurrency." .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lambda cold starts" .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/lambda-provisioned-concurrency> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/lambda-snapstart> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s1> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s2> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s3> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s4> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s5> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Local Zones" .
@@ -9169,6 +9192,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <https://schema.org/url> "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M/part-120/subpart-C/section-120.54" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s1> <http://purl.org/dc/terms/title> "Understanding the Lambda execution environment lifecycle - AWS Lambda" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s1> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/operatorguide/static-initialization.html" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s2> <http://purl.org/dc/terms/title> "Improving startup performance with Lambda SnapStart" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s2> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/snapstart.md" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s3> <http://purl.org/dc/terms/title> "Configuring provisioned concurrency for an Event Function - AWS Lambda" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s3> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/provisioned-concurrency.html" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s4> <http://purl.org/dc/terms/publisher> "AWS Compute Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s4> <http://purl.org/dc/terms/title> "AWS Lambda standardizes billing for INIT Phase" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/aws-lambda-standardizes-billing-for-init-phase" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s5> <http://purl.org/dc/terms/publisher> "What's New with AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s5> <http://purl.org/dc/terms/title> "AWS Lambda now supports SnapStart for container image functions" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/" .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <http://purl.org/dc/terms/title> "Regions and Zones - Amazon Elastic Compute Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
