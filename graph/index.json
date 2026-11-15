@@ -1212,6 +1212,28 @@
     ]
   },
   {
+    "id": "kt:aws-batch",
+    "title": "AWS Batch",
+    "aliases": [
+      "Amazon Batch"
+    ],
+    "type": "Service",
+    "domain": "compute",
+    "file": "articles/compute/aws-batch.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/batch/latest/userguide/batch_components.html",
+      "https://docs.aws.amazon.com/batch/latest/userguide/service_limits.html",
+      "https://docs.aws.amazon.com/batch/latest/userguide/allocation-strategies.html",
+      "https://aws.amazon.com/batch/pricing",
+      "https://aws.amazon.com/batch/faqs",
+      "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-budgets",
     "title": "AWS Budgets",
     "aliases": [

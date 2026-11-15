@@ -68,7 +68,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-audit-manager` | `kt:nist-sp-800-53` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
-| `kt:aws-batch` | `kt:aws-compute-services` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |

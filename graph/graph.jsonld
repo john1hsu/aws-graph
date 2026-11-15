@@ -3912,6 +3912,111 @@
       ]
     },
     {
+      "@id": "kt:aws-batch",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Batch",
+      "skos:definition": "A fully managed AWS job scheduler that queues containerized batch jobs and provisions EC2, Spot, Fargate, ECS Managed Instances or EKS capacity to run them, with no charge beyond the underlying resources.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Components of AWS Batch",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/batch/latest/userguide/batch_components.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Resource: AWS Batch service quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/batch/latest/userguide/service_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Instance type allocation strategies for AWS Batch",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/batch/latest/userguide/allocation-strategies.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Batch pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/batch/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Batch FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/batch/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Batch now supports Amazon ECS Managed Instances",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Certified Solutions Architect - Associate (SAA-C03): In-scope AWS services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/compute/aws-batch.md",
+      "skos:altLabel": [
+        "Amazon Batch"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compute-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        },
+        {
+          "@id": "kt:aws-step-functions"
+        },
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-fargate"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:ecs-managed-instances"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:spot-instances"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-compute-services",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS compute services",
