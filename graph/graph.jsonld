@@ -10338,6 +10338,124 @@
       ]
     },
     {
+      "@id": "kt:aws-trusted-advisor",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Trusted Advisor",
+      "skos:definition": "The AWS Support service that inspects an account against AWS best-practice checks in six categories (cost optimization, performance, security, fault tolerance, service limits and operational excellence) and flags resources needing action; the full check set, API and organization-wide features depend on the account's AWS Support plan.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Trusted Advisor - AWS Support User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get started with Trusted Advisor Recommendations - AWS Support User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Trusted Advisor check reference - AWS Support User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor-check-reference.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Organizational view for AWS Trusted Advisor - AWS Support User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awssupport/latest/user/organizational-view.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get started with AWS Trusted Advisor Priority - AWS Support User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor-priority.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get started with the Trusted Advisor API - AWS Support User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor-api.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Change log for AWS Trusted Advisor - AWS Support User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awssupport/latest/user/aws-trusted-advisor-change-log.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Trusted Advisor now delivers more accurate unused NAT Gateway checks powered by AWS Compute Optimizer (What's New with AWS, 2026-02-23)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/02/trusted-advisor-unused-nat-gateway-check/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Trusted Advisor in AWS GovCloud (US) - AWS GovCloud (US) User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-ta.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified Cloud Practitioner - Exam Guide (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.pdf",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/aws-trusted-advisor.md",
+      "skos:altLabel": [
+        "Trusted Advisor",
+        "AWS Trusted Advisor Priority",
+        "Trusted Advisor Recommendations"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:service-quotas"
+        },
+        {
+          "@id": "kt:aws-security-hub"
+        },
+        {
+          "@id": "kt:aws-compute-optimizer"
+        },
+        {
+          "@id": "kt:aws-support-plans"
+        },
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:cost-optimization-pillar"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:multi-account-strategy",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Multi-account strategy",

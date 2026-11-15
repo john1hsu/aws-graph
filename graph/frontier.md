@@ -8,6 +8,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aurora-quotas` | `kt:amazon-aurora`, `kt:aurora-global-database`, `kt:aurora-serverless-v2` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-cost-management-services`, `kt:aws-free-tier`, `kt:cost-allocation-tags` |
+| `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar`, `kt:ec2-instance-types`, `kt:aws-trusted-advisor` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
@@ -17,13 +18,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cloud-map` | `kt:container-networking-on-aws`, `kt:ecs-quotas` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-cloudhsm` | `kt:itar-on-aws`, `kt:aws-kms` |
-| `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar`, `kt:ec2-instance-types` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs` |
 | `kt:aws-firewall-manager` | `kt:aws-shield`, `kt:aws-waf` |
 | `kt:aws-resource-access-manager` | `kt:ec2-placement-groups`, `kt:aws-privatelink` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
+| `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner`, `kt:aws-trusted-advisor` |
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
@@ -73,10 +74,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-skill-builder` | `kt:aws-certification-program` |
-| `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner` |
 | `kt:aws-sustainability-console` | `kt:sustainability-pillar` |
 | `kt:aws-tag-editor` | `kt:cost-allocation-tags` |
-| `kt:aws-trusted-advisor` | `kt:service-quotas` |
 | `kt:aws-wavelength` | `kt:local-zones` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:aws-x-ray` | `kt:aws-developer-tools` |

@@ -3400,6 +3400,37 @@
 <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Trusted Advisor" .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Trusted Advisor Priority" .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/2004/02/skos/core#altLabel> "Trusted Advisor Recommendations" .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/2004/02/skos/core#altLabel> "Trusted Advisor" .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/2004/02/skos/core#definition> "The AWS Support service that inspects an account against AWS best-practice checks in six categories (cost optimization, performance, security, fault tolerance, service limits and operational excellence) and flags resources needing action; the full check set, API and organization-wide features depend on the account's AWS Support plan." .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Trusted Advisor" .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-security-hub> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-support-plans> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s10> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s9> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/aws-waf> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-waf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-waf> <http://www.w3.org/2000/01/rdf-schema#label> "AWS WAF" .
@@ -8910,6 +8941,56 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-transit-gateway/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s10> <http://purl.org/dc/terms/title> "AWS Certified Cloud Practitioner - Exam Guide (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s10> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s1> <http://purl.org/dc/terms/title> "AWS Trusted Advisor - AWS Support User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s1> <https://schema.org/url> "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s2> <http://purl.org/dc/terms/title> "Get started with Trusted Advisor Recommendations - AWS Support User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s2> <https://schema.org/url> "https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s3> <http://purl.org/dc/terms/title> "AWS Trusted Advisor check reference - AWS Support User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s3> <https://schema.org/url> "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor-check-reference.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s4> <http://purl.org/dc/terms/title> "Organizational view for AWS Trusted Advisor - AWS Support User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s4> <https://schema.org/url> "https://docs.aws.amazon.com/awssupport/latest/user/organizational-view.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s5> <http://purl.org/dc/terms/title> "Get started with AWS Trusted Advisor Priority - AWS Support User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s5> <https://schema.org/url> "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor-priority.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s6> <http://purl.org/dc/terms/title> "Get started with the Trusted Advisor API - AWS Support User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s6> <https://schema.org/url> "https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor-api.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s7> <http://purl.org/dc/terms/title> "Change log for AWS Trusted Advisor - AWS Support User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s7> <https://schema.org/url> "https://docs.aws.amazon.com/awssupport/latest/user/aws-trusted-advisor-change-log.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s8> <http://purl.org/dc/terms/title> "AWS Trusted Advisor now delivers more accurate unused NAT Gateway checks powered by AWS Compute Optimizer (What's New with AWS, 2026-02-23)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/02/trusted-advisor-unused-nat-gateway-check/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s9> <http://purl.org/dc/terms/title> "AWS Trusted Advisor in AWS GovCloud (US) - AWS GovCloud (US) User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-trusted-advisor/s9> <https://schema.org/url> "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-ta.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-waf/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-waf/s1> <http://purl.org/dc/terms/title> "How AWS WAF works" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-waf/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

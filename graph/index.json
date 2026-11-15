@@ -2961,6 +2961,33 @@
     ]
   },
   {
+    "id": "kt:aws-trusted-advisor",
+    "title": "AWS Trusted Advisor",
+    "aliases": [
+      "Trusted Advisor",
+      "AWS Trusted Advisor Priority",
+      "Trusted Advisor Recommendations"
+    ],
+    "type": "Service",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/aws-trusted-advisor.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html",
+      "https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html",
+      "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor-check-reference.html",
+      "https://docs.aws.amazon.com/awssupport/latest/user/organizational-view.html",
+      "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor-priority.html",
+      "https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor-api.html",
+      "https://docs.aws.amazon.com/awssupport/latest/user/aws-trusted-advisor-change-log.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/02/trusted-advisor-unused-nat-gateway-check/",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-ta.html",
+      "https://docs.aws.amazon.com/pdfs/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.pdf"
+    ]
+  },
+  {
     "id": "kt:aws-waf",
     "title": "AWS WAF",
     "aliases": [
