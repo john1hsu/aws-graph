@@ -4654,6 +4654,32 @@
 <https://github.com/john1hsu/aws-graph/id/resource-control-policies> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/data-perimeter> .
 <https://github.com/john1hsu/aws-graph/id/resource-control-policies> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/resource-control-policies> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon S3 storage classes" .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 Glacier storage classes" .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 storage classes" .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 storage tiers" .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/2004/02/skos/core#definition> "The per-object tiers of Amazon S3 (Standard, Express One Zone, Intelligent-Tiering, Standard-IA, One Zone-IA and the three Glacier classes) that trade storage price against availability, Availability Zone resilience, access latency, retrieval fees and minimum billing commitments." .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon S3 storage classes" .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-backup> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s1> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s2> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s3> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s4> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s5> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s6> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/local-zones> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/s3-storage-lens> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#PricingModel> .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <http://www.w3.org/2000/01/rdf-schema#label> "Savings Plans" .
@@ -10560,6 +10586,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/resource-control-policies/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/resource-control-policies/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/resource-control-policies/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/security/effectively-implementing-resource-controls-policies-in-a-multi-account-environment" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s1> <http://purl.org/dc/terms/title> "Understanding and managing Amazon S3 storage classes - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s1> <https://schema.org/url> "https://docs.aws.amazon.com/us_en/AmazonS3/latest/userguide/storage-class-intro.html" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s2> <http://purl.org/dc/terms/title> "Amazon S3 Storage Classes" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s2> <https://schema.org/url> "https://aws.amazon.com/s3/storage-classes/" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s3> <http://purl.org/dc/terms/title> "Transitioning objects using Amazon S3 Lifecycle - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s4> <http://purl.org/dc/terms/title> "Understanding archive retrieval options - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/restoring-objects-retrieval-options.md" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s5> <http://purl.org/dc/terms/title> "Managing storage costs with Amazon S3 Intelligent-Tiering - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s5> <https://schema.org/url> "https://docs.aws.amazon.com/us_en/AmazonS3/latest/userguide/intelligent-tiering.html" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Storage Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s6> <http://purl.org/dc/terms/title> "Analyze access patterns and use the most cost-effective Amazon S3 storage class" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/storage/analyze-access-patterns-and-use-the-most-cost-effective-amazon-s3-storage-class" .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <http://purl.org/dc/terms/title> "What are Savings Plans? - Savings Plans" .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

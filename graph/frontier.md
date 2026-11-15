@@ -34,7 +34,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:kms-quotas` | `kt:aws-kms`, `kt:amazon-s3-quotas` |
 | `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
-| `kt:s3-storage-classes` | `kt:amazon-s3-quotas`, `kt:amazon-s3` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
@@ -138,6 +137,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:rolling-deployments` | `kt:blue-green-deployments` |
 | `kt:route-53-quotas` | `kt:amazon-route-53` |
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
+| `kt:s3-lifecycle-policies` | `kt:s3-storage-classes` |
+| `kt:s3-storage-lens` | `kt:s3-storage-classes` |
 | `kt:sagemaker-ai-quotas` | `kt:amazon-sagemaker-ai` |
 | `kt:secrets-manager-quotas` | `kt:aws-secrets-manager` |
 | `kt:sns-quotas` | `kt:amazon-sns` |

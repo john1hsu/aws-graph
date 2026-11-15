@@ -4077,6 +4077,29 @@
     ]
   },
   {
+    "id": "kt:s3-storage-classes",
+    "title": "Amazon S3 storage classes",
+    "aliases": [
+      "S3 storage classes",
+      "S3 storage tiers",
+      "S3 Glacier storage classes"
+    ],
+    "type": "Feature",
+    "domain": "storage",
+    "file": "articles/storage/s3-storage-classes.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/us_en/AmazonS3/latest/userguide/storage-class-intro.html",
+      "https://aws.amazon.com/s3/storage-classes/",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/restoring-objects-retrieval-options.md",
+      "https://docs.aws.amazon.com/us_en/AmazonS3/latest/userguide/intelligent-tiering.html",
+      "https://aws.amazon.com/blogs/storage/analyze-access-patterns-and-use-the-most-cost-effective-amazon-s3-storage-class"
+    ]
+  },
+  {
     "id": "kt:savings-plans",
     "title": "Savings Plans",
     "aliases": [

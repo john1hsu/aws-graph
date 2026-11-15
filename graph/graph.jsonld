@@ -17662,6 +17662,101 @@
           "@id": "kt:aws-certified-cloud-practitioner"
         }
       ]
+    },
+    {
+      "@id": "kt:s3-storage-classes",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon S3 storage classes",
+      "skos:definition": "The per-object tiers of Amazon S3 (Standard, Express One Zone, Intelligent-Tiering, Standard-IA, One Zone-IA and the three Glacier classes) that trade storage price against availability, Availability Zone resilience, access latency, retrieval fees and minimum billing commitments.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understanding and managing Amazon S3 storage classes - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/us_en/AmazonS3/latest/userguide/storage-class-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon S3 Storage Classes",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/s3/storage-classes/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Transitioning objects using Amazon S3 Lifecycle - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding archive retrieval options - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/restoring-objects-retrieval-options.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Managing storage costs with Amazon S3 Intelligent-Tiering - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/us_en/AmazonS3/latest/userguide/intelligent-tiering.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Analyze access patterns and use the most cost-effective Amazon S3 storage class",
+          "dcterms:publisher": "Amazon Web Services (AWS Storage Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/storage/analyze-access-patterns-and-use-the-most-cost-effective-amazon-s3-storage-class",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/storage/s3-storage-classes.md",
+      "skos:altLabel": [
+        "S3 storage classes",
+        "S3 storage tiers",
+        "S3 Glacier storage classes"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-s3-quotas"
+        },
+        {
+          "@id": "kt:cost-optimization-pillar"
+        },
+        {
+          "@id": "kt:aws-backup"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:s3-lifecycle-policies"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:aws-pricing-fundamentals"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:s3-storage-lens"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:local-zones"
+        }
+      ]
     }
   ]
 }
