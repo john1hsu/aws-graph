@@ -1858,6 +1858,87 @@
       ]
     },
     {
+      "@id": "kt:aws-cloud-adoption-framework",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS Cloud Adoption Framework",
+      "skos:definition": "AWS's organization-level guidance for cloud-powered digital transformation, which groups the foundational capabilities an organization needs into six perspectives (Business, People, Governance, Platform, Security, Operations) and sequences the work in four iterative phases.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Cloud Adoption Framework (AWS CAF)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/professional-services/CAF/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Foundational capabilities - An Overview of the AWS Cloud Adoption Framework",
+          "dcterms:publisher": "Amazon Web Services (AWS Whitepaper)",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/overview-aws-cloud-adoption-framework/foundational-capabilities.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Accelerating business outcomes with cloud powered digital transformation - An Overview of the AWS Cloud Adoption Framework",
+          "dcterms:publisher": "Amazon Web Services (AWS Whitepaper)",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/overview-aws-cloud-adoption-framework/accelerating-business-outcomes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform perspective: infrastructure and applications - An Overview of the AWS Cloud Adoption Framework",
+          "dcterms:publisher": "Amazon Web Services (AWS Whitepaper)",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/overview-aws-cloud-adoption-framework/platform-perspective.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cloud Adoption Framework (CAF) 3.0 is Now Available",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/aws-cloud-adoption-framework-caf-3-0-is-now-available",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Domain 1: Cloud Concepts - AWS Certified Cloud Practitioner (CLF-C02) exam guide",
+          "dcterms:publisher": "Amazon Web Services (AWS Certification)",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/aws-cloud-adoption-framework.md",
+      "skos:altLabel": [
+        "AWS CAF",
+        "Cloud Adoption Framework",
+        "AWS CAF 3.0"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:cloud-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        },
+        {
+          "@id": "kt:seven-rs-migration-strategies"
+        },
+        {
+          "@id": "kt:aws-migration-acceleration-program"
+        },
+        {
+          "@id": "kt:multi-account-strategy"
+        },
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-well-architected-framework",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS Well-Architected Framework",
