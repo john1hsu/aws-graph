@@ -14,7 +14,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-developer-tools` | `kt:aws-codebuild`, `kt:aws-codedeploy`, `kt:aws-codepipeline` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
-| `kt:resource-control-policies` | `kt:organizations-quotas`, `kt:iam-policy-evaluation-logic`, `kt:service-control-policies` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-free-tier`, `kt:cost-allocation-tags` |
 | `kt:aws-cloud-map` | `kt:container-networking-on-aws`, `kt:ecs-quotas` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
@@ -97,6 +96,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:codedeploy-quotas` | `kt:aws-codedeploy` |
 | `kt:comprehend-quotas` | `kt:amazon-comprehend` |
 | `kt:control-tower-quotas` | `kt:aws-control-tower` |
+| `kt:data-perimeter` | `kt:resource-control-policies` |
 | `kt:data-warehouse` | `kt:data-lake-on-aws` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |

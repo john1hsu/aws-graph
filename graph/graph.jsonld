@@ -10316,6 +10316,91 @@
       ]
     },
     {
+      "@id": "kt:resource-control-policies",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Resource control policies (RCPs)",
+      "skos:definition": "An AWS Organizations authorization policy type that sets the maximum permissions available on resources in member accounts, for any caller, including principals outside the organization; RCPs only restrict and never grant access.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Resource control policies (RCPs) - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_rcps.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RCP evaluation - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_rcps_evaluation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RCP syntax - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_rcps_syntax.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and service limits for AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing resource control policies (RCPs) to centrally restrict access to AWS resources",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/11/resource-control-policies-restrict-access-aws-resources",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Effectively implementing resource control policies in a multi-account environment",
+          "dcterms:publisher": "AWS Security Blog",
+          "schema:url": "https://aws.amazon.com/blogs/security/effectively-implementing-resource-controls-policies-in-a-multi-account-environment",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/resource-control-policies.md",
+      "skos:altLabel": [
+        "RCP",
+        "RCPs",
+        "AWS Organizations resource control policies"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:aws-sts"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:service-control-policies"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:organizations-quotas"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:data-perimeter"
+        }
+      ]
+    },
+    {
       "@id": "kt:service-control-policies",
       "@type": "kto:Feature",
       "skos:prefLabel": "Service control policies (SCPs)",

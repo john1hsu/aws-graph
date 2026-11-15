@@ -3548,6 +3548,29 @@
     ]
   },
   {
+    "id": "kt:resource-control-policies",
+    "title": "Resource control policies (RCPs)",
+    "aliases": [
+      "RCP",
+      "RCPs",
+      "AWS Organizations resource control policies"
+    ],
+    "type": "Feature",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/resource-control-policies.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_rcps.html",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_rcps_evaluation.html",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_rcps_syntax.html",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.html",
+      "https://aws.amazon.com/about-aws/whats-new/2024/11/resource-control-policies-restrict-access-aws-resources",
+      "https://aws.amazon.com/blogs/security/effectively-implementing-resource-controls-policies-in-a-multi-account-environment"
+    ]
+  },
+  {
     "id": "kt:savings-plans",
     "title": "Savings Plans",
     "aliases": [
