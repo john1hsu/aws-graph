@@ -3841,6 +3841,32 @@
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ComplianceProgram> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "ITAR on AWS" .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS ITAR compliance" .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "ITAR in the cloud" .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "ITAR-regulated workloads on AWS" .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "International Traffic in Arms Regulations on AWS" .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/2004/02/skos/core#definition> "How customers subject to the U.S. International Traffic in Arms Regulations (ITAR) handle defense-related technical data on AWS: there is no ITAR certification, so qualified U.S. persons use the AWS GovCloud (US) Regions, whose AWS-side access is limited to U.S. persons, and keep export-compliance duties under the shared responsibility model." .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/2004/02/skos/core#prefLabel> "ITAR on AWS" .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s1> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s2> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s3> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s4> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Local Zones" .
@@ -9048,6 +9074,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s8> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/getting-started-terraform/faq.html" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s1> <http://purl.org/dc/terms/title> "US International Traffic in Arms Regulations (ITAR)" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s1> <https://schema.org/url> "https://aws.amazon.com/compliance/itar/" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s2> <http://purl.org/dc/terms/title> "Maintaining U.S. International Traffic in Arms Regulations (ITAR) Compliance - AWS GovCloud (US) User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s2> <https://schema.org/url> "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-itar.html" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s3> <http://purl.org/dc/terms/title> "Compliance - AWS GovCloud (US) User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s3> <https://schema.org/url> "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-compliance.html" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s4> <http://purl.org/dc/terms/title> "AWS GovCloud (US) FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s4> <https://schema.org/url> "https://aws.amazon.com/govcloud-us/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <http://purl.org/dc/terms/publisher> "U.S. Government Publishing Office / Office of the Federal Register (eCFR)" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <http://purl.org/dc/terms/title> "22 CFR 120.54 - Activities that are not exports, reexports, retransfers, or temporary imports" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <https://schema.org/url> "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M/part-120/subpart-C/section-120.54" .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <http://purl.org/dc/terms/title> "Regions and Zones - Amazon Elastic Compute Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

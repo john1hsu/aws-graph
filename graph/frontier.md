@@ -19,6 +19,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-billing-and-cost-management` | `kt:aws-free-tier`, `kt:cost-allocation-tags` |
 | `kt:aws-cloud-map` | `kt:container-networking-on-aws`, `kt:ecs-quotas` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
+| `kt:aws-cloudhsm` | `kt:itar-on-aws`, `kt:aws-kms` |
 | `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar`, `kt:ec2-instance-types` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer` |
@@ -73,7 +74,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-batch` | `kt:aws-compute-services` |
 | `kt:aws-certified-advanced-networking-specialty` | `kt:aws-global-accelerator` |
-| `kt:aws-cloudhsm` | `kt:aws-kms` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-firewall-manager` | `kt:aws-waf` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
@@ -127,7 +127,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:iam-policy-simulator` | `kt:iam-policy-evaluation-logic` |
 | `kt:iam-users` | `kt:iam-roles` |
 | `kt:icd-503` | `kt:aws-secret-and-top-secret-regions` |
-| `kt:itar-on-aws` | `kt:aws-govcloud-us` |
 | `kt:karpenter` | `kt:eks-auto-mode` |
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
 | `kt:kms-quotas` | `kt:aws-kms` |

@@ -13044,6 +13044,94 @@
       ]
     },
     {
+      "@id": "kt:itar-on-aws",
+      "@type": "kto:ComplianceProgram",
+      "skos:prefLabel": "ITAR on AWS",
+      "skos:definition": "How customers subject to the U.S. International Traffic in Arms Regulations (ITAR) handle defense-related technical data on AWS: there is no ITAR certification, so qualified U.S. persons use the AWS GovCloud (US) Regions, whose AWS-side access is limited to U.S. persons, and keep export-compliance duties under the shared responsibility model.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "US International Traffic in Arms Regulations (ITAR)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/itar/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Maintaining U.S. International Traffic in Arms Regulations (ITAR) Compliance - AWS GovCloud (US) User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-itar.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Compliance - AWS GovCloud (US) User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-compliance.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS GovCloud (US) FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/govcloud-us/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "22 CFR 120.54 - Activities that are not exports, reexports, retransfers, or temporary imports",
+          "dcterms:publisher": "U.S. Government Publishing Office / Office of the Federal Register (eCFR)",
+          "schema:url": "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M/part-120/subpart-C/section-120.54",
+          "kto:sourceType": "government"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/itar-on-aws.md",
+      "skos:altLabel": [
+        "AWS ITAR compliance",
+        "International Traffic in Arms Regulations on AWS",
+        "ITAR in the cloud",
+        "ITAR-regulated workloads on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        },
+        {
+          "@id": "kt:aws-partitions"
+        },
+        {
+          "@id": "kt:dod-cloud-computing-srg-impact-levels"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        },
+        {
+          "@id": "kt:aws-cloudhsm"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ]
+    },
+    {
       "@id": "kt:nist-sp-800-53",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "NIST SP 800-53",

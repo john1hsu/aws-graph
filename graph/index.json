@@ -3351,6 +3351,29 @@
     ]
   },
   {
+    "id": "kt:itar-on-aws",
+    "title": "ITAR on AWS",
+    "aliases": [
+      "AWS ITAR compliance",
+      "International Traffic in Arms Regulations on AWS",
+      "ITAR in the cloud",
+      "ITAR-regulated workloads on AWS"
+    ],
+    "type": "ComplianceProgram",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/itar-on-aws.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/compliance/itar/",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-itar.html",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-compliance.html",
+      "https://aws.amazon.com/govcloud-us/faqs/",
+      "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M/part-120/subpart-C/section-120.54"
+    ]
+  },
+  {
     "id": "kt:local-zones",
     "title": "AWS Local Zones",
     "aliases": [
