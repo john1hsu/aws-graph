@@ -1439,6 +1439,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certification-program> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> .
 <https://github.com/john1hsu/aws-graph/id/aws-certification-program> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-certification-program> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Advanced Networking - Specialty" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2004/02/skos/core#altLabel> "ANS-C01" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Advanced Networking Specialty" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Certified Advanced Networking Specialty" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2004/02/skos/core#definition> "AWS's specialty-level certification for experienced network engineers, validating the design, implementation, operation and security of hybrid and cloud networks on AWS (exam ANS-C01); AWS has announced that the last day to take the exam is December 31, 2026." .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Certified Advanced Networking - Specialty" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-advanced-networking-specialty> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified AI Practitioner" .
@@ -6328,6 +6354,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certification-program/s6> <https://schema.org/url> "https://aws.amazon.com/jp/blogs/training-and-certification/exam-update-and-new-name-for-operations-certification/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s1> <http://purl.org/dc/terms/title> "AWS Certified Advanced Networking - Specialty (ANS-C01) Exam Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s1> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/advanced-networking-specialty-01.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s2> <http://purl.org/dc/terms/title> "AWS Certified Advanced Networking - Specialty" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s2> <https://schema.org/url> "https://aws.amazon.com/certification/certified-advanced-networking-specialty" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s3> <http://purl.org/dc/terms/title> "ANS-C01 Content Domain 1: Network Design" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s3> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/advanced-networking-specialty-01-domain1.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s4> <http://purl.org/dc/terms/title> "ANS-C01 Content Domain 4: Network Security, Compliance, and Governance" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s4> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/advanced-networking-specialty-01-domain4.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s5> <http://purl.org/dc/terms/title> "ANS-C01 In-scope AWS services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s5> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/ans-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Japan Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s6> <http://purl.org/dc/terms/title> "AWS 認定の上位・下位関係を理解して効率的に認定を更新しましょう (Understand AWS certification hierarchy to renew efficiently)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-advanced-networking-specialty/s6> <https://schema.org/url> "https://aws.amazon.com/jp/blogs/news/aws-certification-hierarchy-recertification-guide/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://purl.org/dc/terms/title> "AWS Certified AI Practitioner (AIF-C01) - Exam Guide" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-ai-practitioner/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

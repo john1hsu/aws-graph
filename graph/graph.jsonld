@@ -3038,6 +3038,93 @@
       ]
     },
     {
+      "@id": "kt:aws-certified-advanced-networking-specialty",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "AWS Certified Advanced Networking - Specialty",
+      "skos:definition": "AWS's specialty-level certification for experienced network engineers, validating the design, implementation, operation and security of hybrid and cloud networks on AWS (exam ANS-C01); AWS has announced that the last day to take the exam is December 31, 2026.",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Certified Advanced Networking - Specialty (ANS-C01) Exam Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/advanced-networking-specialty-01.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certified Advanced Networking - Specialty",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/certified-advanced-networking-specialty",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "ANS-C01 Content Domain 1: Network Design",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/advanced-networking-specialty-01-domain1.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "ANS-C01 Content Domain 4: Network Security, Compliance, and Governance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/advanced-networking-specialty-01-domain4.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "ANS-C01 In-scope AWS services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/ans-01-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS 認定の上位・下位関係を理解して効率的に認定を更新しましょう (Understand AWS certification hierarchy to renew efficiently)",
+          "dcterms:publisher": "Amazon Web Services (AWS Japan Blog)",
+          "schema:url": "https://aws.amazon.com/jp/blogs/news/aws-certification-hierarchy-recertification-guide/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-certified-advanced-networking-specialty.md",
+      "skos:altLabel": [
+        "ANS-C01",
+        "AWS Advanced Networking Specialty",
+        "AWS Certified Advanced Networking Specialty"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-transit-gateway"
+        },
+        {
+          "@id": "kt:aws-direct-connect"
+        },
+        {
+          "@id": "kt:amazon-route-53"
+        },
+        {
+          "@id": "kt:aws-global-accelerator"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-certified-security-specialty"
+        },
+        {
+          "@id": "kt:aws-certified-solutions-architect-professional"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-ai-practitioner",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified AI Practitioner",

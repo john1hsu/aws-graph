@@ -1259,6 +1259,29 @@
     ]
   },
   {
+    "id": "kt:aws-certified-advanced-networking-specialty",
+    "title": "AWS Certified Advanced Networking - Specialty",
+    "aliases": [
+      "ANS-C01",
+      "AWS Advanced Networking Specialty",
+      "AWS Certified Advanced Networking Specialty"
+    ],
+    "type": "Certification",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certified-advanced-networking-specialty.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/advanced-networking-specialty-01.html",
+      "https://aws.amazon.com/certification/certified-advanced-networking-specialty",
+      "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/advanced-networking-specialty-01-domain1.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/advanced-networking-specialty-01-domain4.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/advanced-networking-specialty-01/ans-01-in-scope-services.html",
+      "https://aws.amazon.com/jp/blogs/news/aws-certification-hierarchy-recertification-guide/"
+    ]
+  },
+  {
     "id": "kt:aws-certified-ai-practitioner",
     "title": "AWS Certified AI Practitioner",
     "aliases": [
