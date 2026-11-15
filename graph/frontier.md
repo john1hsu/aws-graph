@@ -70,9 +70,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
 | `kt:aws-nitro-enclaves` | `kt:aws-nitro-system` |
 | `kt:aws-payment-cryptography` | `kt:aws-cloudhsm` |
-| `kt:aws-schema-conversion-tool` | `kt:aws-database-migration-service` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-skill-builder` | `kt:aws-certification-program` |
+| `kt:aws-snowball-edge` | `kt:aws-schema-conversion-tool` |
 | `kt:aws-sustainability-console` | `kt:sustainability-pillar` |
 | `kt:aws-tag-editor` | `kt:cost-allocation-tags` |
 | `kt:aws-wavelength` | `kt:local-zones` |
@@ -93,6 +93,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-warehouse` | `kt:data-lake-on-aws` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |
+| `kt:dms-schema-conversion` | `kt:aws-schema-conversion-tool` |
 | `kt:documentdb-quotas` | `kt:amazon-documentdb` |
 | `kt:dynamodb-partition-key-design` | `kt:amazon-dynamodb` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb` |

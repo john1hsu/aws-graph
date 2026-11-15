@@ -12151,6 +12151,97 @@
       ]
     },
     {
+      "@id": "kt:aws-schema-conversion-tool",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "AWS Schema Conversion Tool",
+      "skos:definition": "AWS's free, downloadable desktop application that assesses and converts database, data warehouse, ETL and application SQL code from one engine to another (for example Oracle to Aurora PostgreSQL or Teradata to Amazon Redshift), and whose data extraction agents move data warehouse data into Amazon Redshift.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedOn": "2026-11-15",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is the AWS Schema Conversion Tool?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_Welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Installing AWS Schema Conversion Tool",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_Installing.Procedure.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Migrating data from on-premises data warehouse to Amazon Redshift (data extraction agents)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/agents.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Converting database schemas using DMS Schema Conversion",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/dms/latest/userguide/CHAP_SchemaConversion.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Database Migration Service FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/dms/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Convert the schema (Database migration strategy)",
+          "dcterms:publisher": "AWS Prescriptive Guidance",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-database-migration/convert-schema.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/aws-schema-conversion-tool.md",
+      "skos:altLabel": [
+        "AWS SCT",
+        "SCT",
+        "Schema Conversion Tool"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:seven-rs-migration-strategies"
+        },
+        {
+          "@id": "kt:amazon-aurora"
+        },
+        {
+          "@id": "kt:amazon-rds"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-database-migration-service"
+        },
+        {
+          "@id": "kt:amazon-redshift"
+        },
+        {
+          "@id": "kt:aws-snowball-edge"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:dms-schema-conversion"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-transfer-family",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Transfer Family",

@@ -2613,6 +2613,29 @@
     ]
   },
   {
+    "id": "kt:aws-schema-conversion-tool",
+    "title": "AWS Schema Conversion Tool",
+    "aliases": [
+      "AWS SCT",
+      "SCT",
+      "Schema Conversion Tool"
+    ],
+    "type": "Tool",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/aws-schema-conversion-tool.md",
+    "created": "2026-11-15",
+    "verified": "2026-11-15",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_Welcome.html",
+      "https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_Installing.Procedure.html",
+      "https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/agents.html",
+      "https://docs.aws.amazon.com/dms/latest/userguide/CHAP_SchemaConversion.html",
+      "https://aws.amazon.com/dms/faqs",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-database-migration/convert-schema.html"
+    ]
+  },
+  {
     "id": "kt:aws-secret-and-top-secret-regions",
     "title": "AWS Secret and Top Secret Regions",
     "aliases": [

@@ -2990,6 +2990,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Tool> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Schema Conversion Tool" .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS SCT" .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/2004/02/skos/core#altLabel> "SCT" .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/2004/02/skos/core#altLabel> "Schema Conversion Tool" .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/2004/02/skos/core#definition> "AWS's free, downloadable desktop application that assesses and converts database, data warehouse, ETL and application SQL code from one engine to another (for example Oracle to Aurora PostgreSQL or Teradata to Amazon Redshift), and whose data extraction agents move data warehouse data into Amazon Redshift." .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Schema Conversion Tool" .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-aurora> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-rds> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/dms-schema-conversion> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/aws-secret-and-top-secret-regions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Secret and Top Secret Regions" .
@@ -8469,6 +8495,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-websocket-apis-api-gateway/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s1> <http://purl.org/dc/terms/title> "What is the AWS Schema Conversion Tool?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s1> <https://schema.org/url> "https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_Welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s2> <http://purl.org/dc/terms/title> "Installing AWS Schema Conversion Tool" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s2> <https://schema.org/url> "https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_Installing.Procedure.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s3> <http://purl.org/dc/terms/title> "Migrating data from on-premises data warehouse to Amazon Redshift (data extraction agents)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s3> <https://schema.org/url> "https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/agents.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s4> <http://purl.org/dc/terms/title> "Converting database schemas using DMS Schema Conversion" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s4> <https://schema.org/url> "https://docs.aws.amazon.com/dms/latest/userguide/CHAP_SchemaConversion.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s5> <http://purl.org/dc/terms/title> "AWS Database Migration Service FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s5> <https://schema.org/url> "https://aws.amazon.com/dms/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s6> <http://purl.org/dc/terms/publisher> "AWS Prescriptive Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s6> <http://purl.org/dc/terms/title> "Convert the schema (Database migration strategy)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-schema-conversion-tool/s6> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-database-migration/convert-schema.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s1> <http://purl.org/dc/terms/title> "AWS Secret Cloud - Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-secret-and-top-secret-regions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
