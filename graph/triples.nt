@@ -1774,6 +1774,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified DevOps Engineer - Professional" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS DOP" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS DevOps Engineer Professional" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS DevOps Pro" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#altLabel> "DOP-C02" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#definition> "AWS's professional-level certification for DevOps engineers, validating skill in provisioning, operating and managing distributed systems on AWS: CI/CD, infrastructure as code, resilience, monitoring, incident response and automated security and compliance (exam DOP-C02)." .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Certified DevOps Engineer - Professional" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-codepipeline> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-systems-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Machine Learning Engineer - Associate" .
@@ -7252,6 +7278,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-developer-associate/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-developer-associate/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-developer-associate/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/september-2026-new-offerings/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s1> <http://purl.org/dc/terms/title> "AWS Certified DevOps Engineer - Professional (DOP-C02) Exam Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s1> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s2> <http://purl.org/dc/terms/title> "Content Domain 1: SDLC Automation (DOP-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s2> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain1.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s3> <http://purl.org/dc/terms/title> "Content Domain 2: Configuration Management and IaC (DOP-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s3> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain2.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s4> <http://purl.org/dc/terms/title> "AWS Certified DevOps Engineer - Professional" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s4> <https://schema.org/url> "https://aws.amazon.com/certification/certified-devops-engineer-professional/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s5> <http://purl.org/dc/terms/title> "AWS Recertification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s5> <https://schema.org/url> "https://aws.amazon.com/certification/recertification/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s6> <http://purl.org/dc/terms/title> "Updated AWS Certified DevOps Engineer - Professional: registration now open" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/updated-aws-certified-devops-engineer-professional-registration-now-open/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-engineer-associate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-engineer-associate/s1> <http://purl.org/dc/terms/title> "AWS Certified Machine Learning Engineer - Associate (MLA-C01) Exam Guide (PDF)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-engineer-associate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
