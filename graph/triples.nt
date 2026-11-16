@@ -4154,6 +4154,33 @@
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Cell-based architecture" .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "bulkhead architecture" .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "cell-based design" .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "cellular architecture" .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2004/02/skos/core#definition> "A resilience pattern that splits a workload into multiple isolated, identical, fixed-size copies called cells, each serving a subset of customers chosen by a partition key behind a thin cell router, so that a failure, bad deployment or poison-pill request is contained to one cell rather than the whole fleet." .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cell-based architecture" .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-region-architecture> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s1> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s2> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s3> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s4> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s5> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/shuffle-sharding> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/static-stability> .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <http://www.w3.org/2000/01/rdf-schema#label> "Continuous integration and continuous delivery" .
@@ -10666,6 +10693,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments-overview.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s1> <http://purl.org/dc/terms/title> "What is a cell-based architecture? - Reducing the Scope of Impact with Cell-Based Architecture" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s1> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/what-is-a-cell-based-architecture.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s2> <http://purl.org/dc/terms/title> "Why use a cell-based architecture? - Reducing the Scope of Impact with Cell-Based Architecture" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/why-to-use-a-cell-based-architecture.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s3> <http://purl.org/dc/terms/title> "Reducing the Scope of Impact with Cell-Based Architecture (AWS Well-Architected whitepaper, PDF)" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s3> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/reducing-scope-of-impact-with-cell-based-architecture.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s4> <http://purl.org/dc/terms/title> "REL10-BP03 Use bulkhead architectures to limit scope of impact - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s4> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_use_bulkhead.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s5> <http://purl.org/dc/terms/publisher> "AWS Architecture Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s5> <http://purl.org/dc/terms/title> "Shuffle Sharding: Massive and Magical Fault Isolation" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/architecture/shuffle-sharding-massive-and-magical-fault-isolation/" .
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s10> <http://purl.org/dc/terms/title> "Content Domain 3: Deployment - AWS Certified Developer - Associate (DVA-C02)" .
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

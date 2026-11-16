@@ -2514,6 +2514,95 @@
       ]
     },
     {
+      "@id": "kt:cell-based-architecture",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Cell-based architecture",
+      "skos:definition": "A resilience pattern that splits a workload into multiple isolated, identical, fixed-size copies called cells, each serving a subset of customers chosen by a partition key behind a thin cell router, so that a failure, bad deployment or poison-pill request is contained to one cell rather than the whole fleet.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is a cell-based architecture? - Reducing the Scope of Impact with Cell-Based Architecture",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/what-is-a-cell-based-architecture.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Why use a cell-based architecture? - Reducing the Scope of Impact with Cell-Based Architecture",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/why-to-use-a-cell-based-architecture.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Reducing the Scope of Impact with Cell-Based Architecture (AWS Well-Architected whitepaper, PDF)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/reducing-scope-of-impact-with-cell-based-architecture.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL10-BP03 Use bulkhead architectures to limit scope of impact - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_use_bulkhead.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Shuffle Sharding: Massive and Magical Fault Isolation",
+          "dcterms:publisher": "AWS Architecture Blog",
+          "schema:url": "https://aws.amazon.com/blogs/architecture/shuffle-sharding-massive-and-magical-fault-isolation/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/cell-based-architecture.md",
+      "skos:altLabel": [
+        "cellular architecture",
+        "cell-based design",
+        "bulkhead architecture"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:reliability-pillar"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:multi-region-architecture"
+        },
+        {
+          "@id": "kt:availability-zones"
+        },
+        {
+          "@id": "kt:amazon-route-53"
+        },
+        {
+          "@id": "kt:amazon-dynamodb"
+        },
+        {
+          "@id": "kt:multi-account-strategy"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:shuffle-sharding"
+        },
+        {
+          "@id": "kt:static-stability"
+        },
+        {
+          "@id": "kt:amazon-api-gateway"
+        },
+        {
+          "@id": "kt:amazon-application-recovery-controller"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:cost-optimization-pillar",
       "@type": "kto:Concept",
       "skos:prefLabel": "Cost Optimization Pillar",

@@ -77,7 +77,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-x-ray` | `kt:aws-developer-tools` |
 | `kt:bottlerocket` | `kt:ecs-managed-instances` |
 | `kt:bsi-c5` | `kt:aws-european-sovereign-cloud` |
-| `kt:cell-based-architecture` | `kt:multi-region-architecture` |
 | `kt:cloud-computing` | `kt:amazon-web-services` |
 | `kt:cloud-map-quotas` | `kt:aws-cloud-map` |
 | `kt:cloud-security` | `kt:aws-security-services` |
@@ -149,9 +148,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:s3-storage-lens` | `kt:s3-storage-classes` |
 | `kt:sagemaker-ai-quotas` | `kt:amazon-sagemaker-ai` |
 | `kt:secrets-manager-quotas` | `kt:aws-secrets-manager` |
+| `kt:shuffle-sharding` | `kt:cell-based-architecture` |
 | `kt:sns-quotas` | `kt:amazon-sns` |
 | `kt:sqs-quotas` | `kt:amazon-sqs` |
 | `kt:ssm-agent` | `kt:aws-systems-manager` |
+| `kt:static-stability` | `kt:cell-based-architecture` |
 | `kt:step-functions-quotas` | `kt:aws-step-functions` |
 | `kt:storage-gateway-quotas` | `kt:aws-storage-gateway` |
 | `kt:systems-manager-parameter-store` | `kt:aws-systems-manager` |
