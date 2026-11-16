@@ -1550,6 +1550,28 @@
 <https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Backup quotas" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Backup API rate limits" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Backup limits" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Backup service quotas" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Backup quotas" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-backup> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-account, per-Region limits on AWS Backup: counts of vaults, plans and recovery points, fixed policy limits on rules, assignments and copy actions, concurrency caps on backup, copy, indexing and restore-testing jobs, and API request rates. Only some are adjustable through Service Quotas." .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Backup quotas" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/organizations-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-backup> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-backup> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Backup" .
@@ -7300,6 +7322,21 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s1> <http://purl.org/dc/terms/title> "AWS Backup quotas - AWS Backup" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/aws-backup/latest/devguide/aws-backup-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s2> <http://purl.org/dc/terms/title> "AWS Backup endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/bk.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s3> <http://purl.org/dc/terms/title> "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s3> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s1> <http://purl.org/dc/terms/title> "What is AWS Backup? - AWS Backup" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-backup/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

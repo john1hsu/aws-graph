@@ -19191,6 +19191,74 @@
       ]
     },
     {
+      "@id": "kt:aws-backup-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "AWS Backup quotas",
+      "skos:definition": "The per-account, per-Region limits on AWS Backup: counts of vaults, plans and recovery points, fixed policy limits on rules, assignments and copy actions, concurrency caps on backup, copy, indexing and restore-testing jobs, and API request rates. Only some are adjustable through Service Quotas.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Backup quotas - AWS Backup",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/aws-backup-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Backup endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/bk.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/storage/aws-backup-quotas.md",
+      "skos:altLabel": [
+        "AWS Backup limits",
+        "Backup quotas",
+        "AWS Backup service quotas",
+        "AWS Backup API rate limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-backup"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-s3-quotas"
+        },
+        {
+          "@id": "kt:organizations-quotas"
+        },
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:amazon-s3-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-backup",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Backup",

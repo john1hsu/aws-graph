@@ -56,7 +56,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-application-integration-services` | `kt:amazon-mq` |
 | `kt:aws-audit-manager` | `kt:nist-sp-800-53` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
-| `kt:aws-backup-quotas` | `kt:aws-backup` |
 | `kt:aws-certified-cloudops-engineer-associate` | `kt:aws-certified-devops-engineer-professional` |
 | `kt:aws-codecommit` | `kt:aws-developer-tools` |
 | `kt:aws-config-quotas` | `kt:aws-config` |

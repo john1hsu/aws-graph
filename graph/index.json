@@ -1388,6 +1388,27 @@
     ]
   },
   {
+    "id": "kt:aws-backup-quotas",
+    "title": "AWS Backup quotas",
+    "aliases": [
+      "AWS Backup limits",
+      "Backup quotas",
+      "AWS Backup service quotas",
+      "AWS Backup API rate limits"
+    ],
+    "type": "Limit",
+    "domain": "storage",
+    "file": "articles/storage/aws-backup-quotas.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/aws-backup/latest/devguide/aws-backup-limits.html",
+      "https://docs.aws.amazon.com/general/latest/gr/bk.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/"
+    ]
+  },
+  {
     "id": "kt:aws-batch",
     "title": "AWS Batch",
     "aliases": [
