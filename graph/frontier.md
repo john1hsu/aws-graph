@@ -6,7 +6,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-agentcore`, `kt:amazon-bedrock-agents`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-q-business`, `kt:amazon-q-developer`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract` |
-| `kt:aws-billing-and-cost-management` | `kt:aws-cost-management-services`, `kt:aws-free-tier`, `kt:cost-allocation-tags` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner`, `kt:aws-health-dashboard`, `kt:aws-trusted-advisor` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
@@ -57,6 +56,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-application-integration-services` | `kt:amazon-mq` |
 | `kt:aws-audit-manager` | `kt:nist-sp-800-53` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
+| `kt:aws-billing-conductor` | `kt:aws-billing-and-cost-management` |
+| `kt:aws-billing-transfer` | `kt:aws-billing-and-cost-management` |
 | `kt:aws-certified-cloudops-engineer-associate` | `kt:aws-certified-devops-engineer-professional` |
 | `kt:aws-codecommit` | `kt:aws-developer-tools` |
 | `kt:aws-config-quotas` | `kt:aws-config` |

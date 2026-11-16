@@ -1457,6 +1457,32 @@
     ]
   },
   {
+    "id": "kt:aws-billing-and-cost-management",
+    "title": "AWS Billing and Cost Management",
+    "aliases": [
+      "AWS Billing",
+      "Billing and Cost Management console",
+      "AWS Billing console",
+      "Billing and Cost Management"
+    ],
+    "type": "Service",
+    "domain": "cost-management",
+    "file": "articles/cost-management/aws-billing-and-cost-management.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html",
+      "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/getting-viewing-bill.html",
+      "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-paymentprofiles.html",
+      "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/control-access-billing.html",
+      "https://aws.amazon.com/aws-cost-management/aws-billing/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/billing-transfer-multi-organization-billing-cost-management/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/01/enhanced-transactions-view-aws-billing-console/",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html"
+    ]
+  },
+  {
     "id": "kt:aws-budgets",
     "title": "AWS Budgets",
     "aliases": [

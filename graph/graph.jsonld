@@ -6438,6 +6438,115 @@
       ]
     },
     {
+      "@id": "kt:aws-billing-and-cost-management",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Billing and Cost Management",
+      "skos:definition": "The AWS service and console where an account or organization receives its monthly bills and invoices, pays them through payment methods and payment profiles, manages credits, purchase orders and billing preferences, and opens the cost tools (Cost Explorer, Budgets, data exports) that sit beside billing.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Billing and Cost Management? - AWS Billing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding your bill - AWS Billing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/getting-viewing-bill.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using payment profiles - AWS Billing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-paymentprofiles.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Overview of managing access permissions - AWS Billing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/control-access-billing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Billing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/aws-cost-management/aws-billing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS launches Billing Transfer for multi-organization billing and cost management",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/billing-transfer-multi-organization-billing-cost-management/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Enhanced Transactions view now available in AWS Billing Console",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/01/enhanced-transactions-view-aws-billing-console/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Content Domain 4: Billing, Pricing, and Support - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/cost-management/aws-billing-and-cost-management.md",
+      "skos:altLabel": [
+        "AWS Billing",
+        "Billing and Cost Management console",
+        "AWS Billing console",
+        "Billing and Cost Management"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-cost-management-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-cost-explorer"
+        },
+        {
+          "@id": "kt:aws-budgets"
+        },
+        {
+          "@id": "kt:cost-allocation-tags"
+        },
+        {
+          "@id": "kt:aws-free-tier"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:aws-billing-conductor"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-billing-transfer"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-budgets",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Budgets",
