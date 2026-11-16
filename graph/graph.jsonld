@@ -11826,6 +11826,115 @@
       ]
     },
     {
+      "@id": "kt:aws-resource-access-manager",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Resource Access Manager",
+      "skos:definition": "AWS's free service for sharing resources you own, such as VPC subnets, transit gateways, Route 53 Resolver rules and IPAM pools, with other AWS accounts, an AWS Organizations organization or OU, or (for some resource types) individual IAM roles and users.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Resource Access Manager?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ram/latest/userguide/what-is.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Terms and concepts for AWS RAM",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ram/latest/userguide/getting-started-terms-and-concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Service quotas for AWS RAM",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ram/latest/userguide/service-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Accepting and rejecting resource share invitations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ram/latest/userguide/working-with-shared-invitations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Shareable AWS resources",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ram/latest/userguide/shareable",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Resource Access Manager now supports maintaining shares when accounts change organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-resource-access-manager",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "VPC sharing - Building a Scalable and Secure Multi-VPC AWS Network Infrastructure",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/amazon-vpc-sharing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Resource Access Manager FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ram/faqs/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/aws-resource-access-manager.md",
+      "skos:altLabel": [
+        "AWS RAM",
+        "RAM resource sharing"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:multi-account-strategy"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-transit-gateway"
+        },
+        {
+          "@id": "kt:aws-cloud-map"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:ram-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-sts",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Security Token Service",

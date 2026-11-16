@@ -2805,6 +2805,30 @@
     ]
   },
   {
+    "id": "kt:aws-resource-access-manager",
+    "title": "AWS Resource Access Manager",
+    "aliases": [
+      "AWS RAM",
+      "RAM resource sharing"
+    ],
+    "type": "Service",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/aws-resource-access-manager.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/ram/latest/userguide/what-is.html",
+      "https://docs.aws.amazon.com/ram/latest/userguide/getting-started-terms-and-concepts.html",
+      "https://docs.aws.amazon.com/ram/latest/userguide/service-quotas.html",
+      "https://docs.aws.amazon.com/ram/latest/userguide/working-with-shared-invitations.html",
+      "https://docs.aws.amazon.com/ram/latest/userguide/shareable",
+      "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-resource-access-manager",
+      "https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/amazon-vpc-sharing.html",
+      "https://aws.amazon.com/ram/faqs/"
+    ]
+  },
+  {
     "id": "kt:aws-sam",
     "title": "AWS Serverless Application Model (AWS SAM)",
     "aliases": [

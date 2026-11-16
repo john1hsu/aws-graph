@@ -3210,6 +3210,34 @@
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-regions> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Resource Access Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS RAM" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/2004/02/skos/core#altLabel> "RAM resource sharing" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/2004/02/skos/core#definition> "AWS's free service for sharing resources you own, such as VPC subnets, transit gateways, Route 53 Resolver rules and IPAM pools, with other AWS accounts, an AWS Organizations organization or OU, or (for some resource types) individual IAM roles and users." .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Resource Access Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloud-map> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#domain> "identity-and-access" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/ram-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Serverless Application Model (AWS SAM)" .
@@ -9143,6 +9171,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-regions/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s1> <http://purl.org/dc/terms/title> "What is AWS Resource Access Manager?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s1> <https://schema.org/url> "https://docs.aws.amazon.com/ram/latest/userguide/what-is.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s2> <http://purl.org/dc/terms/title> "Terms and concepts for AWS RAM" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s2> <https://schema.org/url> "https://docs.aws.amazon.com/ram/latest/userguide/getting-started-terms-and-concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s3> <http://purl.org/dc/terms/title> "Service quotas for AWS RAM" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s3> <https://schema.org/url> "https://docs.aws.amazon.com/ram/latest/userguide/service-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s4> <http://purl.org/dc/terms/title> "Accepting and rejecting resource share invitations" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s4> <https://schema.org/url> "https://docs.aws.amazon.com/ram/latest/userguide/working-with-shared-invitations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s5> <http://purl.org/dc/terms/title> "Shareable AWS resources" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s5> <https://schema.org/url> "https://docs.aws.amazon.com/ram/latest/userguide/shareable" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s6> <http://purl.org/dc/terms/title> "AWS Resource Access Manager now supports maintaining shares when accounts change organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-resource-access-manager" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s7> <http://purl.org/dc/terms/title> "VPC sharing - Building a Scalable and Secure Multi-VPC AWS Network Infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s7> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/amazon-vpc-sharing.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s8> <http://purl.org/dc/terms/title> "AWS Resource Access Manager FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s8> <https://schema.org/url> "https://aws.amazon.com/ram/faqs/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s1> <http://purl.org/dc/terms/title> "How AWS SAM works" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -8,7 +8,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-cost-management-services`, `kt:aws-free-tier`, `kt:cost-allocation-tags` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
-| `kt:aws-resource-access-manager` | `kt:ec2-placement-groups`, `kt:aws-cloud-map`, `kt:aws-privatelink` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:devops` | `kt:aws-developer-tools`, `kt:ci-cd`, `kt:infrastructure-as-code` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:cloudformation-drift-detection`, `kt:infrastructure-as-code` |
@@ -133,6 +132,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:multi-az-architecture` | `kt:multi-region-architecture` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
 | `kt:opensearch-service-quotas` | `kt:amazon-opensearch-service` |
+| `kt:ram-quotas` | `kt:aws-resource-access-manager` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:red-hat-openshift-service-on-aws` | `kt:aws-container-services` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
