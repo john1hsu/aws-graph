@@ -139,6 +139,31 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agentcore> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agentcore> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agentcore> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Bedrock Agents Classic" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/2004/02/skos/core#altLabel> "Agents for Amazon Bedrock" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Bedrock Agents" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/2004/02/skos/core#altLabel> "Bedrock Agents Classic" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/2004/02/skos/core#altLabel> "Bedrock Agents" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/2004/02/skos/core#definition> "The original fully managed, configuration-driven agent capability of Amazon Bedrock (launched November 2023), which orchestrates a foundation model, instructions, action groups and knowledge bases through the InvokeAgent API; renamed Agents Classic and closed to new customers on 30 July 2026, with Amazon Bedrock AgentCore as AWS's recommended path." .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Bedrock Agents Classic" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <https://github.com/john1hsu/aws-graph/ontology#replacedBy> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agentcore> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <https://github.com/john1hsu/aws-graph/ontology#status> "closed-to-new-customers" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Bedrock Guardrails" .
@@ -5093,6 +5118,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agentcore/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agentcore/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agentcore/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s1> <http://purl.org/dc/terms/title> "How Amazon Bedrock Agents works" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s1> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/agents-how.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s2> <http://purl.org/dc/terms/title> "Amazon Bedrock Agents Classic maintenance mode" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s2> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/agents-classic-maintenance-mode.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s3> <http://purl.org/dc/terms/title> "AWS Service Availability Updates" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s3> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s4> <http://purl.org/dc/terms/title> "Amazon Bedrock Agents - Agentic AI frameworks (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s4> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/bedrock-agents.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s5> <http://purl.org/dc/terms/title> "Amazon Bedrock now supports multi-agent collaboration" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-bedrock-multi-agent-collaboration/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s6> <http://purl.org/dc/terms/title> "Amazon Bedrock endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s6> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/bedrock.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <http://purl.org/dc/terms/title> "Detect and filter harmful content by using Amazon Bedrock Guardrails" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

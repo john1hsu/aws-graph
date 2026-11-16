@@ -147,6 +147,30 @@
     ]
   },
   {
+    "id": "kt:amazon-bedrock-agents",
+    "title": "Amazon Bedrock Agents Classic",
+    "aliases": [
+      "Amazon Bedrock Agents",
+      "Bedrock Agents",
+      "Agents for Amazon Bedrock",
+      "Bedrock Agents Classic"
+    ],
+    "type": "Feature",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-bedrock-agents.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "closed-to-new-customers",
+    "source_urls": [
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/agents-how.html",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/agents-classic-maintenance-mode.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/bedrock-agents.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-bedrock-multi-agent-collaboration/",
+      "https://docs.aws.amazon.com/general/latest/gr/bedrock.html"
+    ]
+  },
+  {
     "id": "kt:amazon-bedrock-guardrails",
     "title": "Amazon Bedrock Guardrails",
     "aliases": [

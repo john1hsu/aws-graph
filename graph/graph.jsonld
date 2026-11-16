@@ -113,6 +113,92 @@
       ]
     },
     {
+      "@id": "kt:amazon-bedrock-agents",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon Bedrock Agents Classic",
+      "skos:definition": "The original fully managed, configuration-driven agent capability of Amazon Bedrock (launched November 2023), which orchestrates a foundation model, instructions, action groups and knowledge bases through the InvokeAgent API; renamed Agents Classic and closed to new customers on 30 July 2026, with Amazon Bedrock AgentCore as AWS's recommended path.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "closed-to-new-customers",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How Amazon Bedrock Agents works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents-how.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock Agents Classic maintenance mode",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents-classic-maintenance-mode.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Service Availability Updates",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock Agents - Agentic AI frameworks (AWS Prescriptive Guidance)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/bedrock-agents.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock now supports multi-agent collaboration",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-bedrock-multi-agent-collaboration/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock endpoints and quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/bedrock.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-bedrock-agents.md",
+      "skos:altLabel": [
+        "Amazon Bedrock Agents",
+        "Bedrock Agents",
+        "Agents for Amazon Bedrock",
+        "Bedrock Agents Classic"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:generative-ai-on-aws"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-bedrock-knowledge-bases"
+        },
+        {
+          "@id": "kt:amazon-bedrock-guardrails"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:amazon-bedrock-agentcore"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-bedrock-guardrails",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon Bedrock Guardrails",
