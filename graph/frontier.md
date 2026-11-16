@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-agentcore`, `kt:amazon-bedrock-agents`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-q-business`, `kt:amazon-q-developer`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
-| `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner`, `kt:aws-health-dashboard`, `kt:aws-trusted-advisor` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:devops` | `kt:aws-developer-tools`, `kt:ci-cd`, `kt:infrastructure-as-code` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:cloudformation-drift-detection`, `kt:infrastructure-as-code` |
@@ -60,13 +59,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-certified-cloudops-engineer-associate` | `kt:aws-certified-devops-engineer-professional` |
 | `kt:aws-codecommit` | `kt:aws-developer-tools` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
+| `kt:aws-devops-agent` | `kt:aws-support-plans` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
 | `kt:aws-network-firewall` | `kt:aws-firewall-manager` |
 | `kt:aws-network-security-manager` | `kt:aws-firewall-manager` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
 | `kt:aws-nitro-enclaves` | `kt:aws-nitro-system` |
 | `kt:aws-payment-cryptography` | `kt:aws-cloudhsm` |
+| `kt:aws-professional-services` | `kt:aws-support-plans` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
+| `kt:aws-security-incident-response` | `kt:aws-support-plans` |
 | `kt:aws-skill-builder` | `kt:aws-certification-program` |
 | `kt:aws-snowball-edge` | `kt:aws-schema-conversion-tool` |
 | `kt:aws-sustainability-console` | `kt:sustainability-pillar` |

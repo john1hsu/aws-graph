@@ -3807,6 +3807,34 @@
 <https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-sts> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Support plans" .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Business Support+" .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Enterprise Support" .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Premium Support" .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Support" .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Unified Operations" .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2004/02/skos/core#definition> "The tiers in which AWS sells human and AI-assisted technical support: Basic (free for every account), Business Support+, Enterprise Support and Unified Operations, which differ in response times, designated staff, included tools and a usage-based monthly fee; the older Developer, Business and Enterprise On-Ramp plans end on January 1, 2027 outside AWS GovCloud (US)." .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Support plans" .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-billing-and-cost-management> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-professional-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-devops-agent> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-security-incident-response> .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-support-plans> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-systems-manager> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Systems Manager" .
@@ -10203,6 +10231,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sts/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-sts-cross-partition/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s1> <http://purl.org/dc/terms/title> "AWS Support Plans - AWS Support User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s1> <https://schema.org/url> "https://docs.aws.amazon.com/awssupport/latest/user/aws-support-plans.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s2> <http://purl.org/dc/terms/title> "Compare AWS Support Plans" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s2> <https://schema.org/url> "https://aws.amazon.com/premiumsupport/plans" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s3> <http://purl.org/dc/terms/title> "AWS Support Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s3> <https://schema.org/url> "https://aws.amazon.com/premiumsupport/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s4> <http://purl.org/dc/terms/title> "New and enhanced AWS Support plans add AI capabilities to expert guidance (AWS News Blog, 2025-12-02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/new-and-enhanced-aws-support-plans-add-ai-capabilities-to-expert-guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s5> <http://purl.org/dc/terms/title> "AWS Support transformation: AI-powered operations with the human expertise you trust (What's New with AWS, 2025-12-02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-support-transformation-ai-powered-operations" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s6> <http://purl.org/dc/terms/title> "AWS Certified Cloud Practitioner (CLF-C02) - Content Domain 4: Billing, Pricing, and Support" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-support-plans/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s1> <http://purl.org/dc/terms/title> "What is AWS Systems Manager?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-systems-manager/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

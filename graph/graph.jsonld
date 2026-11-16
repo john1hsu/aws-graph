@@ -11590,6 +11590,99 @@
       ]
     },
     {
+      "@id": "kt:aws-support-plans",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Support plans",
+      "skos:definition": "The tiers in which AWS sells human and AI-assisted technical support: Basic (free for every account), Business Support+, Enterprise Support and Unified Operations, which differ in response times, designated staff, included tools and a usage-based monthly fee; the older Developer, Business and Enterprise On-Ramp plans end on January 1, 2027 outside AWS GovCloud (US).",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Support Plans - AWS Support User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/awssupport/latest/user/aws-support-plans.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Compare AWS Support Plans",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/premiumsupport/plans",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Support Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/premiumsupport/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "New and enhanced AWS Support plans add AI capabilities to expert guidance (AWS News Blog, 2025-12-02)",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/new-and-enhanced-aws-support-plans-add-ai-capabilities-to-expert-guidance",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Support transformation: AI-powered operations with the human expertise you trust (What's New with AWS, 2025-12-02)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-support-transformation-ai-powered-operations",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Certified Cloud Practitioner (CLF-C02) - Content Domain 4: Billing, Pricing, and Support",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/aws-support-plans.md",
+      "skos:altLabel": [
+        "AWS Support",
+        "AWS Premium Support",
+        "AWS Business Support+",
+        "AWS Enterprise Support",
+        "AWS Unified Operations"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-trusted-advisor"
+        },
+        {
+          "@id": "kt:aws-health-dashboard"
+        },
+        {
+          "@id": "kt:aws-billing-and-cost-management"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-security-incident-response"
+        },
+        {
+          "@id": "kt:aws-devops-agent"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-professional-services"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-systems-manager",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Systems Manager",

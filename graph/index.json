@@ -3324,6 +3324,31 @@
     ]
   },
   {
+    "id": "kt:aws-support-plans",
+    "title": "AWS Support plans",
+    "aliases": [
+      "AWS Support",
+      "AWS Premium Support",
+      "AWS Business Support+",
+      "AWS Enterprise Support",
+      "AWS Unified Operations"
+    ],
+    "type": "Service",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/aws-support-plans.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/awssupport/latest/user/aws-support-plans.md",
+      "https://aws.amazon.com/premiumsupport/plans",
+      "https://aws.amazon.com/premiumsupport/pricing",
+      "https://aws.amazon.com/blogs/aws/new-and-enhanced-aws-support-plans-add-ai-capabilities-to-expert-guidance",
+      "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-support-transformation-ai-powered-operations",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.md"
+    ]
+  },
+  {
     "id": "kt:aws-systems-manager",
     "title": "AWS Systems Manager",
     "aliases": [
