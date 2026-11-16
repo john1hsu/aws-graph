@@ -1946,6 +1946,33 @@
 <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cloud Map" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/2004/02/skos/core#altLabel> "Cloud Map" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/2004/02/skos/core#altLabel> "Route 53 Auto Naming" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed service-discovery registry: you register application resources (IPs, URLs, ARNs) under friendly names in namespaces, and clients find healthy endpoints through the DiscoverInstances API or, for DNS namespaces, through Route 53 DNS queries." .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Cloud Map" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ecs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/cloud-map-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CloudFormation" .
@@ -7518,6 +7545,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-adoption-framework/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-adoption-framework/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-adoption-framework/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s1> <http://purl.org/dc/terms/title> "AWS Cloud Map FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s1> <https://schema.org/url> "https://aws.amazon.com/cloud-map/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s2> <http://purl.org/dc/terms/title> "Creating an AWS Cloud Map namespace to group application services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s2> <https://schema.org/url> "https://docs.aws.amazon.com/cloud-map/latest/dg/namespaces-values.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s3> <http://purl.org/dc/terms/title> "AWS Cloud Map service quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s3> <https://schema.org/url> "https://docs.aws.amazon.com/cloud-map/latest/dg/cloud-map-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s4> <http://purl.org/dc/terms/title> "AWS Cloud Map pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s4> <https://schema.org/url> "https://aws.amazon.com/cloud-map/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s5> <http://purl.org/dc/terms/title> "Use service discovery to connect Amazon ECS services with DNS names" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-discovery.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s6> <http://purl.org/dc/terms/title> "Amazon ECS Service Connect configuration overview" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect-concepts.md" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s10> <http://purl.org/dc/terms/title> "Configure and perform CDK stack synthesis" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

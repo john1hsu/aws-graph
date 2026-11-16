@@ -13952,6 +13952,106 @@
       ]
     },
     {
+      "@id": "kt:aws-cloud-map",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Cloud Map",
+      "skos:definition": "AWS's managed service-discovery registry: you register application resources (IPs, URLs, ARNs) under friendly names in namespaces, and clients find healthy endpoints through the DiscoverInstances API or, for DNS namespaces, through Route 53 DNS queries.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Cloud Map FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/cloud-map/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Creating an AWS Cloud Map namespace to group application services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cloud-map/latest/dg/namespaces-values.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cloud Map service quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cloud-map/latest/dg/cloud-map-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cloud Map pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/cloud-map/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use service discovery to connect Amazon ECS services with DNS names",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-discovery.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS Service Connect configuration overview",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect-concepts.md",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/aws-cloud-map.md",
+      "skos:altLabel": [
+        "Cloud Map",
+        "Route 53 Auto Naming"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        },
+        {
+          "@id": "kt:container-networking-on-aws"
+        },
+        {
+          "@id": "kt:ecs-quotas"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-route-53"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:aws-resource-access-manager"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:cloud-map-quotas"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-direct-connect",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Direct Connect",

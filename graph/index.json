@@ -1721,6 +1721,28 @@
     ]
   },
   {
+    "id": "kt:aws-cloud-map",
+    "title": "AWS Cloud Map",
+    "aliases": [
+      "Cloud Map",
+      "Route 53 Auto Naming"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/aws-cloud-map.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/cloud-map/faqs/",
+      "https://docs.aws.amazon.com/cloud-map/latest/dg/namespaces-values.html",
+      "https://docs.aws.amazon.com/cloud-map/latest/dg/cloud-map-limits.html",
+      "https://aws.amazon.com/cloud-map/pricing",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-discovery.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect-concepts.md"
+    ]
+  },
+  {
     "id": "kt:aws-cloudformation",
     "title": "AWS CloudFormation",
     "aliases": [

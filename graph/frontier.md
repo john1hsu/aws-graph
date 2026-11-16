@@ -8,17 +8,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-cost-management-services`, `kt:aws-free-tier`, `kt:cost-allocation-tags` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
+| `kt:aws-resource-access-manager` | `kt:ec2-placement-groups`, `kt:aws-cloud-map`, `kt:aws-privatelink` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:devops` | `kt:aws-developer-tools`, `kt:ci-cd`, `kt:infrastructure-as-code` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:cloudformation-drift-detection`, `kt:infrastructure-as-code` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams`, `kt:amazon-msk` |
-| `kt:aws-cloud-map` | `kt:container-networking-on-aws`, `kt:ecs-quotas` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-firewall-manager` | `kt:aws-shield`, `kt:aws-waf` |
-| `kt:aws-resource-access-manager` | `kt:ec2-placement-groups`, `kt:aws-privatelink` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner`, `kt:aws-trusted-advisor` |
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments` |
@@ -80,6 +79,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:bsi-c5` | `kt:aws-european-sovereign-cloud` |
 | `kt:cell-based-architecture` | `kt:multi-region-architecture` |
 | `kt:cloud-computing` | `kt:amazon-web-services` |
+| `kt:cloud-map-quotas` | `kt:aws-cloud-map` |
 | `kt:cloud-security` | `kt:aws-security-services` |
 | `kt:cloudformation-stacksets` | `kt:cloudformation-drift-detection` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
