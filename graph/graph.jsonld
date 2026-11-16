@@ -13019,6 +13019,140 @@
       ]
     },
     {
+      "@id": "kt:aws-elastic-disaster-recovery",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Elastic Disaster Recovery",
+      "skos:definition": "AWS's managed disaster recovery service, which continuously replicates physical, virtual and cloud servers at the block level into a low-cost staging area in an AWS Region and launches them as Amazon EC2 instances for drills, recovery and failback, implementing a pilot light strategy with RPOs of seconds and RTOs of minutes.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Elastic Disaster Recovery? - AWS Elastic Disaster Recovery",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/drs/latest/userguide/what-is-drs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Elastic Disaster Recovery FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/disaster-recovery/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Replication related - AWS Elastic Disaster Recovery",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/drs/latest/userguide/Replication-Related-FAQ.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Point in time (PIT) policy - AWS Elastic Disaster Recovery",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/drs/latest/userguide/point-in-time.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Elastic Disaster Recovery endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/drs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Elastic Disaster Recovery Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/disaster-recovery/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Elastic Disaster Recovery FAQ - AWS Elastic Disaster Recovery",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/drs/latest/userguide/FAQ.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using Elastic Disaster Recovery for recovery and failback - AWS Elastic Disaster Recovery",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/drs/latest/userguide/failback.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Elastic Disaster Recovery reduces recovery time for AWS-to-AWS workloads",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-recovery/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program - FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/aws-elastic-disaster-recovery.md",
+      "skos:altLabel": [
+        "AWS DRS",
+        "Elastic Disaster Recovery",
+        "DRS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-transform-mgn"
+        },
+        {
+          "@id": "kt:aws-backup"
+        },
+        {
+          "@id": "kt:amazon-route-53"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:amazon-ebs"
+        }
+      ],
+      "kto:replaces": [
+        {
+          "@id": "kt:cloudendure-disaster-recovery"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:drs-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-migration-acceleration-program",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS Migration Acceleration Program",

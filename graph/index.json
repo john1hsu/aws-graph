@@ -2196,6 +2196,35 @@
     ]
   },
   {
+    "id": "kt:aws-elastic-disaster-recovery",
+    "title": "AWS Elastic Disaster Recovery",
+    "aliases": [
+      "AWS DRS",
+      "Elastic Disaster Recovery",
+      "DRS"
+    ],
+    "type": "Service",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/aws-elastic-disaster-recovery.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/drs/latest/userguide/what-is-drs.html",
+      "https://aws.amazon.com/disaster-recovery/faqs/",
+      "https://docs.aws.amazon.com/drs/latest/userguide/Replication-Related-FAQ.html",
+      "https://docs.aws.amazon.com/drs/latest/userguide/point-in-time.html",
+      "https://docs.aws.amazon.com/general/latest/gr/drs.html",
+      "https://aws.amazon.com/disaster-recovery/pricing/",
+      "https://docs.aws.amazon.com/drs/latest/userguide/FAQ.html",
+      "https://docs.aws.amazon.com/drs/latest/userguide/failback.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-recovery/",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/"
+    ]
+  },
+  {
     "id": "kt:aws-european-sovereign-cloud",
     "title": "AWS European Sovereign Cloud",
     "aliases": [

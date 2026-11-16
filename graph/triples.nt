@@ -2507,6 +2507,39 @@
 <https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
 <https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Elastic Disaster Recovery" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS DRS" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/2004/02/skos/core#altLabel> "DRS" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/2004/02/skos/core#altLabel> "Elastic Disaster Recovery" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed disaster recovery service, which continuously replicates physical, virtual and cloud servers at the block level into a low-cost staging area in an AWS Region and launches them as Amazon EC2 instances for drills, recovery and failback, implementing a pilot light strategy with RPOs of seconds and RTOs of minutes." .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Elastic Disaster Recovery" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-backup> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s10> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s11> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s12> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s9> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ebs> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/drs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <https://github.com/john1hsu/aws-graph/ontology#replaces> <https://github.com/john1hsu/aws-graph/id/cloudendure-disaster-recovery> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "AWS European Sovereign Cloud" .
@@ -8351,6 +8384,66 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s10> <http://purl.org/dc/terms/title> "AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s10> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s11> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s11> <http://purl.org/dc/terms/title> "AWS Elastic Disaster Recovery reduces recovery time for AWS-to-AWS workloads" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s11> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s11> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-recovery/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s12> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s12> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program - FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s12> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s12> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s1> <http://purl.org/dc/terms/title> "What is Elastic Disaster Recovery? - AWS Elastic Disaster Recovery" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s1> <https://schema.org/url> "https://docs.aws.amazon.com/drs/latest/userguide/what-is-drs.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s2> <http://purl.org/dc/terms/title> "AWS Elastic Disaster Recovery FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s2> <https://schema.org/url> "https://aws.amazon.com/disaster-recovery/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s3> <http://purl.org/dc/terms/title> "Replication related - AWS Elastic Disaster Recovery" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s3> <https://schema.org/url> "https://docs.aws.amazon.com/drs/latest/userguide/Replication-Related-FAQ.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s4> <http://purl.org/dc/terms/title> "Point in time (PIT) policy - AWS Elastic Disaster Recovery" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s4> <https://schema.org/url> "https://docs.aws.amazon.com/drs/latest/userguide/point-in-time.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s5> <http://purl.org/dc/terms/title> "AWS Elastic Disaster Recovery endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s5> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/drs.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s6> <http://purl.org/dc/terms/title> "AWS Elastic Disaster Recovery Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s6> <https://schema.org/url> "https://aws.amazon.com/disaster-recovery/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s7> <http://purl.org/dc/terms/title> "Elastic Disaster Recovery FAQ - AWS Elastic Disaster Recovery" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s7> <https://schema.org/url> "https://docs.aws.amazon.com/drs/latest/userguide/FAQ.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s8> <http://purl.org/dc/terms/title> "Using Elastic Disaster Recovery for recovery and failback - AWS Elastic Disaster Recovery" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s8> <https://schema.org/url> "https://docs.aws.amazon.com/drs/latest/userguide/failback.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s9> <http://purl.org/dc/terms/title> "Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s9> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s1> <http://purl.org/dc/terms/title> "Opening the AWS European Sovereign Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

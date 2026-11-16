@@ -15,7 +15,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams`, `kt:amazon-msk` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
-| `kt:aws-elastic-disaster-recovery` | `kt:disaster-recovery-strategies`, `kt:aws-transform-mgn` |
 | `kt:aws-firewall-manager` | `kt:aws-shield`, `kt:aws-waf` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-support-plans` | `kt:aws-certified-cloud-practitioner`, `kt:aws-trusted-advisor` |
@@ -79,6 +78,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloud-computing` | `kt:amazon-web-services` |
 | `kt:cloud-map-quotas` | `kt:aws-cloud-map` |
 | `kt:cloud-security` | `kt:aws-security-services` |
+| `kt:cloudendure-disaster-recovery` | `kt:aws-elastic-disaster-recovery` |
 | `kt:cloudformation-stacksets` | `kt:cloudformation-drift-detection` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
 | `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
@@ -95,6 +95,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |
 | `kt:dms-schema-conversion` | `kt:aws-schema-conversion-tool` |
 | `kt:documentdb-quotas` | `kt:amazon-documentdb` |
+| `kt:drs-quotas` | `kt:aws-elastic-disaster-recovery` |
 | `kt:dynamodb-partition-key-design` | `kt:amazon-dynamodb` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb` |
 | `kt:ebs-quotas` | `kt:amazon-ebs` |
