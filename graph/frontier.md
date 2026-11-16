@@ -41,7 +41,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-macie` | `kt:aws-security-hub` |
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |
 | `kt:amazon-neptune` | `kt:purpose-built-databases` |
-| `kt:amazon-quick` | `kt:amazon-q-business` |
 | `kt:amazon-swf` | `kt:aws-step-functions` |
 | `kt:ami-quotas` | `kt:amazon-machine-images` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |

@@ -856,6 +856,31 @@
     ]
   },
   {
+    "id": "kt:amazon-quick",
+    "title": "AWS Quick",
+    "aliases": [
+      "Amazon Quick",
+      "Amazon Quick Suite",
+      "Quick Suite",
+      "Amazon QuickSight",
+      "QuickSight"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/amazon-quick.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/quick/latest/userguide/what-is.md",
+      "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-aws-quick/",
+      "https://aws.amazon.com/quick/pricing",
+      "https://docs.aws.amazon.com/quick/latest/userguide/supported-data-sources.md",
+      "https://docs.aws.amazon.com/general/latest/gr/quicksight.html",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/"
+    ]
+  },
+  {
     "id": "kt:amazon-rds",
     "title": "Amazon Relational Database Service",
     "aliases": [

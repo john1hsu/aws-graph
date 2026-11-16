@@ -978,6 +978,32 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
 <https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <https://github.com/john1hsu/aws-graph/ontology#status> "closed-to-new-customers" .
 <https://github.com/john1hsu/aws-graph/id/amazon-q-developer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Quick" .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Quick Suite" .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Quick" .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon QuickSight" .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/2004/02/skos/core#altLabel> "Quick Suite" .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/2004/02/skos/core#altLabel> "QuickSight" .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/2004/02/skos/core#definition> "AWS's AI-powered workspace that combines business intelligence dashboards (Quick Sight) with chat agents, research, workflow automation and an enterprise index over connected data; it evolved from Amazon QuickSight and was renamed from Amazon Quick to AWS Quick in November 2026." .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Quick" .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-quick> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-rds> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Relational Database Service" .
@@ -6687,6 +6713,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-q-developer/s6> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/amazonqdev.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s1> <http://purl.org/dc/terms/title> "What is AWS Quick?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s1> <https://schema.org/url> "https://docs.aws.amazon.com/quick/latest/userguide/what-is.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s2> <http://purl.org/dc/terms/title> "Amazon Quick is now AWS Quick" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s2> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-aws-quick/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s3> <http://purl.org/dc/terms/title> "AWS Quick pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s3> <https://schema.org/url> "https://aws.amazon.com/quick/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s4> <http://purl.org/dc/terms/title> "Supported data sources (AWS Quick user guide)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s4> <https://schema.org/url> "https://docs.aws.amazon.com/quick/latest/userguide/supported-data-sources.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s5> <http://purl.org/dc/terms/title> "AWS Quick Sight endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s5> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/quicksight.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s6> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-quick/s6> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s1> <http://purl.org/dc/terms/title> "What is Amazon Relational Database Service (Amazon RDS)?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-rds/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

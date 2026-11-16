@@ -1752,6 +1752,93 @@
       ]
     },
     {
+      "@id": "kt:amazon-quick",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Quick",
+      "skos:definition": "AWS's AI-powered workspace that combines business intelligence dashboards (Quick Sight) with chat agents, research, workflow automation and an enterprise index over connected data; it evolved from Amazon QuickSight and was renamed from Amazon Quick to AWS Quick in November 2026.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Quick?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/quick/latest/userguide/what-is.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Quick is now AWS Quick",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-aws-quick/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Quick pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/quick/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Supported data sources (AWS Quick user guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/quick/latest/userguide/supported-data-sources.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Quick Sight endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/quicksight.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/analytics/amazon-quick.md",
+      "skos:altLabel": [
+        "Amazon Quick",
+        "Amazon Quick Suite",
+        "Quick Suite",
+        "Amazon QuickSight",
+        "QuickSight"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-analytics-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        },
+        {
+          "@id": "kt:amazon-bedrock"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-redshift"
+        },
+        {
+          "@id": "kt:amazon-athena"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:iam-identity-center"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-redshift",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Redshift",
