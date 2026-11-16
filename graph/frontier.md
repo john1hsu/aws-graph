@@ -26,6 +26,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
+| `kt:ec2-image-builder` | `kt:amazon-machine-images`, `kt:amazon-machine-images` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:kms-quotas` | `kt:aws-kms`, `kt:amazon-s3-quotas` |
 | `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
@@ -46,6 +47,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-neptune` | `kt:purpose-built-databases` |
 | `kt:amazon-quick` | `kt:amazon-q-business` |
 | `kt:amazon-swf` | `kt:aws-step-functions` |
+| `kt:ami-quotas` | `kt:amazon-machine-images` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
 | `kt:application-portfolio-assessment` | `kt:seven-rs-migration-strategies` |

@@ -708,6 +708,33 @@
     ]
   },
   {
+    "id": "kt:amazon-machine-images",
+    "title": "Amazon Machine Image (AMI)",
+    "aliases": [
+      "AMI",
+      "AMIs",
+      "Amazon Machine Images",
+      "EC2 AMI"
+    ],
+    "type": "Resource",
+    "domain": "compute",
+    "file": "articles/compute/amazon-machine-images.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide//ComponentsAMIs.html",
+      "https://docs.aws.amazon.com/en_eu/AWSEC2/latest/UserGuide/ami-lifecycle.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ami-deprecate.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/sharingamis-intro.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ami-quotas.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/how-ami-copy-works.html",
+      "https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html",
+      "https://aws.amazon.com/about-aws/whats-new/2023/10/ami-block-public-enabled-aws-accounts-no-public-amis",
+      "https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-ec2-amis-disabled-state"
+    ]
+  },
+  {
     "id": "kt:amazon-mq",
     "title": "Amazon MQ",
     "aliases": [

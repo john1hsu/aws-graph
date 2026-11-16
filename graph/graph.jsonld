@@ -4291,6 +4291,120 @@
       ]
     },
     {
+      "@id": "kt:amazon-machine-images",
+      "@type": "kto:Resource",
+      "skos:prefLabel": "Amazon Machine Image (AMI)",
+      "skos:definition": "The Regional, versionable template that Amazon EC2 launches every instance from: an image of the root volume (normally backed by EBS snapshots) plus launch permissions and metadata such as architecture and virtualization type, with its own lifecycle of create, copy, share, deprecate, disable and deregister.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AMI types and characteristics in Amazon EC2",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide//ComponentsAMIs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EC2 AMI lifecycle",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_eu/AWSEC2/latest/UserGuide/ami-lifecycle.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deprecate an Amazon EC2 AMI",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ami-deprecate.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Make your AMI publicly available for use in Amazon EC2",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/sharingamis-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AMI quotas in Amazon EC2",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ami-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Amazon EC2 AMI copy works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/how-ami-copy-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is Image Builder? - EC2 Image Builder",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AMI Block Public Access now enabled for all new accounts and existing accounts with no public AMIs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2023/10/ami-block-public-enabled-aws-accounts-no-public-amis",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon EC2 now supports setting AMIs to a disabled state",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-ec2-amis-disabled-state",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/compute/amazon-machine-images.md",
+      "skos:altLabel": [
+        "AMI",
+        "AMIs",
+        "Amazon Machine Images",
+        "EC2 AMI"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:ec2-instance-types"
+        },
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        },
+        {
+          "@id": "kt:ec2-image-builder"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-ebs"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:ec2-image-builder"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:ami-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-batch",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Batch",
