@@ -8,7 +8,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-cost-management-services`, `kt:aws-free-tier`, `kt:cost-allocation-tags` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
-| `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs`, `kt:data-residency-on-aws` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:devops` | `kt:aws-developer-tools`, `kt:ci-cd`, `kt:infrastructure-as-code` |
@@ -76,6 +75,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:aws-x-ray` | `kt:aws-developer-tools` |
 | `kt:bottlerocket` | `kt:ecs-managed-instances` |
+| `kt:bsi-c5` | `kt:aws-european-sovereign-cloud` |
 | `kt:cell-based-architecture` | `kt:multi-region-architecture` |
 | `kt:cloud-computing` | `kt:amazon-web-services` |
 | `kt:cloud-security` | `kt:aws-security-services` |

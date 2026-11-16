@@ -2123,6 +2123,30 @@
     ]
   },
   {
+    "id": "kt:aws-european-sovereign-cloud",
+    "title": "AWS European Sovereign Cloud",
+    "aliases": [
+      "AWS ESC",
+      "EUSC",
+      "aws-eusc",
+      "AWS European Sovereign Cloud partition"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/aws-european-sovereign-cloud.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/blogs/aws/opening-the-aws-european-sovereign-cloud",
+      "https://docs.aws.eu/esc/latest/userguide/introduction.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/overview-aws-european-sovereign-cloud/introduction.html",
+      "https://aws.eu/faq/",
+      "https://aws.amazon.com/blogs/security/architecting-a-secure-landing-zone-in-the-aws-european-sovereign-cloud/",
+      "https://aws.eu/compliance/"
+    ]
+  },
+  {
     "id": "kt:aws-fargate",
     "title": "AWS Fargate",
     "aliases": [

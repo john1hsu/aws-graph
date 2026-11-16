@@ -14383,6 +14383,112 @@
       ]
     },
     {
+      "@id": "kt:aws-european-sovereign-cloud",
+      "@type": "kto:InfrastructureConcept",
+      "skos:prefLabel": "AWS European Sovereign Cloud",
+      "skos:definition": "AWS's independent cloud for Europe: a separate partition (aws-eusc) whose first Region, eusc-de-east-1 in Brandenburg, Germany, became generally available in January 2026, located entirely in the EU, run by EU-resident staff under German-law entities, with its own accounts, IAM, billing and DNS.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Opening the AWS European Sovereign Cloud",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/opening-the-aws-european-sovereign-cloud",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "What is AWS European Sovereign Cloud? - AWS European Sovereign Cloud User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.eu/esc/latest/userguide/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introduction - Overview of the AWS European Sovereign Cloud (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/overview-aws-european-sovereign-cloud/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS European Sovereign Cloud - Frequently Asked Questions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.eu/faq/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Architecting a secure landing zone in the AWS European Sovereign Cloud",
+          "dcterms:publisher": "Amazon Web Services (AWS Security Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/security/architecting-a-secure-landing-zone-in-the-aws-european-sovereign-cloud/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS European Sovereign Cloud Compliance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.eu/compliance/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/aws-european-sovereign-cloud.md",
+      "skos:altLabel": [
+        "AWS ESC",
+        "EUSC",
+        "aws-eusc",
+        "AWS European Sovereign Cloud partition"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-partitions"
+        },
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-residency-on-aws"
+        },
+        {
+          "@id": "kt:aws-regions"
+        },
+        {
+          "@id": "kt:aws-compliance-programs"
+        },
+        {
+          "@id": "kt:aws-nitro-system"
+        },
+        {
+          "@id": "kt:local-zones"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:aws-artifact"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:iam-identity-center"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-direct-connect"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:bsi-c5"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-govcloud-us",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS GovCloud (US)",

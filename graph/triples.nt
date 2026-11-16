@@ -2424,6 +2424,37 @@
 <https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
 <https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "AWS European Sovereign Cloud" .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS ESC" .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS European Sovereign Cloud partition" .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "EUSC" .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "aws-eusc" .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#definition> "AWS's independent cloud for Europe: a separate partition (aws-eusc) whose first Region, eusc-de-east-1 in Brandenburg, Germany, became generally available in January 2026, located entirely in the EU, run by EU-resident staff under German-law entities, with its own accounts, IAM, billing and DNS." .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS European Sovereign Cloud" .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-artifact> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-nitro-system> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/local-zones> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/bsi-c5> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-fargate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Fargate" .
@@ -8021,6 +8052,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s1> <http://purl.org/dc/terms/title> "Opening the AWS European Sovereign Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s1> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/opening-the-aws-european-sovereign-cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s2> <http://purl.org/dc/terms/title> "What is AWS European Sovereign Cloud? - AWS European Sovereign Cloud User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s2> <https://schema.org/url> "https://docs.aws.eu/esc/latest/userguide/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s3> <http://purl.org/dc/terms/title> "Introduction - Overview of the AWS European Sovereign Cloud (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s3> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/overview-aws-european-sovereign-cloud/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s4> <http://purl.org/dc/terms/title> "AWS European Sovereign Cloud - Frequently Asked Questions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s4> <https://schema.org/url> "https://aws.eu/faq/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Security Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s5> <http://purl.org/dc/terms/title> "Architecting a secure landing zone in the AWS European Sovereign Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/security/architecting-a-secure-landing-zone-in-the-aws-european-sovereign-cloud/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s6> <http://purl.org/dc/terms/title> "AWS European Sovereign Cloud Compliance" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s6> <https://schema.org/url> "https://aws.eu/compliance/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://purl.org/dc/terms/title> "Architect for AWS Fargate for Amazon ECS" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-fargate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
