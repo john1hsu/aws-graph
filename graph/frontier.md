@@ -9,8 +9,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-billing-and-cost-management` | `kt:aws-cost-management-services`, `kt:aws-free-tier`, `kt:cost-allocation-tags` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
-| `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:devops` | `kt:aws-developer-tools`, `kt:ci-cd`, `kt:infrastructure-as-code` |
+| `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:cloudformation-drift-detection`, `kt:infrastructure-as-code` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams`, `kt:amazon-msk` |
 | `kt:aws-cloud-map` | `kt:container-networking-on-aws`, `kt:ecs-quotas` |
@@ -27,7 +27,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
-| `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:infrastructure-as-code` |
 | `kt:kms-quotas` | `kt:aws-kms`, `kt:amazon-s3-quotas` |
 | `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
@@ -80,6 +79,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cell-based-architecture` | `kt:multi-region-architecture` |
 | `kt:cloud-computing` | `kt:amazon-web-services` |
 | `kt:cloud-security` | `kt:aws-security-services` |
+| `kt:cloudformation-stacksets` | `kt:cloudformation-drift-detection` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
 | `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
 | `kt:cloudhsm-quotas` | `kt:aws-cloudhsm` |

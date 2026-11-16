@@ -3351,6 +3351,29 @@
     ]
   },
   {
+    "id": "kt:cloudformation-drift-detection",
+    "title": "CloudFormation drift detection",
+    "aliases": [
+      "CloudFormation stack drift",
+      "Stack drift detection",
+      "CFN drift detection"
+    ],
+    "type": "Feature",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/cloudformation-drift-detection.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html",
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide//stacksets-drift.html",
+      "https://docs.aws.amazon.com/config/latest/developerguide/cloudformation-stack-drift-detection-check.md",
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resource-import-resolve-drift.html",
+      "https://docs.aws.amazon.com/us_en/AWSCloudFormation/latest/UserGuide/drift-aware-change-sets.html",
+      "https://aws.amazon.com/blogs/devops/safely-handle-configuration-drift-with-cloudformation-drift-aware-change-sets"
+    ]
+  },
+  {
     "id": "kt:container-networking-on-aws",
     "title": "Container networking on AWS",
     "aliases": [

@@ -3842,6 +3842,31 @@
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/2000/01/rdf-schema#label> "CloudFormation drift detection" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/2004/02/skos/core#altLabel> "CFN drift detection" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/2004/02/skos/core#altLabel> "CloudFormation stack drift" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/2004/02/skos/core#altLabel> "Stack drift detection" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/2004/02/skos/core#definition> "The AWS CloudFormation capability that compares a stack's live resource configuration with the configuration its template and parameters expect, flagging resources changed or deleted outside CloudFormation; drift-aware change sets and resource import are the main ways to resolve it." .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/2004/02/skos/core#prefLabel> "CloudFormation drift detection" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cdk> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s1> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s2> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s3> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s4> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s5> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s6> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "Container networking on AWS" .
@@ -9868,6 +9893,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <https://schema.org/url> "https://builder.aws.com/content/3ErTKQOTKc5NIw031UePBPxTQ6I/automating-safe-hands-off-deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s1> <http://purl.org/dc/terms/title> "Detect unmanaged configuration changes to stacks and resources with drift detection" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s2> <http://purl.org/dc/terms/title> "Performing drift detection on CloudFormation StackSets" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide//stacksets-drift.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s3> <http://purl.org/dc/terms/title> "cloudformation-stack-drift-detection-check (AWS Config managed rule)" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s3> <https://schema.org/url> "https://docs.aws.amazon.com/config/latest/developerguide/cloudformation-stack-drift-detection-check.md" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s4> <http://purl.org/dc/terms/title> "Resolve drift with an import operation" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resource-import-resolve-drift.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s5> <http://purl.org/dc/terms/title> "Using drift-aware change sets" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s5> <https://schema.org/url> "https://docs.aws.amazon.com/us_en/AWSCloudFormation/latest/UserGuide/drift-aware-change-sets.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s6> <http://purl.org/dc/terms/publisher> "AWS DevOps & Developer Productivity Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s6> <http://purl.org/dc/terms/title> "Safely handle configuration drift with CloudFormation drift-aware change sets" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/devops/safely-handle-configuration-drift-with-cloudformation-drift-aware-change-sets" .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <http://purl.org/dc/terms/title> "Amazon ECS task networking options for EC2" .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

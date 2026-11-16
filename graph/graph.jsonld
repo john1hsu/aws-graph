@@ -9229,6 +9229,96 @@
       ]
     },
     {
+      "@id": "kt:cloudformation-drift-detection",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "CloudFormation drift detection",
+      "skos:definition": "The AWS CloudFormation capability that compares a stack's live resource configuration with the configuration its template and parameters expect, flagging resources changed or deleted outside CloudFormation; drift-aware change sets and resource import are the main ways to resolve it.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Detect unmanaged configuration changes to stacks and resources with drift detection",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Performing drift detection on CloudFormation StackSets",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide//stacksets-drift.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "cloudformation-stack-drift-detection-check (AWS Config managed rule)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/config/latest/developerguide/cloudformation-stack-drift-detection-check.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Resolve drift with an import operation",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resource-import-resolve-drift.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using drift-aware change sets",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/us_en/AWSCloudFormation/latest/UserGuide/drift-aware-change-sets.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Safely handle configuration drift with CloudFormation drift-aware change sets",
+          "dcterms:publisher": "AWS DevOps & Developer Productivity Blog",
+          "schema:url": "https://aws.amazon.com/blogs/devops/safely-handle-configuration-drift-with-cloudformation-drift-aware-change-sets",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/cloudformation-drift-detection.md",
+      "skos:altLabel": [
+        "CloudFormation stack drift",
+        "Stack drift detection",
+        "CFN drift detection"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-cloudformation"
+        },
+        {
+          "@id": "kt:infrastructure-as-code"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-cdk"
+        },
+        {
+          "@id": "kt:immutable-infrastructure"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-config"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:cloudformation-stacksets"
+        }
+      ]
+    },
+    {
       "@id": "kt:infrastructure-as-code",
       "@type": "kto:Concept",
       "skos:prefLabel": "Infrastructure as code",
