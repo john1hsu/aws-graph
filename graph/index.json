@@ -2273,6 +2273,29 @@
     ]
   },
   {
+    "id": "kt:aws-firewall-manager",
+    "title": "AWS Firewall Manager",
+    "aliases": [
+      "Firewall Manager",
+      "FMS",
+      "AWS FMS"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/aws-firewall-manager.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/firewall-manager/faqs",
+      "https://docs.aws.amazon.com/waf/latest/developerguide/fms-prereq.html",
+      "https://docs.aws.amazon.com/waf/latest/developerguide/fms-limits.html",
+      "https://aws.amazon.com/firewall-manager/pricing",
+      "https://docs.aws.amazon.com/network-security-manager/latest/devguide/firewall-manager.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/network-security-manager-us-east-va/"
+    ]
+  },
+  {
     "id": "kt:aws-free-tier",
     "title": "AWS Free Tier",
     "aliases": [

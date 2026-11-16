@@ -16,7 +16,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams`, `kt:amazon-msk` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
-| `kt:aws-firewall-manager` | `kt:aws-shield`, `kt:aws-waf` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
@@ -62,6 +61,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-codecommit` | `kt:aws-developer-tools` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
+| `kt:aws-network-firewall` | `kt:aws-firewall-manager` |
+| `kt:aws-network-security-manager` | `kt:aws-firewall-manager` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
 | `kt:aws-nitro-enclaves` | `kt:aws-nitro-system` |
 | `kt:aws-payment-cryptography` | `kt:aws-cloudhsm` |
@@ -110,6 +111,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:elastic-beanstalk-quotas` | `kt:aws-elastic-beanstalk` |
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |
 | `kt:eventbridge-quotas` | `kt:amazon-eventbridge` |
+| `kt:firewall-manager-quotas` | `kt:aws-firewall-manager` |
 | `kt:fsx-quotas` | `kt:amazon-fsx` |
 | `kt:gateway-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:global-accelerator-quotas` | `kt:aws-global-accelerator` |
