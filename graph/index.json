@@ -902,6 +902,32 @@
     ]
   },
   {
+    "id": "kt:amazon-rekognition",
+    "title": "Amazon Rekognition",
+    "aliases": [
+      "Rekognition",
+      "AWS Rekognition",
+      "Rekognition Image",
+      "Rekognition Video"
+    ],
+    "type": "Service",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-rekognition.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html",
+      "https://docs.aws.amazon.com/rekognition/latest/dg/limits.html",
+      "https://aws.amazon.com/rekognition/pricing/",
+      "https://docs.aws.amazon.com/rekognition/latest/dg/rekognition-availability-changes.html",
+      "https://docs.aws.amazon.com/rekognition/latest/dg/persons.html",
+      "https://aws.amazon.com/blogs/machine-learning/transitioning-from-amazon-rekognition-people-pathing-exploring-other-alternatives/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-rekognition-face-liveness-accuracy-improvements-challenge-setting",
+      "https://docs.aws.amazon.com/it_it/aws-certification/latest/userguide/aif-01-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-route-53",
     "title": "Amazon Route 53",
     "aliases": [
