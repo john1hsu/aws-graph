@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:generative-ai-on-aws` | `kt:amazon-bedrock-agentcore`, `kt:amazon-bedrock-agents`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-bedrock`, `kt:amazon-q-business`, `kt:amazon-q-developer`, `kt:amazon-sagemaker-ai`, `kt:aws-trainium-and-inferentia`, `kt:aws-certified-ai-practitioner` |
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-textract` |
 | `kt:aws-billing-and-cost-management` | `kt:aws-cost-management-services`, `kt:aws-free-tier`, `kt:cost-allocation-tags` |
-| `kt:aws-compute-optimizer` | `kt:performance-efficiency-pillar`, `kt:ec2-instance-types`, `kt:aws-trusted-advisor` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
 | `kt:aws-european-sovereign-cloud` | `kt:aws-partitions`, `kt:aws-compliance-programs`, `kt:data-residency-on-aws` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
@@ -88,6 +87,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:codedeploy-quotas` | `kt:aws-codedeploy` |
 | `kt:comprehend-quotas` | `kt:amazon-comprehend` |
 | `kt:control-tower-quotas` | `kt:aws-control-tower` |
+| `kt:cost-optimization-hub` | `kt:aws-compute-optimizer` |
 | `kt:data-perimeter` | `kt:resource-control-policies` |
 | `kt:data-warehouse` | `kt:data-lake-on-aws` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |

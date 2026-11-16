@@ -2075,6 +2075,29 @@
 <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> .
 <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Compute Optimizer" .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/2004/02/skos/core#altLabel> "Compute Optimizer" .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/2004/02/skos/core#definition> "AWS's opt-in recommendation service that analyzes resource configuration and CloudWatch utilization metrics to produce rightsizing and idle-resource recommendations for EC2, Auto Scaling groups, EBS, Lambda, ECS on Fargate, RDS and Aurora and a growing set of other services, free by default with a paid enhanced-metrics option." .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Compute Optimizer" .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-compute-services> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/aws-compute-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-compute-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS compute services" .
@@ -7509,6 +7532,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-compliance-programs/s6> <https://schema.org/url> "https://docs.aws.amazon.com/config/latest/developerguide/config-compliance.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s1> <http://purl.org/dc/terms/title> "What is AWS Compute Optimizer? - AWS Compute Optimizer" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s1> <https://schema.org/url> "https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s2> <http://purl.org/dc/terms/title> "AWS resources supported by Compute Optimizer - AWS Compute Optimizer" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s2> <https://schema.org/url> "https://docs.aws.amazon.com/compute-optimizer/latest/ug/supported-resources.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s3> <http://purl.org/dc/terms/title> "AWS Compute Optimizer pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s3> <https://schema.org/url> "https://aws.amazon.com/compute-optimizer/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s4> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s4> <http://purl.org/dc/terms/title> "New for AWS Compute Optimizer – Enhanced Infrastructure Metrics to Extend the Look-Back Period to Three Months" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/new-for-aws-compute-optimizer-enhanced-infrastructure-metrics-to-extend-the-look-back-period-to-three-months" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s5> <http://purl.org/dc/terms/title> "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s6> <http://purl.org/dc/terms/title> "AWS Compute Optimizer now supports idle recommendations for six additional resource types" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s7> <http://purl.org/dc/terms/title> "Identifying opportunities with Cost Optimization Hub - AWS Cost Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-compute-optimizer/s7> <https://schema.org/url> "https://docs.aws.amazon.com/cost-management/latest/userguide/cost-optimization-hub.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-compute-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-compute-services/s1> <http://purl.org/dc/terms/title> "Compute - Overview of Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-compute-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

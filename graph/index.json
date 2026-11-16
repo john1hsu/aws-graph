@@ -1828,6 +1828,28 @@
     ]
   },
   {
+    "id": "kt:aws-compute-optimizer",
+    "title": "AWS Compute Optimizer",
+    "aliases": [
+      "Compute Optimizer"
+    ],
+    "type": "Service",
+    "domain": "cost-management",
+    "file": "articles/cost-management/aws-compute-optimizer.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html",
+      "https://docs.aws.amazon.com/compute-optimizer/latest/ug/supported-resources.html",
+      "https://aws.amazon.com/compute-optimizer/pricing/",
+      "https://aws.amazon.com/blogs/aws/new-for-aws-compute-optimizer-enhanced-infrastructure-metrics-to-extend-the-look-back-period-to-three-months",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle",
+      "https://docs.aws.amazon.com/cost-management/latest/userguide/cost-optimization-hub.html"
+    ]
+  },
+  {
     "id": "kt:aws-compute-services",
     "title": "AWS compute services",
     "aliases": [

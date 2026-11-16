@@ -6043,6 +6043,93 @@
       ]
     },
     {
+      "@id": "kt:aws-compute-optimizer",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Compute Optimizer",
+      "skos:definition": "AWS's opt-in recommendation service that analyzes resource configuration and CloudWatch utilization metrics to produce rightsizing and idle-resource recommendations for EC2, Auto Scaling groups, EBS, Lambda, ECS on Fargate, RDS and Aurora and a growing set of other services, free by default with a paid enhanced-metrics option.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Compute Optimizer? - AWS Compute Optimizer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS resources supported by Compute Optimizer - AWS Compute Optimizer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/supported-resources.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Compute Optimizer pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compute-optimizer/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "New for AWS Compute Optimizer – Enhanced Infrastructure Metrics to Extend the Look-Back Period to Three Months",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/blogs/aws/new-for-aws-compute-optimizer-enhanced-infrastructure-metrics-to-extend-the-look-back-period-to-three-months",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Compute Optimizer now supports idle recommendations for six additional resource types",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Identifying opportunities with Cost Optimization Hub - AWS Cost Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cost-management/latest/userguide/cost-optimization-hub.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/cost-management/aws-compute-optimizer.md",
+      "skos:altLabel": [
+        "Compute Optimizer"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-cost-management-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cost-optimization-pillar"
+        },
+        {
+          "@id": "kt:aws-trusted-advisor"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:cost-optimization-hub"
+        },
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cost-explorer",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Cost Explorer",
