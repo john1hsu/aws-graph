@@ -4716,6 +4716,30 @@
     ]
   },
   {
+    "id": "kt:sqs-vs-sns-vs-eventbridge",
+    "title": "SQS vs SNS vs EventBridge",
+    "aliases": [
+      "Choosing between SQS",
+      "SNS and EventBridge",
+      "SNS vs SQS vs EventBridge",
+      "AWS messaging service decision guide"
+    ],
+    "type": "Concept",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/sqs-vs-sns-vs-eventbridge.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/decision-guides/latest/sns-or-sqs-or-eventbridge/sns-or-sqs-or-eventbridge.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-integrating-microservices/messaging.html",
+      "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-quota.html",
+      "https://docs.aws.amazon.com/sns/latest/dg/large-message-payloads.md",
+      "https://aws.amazon.com/blogs/compute/more-room-to-build-serverless-services-now-support-payloads-up-to-1-mb",
+      "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-sqs-max-payload-size-1mib"
+    ]
+  },
+  {
     "id": "kt:sustainability-pillar",
     "title": "Sustainability Pillar",
     "aliases": [

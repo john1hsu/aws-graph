@@ -18485,6 +18485,91 @@
       ]
     },
     {
+      "@id": "kt:sqs-vs-sns-vs-eventbridge",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "SQS vs SNS vs EventBridge",
+      "skos:definition": "A decision framework for choosing among AWS's three core serverless messaging services: Amazon SQS (pull-based queue that persists work until consumed), Amazon SNS (push-based pub/sub fan-out) and Amazon EventBridge (rule-based event bus with content filtering and many AWS and SaaS targets).",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon SQS, Amazon SNS, or Amazon EventBridge? (AWS Decision Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/sns-or-sqs-or-eventbridge/sns-or-sqs-or-eventbridge.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Messaging - Integrating microservices by using AWS serverless services (AWS Prescriptive Guidance)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-integrating-microservices/messaging.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EventBridge quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-quota.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Publishing large messages with Amazon SNS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/sns/latest/dg/large-message-payloads.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "More room to build: serverless services now support payloads up to 1 MB",
+          "dcterms:publisher": "AWS Compute Blog",
+          "schema:url": "https://aws.amazon.com/blogs/compute/more-room-to-build-serverless-services-now-support-payloads-up-to-1-mb",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon SQS increases maximum message payload size to 1 MiB",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-sqs-max-payload-size-1mib",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/sqs-vs-sns-vs-eventbridge.md",
+      "skos:altLabel": [
+        "Choosing between SQS",
+        "SNS and EventBridge",
+        "SNS vs SQS vs EventBridge",
+        "AWS messaging service decision guide"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:aws-serverless-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-sqs"
+        },
+        {
+          "@id": "kt:amazon-sns"
+        },
+        {
+          "@id": "kt:amazon-eventbridge"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:amazon-kinesis-data-streams"
+        },
+        {
+          "@id": "kt:amazon-mq"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-ebs",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon EBS",
