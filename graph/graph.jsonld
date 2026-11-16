@@ -10254,6 +10254,115 @@
       ]
     },
     {
+      "@id": "kt:aws-wavelength",
+      "@type": "kto:InfrastructureConcept",
+      "skos:prefLabel": "AWS Wavelength",
+      "skos:definition": "AWS Wavelength places standard AWS compute and storage racks (Wavelength Zones) inside telecommunications providers' data centers at the edge of their 5G networks, extending a VPC from its parent Region so applications can serve mobile and carrier-connected devices with low latency.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How AWS Wavelength works - AWS Wavelength Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wavelength/latest/developerguide/how-wavelengths-work.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Carrier gateway for AWS Wavelength - AWS Wavelength Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wavelength/latest/developerguide/carrier-gateways.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and considerations for Wavelength Zones - AWS Wavelength Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wavelength/latest/developerguide/wavelength-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Subnets in AWS Wavelength - Amazon Virtual Private Cloud User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/userguide/subnet-wavelength.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Wavelength FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/wavelength/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Wavelength pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/wavelength/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Wavelength features",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/wavelength/features/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing new AWS Wavelength Zone in Lenexa, Kansas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-wavelength-zone-lenexa-kansas/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/aws-wavelength.md",
+      "skos:altLabel": [
+        "Wavelength",
+        "Wavelength Zones",
+        "AWS Wavelength Zone",
+        "Wavelength Zone"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-transit-gateway"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        },
+        {
+          "@id": "kt:edge-locations"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:local-zones"
+        },
+        {
+          "@id": "kt:aws-outposts"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:savings-plans"
+        }
+      ]
+    },
+    {
       "@id": "kt:edge-locations",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "Edge locations",

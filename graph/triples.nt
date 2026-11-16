@@ -3842,6 +3842,36 @@
 <https://github.com/john1hsu/aws-graph/id/aws-waf> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-waf> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-waf> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Wavelength" .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Wavelength Zone" .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/2004/02/skos/core#altLabel> "Wavelength Zone" .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/2004/02/skos/core#altLabel> "Wavelength Zones" .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/2004/02/skos/core#altLabel> "Wavelength" .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/2004/02/skos/core#definition> "AWS Wavelength places standard AWS compute and storage racks (Wavelength Zones) inside telecommunications providers' data centers at the edge of their 5G networks, extending a VPC from its parent Region so applications can serve mobile and carrier-connected devices with low latency." .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Wavelength" .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/edge-locations> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-outposts> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/local-zones> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-wavelength> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Well-Architected Framework" .
@@ -10006,6 +10036,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-waf/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-waf/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-waf/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s1> <http://purl.org/dc/terms/title> "How AWS Wavelength works - AWS Wavelength Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s1> <https://schema.org/url> "https://docs.aws.amazon.com/wavelength/latest/developerguide/how-wavelengths-work.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s2> <http://purl.org/dc/terms/title> "Carrier gateway for AWS Wavelength - AWS Wavelength Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wavelength/latest/developerguide/carrier-gateways.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s3> <http://purl.org/dc/terms/title> "Quotas and considerations for Wavelength Zones - AWS Wavelength Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wavelength/latest/developerguide/wavelength-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s4> <http://purl.org/dc/terms/title> "Subnets in AWS Wavelength - Amazon Virtual Private Cloud User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s4> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/userguide/subnet-wavelength.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s5> <http://purl.org/dc/terms/title> "AWS Wavelength FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s5> <https://schema.org/url> "https://aws.amazon.com/wavelength/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s6> <http://purl.org/dc/terms/title> "AWS Wavelength pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s6> <https://schema.org/url> "https://aws.amazon.com/wavelength/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s7> <http://purl.org/dc/terms/title> "AWS Wavelength features" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s7> <https://schema.org/url> "https://aws.amazon.com/wavelength/features/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s8> <http://purl.org/dc/terms/title> "Announcing new AWS Wavelength Zone in Lenexa, Kansas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-wavelength/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-wavelength-zone-lenexa-kansas/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <http://purl.org/dc/terms/title> "Definitions - AWS Well-Architected Framework" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-framework/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

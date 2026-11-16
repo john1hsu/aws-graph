@@ -3348,6 +3348,32 @@
     ]
   },
   {
+    "id": "kt:aws-wavelength",
+    "title": "AWS Wavelength",
+    "aliases": [
+      "Wavelength",
+      "Wavelength Zones",
+      "AWS Wavelength Zone",
+      "Wavelength Zone"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/aws-wavelength.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/wavelength/latest/developerguide/how-wavelengths-work.html",
+      "https://docs.aws.amazon.com/wavelength/latest/developerguide/carrier-gateways.html",
+      "https://docs.aws.amazon.com/wavelength/latest/developerguide/wavelength-quotas.html",
+      "https://docs.aws.amazon.com/vpc/latest/userguide/subnet-wavelength.html",
+      "https://aws.amazon.com/wavelength/faqs/",
+      "https://aws.amazon.com/wavelength/pricing/",
+      "https://aws.amazon.com/wavelength/features/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-wavelength-zone-lenexa-kansas/"
+    ]
+  },
+  {
     "id": "kt:aws-well-architected-framework",
     "title": "AWS Well-Architected Framework",
     "aliases": [

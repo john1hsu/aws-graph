@@ -71,7 +71,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-snowball-edge` | `kt:aws-schema-conversion-tool` |
 | `kt:aws-sustainability-console` | `kt:sustainability-pillar` |
 | `kt:aws-tag-editor` | `kt:cost-allocation-tags` |
-| `kt:aws-wavelength` | `kt:local-zones` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:aws-x-ray` | `kt:aws-developer-tools` |
 | `kt:bottlerocket` | `kt:ecs-managed-instances` |
