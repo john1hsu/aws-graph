@@ -3978,6 +3978,29 @@
     ]
   },
   {
+    "id": "kt:multi-region-architecture",
+    "title": "Multi-Region architecture",
+    "aliases": [
+      "multi-Region architectures",
+      "multi-Region deployment",
+      "multi-Region workloads",
+      "cross-Region architecture"
+    ],
+    "type": "Pattern",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/multi-region-architecture.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/aws-multi-region-fundamentals/aws-multi-region-fundamentals.pdf",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_multiaz_region_system.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+      "https://docs.aws.amazon.com/r53recovery/latest/dg/region-switch-plans.html",
+      "https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iv-multi-site-active-active/"
+    ]
+  },
+  {
     "id": "kt:nist-sp-800-53",
     "title": "NIST SP 800-53",
     "aliases": [

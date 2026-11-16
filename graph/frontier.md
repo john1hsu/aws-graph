@@ -12,7 +12,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:cloudformation-drift-detection` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:infrastructure-as-code` |
 | `kt:devops` | `kt:aws-developer-tools`, `kt:ci-cd`, `kt:infrastructure-as-code` |
-| `kt:multi-region-architecture` | `kt:dynamodb-global-tables`, `kt:amazon-application-recovery-controller`, `kt:aws-global-accelerator` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams`, `kt:amazon-msk` |
 | `kt:aws-cloud-map` | `kt:container-networking-on-aws`, `kt:ecs-quotas` |
@@ -77,6 +76,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:aws-x-ray` | `kt:aws-developer-tools` |
 | `kt:bottlerocket` | `kt:ecs-managed-instances` |
+| `kt:cell-based-architecture` | `kt:multi-region-architecture` |
 | `kt:cloud-computing` | `kt:amazon-web-services` |
 | `kt:cloud-security` | `kt:aws-security-services` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
@@ -128,6 +128,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lambda-snapstart` | `kt:lambda-cold-starts` |
 | `kt:landing-zone` | `kt:multi-account-strategy` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
+| `kt:multi-az-architecture` | `kt:multi-region-architecture` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
 | `kt:opensearch-service-quotas` | `kt:amazon-opensearch-service` |
 | `kt:rds-quotas` | `kt:amazon-rds` |

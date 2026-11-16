@@ -2609,6 +2609,103 @@
       ]
     },
     {
+      "@id": "kt:multi-region-architecture",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Multi-Region architecture",
+      "skos:definition": "An architecture pattern in which a workload is deployed in two or more AWS Regions, with replicated data and Region-independent components, to bound recovery from a Regional impairment, meet data residency needs or serve users with lower latency; AWS recommends it only when a Multi-AZ design in one Region cannot meet the requirement.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS multi-Region fundamentals (AWS Prescriptive Guidance, PDF)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/aws-multi-region-fundamentals/aws-multi-region-fundamentals.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL10-BP01 Deploy the workload to multiple locations - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_multiaz_region_system.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "About Region switch - Amazon Application Recovery Controller (ARC)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/r53recovery/latest/dg/region-switch-plans.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Disaster Recovery (DR) Architecture on AWS, Part IV: Multi-site Active/Active",
+          "dcterms:publisher": "AWS Architecture Blog",
+          "schema:url": "https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iv-multi-site-active-active/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/multi-region-architecture.md",
+      "skos:altLabel": [
+        "multi-Region architectures",
+        "multi-Region deployment",
+        "multi-Region workloads",
+        "cross-Region architecture"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:reliability-pillar"
+        },
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        },
+        {
+          "@id": "kt:dynamodb-global-tables"
+        },
+        {
+          "@id": "kt:aurora-global-database"
+        },
+        {
+          "@id": "kt:amazon-route-53"
+        },
+        {
+          "@id": "kt:aws-global-accelerator"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-application-recovery-controller"
+        },
+        {
+          "@id": "kt:cell-based-architecture"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:multi-az-architecture"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ]
+    },
+    {
       "@id": "kt:operational-excellence-pillar",
       "@type": "kto:Concept",
       "skos:prefLabel": "Operational Excellence Pillar",

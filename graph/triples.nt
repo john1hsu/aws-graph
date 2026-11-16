@@ -4548,6 +4548,35 @@
 <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
 <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-Region architecture" .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "cross-Region architecture" .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "multi-Region architectures" .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "multi-Region deployment" .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "multi-Region workloads" .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#definition> "An architecture pattern in which a workload is deployed in two or more AWS Regions, with replicated data and Region-independent components, to bound recovery from a Regional impairment, meet data residency needs or serve users with lower latency; AWS recommends it only when a Multi-AZ design in one Region cannot meet the requirement." .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Multi-Region architecture" .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aurora-global-database> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s1> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s2> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s3> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s4> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s5> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/multi-az-architecture> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/cell-based-architecture> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2000/01/rdf-schema#label> "NIST SP 800-53" .
@@ -10592,6 +10621,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s1> <http://purl.org/dc/terms/title> "AWS multi-Region fundamentals (AWS Prescriptive Guidance, PDF)" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s1> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/aws-multi-region-fundamentals/aws-multi-region-fundamentals.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s2> <http://purl.org/dc/terms/title> "REL10-BP01 Deploy the workload to multiple locations - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_multiaz_region_system.html" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s3> <http://purl.org/dc/terms/title> "Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s3> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s4> <http://purl.org/dc/terms/title> "About Region switch - Amazon Application Recovery Controller (ARC)" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s4> <https://schema.org/url> "https://docs.aws.amazon.com/r53recovery/latest/dg/region-switch-plans.html" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s5> <http://purl.org/dc/terms/publisher> "AWS Architecture Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s5> <http://purl.org/dc/terms/title> "Disaster Recovery (DR) Architecture on AWS, Part IV: Multi-site Active/Active" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iv-multi-site-active-active/" .
 <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s1> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
 <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s1> <http://purl.org/dc/terms/title> "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations" .
 <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
