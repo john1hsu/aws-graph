@@ -7425,6 +7425,87 @@
       ]
     },
     {
+      "@id": "kt:aurora-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Amazon Aurora quotas",
+      "skos:definition": "The per-account, per-Region resource quotas (clusters, instances, snapshots, parameter groups, proxies), the shared RDS API token bucket, and the fixed engine constraints (cluster volume size, table size, naming rules) that bound Amazon Aurora deployments; most resource counts are adjustable, the engine constraints are not.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Quotas and constraints for Amazon Aurora",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/CHAP_Limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Aurora endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/aurora.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Request throttling for the Amazon RDS API",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-api-throttling.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Aurora MySQL database clusters now support up to 256 TiB of storage volume",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-aurora-mysql-database-clusters-256-tib-storage-volume",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/databases/aurora-quotas.md",
+      "skos:altLabel": [
+        "Aurora quotas",
+        "Aurora limits",
+        "Aurora service quotas",
+        "Aurora quotas and constraints",
+        "Amazon Aurora service limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-aurora"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aurora-serverless-v2"
+        },
+        {
+          "@id": "kt:aurora-global-database"
+        },
+        {
+          "@id": "kt:rds-proxy"
+        },
+        {
+          "@id": "kt:amazon-rds"
+        },
+        {
+          "@id": "kt:aurora-limitless-database"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:amazon-s3-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:aurora-serverless-v2",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon Aurora Serverless",

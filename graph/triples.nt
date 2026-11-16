@@ -1316,6 +1316,32 @@
 <https://github.com/john1hsu/aws-graph/id/aurora-global-database> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aurora-global-database> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aurora-global-database> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Aurora quotas" .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Aurora service limits" .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Aurora limits" .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Aurora quotas and constraints" .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Aurora quotas" .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Aurora service quotas" .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-aurora> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-account, per-Region resource quotas (clusters, instances, snapshots, parameter groups, proxies), the shared RDS API token bucket, and the fixed engine constraints (cluster volume size, table size, naming rules) that bound Amazon Aurora deployments; most resource counts are adjustable, the engine constraints are not." .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Aurora quotas" .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-rds> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aurora-global-database> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aurora-limitless-database> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/rds-proxy> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aurora-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/aurora-serverless-v2> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Aurora Serverless" .
@@ -6583,6 +6609,26 @@
 <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-global-database/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-global-database-managed-minor" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s1> <http://purl.org/dc/terms/title> "Quotas and constraints for Amazon Aurora" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/AmazonRDS/latest/AuroraUserGuide/CHAP_Limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s2> <http://purl.org/dc/terms/title> "Amazon Aurora endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/aurora.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s3> <http://purl.org/dc/terms/title> "Request throttling for the Amazon RDS API" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-api-throttling.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s4> <http://purl.org/dc/terms/title> "Amazon Aurora MySQL database clusters now support up to 256 TiB of storage volume" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aurora-quotas/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-aurora-mysql-database-clusters-256-tib-storage-volume" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <http://purl.org/dc/terms/title> "How Aurora serverless works" .
 <https://github.com/john1hsu/aws-graph/id/source/aurora-serverless-v2/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
