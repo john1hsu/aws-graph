@@ -108,7 +108,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ecr-quotas` | `kt:amazon-ecr` |
 | `kt:ecs-native-blue-green-deployments` | `kt:aws-codedeploy` |
 | `kt:efs-quotas` | `kt:amazon-efs` |
-| `kt:eks-quotas` | `kt:amazon-eks` |
 | `kt:elastic-beanstalk-quotas` | `kt:aws-elastic-beanstalk` |
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |
 | `kt:eventbridge-quotas` | `kt:amazon-eventbridge` |

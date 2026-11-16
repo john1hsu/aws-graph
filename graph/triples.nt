@@ -4311,6 +4311,34 @@
 <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EKS quotas" .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon EKS service limits" .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Elastic Kubernetes Service quotas" .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "EKS limits" .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "EKS quotas" .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "EKS service quotas" .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-account, per-Region limits on Amazon EKS resources (clusters, managed node groups, nodes, Fargate profiles, access entries, hybrid-node networks) plus the control-plane capacity ceilings set by Standard mode or a Provisioned Control Plane tier; many cluster-at-scale limits actually come from EC2, VPC, ELB and IAM quotas." .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EKS quotas" .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-quotas> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/ecs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/fargate-quotas> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/eks-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <http://www.w3.org/2000/01/rdf-schema#label> "Elastic Load Balancing" .
@@ -10505,6 +10533,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s1> <http://purl.org/dc/terms/title> "Amazon Elastic Kubernetes Service endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/eks.md" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s2> <http://purl.org/dc/terms/title> "View and manage Amazon EKS and Fargate service quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/service_limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s3> <http://purl.org/dc/terms/title> "Known Limits and Service Quotas (Amazon EKS Best Practices Guide)" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/best-practices/known_limits_and_service_quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s4> <http://purl.org/dc/terms/title> "Learn how EKS Pod Identity grants pods access to AWS services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s5> <http://purl.org/dc/terms/title> "Amazon EKS Provisioned Control Plane" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/eks-quotas/s5> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/eks-provisioned-control-plane.html" .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <http://purl.org/dc/terms/title> "Elastic Load Balancing User Guide (PDF)" .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

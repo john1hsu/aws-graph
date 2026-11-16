@@ -6156,6 +6156,96 @@
       ]
     },
     {
+      "@id": "kt:eks-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Amazon EKS quotas",
+      "skos:definition": "The per-account, per-Region limits on Amazon EKS resources (clusters, managed node groups, nodes, Fargate profiles, access entries, hybrid-node networks) plus the control-plane capacity ceilings set by Standard mode or a Provisioned Control Plane tier; many cluster-at-scale limits actually come from EC2, VPC, ELB and IAM quotas.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon Elastic Kubernetes Service endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/eks.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "View and manage Amazon EKS and Fargate service quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/service_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Known Limits and Service Quotas (Amazon EKS Best Practices Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/best-practices/known_limits_and_service_quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn how EKS Pod Identity grants pods access to AWS services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EKS Provisioned Control Plane",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/eks-provisioned-control-plane.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/containers/eks-quotas.md",
+      "skos:altLabel": [
+        "EKS quotas",
+        "EKS service quotas",
+        "EKS limits",
+        "Amazon EKS service limits",
+        "Amazon Elastic Kubernetes Service quotas"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:eks-auto-mode"
+        },
+        {
+          "@id": "kt:aws-fargate"
+        },
+        {
+          "@id": "kt:iam-quotas"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:elastic-load-balancing"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:ecs-quotas"
+        },
+        {
+          "@id": "kt:fargate-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:fargate-quotas",
       "@type": "kto:Limit",
       "skos:prefLabel": "AWS Fargate quotas",

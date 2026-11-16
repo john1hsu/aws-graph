@@ -3768,6 +3768,30 @@
     ]
   },
   {
+    "id": "kt:eks-quotas",
+    "title": "Amazon EKS quotas",
+    "aliases": [
+      "EKS quotas",
+      "EKS service quotas",
+      "EKS limits",
+      "Amazon EKS service limits",
+      "Amazon Elastic Kubernetes Service quotas"
+    ],
+    "type": "Limit",
+    "domain": "containers",
+    "file": "articles/containers/eks-quotas.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/general/latest/gr/eks.md",
+      "https://docs.aws.amazon.com/eks/latest/userguide/service_limits.html",
+      "https://docs.aws.amazon.com/eks/latest/best-practices/known_limits_and_service_quotas.html",
+      "https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html",
+      "https://docs.aws.amazon.com/eks/latest/userguide/eks-provisioned-control-plane.html"
+    ]
+  },
+  {
     "id": "kt:elastic-load-balancing",
     "title": "Elastic Load Balancing",
     "aliases": [
