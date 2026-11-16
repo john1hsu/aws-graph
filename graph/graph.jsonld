@@ -10960,6 +10960,124 @@
       ]
     },
     {
+      "@id": "kt:aws-health-dashboard",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Health Dashboard",
+      "skos:definition": "AWS Health's console view of service availability and of account-specific events such as operational issues, scheduled maintenance and lifecycle notices, backed by the AWS Health API, Amazon EventBridge delivery and an organization-wide view across AWS Organizations accounts.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Health? - AWS Health User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/health/latest/ug/what-is-aws-health.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Concepts for AWS Health - AWS Health User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/health/latest/ug/aws-health-concepts-and-terms.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Welcome - AWS Health API Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/health/latest/APIReference/Welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enabling organizational view - AWS Health User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/health/latest/ug/enable-organizational-view.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Creating EventBridge rules for AWS Region coverage - AWS Health User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/health/latest/ug/choosing-a-region.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Health in AWS GovCloud (US) - AWS GovCloud (US) User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-health.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Health and AWS Organizations - AWS Organizations User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/services-that-can-integrate-health.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learning about AWS service health with the new AWS Health Dashboard (AWS Cloud Operations Blog, 2022-02-28)",
+          "dcterms:publisher": "Amazon Web Services (AWS Cloud Operations Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/mt/learning-about-aws-service-health-with-the-new-aws-health-dashboard/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Health introduces the version catalog for software lifecycle management (What's New with AWS, 2026-10-02)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Content Domain 4: Billing, Pricing, and Support - AWS Certified Cloud Practitioner (CLF-C02) Exam Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/aws-health-dashboard.md",
+      "skos:altLabel": [
+        "AWS Health",
+        "AWS Health API",
+        "AWS Personal Health Dashboard",
+        "Personal Health Dashboard",
+        "AWS Service Health Dashboard",
+        "Service Health Dashboard"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-trusted-advisor"
+        },
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-support-plans"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-management-and-governance-services",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS management and governance services",

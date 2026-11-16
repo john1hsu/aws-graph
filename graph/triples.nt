@@ -2794,6 +2794,38 @@
 <https://github.com/john1hsu/aws-graph/id/aws-graviton> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-graviton> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-graviton> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Health Dashboard" .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Health API" .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Health" .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Personal Health Dashboard" .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Service Health Dashboard" .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2004/02/skos/core#altLabel> "Personal Health Dashboard" .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2004/02/skos/core#altLabel> "Service Health Dashboard" .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2004/02/skos/core#definition> "AWS Health's console view of service availability and of account-specific events such as operational issues, scheduled maintenance and lifecycle notices, backed by the AWS Health API, Amazon EventBridge delivery and an organization-wide view across AWS Organizations accounts." .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Health Dashboard" .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s10> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s11> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s9> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-support-plans> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-iam> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-iam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-iam> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Identity and Access Management" .
@@ -8734,6 +8766,61 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-graviton/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-graviton/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-graviton/s6> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/net-graviton.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s10> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02) Exam Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s10> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s11> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s11> <http://purl.org/dc/terms/title> "Content Domain 4: Billing, Pricing, and Support - AWS Certified Cloud Practitioner (CLF-C02) Exam Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s11> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s11> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s1> <http://purl.org/dc/terms/title> "What is AWS Health? - AWS Health User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s1> <https://schema.org/url> "https://docs.aws.amazon.com/health/latest/ug/what-is-aws-health.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s2> <http://purl.org/dc/terms/title> "Concepts for AWS Health - AWS Health User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s2> <https://schema.org/url> "https://docs.aws.amazon.com/health/latest/ug/aws-health-concepts-and-terms.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s3> <http://purl.org/dc/terms/title> "Welcome - AWS Health API Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s3> <https://schema.org/url> "https://docs.aws.amazon.com/health/latest/APIReference/Welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s4> <http://purl.org/dc/terms/title> "Enabling organizational view - AWS Health User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s4> <https://schema.org/url> "https://docs.aws.amazon.com/health/latest/ug/enable-organizational-view.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s5> <http://purl.org/dc/terms/title> "Creating EventBridge rules for AWS Region coverage - AWS Health User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s5> <https://schema.org/url> "https://docs.aws.amazon.com/health/latest/ug/choosing-a-region.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s6> <http://purl.org/dc/terms/title> "AWS Health in AWS GovCloud (US) - AWS GovCloud (US) User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s6> <https://schema.org/url> "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-health.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s7> <http://purl.org/dc/terms/title> "AWS Health and AWS Organizations - AWS Organizations User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s7> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/services-that-can-integrate-health.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Cloud Operations Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s8> <http://purl.org/dc/terms/title> "Learning about AWS service health with the new AWS Health Dashboard (AWS Cloud Operations Blog, 2022-02-28)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s8> <https://schema.org/url> "https://aws.amazon.com/blogs/mt/learning-about-aws-service-health-with-the-new-aws-health-dashboard/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s9> <http://purl.org/dc/terms/title> "AWS Health introduces the version catalog for software lifecycle management (What's New with AWS, 2026-10-02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-iam/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-iam/s10> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03) exam guide" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-iam/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -2442,6 +2442,37 @@
     ]
   },
   {
+    "id": "kt:aws-health-dashboard",
+    "title": "AWS Health Dashboard",
+    "aliases": [
+      "AWS Health",
+      "AWS Health API",
+      "AWS Personal Health Dashboard",
+      "Personal Health Dashboard",
+      "AWS Service Health Dashboard",
+      "Service Health Dashboard"
+    ],
+    "type": "Service",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/aws-health-dashboard.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/health/latest/ug/what-is-aws-health.html",
+      "https://docs.aws.amazon.com/health/latest/ug/aws-health-concepts-and-terms.html",
+      "https://docs.aws.amazon.com/health/latest/APIReference/Welcome.html",
+      "https://docs.aws.amazon.com/health/latest/ug/enable-organizational-view.html",
+      "https://docs.aws.amazon.com/health/latest/ug/choosing-a-region.html",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-health.html",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/services-that-can-integrate-health.html",
+      "https://aws.amazon.com/blogs/mt/learning-about-aws-service-health-with-the-new-aws-health-dashboard/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management/",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html"
+    ]
+  },
+  {
     "id": "kt:aws-iam",
     "title": "AWS Identity and Access Management",
     "aliases": [
