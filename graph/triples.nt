@@ -840,6 +840,36 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
 <https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Managed Streaming for Apache Kafka" .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS MSK" .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon MSK" .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/2004/02/skos/core#altLabel> "MSK Provisioned" .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/2004/02/skos/core#altLabel> "MSK Serverless" .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/2004/02/skos/core#altLabel> "MSK" .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed service for running open-source Apache Kafka, offered as MSK Provisioned (Standard or Express brokers you size) or MSK Serverless (capacity managed by AWS), with MSK Connect for connectors and MSK Replicator for cross-cluster replication." .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Managed Streaming for Apache Kafka" .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/amazon-msk-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon OpenSearch Service" .
@@ -6029,6 +6059,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s7> <https://schema.org/url> "https://aws.amazon.com/compare/mq-and-sqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s1> <http://purl.org/dc/terms/title> "Welcome to the Amazon MSK Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s1> <https://schema.org/url> "https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s2> <http://purl.org/dc/terms/title> "Amazon MSK Express brokers" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s2> <https://schema.org/url> "https://docs.aws.amazon.com/msk/latest/developerguide/msk-broker-types-express.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s3> <http://purl.org/dc/terms/title> "What is MSK Serverless? - Amazon Managed Streaming for Apache Kafka" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s3> <https://schema.org/url> "https://docs.aws.amazon.com/msk/latest/developerguide/serverless" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s4> <http://purl.org/dc/terms/title> "Amazon MSK quota - Amazon Managed Streaming for Apache Kafka" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s4> <https://schema.org/url> "https://docs.aws.amazon.com/msk/latest/developerguide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s5> <http://purl.org/dc/terms/title> "Amazon Managed Streaming for Apache Kafka pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s5> <https://schema.org/url> "https://aws.amazon.com/msk/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s6> <http://purl.org/dc/terms/title> "Amazon MSK now supports up to 5x more partitions on Express Brokers" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-msk-partitions-express-broker" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s7> <http://purl.org/dc/terms/title> "What's the Difference Between Amazon MSK and MSK Serverless?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s7> <https://schema.org/url> "https://aws.amazon.com/compare/msk-and-msk-serverless/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s8> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <http://purl.org/dc/terms/title> "What is Amazon OpenSearch Service?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

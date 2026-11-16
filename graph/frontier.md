@@ -15,6 +15,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:devops` | `kt:aws-developer-tools`, `kt:ci-cd`, `kt:infrastructure-as-code` |
 | `kt:multi-region-architecture` | `kt:dynamodb-global-tables`, `kt:amazon-application-recovery-controller`, `kt:aws-global-accelerator` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
+| `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams`, `kt:amazon-msk` |
 | `kt:aws-cloud-map` | `kt:container-networking-on-aws`, `kt:ecs-quotas` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
@@ -45,7 +46,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-elastic-vmware-service` | `kt:vmware-migration-to-aws` |
 | `kt:amazon-kendra` | `kt:amazon-q-business` |
 | `kt:amazon-macie` | `kt:aws-security-hub` |
-| `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
+| `kt:amazon-msk-quotas` | `kt:amazon-msk` |
 | `kt:amazon-neptune` | `kt:purpose-built-databases` |
 | `kt:amazon-quick` | `kt:amazon-q-business` |
 | `kt:amazon-swf` | `kt:aws-step-functions` |

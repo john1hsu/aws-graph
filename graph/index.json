@@ -732,6 +732,33 @@
     ]
   },
   {
+    "id": "kt:amazon-msk",
+    "title": "Amazon Managed Streaming for Apache Kafka",
+    "aliases": [
+      "Amazon MSK",
+      "MSK",
+      "AWS MSK",
+      "MSK Serverless",
+      "MSK Provisioned"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/amazon-msk.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html",
+      "https://docs.aws.amazon.com/msk/latest/developerguide/msk-broker-types-express.html",
+      "https://docs.aws.amazon.com/msk/latest/developerguide/serverless",
+      "https://docs.aws.amazon.com/msk/latest/developerguide/limits.html",
+      "https://aws.amazon.com/msk/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-msk-partitions-express-broker",
+      "https://aws.amazon.com/compare/msk-and-msk-serverless/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-opensearch-service",
     "title": "Amazon OpenSearch Service",
     "aliases": [

@@ -1432,6 +1432,117 @@
       ]
     },
     {
+      "@id": "kt:amazon-msk",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Managed Streaming for Apache Kafka",
+      "skos:definition": "AWS's fully managed service for running open-source Apache Kafka, offered as MSK Provisioned (Standard or Express brokers you size) or MSK Serverless (capacity managed by AWS), with MSK Connect for connectors and MSK Replicator for cross-cluster replication.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Welcome to the Amazon MSK Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon MSK Express brokers",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/msk/latest/developerguide/msk-broker-types-express.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is MSK Serverless? - Amazon Managed Streaming for Apache Kafka",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/msk/latest/developerguide/serverless",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon MSK quota - Amazon Managed Streaming for Apache Kafka",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/msk/latest/developerguide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Managed Streaming for Apache Kafka pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/msk/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon MSK now supports up to 5x more partitions on Express Brokers",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-msk-partitions-express-broker",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "What's the Difference Between Amazon MSK and MSK Serverless?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compare/msk-and-msk-serverless/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Solutions Architect - Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/analytics/amazon-msk.md",
+      "skos:altLabel": [
+        "Amazon MSK",
+        "MSK",
+        "AWS MSK",
+        "MSK Serverless",
+        "MSK Provisioned"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-analytics-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-managed-service-for-apache-flink"
+        },
+        {
+          "@id": "kt:aws-glue"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-kinesis-data-streams"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:amazon-msk-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-opensearch-service",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon OpenSearch Service",
