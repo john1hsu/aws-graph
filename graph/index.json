@@ -684,6 +684,30 @@
     ]
   },
   {
+    "id": "kt:amazon-mq",
+    "title": "Amazon MQ",
+    "aliases": [
+      "AWS MQ",
+      "Amazon MQ for ActiveMQ",
+      "Amazon MQ for RabbitMQ"
+    ],
+    "type": "Service",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/amazon-mq.md",
+    "created": "2026-11-16",
+    "verified": "2026-11-16",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/en_us/amazon-mq/latest/developer-guide/welcome.html",
+      "https://docs.aws.amazon.com/en_us/amazon-mq/latest/developer-guide/amazon-mq-broker-architecture.html",
+      "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/amazon-mq-release-notes.html",
+      "https://docs.aws.amazon.com/en_us/amazon-mq/latest/developer-guide/amazon-mq-limits.html",
+      "https://aws.amazon.com/amazon-mq/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-mq-rabbitmq-42",
+      "https://aws.amazon.com/compare/mq-and-sqs/"
+    ]
+  },
+  {
     "id": "kt:amazon-opensearch-service",
     "title": "Amazon OpenSearch Service",
     "aliases": [

@@ -48,7 +48,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-kendra` | `kt:amazon-q-business` |
 | `kt:amazon-macie` | `kt:aws-security-hub` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams` |
-| `kt:amazon-mq` | `kt:amazon-sqs` |
 | `kt:amazon-neptune` | `kt:purpose-built-databases` |
 | `kt:amazon-quick` | `kt:amazon-q-business` |
 | `kt:amazon-swf` | `kt:aws-step-functions` |
@@ -60,6 +59,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-amplify` | `kt:aws-appsync` |
 | `kt:aws-app-runner` | `kt:aws-container-services` |
+| `kt:aws-application-integration-services` | `kt:amazon-mq` |
 | `kt:aws-audit-manager` | `kt:nist-sp-800-53` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-backup-quotas` | `kt:aws-backup` |

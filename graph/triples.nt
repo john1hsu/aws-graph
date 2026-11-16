@@ -785,6 +785,36 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon MQ" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS MQ" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon MQ for ActiveMQ" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon MQ for RabbitMQ" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed message broker service for Apache ActiveMQ Classic and RabbitMQ, which lets applications that speak standard messaging protocols such as JMS, AMQP, MQTT and STOMP move to AWS without rewriting their messaging code, while AWS runs provisioning, patching and failover." .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon MQ" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sns> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ebs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-efs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mq> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon OpenSearch Service" .
@@ -5883,6 +5913,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-kinesis-data-streams-ondemand-advantage" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s1> <http://purl.org/dc/terms/title> "What is Amazon MQ?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s1> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/amazon-mq/latest/developer-guide/welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s2> <http://purl.org/dc/terms/title> "Deployment options for Amazon MQ for ActiveMQ brokers" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s2> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/amazon-mq/latest/developer-guide/amazon-mq-broker-architecture.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s3> <http://purl.org/dc/terms/title> "Amazon MQ release notes" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s3> <https://schema.org/url> "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/amazon-mq-release-notes.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s4> <http://purl.org/dc/terms/title> "Quotas in Amazon MQ" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s4> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/amazon-mq/latest/developer-guide/amazon-mq-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s5> <http://purl.org/dc/terms/title> "Amazon MQ pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s5> <https://schema.org/url> "https://aws.amazon.com/amazon-mq/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s6> <http://purl.org/dc/terms/title> "Amazon MQ now supports RabbitMQ version 4.2" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-mq-rabbitmq-42" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s7> <http://purl.org/dc/terms/title> "What's the Difference Between Amazon MQ and Amazon SQS?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s7> <https://schema.org/url> "https://aws.amazon.com/compare/mq-and-sqs/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <http://purl.org/dc/terms/title> "What is Amazon OpenSearch Service?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

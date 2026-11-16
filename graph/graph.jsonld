@@ -15985,6 +15985,118 @@
       ]
     },
     {
+      "@id": "kt:amazon-mq",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon MQ",
+      "skos:definition": "AWS's managed message broker service for Apache ActiveMQ Classic and RabbitMQ, which lets applications that speak standard messaging protocols such as JMS, AMQP, MQTT and STOMP move to AWS without rewriting their messaging code, while AWS runs provisioning, patching and failover.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedOn": "2026-11-16",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon MQ?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/amazon-mq/latest/developer-guide/welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deployment options for Amazon MQ for ActiveMQ brokers",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/amazon-mq/latest/developer-guide/amazon-mq-broker-architecture.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon MQ release notes",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/amazon-mq-release-notes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas in Amazon MQ",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/amazon-mq/latest/developer-guide/amazon-mq-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon MQ pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/amazon-mq/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon MQ now supports RabbitMQ version 4.2",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-mq-rabbitmq-42",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "What's the Difference Between Amazon MQ and Amazon SQS?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compare/mq-and-sqs/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/amazon-mq.md",
+      "skos:altLabel": [
+        "AWS MQ",
+        "Amazon MQ for ActiveMQ",
+        "Amazon MQ for RabbitMQ"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-application-integration-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-sqs"
+        },
+        {
+          "@id": "kt:amazon-sns"
+        },
+        {
+          "@id": "kt:amazon-eventbridge"
+        },
+        {
+          "@id": "kt:seven-rs-migration-strategies"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-sqs"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-efs"
+        },
+        {
+          "@id": "kt:amazon-ebs"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-sns",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon SNS",
