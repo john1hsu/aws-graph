@@ -3844,6 +3844,83 @@
       ]
     },
     {
+      "@id": "kt:aws-certified-cloudops-engineer-associate",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "AWS Certified CloudOps Engineer - Associate",
+      "skos:definition": "AWS's associate-level operations certification (exam SOA-C03), validating the ability to monitor, automate, secure, network and keep AWS workloads available; it replaced the SysOps Administrator - Associate name and SOA-C02 exam in September 2025.",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Certified CloudOps Engineer - Associate (SOA-C03) Exam Guide (PDF)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/sysops-administrator-associate-03/sysops-administrator-associate-03.pdf",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certified CloudOps Engineer - Associate",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/certified-cloudops-engineer-associate",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Exam update and new name for operations certification",
+          "dcterms:publisher": "Amazon Web Services (AWS Training and Certification Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/training-and-certification/exam-update-and-new-name-for-operations-certification",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Certification - Recertification",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/recertification/",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-certified-cloudops-engineer-associate.md",
+      "skos:altLabel": [
+        "SOA-C03",
+        "AWS Certified SysOps Administrator - Associate",
+        "SysOps Administrator Associate",
+        "SOA-C02",
+        "AWS CloudOps Engineer Associate"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-certified-devops-engineer-professional"
+        },
+        {
+          "@id": "kt:amazon-cloudwatch"
+        },
+        {
+          "@id": "kt:aws-systems-manager"
+        },
+        {
+          "@id": "kt:aws-cloudformation"
+        },
+        {
+          "@id": "kt:aws-backup"
+        },
+        {
+          "@id": "kt:aws-skill-builder"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        },
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-data-engineer-associate",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified Data Engineer - Associate",

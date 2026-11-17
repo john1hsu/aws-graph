@@ -1865,6 +1865,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified CloudOps Engineer - Associate" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Certified SysOps Administrator - Associate" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS CloudOps Engineer Associate" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#altLabel> "SOA-C02" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#altLabel> "SOA-C03" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#altLabel> "SysOps Administrator Associate" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#definition> "AWS's associate-level operations certification (exam SOA-C03), validating the ability to monitor, automate, secure, network and keep AWS workloads available; it replaced the SysOps Administrator - Associate name and SOA-C02 exam in September 2025." .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Certified CloudOps Engineer - Associate" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-backup> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-skill-builder> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-systems-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Data Engineer - Associate" .
@@ -7864,6 +7890,26 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloud-practitioner/s3> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s1> <http://purl.org/dc/terms/title> "AWS Certified CloudOps Engineer - Associate (SOA-C03) Exam Guide (PDF)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s1> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/sysops-administrator-associate-03/sysops-administrator-associate-03.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s2> <http://purl.org/dc/terms/title> "AWS Certified CloudOps Engineer - Associate" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s2> <https://schema.org/url> "https://aws.amazon.com/certification/certified-cloudops-engineer-associate" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Training and Certification Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s3> <http://purl.org/dc/terms/title> "Exam update and new name for operations certification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s3> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/exam-update-and-new-name-for-operations-certification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s4> <http://purl.org/dc/terms/title> "AWS Certification - Recertification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-cloudops-engineer-associate/s4> <https://schema.org/url> "https://aws.amazon.com/certification/recertification/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s1> <http://purl.org/dc/terms/title> "Exam Guide (DEA-C01): AWS Certified Data Engineer - Associate (PDF)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-data-engineer-associate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -1643,6 +1643,29 @@
     ]
   },
   {
+    "id": "kt:aws-certified-cloudops-engineer-associate",
+    "title": "AWS Certified CloudOps Engineer - Associate",
+    "aliases": [
+      "SOA-C03",
+      "AWS Certified SysOps Administrator - Associate",
+      "SysOps Administrator Associate",
+      "SOA-C02",
+      "AWS CloudOps Engineer Associate"
+    ],
+    "type": "Certification",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certified-cloudops-engineer-associate.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/aws-certification/latest/sysops-administrator-associate-03/sysops-administrator-associate-03.pdf",
+      "https://aws.amazon.com/certification/certified-cloudops-engineer-associate",
+      "https://aws.amazon.com/blogs/training-and-certification/exam-update-and-new-name-for-operations-certification",
+      "https://aws.amazon.com/certification/recertification/"
+    ]
+  },
+  {
     "id": "kt:aws-certified-data-engineer-associate",
     "title": "AWS Certified Data Engineer - Associate",
     "aliases": [

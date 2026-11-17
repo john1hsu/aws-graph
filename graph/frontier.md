@@ -14,6 +14,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
+| `kt:aws-skill-builder` | `kt:aws-certification-program`, `kt:aws-certified-cloudops-engineer-associate` |
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
@@ -55,7 +56,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-billing-conductor` | `kt:aws-billing-and-cost-management` |
 | `kt:aws-billing-transfer` | `kt:aws-billing-and-cost-management` |
-| `kt:aws-certified-cloudops-engineer-associate` | `kt:aws-certified-devops-engineer-professional` |
 | `kt:aws-codecommit` | `kt:aws-developer-tools` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-devops-agent` | `kt:aws-support-plans` |
@@ -68,7 +68,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-professional-services` | `kt:aws-support-plans` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-security-incident-response` | `kt:aws-support-plans` |
-| `kt:aws-skill-builder` | `kt:aws-certification-program` |
 | `kt:aws-snowball-edge` | `kt:aws-schema-conversion-tool` |
 | `kt:aws-sustainability-console` | `kt:sustainability-pillar` |
 | `kt:aws-tag-editor` | `kt:cost-allocation-tags` |
