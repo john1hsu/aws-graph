@@ -900,6 +900,37 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Neptune" .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Neptune Database" .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2004/02/skos/core#altLabel> "Neptune Database" .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2004/02/skos/core#altLabel> "Neptune Serverless" .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2004/02/skos/core#altLabel> "Neptune" .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed graph database service, which stores property graphs (queried with Gremlin or openCypher) and RDF graphs (queried with SPARQL) on a cluster volume replicated across three Availability Zones, with provisioned or serverless instances and an in-memory sibling engine, Neptune Analytics, for graph analytics and vector search." .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Neptune" .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-aurora> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-documentdb> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/neptune-analytics> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/neptune-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/database-savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-neptune> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon OpenSearch Service" .
@@ -6813,6 +6844,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s1> <http://purl.org/dc/terms/title> "What Is Amazon Neptune?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s1> <https://schema.org/url> "https://docs.aws.amazon.com/neptune/latest/userguide/intro.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s2> <http://purl.org/dc/terms/title> "Amazon Neptune FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s2> <https://schema.org/url> "https://aws.amazon.com/neptune/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s3> <http://purl.org/dc/terms/title> "Amazon Neptune Limits" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s3> <https://schema.org/url> "https://docs.aws.amazon.com/neptune/latest/userguide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s4> <http://purl.org/dc/terms/title> "Capacity scaling in a Neptune Serverless DB cluster" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s4> <https://schema.org/url> "https://docs.aws.amazon.com/neptune/latest/userguide/neptune-serverless-capacity-scaling.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s5> <http://purl.org/dc/terms/title> "Amazon Neptune Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s5> <https://schema.org/url> "https://aws.amazon.com/neptune/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s6> <http://purl.org/dc/terms/title> "Using Amazon Neptune with a global database" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s6> <https://schema.org/url> "https://docs.aws.amazon.com/neptune/latest/userguide/neptune-global-database.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s7> <http://purl.org/dc/terms/title> "When to use Neptune Analytics and when to use Neptune Database" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s7> <https://schema.org/url> "https://docs.aws.amazon.com/neptune-analytics/latest/userguide/neptune-analytics-vs-neptune-database.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s8> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s8> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <http://purl.org/dc/terms/title> "What is Amazon OpenSearch Service?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

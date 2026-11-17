@@ -786,6 +786,32 @@
     ]
   },
   {
+    "id": "kt:amazon-neptune",
+    "title": "Amazon Neptune",
+    "aliases": [
+      "Neptune",
+      "Neptune Database",
+      "Amazon Neptune Database",
+      "Neptune Serverless"
+    ],
+    "type": "Service",
+    "domain": "databases",
+    "file": "articles/databases/amazon-neptune.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/neptune/latest/userguide/intro.html",
+      "https://aws.amazon.com/neptune/faqs/",
+      "https://docs.aws.amazon.com/neptune/latest/userguide/limits.html",
+      "https://docs.aws.amazon.com/neptune/latest/userguide/neptune-serverless-capacity-scaling.html",
+      "https://aws.amazon.com/neptune/pricing",
+      "https://docs.aws.amazon.com/neptune/latest/userguide/neptune-global-database.html",
+      "https://docs.aws.amazon.com/neptune-analytics/latest/userguide/neptune-analytics-vs-neptune-database.html",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/"
+    ]
+  },
+  {
     "id": "kt:amazon-opensearch-service",
     "title": "Amazon OpenSearch Service",
     "aliases": [

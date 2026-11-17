@@ -9,6 +9,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
 | `kt:aws-site-to-site-vpn` | `kt:aws-cloud-wan`, `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
+| `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:cloudformation-drift-detection`, `kt:infrastructure-as-code` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams`, `kt:amazon-msk` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
@@ -17,7 +18,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
-| `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:ec2-image-builder` | `kt:amazon-machine-images`, `kt:amazon-machine-images` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:karpenter` | `kt:bottlerocket`, `kt:eks-auto-mode` |
@@ -38,7 +38,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-kinesis-video-streams` | `kt:amazon-rekognition` |
 | `kt:amazon-macie` | `kt:aws-security-hub` |
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |
-| `kt:amazon-neptune` | `kt:purpose-built-databases` |
 | `kt:amazon-swf` | `kt:aws-step-functions` |
 | `kt:ami-quotas` | `kt:amazon-machine-images` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
@@ -130,6 +129,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:microservices` | `kt:devops` |
 | `kt:multi-az-architecture` | `kt:multi-region-architecture` |
+| `kt:neptune-analytics` | `kt:amazon-neptune` |
+| `kt:neptune-quotas` | `kt:amazon-neptune` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
 | `kt:opensearch-service-quotas` | `kt:amazon-opensearch-service` |
 | `kt:ram-quotas` | `kt:aws-resource-access-manager` |

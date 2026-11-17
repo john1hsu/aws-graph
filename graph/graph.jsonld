@@ -8473,6 +8473,122 @@
       ]
     },
     {
+      "@id": "kt:amazon-neptune",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Neptune",
+      "skos:definition": "AWS's fully managed graph database service, which stores property graphs (queried with Gremlin or openCypher) and RDF graphs (queried with SPARQL) on a cluster volume replicated across three Availability Zones, with provisioned or serverless instances and an in-memory sibling engine, Neptune Analytics, for graph analytics and vector search.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is Amazon Neptune?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/neptune/latest/userguide/intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Neptune FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/neptune/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Neptune Limits",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/neptune/latest/userguide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Capacity scaling in a Neptune Serverless DB cluster",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/neptune/latest/userguide/neptune-serverless-capacity-scaling.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Neptune Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/neptune/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using Amazon Neptune with a global database",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/neptune/latest/userguide/neptune-global-database.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "When to use Neptune Analytics and when to use Neptune Database",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/neptune-analytics/latest/userguide/neptune-analytics-vs-neptune-database.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/databases/amazon-neptune.md",
+      "skos:altLabel": [
+        "Neptune",
+        "Neptune Database",
+        "Amazon Neptune Database",
+        "Neptune Serverless"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:purpose-built-databases"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-dynamodb"
+        },
+        {
+          "@id": "kt:amazon-documentdb"
+        },
+        {
+          "@id": "kt:amazon-aurora"
+        },
+        {
+          "@id": "kt:neptune-analytics"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:neptune-quotas"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:database-savings-plans"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-rds",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Relational Database Service",
