@@ -18430,6 +18430,93 @@
       ]
     },
     {
+      "@id": "kt:kms-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "AWS KMS quotas",
+      "skos:definition": "The per-account, per-Region limits on AWS Key Management Service: resource quotas on keys, aliases, grants, custom key stores and on-demand rotations, and request-per-second quotas that throttle cryptographic and management API calls, including calls AWS services make on your behalf.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Resource quotas - AWS Key Management Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/kms/latest/developerguide/resource-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Request quotas - AWS Key Management Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/kms/latest/developerguide/requests-per-second.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Throttling AWS KMS requests - AWS Key Management Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/kms/latest/developerguide/throttling.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Reducing the cost of SSE-KMS with Amazon S3 Bucket Keys",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide//bucket-key.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage your AWS KMS API request rates using Service Quotas and Amazon CloudWatch",
+          "dcterms:publisher": "Amazon Web Services (AWS Security Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/security/manage-your-aws-kms-api-request-rates-using-service-quotas-and-amazon-cloudwatch",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/security/kms-quotas.md",
+      "skos:altLabel": [
+        "KMS quotas",
+        "AWS KMS limits",
+        "KMS limits",
+        "AWS Key Management Service quotas",
+        "KMS request quotas",
+        "KMS API rate limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-s3-quotas"
+        },
+        {
+          "@id": "kt:aws-cloudhsm"
+        },
+        {
+          "@id": "kt:iam-quotas"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:amazon-s3-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-api-gateway",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon API Gateway",

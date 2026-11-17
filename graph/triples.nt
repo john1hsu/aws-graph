@@ -5085,6 +5085,33 @@
 <https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "AWS KMS quotas" .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS KMS limits" .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Key Management Service quotas" .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "KMS API rate limits" .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "KMS limits" .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "KMS quotas" .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "KMS request quotas" .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-account, per-Region limits on AWS Key Management Service: resource quotas on keys, aliases, grants, custom key stores and on-demand rotations, and request-per-second quotas that throttle cryptographic and management API calls, including calls AWS services make on your behalf." .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS KMS quotas" .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-quotas> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/kms-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <http://www.w3.org/2000/01/rdf-schema#label> "Lambda cold starts" .
@@ -11919,6 +11946,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <https://schema.org/url> "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M/part-120/subpart-C/section-120.54" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s1> <http://purl.org/dc/terms/title> "Resource quotas - AWS Key Management Service" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/kms/latest/developerguide/resource-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s2> <http://purl.org/dc/terms/title> "Request quotas - AWS Key Management Service" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/kms/latest/developerguide/requests-per-second.html" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s3> <http://purl.org/dc/terms/title> "Throttling AWS KMS requests - AWS Key Management Service" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/kms/latest/developerguide/throttling.html" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s4> <http://purl.org/dc/terms/title> "Reducing the cost of SSE-KMS with Amazon S3 Bucket Keys" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide//bucket-key.html" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Security Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s5> <http://purl.org/dc/terms/title> "Manage your AWS KMS API request rates using Service Quotas and Amazon CloudWatch" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/security/manage-your-aws-kms-api-request-rates-using-service-quotas-and-amazon-cloudwatch" .
 <https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s1> <http://purl.org/dc/terms/title> "Understanding the Lambda execution environment lifecycle - AWS Lambda" .
 <https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

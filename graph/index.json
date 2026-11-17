@@ -4445,6 +4445,31 @@
     ]
   },
   {
+    "id": "kt:kms-quotas",
+    "title": "AWS KMS quotas",
+    "aliases": [
+      "KMS quotas",
+      "AWS KMS limits",
+      "KMS limits",
+      "AWS Key Management Service quotas",
+      "KMS request quotas",
+      "KMS API rate limits"
+    ],
+    "type": "Limit",
+    "domain": "security",
+    "file": "articles/security/kms-quotas.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/kms/latest/developerguide/resource-limits.html",
+      "https://docs.aws.amazon.com/kms/latest/developerguide/requests-per-second.html",
+      "https://docs.aws.amazon.com/kms/latest/developerguide/throttling.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide//bucket-key.html",
+      "https://aws.amazon.com/blogs/security/manage-your-aws-kms-api-request-rates-using-service-quotas-and-amazon-cloudwatch"
+    ]
+  },
+  {
     "id": "kt:lambda-cold-starts",
     "title": "Lambda cold starts",
     "aliases": [

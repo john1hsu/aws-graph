@@ -21,7 +21,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ec2-image-builder` | `kt:amazon-machine-images`, `kt:amazon-machine-images` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:karpenter` | `kt:bottlerocket`, `kt:eks-auto-mode` |
-| `kt:kms-quotas` | `kt:aws-kms`, `kt:amazon-s3-quotas` |
 | `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
