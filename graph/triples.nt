@@ -5400,6 +5400,31 @@
 <https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/itar-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Tool> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/2000/01/rdf-schema#label> "Karpenter" .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/2004/02/skos/core#altLabel> "Karpenter autoscaler" .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/2004/02/skos/core#altLabel> "Karpenter node autoscaler" .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/2004/02/skos/core#definition> "An open-source Kubernetes node lifecycle manager, created by AWS and now developed under Kubernetes SIG Autoscaling, that watches for unschedulable pods and launches right-sized EC2 instances for them directly, then consolidates, replaces and retires nodes; it is the engine behind EKS Auto Mode." .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/2004/02/skos/core#prefLabel> "Karpenter" .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/bottlerocket> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/karpenter/s1> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/karpenter/s2> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/karpenter/s3> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/karpenter/s4> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/karpenter/s5> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/cluster-autoscaler> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/karpenter> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
 <https://github.com/john1hsu/aws-graph/id/kms-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "AWS KMS quotas" .
@@ -12697,6 +12722,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/aws-graph/id/source/itar-on-aws/s5> <https://schema.org/url> "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M/part-120/subpart-C/section-120.54" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s1> <http://purl.org/dc/terms/title> "Karpenter (Amazon EKS Best Practices Guide)" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s1> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/best-practices/karpenter.html" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s2> <http://purl.org/dc/terms/title> "Scale cluster compute with Karpenter and Cluster Autoscaler" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s2> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Containers Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s3> <http://purl.org/dc/terms/title> "Announcing Karpenter 1.0" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s3> <https://schema.org/url> "https://aws.amazon.com/blogs/containers/announcing-karpenter-1-0" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s4> <http://purl.org/dc/terms/publisher> "Kubernetes SIG Autoscaling / Karpenter project" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s4> <http://purl.org/dc/terms/title> "Disruption (Karpenter documentation)" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s4> <https://schema.org/url> "https://karpenter.sh/docs/concepts/disruption/" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s5> <http://purl.org/dc/terms/publisher> "Cloud Native Computing Foundation" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s5> <http://purl.org/dc/terms/title> "Karpenter v1.0.0 beta (CNCF member post)" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/aws-graph/id/source/karpenter/s5> <https://schema.org/url> "https://www.cncf.io/blog/2024/11/06/karpenter-v1-0-0-beta" .
 <https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s1> <http://purl.org/dc/terms/title> "Resource quotas - AWS Key Management Service" .
 <https://github.com/john1hsu/aws-graph/id/source/kms-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

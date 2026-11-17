@@ -4713,6 +4713,27 @@
     ]
   },
   {
+    "id": "kt:karpenter",
+    "title": "Karpenter",
+    "aliases": [
+      "Karpenter autoscaler",
+      "Karpenter node autoscaler"
+    ],
+    "type": "Tool",
+    "domain": "containers",
+    "file": "articles/containers/karpenter.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/eks/latest/best-practices/karpenter.html",
+      "https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html",
+      "https://aws.amazon.com/blogs/containers/announcing-karpenter-1-0",
+      "https://karpenter.sh/docs/concepts/disruption/",
+      "https://www.cncf.io/blog/2024/11/06/karpenter-v1-0-0-beta"
+    ]
+  },
+  {
     "id": "kt:kms-quotas",
     "title": "AWS KMS quotas",
     "aliases": [

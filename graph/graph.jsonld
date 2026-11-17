@@ -7388,6 +7388,95 @@
       ]
     },
     {
+      "@id": "kt:karpenter",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Karpenter",
+      "skos:definition": "An open-source Kubernetes node lifecycle manager, created by AWS and now developed under Kubernetes SIG Autoscaling, that watches for unschedulable pods and launches right-sized EC2 instances for them directly, then consolidates, replaces and retires nodes; it is the engine behind EKS Auto Mode.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Karpenter (Amazon EKS Best Practices Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/best-practices/karpenter.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Scale cluster compute with Karpenter and Cluster Autoscaler",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing Karpenter 1.0",
+          "dcterms:publisher": "Amazon Web Services (AWS Containers Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/containers/announcing-karpenter-1-0",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Disruption (Karpenter documentation)",
+          "dcterms:publisher": "Kubernetes SIG Autoscaling / Karpenter project",
+          "schema:url": "https://karpenter.sh/docs/concepts/disruption/",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Karpenter v1.0.0 beta (CNCF member post)",
+          "dcterms:publisher": "Cloud Native Computing Foundation",
+          "schema:url": "https://www.cncf.io/blog/2024/11/06/karpenter-v1-0-0-beta",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/containers/karpenter.md",
+      "skos:altLabel": [
+        "Karpenter autoscaler",
+        "Karpenter node autoscaler"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:eks-auto-mode"
+        },
+        {
+          "@id": "kt:bottlerocket"
+        },
+        {
+          "@id": "kt:spot-instances"
+        },
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:cluster-autoscaler"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-sqs"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-billing-and-cost-management",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Billing and Cost Management",

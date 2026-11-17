@@ -18,7 +18,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
 | `kt:ebs-snapshots` | `kt:amazon-ebs`, `kt:ebs-quotas` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
-| `kt:karpenter` | `kt:bottlerocket`, `kt:eks-auto-mode` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
@@ -78,6 +77,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudhsm-quotas` | `kt:aws-cloudhsm` |
 | `kt:cloudtrail-quotas` | `kt:aws-cloudtrail` |
 | `kt:cloudwatch-quotas` | `kt:amazon-cloudwatch` |
+| `kt:cluster-autoscaler` | `kt:karpenter` |
 | `kt:codedeploy-quotas` | `kt:aws-codedeploy` |
 | `kt:cognito-quotas` | `kt:amazon-cognito` |
 | `kt:comprehend-quotas` | `kt:amazon-comprehend` |
