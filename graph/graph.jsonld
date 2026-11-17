@@ -1165,6 +1165,88 @@
       ]
     },
     {
+      "@id": "kt:generative-ai-on-aws",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Generative AI on AWS",
+      "skos:definition": "The layered set of AWS offerings for generative AI: ready-to-use assistants at the top, Amazon Bedrock and Bedrock AgentCore for building applications and agents in the middle, and SageMaker AI, HyperPod and accelerated EC2 (Trainium, Inferentia, GPUs) for hosting, customizing and training models at the bottom.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Choosing a generative AI service - AWS Decision Guides",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Generative AI Lens - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-ai-lens.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Layer 3: Security and governance for generative AI platforms on AWS - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-enterprise-ready-gen-ai-platform/security.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Securing generative AI: An introduction to the Generative AI Security Scoping Matrix",
+          "dcterms:publisher": "AWS Security Blog",
+          "schema:url": "https://aws.amazon.com/blogs/security/securing-generative-ai-an-introduction-to-the-generative-ai-security-scoping-matrix",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Certified AI Practitioner (AIF-C01) - Content Domain 2: Fundamentals of GenAI",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.md",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/generative-ai-on-aws.md",
+      "skos:altLabel": [
+        "GenAI on AWS",
+        "AWS generative AI stack",
+        "AWS generative AI services"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-quick"
+        },
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:amazon-bedrock-agentcore"
+        },
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:aws-trainium-and-inferentia"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-athena",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Athena",

@@ -4373,6 +4373,28 @@
     ]
   },
   {
+    "id": "kt:generative-ai-on-aws",
+    "title": "Generative AI on AWS",
+    "aliases": [
+      "GenAI on AWS",
+      "AWS generative AI stack",
+      "AWS generative AI services"
+    ],
+    "type": "Concept",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/generative-ai-on-aws.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/decision-guides/latest/generative-ai-on-aws-how-to-choose/guide.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-ai-lens.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-enterprise-ready-gen-ai-platform/security.html",
+      "https://aws.amazon.com/blogs/security/securing-generative-ai-an-introduction-to-the-generative-ai-security-scoping-matrix",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.md"
+    ]
+  },
+  {
     "id": "kt:hipaa-eligible-services",
     "title": "HIPAA eligible services",
     "aliases": [
