@@ -3619,6 +3619,97 @@
       ]
     },
     {
+      "@id": "kt:static-stability",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Static stability",
+      "skos:definition": "A resilience pattern in which a workload keeps running in the same mode during a failure as in normal operation, because capacity, configuration and resources are provisioned in advance and recovery relies on the data plane rather than on control plane actions such as launching instances or editing DNS records.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "REL11-BP05 Use static stability to prevent bimodal behavior - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_withstand_component_failures_static_stability.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL11-BP04 Rely on the data plane and not the control plane during recovery - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_withstand_component_failures_avoid_control_plane.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Static stability - AWS Fault Isolation Boundaries (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/static-stability.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best practices for zonal shifts in ARC - Amazon Application Recovery Controller (ARC)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/r53recovery/latest/dg/route53-arc-best-practices.zonal-shifts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Lambda: Resilience under-the-hood (AWS Compute Blog)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/compute/aws-lambda-resilience-under-the-hood/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/static-stability.md",
+      "skos:altLabel": [
+        "statically stable design",
+        "statically stable architecture"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:reliability-pillar"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:availability-zones"
+        },
+        {
+          "@id": "kt:cell-based-architecture"
+        },
+        {
+          "@id": "kt:multi-region-architecture"
+        },
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-application-recovery-controller"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:bimodal-behavior"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:control-plane-and-data-plane"
+        }
+      ]
+    },
+    {
       "@id": "kt:sustainability-pillar",
       "@type": "kto:Concept",
       "skos:prefLabel": "Sustainability Pillar",

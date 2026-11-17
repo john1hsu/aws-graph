@@ -5297,6 +5297,27 @@
     ]
   },
   {
+    "id": "kt:static-stability",
+    "title": "Static stability",
+    "aliases": [
+      "statically stable design",
+      "statically stable architecture"
+    ],
+    "type": "Pattern",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/static-stability.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_withstand_component_failures_static_stability.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_withstand_component_failures_avoid_control_plane.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/static-stability.html",
+      "https://docs.aws.amazon.com/r53recovery/latest/dg/route53-arc-best-practices.zonal-shifts.html",
+      "https://aws.amazon.com/blogs/compute/aws-lambda-resilience-under-the-hood/"
+    ]
+  },
+  {
     "id": "kt:sustainability-pillar",
     "title": "Sustainability Pillar",
     "aliases": [

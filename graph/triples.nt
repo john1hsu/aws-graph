@@ -13381,6 +13381,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/sqs-vs-sns-vs-eventbridge/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/sqs-vs-sns-vs-eventbridge/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/sqs-vs-sns-vs-eventbridge/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-sqs-max-payload-size-1mib" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s1> <http://purl.org/dc/terms/title> "REL11-BP05 Use static stability to prevent bimodal behavior - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s1> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_withstand_component_failures_static_stability.html" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s2> <http://purl.org/dc/terms/title> "REL11-BP04 Rely on the data plane and not the control plane during recovery - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_withstand_component_failures_avoid_control_plane.html" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s3> <http://purl.org/dc/terms/title> "Static stability - AWS Fault Isolation Boundaries (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s3> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/static-stability.html" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s4> <http://purl.org/dc/terms/title> "Best practices for zonal shifts in ARC - Amazon Application Recovery Controller (ARC)" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s4> <https://schema.org/url> "https://docs.aws.amazon.com/r53recovery/latest/dg/route53-arc-best-practices.zonal-shifts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s5> <http://purl.org/dc/terms/title> "AWS Lambda: Resilience under-the-hood (AWS Compute Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/static-stability/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/aws-lambda-resilience-under-the-hood/" .
 <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s10> <http://purl.org/dc/terms/title> "Document revisions - Sustainability Pillar" .
 <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
@@ -13526,6 +13551,31 @@
 <https://github.com/john1hsu/aws-graph/id/sqs-vs-sns-vs-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
 <https://github.com/john1hsu/aws-graph/id/sqs-vs-sns-vs-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/sqs-vs-sns-vs-eventbridge> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/2000/01/rdf-schema#label> "Static stability" .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/2004/02/skos/core#altLabel> "statically stable architecture" .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/2004/02/skos/core#altLabel> "statically stable design" .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/2004/02/skos/core#definition> "A resilience pattern in which a workload keeps running in the same mode during a failure as in normal operation, because capacity, configuration and resources are provisioned in advance and recovery relies on the data plane rather than on control plane actions such as launching instances or editing DNS records." .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/2004/02/skos/core#prefLabel> "Static stability" .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cell-based-architecture> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-region-architecture> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/static-stability/s1> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/static-stability/s2> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/static-stability/s3> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/static-stability/s4> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/static-stability/s5> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#mitigates> <https://github.com/john1hsu/aws-graph/id/bimodal-behavior> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Sustainability Pillar" .

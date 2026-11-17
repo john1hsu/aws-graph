@@ -67,6 +67,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-tag-editor` | `kt:cost-allocation-tags` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:aws-x-ray` | `kt:aws-developer-tools` |
+| `kt:bimodal-behavior` | `kt:static-stability` |
 | `kt:bsi-c5` | `kt:aws-european-sovereign-cloud` |
 | `kt:cloud-computing` | `kt:amazon-web-services` |
 | `kt:cloud-map-quotas` | `kt:aws-cloud-map` |
@@ -82,6 +83,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:codedeploy-quotas` | `kt:aws-codedeploy` |
 | `kt:cognito-quotas` | `kt:amazon-cognito` |
 | `kt:comprehend-quotas` | `kt:amazon-comprehend` |
+| `kt:control-plane-and-data-plane` | `kt:static-stability` |
 | `kt:control-tower-quotas` | `kt:aws-control-tower` |
 | `kt:cost-optimization-hub` | `kt:aws-compute-optimizer` |
 | `kt:data-perimeter` | `kt:resource-control-policies` |
@@ -146,7 +148,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sns-quotas` | `kt:amazon-sns` |
 | `kt:sqs-quotas` | `kt:amazon-sqs` |
 | `kt:ssm-agent` | `kt:aws-systems-manager` |
-| `kt:static-stability` | `kt:cell-based-architecture` |
 | `kt:step-functions-quotas` | `kt:aws-step-functions` |
 | `kt:storage-gateway-quotas` | `kt:aws-storage-gateway` |
 | `kt:systems-manager-parameter-store` | `kt:aws-systems-manager` |
