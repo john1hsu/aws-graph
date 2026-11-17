@@ -5137,6 +5137,38 @@
 <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-security-hub> .
 <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 On-Demand Capacity Reservations" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#altLabel> "Capacity Reservations" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 Capacity Reservations" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#altLabel> "ODCR" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#altLabel> "ODCRs" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#altLabel> "On-Demand Capacity Reservations" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#altLabel> "future-dated Capacity Reservations" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#altLabel> "interruptible Capacity Reservations" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#definition> "An Amazon EC2 feature that holds compute capacity for a specific instance type, platform, tenancy and Availability Zone for as long as you need it, billed at the On-Demand rate whether or not instances are running; it guarantees capacity but gives no discount on its own." .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EC2 On-Demand Capacity Reservations" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s1> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s2> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s3> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s4> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s5> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s6> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/reserved-instances> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <https://github.com/john1hsu/aws-graph/ontology#domain> "compute" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Operational Excellence Pillar" .
@@ -11860,6 +11892,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s6> <https://schema.org/url> "https://docs.aws.amazon.com/audit-manager/latest/userguide/NIST800-53r5.html" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s1> <http://purl.org/dc/terms/title> "Reserve compute capacity with EC2 On-Demand Capacity Reservations - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-reservations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s2> <http://purl.org/dc/terms/title> "Concepts for Amazon EC2 Capacity Reservations - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s2> <https://schema.org/url> "https://docs.aws.eu/AWSEC2/latest/UserGuide/cr-concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s3> <http://purl.org/dc/terms/title> "Capacity Reservation pricing and billing - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-reservations-pricing-billing.html" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s4> <http://purl.org/dc/terms/title> "Shared Capacity Reservations - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s4> <https://schema.org/url> "https://docs.aws.eu/AWSEC2/latest/UserGuide/capacity-reservation-sharing.html" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s5> <http://purl.org/dc/terms/title> "Amazon EC2 Future-dated Capacity Reservations Now Supports Cancellation" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-fcr-cancellation/" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s6> <http://purl.org/dc/terms/publisher> "AWS Compute Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s6> <http://purl.org/dc/terms/title> "Optimize unused capacity with Amazon EC2 interruptible Capacity Reservations" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/on-demand-capacity-reservations/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/optimize-unused-capacity-with-amazon-ec2-interruptible-capacity-reservations" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://purl.org/dc/terms/title> "Design principles - AWS Well-Architected Framework (operational excellence)" .
 <https://github.com/john1hsu/aws-graph/id/source/operational-excellence-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

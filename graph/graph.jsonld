@@ -5596,6 +5596,113 @@
       ]
     },
     {
+      "@id": "kt:on-demand-capacity-reservations",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon EC2 On-Demand Capacity Reservations",
+      "skos:definition": "An Amazon EC2 feature that holds compute capacity for a specific instance type, platform, tenancy and Availability Zone for as long as you need it, billed at the On-Demand rate whether or not instances are running; it guarantees capacity but gives no discount on its own.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Reserve compute capacity with EC2 On-Demand Capacity Reservations - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-reservations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Concepts for Amazon EC2 Capacity Reservations - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.eu/AWSEC2/latest/UserGuide/cr-concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Capacity Reservation pricing and billing - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-reservations-pricing-billing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Shared Capacity Reservations - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.eu/AWSEC2/latest/UserGuide/capacity-reservation-sharing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Cancellation",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-fcr-cancellation/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Optimize unused capacity with Amazon EC2 interruptible Capacity Reservations",
+          "dcterms:publisher": "AWS Compute Blog",
+          "schema:url": "https://aws.amazon.com/blogs/compute/optimize-unused-capacity-with-amazon-ec2-interruptible-capacity-reservations",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/compute/on-demand-capacity-reservations.md",
+      "skos:altLabel": [
+        "On-Demand Capacity Reservations",
+        "EC2 Capacity Reservations",
+        "ODCR",
+        "ODCRs",
+        "Capacity Reservations",
+        "future-dated Capacity Reservations",
+        "interruptible Capacity Reservations"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:ec2-placement-groups"
+        },
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        },
+        {
+          "@id": "kt:spot-instances"
+        },
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:reserved-instances"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:savings-plans"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-resource-access-manager"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-ecr",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Elastic Container Registry",

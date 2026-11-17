@@ -4495,6 +4495,33 @@
     ]
   },
   {
+    "id": "kt:on-demand-capacity-reservations",
+    "title": "Amazon EC2 On-Demand Capacity Reservations",
+    "aliases": [
+      "On-Demand Capacity Reservations",
+      "EC2 Capacity Reservations",
+      "ODCR",
+      "ODCRs",
+      "Capacity Reservations",
+      "future-dated Capacity Reservations",
+      "interruptible Capacity Reservations"
+    ],
+    "type": "Feature",
+    "domain": "compute",
+    "file": "articles/compute/on-demand-capacity-reservations.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-reservations.html",
+      "https://docs.aws.eu/AWSEC2/latest/UserGuide/cr-concepts.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-reservations-pricing-billing.html",
+      "https://docs.aws.eu/AWSEC2/latest/UserGuide/capacity-reservation-sharing.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-fcr-cancellation/",
+      "https://aws.amazon.com/blogs/compute/optimize-unused-capacity-with-amazon-ec2-interruptible-capacity-reservations"
+    ]
+  },
+  {
     "id": "kt:operational-excellence-pillar",
     "title": "Operational Excellence Pillar",
     "aliases": [

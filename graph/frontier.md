@@ -9,7 +9,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:cloudformation-drift-detection`, `kt:infrastructure-as-code` |
-| `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams`, `kt:amazon-msk` |
 | `kt:aws-cloud-wan` | `kt:aws-direct-connect`, `kt:aws-transit-gateway` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
