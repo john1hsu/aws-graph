@@ -9,7 +9,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:cloudformation-drift-detection`, `kt:infrastructure-as-code` |
-| `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams`, `kt:amazon-msk` |
 | `kt:application-portfolio-assessment` | `kt:migration-wave-planning`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-application-integration-services` | `kt:amazon-mq`, `kt:amazon-swf` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
@@ -38,6 +37,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-macie` | `kt:aws-security-hub` |
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |
 | `kt:ami-quotas` | `kt:amazon-machine-images` |
+| `kt:apache-flink` | `kt:amazon-managed-service-for-apache-flink` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
 | `kt:appsync-quotas` | `kt:aws-appsync` |
@@ -121,6 +121,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lambda-quotas` | `kt:aws-lambda` |
 | `kt:lambda-snapstart` | `kt:lambda-cold-starts` |
 | `kt:landing-zone` | `kt:multi-account-strategy` |
+| `kt:managed-flink-quotas` | `kt:amazon-managed-service-for-apache-flink` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:microservices` | `kt:devops` |
 | `kt:multi-az-architecture` | `kt:multi-region-architecture` |

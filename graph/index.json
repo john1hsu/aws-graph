@@ -761,6 +761,37 @@
     ]
   },
   {
+    "id": "kt:amazon-managed-service-for-apache-flink",
+    "title": "Amazon Managed Service for Apache Flink",
+    "aliases": [
+      "Amazon Kinesis Data Analytics",
+      "Kinesis Data Analytics",
+      "Kinesis Data Analytics for Apache Flink",
+      "KDA",
+      "Amazon Managed Service for Apache Flink Studio",
+      "Managed Flink",
+      "MSF"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/amazon-managed-service-for-apache-flink.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/managed-flink/latest/java/getting-started.html",
+      "https://docs.aws.amazon.com/managed-flink/latest/java/how-scaling.html",
+      "https://docs.aws.amazon.com/general/latest/gr/ka.html",
+      "https://aws.amazon.com/kinesis/analytics/pricing",
+      "https://aws.amazon.com/kinesis/data-analytics/faqs/",
+      "https://aws.amazon.com/blogs/aws/announcing-amazon-managed-service-for-apache-flink-renamed-from-amazon-kinesis-data-analytics",
+      "https://docs.aws.amazon.com/kinesisanalytics/latest/dev/doc-history.html",
+      "https://docs.aws.amazon.com/managed-flink/latest/java/flink-2-3.md",
+      "https://aws.amazon.com/pt/about-aws/whats-new/2026/07/amazon-managed-service-flink-2-3/",
+      "https://docs.aws.amazon.com/pdfs/aws-certification/latest/data-engineer-associate-01/data-engineer-associate-01.pdf"
+    ]
+  },
+  {
     "id": "kt:amazon-mq",
     "title": "Amazon MQ",
     "aliases": [

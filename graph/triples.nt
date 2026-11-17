@@ -872,6 +872,41 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Managed Service for Apache Flink" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Kinesis Data Analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Managed Service for Apache Flink Studio" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2004/02/skos/core#altLabel> "KDA" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2004/02/skos/core#altLabel> "Kinesis Data Analytics for Apache Flink" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2004/02/skos/core#altLabel> "Kinesis Data Analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2004/02/skos/core#altLabel> "MSF" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2004/02/skos/core#altLabel> "Managed Flink" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2004/02/skos/core#definition> "AWS's serverless service for running Apache Flink stream-processing applications (Java, Scala, Python or SQL), billed per Kinesis Processing Unit; it was called Amazon Kinesis Data Analytics until August 2023." .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Managed Service for Apache Flink" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s10> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s9> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-emr> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/managed-flink-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/apache-flink> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-msk> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon MQ" .
@@ -7056,6 +7091,56 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-machine-images/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-machine-images/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-machine-images/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-ec2-amis-disabled-state" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s10> <http://purl.org/dc/terms/title> "AWS Certified Data Engineer - Associate (DEA-C01) Exam Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s10> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/data-engineer-associate-01/data-engineer-associate-01.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s1> <http://purl.org/dc/terms/title> "Get started with Amazon Managed Service for Apache Flink (DataStream API)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s1> <https://schema.org/url> "https://docs.aws.amazon.com/managed-flink/latest/java/getting-started.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s2> <http://purl.org/dc/terms/title> "Implement application scaling in Managed Service for Apache Flink" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s2> <https://schema.org/url> "https://docs.aws.amazon.com/managed-flink/latest/java/how-scaling.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s3> <http://purl.org/dc/terms/title> "Amazon Managed Service for Apache Flink endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s3> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/ka.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s4> <http://purl.org/dc/terms/title> "Amazon Managed Service for Apache Flink pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s4> <https://schema.org/url> "https://aws.amazon.com/kinesis/analytics/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s5> <http://purl.org/dc/terms/title> "Amazon Managed Service for Apache Flink FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s5> <https://schema.org/url> "https://aws.amazon.com/kinesis/data-analytics/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s6> <http://purl.org/dc/terms/title> "Announcing Amazon Managed Service for Apache Flink, renamed from Amazon Kinesis Data Analytics" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/announcing-amazon-managed-service-for-apache-flink-renamed-from-amazon-kinesis-data-analytics" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s7> <http://purl.org/dc/terms/title> "Document history - Amazon Kinesis Data Analytics for SQL Applications Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s7> <https://schema.org/url> "https://docs.aws.amazon.com/kinesisanalytics/latest/dev/doc-history.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s8> <http://purl.org/dc/terms/title> "Amazon Managed Service for Apache Flink 2.3" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s8> <https://schema.org/url> "https://docs.aws.amazon.com/managed-flink/latest/java/flink-2-3.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s9> <http://purl.org/dc/terms/title> "Amazon Managed Service for Apache Flink now supports Apache Flink 2.3 (What's New, Portuguese edition)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s9> <https://schema.org/url> "https://aws.amazon.com/pt/about-aws/whats-new/2026/07/amazon-managed-service-flink-2-3/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s1> <http://purl.org/dc/terms/title> "What is Amazon MQ?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
