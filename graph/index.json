@@ -1320,6 +1320,30 @@
     ]
   },
   {
+    "id": "kt:application-portfolio-assessment",
+    "title": "Application portfolio assessment",
+    "aliases": [
+      "Portfolio assessment",
+      "Migration portfolio assessment",
+      "Application portfolio discovery",
+      "Portfolio discovery and analysis"
+    ],
+    "type": "Concept",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/application-portfolio-assessment.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/application-portfolio-assessment-guide/introduction.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-application-portfolio-assessment-migration/introduction.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-application-portfolio-assessment-migration/methodology-approach.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform",
+      "https://aws.amazon.com/transform/faq",
+      "https://docs.aws.amazon.com/application-discovery/latest/userguide/application-discovery-service-availability-change.html"
+    ]
+  },
+  {
     "id": "kt:attribute-based-access-control",
     "title": "Attribute-based access control (ABAC) on AWS",
     "aliases": [

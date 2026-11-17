@@ -14889,6 +14889,101 @@
       ]
     },
     {
+      "@id": "kt:application-portfolio-assessment",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Application portfolio assessment",
+      "skos:definition": "The continuous workstream in AWS's migration guidance that discovers, analyzes and plans a portfolio of applications and their infrastructure, producing the inventory, business case, migration strategies and wave plans a large migration program runs on.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Application portfolio assessment guide for AWS Cloud migration",
+          "dcterms:publisher": "Amazon Web Services (AWS Prescriptive Guidance)",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/application-portfolio-assessment-guide/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Application portfolio assessment strategy for AWS Cloud migration",
+          "dcterms:publisher": "Amazon Web Services (AWS Prescriptive Guidance)",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-application-portfolio-assessment-migration/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Methodology and approach - Application portfolio assessment strategy for AWS Cloud migration",
+          "dcterms:publisher": "Amazon Web Services (AWS Prescriptive Guidance)",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-application-portfolio-assessment-migration/methodology-approach.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "New agentic migration assessment capabilities now available with AWS Transform",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Transform FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/transform/faq",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Application Discovery Service availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/application-discovery/latest/userguide/application-discovery-service-availability-change.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/application-portfolio-assessment.md",
+      "skos:altLabel": [
+        "Portfolio assessment",
+        "Migration portfolio assessment",
+        "Application portfolio discovery",
+        "Portfolio discovery and analysis"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        },
+        {
+          "@id": "kt:aws-migration-acceleration-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-cloud-adoption-framework"
+        },
+        {
+          "@id": "kt:aws-pricing-calculator"
+        },
+        {
+          "@id": "kt:aws-transform-mgn"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:seven-rs-migration-strategies"
+        },
+        {
+          "@id": "kt:migration-wave-planning"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-transform"
+        },
+        {
+          "@id": "kt:aws-application-discovery-service"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:migration-evaluator"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-database-migration-service",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Database Migration Service",

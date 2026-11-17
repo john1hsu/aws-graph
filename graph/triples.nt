@@ -1504,6 +1504,34 @@
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/2000/01/rdf-schema#label> "Application portfolio assessment" .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "Application portfolio discovery" .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "Migration portfolio assessment" .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "Portfolio assessment" .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "Portfolio discovery and analysis" .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/2004/02/skos/core#definition> "The continuous workstream in AWS's migration guidance that discovers, analyzes and plans a portfolio of applications and their infrastructure, producing the inventory, business case, migration strategies and wave plans a large migration program runs on." .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/2004/02/skos/core#prefLabel> "Application portfolio assessment" .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s1> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s2> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s3> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s4> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s5> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s6> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/migration-evaluator> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-transform> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/migration-wave-planning> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/2000/01/rdf-schema#label> "Attribute-based access control (ABAC) on AWS" .
@@ -8012,6 +8040,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-application-load-balancer-target-optimizer" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s1> <http://purl.org/dc/terms/title> "Application portfolio assessment guide for AWS Cloud migration" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s1> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/application-portfolio-assessment-guide/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s2> <http://purl.org/dc/terms/title> "Application portfolio assessment strategy for AWS Cloud migration" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s2> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-application-portfolio-assessment-migration/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s3> <http://purl.org/dc/terms/title> "Methodology and approach - Application portfolio assessment strategy for AWS Cloud migration" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s3> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-application-portfolio-assessment-migration/methodology-approach.html" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s4> <http://purl.org/dc/terms/title> "New agentic migration assessment capabilities now available with AWS Transform" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s5> <http://purl.org/dc/terms/title> "AWS Transform FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s5> <https://schema.org/url> "https://aws.amazon.com/transform/faq" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s6> <http://purl.org/dc/terms/title> "AWS Application Discovery Service availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s6> <https://schema.org/url> "https://docs.aws.amazon.com/application-discovery/latest/userguide/application-discovery-service-availability-change.html" .
 <https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s1> <http://purl.org/dc/terms/title> "Define permissions based on attributes with ABAC authorization - AWS Identity and Access Management" .
 <https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

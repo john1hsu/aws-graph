@@ -9,7 +9,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments`, `kt:immutable-infrastructure` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
-| `kt:application-portfolio-assessment` | `kt:migration-wave-planning`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-application-integration-services` | `kt:amazon-mq`, `kt:amazon-swf` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-payment-cryptography` | `kt:pci-dss-on-aws`, `kt:aws-cloudhsm` |
@@ -42,6 +41,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-amplify` | `kt:aws-appsync` |
 | `kt:aws-app-runner` | `kt:aws-container-services` |
+| `kt:aws-application-discovery-service` | `kt:application-portfolio-assessment` |
 | `kt:aws-audit-manager` | `kt:nist-sp-800-53` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-billing-conductor` | `kt:aws-billing-and-cost-management` |
@@ -125,6 +125,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:managed-flink-quotas` | `kt:amazon-managed-service-for-apache-flink` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:microservices` | `kt:devops` |
+| `kt:migration-evaluator` | `kt:application-portfolio-assessment` |
 | `kt:multi-az-architecture` | `kt:multi-region-architecture` |
 | `kt:neptune-analytics` | `kt:amazon-neptune` |
 | `kt:neptune-quotas` | `kt:amazon-neptune` |
