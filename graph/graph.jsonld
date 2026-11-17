@@ -19403,6 +19403,101 @@
       ]
     },
     {
+      "@id": "kt:amazon-swf",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Simple Workflow Service",
+      "skos:definition": "AWS's original managed workflow coordination service: it durably tracks the state of long-running, multi-step background jobs while your own decider and worker programs poll it for tasks. AWS now recommends Step Functions for most new workflows.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Simple Workflow Service?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazonswf/latest/developerguide",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SWF Quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-dg-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SWF FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/swf/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SWF pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/swf/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Document history - Amazon Simple Workflow Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazonswf/latest/developerguide/WhatsNew.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Services in Maintenance - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/maintenance_services.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/amazon-swf.md",
+      "skos:altLabel": [
+        "Amazon SWF",
+        "SWF",
+        "Simple Workflow Service"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-application-integration-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-step-functions"
+        },
+        {
+          "@id": "kt:amazon-sqs"
+        },
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-step-functions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:amazon-sqs"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-appsync",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS AppSync",

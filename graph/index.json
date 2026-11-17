@@ -1173,6 +1173,29 @@
     ]
   },
   {
+    "id": "kt:amazon-swf",
+    "title": "Amazon Simple Workflow Service",
+    "aliases": [
+      "Amazon SWF",
+      "SWF",
+      "Simple Workflow Service"
+    ],
+    "type": "Service",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/amazon-swf.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/amazonswf/latest/developerguide",
+      "https://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-dg-limits.html",
+      "https://aws.amazon.com/swf/faqs",
+      "https://aws.amazon.com/swf/pricing",
+      "https://docs.aws.amazon.com/amazonswf/latest/developerguide/WhatsNew.html",
+      "https://docs.aws.amazon.com/general/latest/gr/maintenance_services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-textract",
     "title": "Amazon Textract",
     "aliases": [

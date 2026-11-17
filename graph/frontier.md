@@ -13,6 +13,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:cloudformation-drift-detection`, `kt:infrastructure-as-code` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams`, `kt:amazon-msk` |
 | `kt:application-portfolio-assessment` | `kt:migration-wave-planning`, `kt:seven-rs-migration-strategies` |
+| `kt:aws-application-integration-services` | `kt:amazon-mq`, `kt:amazon-swf` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-skill-builder` | `kt:aws-certification-program`, `kt:aws-certified-cloudops-engineer-associate` |
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments` |
@@ -36,7 +37,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-kinesis-video-streams` | `kt:amazon-rekognition` |
 | `kt:amazon-macie` | `kt:aws-security-hub` |
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |
-| `kt:amazon-swf` | `kt:aws-step-functions` |
 | `kt:ami-quotas` | `kt:amazon-machine-images` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
@@ -46,7 +46,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-amplify` | `kt:aws-appsync` |
 | `kt:aws-app-runner` | `kt:aws-container-services` |
-| `kt:aws-application-integration-services` | `kt:amazon-mq` |
 | `kt:aws-audit-manager` | `kt:nist-sp-800-53` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-billing-conductor` | `kt:aws-billing-and-cost-management` |

@@ -1341,6 +1341,32 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-sqs> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Simple Workflow Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon SWF" .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/2004/02/skos/core#altLabel> "SWF" .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/2004/02/skos/core#altLabel> "Simple Workflow Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/2004/02/skos/core#definition> "AWS's original managed workflow coordination service: it durably tracks the state of long-running, multi-step background jobs while your own decider and worker programs poll it for tasks. AWS now recommends Step Functions for most new workflows." .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Simple Workflow Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-step-functions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-step-functions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-swf> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-textract> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Textract" .
@@ -7490,6 +7516,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sqs/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s1> <http://purl.org/dc/terms/title> "What is Amazon Simple Workflow Service?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s1> <https://schema.org/url> "https://docs.aws.amazon.com/amazonswf/latest/developerguide" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s2> <http://purl.org/dc/terms/title> "Amazon SWF Quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s2> <https://schema.org/url> "https://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-dg-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s3> <http://purl.org/dc/terms/title> "Amazon SWF FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s3> <https://schema.org/url> "https://aws.amazon.com/swf/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s4> <http://purl.org/dc/terms/title> "Amazon SWF pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s4> <https://schema.org/url> "https://aws.amazon.com/swf/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s5> <http://purl.org/dc/terms/title> "Document history - Amazon Simple Workflow Service" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s5> <https://schema.org/url> "https://docs.aws.amazon.com/amazonswf/latest/developerguide/WhatsNew.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s6> <http://purl.org/dc/terms/title> "Services in Maintenance - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-swf/s6> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/maintenance_services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <http://purl.org/dc/terms/title> "Amazon Textract FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
