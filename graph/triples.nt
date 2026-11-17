@@ -4180,6 +4180,30 @@
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Tool> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/2000/01/rdf-schema#label> "Bottlerocket" .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Bottlerocket" .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/2004/02/skos/core#altLabel> "Bottlerocket OS" .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-container-services> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/2004/02/skos/core#definition> "An open source, AWS-sponsored and AWS-supported Linux distribution built only to host containers, with a minimal immutable image, API-driven configuration and single-step, rollback-capable updates; used for Amazon EKS and Amazon ECS worker nodes on EC2." .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bottlerocket" .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/karpenter> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s1> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s2> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s3> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s4> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-systems-manager> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-inspector> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/bottlerocket> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Cell-based architecture" .
@@ -10797,6 +10821,26 @@
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments-overview.html" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s1> <http://purl.org/dc/terms/title> "Bottlerocket FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s1> <https://schema.org/url> "https://aws.amazon.com/bottlerocket/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s2> <http://purl.org/dc/terms/title> "Create nodes with optimized Bottlerocket AMIs" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s2> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/eks-optimized-ami-bottlerocket.md" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s3> <http://purl.org/dc/terms/title> "Amazon ECS-optimized Bottlerocket AMIs" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-bottlerocket.html" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Containers Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s4> <http://purl.org/dc/terms/title> "Bottlerocket: a special-purpose container operating system" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/containers/bottlerocket-a-special-purpose-container-operating-system" .
 <https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s1> <http://purl.org/dc/terms/title> "What is a cell-based architecture? - Reducing the Scope of Impact with Cell-Based Architecture" .
 <https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

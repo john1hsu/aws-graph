@@ -6234,6 +6234,89 @@
       ]
     },
     {
+      "@id": "kt:bottlerocket",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Bottlerocket",
+      "skos:definition": "An open source, AWS-sponsored and AWS-supported Linux distribution built only to host containers, with a minimal immutable image, API-driven configuration and single-step, rollback-capable updates; used for Amazon EKS and Amazon ECS worker nodes on EC2.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Bottlerocket FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/bottlerocket/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create nodes with optimized Bottlerocket AMIs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/eks-optimized-ami-bottlerocket.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS-optimized Bottlerocket AMIs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-bottlerocket.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Bottlerocket: a special-purpose container operating system",
+          "dcterms:publisher": "Amazon Web Services (AWS Containers Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/containers/bottlerocket-a-special-purpose-container-operating-system",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/containers/bottlerocket.md",
+      "skos:altLabel": [
+        "Bottlerocket OS",
+        "AWS Bottlerocket"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-container-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-machine-images"
+        },
+        {
+          "@id": "kt:eks-auto-mode"
+        },
+        {
+          "@id": "kt:ecs-managed-instances"
+        },
+        {
+          "@id": "kt:karpenter"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:amazon-eks"
+        },
+        {
+          "@id": "kt:amazon-ecs"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-systems-manager"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-inspector"
+        }
+      ]
+    },
+    {
       "@id": "kt:container-networking-on-aws",
       "@type": "kto:Concept",
       "skos:prefLabel": "Container networking on AWS",

@@ -3648,6 +3648,26 @@
     ]
   },
   {
+    "id": "kt:bottlerocket",
+    "title": "Bottlerocket",
+    "aliases": [
+      "Bottlerocket OS",
+      "AWS Bottlerocket"
+    ],
+    "type": "Tool",
+    "domain": "containers",
+    "file": "articles/containers/bottlerocket.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/bottlerocket/faqs",
+      "https://docs.aws.amazon.com/eks/latest/userguide/eks-optimized-ami-bottlerocket.md",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-bottlerocket.html",
+      "https://aws.amazon.com/blogs/containers/bottlerocket-a-special-purpose-container-operating-system"
+    ]
+  },
+  {
     "id": "kt:cell-based-architecture",
     "title": "Cell-based architecture",
     "aliases": [

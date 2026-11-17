@@ -21,6 +21,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-savings-plans` | `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:ec2-image-builder` | `kt:amazon-machine-images`, `kt:amazon-machine-images` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
+| `kt:karpenter` | `kt:bottlerocket`, `kt:eks-auto-mode` |
 | `kt:kms-quotas` | `kt:aws-kms`, `kt:amazon-s3-quotas` |
 | `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
@@ -72,7 +73,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-tag-editor` | `kt:cost-allocation-tags` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:aws-x-ray` | `kt:aws-developer-tools` |
-| `kt:bottlerocket` | `kt:ecs-managed-instances` |
 | `kt:bsi-c5` | `kt:aws-european-sovereign-cloud` |
 | `kt:cloud-computing` | `kt:amazon-web-services` |
 | `kt:cloud-map-quotas` | `kt:aws-cloud-map` |
@@ -120,7 +120,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:iam-policy-simulator` | `kt:iam-policy-evaluation-logic` |
 | `kt:iam-users` | `kt:iam-roles` |
 | `kt:icd-503` | `kt:aws-secret-and-top-secret-regions` |
-| `kt:karpenter` | `kt:eks-auto-mode` |
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
 | `kt:kiro` | `kt:amazon-q-developer` |
 | `kt:lake-formation-quotas` | `kt:aws-lake-formation` |
