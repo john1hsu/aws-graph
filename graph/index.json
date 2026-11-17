@@ -3825,6 +3825,30 @@
     ]
   },
   {
+    "id": "kt:devops",
+    "title": "DevOps",
+    "aliases": [
+      "Dev Ops",
+      "DevOps culture",
+      "DevOps on AWS"
+    ],
+    "type": "Concept",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/devops.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "concept",
+    "source_urls": [
+      "https://aws.amazon.com/devops/what-is-devops/",
+      "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/communication-collaboration.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/the-devops-sagas.html",
+      "https://aws.amazon.com/blogs/devops/announcing-the-aws-well-architected-framework-devops-guidance",
+      "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/oa.ls.2-align-devops-adoption-with-business-objectives.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/public-sector-cloud-transformation/two-pizza-teams-from-ops-to-devops.html"
+    ]
+  },
+  {
     "id": "kt:disaster-recovery-strategies",
     "title": "Disaster recovery strategies on AWS",
     "aliases": [

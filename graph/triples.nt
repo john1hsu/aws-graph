@@ -4380,6 +4380,32 @@
 <https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
 <https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/2000/01/rdf-schema#label> "DevOps" .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/2004/02/skos/core#altLabel> "Dev Ops" .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/2004/02/skos/core#altLabel> "DevOps culture" .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/2004/02/skos/core#altLabel> "DevOps on AWS" .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/2004/02/skos/core#definition> "The combination of cultural philosophies, engineering practices and tools that lets an organization deliver applications and services at high velocity by removing the wall between development and operations; AWS codifies its view of it in the Well-Architected DevOps Guidance and its five DevOps Sagas." .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/2004/02/skos/core#prefLabel> "DevOps" .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-developer-tools> .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/devops/s1> .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/devops/s2> .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/devops/s3> .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/devops/s4> .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/devops/s5> .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/devops/s6> .
+<https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/devops/s7> .
+<https://github.com/john1hsu/aws-graph/id/devops> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/devops> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/ci-cd> .
+<https://github.com/john1hsu/aws-graph/id/devops> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> .
+<https://github.com/john1hsu/aws-graph/id/devops> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/microservices> .
+<https://github.com/john1hsu/aws-graph/id/devops> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/devops> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/devops> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> <http://www.w3.org/2000/01/rdf-schema#label> "Disaster recovery strategies on AWS" .
@@ -10983,6 +11009,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <https://schema.org/url> "https://aws.amazon.com/compliance/europe-digital-sovereignty/faq/" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s1> <http://purl.org/dc/terms/title> "What is DevOps?" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s1> <https://schema.org/url> "https://aws.amazon.com/devops/what-is-devops/" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s2> <http://purl.org/dc/terms/title> "Introduction to DevOps - Introduction to DevOps on AWS (AWS Whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s2> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s3> <http://purl.org/dc/terms/title> "Communication and Collaboration - Introduction to DevOps on AWS (AWS Whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s3> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/communication-collaboration.html" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s4> <http://purl.org/dc/terms/title> "The DevOps Sagas - DevOps Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s4> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/the-devops-sagas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s5> <http://purl.org/dc/terms/title> "Announcing the AWS Well-Architected Framework DevOps Guidance (AWS DevOps & Developer Productivity Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/devops/announcing-the-aws-well-architected-framework-devops-guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s6> <http://purl.org/dc/terms/title> "[OA.LS.2] Align DevOps adoption with business objectives - DevOps Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s6> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/oa.ls.2-align-devops-adoption-with-business-objectives.html" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s7> <http://purl.org/dc/terms/title> "Two pizza teams, from Ops to DevOps - Public Sector Cloud Transformation (AWS Whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/devops/s7> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/public-sector-cloud-transformation/two-pizza-teams-from-ops-to-devops.html" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://purl.org/dc/terms/title> "Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/disaster-recovery-strategies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

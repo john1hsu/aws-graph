@@ -8,7 +8,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract` |
 | `kt:aws-cost-anomaly-detection` | `kt:aws-budgets`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
-| `kt:devops` | `kt:aws-developer-tools`, `kt:ci-cd`, `kt:infrastructure-as-code` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:cloudformation-drift-detection`, `kt:infrastructure-as-code` |
 | `kt:on-demand-capacity-reservations` | `kt:ec2-placement-groups`, `kt:reserved-instances`, `kt:savings-plans` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams`, `kt:amazon-msk` |
@@ -132,6 +131,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lambda-snapstart` | `kt:lambda-cold-starts` |
 | `kt:landing-zone` | `kt:multi-account-strategy` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
+| `kt:microservices` | `kt:devops` |
 | `kt:multi-az-architecture` | `kt:multi-region-architecture` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
 | `kt:opensearch-service-quotas` | `kt:amazon-opensearch-service` |

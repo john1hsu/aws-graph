@@ -9917,6 +9917,98 @@
       ]
     },
     {
+      "@id": "kt:devops",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "DevOps",
+      "skos:definition": "The combination of cultural philosophies, engineering practices and tools that lets an organization deliver applications and services at high velocity by removing the wall between development and operations; AWS codifies its view of it in the Well-Architected DevOps Guidance and its five DevOps Sagas.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is DevOps?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/devops/what-is-devops/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introduction to DevOps - Introduction to DevOps on AWS (AWS Whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Communication and Collaboration - Introduction to DevOps on AWS (AWS Whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/communication-collaboration.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The DevOps Sagas - DevOps Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/the-devops-sagas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing the AWS Well-Architected Framework DevOps Guidance (AWS DevOps & Developer Productivity Blog)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/devops/announcing-the-aws-well-architected-framework-devops-guidance",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "[OA.LS.2] Align DevOps adoption with business objectives - DevOps Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/oa.ls.2-align-devops-adoption-with-business-objectives.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Two pizza teams, from Ops to DevOps - Public Sector Cloud Transformation (AWS Whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/public-sector-cloud-transformation/two-pizza-teams-from-ops-to-devops.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/devops.md",
+      "skos:altLabel": [
+        "Dev Ops",
+        "DevOps culture",
+        "DevOps on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:operational-excellence-pillar"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-developer-tools"
+        },
+        {
+          "@id": "kt:aws-well-architected-framework"
+        },
+        {
+          "@id": "kt:aws-certified-devops-engineer-professional"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:ci-cd"
+        },
+        {
+          "@id": "kt:infrastructure-as-code"
+        },
+        {
+          "@id": "kt:microservices"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ]
+    },
+    {
       "@id": "kt:infrastructure-as-code",
       "@type": "kto:Concept",
       "skos:prefLabel": "Infrastructure as code",
