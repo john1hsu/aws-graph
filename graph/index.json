@@ -264,6 +264,32 @@
     ]
   },
   {
+    "id": "kt:amazon-cognito",
+    "title": "Amazon Cognito",
+    "aliases": [
+      "Cognito",
+      "Cognito user pools",
+      "Cognito identity pools",
+      "Amazon Cognito Federated Identities"
+    ],
+    "type": "Service",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/amazon-cognito.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
+      "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-sign-in-feature-plans.html",
+      "https://docs.aws.amazon.com/cognito/latest/developerguide/quotas.html",
+      "https://aws.amazon.com/cognito/pricing/",
+      "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-identity.html",
+      "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-whats-new.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/"
+    ]
+  },
+  {
     "id": "kt:amazon-comprehend",
     "title": "Amazon Comprehend",
     "aliases": [

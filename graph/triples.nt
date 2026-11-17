@@ -287,6 +287,38 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Cognito" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Cognito Federated Identities" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/2004/02/skos/core#altLabel> "Cognito identity pools" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/2004/02/skos/core#altLabel> "Cognito user pools" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/2004/02/skos/core#altLabel> "Cognito" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/2004/02/skos/core#definition> "AWS's customer identity (CIAM) service for web and mobile apps: user pools are an OIDC/OAuth 2.0 user directory and token issuer, and identity pools exchange trusted tokens for temporary, IAM-scoped AWS credentials." .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Cognito" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-appsync> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-region-architecture> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-sts> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <https://github.com/john1hsu/aws-graph/ontology#domain> "identity-and-access" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/cognito-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-cognito> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-comprehend> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Comprehend" .
@@ -6153,6 +6185,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-cloudwatch/s7> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s1> <http://purl.org/dc/terms/title> "What is Amazon Cognito? - Amazon Cognito" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s1> <https://schema.org/url> "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s2> <http://purl.org/dc/terms/title> "User pool feature plans - Amazon Cognito" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s2> <https://schema.org/url> "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-sign-in-feature-plans.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s3> <http://purl.org/dc/terms/title> "Quotas in Amazon Cognito - Amazon Cognito" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s3> <https://schema.org/url> "https://docs.aws.amazon.com/cognito/latest/developerguide/quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s4> <http://purl.org/dc/terms/title> "Amazon Cognito - Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s4> <https://schema.org/url> "https://aws.amazon.com/cognito/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s5> <http://purl.org/dc/terms/title> "Amazon Cognito identity pools - Amazon Cognito" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s5> <https://schema.org/url> "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-identity.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s6> <http://purl.org/dc/terms/title> "What's new in Amazon Cognito - Amazon Cognito" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s6> <https://schema.org/url> "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-whats-new.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s7> <http://purl.org/dc/terms/title> "Amazon Cognito now supports multi-Region replication" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s8> <http://purl.org/dc/terms/title> "Federal Risk and Authorization Management Program (FedRAMP) - Services in Scope" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-cognito/s8> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s1> <http://purl.org/dc/terms/title> "What is Amazon Comprehend?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-comprehend/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

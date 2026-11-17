@@ -12897,6 +12897,127 @@
       ]
     },
     {
+      "@id": "kt:amazon-cognito",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Cognito",
+      "skos:definition": "AWS's customer identity (CIAM) service for web and mobile apps: user pools are an OIDC/OAuth 2.0 user directory and token issuer, and identity pools exchange trusted tokens for temporary, IAM-scoped AWS credentials.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Cognito? - Amazon Cognito",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "User pool feature plans - Amazon Cognito",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-sign-in-feature-plans.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas in Amazon Cognito - Amazon Cognito",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cognito/latest/developerguide/quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Cognito - Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/cognito/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Cognito identity pools - Amazon Cognito",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-identity.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What's new in Amazon Cognito - Amazon Cognito",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-whats-new.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Cognito now supports multi-Region replication",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Federal Risk and Authorization Management Program (FedRAMP) - Services in Scope",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/amazon-cognito.md",
+      "skos:altLabel": [
+        "Cognito",
+        "Cognito user pools",
+        "Cognito identity pools",
+        "Amazon Cognito Federated Identities"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-appsync"
+        },
+        {
+          "@id": "kt:amazon-api-gateway"
+        },
+        {
+          "@id": "kt:attribute-based-access-control"
+        },
+        {
+          "@id": "kt:multi-region-architecture"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-sts"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:iam-identity-center"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-waf"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:cognito-quotas"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:attribute-based-access-control",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Attribute-based access control (ABAC) on AWS",

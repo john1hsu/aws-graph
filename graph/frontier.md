@@ -28,7 +28,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract` |
-| `kt:amazon-cognito` | `kt:aws-appsync` |
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
 | `kt:amazon-detective` | `kt:amazon-guardduty` |
@@ -83,6 +82,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudtrail-quotas` | `kt:aws-cloudtrail` |
 | `kt:cloudwatch-quotas` | `kt:amazon-cloudwatch` |
 | `kt:codedeploy-quotas` | `kt:aws-codedeploy` |
+| `kt:cognito-quotas` | `kt:amazon-cognito` |
 | `kt:comprehend-quotas` | `kt:amazon-comprehend` |
 | `kt:control-tower-quotas` | `kt:aws-control-tower` |
 | `kt:cost-optimization-hub` | `kt:aws-compute-optimizer` |
