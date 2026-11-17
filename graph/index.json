@@ -1859,6 +1859,30 @@
     ]
   },
   {
+    "id": "kt:aws-certified-generative-ai-developer-professional",
+    "title": "AWS Certified Generative AI Developer - Professional",
+    "aliases": [
+      "AIP-C01",
+      "AWS GenAI Developer Professional",
+      "AWS Generative AI Developer Pro"
+    ],
+    "type": "Certification",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certified-generative-ai-developer-professional.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01/ai-professional-01.html",
+      "https://aws.amazon.com/certification/certified-generative-ai-developer-professional",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01/ai-professional-01-domain1.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01/ai-professional-01-domain2.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01/aip-01-in-scope-services.html",
+      "https://aws.amazon.com/blogs/training-and-certification/big-news-aws-expands-ai-certification-portfolio-and-updates-security-certification",
+      "https://aws.amazon.com/certification/recertification/?nc1=h_ls"
+    ]
+  },
+  {
     "id": "kt:aws-certified-machine-learning-engineer-associate",
     "title": "AWS Certified Machine Learning Engineer - Associate",
     "aliases": [

@@ -4451,6 +4451,99 @@
       ]
     },
     {
+      "@id": "kt:aws-certified-generative-ai-developer-professional",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "AWS Certified Generative AI Developer - Professional",
+      "skos:definition": "AWS's professional-level certification for developers who put foundation models into production, validating RAG and vector-store design, agentic AI, prompt management, safety and governance, and cost and performance tuning of generative AI applications on AWS (exam AIP-C01).",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Certified Generative AI Developer - Professional (AIP-C01) exam guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01/ai-professional-01.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certified Generative AI Developer - Professional",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/certified-generative-ai-developer-professional",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AIP-C01 Content Domain 1: Foundation Model Integration, Data Management, and Compliance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01/ai-professional-01-domain1.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AIP-C01 Content Domain 2: Implementation and Integration",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01/ai-professional-01-domain2.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AIP-C01 In-Scope AWS Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01/aip-01-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS expands AI certification portfolio and updates security certification",
+          "dcterms:publisher": "Amazon Web Services (AWS Training and Certification Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/training-and-certification/big-news-aws-expands-ai-certification-portfolio-and-updates-security-certification",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Certification recertification",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/recertification/?nc1=h_ls",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-certified-generative-ai-developer-professional.md",
+      "skos:altLabel": [
+        "AIP-C01",
+        "AWS GenAI Developer Professional",
+        "AWS Generative AI Developer Pro"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:amazon-bedrock-knowledge-bases"
+        },
+        {
+          "@id": "kt:amazon-bedrock-guardrails"
+        },
+        {
+          "@id": "kt:amazon-bedrock-agentcore"
+        },
+        {
+          "@id": "kt:generative-ai-on-aws"
+        },
+        {
+          "@id": "kt:aws-skill-builder"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-certified-machine-learning-engineer-associate"
+        },
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-machine-learning-engineer-associate",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified Machine Learning Engineer - Associate",

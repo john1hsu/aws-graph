@@ -5,6 +5,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract` |
+| `kt:aws-skill-builder` | `kt:aws-certification-program`, `kt:aws-certified-cloudops-engineer-associate`, `kt:aws-certified-generative-ai-developer-professional` |
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments`, `kt:immutable-infrastructure` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
@@ -13,7 +14,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-application-integration-services` | `kt:amazon-mq`, `kt:amazon-swf` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-payment-cryptography` | `kt:pci-dss-on-aws`, `kt:aws-cloudhsm` |
-| `kt:aws-skill-builder` | `kt:aws-certification-program`, `kt:aws-certified-cloudops-engineer-associate` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |

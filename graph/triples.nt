@@ -2114,6 +2114,33 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Generative AI Developer - Professional" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2004/02/skos/core#altLabel> "AIP-C01" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS GenAI Developer Professional" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Generative AI Developer Pro" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2004/02/skos/core#definition> "AWS's professional-level certification for developers who put foundation models into production, validating RAG and vector-store design, agentic AI, prompt management, safety and governance, and cost and performance tuning of generative AI applications on AWS (exam AIP-C01)." .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Certified Generative AI Developer - Professional" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agentcore> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-skill-builder> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Machine Learning Engineer - Associate" .
@@ -8615,6 +8642,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-devops-engineer-professional/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/updated-aws-certified-devops-engineer-professional-registration-now-open/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s1> <http://purl.org/dc/terms/title> "AWS Certified Generative AI Developer - Professional (AIP-C01) exam guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s1> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01/ai-professional-01.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s2> <http://purl.org/dc/terms/title> "AWS Certified Generative AI Developer - Professional" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s2> <https://schema.org/url> "https://aws.amazon.com/certification/certified-generative-ai-developer-professional" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s3> <http://purl.org/dc/terms/title> "AIP-C01 Content Domain 1: Foundation Model Integration, Data Management, and Compliance" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s3> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01/ai-professional-01-domain1.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s4> <http://purl.org/dc/terms/title> "AIP-C01 Content Domain 2: Implementation and Integration" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s4> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01/ai-professional-01-domain2.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s5> <http://purl.org/dc/terms/title> "AIP-C01 In-Scope AWS Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s5> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01/aip-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Training and Certification Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s6> <http://purl.org/dc/terms/title> "AWS expands AI certification portfolio and updates security certification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/big-news-aws-expands-ai-certification-portfolio-and-updates-security-certification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s7> <http://purl.org/dc/terms/title> "AWS Certification recertification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-generative-ai-developer-professional/s7> <https://schema.org/url> "https://aws.amazon.com/certification/recertification/?nc1=h_ls" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-engineer-associate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-engineer-associate/s1> <http://purl.org/dc/terms/title> "AWS Certified Machine Learning Engineer - Associate (MLA-C01) Exam Guide (PDF)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-engineer-associate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
