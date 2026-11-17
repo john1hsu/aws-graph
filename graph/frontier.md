@@ -21,6 +21,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
+| `kt:ebs-snapshots` | `kt:amazon-ebs`, `kt:ebs-quotas` |
 | `kt:ec2-image-builder` | `kt:amazon-machine-images`, `kt:amazon-machine-images` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:karpenter` | `kt:bottlerocket`, `kt:eks-auto-mode` |
@@ -94,8 +95,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:drs-quotas` | `kt:aws-elastic-disaster-recovery` |
 | `kt:dynamodb-partition-key-design` | `kt:amazon-dynamodb` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb` |
-| `kt:ebs-quotas` | `kt:amazon-ebs` |
-| `kt:ebs-snapshots` | `kt:amazon-ebs` |
 | `kt:ec2-auto-scaling-quotas` | `kt:amazon-ec2-auto-scaling` |
 | `kt:ec2-capacity-blocks-for-ml` | `kt:aws-trainium-and-inferentia` |
 | `kt:ec2-gpu-instances` | `kt:aws-trainium-and-inferentia` |

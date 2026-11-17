@@ -4678,6 +4678,33 @@
 <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EBS quotas" .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon EBS service limits" .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Elastic Block Store quotas" .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "EBS limits" .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "EBS quotas" .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "EBS service quotas" .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ebs> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The Regional limits that constrain Amazon EBS: adjustable aggregate storage (TiB) and IOPS per volume type, fixed concurrent-snapshot and EBS direct API request rates, snapshot and fast snapshot restore counts, and per-volume size ceilings such as 64 TiB for gp3 and io2 Block Express." .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EBS quotas" .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-emr> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ebs-snapshots> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/ebs-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 instance types" .
@@ -11646,6 +11673,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/globaltables-disassociate.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s1> <http://purl.org/dc/terms/title> "Amazon Elastic Block Store endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/ebs-service.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s2> <http://purl.org/dc/terms/title> "Quotas for Amazon EBS" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-resource-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s3> <http://purl.org/dc/terms/title> "Amazon EBS volume constraints" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/ebs/latest/userguide/volume_constraints.md" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s4> <http://purl.org/dc/terms/title> "Amazon EBS increases the maximum size and provisioned performance of General Purpose (gp3) volumes" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-ebs-size-provisioned-performance-gp3-volumes" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Storage Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s5> <http://purl.org/dc/terms/title> "Improve your application resiliency with larger and faster gp3 volumes" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/storage/improve-your-application-resiliency-with-larger-and-faster-gp3-volumes" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <http://purl.org/dc/terms/title> "Amazon EC2 instance type naming conventions" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

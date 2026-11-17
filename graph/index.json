@@ -4084,6 +4084,30 @@
     ]
   },
   {
+    "id": "kt:ebs-quotas",
+    "title": "Amazon EBS quotas",
+    "aliases": [
+      "EBS quotas",
+      "EBS service quotas",
+      "EBS limits",
+      "Amazon Elastic Block Store quotas",
+      "Amazon EBS service limits"
+    ],
+    "type": "Limit",
+    "domain": "storage",
+    "file": "articles/storage/ebs-quotas.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/general/latest/gr/ebs-service.html",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-resource-quotas.html",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/volume_constraints.md",
+      "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-ebs-size-provisioned-performance-gp3-volumes",
+      "https://aws.amazon.com/blogs/storage/improve-your-application-resiliency-with-larger-and-faster-gp3-volumes"
+    ]
+  },
+  {
     "id": "kt:ec2-instance-types",
     "title": "Amazon EC2 instance types",
     "aliases": [

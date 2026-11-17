@@ -21291,6 +21291,93 @@
       ]
     },
     {
+      "@id": "kt:ebs-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Amazon EBS quotas",
+      "skos:definition": "The Regional limits that constrain Amazon EBS: adjustable aggregate storage (TiB) and IOPS per volume type, fixed concurrent-snapshot and EBS direct API request rates, snapshot and fast snapshot restore counts, and per-volume size ceilings such as 64 TiB for gp3 and io2 Block Express.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon Elastic Block Store endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/ebs-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-resource-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EBS volume constraints",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/volume_constraints.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EBS increases the maximum size and provisioned performance of General Purpose (gp3) volumes",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-ebs-size-provisioned-performance-gp3-volumes",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Improve your application resiliency with larger and faster gp3 volumes",
+          "dcterms:publisher": "Amazon Web Services (AWS Storage Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/storage/improve-your-application-resiliency-with-larger-and-faster-gp3-volumes",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/storage/ebs-quotas.md",
+      "skos:altLabel": [
+        "EBS quotas",
+        "EBS service quotas",
+        "EBS limits",
+        "Amazon Elastic Block Store quotas",
+        "Amazon EBS service limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ebs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:ebs-snapshots"
+        },
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:amazon-s3-quotas"
+        },
+        {
+          "@id": "kt:aws-backup-quotas"
+        },
+        {
+          "@id": "kt:amazon-emr"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:amazon-s3-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:s3-storage-classes",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon S3 storage classes",
