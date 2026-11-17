@@ -3412,6 +3412,31 @@
     ]
   },
   {
+    "id": "kt:aws-site-to-site-vpn",
+    "title": "AWS Site-to-Site VPN",
+    "aliases": [
+      "Site-to-Site VPN",
+      "S2S VPN"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/aws-site-to-site-vpn.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+      "https://docs.aws.amazon.com/vpn/latest/s2svpn/vpn-limits.html",
+      "https://aws.amazon.com/vpn/pricing/",
+      "https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-site-to-site-vpn-5-gbps-tunnels-to-support-high-throughput-workloads",
+      "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-site-to-site-vpn-modify-bandwidth/",
+      "https://docs.aws.amazon.com/vpn/latest/s2svpn/vpn-concentrator.html",
+      "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-vpn.html",
+      "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-step-functions",
     "title": "AWS Step Functions",
     "aliases": [

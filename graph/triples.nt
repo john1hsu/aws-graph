@@ -3910,6 +3910,36 @@
 <https://github.com/john1hsu/aws-graph/id/aws-shield> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
 <https://github.com/john1hsu/aws-graph/id/aws-shield> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-shield> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Site-to-Site VPN" .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/2004/02/skos/core#altLabel> "S2S VPN" .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/2004/02/skos/core#altLabel> "Site-to-Site VPN" .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed IPsec VPN service that connects an on-premises or remote network to Amazon VPCs over the internet (or privately over Direct Connect), with two redundant tunnels per connection terminating on a virtual private gateway, transit gateway or AWS Cloud WAN." .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Site-to-Site VPN" .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-client-vpn> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s9> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Step Functions" .
@@ -10801,6 +10831,51 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-shield/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-shield/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-shield/s8> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s1> <http://purl.org/dc/terms/title> "What is AWS Site-to-Site VPN? - AWS Site-to-Site VPN User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s1> <https://schema.org/url> "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s2> <http://purl.org/dc/terms/title> "AWS Site-to-Site VPN quotas - AWS Site-to-Site VPN User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s2> <https://schema.org/url> "https://docs.aws.amazon.com/vpn/latest/s2svpn/vpn-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s3> <http://purl.org/dc/terms/title> "AWS VPN Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s3> <https://schema.org/url> "https://aws.amazon.com/vpn/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s4> <http://purl.org/dc/terms/title> "Introducing AWS Site-to-Site VPN 5 Gbps Tunnels to support high throughput workloads" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-site-to-site-vpn-5-gbps-tunnels-to-support-high-throughput-workloads" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s5> <http://purl.org/dc/terms/title> "AWS Site-to-Site VPN now supports modifying tunnel bandwidth on existing VPN connections" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-site-to-site-vpn-modify-bandwidth/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s6> <http://purl.org/dc/terms/title> "AWS Site-to-Site VPN Concentrators - AWS Site-to-Site VPN User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s6> <https://schema.org/url> "https://docs.aws.amazon.com/vpn/latest/s2svpn/vpn-concentrator.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s7> <http://purl.org/dc/terms/title> "AWS Site-to-Site VPN in AWS GovCloud (US) - AWS GovCloud (US) User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s7> <https://schema.org/url> "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-vpn.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s8> <http://purl.org/dc/terms/title> "Exam Guide (SAA-C03) AWS Certified Solutions Architect - Associate" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s8> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s9> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s1> <http://purl.org/dc/terms/title> "What is Step Functions?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

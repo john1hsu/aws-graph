@@ -16716,6 +16716,124 @@
       ]
     },
     {
+      "@id": "kt:aws-site-to-site-vpn",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Site-to-Site VPN",
+      "skos:definition": "AWS's managed IPsec VPN service that connects an on-premises or remote network to Amazon VPCs over the internet (or privately over Direct Connect), with two redundant tunnels per connection terminating on a virtual private gateway, transit gateway or AWS Cloud WAN.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Site-to-Site VPN? - AWS Site-to-Site VPN User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Site-to-Site VPN quotas - AWS Site-to-Site VPN User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpn/latest/s2svpn/vpn-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS VPN Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/vpn/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing AWS Site-to-Site VPN 5 Gbps Tunnels to support high throughput workloads",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-site-to-site-vpn-5-gbps-tunnels-to-support-high-throughput-workloads",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Site-to-Site VPN now supports modifying tunnel bandwidth on existing VPN connections",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-site-to-site-vpn-modify-bandwidth/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Site-to-Site VPN Concentrators - AWS Site-to-Site VPN User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpn/latest/s2svpn/vpn-concentrator.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Site-to-Site VPN in AWS GovCloud (US) - AWS GovCloud (US) User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-vpn.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Exam Guide (SAA-C03) AWS Certified Solutions Architect - Associate",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/aws-site-to-site-vpn.md",
+      "skos:altLabel": [
+        "Site-to-Site VPN",
+        "S2S VPN"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-cloud-wan"
+        },
+        {
+          "@id": "kt:aws-client-vpn"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-direct-connect"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-transit-gateway"
+        },
+        {
+          "@id": "kt:aws-global-accelerator"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        },
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-transit-gateway",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Transit Gateway",
