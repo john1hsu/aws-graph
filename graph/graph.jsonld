@@ -10676,6 +10676,100 @@
       ]
     },
     {
+      "@id": "kt:aws-ai-factories",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS AI Factories",
+      "skos:definition": "AWS AI Factories are dedicated AI environments, built from Trainium and NVIDIA accelerators, AWS networking, storage and AI services, that AWS deploys and fully manages inside a customer's own data center for workloads with strict sovereignty or isolation needs.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS AI Factories",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/global-infrastructure/ai-factories/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS AI Factories FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/global-infrastructure/ai-factories/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing AWS AI Factories",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-ai-factories/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Enabling AI sovereignty on AWS",
+          "dcterms:publisher": "Amazon Web Services (AWS Security Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/security/enabling-ai-sovereignty-on-aws/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "New AWS AI Factories transform customers' existing infrastructure into high-performance AI environments",
+          "dcterms:publisher": "Amazon (About Amazon)",
+          "schema:url": "https://www.aboutamazon.com/news/aws/aws-data-centers-ai-factories",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/aws-ai-factories.md",
+      "skos:altLabel": [
+        "AWS AI Factory",
+        "AI Factories (AWS)"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-outposts"
+        },
+        {
+          "@id": "kt:local-zones"
+        },
+        {
+          "@id": "kt:data-residency-on-aws"
+        },
+        {
+          "@id": "kt:aws-european-sovereign-cloud"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-outposts"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:aws-nitro-system"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-trainium-and-inferentia"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-global-infrastructure",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS global infrastructure",

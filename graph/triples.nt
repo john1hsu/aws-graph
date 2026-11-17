@@ -1545,6 +1545,32 @@
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/availability-zones> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/2000/01/rdf-schema#label> "AWS AI Factories" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/2004/02/skos/core#altLabel> "AI Factories (AWS)" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS AI Factory" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/2004/02/skos/core#definition> "AWS AI Factories are dedicated AI environments, built from Trainium and NVIDIA accelerators, AWS networking, storage and AI services, that AWS deploys and fully manages inside a customer's own data center for workloads with strict sovereignty or isolation needs." .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS AI Factories" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-outposts> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/local-zones> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-outposts> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/aws-nitro-system> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS analytics services" .
@@ -7656,6 +7682,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/availability-zones/s9> <https://schema.org/url> "https://docs.aws.amazon.com/arc-zonal-shift/latest/api/Welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s1> <http://purl.org/dc/terms/title> "AWS AI Factories" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s1> <https://schema.org/url> "https://aws.amazon.com/about-aws/global-infrastructure/ai-factories/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s2> <http://purl.org/dc/terms/title> "AWS AI Factories FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s2> <https://schema.org/url> "https://aws.amazon.com/about-aws/global-infrastructure/ai-factories/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s3> <http://purl.org/dc/terms/title> "Introducing AWS AI Factories" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s3> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-ai-factories/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Security Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s4> <http://purl.org/dc/terms/title> "Enabling AI sovereignty on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/security/enabling-ai-sovereignty-on-aws/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s5> <http://purl.org/dc/terms/publisher> "Amazon (About Amazon)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s5> <http://purl.org/dc/terms/title> "New AWS AI Factories transform customers' existing infrastructure into high-performance AI environments" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s5> <https://schema.org/url> "https://www.aboutamazon.com/news/aws/aws-data-centers-ai-factories" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s1> <http://purl.org/dc/terms/title> "Analytics - Overview of Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -1363,6 +1363,27 @@
     ]
   },
   {
+    "id": "kt:aws-ai-factories",
+    "title": "AWS AI Factories",
+    "aliases": [
+      "AWS AI Factory",
+      "AI Factories (AWS)"
+    ],
+    "type": "Service",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/aws-ai-factories.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/about-aws/global-infrastructure/ai-factories/",
+      "https://aws.amazon.com/about-aws/global-infrastructure/ai-factories/faqs/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-ai-factories/",
+      "https://aws.amazon.com/blogs/security/enabling-ai-sovereignty-on-aws/",
+      "https://www.aboutamazon.com/news/aws/aws-data-centers-ai-factories"
+    ]
+  },
+  {
     "id": "kt:aws-analytics-services",
     "title": "AWS analytics services",
     "aliases": [
