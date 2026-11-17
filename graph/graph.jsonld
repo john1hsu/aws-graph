@@ -15458,6 +15458,109 @@
       ]
     },
     {
+      "@id": "kt:aws-cloud-wan",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Cloud WAN",
+      "skos:definition": "AWS's managed wide-area networking service that builds a global core network across AWS Regions from a single declarative policy, connecting VPCs, VPNs, Direct Connect, SD-WAN and transit gateways into segmented routing domains.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Cloud WAN?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/network-manager/latest/cloudwan/what-is-cloudwan.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cloud WAN Quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/network-manager/latest/cloudwan/cloudwan-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cloud WAN pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/cloud-wan/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cloud WAN FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/cloud-wan/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cloud WAN now supports BGP communities on Direct Connect attachments for routing policy",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloud-wan-bgp-community-directconnect/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Transit Gateway and AWS Cloud WAN now support 1:1 NAT",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transit-gateway-cloud-wan-1-1-nat/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Introducing AWS Cloud WAN in AWS GovCloud (US) Regions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/publicsector/introducing-aws-cloud-wan-in-aws-govcloud-us-regions/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/aws-cloud-wan.md",
+      "skos:altLabel": [
+        "Cloud WAN",
+        "Amazon Cloud WAN"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-global-network"
+        },
+        {
+          "@id": "kt:multi-region-architecture"
+        },
+        {
+          "@id": "kt:aws-resource-access-manager"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-transit-gateway"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-direct-connect"
+        },
+        {
+          "@id": "kt:aws-site-to-site-vpn"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:cloud-wan-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-direct-connect",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Direct Connect",

@@ -1864,6 +1864,29 @@
     ]
   },
   {
+    "id": "kt:aws-cloud-wan",
+    "title": "AWS Cloud WAN",
+    "aliases": [
+      "Cloud WAN",
+      "Amazon Cloud WAN"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/aws-cloud-wan.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/network-manager/latest/cloudwan/what-is-cloudwan.html",
+      "https://docs.aws.amazon.com/network-manager/latest/cloudwan/cloudwan-quotas.html",
+      "https://aws.amazon.com/cloud-wan/pricing/",
+      "https://aws.amazon.com/cloud-wan/faqs/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/11/cloud-wan-bgp-community-directconnect/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transit-gateway-cloud-wan-1-1-nat/",
+      "https://aws.amazon.com/blogs/publicsector/introducing-aws-cloud-wan-in-aws-govcloud-us-regions/"
+    ]
+  },
+  {
     "id": "kt:aws-cloudformation",
     "title": "AWS CloudFormation",
     "aliases": [

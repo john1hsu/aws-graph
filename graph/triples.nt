@@ -2107,6 +2107,33 @@
 <https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloud-map> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cloud WAN" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Cloud WAN" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/2004/02/skos/core#altLabel> "Cloud WAN" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed wide-area networking service that builds a global core network across AWS Regions from a single declarative policy, connecting VPCs, VPNs, Direct Connect, SD-WAN and transit gateways into segmented routing domains." .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Cloud WAN" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-global-network> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-region-architecture> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/cloud-wan-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-cloud-wan> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CloudFormation" .
@@ -8171,6 +8198,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-map/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect-concepts.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s1> <http://purl.org/dc/terms/title> "What is AWS Cloud WAN?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s1> <https://schema.org/url> "https://docs.aws.amazon.com/network-manager/latest/cloudwan/what-is-cloudwan.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s2> <http://purl.org/dc/terms/title> "AWS Cloud WAN Quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s2> <https://schema.org/url> "https://docs.aws.amazon.com/network-manager/latest/cloudwan/cloudwan-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s3> <http://purl.org/dc/terms/title> "AWS Cloud WAN pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s3> <https://schema.org/url> "https://aws.amazon.com/cloud-wan/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s4> <http://purl.org/dc/terms/title> "AWS Cloud WAN FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s4> <https://schema.org/url> "https://aws.amazon.com/cloud-wan/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s5> <http://purl.org/dc/terms/title> "AWS Cloud WAN now supports BGP communities on Direct Connect attachments for routing policy" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/11/cloud-wan-bgp-community-directconnect/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s6> <http://purl.org/dc/terms/title> "AWS Transit Gateway and AWS Cloud WAN now support 1:1 NAT" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transit-gateway-cloud-wan-1-1-nat/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s7> <http://purl.org/dc/terms/title> "Introducing AWS Cloud WAN in AWS GovCloud (US) Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cloud-wan/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/publicsector/introducing-aws-cloud-wan-in-aws-govcloud-us-regions/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s10> <http://purl.org/dc/terms/title> "Configure and perform CDK stack synthesis" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloudformation/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
