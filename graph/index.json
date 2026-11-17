@@ -2262,6 +2262,30 @@
     ]
   },
   {
+    "id": "kt:aws-cost-anomaly-detection",
+    "title": "AWS Cost Anomaly Detection",
+    "aliases": [
+      "Cost Anomaly Detection",
+      "CAD",
+      "AWS CAD"
+    ],
+    "type": "Feature",
+    "domain": "cost-management",
+    "file": "articles/cost-management/aws-cost-anomaly-detection.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/cost-management/latest/userguide/getting-started-ad.html",
+      "https://aws.amazon.com/aws-cost-management/aws-cost-anomaly-detection/faqs",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cost-anomaly-detection-managed-monitoring",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cost-anomaly-detection-accelerates-anomaly",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-ai-powered-cost-investigations/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-cost-anomaly-detection-advanced-alerting-user-notifications",
+      "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/"
+    ]
+  },
+  {
     "id": "kt:aws-cost-explorer",
     "title": "AWS Cost Explorer",
     "aliases": [

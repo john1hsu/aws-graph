@@ -2574,6 +2574,35 @@
 <https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-config> .
 <https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cost Anomaly Detection" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS CAD" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2004/02/skos/core#altLabel> "CAD" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2004/02/skos/core#altLabel> "Cost Anomaly Detection" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-billing-and-cost-management> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2004/02/skos/core#definition> "A machine-learning feature of AWS Billing and Cost Management that compares actual spend with expected spend, flags unusual cost spikes per service, account, tag or cost category, and sends alerts with ranked root causes by email, Amazon SNS or AWS User Notifications." .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Cost Anomaly Detection" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sns> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-budgets> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-budgets> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-q-developer> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cost Explorer" .
@@ -9042,6 +9071,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s1> <http://purl.org/dc/terms/title> "Getting started with AWS Cost Anomaly Detection - AWS Cost Management" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s1> <https://schema.org/url> "https://docs.aws.amazon.com/cost-management/latest/userguide/getting-started-ad.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s2> <http://purl.org/dc/terms/title> "AWS Cost Anomaly Detection FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s2> <https://schema.org/url> "https://aws.amazon.com/aws-cost-management/aws-cost-anomaly-detection/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s3> <http://purl.org/dc/terms/title> "AWS Cost Anomaly Detection expands AWS managed monitoring" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s3> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cost-anomaly-detection-managed-monitoring" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s4> <http://purl.org/dc/terms/title> "AWS Cost Anomaly Detection accelerates anomaly identification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cost-anomaly-detection-accelerates-anomaly" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s5> <http://purl.org/dc/terms/title> "AWS now provides AI-powered cost investigations for cost anomalies" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-ai-powered-cost-investigations/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s6> <http://purl.org/dc/terms/title> "AWS Cost Anomaly Detection enables advanced alerting through AWS User Notifications" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-cost-anomaly-detection-advanced-alerting-user-notifications" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s7> <http://purl.org/dc/terms/title> "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s1> <http://purl.org/dc/terms/title> "Analyzing your costs and usage with AWS Cost Explorer - AWS Cost Management" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-explorer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

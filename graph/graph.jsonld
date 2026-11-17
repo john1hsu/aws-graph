@@ -7259,6 +7259,109 @@
       ]
     },
     {
+      "@id": "kt:aws-cost-anomaly-detection",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "AWS Cost Anomaly Detection",
+      "skos:definition": "A machine-learning feature of AWS Billing and Cost Management that compares actual spend with expected spend, flags unusual cost spikes per service, account, tag or cost category, and sends alerts with ranked root causes by email, Amazon SNS or AWS User Notifications.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Getting started with AWS Cost Anomaly Detection - AWS Cost Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cost-management/latest/userguide/getting-started-ad.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cost Anomaly Detection FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/aws-cost-management/aws-cost-anomaly-detection/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cost Anomaly Detection expands AWS managed monitoring",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cost-anomaly-detection-managed-monitoring",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Cost Anomaly Detection accelerates anomaly identification",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cost-anomaly-detection-accelerates-anomaly",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS now provides AI-powered cost investigations for cost anomalies",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-ai-powered-cost-investigations/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Cost Anomaly Detection enables advanced alerting through AWS User Notifications",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-cost-anomaly-detection-advanced-alerting-user-notifications",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/cost-management/aws-cost-anomaly-detection.md",
+      "skos:altLabel": [
+        "Cost Anomaly Detection",
+        "CAD",
+        "AWS CAD"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-billing-and-cost-management"
+        },
+        {
+          "@id": "kt:aws-cost-management-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-budgets"
+        },
+        {
+          "@id": "kt:aws-cost-explorer"
+        },
+        {
+          "@id": "kt:cost-allocation-tags"
+        },
+        {
+          "@id": "kt:amazon-sns"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-cost-explorer"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:aws-cloudtrail"
+        },
+        {
+          "@id": "kt:amazon-q-developer"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-budgets"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cost-explorer",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Cost Explorer",
