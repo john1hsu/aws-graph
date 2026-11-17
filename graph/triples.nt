@@ -5261,6 +5261,35 @@
 <https://github.com/john1hsu/aws-graph/id/iam-roles> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
 <https://github.com/john1hsu/aws-graph/id/iam-roles> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/iam-roles> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "Immutable infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2004/02/skos/core#altLabel> "Immutable deployment pattern" .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2004/02/skos/core#altLabel> "Immutable deployments" .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2004/02/skos/core#altLabel> "Immutable servers" .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/devops> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2004/02/skos/core#definition> "An operating model in which running resources are never patched, reconfigured or upgraded in place; every change is shipped by building new resources from a versioned definition, shifting traffic to them, and discarding the old ones." .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Immutable infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/canary-deployments> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ec2-image-builder> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s1> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s2> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s3> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s4> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s5> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s6> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructure as code" .
@@ -12441,6 +12470,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/iam-roles/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/iam-roles/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-roles/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-aam/" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s1> <http://purl.org/dc/terms/title> "REL08-BP04 Deploy using immutable infrastructure - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s1> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_tracking_change_management_immutable_infrastructure.html" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s2> <http://purl.org/dc/terms/title> "Amazon EC2 instance mutability in AMS - AMS Advanced Application Developer's Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s2> <https://schema.org/url> "https://docs.aws.amazon.com/managedservices/latest/appguide/compute-instance-mutability-aog.html" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s3> <http://purl.org/dc/terms/title> "What is Image Builder? - EC2 Image Builder" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s3> <https://schema.org/url> "https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s4> <http://purl.org/dc/terms/title> "How an instance refresh works in an Auto Scaling group - Amazon EC2 Auto Scaling" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s4> <https://schema.org/url> "https://docs.aws.amazon.com/autoscaling/ec2/userguide/instance-refresh-overview.md" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s5> <http://purl.org/dc/terms/title> "Immutable environment updates - AWS Elastic Beanstalk" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s5> <https://schema.org/url> "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environmentmgmt-updates-immutable.html" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s6> <http://purl.org/dc/terms/title> "AWS Certified DevOps Engineer - Professional: Exam Guide (DOP-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/immutable-infrastructure/s6> <https://schema.org/url> "https://docs.aws.amazon.com/pdfs/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02.pdf" .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <http://purl.org/dc/terms/title> "Infrastructure as code - Introduction to DevOps on AWS" .
 <https://github.com/john1hsu/aws-graph/id/source/infrastructure-as-code/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

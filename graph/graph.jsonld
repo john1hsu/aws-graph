@@ -10798,6 +10798,110 @@
       ]
     },
     {
+      "@id": "kt:immutable-infrastructure",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Immutable infrastructure",
+      "skos:definition": "An operating model in which running resources are never patched, reconfigured or upgraded in place; every change is shipped by building new resources from a versioned definition, shifting traffic to them, and discarding the old ones.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "REL08-BP04 Deploy using immutable infrastructure - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_tracking_change_management_immutable_infrastructure.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EC2 instance mutability in AMS - AMS Advanced Application Developer's Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/managedservices/latest/appguide/compute-instance-mutability-aog.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is Image Builder? - EC2 Image Builder",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How an instance refresh works in an Auto Scaling group - Amazon EC2 Auto Scaling",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/instance-refresh-overview.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Immutable environment updates - AWS Elastic Beanstalk",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environmentmgmt-updates-immutable.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified DevOps Engineer - Professional: Exam Guide (DOP-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02.pdf",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/immutable-infrastructure.md",
+      "skos:altLabel": [
+        "Immutable deployments",
+        "Immutable deployment pattern",
+        "Immutable servers"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:devops"
+        },
+        {
+          "@id": "kt:infrastructure-as-code"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:blue-green-deployments"
+        },
+        {
+          "@id": "kt:canary-deployments"
+        },
+        {
+          "@id": "kt:cloudformation-drift-detection"
+        },
+        {
+          "@id": "kt:aws-elastic-beanstalk"
+        },
+        {
+          "@id": "kt:ec2-image-builder"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-machine-images"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-devops-engineer-professional"
+        }
+      ]
+    },
+    {
       "@id": "kt:infrastructure-as-code",
       "@type": "kto:Concept",
       "skos:prefLabel": "Infrastructure as code",

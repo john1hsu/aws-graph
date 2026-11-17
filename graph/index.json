@@ -4593,6 +4593,29 @@
     ]
   },
   {
+    "id": "kt:immutable-infrastructure",
+    "title": "Immutable infrastructure",
+    "aliases": [
+      "Immutable deployments",
+      "Immutable deployment pattern",
+      "Immutable servers"
+    ],
+    "type": "Pattern",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/immutable-infrastructure.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_tracking_change_management_immutable_infrastructure.html",
+      "https://docs.aws.amazon.com/managedservices/latest/appguide/compute-instance-mutability-aog.html",
+      "https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html",
+      "https://docs.aws.amazon.com/autoscaling/ec2/userguide/instance-refresh-overview.md",
+      "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environmentmgmt-updates-immutable.html",
+      "https://docs.aws.amazon.com/pdfs/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02.pdf"
+    ]
+  },
+  {
     "id": "kt:infrastructure-as-code",
     "title": "Infrastructure as code",
     "aliases": [
