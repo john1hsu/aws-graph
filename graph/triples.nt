@@ -4826,6 +4826,36 @@
 <https://github.com/john1hsu/aws-graph/id/ebs-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/ebs-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/ebs-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/2000/01/rdf-schema#label> "EC2 Image Builder" .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Image Builder" .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon EC2 Image Builder" .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/2004/02/skos/core#altLabel> "Image Builder" .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/2004/02/skos/core#definition> "A fully managed AWS service that builds, tests and distributes custom, patched AMIs and container images through versioned recipes, YAML components and scheduled pipelines, charging nothing itself beyond the EC2, EBS, ECR, Inspector and other resources a build uses." .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/2004/02/skos/core#prefLabel> "EC2 Image Builder" .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ecr> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-systems-manager> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s1> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s2> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s3> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s4> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s5> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s6> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s7> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s8> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <https://github.com/john1hsu/aws-graph/ontology#domain> "compute" .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/ec2-image-builder-quotas> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-inspector> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 instance types" .
@@ -12037,6 +12067,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/storage/improve-your-application-resiliency-with-larger-and-faster-gp3-volumes" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s1> <http://purl.org/dc/terms/title> "What is Image Builder? - EC2 Image Builder" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s1> <https://schema.org/url> "https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s2> <http://purl.org/dc/terms/title> "How EC2 Image Builder works" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s2> <https://schema.org/url> "https://docs.aws.amazon.com/imagebuilder/latest/userguide/how-image-builder-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s3> <http://purl.org/dc/terms/title> "EC2 Image Builder endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s3> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/imagebuilder.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s4> <http://purl.org/dc/terms/title> "EC2 Image Builder FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s4> <https://schema.org/url> "https://aws.amazon.com/image-builder/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s5> <http://purl.org/dc/terms/title> "Amazon Inspector integration in Image Builder" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s5> <https://schema.org/url> "https://docs.aws.amazon.com/imagebuilder/latest/userguide/integ-inspector.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s6> <http://purl.org/dc/terms/title> "Announcing flexible AMI distribution capabilities for EC2 Image Builder" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/announcing-flexible-ami-distribution-ec2-image-builder" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s7> <http://purl.org/dc/terms/title> "EC2 Image Builder enhances lifecycle policies with wildcard support and simplified IAM" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-image-builder-lifecycle-enhancements" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s8> <http://purl.org/dc/terms/title> "Domain 1: SDLC Automation - AWS Certified DevOps Engineer - Professional (DOP-C02) exam guide" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/userguide/devops-engineer-professional-02-domain1.html" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <http://purl.org/dc/terms/title> "Amazon EC2 instance type naming conventions" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -4212,6 +4212,31 @@
     ]
   },
   {
+    "id": "kt:ec2-image-builder",
+    "title": "EC2 Image Builder",
+    "aliases": [
+      "Amazon EC2 Image Builder",
+      "AWS Image Builder",
+      "Image Builder"
+    ],
+    "type": "Service",
+    "domain": "compute",
+    "file": "articles/compute/ec2-image-builder.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html",
+      "https://docs.aws.amazon.com/imagebuilder/latest/userguide/how-image-builder-works.html",
+      "https://docs.aws.amazon.com/general/latest/gr/imagebuilder.html",
+      "https://aws.amazon.com/image-builder/faqs",
+      "https://docs.aws.amazon.com/imagebuilder/latest/userguide/integ-inspector.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/announcing-flexible-ami-distribution-ec2-image-builder",
+      "https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-image-builder-lifecycle-enhancements",
+      "https://docs.aws.amazon.com/aws-certification/latest/userguide/devops-engineer-professional-02-domain1.html"
+    ]
+  },
+  {
     "id": "kt:ec2-instance-types",
     "title": "Amazon EC2 instance types",
     "aliases": [

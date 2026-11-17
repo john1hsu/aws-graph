@@ -5701,6 +5701,117 @@
       ]
     },
     {
+      "@id": "kt:ec2-image-builder",
+      "@type": "kto:Service",
+      "skos:prefLabel": "EC2 Image Builder",
+      "skos:definition": "A fully managed AWS service that builds, tests and distributes custom, patched AMIs and container images through versioned recipes, YAML components and scheduled pipelines, charging nothing itself beyond the EC2, EBS, ECR, Inspector and other resources a build uses.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Image Builder? - EC2 Image Builder",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How EC2 Image Builder works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/how-image-builder-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "EC2 Image Builder endpoints and quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/imagebuilder.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "EC2 Image Builder FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/image-builder/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Inspector integration in Image Builder",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/integ-inspector.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing flexible AMI distribution capabilities for EC2 Image Builder",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/announcing-flexible-ami-distribution-ec2-image-builder",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "EC2 Image Builder enhances lifecycle policies with wildcard support and simplified IAM",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-image-builder-lifecycle-enhancements",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Domain 1: SDLC Automation - AWS Certified DevOps Engineer - Professional (DOP-C02) exam guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/userguide/devops-engineer-professional-02-domain1.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/compute/ec2-image-builder.md",
+      "skos:altLabel": [
+        "Amazon EC2 Image Builder",
+        "AWS Image Builder",
+        "Image Builder"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-machine-images"
+        },
+        {
+          "@id": "kt:immutable-infrastructure"
+        },
+        {
+          "@id": "kt:amazon-ecr"
+        },
+        {
+          "@id": "kt:aws-systems-manager"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-inspector"
+        },
+        {
+          "@id": "kt:aws-resource-access-manager"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:ec2-image-builder-quotas"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-devops-engineer-professional"
+        }
+      ]
+    },
+    {
       "@id": "kt:ec2-instance-types",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon EC2 instance types",

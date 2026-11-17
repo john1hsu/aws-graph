@@ -9,7 +9,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments`, `kt:immutable-infrastructure` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
-| `kt:ec2-image-builder` | `kt:amazon-machine-images`, `kt:amazon-machine-images`, `kt:immutable-infrastructure` |
 | `kt:application-portfolio-assessment` | `kt:migration-wave-planning`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-application-integration-services` | `kt:amazon-mq`, `kt:amazon-swf` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
@@ -97,6 +96,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ec2-auto-scaling-quotas` | `kt:amazon-ec2-auto-scaling` |
 | `kt:ec2-capacity-blocks-for-ml` | `kt:aws-trainium-and-inferentia` |
 | `kt:ec2-gpu-instances` | `kt:aws-trainium-and-inferentia` |
+| `kt:ec2-image-builder-quotas` | `kt:ec2-image-builder` |
 | `kt:ec2-instance-quotas` | `kt:amazon-ec2` |
 | `kt:ecr-quotas` | `kt:amazon-ecr` |
 | `kt:ecs-native-blue-green-deployments` | `kt:aws-codedeploy` |
