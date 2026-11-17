@@ -9758,6 +9758,88 @@
       ]
     },
     {
+      "@id": "kt:dynamodb-partition-key-design",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "DynamoDB partition key design",
+      "skos:definition": "The practice of choosing an Amazon DynamoDB partition key (and, where needed, sharding it) so that reads and writes spread evenly across physical partitions, staying under the per-partition ceiling of 3,000 read units and 1,000 write units per second and avoiding hot-partition throttling.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Best practices for designing and using partition keys effectively in DynamoDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Designing partition keys to distribute your workload in DynamoDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-uniform-load.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using write sharding to distribute workloads evenly in your DynamoDB table",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-sharding.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DynamoDB burst and adaptive capacity",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/burst-adaptive-capacity.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing the Right DynamoDB Partition Key",
+          "dcterms:publisher": "AWS Database Blog",
+          "schema:url": "https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service (USENIX ATC 2022)",
+          "dcterms:publisher": "USENIX",
+          "schema:url": "https://usenix.org/system/files/atc22-elhemali.pdf",
+          "kto:sourceType": "peer-reviewed"
+        }
+      ],
+      "kto:file": "articles/databases/dynamodb-partition-key-design.md",
+      "skos:altLabel": [
+        "DynamoDB partition key best practices",
+        "DynamoDB hash key design",
+        "DynamoDB write sharding"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:purpose-built-databases"
+        },
+        {
+          "@id": "kt:dynamodb-global-tables"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:dynamodb-quotas"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:dynamodb-hot-partitions"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-dynamodb-accelerator"
+        }
+      ]
+    },
+    {
       "@id": "kt:purpose-built-databases",
       "@type": "kto:Concept",
       "skos:prefLabel": "Purpose-built databases",

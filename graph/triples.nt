@@ -4827,6 +4827,29 @@
 <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/2000/01/rdf-schema#label> "DynamoDB partition key design" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/2004/02/skos/core#altLabel> "DynamoDB hash key design" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/2004/02/skos/core#altLabel> "DynamoDB partition key best practices" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/2004/02/skos/core#altLabel> "DynamoDB write sharding" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/2004/02/skos/core#definition> "The practice of choosing an Amazon DynamoDB partition key (and, where needed, sharding it) so that reads and writes spread evenly across physical partitions, staying under the per-partition ceiling of 3,000 read units and 1,000 write units per second and avoiding hot-partition throttling." .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/2004/02/skos/core#prefLabel> "DynamoDB partition key design" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s1> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s2> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s3> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s4> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s5> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s6> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <https://github.com/john1hsu/aws-graph/ontology#mitigates> <https://github.com/john1hsu/aws-graph/id/dynamodb-hot-partitions> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
 <https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EBS quotas" .
@@ -12125,6 +12148,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/dynamodb-global-tables/s6> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/globaltables-disassociate.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s1> <http://purl.org/dc/terms/title> "Best practices for designing and using partition keys effectively in DynamoDB" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s1> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s2> <http://purl.org/dc/terms/title> "Designing partition keys to distribute your workload in DynamoDB" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s2> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-uniform-load.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s3> <http://purl.org/dc/terms/title> "Using write sharding to distribute workloads evenly in your DynamoDB table" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s3> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-sharding.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s4> <http://purl.org/dc/terms/title> "DynamoDB burst and adaptive capacity" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s4> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/burst-adaptive-capacity.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s5> <http://purl.org/dc/terms/publisher> "AWS Database Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s5> <http://purl.org/dc/terms/title> "Choosing the Right DynamoDB Partition Key" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s6> <http://purl.org/dc/terms/publisher> "USENIX" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s6> <http://purl.org/dc/terms/title> "Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service (USENIX ATC 2022)" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s6> <https://schema.org/url> "https://usenix.org/system/files/atc22-elhemali.pdf" .
 <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s1> <http://purl.org/dc/terms/title> "Amazon Elastic Block Store endpoints and quotas (AWS General Reference)" .
 <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

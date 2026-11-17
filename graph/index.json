@@ -4212,6 +4212,29 @@
     ]
   },
   {
+    "id": "kt:dynamodb-partition-key-design",
+    "title": "DynamoDB partition key design",
+    "aliases": [
+      "DynamoDB partition key best practices",
+      "DynamoDB hash key design",
+      "DynamoDB write sharding"
+    ],
+    "type": "Pattern",
+    "domain": "databases",
+    "file": "articles/databases/dynamodb-partition-key-design.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-uniform-load.html",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-sharding.html",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/burst-adaptive-capacity.html",
+      "https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key",
+      "https://usenix.org/system/files/atc22-elhemali.pdf"
+    ]
+  },
+  {
     "id": "kt:ebs-quotas",
     "title": "Amazon EBS quotas",
     "aliases": [

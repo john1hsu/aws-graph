@@ -15,6 +15,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
+| `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
 | `kt:ebs-snapshots` | `kt:amazon-ebs`, `kt:ebs-quotas` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
@@ -26,6 +27,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
 | `kt:amazon-detective` | `kt:amazon-guardduty` |
+| `kt:amazon-dynamodb-accelerator` | `kt:dynamodb-partition-key-design` |
 | `kt:amazon-elastic-vmware-service` | `kt:vmware-migration-to-aws` |
 | `kt:amazon-kendra` | `kt:amazon-q-business` |
 | `kt:amazon-kinesis-video-streams` | `kt:amazon-rekognition` |
@@ -91,8 +93,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:dms-schema-conversion` | `kt:aws-schema-conversion-tool` |
 | `kt:documentdb-quotas` | `kt:amazon-documentdb` |
 | `kt:drs-quotas` | `kt:aws-elastic-disaster-recovery` |
-| `kt:dynamodb-partition-key-design` | `kt:amazon-dynamodb` |
-| `kt:dynamodb-quotas` | `kt:amazon-dynamodb` |
+| `kt:dynamodb-hot-partitions` | `kt:dynamodb-partition-key-design` |
 | `kt:ec2-auto-scaling-quotas` | `kt:amazon-ec2-auto-scaling` |
 | `kt:ec2-capacity-blocks-for-ml` | `kt:aws-trainium-and-inferentia` |
 | `kt:ec2-gpu-instances` | `kt:aws-trainium-and-inferentia` |
