@@ -5439,6 +5439,36 @@
 <https://github.com/john1hsu/aws-graph/id/organizations-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
 <https://github.com/john1hsu/aws-graph/id/organizations-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/organizations-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ComplianceProgram> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "PCI DSS on AWS" .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS PCI DSS Level 1 Service Provider" .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS PCI DSS compliance" .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS PCI compliance package" .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "PCI DSS compliance on AWS" .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "Payment Card Industry Data Security Standard on AWS" .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#definition> "How AWS supports workloads that store, process or transmit payment card data: AWS is assessed as a PCI DSS Level 1 Service Provider and publishes its Attestation of Compliance and Responsibility Summary in AWS Artifact, while each customer still validates its own cardholder data environment." .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#prefLabel> "PCI DSS on AWS" .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s1> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s2> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s3> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s4> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s5> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s6> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-artifact> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-security-hub> .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Performance Efficiency Pillar" .
@@ -12451,6 +12481,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/organizations-quotas/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s1> <http://purl.org/dc/terms/title> "PCI DSS Compliance FAQs - AWS Cloud Security" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s1> <https://schema.org/url> "https://aws.amazon.com/compliance/pci-faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s2> <http://purl.org/dc/terms/publisher> "AWS Security Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s2> <http://purl.org/dc/terms/title> "Spring 2026 PCI DSS and PCI 3DS compliance packages for AWS now available" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s2> <https://schema.org/url> "https://aws.amazon.com/blogs/security/spring-2026-pci-dss-and-pci-3ds-compliance-packages-for-aws-now-available/" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s3> <http://purl.org/dc/terms/publisher> "PCI Security Standards Council" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s3> <http://purl.org/dc/terms/title> "Coffee with the Council Podcast: Guidance for PCI DSS E-commerce Requirements Effective After 31 March 2025" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s3> <https://schema.org/url> "https://blog.pcisecuritystandards.org/coffee-with-the-council-podcast-guidance-for-pci-dss-e-commerce-requirements-effective-after-31-march-2025" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s4> <http://purl.org/dc/terms/title> "PCI DSS in Security Hub CSPM" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s4> <https://schema.org/url> "https://docs.aws.amazon.com/securityhub/latest/userguide/pci-standard.html" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s5> <http://purl.org/dc/terms/publisher> "AWS Security Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s5> <http://purl.org/dc/terms/title> "Updated whitepaper: Architecting for PCI DSS Segmentation and Scoping on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/security/updated-whitepaper-architecting-for-pci-dss-segmentation-and-scoping-on-aws" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s6> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/pci-dss-on-aws/s6> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope" .
 <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s1> <http://purl.org/dc/terms/title> "Performance Efficiency Pillar - AWS Well-Architected Framework (introduction)" .
 <https://github.com/john1hsu/aws-graph/id/source/performance-efficiency-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

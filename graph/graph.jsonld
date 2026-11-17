@@ -17550,6 +17550,107 @@
       ]
     },
     {
+      "@id": "kt:pci-dss-on-aws",
+      "@type": "kto:ComplianceProgram",
+      "skos:prefLabel": "PCI DSS on AWS",
+      "skos:definition": "How AWS supports workloads that store, process or transmit payment card data: AWS is assessed as a PCI DSS Level 1 Service Provider and publishes its Attestation of Compliance and Responsibility Summary in AWS Artifact, while each customer still validates its own cardholder data environment.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "PCI DSS Compliance FAQs - AWS Cloud Security",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/pci-faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Spring 2026 PCI DSS and PCI 3DS compliance packages for AWS now available",
+          "dcterms:publisher": "AWS Security Blog",
+          "schema:url": "https://aws.amazon.com/blogs/security/spring-2026-pci-dss-and-pci-3ds-compliance-packages-for-aws-now-available/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Coffee with the Council Podcast: Guidance for PCI DSS E-commerce Requirements Effective After 31 March 2025",
+          "dcterms:publisher": "PCI Security Standards Council",
+          "schema:url": "https://blog.pcisecuritystandards.org/coffee-with-the-council-podcast-guidance-for-pci-dss-e-commerce-requirements-effective-after-31-march-2025",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "PCI DSS in Security Hub CSPM",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/securityhub/latest/userguide/pci-standard.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Updated whitepaper: Architecting for PCI DSS Segmentation and Scoping on AWS",
+          "dcterms:publisher": "AWS Security Blog",
+          "schema:url": "https://aws.amazon.com/blogs/security/updated-whitepaper-architecting-for-pci-dss-segmentation-and-scoping-on-aws",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/pci-dss-on-aws.md",
+      "skos:altLabel": [
+        "AWS PCI DSS compliance",
+        "PCI DSS compliance on AWS",
+        "AWS PCI DSS Level 1 Service Provider",
+        "Payment Card Industry Data Security Standard on AWS",
+        "AWS PCI compliance package"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:hipaa-eligible-services"
+        },
+        {
+          "@id": "kt:aws-cloudhsm"
+        },
+        {
+          "@id": "kt:aws-config"
+        },
+        {
+          "@id": "kt:aws-waf"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-artifact"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-security-hub"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:aws-payment-cryptography"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-guardduty",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon GuardDuty",

@@ -4757,6 +4757,31 @@
     ]
   },
   {
+    "id": "kt:pci-dss-on-aws",
+    "title": "PCI DSS on AWS",
+    "aliases": [
+      "AWS PCI DSS compliance",
+      "PCI DSS compliance on AWS",
+      "AWS PCI DSS Level 1 Service Provider",
+      "Payment Card Industry Data Security Standard on AWS",
+      "AWS PCI compliance package"
+    ],
+    "type": "ComplianceProgram",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/pci-dss-on-aws.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/compliance/pci-faqs",
+      "https://aws.amazon.com/blogs/security/spring-2026-pci-dss-and-pci-3ds-compliance-packages-for-aws-now-available/",
+      "https://blog.pcisecuritystandards.org/coffee-with-the-council-podcast-guidance-for-pci-dss-e-commerce-requirements-effective-after-31-march-2025",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/pci-standard.html",
+      "https://aws.amazon.com/blogs/security/updated-whitepaper-architecting-for-pci-dss-segmentation-and-scoping-on-aws",
+      "https://aws.amazon.com/compliance/services-in-scope"
+    ]
+  },
+  {
     "id": "kt:performance-efficiency-pillar",
     "title": "Performance Efficiency Pillar",
     "aliases": [

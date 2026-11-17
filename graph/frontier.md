@@ -15,6 +15,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:application-portfolio-assessment` | `kt:migration-wave-planning`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-application-integration-services` | `kt:amazon-mq`, `kt:amazon-swf` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
+| `kt:aws-payment-cryptography` | `kt:pci-dss-on-aws`, `kt:aws-cloudhsm` |
 | `kt:aws-skill-builder` | `kt:aws-certification-program`, `kt:aws-certified-cloudops-engineer-associate` |
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
@@ -59,7 +60,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-network-security-manager` | `kt:aws-firewall-manager` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
 | `kt:aws-nitro-enclaves` | `kt:aws-nitro-system` |
-| `kt:aws-payment-cryptography` | `kt:aws-cloudhsm` |
 | `kt:aws-professional-services` | `kt:aws-support-plans` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-security-incident-response` | `kt:aws-support-plans` |
