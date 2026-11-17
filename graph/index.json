@@ -4537,6 +4537,29 @@
     ]
   },
   {
+    "id": "kt:migration-wave-planning",
+    "title": "Migration wave planning",
+    "aliases": [
+      "Wave planning",
+      "Migration waves",
+      "Move group planning",
+      "Migration wave plan"
+    ],
+    "type": "Concept",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/migration-wave-planning.md",
+    "created": "2026-11-17",
+    "verified": "2026-11-17",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/application-portfolio-assessment-guide/wave-planning.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-portfolio-playbook/wave-planning.html",
+      "https://docs.aws.amazon.com/de_de/transform/latest/userguide/transform-vmware-review-groupings-and-waves.html",
+      "https://aws.amazon.com/blogs/migration-and-modernization/agile-migration-planning-accelerate-wave-planning-with-aws-transform/",
+      "https://docs.aws.amazon.com/migrationhub/latest/ug/migrationhub-availability-change.html"
+    ]
+  },
+  {
     "id": "kt:multi-account-strategy",
     "title": "Multi-account strategy",
     "aliases": [

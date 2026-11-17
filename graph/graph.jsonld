@@ -14923,6 +14923,92 @@
       ]
     },
     {
+      "@id": "kt:migration-wave-planning",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Migration wave planning",
+      "skos:definition": "The practice, in AWS's large-migration guidance, of grouping applications and servers into dependency-aware move groups and scheduling those groups into time-boxed migration waves, so a portfolio moves to AWS in repeatable, low-risk increments.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedOn": "2026-11-17",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Wave planning - Application portfolio assessment guide for AWS Cloud migration",
+          "dcterms:publisher": "Amazon Web Services (AWS Prescriptive Guidance)",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/application-portfolio-assessment-guide/wave-planning.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Task 5: Defining the wave planning process - Portfolio playbook for AWS large migrations",
+          "dcterms:publisher": "Amazon Web Services (AWS Prescriptive Guidance)",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-portfolio-playbook/wave-planning.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Review groupings and waves - AWS Transform User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/de_de/transform/latest/userguide/transform-vmware-review-groupings-and-waves.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Agile migration planning: Accelerate wave planning with AWS Transform",
+          "dcterms:publisher": "Amazon Web Services (AWS Migration & Modernization Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/migration-and-modernization/agile-migration-planning-accelerate-wave-planning-with-aws-transform/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Migration Hub availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/migrationhub/latest/ug/migrationhub-availability-change.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/migration-wave-planning.md",
+      "skos:altLabel": [
+        "Wave planning",
+        "Migration waves",
+        "Move group planning",
+        "Migration wave plan"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        },
+        {
+          "@id": "kt:aws-migration-acceleration-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:vmware-migration-to-aws"
+        },
+        {
+          "@id": "kt:aws-transform-mgn"
+        },
+        {
+          "@id": "kt:aws-control-tower"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:seven-rs-migration-strategies"
+        },
+        {
+          "@id": "kt:application-portfolio-assessment"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-transform"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-migration-hub"
+        }
+      ]
+    },
+    {
       "@id": "kt:seven-rs-migration-strategies",
       "@type": "kto:Concept",
       "skos:prefLabel": "7 Rs migration strategies",

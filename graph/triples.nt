@@ -5189,6 +5189,32 @@
 <https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2000/01/rdf-schema#label> "Migration wave planning" .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2004/02/skos/core#altLabel> "Migration wave plan" .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2004/02/skos/core#altLabel> "Migration waves" .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2004/02/skos/core#altLabel> "Move group planning" .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2004/02/skos/core#altLabel> "Wave planning" .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-acceleration-program> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2004/02/skos/core#definition> "The practice, in AWS's large-migration guidance, of grouping applications and servers into dependency-aware move groups and scheduling those groups into time-boxed migration waves, so a portfolio moves to AWS in repeatable, low-risk increments." .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Migration wave planning" .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-control-tower> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s1> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s2> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s3> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s4> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s5> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-migration-hub> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-transform> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-account strategy" .
@@ -12077,6 +12103,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada/" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s1> <http://purl.org/dc/terms/title> "Wave planning - Application portfolio assessment guide for AWS Cloud migration" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s1> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/application-portfolio-assessment-guide/wave-planning.html" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Prescriptive Guidance)" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s2> <http://purl.org/dc/terms/title> "Task 5: Defining the wave planning process - Portfolio playbook for AWS large migrations" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s2> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-portfolio-playbook/wave-planning.html" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s3> <http://purl.org/dc/terms/title> "Review groupings and waves - AWS Transform User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s3> <https://schema.org/url> "https://docs.aws.amazon.com/de_de/transform/latest/userguide/transform-vmware-review-groupings-and-waves.html" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Migration & Modernization Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s4> <http://purl.org/dc/terms/title> "Agile migration planning: Accelerate wave planning with AWS Transform" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/migration-and-modernization/agile-migration-planning-accelerate-wave-planning-with-aws-transform/" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s5> <http://purl.org/dc/terms/title> "AWS Migration Hub availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s5> <https://schema.org/url> "https://docs.aws.amazon.com/migrationhub/latest/ug/migrationhub-availability-change.html" .
 <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s1> <http://purl.org/dc/terms/title> "Benefits of using multiple AWS accounts - Organizing Your AWS Environment Using Multiple Accounts" .
 <https://github.com/john1hsu/aws-graph/id/source/multi-account-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

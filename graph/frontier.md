@@ -12,6 +12,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:immutable-infrastructure` | `kt:blue-green-deployments`, `kt:cloudformation-drift-detection`, `kt:infrastructure-as-code` |
 | `kt:amazon-managed-service-for-apache-flink` | `kt:amazon-kinesis-data-streams`, `kt:amazon-msk` |
+| `kt:application-portfolio-assessment` | `kt:migration-wave-planning`, `kt:seven-rs-migration-strategies` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-skill-builder` | `kt:aws-certification-program`, `kt:aws-certified-cloudops-engineer-associate` |
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments` |
@@ -21,7 +22,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ec2-image-builder` | `kt:amazon-machine-images`, `kt:amazon-machine-images` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:karpenter` | `kt:bottlerocket`, `kt:eks-auto-mode` |
-| `kt:migration-wave-planning` | `kt:aws-migration-acceleration-program`, `kt:seven-rs-migration-strategies` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
@@ -41,7 +41,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ami-quotas` | `kt:amazon-machine-images` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
-| `kt:application-portfolio-assessment` | `kt:seven-rs-migration-strategies` |
 | `kt:appsync-quotas` | `kt:aws-appsync` |
 | `kt:attribute-based-instance-type-selection` | `kt:ec2-instance-types` |
 | `kt:aurora-limitless-database` | `kt:aurora-quotas` |
@@ -57,6 +56,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-devops-agent` | `kt:aws-support-plans` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
+| `kt:aws-migration-hub` | `kt:migration-wave-planning` |
 | `kt:aws-network-firewall` | `kt:aws-firewall-manager` |
 | `kt:aws-network-security-manager` | `kt:aws-firewall-manager` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
