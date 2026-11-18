@@ -4637,6 +4637,33 @@
     ]
   },
   {
+    "id": "kt:ecs-native-blue-green-deployments",
+    "title": "Amazon ECS blue/green deployments",
+    "aliases": [
+      "ECS native blue/green deployments",
+      "ECS built-in blue/green deployments",
+      "ECS-native blue/green"
+    ],
+    "type": "Feature",
+    "domain": "containers",
+    "file": "articles/containers/ecs-native-blue-green-deployments.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-blue-green.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/blue-green-deployment-how-it-works.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/blue-green-deployment-implementation.html",
+      "https://aws.amazon.com/blogs/aws/accelerate-safe-software-releases-with-new-built-in-blue-green-deployments-in-amazon-ecs/",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/canary-deployment.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ecs-built-in-linear-canary-deployments/",
+      "https://aws.amazon.com/blogs/containers/migrating-from-aws-codedeploy-to-amazon-ecs-for-blue-green-deployments/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments/",
+      "https://aws.amazon.com/blogs/devops/choosing-between-amazon-ecs-blue-green-native-or-aws-codedeploy-in-aws-cdk/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/"
+    ]
+  },
+  {
     "id": "kt:ecs-quotas",
     "title": "Amazon ECS quotas",
     "aliases": [

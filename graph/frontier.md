@@ -29,6 +29,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-kinesis-video-streams` | `kt:amazon-rekognition` |
 | `kt:amazon-macie` | `kt:aws-security-hub` |
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |
+| `kt:amazon-vpc-lattice` | `kt:ecs-native-blue-green-deployments` |
 | `kt:ami-quotas` | `kt:amazon-machine-images` |
 | `kt:apache-flink` | `kt:amazon-managed-service-for-apache-flink` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
@@ -101,7 +102,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ec2-image-builder-quotas` | `kt:ec2-image-builder` |
 | `kt:ec2-instance-quotas` | `kt:amazon-ec2` |
 | `kt:ecr-quotas` | `kt:amazon-ecr` |
-| `kt:ecs-native-blue-green-deployments` | `kt:aws-codedeploy` |
 | `kt:efs-quotas` | `kt:amazon-efs` |
 | `kt:elastic-beanstalk-quotas` | `kt:aws-elastic-beanstalk` |
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |

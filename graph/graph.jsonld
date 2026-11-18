@@ -7476,6 +7476,145 @@
       ]
     },
     {
+      "@id": "kt:ecs-native-blue-green-deployments",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon ECS blue/green deployments",
+      "skos:definition": "A deployment strategy built into the Amazon ECS deployment controller that starts a new (green) service revision beside the running (blue) one, shifts test and then production traffic to it in managed lifecycle stages, and keeps blue running for a bake period so rollback is near-instant; it also offers linear and canary traffic shifting.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon ECS blue/green deployments",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-blue-green.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS blue/green service deployments workflow",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/blue-green-deployment-how-it-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Required resources for Amazon ECS blue/green deployments",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/blue-green-deployment-implementation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Accelerate safe software releases with new built-in blue/green deployments in Amazon ECS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/aws/accelerate-safe-software-releases-with-new-built-in-blue-green-deployments-in-amazon-ecs/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECS canary deployments",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/canary-deployment.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS now supports built-in Linear and Canary deployments",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ecs-built-in-linear-canary-deployments/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Migrating from AWS CodeDeploy to Amazon ECS for blue/green deployments",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/containers/migrating-from-aws-codedeploy-to-amazon-ecs-for-blue-green-deployments/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Choosing between Amazon ECS Blue/Green Native or AWS CodeDeploy in AWS CDK",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/devops/choosing-between-amazon-ecs-blue-green-native-or-aws-codedeploy-in-aws-cdk/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECS advanced deployment strategies now available in AWS European Sovereign Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/containers/ecs-native-blue-green-deployments.md",
+      "skos:altLabel": [
+        "ECS native blue/green deployments",
+        "ECS built-in blue/green deployments",
+        "ECS-native blue/green"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:blue-green-deployments"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:canary-deployments"
+        },
+        {
+          "@id": "kt:application-load-balancer"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:aws-cdk"
+        },
+        {
+          "@id": "kt:aws-european-sovereign-cloud"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:amazon-ecs"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:blue-green-deployments"
+        },
+        {
+          "@id": "kt:canary-deployments"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-codedeploy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:amazon-vpc-lattice"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ]
+    },
+    {
       "@id": "kt:ecs-quotas",
       "@type": "kto:Limit",
       "skos:prefLabel": "Amazon ECS quotas",

@@ -5311,6 +5311,42 @@
 <https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/bottlerocket> .
 <https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon ECS blue/green deployments" .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2004/02/skos/core#altLabel> "ECS built-in blue/green deployments" .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2004/02/skos/core#altLabel> "ECS native blue/green deployments" .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2004/02/skos/core#altLabel> "ECS-native blue/green" .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2004/02/skos/core#definition> "A deployment strategy built into the Amazon ECS deployment controller that starts a new (green) service revision beside the running (blue) one, shifts test and then production traffic to it in managed lifecycle stages, and keeps blue running for a bake period so rollback is near-instant; it also offers linear and canary traffic shifting." .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon ECS blue/green deployments" .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/application-load-balancer> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cdk> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/canary-deployments> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s10> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s1> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s2> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s3> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s4> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s5> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s6> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s7> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s8> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s9> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-codedeploy> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc-lattice> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/canary-deployments> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/ecs-native-blue-green-deployments> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
 <https://github.com/john1hsu/aws-graph/id/ecs-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon ECS quotas" .
@@ -13083,6 +13119,56 @@
 <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s10> <http://purl.org/dc/terms/title> "Amazon ECS advanced deployment strategies now available in AWS European Sovereign Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s10> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s1> <http://purl.org/dc/terms/title> "Amazon ECS blue/green deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-blue-green.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s2> <http://purl.org/dc/terms/title> "Amazon ECS blue/green service deployments workflow" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/blue-green-deployment-how-it-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s3> <http://purl.org/dc/terms/title> "Required resources for Amazon ECS blue/green deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/blue-green-deployment-implementation.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s4> <http://purl.org/dc/terms/title> "Accelerate safe software releases with new built-in blue/green deployments in Amazon ECS" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/accelerate-safe-software-releases-with-new-built-in-blue-green-deployments-in-amazon-ecs/" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s5> <http://purl.org/dc/terms/title> "Amazon ECS canary deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/canary-deployment.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s6> <http://purl.org/dc/terms/title> "Amazon ECS now supports built-in Linear and Canary deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ecs-built-in-linear-canary-deployments/" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s7> <http://purl.org/dc/terms/title> "Migrating from AWS CodeDeploy to Amazon ECS for blue/green deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/containers/migrating-from-aws-codedeploy-to-amazon-ecs-for-blue-green-deployments/" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s8> <http://purl.org/dc/terms/title> "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments/" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s9> <http://purl.org/dc/terms/title> "Choosing between Amazon ECS Blue/Green Native or AWS CodeDeploy in AWS CDK" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ecs-native-blue-green-deployments/s9> <https://schema.org/url> "https://aws.amazon.com/blogs/devops/choosing-between-amazon-ecs-blue-green-native-or-aws-codedeploy-in-aws-cdk/" .
 <https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s1> <http://purl.org/dc/terms/title> "Amazon ECS endpoints and quotas (AWS General Reference)" .
 <https://github.com/john1hsu/aws-graph/id/source/ecs-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
