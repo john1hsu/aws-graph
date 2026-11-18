@@ -13,6 +13,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
+| `kt:role-based-access-control` | `kt:amazon-verified-permissions`, `kt:attribute-based-access-control` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
@@ -66,6 +67,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-x-ray` | `kt:aws-developer-tools` |
 | `kt:bimodal-behavior` | `kt:static-stability` |
 | `kt:bsi-c5` | `kt:aws-european-sovereign-cloud` |
+| `kt:cedar-policy-language` | `kt:amazon-verified-permissions` |
 | `kt:clean-rooms-quotas` | `kt:aws-clean-rooms` |
 | `kt:cloud-computing` | `kt:amazon-web-services` |
 | `kt:cloud-map-quotas` | `kt:aws-cloud-map` |
@@ -139,7 +141,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
 | `kt:rekognition-quotas` | `kt:amazon-rekognition` |
 | `kt:retry-with-backoff` | `kt:shuffle-sharding` |
-| `kt:role-based-access-control` | `kt:attribute-based-access-control` |
 | `kt:route-53-quotas` | `kt:amazon-route-53` |
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
 | `kt:s3-lifecycle-policies` | `kt:s3-storage-classes` |
@@ -155,5 +156,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:systems-manager-session-manager` | `kt:aws-systems-manager` |
 | `kt:transfer-family-quotas` | `kt:aws-transfer-family` |
 | `kt:transit-gateway-quotas` | `kt:aws-transit-gateway` |
+| `kt:verified-permissions-quotas` | `kt:amazon-verified-permissions` |
 | `kt:vpc-endpoints` | `kt:aws-privatelink` |
 | `kt:vpc-quotas` | `kt:amazon-vpc` |

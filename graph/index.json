@@ -1274,6 +1274,33 @@
     ]
   },
   {
+    "id": "kt:amazon-verified-permissions",
+    "title": "Amazon Verified Permissions",
+    "aliases": [
+      "Verified Permissions",
+      "AVP",
+      "Amazon AVP"
+    ],
+    "type": "Service",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/amazon-verified-permissions.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/what-is-avp.html",
+      "https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/policy-stores.html",
+      "https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/quotas.html",
+      "https://aws.amazon.com/verified-permissions/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-verified-permissions-reduces-price/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-verified-permissions-policy-store",
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-lambda-authorizer-verified-permissions.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/saas-multitenant-api-access-authorization/avp-design-considerations.html",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://arxiv.org/abs/2403.04651v2"
+    ]
+  },
+  {
     "id": "kt:amazon-vpc",
     "title": "Amazon VPC",
     "aliases": [

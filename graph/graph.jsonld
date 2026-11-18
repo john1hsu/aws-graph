@@ -15171,6 +15171,130 @@
       ]
     },
     {
+      "@id": "kt:amazon-verified-permissions",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Verified Permissions",
+      "skos:definition": "A managed, fine-grained authorization service for the applications you build: you store Cedar policies in a policy store, and your application asks the service at runtime whether a principal may perform an action on a resource, receiving an allow or deny decision.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Verified Permissions? - Amazon Verified Permissions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/what-is-avp.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Verified Permissions policy stores - Amazon Verified Permissions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/policy-stores.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for Amazon Verified Permissions - Amazon Verified Permissions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Verified Permissions Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/verified-permissions/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Verified Permissions reduces authorization request price by up to 97%",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-verified-permissions-reduces-price/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Verified Permissions now supports policy store aliases and named policies and policy templates",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-verified-permissions-policy-store",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Control access based on an identity's attributes with Verified Permissions - Amazon API Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-lambda-authorizer-verified-permissions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Verified Permissions multi-tenant design considerations - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/saas-multitenant-api-access-authorization/avp-design-considerations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Cedar: A New Language for Expressive, Fast, Safe, and Analyzable Authorization (OOPSLA 2024)",
+          "dcterms:publisher": "arXiv",
+          "schema:url": "https://arxiv.org/abs/2403.04651v2",
+          "kto:sourceType": "academic"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/amazon-verified-permissions.md",
+      "skos:altLabel": [
+        "Verified Permissions",
+        "AVP",
+        "Amazon AVP"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-cognito"
+        },
+        {
+          "@id": "kt:attribute-based-access-control"
+        },
+        {
+          "@id": "kt:role-based-access-control"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-api-gateway"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:cedar-policy-language"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:verified-permissions-quotas"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:attribute-based-access-control",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Attribute-based access control (ABAC) on AWS",

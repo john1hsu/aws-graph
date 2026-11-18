@@ -1457,6 +1457,37 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-textract> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-textract> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-textract> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Verified Permissions" .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/2004/02/skos/core#altLabel> "AVP" .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon AVP" .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/2004/02/skos/core#altLabel> "Verified Permissions" .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/2004/02/skos/core#definition> "A managed, fine-grained authorization service for the applications you build: you store Cedar policies in a policy store, and your application asks the service at runtime whether a principal may perform an action on a resource, receiving an allow or deny decision." .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Verified Permissions" .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-cognito> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/role-based-access-control> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s10> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s9> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <https://github.com/john1hsu/aws-graph/ontology#domain> "identity-and-access" .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/verified-permissions-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/cedar-policy-language> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-verified-permissions> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-vpc> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon VPC" .
@@ -8491,6 +8522,56 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-textract/s6> <https://schema.org/url> "https://docs.aws.amazon.com/it_it/aws-certification/latest/userguide/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s10> <http://purl.org/dc/terms/publisher> "arXiv" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s10> <http://purl.org/dc/terms/title> "Cedar: A New Language for Expressive, Fast, Safe, and Analyzable Authorization (OOPSLA 2024)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s10> <https://schema.org/url> "https://arxiv.org/abs/2403.04651v2" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s1> <http://purl.org/dc/terms/title> "What is Amazon Verified Permissions? - Amazon Verified Permissions" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s1> <https://schema.org/url> "https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/what-is-avp.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s2> <http://purl.org/dc/terms/title> "Amazon Verified Permissions policy stores - Amazon Verified Permissions" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s2> <https://schema.org/url> "https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/policy-stores.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s3> <http://purl.org/dc/terms/title> "Quotas for Amazon Verified Permissions - Amazon Verified Permissions" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s3> <https://schema.org/url> "https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s4> <http://purl.org/dc/terms/title> "Amazon Verified Permissions Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s4> <https://schema.org/url> "https://aws.amazon.com/verified-permissions/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s5> <http://purl.org/dc/terms/title> "Amazon Verified Permissions reduces authorization request price by up to 97%" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-verified-permissions-reduces-price/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s6> <http://purl.org/dc/terms/title> "Amazon Verified Permissions now supports policy store aliases and named policies and policy templates" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-verified-permissions-policy-store" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s7> <http://purl.org/dc/terms/title> "Control access based on an identity's attributes with Verified Permissions - Amazon API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s7> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-lambda-authorizer-verified-permissions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s8> <http://purl.org/dc/terms/title> "Amazon Verified Permissions multi-tenant design considerations - AWS Prescriptive Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s8> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/saas-multitenant-api-access-authorization/avp-design-considerations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s9> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-verified-permissions/s9> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s1> <http://purl.org/dc/terms/title> "What is Amazon VPC? - Amazon Virtual Private Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-vpc/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
