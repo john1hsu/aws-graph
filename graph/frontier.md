@@ -23,11 +23,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract` |
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
-| `kt:amazon-detective` | `kt:amazon-guardduty` |
 | `kt:amazon-elastic-vmware-service` | `kt:vmware-migration-to-aws` |
 | `kt:amazon-kinesis-video-streams` | `kt:amazon-rekognition` |
 | `kt:amazon-macie` | `kt:aws-security-hub` |
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |
+| `kt:amazon-security-lake` | `kt:amazon-detective` |
 | `kt:amazon-vpc-lattice` | `kt:ecs-native-blue-green-deployments` |
 | `kt:ami-quotas` | `kt:amazon-machine-images` |
 | `kt:apache-flink` | `kt:amazon-managed-service-for-apache-flink` |
@@ -90,6 +90,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-warehouse` | `kt:data-lake-on-aws` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |
 | `kt:declarative-policies` | `kt:ec2-instance-metadata-service` |
+| `kt:detective-quotas` | `kt:amazon-detective` |
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |
 | `kt:dms-schema-conversion` | `kt:aws-schema-conversion-tool` |
 | `kt:documentdb-quotas` | `kt:amazon-documentdb` |

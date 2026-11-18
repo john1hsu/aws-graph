@@ -20536,6 +20536,119 @@
       ]
     },
     {
+      "@id": "kt:amazon-detective",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Detective",
+      "skos:definition": "AWS's security investigation service, which automatically collects CloudTrail, VPC Flow Logs and GuardDuty data into a behavior graph and uses machine learning, statistics and graph analysis to help analysts find the root cause and scope of security findings.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Detective?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/detective/latest/userguide/what-is-detective",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Detective FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/detective/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Source data used in a Detective behavior graph",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/detective/latest/userguide/detective-source-data-about.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Detective Regions and quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/detective/latest/userguide/regions-limitations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Detective adds investigations and finding group summaries to help you investigate security findings",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/blogs/aws/amazon-detective-adds-investigations-and-finding-group-summaries-to-help-you-investigate-security-findings",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services (AWS Certified Cloud Practitioner CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security/amazon-detective.md",
+      "skos:altLabel": [
+        "Detective",
+        "AWS Detective"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-guardduty"
+        },
+        {
+          "@id": "kt:aws-security-hub"
+        },
+        {
+          "@id": "kt:amazon-inspector"
+        },
+        {
+          "@id": "kt:amazon-security-lake"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-guardduty"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:detective-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-guardduty",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon GuardDuty",

@@ -363,6 +363,29 @@
     ]
   },
   {
+    "id": "kt:amazon-detective",
+    "title": "Amazon Detective",
+    "aliases": [
+      "Detective",
+      "AWS Detective"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/amazon-detective.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/detective/latest/userguide/what-is-detective",
+      "https://aws.amazon.com/detective/faqs",
+      "https://docs.aws.amazon.com/detective/latest/userguide/detective-source-data-about.html",
+      "https://docs.aws.amazon.com/detective/latest/userguide/regions-limitations.html",
+      "https://aws.amazon.com/blogs/aws/amazon-detective-adds-investigations-and-finding-group-summaries-to-help-you-investigate-security-findings",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-documentdb",
     "title": "Amazon DocumentDB (with MongoDB compatibility)",
     "aliases": [

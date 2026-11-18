@@ -406,6 +406,35 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Detective" .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Detective" .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/2004/02/skos/core#altLabel> "Detective" .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/2004/02/skos/core#definition> "AWS's security investigation service, which automatically collects CloudTrail, VPC Flow Logs and GuardDuty data into a behavior graph and uses machine learning, statistics and graph analysis to help analysts find the root cause and scope of security findings." .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Detective" .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-guardduty> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-inspector> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-security-lake> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-security-hub> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/detective-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-guardduty> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-detective> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon DocumentDB (with MongoDB compatibility)" .
@@ -7282,6 +7311,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <https://schema.org/url> "https://aws.amazon.com/compare/data-firehose-and-kinesis-data-streams/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s1> <http://purl.org/dc/terms/title> "What is Amazon Detective?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s1> <https://schema.org/url> "https://docs.aws.amazon.com/detective/latest/userguide/what-is-detective" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s2> <http://purl.org/dc/terms/title> "Amazon Detective FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s2> <https://schema.org/url> "https://aws.amazon.com/detective/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s3> <http://purl.org/dc/terms/title> "Source data used in a Detective behavior graph" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s3> <https://schema.org/url> "https://docs.aws.amazon.com/detective/latest/userguide/detective-source-data-about.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s4> <http://purl.org/dc/terms/title> "Amazon Detective Regions and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s4> <https://schema.org/url> "https://docs.aws.amazon.com/detective/latest/userguide/regions-limitations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s5> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s5> <http://purl.org/dc/terms/title> "Amazon Detective adds investigations and finding group summaries to help you investigate security findings" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/amazon-detective-adds-investigations-and-finding-group-summaries-to-help-you-investigate-security-findings" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s6> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s6> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s7> <http://purl.org/dc/terms/title> "In-Scope AWS Services (AWS Certified Cloud Practitioner CLF-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s7> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s1> <http://purl.org/dc/terms/title> "What is Amazon DocumentDB (with MongoDB compatibility)" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
