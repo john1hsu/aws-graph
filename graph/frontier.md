@@ -19,7 +19,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
-| `kt:amazon-appflow` | `kt:aws-application-integration-services` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract` |
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
@@ -33,6 +32,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apache-flink` | `kt:amazon-managed-service-for-apache-flink` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
+| `kt:appflow-quotas` | `kt:amazon-appflow` |
 | `kt:appsync-quotas` | `kt:aws-appsync` |
 | `kt:attribute-based-instance-type-selection` | `kt:ec2-instance-types` |
 | `kt:aurora-limitless-database` | `kt:aurora-quotas` |

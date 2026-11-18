@@ -21904,6 +21904,146 @@
       ]
     },
     {
+      "@id": "kt:amazon-appflow",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon AppFlow",
+      "skos:definition": "AWS's fully managed, no-code integration service that moves data between SaaS applications such as Salesforce, SAP, ServiceNow and Slack and AWS services such as Amazon S3 and Amazon Redshift, running flows on demand, on a schedule or on a SaaS event, with mapping, filtering and validation along the way.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon AppFlow?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/appflow/latest/userguide/what-is-appflow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon AppFlow endpoints and quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/appflow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon AppFlow pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/appflow/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon AppFlow FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/appflow/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon AppFlow features",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/appflow/features/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Private Amazon AppFlow flows",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ru_ru/appflow/latest/userguide/private-flows.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon AppFlow now supports AWS Glue Data Catalog integration and provides enhanced data preparation",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-appflow-aws-glue-data-catalog-integration-provides-enhanced-data-preparation",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Combining Amazon AppFlow with AWS Step Functions to maximize application integration benefits",
+          "dcterms:publisher": "Amazon Web Services (AWS Compute Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/compute/combining-amazon-appflow-with-aws-step-functions-to-maximize-application-integration-benefits",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services (AWS Certified Solutions Architect – Associate SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services (AWS Certified Data Engineer – Associate DEA-C01)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/data-engineer-associate-01/dea-01-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/amazon-appflow.md",
+      "skos:altLabel": [
+        "AppFlow",
+        "AWS AppFlow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-application-integration-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:amazon-redshift"
+        },
+        {
+          "@id": "kt:amazon-eventbridge"
+        },
+        {
+          "@id": "kt:aws-step-functions"
+        },
+        {
+          "@id": "kt:data-lake-on-aws"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-glue"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-datasync"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-privatelink"
+        },
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:appflow-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        },
+        {
+          "@id": "kt:aws-certified-data-engineer-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-eventbridge",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon EventBridge",

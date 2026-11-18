@@ -27,6 +27,32 @@
     ]
   },
   {
+    "id": "kt:amazon-appflow",
+    "title": "Amazon AppFlow",
+    "aliases": [
+      "AppFlow",
+      "AWS AppFlow"
+    ],
+    "type": "Service",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/amazon-appflow.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/appflow/latest/userguide/what-is-appflow.html",
+      "https://docs.aws.amazon.com/general/latest/gr/appflow.html",
+      "https://aws.amazon.com/appflow/pricing/",
+      "https://aws.amazon.com/appflow/faqs/",
+      "https://aws.amazon.com/appflow/features/",
+      "https://docs.aws.amazon.com/ru_ru/appflow/latest/userguide/private-flows.html",
+      "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-appflow-aws-glue-data-catalog-integration-provides-enhanced-data-preparation",
+      "https://aws.amazon.com/blogs/compute/combining-amazon-appflow-with-aws-step-functions-to-maximize-application-integration-benefits",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/data-engineer-associate-01/dea-01-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-application-recovery-controller",
     "title": "Amazon Application Recovery Controller",
     "aliases": [

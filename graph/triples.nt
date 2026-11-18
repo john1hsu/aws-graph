@@ -27,6 +27,41 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
 <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon AppFlow" .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS AppFlow" .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/2004/02/skos/core#altLabel> "AppFlow" .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed, no-code integration service that moves data between SaaS applications such as Salesforce, SAP, ServiceNow and Slack and AWS services such as Amazon S3 and Amazon Redshift, running flows on demand, on a schedule or on a SaaS event, with mapping, filtering and validation along the way." .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon AppFlow" .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-step-functions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s10> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s9> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-datasync> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/appflow-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-privatelink> .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-appflow> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Application Recovery Controller" .
@@ -6727,6 +6762,56 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s10> <http://purl.org/dc/terms/title> "In-Scope AWS Services (AWS Certified Data Engineer – Associate DEA-C01)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s10> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/data-engineer-associate-01/dea-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s1> <http://purl.org/dc/terms/title> "What is Amazon AppFlow?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s1> <https://schema.org/url> "https://docs.aws.amazon.com/appflow/latest/userguide/what-is-appflow.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s2> <http://purl.org/dc/terms/title> "Amazon AppFlow endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s2> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/appflow.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s3> <http://purl.org/dc/terms/title> "Amazon AppFlow pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s3> <https://schema.org/url> "https://aws.amazon.com/appflow/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s4> <http://purl.org/dc/terms/title> "Amazon AppFlow FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s4> <https://schema.org/url> "https://aws.amazon.com/appflow/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s5> <http://purl.org/dc/terms/title> "Amazon AppFlow features" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s5> <https://schema.org/url> "https://aws.amazon.com/appflow/features/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s6> <http://purl.org/dc/terms/title> "Private Amazon AppFlow flows" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s6> <https://schema.org/url> "https://docs.aws.amazon.com/ru_ru/appflow/latest/userguide/private-flows.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s7> <http://purl.org/dc/terms/title> "Amazon AppFlow now supports AWS Glue Data Catalog integration and provides enhanced data preparation" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-appflow-aws-glue-data-catalog-integration-provides-enhanced-data-preparation" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Compute Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s8> <http://purl.org/dc/terms/title> "Combining Amazon AppFlow with AWS Step Functions to maximize application integration benefits" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s8> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/combining-amazon-appflow-with-aws-step-functions-to-maximize-application-integration-benefits" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s9> <http://purl.org/dc/terms/title> "In-Scope AWS Services (AWS Certified Solutions Architect – Associate SAA-C03)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-appflow/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s1> <http://purl.org/dc/terms/title> "What is ARC? - Amazon Application Recovery Controller (ARC)" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-application-recovery-controller/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
