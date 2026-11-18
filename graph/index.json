@@ -3598,6 +3598,26 @@
     ]
   },
   {
+    "id": "kt:aws-skill-builder",
+    "title": "AWS Skill Builder",
+    "aliases": [
+      "Skill Builder",
+      "AWS Skill Builder subscription"
+    ],
+    "type": "Service",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-skill-builder.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/training/faqs/",
+      "https://aws.amazon.com/blogs/aws/new-aws-skill-builder-subscriptions",
+      "https://aws.amazon.com/about-aws/whats-new/2022/08/aws-training-certification-aws-skill-builder-subscriptions",
+      "https://aws.amazon.com/blogs/training-and-certification/december-2025-new-offerings/"
+    ]
+  },
+  {
     "id": "kt:aws-step-functions",
     "title": "AWS Step Functions",
     "aliases": [

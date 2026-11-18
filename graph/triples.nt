@@ -4125,6 +4125,27 @@
 <https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Skill Builder" .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Skill Builder subscription" .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/2004/02/skos/core#altLabel> "Skill Builder" .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/2004/02/skos/core#definition> "AWS Training and Certification's digital learning platform: hundreds of free self-paced courses plus paid Individual and Team subscriptions that add hands-on labs, game-based learning, Jam challenges and official certification exam preparation." .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Skill Builder" .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloudops-engineer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-builder-id> .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Step Functions" .
@@ -11443,6 +11464,26 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-site-to-site-vpn/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s1> <http://purl.org/dc/terms/title> "AWS Training and Certification FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s1> <https://schema.org/url> "https://aws.amazon.com/training/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s2> <http://purl.org/dc/terms/title> "New – AWS Skill Builder Subscriptions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s2> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/new-aws-skill-builder-subscriptions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s3> <http://purl.org/dc/terms/title> "AWS Training and Certification announces AWS Skill Builder subscriptions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s3> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2022/08/aws-training-certification-aws-skill-builder-subscriptions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Training and Certification Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s4> <http://purl.org/dc/terms/title> "New courses and certification updates from AWS Training and Certification in December 2025" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/december-2025-new-offerings/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s1> <http://purl.org/dc/terms/title> "What is Step Functions?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
