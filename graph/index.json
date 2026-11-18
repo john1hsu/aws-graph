@@ -711,6 +711,31 @@
     ]
   },
   {
+    "id": "kt:amazon-kendra",
+    "title": "Amazon Kendra",
+    "aliases": [
+      "Kendra",
+      "AWS Kendra",
+      "Kendra GenAI Index"
+    ],
+    "type": "Service",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-kendra.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "closed-to-new-customers",
+    "source_urls": [
+      "https://docs.aws.amazon.com/kendra/latest/dg/what-is-kendra.html",
+      "https://docs.aws.amazon.com/kendra/latest/dg/kendra-availability-change.html",
+      "https://docs.aws.amazon.com/kendra/latest/dg/doc-history.html",
+      "https://aws.amazon.com/kendra/pricing/",
+      "https://docs.aws.amazon.com/kendra/latest/dg/quotas.html",
+      "https://docs.aws.amazon.com/kendra/latest/dg/searching-retrieve.html",
+      "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-kendra-genai-index-enhanced-semantic-search-and-retrieval-capabilities/",
+      "https://docs.aws.amazon.com/kendra/latest/APIReference/API_CreateIndex.html"
+    ]
+  },
+  {
     "id": "kt:amazon-kinesis-data-streams",
     "title": "Amazon Kinesis Data Streams",
     "aliases": [

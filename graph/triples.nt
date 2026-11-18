@@ -815,6 +815,34 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-inspector> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Kendra" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Kendra" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/2004/02/skos/core#altLabel> "Kendra GenAI Index" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/2004/02/skos/core#altLabel> "Kendra" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-ai-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed intelligent enterprise search and retrieval service, which indexes documents from Amazon S3 and third-party repositories and ranks results semantically; it entered maintenance mode on 2026-06-30 and closed to new customers on 2026-07-30, with AWS pointing new work to Amazon Bedrock Knowledge Bases." .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Kendra" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-q-business> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/kendra-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-q-business> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <https://github.com/john1hsu/aws-graph/ontology#status> "closed-to-new-customers" .
+<https://github.com/john1hsu/aws-graph/id/amazon-kendra> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Kinesis Data Streams" .
@@ -7365,6 +7393,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-inspector/s9> <https://schema.org/url> "https://docs.aws.amazon.com/zh_cn/aws-certification/latest/userguide/scs-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s1> <http://purl.org/dc/terms/title> "What is Amazon Kendra?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s1> <https://schema.org/url> "https://docs.aws.amazon.com/kendra/latest/dg/what-is-kendra.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s2> <http://purl.org/dc/terms/title> "Amazon Kendra availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s2> <https://schema.org/url> "https://docs.aws.amazon.com/kendra/latest/dg/kendra-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s3> <http://purl.org/dc/terms/title> "Document history for Amazon Kendra" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s3> <https://schema.org/url> "https://docs.aws.amazon.com/kendra/latest/dg/doc-history.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s4> <http://purl.org/dc/terms/title> "Amazon Kendra Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s4> <https://schema.org/url> "https://aws.amazon.com/kendra/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s5> <http://purl.org/dc/terms/title> "Quotas for Amazon Kendra" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s5> <https://schema.org/url> "https://docs.aws.amazon.com/kendra/latest/dg/quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s6> <http://purl.org/dc/terms/title> "Retrieving passages" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s6> <https://schema.org/url> "https://docs.aws.amazon.com/kendra/latest/dg/searching-retrieve.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s7> <http://purl.org/dc/terms/publisher> "AWS Machine Learning Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s7> <http://purl.org/dc/terms/title> "Introducing Amazon Kendra GenAI Index – Enhanced semantic search and retrieval capabilities" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-kendra-genai-index-enhanced-semantic-search-and-retrieval-capabilities/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s8> <http://purl.org/dc/terms/title> "CreateIndex - Amazon Kendra API Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-kendra/s8> <https://schema.org/url> "https://docs.aws.amazon.com/kendra/latest/APIReference/API_CreateIndex.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://purl.org/dc/terms/title> "What is Amazon Kinesis Data Streams? - Amazon Kinesis Data Streams" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

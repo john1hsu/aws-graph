@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract` |
+| `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-kendra`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract` |
 | `kt:aws-skill-builder` | `kt:aws-certification-program`, `kt:aws-certified-cloudops-engineer-associate`, `kt:aws-certified-generative-ai-developer-professional` |
 | `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments`, `kt:immutable-infrastructure` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
@@ -29,7 +29,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-detective` | `kt:amazon-guardduty` |
 | `kt:amazon-dynamodb-accelerator` | `kt:dynamodb-partition-key-design` |
 | `kt:amazon-elastic-vmware-service` | `kt:vmware-migration-to-aws` |
-| `kt:amazon-kendra` | `kt:amazon-q-business` |
 | `kt:amazon-kinesis-video-streams` | `kt:amazon-rekognition` |
 | `kt:amazon-macie` | `kt:aws-security-hub` |
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |
@@ -114,6 +113,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:iam-policy-simulator` | `kt:iam-policy-evaluation-logic` |
 | `kt:iam-users` | `kt:iam-roles` |
 | `kt:icd-503` | `kt:aws-secret-and-top-secret-regions` |
+| `kt:kendra-quotas` | `kt:amazon-kendra` |
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
 | `kt:kiro` | `kt:amazon-q-developer` |
 | `kt:lake-formation-quotas` | `kt:aws-lake-formation` |

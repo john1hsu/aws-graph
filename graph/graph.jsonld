@@ -575,6 +575,111 @@
       ]
     },
     {
+      "@id": "kt:amazon-kendra",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Kendra",
+      "skos:definition": "AWS's managed intelligent enterprise search and retrieval service, which indexes documents from Amazon S3 and third-party repositories and ranks results semantically; it entered maintenance mode on 2026-06-30 and closed to new customers on 2026-07-30, with AWS pointing new work to Amazon Bedrock Knowledge Bases.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "closed-to-new-customers",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Kendra?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/kendra/latest/dg/what-is-kendra.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Kendra availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/kendra/latest/dg/kendra-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Document history for Amazon Kendra",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/kendra/latest/dg/doc-history.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Kendra Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/kendra/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for Amazon Kendra",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/kendra/latest/dg/quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Retrieving passages",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/kendra/latest/dg/searching-retrieve.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing Amazon Kendra GenAI Index – Enhanced semantic search and retrieval capabilities",
+          "dcterms:publisher": "AWS Machine Learning Blog",
+          "schema:url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-kendra-genai-index-enhanced-semantic-search-and-retrieval-capabilities/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "CreateIndex - Amazon Kendra API Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/kendra/latest/APIReference/API_CreateIndex.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-kendra.md",
+      "skos:altLabel": [
+        "Kendra",
+        "AWS Kendra",
+        "Kendra GenAI Index"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-ai-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-q-business"
+        },
+        {
+          "@id": "kt:amazon-opensearch-service"
+        },
+        {
+          "@id": "kt:generative-ai-on-aws"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-bedrock-knowledge-bases"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:amazon-q-business"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:kendra-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-q-business",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Q Business",
