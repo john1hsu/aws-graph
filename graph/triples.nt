@@ -2341,6 +2341,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-professional> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Clean Rooms" .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Clean Rooms" .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/2004/02/skos/core#altLabel> "Clean Rooms" .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/2004/02/skos/core#definition> "AWS's data clean room service: members of a collaboration jointly analyze their combined datasets with SQL, PySpark or ML while each owner's analysis rules, optional client-side encryption and differential privacy keep the underlying records from being revealed or copied." .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Clean Rooms" .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lake-formation> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/clean-rooms-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cloud Adoption Framework" .
@@ -9194,6 +9220,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-solutions-architect-professional/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/september-2026-new-offerings/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s1> <http://purl.org/dc/terms/title> "What is AWS Clean Rooms? - AWS Clean Rooms" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s1> <https://schema.org/url> "https://docs.aws.amazon.com/clean-rooms/latest/userguide/what-is.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s2> <http://purl.org/dc/terms/title> "Analysis rules in AWS Clean Rooms - AWS Clean Rooms" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s2> <https://schema.org/url> "https://docs.aws.amazon.com/clean-rooms/latest/userguide/analysis-rules.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s3> <http://purl.org/dc/terms/title> "AWS Clean Rooms Glossary - AWS Clean Rooms" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s3> <https://schema.org/url> "https://docs.aws.amazon.com/clean-rooms/latest/userguide/glossary.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s4> <http://purl.org/dc/terms/title> "AWS Clean Rooms pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s4> <https://schema.org/url> "https://aws.amazon.com/clean-rooms/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s5> <http://purl.org/dc/terms/title> "AWS Clean Rooms endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s5> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/clean-rooms.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s6> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s6> <http://purl.org/dc/terms/title> "AWS Clean Rooms Now Generally Available" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-clean-rooms/s6> <https://schema.org/url> "https://aws.amazon.com/es/blogs/aws/aws-clean-rooms-now-generally-available/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-adoption-framework/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-adoption-framework/s1> <http://purl.org/dc/terms/title> "AWS Cloud Adoption Framework (AWS CAF)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cloud-adoption-framework/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

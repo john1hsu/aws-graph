@@ -2062,6 +2062,28 @@
     ]
   },
   {
+    "id": "kt:aws-clean-rooms",
+    "title": "AWS Clean Rooms",
+    "aliases": [
+      "Clean Rooms",
+      "Amazon Clean Rooms"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/aws-clean-rooms.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/clean-rooms/latest/userguide/what-is.html",
+      "https://docs.aws.amazon.com/clean-rooms/latest/userguide/analysis-rules.html",
+      "https://docs.aws.amazon.com/clean-rooms/latest/userguide/glossary.html",
+      "https://aws.amazon.com/clean-rooms/pricing/",
+      "https://docs.aws.amazon.com/general/latest/gr/clean-rooms.html",
+      "https://aws.amazon.com/es/blogs/aws/aws-clean-rooms-now-generally-available/"
+    ]
+  },
+  {
     "id": "kt:aws-cloud-adoption-framework",
     "title": "AWS Cloud Adoption Framework",
     "aliases": [

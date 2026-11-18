@@ -2358,6 +2358,103 @@
       ]
     },
     {
+      "@id": "kt:aws-clean-rooms",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Clean Rooms",
+      "skos:definition": "AWS's data clean room service: members of a collaboration jointly analyze their combined datasets with SQL, PySpark or ML while each owner's analysis rules, optional client-side encryption and differential privacy keep the underlying records from being revealed or copied.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Clean Rooms? - AWS Clean Rooms",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/clean-rooms/latest/userguide/what-is.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Analysis rules in AWS Clean Rooms - AWS Clean Rooms",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/clean-rooms/latest/userguide/analysis-rules.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Clean Rooms Glossary - AWS Clean Rooms",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/clean-rooms/latest/userguide/glossary.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Clean Rooms pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/clean-rooms/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Clean Rooms endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/clean-rooms.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Clean Rooms Now Generally Available",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/es/blogs/aws/aws-clean-rooms-now-generally-available/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/analytics/aws-clean-rooms.md",
+      "skos:altLabel": [
+        "Clean Rooms",
+        "Amazon Clean Rooms"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-analytics-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-athena"
+        },
+        {
+          "@id": "kt:aws-lake-formation"
+        },
+        {
+          "@id": "kt:data-lake-on-aws"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-glue"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:aws-entity-resolution"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:clean-rooms-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-glue",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Glue",

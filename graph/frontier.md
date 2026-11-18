@@ -50,6 +50,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-codecommit` | `kt:aws-developer-tools` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-devops-agent` | `kt:aws-support-plans` |
+| `kt:aws-entity-resolution` | `kt:aws-clean-rooms` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
 | `kt:aws-migration-hub` | `kt:migration-wave-planning` |
 | `kt:aws-network-firewall` | `kt:aws-firewall-manager` |
@@ -65,6 +66,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-x-ray` | `kt:aws-developer-tools` |
 | `kt:bimodal-behavior` | `kt:static-stability` |
 | `kt:bsi-c5` | `kt:aws-european-sovereign-cloud` |
+| `kt:clean-rooms-quotas` | `kt:aws-clean-rooms` |
 | `kt:cloud-computing` | `kt:amazon-web-services` |
 | `kt:cloud-map-quotas` | `kt:aws-cloud-map` |
 | `kt:cloud-security` | `kt:aws-security-services` |
