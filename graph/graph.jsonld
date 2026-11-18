@@ -13193,6 +13193,90 @@
       ]
     },
     {
+      "@id": "kt:control-plane-and-data-plane",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Control plane and data plane",
+      "skos:definition": "The split AWS draws inside every service between the control plane (the administrative APIs that create, describe, update, delete and list resources) and the data plane (the part that delivers the service's primary function), which determines how services fail and what a workload should rely on during recovery.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Control planes and data planes - AWS Fault Isolation Boundaries (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/control-planes-and-data-planes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Fault tolerance and fault isolation - Availability and Beyond: Understanding and Improving the Resilience of Distributed Systems on AWS (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/fault-tolerance-and-fault-isolation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL11-BP04 Rely on the data plane and not the control plane during recovery - Reliability Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_withstand_component_failures_avoid_control_plane.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Global services - AWS Fault Isolation Boundaries (whitepaper)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/global-services.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Simplified AWS service information for programmatic access - Service Authorization Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/service-authorization/latest/reference/service-reference.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enabling accelerated recovery for managing public DNS records - Amazon Route 53 Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/accelerated-recovery.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/control-plane-and-data-plane.md",
+      "skos:altLabel": [
+        "control plane vs data plane",
+        "control planes and data planes",
+        "data plane and control plane"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        },
+        {
+          "@id": "kt:reliability-pillar"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:availability-zones"
+        },
+        {
+          "@id": "kt:aws-partitions"
+        },
+        {
+          "@id": "kt:amazon-route-53"
+        },
+        {
+          "@id": "kt:amazon-application-recovery-controller"
+        },
+        {
+          "@id": "kt:multi-region-architecture"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:static-stability"
+        }
+      ]
+    },
+    {
       "@id": "kt:edge-locations",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "Edge locations",

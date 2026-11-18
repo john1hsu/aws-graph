@@ -83,7 +83,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:codedeploy-quotas` | `kt:aws-codedeploy` |
 | `kt:cognito-quotas` | `kt:amazon-cognito` |
 | `kt:comprehend-quotas` | `kt:amazon-comprehend` |
-| `kt:control-plane-and-data-plane` | `kt:static-stability` |
 | `kt:control-tower-quotas` | `kt:aws-control-tower` |
 | `kt:cost-optimization-hub` | `kt:aws-compute-optimizer` |
 | `kt:data-perimeter` | `kt:resource-control-policies` |

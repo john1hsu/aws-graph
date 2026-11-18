@@ -4243,6 +4243,29 @@
     ]
   },
   {
+    "id": "kt:control-plane-and-data-plane",
+    "title": "Control plane and data plane",
+    "aliases": [
+      "control plane vs data plane",
+      "control planes and data planes",
+      "data plane and control plane"
+    ],
+    "type": "Concept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/control-plane-and-data-plane.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/control-planes-and-data-planes.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/fault-tolerance-and-fault-isolation.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_withstand_component_failures_avoid_control_plane.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/global-services.html",
+      "https://docs.aws.amazon.com/service-authorization/latest/reference/service-reference.md",
+      "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/accelerated-recovery.html"
+    ]
+  },
+  {
     "id": "kt:cost-allocation-tags",
     "title": "Cost allocation tags",
     "aliases": [

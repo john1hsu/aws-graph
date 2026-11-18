@@ -4869,6 +4869,31 @@
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2000/01/rdf-schema#label> "Control plane and data plane" .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2004/02/skos/core#altLabel> "control plane vs data plane" .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2004/02/skos/core#altLabel> "control planes and data planes" .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2004/02/skos/core#altLabel> "data plane and control plane" .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2004/02/skos/core#definition> "The split AWS draws inside every service between the control plane (the administrative APIs that create, describe, update, delete and list resources) and the data plane (the part that delivers the service's primary function), which determines how services fail and what a workload should rely on during recovery." .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2004/02/skos/core#prefLabel> "Control plane and data plane" .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-application-recovery-controller> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-region-architecture> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s1> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s2> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s3> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s4> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s5> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s6> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/static-stability> .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/control-plane-and-data-plane> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <http://www.w3.org/2000/01/rdf-schema#label> "Cost allocation tags" .
@@ -12617,6 +12642,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s1> <http://purl.org/dc/terms/title> "Control planes and data planes - AWS Fault Isolation Boundaries (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/control-planes-and-data-planes.html" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s2> <http://purl.org/dc/terms/title> "Fault tolerance and fault isolation - Availability and Beyond: Understanding and Improving the Resilience of Distributed Systems on AWS (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s2> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/fault-tolerance-and-fault-isolation.html" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s3> <http://purl.org/dc/terms/title> "REL11-BP04 Rely on the data plane and not the control plane during recovery - Reliability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_withstand_component_failures_avoid_control_plane.html" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s4> <http://purl.org/dc/terms/title> "Global services - AWS Fault Isolation Boundaries (whitepaper)" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s4> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/global-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s5> <http://purl.org/dc/terms/title> "Simplified AWS service information for programmatic access - Service Authorization Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s5> <https://schema.org/url> "https://docs.aws.amazon.com/service-authorization/latest/reference/service-reference.md" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s6> <http://purl.org/dc/terms/title> "Enabling accelerated recovery for managing public DNS records - Amazon Route 53 Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/control-plane-and-data-plane/s6> <https://schema.org/url> "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/accelerated-recovery.html" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s1> <http://purl.org/dc/terms/title> "Organizing and tracking costs using AWS cost allocation tags - AWS Billing" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
