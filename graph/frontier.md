@@ -59,6 +59,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-professional-services` | `kt:aws-support-plans` |
 | `kt:aws-resource-explorer` | `kt:aws-tag-editor` |
 | `kt:aws-resource-groups-tagging-api` | `kt:aws-tag-editor` |
+| `kt:aws-sdks` | `kt:fips-140-3-on-aws` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-security-incident-response` | `kt:aws-support-plans` |
 | `kt:aws-snowball-edge` | `kt:aws-schema-conversion-tool` |

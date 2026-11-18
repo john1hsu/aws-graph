@@ -5747,6 +5747,36 @@
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ComplianceProgram> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "FIPS 140-3 on AWS" .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS FIPS 140-3 compliance" .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS FIPS endpoints" .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "FIPS 140 on AWS" .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "FIPS 140-2 on AWS" .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "FIPS endpoints" .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "FIPS-validated cryptography on AWS" .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#definition> "How AWS meets the U.S./Canadian FIPS 140-3 standard for cryptographic modules: services rely on CMVP-validated modules (AWS-LC, the AWS KMS and CloudHSM HSMs, Nitro engines), and customers who need FIPS-validated TLS in transit must opt in to FIPS endpoints, which exist only in U.S., GovCloud (US) and Canadian Regions." .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#prefLabel> "FIPS 140-3 on AWS" .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-nitro-system> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s1> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s2> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s3> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s4> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s5> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-sdks> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-privatelink> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "Generative AI on AWS" .
@@ -13851,6 +13881,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/fedramp-on-aws/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/publicsector/prepare-for-fedramp-20x-with-aws-automation-and-validation" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s1> <http://purl.org/dc/terms/title> "FIPS 140-3 Compliance - Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s1> <https://schema.org/url> "https://aws.amazon.com/compliance/fips" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s2> <http://purl.org/dc/terms/title> "Dual-stack and FIPS endpoints - AWS SDKs and Tools Reference Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s2> <https://schema.org/url> "https://docs.aws.amazon.com//sdkref/latest/guide/feature-endpoints.html" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s3> <http://purl.org/dc/terms/title> "Enable FIPS Mode on AL2023 - Amazon Linux 2023" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s3> <https://schema.org/url> "https://docs.aws.amazon.com/linux/al2023/ug/fips-mode.html" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s4> <http://purl.org/dc/terms/title> "Amazon S3 now supports PrivateLink for FIPS endpoints" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-privatelink-fips-endpoints" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s5> <http://purl.org/dc/terms/publisher> "National Institute of Standards and Technology (NIST CSRC)" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s5> <http://purl.org/dc/terms/title> "FIPS 140-3 Transition Effort - Cryptographic Module Validation Program" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s5> <https://schema.org/url> "https://csrc.nist.gov/Projects/fips-140-3-transition-effort" .
 <https://github.com/john1hsu/aws-graph/id/source/generative-ai-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/generative-ai-on-aws/s1> <http://purl.org/dc/terms/title> "Choosing a generative AI service - AWS Decision Guides" .
 <https://github.com/john1hsu/aws-graph/id/source/generative-ai-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

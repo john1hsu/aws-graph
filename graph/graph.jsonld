@@ -20173,6 +20173,104 @@
       ]
     },
     {
+      "@id": "kt:fips-140-3-on-aws",
+      "@type": "kto:ComplianceProgram",
+      "skos:prefLabel": "FIPS 140-3 on AWS",
+      "skos:definition": "How AWS meets the U.S./Canadian FIPS 140-3 standard for cryptographic modules: services rely on CMVP-validated modules (AWS-LC, the AWS KMS and CloudHSM HSMs, Nitro engines), and customers who need FIPS-validated TLS in transit must opt in to FIPS endpoints, which exist only in U.S., GovCloud (US) and Canadian Regions.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "FIPS 140-3 Compliance - Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/fips",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Dual-stack and FIPS endpoints - AWS SDKs and Tools Reference Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com//sdkref/latest/guide/feature-endpoints.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable FIPS Mode on AL2023 - Amazon Linux 2023",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/linux/al2023/ug/fips-mode.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon S3 now supports PrivateLink for FIPS endpoints",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-privatelink-fips-endpoints",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "FIPS 140-3 Transition Effort - Cryptographic Module Validation Program",
+          "dcterms:publisher": "National Institute of Standards and Technology (NIST CSRC)",
+          "schema:url": "https://csrc.nist.gov/Projects/fips-140-3-transition-effort",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/fips-140-3-on-aws.md",
+      "skos:altLabel": [
+        "FIPS 140 on AWS",
+        "FIPS 140-2 on AWS",
+        "AWS FIPS endpoints",
+        "FIPS endpoints",
+        "AWS FIPS 140-3 compliance",
+        "FIPS-validated cryptography on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        },
+        {
+          "@id": "kt:aws-govcloud-us"
+        },
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:aws-nitro-system"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        },
+        {
+          "@id": "kt:aws-cloudhsm"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-sdks"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-privatelink"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ]
+    },
+    {
       "@id": "kt:hipaa-eligible-services",
       "@type": "kto:ComplianceProgram",
       "skos:prefLabel": "HIPAA eligible services",

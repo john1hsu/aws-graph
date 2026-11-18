@@ -5008,6 +5008,31 @@
     ]
   },
   {
+    "id": "kt:fips-140-3-on-aws",
+    "title": "FIPS 140-3 on AWS",
+    "aliases": [
+      "FIPS 140 on AWS",
+      "FIPS 140-2 on AWS",
+      "AWS FIPS endpoints",
+      "FIPS endpoints",
+      "AWS FIPS 140-3 compliance",
+      "FIPS-validated cryptography on AWS"
+    ],
+    "type": "ComplianceProgram",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/fips-140-3-on-aws.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/compliance/fips",
+      "https://docs.aws.amazon.com//sdkref/latest/guide/feature-endpoints.html",
+      "https://docs.aws.amazon.com/linux/al2023/ug/fips-mode.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-privatelink-fips-endpoints",
+      "https://csrc.nist.gov/Projects/fips-140-3-transition-effort"
+    ]
+  },
+  {
     "id": "kt:generative-ai-on-aws",
     "title": "Generative AI on AWS",
     "aliases": [
