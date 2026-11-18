@@ -20697,6 +20697,102 @@
       ]
     },
     {
+      "@id": "kt:aws-application-integration-services",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS application integration services",
+      "skos:definition": "The AWS service category for connecting decoupled application components: queues and pub/sub (SQS, SNS, Amazon MQ), event routing and scheduling (EventBridge), workflow orchestration (Step Functions, MWAA, SWF) and data or document integration (AppFlow, B2B Data Interchange).",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Application integration - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/application-integration",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing an AWS application integration service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/application-integration-on-aws-how-to-choose/application-integration-on-aws-how-to-choose.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL04-BP02 Implement loosely coupled dependencies - Reliability Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_prevent_interaction_failure_loosely_coupled_system.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified Developer - Associate (DVA-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Service Availability Updates (June 2026)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/aws-application-integration-services.md",
+      "skos:altLabel": [
+        "AWS Application Integration",
+        "application integration on AWS",
+        "AWS integration services"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-sqs"
+        },
+        {
+          "@id": "kt:amazon-sns"
+        },
+        {
+          "@id": "kt:amazon-eventbridge"
+        },
+        {
+          "@id": "kt:aws-step-functions"
+        },
+        {
+          "@id": "kt:sqs-vs-sns-vs-eventbridge"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:amazon-mq"
+        },
+        {
+          "@id": "kt:amazon-swf"
+        },
+        {
+          "@id": "kt:amazon-appflow"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:reliability-pillar"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-developer-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-appsync",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS AppSync",

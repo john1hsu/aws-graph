@@ -1514,6 +1514,28 @@
     ]
   },
   {
+    "id": "kt:aws-application-integration-services",
+    "title": "AWS application integration services",
+    "aliases": [
+      "AWS Application Integration",
+      "application integration on AWS",
+      "AWS integration services"
+    ],
+    "type": "Concept",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/aws-application-integration-services.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/application-integration",
+      "https://docs.aws.amazon.com/decision-guides/latest/application-integration-on-aws-how-to-choose/application-integration-on-aws-how-to-choose.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_prevent_interaction_failure_loosely_coupled_system.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/"
+    ]
+  },
+  {
     "id": "kt:aws-appsync",
     "title": "AWS AppSync",
     "aliases": [

@@ -1722,6 +1722,34 @@
 <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
 <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS application integration services" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Application Integration" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS integration services" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2004/02/skos/core#altLabel> "application integration on AWS" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2004/02/skos/core#definition> "The AWS service category for connecting decoupled application components: queues and pub/sub (SQS, SNS, Amazon MQ), event routing and scheduling (EventBridge), workflow orchestration (Step Functions, MWAA, SWF) and data or document integration (AppFlow, B2B Data Interchange)." .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS application integration services" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sns> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-step-functions> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/sqs-vs-sns-vs-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-developer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-appflow> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-mq> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-swf> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/aws-appsync> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-appsync> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-appsync> <http://www.w3.org/2000/01/rdf-schema#label> "AWS AppSync" .
@@ -8313,6 +8341,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s1> <http://purl.org/dc/terms/title> "Application integration - Overview of Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/application-integration" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s2> <http://purl.org/dc/terms/title> "Choosing an AWS application integration service" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s2> <https://schema.org/url> "https://docs.aws.amazon.com/decision-guides/latest/application-integration-on-aws-how-to-choose/application-integration-on-aws-how-to-choose.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s3> <http://purl.org/dc/terms/title> "REL04-BP02 Implement loosely coupled dependencies - Reliability Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_prevent_interaction_failure_loosely_coupled_system.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s4> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Developer - Associate (DVA-C02)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s4> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/developer-associate-02/dva-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s5> <http://purl.org/dc/terms/title> "AWS Service Availability Updates (June 2026)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-appsync/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-appsync/s1> <http://purl.org/dc/terms/title> "What is AWS AppSync?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-appsync/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
