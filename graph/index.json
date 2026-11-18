@@ -4326,6 +4326,33 @@
     ]
   },
   {
+    "id": "kt:ebs-snapshots",
+    "title": "Amazon EBS snapshots",
+    "aliases": [
+      "EBS snapshots",
+      "Amazon Elastic Block Store snapshots",
+      "EBS snapshot",
+      "EBS Snapshots Archive"
+    ],
+    "type": "Feature",
+    "domain": "storage",
+    "file": "articles/storage/ebs-snapshots.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/ebs/latest/userguide/how_snapshots_work.html",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-copy-snapshot.html",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/archiving-guidelines.html",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/snapshot-archive-pricing.html",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-fast-snapshot-restore.html",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/snapshot-lock-concepts.html",
+      "https://aws.amazon.com/ebs/snapshots/faqs/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/snapshot-archive.html"
+    ]
+  },
+  {
     "id": "kt:ec2-image-builder",
     "title": "EC2 Image Builder",
     "aliases": [

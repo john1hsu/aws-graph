@@ -15,7 +15,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
-| `kt:ebs-snapshots` | `kt:amazon-ebs`, `kt:ebs-quotas` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
@@ -135,6 +134,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:payment-cryptography-quotas` | `kt:aws-payment-cryptography` |
 | `kt:ram-quotas` | `kt:aws-resource-access-manager` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
+| `kt:recycle-bin` | `kt:ebs-snapshots` |
 | `kt:red-hat-openshift-service-on-aws` | `kt:aws-container-services` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
 | `kt:rekognition-quotas` | `kt:amazon-rekognition` |

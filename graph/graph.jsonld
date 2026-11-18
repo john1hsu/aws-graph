@@ -22866,6 +22866,118 @@
       ]
     },
     {
+      "@id": "kt:ebs-snapshots",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon EBS snapshots",
+      "skos:definition": "Point-in-time, block-level backups of Amazon EBS volumes: the first is full and later ones store only changed blocks, they can be copied across Regions and accounts, archived to a cheaper full-copy tier, locked for WORM retention, and pre-warmed with fast snapshot restore.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How Amazon EBS snapshots work - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/how_snapshots_work.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Copy an Amazon EBS snapshot - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-copy-snapshot.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Guidelines and best practices for archiving Amazon EBS snapshots - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/archiving-guidelines.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Pricing and billing for archiving Amazon EBS snapshots - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/snapshot-archive-pricing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EBS fast snapshot restore - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-fast-snapshot-restore.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EBS snapshot lock concepts - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/snapshot-lock-concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EBS Snapshots FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ebs/snapshots/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EBS now supports associating additional KMS keys with snapshots",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Archive Amazon EBS snapshots - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/snapshot-archive.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/storage/ebs-snapshots.md",
+      "skos:altLabel": [
+        "EBS snapshots",
+        "Amazon Elastic Block Store snapshots",
+        "EBS snapshot",
+        "EBS Snapshots Archive"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ebs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-backup"
+        },
+        {
+          "@id": "kt:amazon-machine-images"
+        },
+        {
+          "@id": "kt:recycle-bin"
+        },
+        {
+          "@id": "kt:aws-elastic-disaster-recovery"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:ebs-quotas"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ]
+    },
+    {
       "@id": "kt:s3-storage-classes",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon S3 storage classes",
