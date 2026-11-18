@@ -3829,6 +3829,28 @@
     ]
   },
   {
+    "id": "kt:aws-tag-editor",
+    "title": "AWS Tag Editor",
+    "aliases": [
+      "Tag Editor",
+      "AWS Resource Groups Tag Editor"
+    ],
+    "type": "Tool",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/aws-tag-editor.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/tag-editor/latest/userguide/find-resources-to-tag.html",
+      "https://docs.aws.amazon.com/tag-editor/latest/userguide/tagging-resources.html",
+      "https://docs.aws.amazon.com/tag-editor/latest/userguide/gettingstarted-prereqs-permissions.html",
+      "https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/API_TagResources.html",
+      "https://aws.amazon.com/blogs/mt/tag-editor-moves-to-aws-resource-explorer-bulk-tag-resources-across-regions/",
+      "https://docs.aws.amazon.com/resource-explorer/latest/userguide/managing-resources.html"
+    ]
+  },
+  {
     "id": "kt:aws-trainium-and-inferentia",
     "title": "AWS Trainium and Inferentia",
     "aliases": [

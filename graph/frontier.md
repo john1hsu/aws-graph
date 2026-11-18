@@ -7,7 +7,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-kendra`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
-| `kt:aws-tag-editor` | `kt:cost-allocation-tags`, `kt:tagging-strategy` |
+| `kt:tag-policies` | `kt:cost-allocation-tags`, `kt:aws-tag-editor`, `kt:tagging-strategy` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
@@ -17,7 +17,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
-| `kt:tag-policies` | `kt:cost-allocation-tags`, `kt:tagging-strategy` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-appflow` | `kt:aws-application-integration-services` |
@@ -58,6 +57,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
 | `kt:aws-nitro-enclaves` | `kt:aws-nitro-system` |
 | `kt:aws-professional-services` | `kt:aws-support-plans` |
+| `kt:aws-resource-explorer` | `kt:aws-tag-editor` |
+| `kt:aws-resource-groups-tagging-api` | `kt:aws-tag-editor` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-security-incident-response` | `kt:aws-support-plans` |
 | `kt:aws-snowball-edge` | `kt:aws-schema-conversion-tool` |

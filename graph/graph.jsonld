@@ -14098,6 +14098,98 @@
       ]
     },
     {
+      "@id": "kt:aws-tag-editor",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "AWS Tag Editor",
+      "skos:definition": "The AWS Management Console tool for finding resources across Regions and resource types and adding, editing or removing their tags in bulk; since November 2026 its bulk tag management lives in the AWS Resource Explorer console, and Tag Editor pages redirect there.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Finding resources to tag - Tagging AWS Resources and Tag Editor",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/tag-editor/latest/userguide/find-resources-to-tag.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Managing tags with Tag Editor - Tagging AWS Resources and Tag Editor",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/tag-editor/latest/userguide/tagging-resources.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set up permissions - Tagging AWS Resources and Tag Editor",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/tag-editor/latest/userguide/gettingstarted-prereqs-permissions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "TagResources - Resource Groups Tagging API",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/API_TagResources.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tag Editor moves to AWS Resource Explorer: bulk-tag resources across Regions",
+          "dcterms:publisher": "Amazon Web Services (AWS Cloud Operations Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/mt/tag-editor-moves-to-aws-resource-explorer-bulk-tag-resources-across-regions/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Managing resources in the Resource Explorer console - AWS Resource Explorer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/resource-explorer/latest/userguide/managing-resources.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/aws-tag-editor.md",
+      "skos:altLabel": [
+        "Tag Editor",
+        "AWS Resource Groups Tag Editor"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:tagging-strategy"
+        },
+        {
+          "@id": "kt:cost-allocation-tags"
+        },
+        {
+          "@id": "kt:tag-policies"
+        },
+        {
+          "@id": "kt:attribute-based-access-control"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-resource-explorer"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-resource-groups-tagging-api"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-trusted-advisor",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Trusted Advisor",
