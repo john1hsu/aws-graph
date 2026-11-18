@@ -18965,6 +18965,114 @@
       ]
     },
     {
+      "@id": "kt:network-load-balancer",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Network Load Balancer",
+      "skos:definition": "The layer-4 load balancer type in Elastic Load Balancing: it forwards TCP, UDP, TLS and QUIC connections by flow hash to target groups of instances, IP addresses or an Application Load Balancer, with one static IP address per Availability Zone and optional Elastic IPs.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is a Network Load Balancer? - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for your Network Load Balancers - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Target groups for your Network Load Balancers - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest//network/load-balancer-target-groups.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Network Load Balancers - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/network-load-balancers",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Update the security groups for your Network Load Balancer - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-security-groups.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Elastic Load Balancing pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/elasticloadbalancing/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Network Load Balancer now supports Listener Rules for custom traffic routing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-network-load-balancer-supports-listener-rules/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Consolidate dual-stack architectures with listener rules for Network Load Balancer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/networking-and-content-delivery/consolidate-dual-stack-architectures-with-listener-rules-for-network-load-balancer/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/network-load-balancer.md",
+      "skos:altLabel": [
+        "NLB",
+        "AWS Network Load Balancer",
+        "Elastic Load Balancing Network Load Balancer"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:application-load-balancer"
+        },
+        {
+          "@id": "kt:amazon-route-53"
+        },
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-privatelink"
+        },
+        {
+          "@id": "kt:amazon-ecs"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:elb-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-artifact",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Artifact",

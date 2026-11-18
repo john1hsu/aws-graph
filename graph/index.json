@@ -5302,6 +5302,31 @@
     ]
   },
   {
+    "id": "kt:network-load-balancer",
+    "title": "Network Load Balancer",
+    "aliases": [
+      "NLB",
+      "AWS Network Load Balancer",
+      "Elastic Load Balancing Network Load Balancer"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/network-load-balancer.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-limits.html",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest//network/load-balancer-target-groups.html",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/network-load-balancers",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-security-groups.html",
+      "https://aws.amazon.com/elasticloadbalancing/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-network-load-balancer-supports-listener-rules/",
+      "https://aws.amazon.com/blogs/networking-and-content-delivery/consolidate-dual-stack-architectures-with-listener-rules-for-network-load-balancer/"
+    ]
+  },
+  {
     "id": "kt:nist-sp-800-53",
     "title": "NIST SP 800-53",
     "aliases": [

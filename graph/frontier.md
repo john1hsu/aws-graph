@@ -7,13 +7,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-kendra`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
+| `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer`, `kt:network-load-balancer` |
 | `kt:tag-policies` | `kt:cost-allocation-tags`, `kt:aws-tag-editor`, `kt:tagging-strategy` |
 | `kt:amazon-dynamodb-accelerator` | `kt:database-caching-strategies`, `kt:dynamodb-partition-key-design` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
-| `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
-| `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |

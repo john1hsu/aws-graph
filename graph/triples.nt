@@ -6072,6 +6072,35 @@
 <https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/multi-region-architecture> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/2000/01/rdf-schema#label> "Network Load Balancer" .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Network Load Balancer" .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/2004/02/skos/core#altLabel> "Elastic Load Balancing Network Load Balancer" .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/2004/02/skos/core#altLabel> "NLB" .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-networking-and-content-delivery> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/2004/02/skos/core#definition> "The layer-4 load balancer type in Elastic Load Balancing: it forwards TCP, UDP, TLS and QUIC connections by flow hash to target groups of instances, IP addresses or an Application Load Balancer, with one static IP address per Availability Zone and optional Elastic IPs." .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Network Load Balancer" .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/application-load-balancer> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s1> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s2> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s3> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s4> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s5> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s6> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s7> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s8> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/elb-quotas> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-privatelink> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/network-load-balancer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> <http://www.w3.org/2000/01/rdf-schema#label> "NIST SP 800-53" .
@@ -14007,6 +14036,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/multi-region-architecture/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iv-multi-site-active-active/" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s1> <http://purl.org/dc/terms/title> "What is a Network Load Balancer? - Elastic Load Balancing" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s1> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s2> <http://purl.org/dc/terms/title> "Quotas for your Network Load Balancers - Elastic Load Balancing" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s2> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s3> <http://purl.org/dc/terms/title> "Target groups for your Network Load Balancers - Elastic Load Balancing" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s3> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest//network/load-balancer-target-groups.html" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s4> <http://purl.org/dc/terms/title> "Network Load Balancers - Elastic Load Balancing" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s4> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/network-load-balancers" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s5> <http://purl.org/dc/terms/title> "Update the security groups for your Network Load Balancer - Elastic Load Balancing" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s5> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-security-groups.html" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s6> <http://purl.org/dc/terms/title> "Elastic Load Balancing pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s6> <https://schema.org/url> "https://aws.amazon.com/elasticloadbalancing/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s7> <http://purl.org/dc/terms/title> "AWS Network Load Balancer now supports Listener Rules for custom traffic routing" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-network-load-balancer-supports-listener-rules/" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s8> <http://purl.org/dc/terms/title> "Consolidate dual-stack architectures with listener rules for Network Load Balancer" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/network-load-balancer/s8> <https://schema.org/url> "https://aws.amazon.com/blogs/networking-and-content-delivery/consolidate-dual-stack-architectures-with-listener-rules-for-network-load-balancer/" .
 <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s1> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
 <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s1> <http://purl.org/dc/terms/title> "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations" .
 <https://github.com/john1hsu/aws-graph/id/source/nist-sp-800-53/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
