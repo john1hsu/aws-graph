@@ -1812,6 +1812,30 @@
 <https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-artifact> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Audit Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/2004/02/skos/core#altLabel> "Audit Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/2004/02/skos/core#definition> "AWS's service for continuously collecting evidence about how you use AWS and organizing it against compliance frameworks (SOC 2, PCI DSS, HIPAA, NIST 800-53 and others) into audit-ready reports; in maintenance mode and closed to new customers since April 30, 2026, with AWS pointing customers to AWS Config conformance packs." .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Audit Manager" .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-artifact> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-security-hub> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <https://github.com/john1hsu/aws-graph/ontology#replacedBy> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <https://github.com/john1hsu/aws-graph/ontology#status> "closed-to-new-customers" .
+<https://github.com/john1hsu/aws-graph/id/aws-audit-manager> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
 <https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Backup quotas" .
@@ -8546,6 +8570,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-artifact/s6> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s1> <http://purl.org/dc/terms/title> "What is AWS Audit Manager?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s1> <https://schema.org/url> "https://docs.aws.amazon.com/audit-manager/latest/userguide/what-is.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s2> <http://purl.org/dc/terms/title> "AWS Audit Manager availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s2> <https://schema.org/url> "https://docs.aws.amazon.com/audit-manager/latest/userguide/audit-manager-availability-change.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s3> <http://purl.org/dc/terms/title> "AWS Audit Manager Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s3> <https://schema.org/url> "https://aws.amazon.com/audit-manager/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s4> <http://purl.org/dc/terms/title> "AWS Audit Manager FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s4> <https://schema.org/url> "https://aws.amazon.com/audit-manager/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s5> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s5> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s6> <http://purl.org/dc/terms/title> "AWS achieves FedRAMP P-ATO for 20 services in the AWS US East/West Regions and AWS GovCloud (US) Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-audit-manager/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/security/aws-achieves-fedramp-p-ato-for-20-services-in-the-aws-us-east-west-regions-and-aws-govcloud-us-regions" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s1> <http://purl.org/dc/terms/title> "AWS Backup quotas - AWS Backup" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-backup-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

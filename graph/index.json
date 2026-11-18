@@ -1587,6 +1587,27 @@
     ]
   },
   {
+    "id": "kt:aws-audit-manager",
+    "title": "AWS Audit Manager",
+    "aliases": [
+      "Audit Manager"
+    ],
+    "type": "Service",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/aws-audit-manager.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "closed-to-new-customers",
+    "source_urls": [
+      "https://docs.aws.amazon.com/audit-manager/latest/userguide/what-is.html",
+      "https://docs.aws.amazon.com/audit-manager/latest/userguide/audit-manager-availability-change.md",
+      "https://aws.amazon.com/audit-manager/pricing/",
+      "https://aws.amazon.com/audit-manager/faqs",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://aws.amazon.com/blogs/security/aws-achieves-fedramp-p-ato-for-20-services-in-the-aws-us-east-west-regions-and-aws-govcloud-us-regions"
+    ]
+  },
+  {
     "id": "kt:aws-backup",
     "title": "AWS Backup",
     "aliases": [
