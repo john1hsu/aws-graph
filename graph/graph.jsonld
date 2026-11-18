@@ -11655,6 +11655,96 @@
       ]
     },
     {
+      "@id": "kt:aws-dedicated-local-zones",
+      "@type": "kto:InfrastructureConcept",
+      "skos:prefLabel": "AWS Dedicated Local Zones",
+      "skos:definition": "AWS Dedicated Local Zones are Local Zones built for the exclusive use of one customer or community, placed at a location the customer chooses and fully managed and operated by AWS, aimed at sovereign, public-sector and regulated workloads that need data isolation and in-country residency.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Dedicated Local Zones FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/dedicatedlocalzones/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Dedicated Local Zones features",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/dedicatedlocalzones/features/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Digital Sovereignty Pledge: Announcing new dedicated infrastructure options (AWS Security Blog)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/security/aws-digital-sovereignty-pledge-announcing-new-dedicated-infrastructure-options",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Meet digital sovereignty needs with AWS Dedicated Local Zones expanded services (AWS Security Blog)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/security/meet-digital-sovereignty-needs-with-aws-dedicated-local-zones-expanded-services",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Local snapshots in Local Zones - Amazon EBS User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/snapshots-localzones.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EBS launches Local Snapshots for AWS Dedicated Local Zones (What's New with AWS)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-ebs-local-snapshots-aws-dedicated-local-zones",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/aws-dedicated-local-zones.md",
+      "skos:altLabel": [
+        "Dedicated Local Zones",
+        "Dedicated Local Zone",
+        "DLZ"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:local-zones"
+        },
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-european-sovereign-cloud"
+        },
+        {
+          "@id": "kt:aws-ai-factories"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-outposts"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:aws-nitro-system"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:data-residency-on-aws"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-global-infrastructure",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS global infrastructure",

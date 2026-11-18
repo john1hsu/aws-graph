@@ -2483,6 +2483,29 @@
     ]
   },
   {
+    "id": "kt:aws-dedicated-local-zones",
+    "title": "AWS Dedicated Local Zones",
+    "aliases": [
+      "Dedicated Local Zones",
+      "Dedicated Local Zone",
+      "DLZ"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/aws-dedicated-local-zones.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/dedicatedlocalzones/faqs/",
+      "https://aws.amazon.com/dedicatedlocalzones/features/",
+      "https://aws.amazon.com/blogs/security/aws-digital-sovereignty-pledge-announcing-new-dedicated-infrastructure-options",
+      "https://aws.amazon.com/blogs/security/meet-digital-sovereignty-needs-with-aws-dedicated-local-zones-expanded-services",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/snapshots-localzones.html",
+      "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-ebs-local-snapshots-aws-dedicated-local-zones"
+    ]
+  },
+  {
     "id": "kt:aws-developer-tools",
     "title": "AWS developer tools",
     "aliases": [
