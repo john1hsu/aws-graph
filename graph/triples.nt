@@ -2770,6 +2770,35 @@
 <https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-config> .
 <https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-control-tower> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cost and Usage Report" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/2004/02/skos/core#altLabel> "CUR 2.0" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/2004/02/skos/core#altLabel> "CUR" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/2004/02/skos/core#altLabel> "Cost and Usage Report 2.0" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/2004/02/skos/core#altLabel> "Cost and Usage Report" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/2004/02/skos/core#altLabel> "Legacy CUR" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-billing-and-cost-management> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/2004/02/skos/core#definition> "AWS's most detailed billing dataset: line-item cost and usage data, at hourly, daily or monthly granularity, delivered on a recurring basis to an Amazon S3 bucket. The current version, CUR 2.0, is created as an export in AWS Data Exports with a fixed schema and SQL-based column and row selection; the original \"legacy CUR\" is still available." .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Cost and Usage Report" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-data-exports> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-solutions-architect-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <https://github.com/john1hsu/aws-graph/ontology#queriedWith> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-anomaly-detection> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cost Anomaly Detection" .
@@ -9823,6 +9852,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-control-tower/s9> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s1> <http://purl.org/dc/terms/title> "What is AWS Data Exports? - AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s1> <https://schema.org/url> "https://docs.aws.amazon.com/cur/latest/userguide/what-is-data-exports.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s2> <http://purl.org/dc/terms/title> "Migrating from CUR to Data Exports CUR 2.0 - AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s2> <https://schema.org/url> "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-migrate.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s3> <http://purl.org/dc/terms/title> "Cost and Usage Report (CUR) 2.0 - AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s3> <https://schema.org/url> "https://docs.aws.amazon.com/cur/latest/userguide/table-dictionary-cur2.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s4> <http://purl.org/dc/terms/title> "Understanding export delivery - AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s4> <https://schema.org/url> "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-export-delivery.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s5> <http://purl.org/dc/terms/title> "Quotas and restrictions (Data Exports) - AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s5> <https://schema.org/url> "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s6> <http://purl.org/dc/terms/title> "Quotas and restrictions (Cost and Usage Reports) - AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s6> <https://schema.org/url> "https://docs.aws.amazon.com/cur/latest/userguide/billing-cur-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s7> <http://purl.org/dc/terms/title> "COST03-BP01 Configure detailed information sources - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s7> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost_monitor_usage_detailed_source.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s8> <http://purl.org/dc/terms/title> "AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-cost-and-usage-report/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s1> <http://purl.org/dc/terms/title> "Getting started with AWS Cost Anomaly Detection - AWS Cost Management" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-anomaly-detection/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

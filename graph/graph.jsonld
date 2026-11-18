@@ -8125,6 +8125,110 @@
       ]
     },
     {
+      "@id": "kt:aws-cost-and-usage-report",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "AWS Cost and Usage Report",
+      "skos:definition": "AWS's most detailed billing dataset: line-item cost and usage data, at hourly, daily or monthly granularity, delivered on a recurring basis to an Amazon S3 bucket. The current version, CUR 2.0, is created as an export in AWS Data Exports with a fixed schema and SQL-based column and row selection; the original \"legacy CUR\" is still available.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Data Exports? - AWS Data Exports",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cur/latest/userguide/what-is-data-exports.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Migrating from CUR to Data Exports CUR 2.0 - AWS Data Exports",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-migrate.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Cost and Usage Report (CUR) 2.0 - AWS Data Exports",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cur/latest/userguide/table-dictionary-cur2.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding export delivery - AWS Data Exports",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-export-delivery.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and restrictions (Data Exports) - AWS Data Exports",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and restrictions (Cost and Usage Reports) - AWS Data Exports",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cur/latest/userguide/billing-cur-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "COST03-BP01 Configure detailed information sources - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost_monitor_usage_detailed_source.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified Solutions Architect - Associate (SAA-C03) Exam Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/cost-management/aws-cost-and-usage-report.md",
+      "skos:altLabel": [
+        "Cost and Usage Report",
+        "CUR",
+        "CUR 2.0",
+        "Cost and Usage Report 2.0",
+        "Legacy CUR"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-billing-and-cost-management"
+        },
+        {
+          "@id": "kt:aws-cost-management-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-cost-explorer"
+        },
+        {
+          "@id": "kt:cost-allocation-tags"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-data-exports"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:amazon-athena"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cost-anomaly-detection",
       "@type": "kto:Feature",
       "skos:prefLabel": "AWS Cost Anomaly Detection",

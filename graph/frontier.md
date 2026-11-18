@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-kendra`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
-| `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
 | `kt:aws-tag-editor` | `kt:cost-allocation-tags`, `kt:tagging-strategy` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
@@ -49,6 +48,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-client-vpn` | `kt:aws-site-to-site-vpn` |
 | `kt:aws-codecommit` | `kt:aws-developer-tools` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
+| `kt:aws-data-exports` | `kt:aws-cost-and-usage-report` |
 | `kt:aws-devops-agent` | `kt:aws-support-plans` |
 | `kt:aws-entity-resolution` | `kt:aws-clean-rooms` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |

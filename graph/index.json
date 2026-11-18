@@ -2431,6 +2431,33 @@
     ]
   },
   {
+    "id": "kt:aws-cost-and-usage-report",
+    "title": "AWS Cost and Usage Report",
+    "aliases": [
+      "Cost and Usage Report",
+      "CUR",
+      "CUR 2.0",
+      "Cost and Usage Report 2.0",
+      "Legacy CUR"
+    ],
+    "type": "Feature",
+    "domain": "cost-management",
+    "file": "articles/cost-management/aws-cost-and-usage-report.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/cur/latest/userguide/what-is-data-exports.md",
+      "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-migrate.html",
+      "https://docs.aws.amazon.com/cur/latest/userguide/table-dictionary-cur2.html",
+      "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-export-delivery.html",
+      "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-quotas.html",
+      "https://docs.aws.amazon.com/cur/latest/userguide/billing-cur-limits.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost_monitor_usage_detailed_source.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf"
+    ]
+  },
+  {
     "id": "kt:aws-cost-anomaly-detection",
     "title": "AWS Cost Anomaly Detection",
     "aliases": [
