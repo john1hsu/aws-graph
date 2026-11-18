@@ -11142,6 +11142,106 @@
       ]
     },
     {
+      "@id": "kt:canary-deployments",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Canary deployments",
+      "skos:definition": "A release pattern that exposes a new version to a small, randomly chosen share of production traffic first, watches its health, and only then shifts the rest of the traffic to it, rolling back if the canary misbehaves.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Canary deployments - Overview of Deployment Options on AWS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/canary-deployments.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECS canary deployments",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/canary-deployment.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Working with deployment configurations in CodeDeploy",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Implement Lambda canary deployments using a weighted alias",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/configuring-alias-routing.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set up an API Gateway canary release deployment",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/canary-release.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "OPS06-BP03 Employ safe deployment strategies - Operational Excellence Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_mit_deploy_risks_deploy_mgmt_sys.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/canary-deployments.md",
+      "skos:altLabel": [
+        "Canary deployment",
+        "Canary release",
+        "Canary releases",
+        "Canary traffic shifting"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:ci-cd"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:immutable-infrastructure"
+        },
+        {
+          "@id": "kt:operational-excellence-pillar"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:aws-sam"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:blue-green-deployments"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:rolling-deployments"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:aws-codedeploy"
+        },
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-api-gateway"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ]
+    },
+    {
       "@id": "kt:ci-cd",
       "@type": "kto:Concept",
       "skos:prefLabel": "Continuous integration and continuous delivery",

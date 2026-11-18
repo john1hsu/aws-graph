@@ -4672,6 +4672,35 @@
 <https://github.com/john1hsu/aws-graph/id/bottlerocket> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
 <https://github.com/john1hsu/aws-graph/id/bottlerocket> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
 <https://github.com/john1hsu/aws-graph/id/bottlerocket> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/2000/01/rdf-schema#label> "Canary deployments" .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/2004/02/skos/core#altLabel> "Canary deployment" .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/2004/02/skos/core#altLabel> "Canary release" .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/2004/02/skos/core#altLabel> "Canary releases" .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/2004/02/skos/core#altLabel> "Canary traffic shifting" .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/ci-cd> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/2004/02/skos/core#definition> "A release pattern that exposes a new version to a small, randomly chosen share of production traffic first, watches its health, and only then shifts the rest of the traffic to it, rolling back if the canary misbehaves." .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canary deployments" .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-sam> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/immutable-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/operational-excellence-pillar> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s1> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s2> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s3> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s4> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s5> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s6> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/rolling-deployments> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/aws-codedeploy> .
+<https://github.com/john1hsu/aws-graph/id/canary-deployments> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/cell-based-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Cell-based architecture" .
@@ -12175,6 +12204,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/bottlerocket/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/containers/bottlerocket-a-special-purpose-container-operating-system" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s1> <http://purl.org/dc/terms/title> "Canary deployments - Overview of Deployment Options on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/canary-deployments.html" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s2> <http://purl.org/dc/terms/title> "Amazon ECS canary deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/canary-deployment.html" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s3> <http://purl.org/dc/terms/title> "Working with deployment configurations in CodeDeploy" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s3> <https://schema.org/url> "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s4> <http://purl.org/dc/terms/title> "Implement Lambda canary deployments using a weighted alias" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s4> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/configuring-alias-routing.md" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s5> <http://purl.org/dc/terms/title> "Set up an API Gateway canary release deployment" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s5> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/canary-release.md" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s6> <http://purl.org/dc/terms/title> "OPS06-BP03 Employ safe deployment strategies - Operational Excellence Pillar" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/canary-deployments/s6> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_mit_deploy_risks_deploy_mgmt_sys.html" .
 <https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s1> <http://purl.org/dc/terms/title> "What is a cell-based architecture? - Reducing the Scope of Impact with Cell-Based Architecture" .
 <https://github.com/john1hsu/aws-graph/id/source/cell-based-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

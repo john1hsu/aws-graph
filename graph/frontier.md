@@ -5,7 +5,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-kendra`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract` |
-| `kt:canary-deployments` | `kt:aws-codedeploy`, `kt:blue-green-deployments`, `kt:immutable-infrastructure` |
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
@@ -16,6 +15,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
+| `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:tag-policies` | `kt:cost-allocation-tags`, `kt:tagging-strategy` |
@@ -140,7 +140,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
 | `kt:rekognition-quotas` | `kt:amazon-rekognition` |
 | `kt:role-based-access-control` | `kt:attribute-based-access-control` |
-| `kt:rolling-deployments` | `kt:blue-green-deployments` |
 | `kt:route-53-quotas` | `kt:amazon-route-53` |
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
 | `kt:s3-lifecycle-policies` | `kt:s3-storage-classes` |

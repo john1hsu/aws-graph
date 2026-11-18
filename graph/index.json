@@ -4070,6 +4070,30 @@
     ]
   },
   {
+    "id": "kt:canary-deployments",
+    "title": "Canary deployments",
+    "aliases": [
+      "Canary deployment",
+      "Canary release",
+      "Canary releases",
+      "Canary traffic shifting"
+    ],
+    "type": "Pattern",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/canary-deployments.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/canary-deployments.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/canary-deployment.html",
+      "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html",
+      "https://docs.aws.amazon.com/lambda/latest/dg/configuring-alias-routing.md",
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/canary-release.md",
+      "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_mit_deploy_risks_deploy_mgmt_sys.html"
+    ]
+  },
+  {
     "id": "kt:cell-based-architecture",
     "title": "Cell-based architecture",
     "aliases": [
