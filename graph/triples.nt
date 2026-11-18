@@ -1817,6 +1817,36 @@
 <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
 <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Application Discovery Service" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS ADS" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/2004/02/skos/core#altLabel> "Application Discovery Service Agentless Collector" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/2004/02/skos/core#altLabel> "Application Discovery Service" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/2004/02/skos/core#altLabel> "Discovery Agent" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/2004/02/skos/core#definition> "AWS's migration-planning service that collects configuration, utilization and network-connection data about on-premises servers and databases through an agentless vCenter collector, per-server agents or file imports, and surfaces it in AWS Migration Hub; it closed to new customers on 2025-11-07, with AWS Transform as the recommended path for new discovery work." .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Application Discovery Service" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/migration-wave-planning> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s9> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-transform> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-migration-hub> .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <https://github.com/john1hsu/aws-graph/ontology#status> "closed-to-new-customers" .
+<https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://purl.org/dc/terms/created> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS application integration services" .
@@ -9007,6 +9037,51 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s1> <http://purl.org/dc/terms/title> "What is AWS Application Discovery Service?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s1> <https://schema.org/url> "https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s2> <http://purl.org/dc/terms/title> "AWS Application Discovery Service availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s2> <https://schema.org/url> "https://docs.aws.amazon.com/application-discovery/latest/userguide/application-discovery-service-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s3> <http://purl.org/dc/terms/title> "AWS Application Discovery Service quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s3> <https://schema.org/url> "https://docs.aws.amazon.com/he_il/application-discovery/latest/userguide/ads_service_limits.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s4> <http://purl.org/dc/terms/title> "AWS Application Discovery Agent" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s4> <https://schema.org/url> "https://docs.aws.amazon.com/application-discovery/latest/userguide/discovery-agent.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s5> <http://purl.org/dc/terms/title> "Application Discovery Service Agentless Collector" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s5> <https://schema.org/url> "https://docs.aws.amazon.com/application-discovery/latest/userguide/agentless-collector.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s6> <http://purl.org/dc/terms/title> "Exploring data in Amazon Athena" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s6> <https://schema.org/url> "https://docs.aws.amazon.com/application-discovery/latest/userguide/explore-data.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s7> <http://purl.org/dc/terms/publisher> "AWS Prescriptive Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s7> <http://purl.org/dc/terms/title> "AWS Application Discovery Service (Discovery tools for migration)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s7> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-tools/discovery-app-discovery-service.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s8> <http://purl.org/dc/terms/title> "AWS Migration Hub availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s8> <https://schema.org/url> "https://docs.aws.amazon.com/migrationhub/latest/ug/migrationhub-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s9> <http://purl.org/dc/terms/publisher> "What's New with AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s9> <http://purl.org/dc/terms/title> "AWS Application Discovery Service introduces Amazon EC2 recommendations" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-application-discovery-service/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2023/06/aws-application-discovery-service-amazon-ec2-recommendations" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s1> <http://purl.org/dc/terms/title> "Application integration - Overview of Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-application-integration-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

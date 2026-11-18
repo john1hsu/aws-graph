@@ -16546,6 +16546,116 @@
       ]
     },
     {
+      "@id": "kt:aws-application-discovery-service",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Application Discovery Service",
+      "skos:definition": "AWS's migration-planning service that collects configuration, utilization and network-connection data about on-premises servers and databases through an agentless vCenter collector, per-server agents or file imports, and surfaces it in AWS Migration Hub; it closed to new customers on 2025-11-07, with AWS Transform as the recommended path for new discovery work.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "closed-to-new-customers",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Application Discovery Service?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Application Discovery Service availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/application-discovery/latest/userguide/application-discovery-service-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Application Discovery Service quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/he_il/application-discovery/latest/userguide/ads_service_limits.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Application Discovery Agent",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/application-discovery/latest/userguide/discovery-agent.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Application Discovery Service Agentless Collector",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/application-discovery/latest/userguide/agentless-collector.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Exploring data in Amazon Athena",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/application-discovery/latest/userguide/explore-data.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Application Discovery Service (Discovery tools for migration)",
+          "dcterms:publisher": "AWS Prescriptive Guidance",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-tools/discovery-app-discovery-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Migration Hub availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/migrationhub/latest/ug/migrationhub-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Application Discovery Service introduces Amazon EC2 recommendations",
+          "dcterms:publisher": "What's New with AWS",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2023/06/aws-application-discovery-service-amazon-ec2-recommendations",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/aws-application-discovery-service.md",
+      "skos:altLabel": [
+        "Application Discovery Service",
+        "AWS ADS",
+        "Discovery Agent",
+        "Application Discovery Service Agentless Collector"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:application-portfolio-assessment"
+        },
+        {
+          "@id": "kt:migration-wave-planning"
+        },
+        {
+          "@id": "kt:vmware-migration-to-aws"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-transform"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-migration-hub"
+        },
+        {
+          "@id": "kt:aws-database-migration-service"
+        },
+        {
+          "@id": "kt:amazon-athena"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:application-discovery-service-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-database-migration-service",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Database Migration Service",

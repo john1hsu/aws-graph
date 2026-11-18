@@ -1592,6 +1592,33 @@
     ]
   },
   {
+    "id": "kt:aws-application-discovery-service",
+    "title": "AWS Application Discovery Service",
+    "aliases": [
+      "Application Discovery Service",
+      "AWS ADS",
+      "Discovery Agent",
+      "Application Discovery Service Agentless Collector"
+    ],
+    "type": "Service",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/aws-application-discovery-service.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "closed-to-new-customers",
+    "source_urls": [
+      "https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html",
+      "https://docs.aws.amazon.com/application-discovery/latest/userguide/application-discovery-service-availability-change.html",
+      "https://docs.aws.amazon.com/he_il/application-discovery/latest/userguide/ads_service_limits.md",
+      "https://docs.aws.amazon.com/application-discovery/latest/userguide/discovery-agent.html",
+      "https://docs.aws.amazon.com/application-discovery/latest/userguide/agentless-collector.html",
+      "https://docs.aws.amazon.com/application-discovery/latest/userguide/explore-data.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-tools/discovery-app-discovery-service.html",
+      "https://docs.aws.amazon.com/migrationhub/latest/ug/migrationhub-availability-change.html",
+      "https://aws.amazon.com/about-aws/whats-new/2023/06/aws-application-discovery-service-amazon-ec2-recommendations"
+    ]
+  },
+  {
     "id": "kt:aws-application-integration-services",
     "title": "AWS application integration services",
     "aliases": [

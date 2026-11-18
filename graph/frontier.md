@@ -10,6 +10,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer`, `kt:network-load-balancer` |
 | `kt:tag-policies` | `kt:cost-allocation-tags`, `kt:aws-tag-editor`, `kt:tagging-strategy` |
 | `kt:amazon-dynamodb-accelerator` | `kt:database-caching-strategies`, `kt:dynamodb-partition-key-design` |
+| `kt:aws-migration-hub` | `kt:aws-application-discovery-service`, `kt:migration-wave-planning` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
@@ -33,13 +34,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
 | `kt:appflow-quotas` | `kt:amazon-appflow` |
+| `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service` |
 | `kt:appsync-quotas` | `kt:aws-appsync` |
 | `kt:attribute-based-instance-type-selection` | `kt:ec2-instance-types` |
 | `kt:aurora-limitless-database` | `kt:aurora-quotas` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-amplify` | `kt:aws-appsync` |
 | `kt:aws-app-runner` | `kt:aws-container-services` |
-| `kt:aws-application-discovery-service` | `kt:application-portfolio-assessment` |
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-billing-conductor` | `kt:aws-billing-and-cost-management` |
 | `kt:aws-billing-transfer` | `kt:aws-billing-and-cost-management` |
@@ -51,7 +52,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-devops-agent` | `kt:aws-support-plans` |
 | `kt:aws-entity-resolution` | `kt:aws-clean-rooms` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
-| `kt:aws-migration-hub` | `kt:migration-wave-planning` |
 | `kt:aws-network-firewall` | `kt:aws-firewall-manager` |
 | `kt:aws-network-security-manager` | `kt:aws-firewall-manager` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
