@@ -4689,6 +4689,29 @@
     ]
   },
   {
+    "id": "kt:iam-access-analyzer",
+    "title": "AWS IAM Access Analyzer",
+    "aliases": [
+      "IAM Access Analyzer",
+      "Access Analyzer",
+      "AWS Identity and Access Management Access Analyzer"
+    ],
+    "type": "Service",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/iam-access-analyzer.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/IAM//latest/UserGuide/what-is-access-analyzer.html",
+      "https://aws.amazon.com/iam/access-analyzer/pricing",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-quotas.html",
+      "https://aws.amazon.com/blogs/aws/verify-internal-access-to-critical-aws-resources-with-new-iam-access-analyzer-capabilities",
+      "https://aws.amazon.com/blogs/security/refine-unused-access-using-iam-access-analyzer-recommendations",
+      "https://aws.amazon.com/about-aws/whats-new/2025/07/iam-access-analyzer-findings-checks-govcloud"
+    ]
+  },
+  {
     "id": "kt:iam-identity-center",
     "title": "AWS IAM Identity Center",
     "aliases": [

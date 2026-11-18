@@ -5372,6 +5372,31 @@
 <https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
 <https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/2000/01/rdf-schema#label> "AWS IAM Access Analyzer" .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Identity and Access Management Access Analyzer" .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/2004/02/skos/core#altLabel> "Access Analyzer" .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/2004/02/skos/core#altLabel> "IAM Access Analyzer" .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/2004/02/skos/core#definition> "An AWS IAM capability that uses automated reasoning to find resources shared outside your account or organization, show which internal principals can reach critical resources, flag unused roles, keys and permissions, and validate or generate least-privilege policies." .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS IAM Access Analyzer" .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-policy-evaluation-logic> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/resource-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s1> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s2> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s3> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s4> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s5> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s6> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <https://github.com/john1hsu/aws-graph/ontology#domain> "identity-and-access" .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/iam-access-analyzer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/iam-identity-center> <http://www.w3.org/2000/01/rdf-schema#label> "AWS IAM Identity Center" .
@@ -12851,6 +12876,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/aws-graph/id/source/hipaa-eligible-services/s4> <https://schema.org/url> "https://www.hhs.gov/hipaa/for-professionals/special-topics/cloud-computing" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s1> <http://purl.org/dc/terms/title> "Using AWS Identity and Access Management Access Analyzer" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s1> <https://schema.org/url> "https://docs.aws.amazon.com/IAM//latest/UserGuide/what-is-access-analyzer.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s2> <http://purl.org/dc/terms/title> "AWS IAM Access Analyzer pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s2> <https://schema.org/url> "https://aws.amazon.com/iam/access-analyzer/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s3> <http://purl.org/dc/terms/title> "IAM Access Analyzer quotas - AWS Identity and Access Management" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s3> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s4> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s4> <http://purl.org/dc/terms/title> "Verify internal access to critical AWS resources with new IAM Access Analyzer capabilities" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/verify-internal-access-to-critical-aws-resources-with-new-iam-access-analyzer-capabilities" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s5> <http://purl.org/dc/terms/publisher> "AWS Security Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s5> <http://purl.org/dc/terms/title> "Refine unused access using IAM Access Analyzer recommendations" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/security/refine-unused-access-using-iam-access-analyzer-recommendations" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s6> <http://purl.org/dc/terms/title> "IAM Access Analyzer supports additional analysis findings and checks in AWS GovCloud (US) Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-access-analyzer/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/07/iam-access-analyzer-findings-checks-govcloud" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s1> <http://purl.org/dc/terms/title> "What is IAM Identity Center? - AWS IAM Identity Center" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-identity-center/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

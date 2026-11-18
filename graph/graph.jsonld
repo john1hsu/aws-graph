@@ -14552,6 +14552,94 @@
       ]
     },
     {
+      "@id": "kt:iam-access-analyzer",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS IAM Access Analyzer",
+      "skos:definition": "An AWS IAM capability that uses automated reasoning to find resources shared outside your account or organization, show which internal principals can reach critical resources, flag unused roles, keys and permissions, and validate or generate least-privilege policies.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Using AWS Identity and Access Management Access Analyzer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM//latest/UserGuide/what-is-access-analyzer.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS IAM Access Analyzer pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/iam/access-analyzer/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "IAM Access Analyzer quotas - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Verify internal access to critical AWS resources with new IAM Access Analyzer capabilities",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/blogs/aws/verify-internal-access-to-critical-aws-resources-with-new-iam-access-analyzer-capabilities",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Refine unused access using IAM Access Analyzer recommendations",
+          "dcterms:publisher": "AWS Security Blog",
+          "schema:url": "https://aws.amazon.com/blogs/security/refine-unused-access-using-iam-access-analyzer-recommendations",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "IAM Access Analyzer supports additional analysis findings and checks in AWS GovCloud (US) Regions",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/07/iam-access-analyzer-findings-checks-govcloud",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/iam-access-analyzer.md",
+      "skos:altLabel": [
+        "IAM Access Analyzer",
+        "Access Analyzer",
+        "AWS Identity and Access Management Access Analyzer"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:iam-policy-evaluation-logic"
+        },
+        {
+          "@id": "kt:resource-control-policies"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:iam-identity-center",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS IAM Identity Center",
