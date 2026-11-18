@@ -13872,6 +13872,116 @@
       ]
     },
     {
+      "@id": "kt:tagging-strategy",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Tagging strategy",
+      "skos:definition": "The organization-wide practice of defining which key-value tags AWS resources must and may carry, how they are named, who owns them, and how they are applied, enforced and audited, so that tags can reliably drive cost allocation, operations automation, access control and compliance reporting.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Best practices and strategies - Tagging AWS Resources and Tag Editor",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/tag-editor/latest/userguide/best-practices-and-strats.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What are tags? - Best Practices for Tagging AWS Resources",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/what-are-tags.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Defining needs and use cases - Best Practices for Tagging AWS Resources",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/defining-needs-and-use-cases.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Building your tagging strategy - Best Practices for Tagging AWS Resources",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/building-your-tagging-strategy.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Implementing and enforcing tagging - Best Practices for Tagging AWS Resources",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/implementing-and-enforcing-tagging",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding enforcement - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_tag-policies-enforcement.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Validate and enforce required tags in CloudFormation, Terraform and Pulumi with Tag Policies",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/validate-enforce-required-tags-cloudformation-terraform-pulumi/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/tagging-strategy.md",
+      "skos:altLabel": [
+        "AWS tagging strategy",
+        "AWS tagging best practices",
+        "Resource tagging strategy",
+        "Tagging schema"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cost-allocation-tags"
+        },
+        {
+          "@id": "kt:attribute-based-access-control"
+        },
+        {
+          "@id": "kt:multi-account-strategy"
+        },
+        {
+          "@id": "kt:cost-optimization-pillar"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:tag-policies"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-tag-editor"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-config"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:service-control-policies"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-cognito",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Cognito",

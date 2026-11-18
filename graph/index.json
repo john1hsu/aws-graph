@@ -5554,6 +5554,31 @@
     ]
   },
   {
+    "id": "kt:tagging-strategy",
+    "title": "Tagging strategy",
+    "aliases": [
+      "AWS tagging strategy",
+      "AWS tagging best practices",
+      "Resource tagging strategy",
+      "Tagging schema"
+    ],
+    "type": "Pattern",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/tagging-strategy.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/tag-editor/latest/userguide/best-practices-and-strats.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/what-are-tags.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/defining-needs-and-use-cases.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/building-your-tagging-strategy.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/implementing-and-enforcing-tagging",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_tag-policies-enforcement.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/validate-enforce-required-tags-cloudformation-terraform-pulumi/"
+    ]
+  },
+  {
     "id": "kt:vmware-migration-to-aws",
     "title": "VMware migration to AWS",
     "aliases": [

@@ -10,6 +10,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
+| `kt:aws-tag-editor` | `kt:cost-allocation-tags`, `kt:tagging-strategy` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
@@ -19,6 +20,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
+| `kt:tag-policies` | `kt:cost-allocation-tags`, `kt:tagging-strategy` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-appflow` | `kt:aws-application-integration-services` |
@@ -62,7 +64,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-security-incident-response` | `kt:aws-support-plans` |
 | `kt:aws-snowball-edge` | `kt:aws-schema-conversion-tool` |
 | `kt:aws-sustainability-console` | `kt:sustainability-pillar` |
-| `kt:aws-tag-editor` | `kt:cost-allocation-tags` |
 | `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
 | `kt:aws-x-ray` | `kt:aws-developer-tools` |
 | `kt:bimodal-behavior` | `kt:static-stability` |
@@ -153,8 +154,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:storage-gateway-quotas` | `kt:aws-storage-gateway` |
 | `kt:systems-manager-parameter-store` | `kt:aws-systems-manager` |
 | `kt:systems-manager-session-manager` | `kt:aws-systems-manager` |
-| `kt:tag-policies` | `kt:cost-allocation-tags` |
-| `kt:tagging-strategy` | `kt:attribute-based-access-control` |
 | `kt:transfer-family-quotas` | `kt:aws-transfer-family` |
 | `kt:transit-gateway-quotas` | `kt:aws-transit-gateway` |
 | `kt:vpc-endpoints` | `kt:aws-privatelink` |

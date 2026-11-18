@@ -13981,6 +13981,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s9> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-as-a-non-functional-requirement.html" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s1> <http://purl.org/dc/terms/title> "Best practices and strategies - Tagging AWS Resources and Tag Editor" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s1> <https://schema.org/url> "https://docs.aws.amazon.com/tag-editor/latest/userguide/best-practices-and-strats.html" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s2> <http://purl.org/dc/terms/title> "What are tags? - Best Practices for Tagging AWS Resources" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s2> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/what-are-tags.html" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s3> <http://purl.org/dc/terms/title> "Defining needs and use cases - Best Practices for Tagging AWS Resources" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s3> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/defining-needs-and-use-cases.html" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s4> <http://purl.org/dc/terms/title> "Building your tagging strategy - Best Practices for Tagging AWS Resources" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s4> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/building-your-tagging-strategy.html" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s5> <http://purl.org/dc/terms/title> "Implementing and enforcing tagging - Best Practices for Tagging AWS Resources" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s5> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/implementing-and-enforcing-tagging" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s6> <http://purl.org/dc/terms/title> "Understanding enforcement - AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s6> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_tag-policies-enforcement.html" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s7> <http://purl.org/dc/terms/title> "Validate and enforce required tags in CloudFormation, Terraform and Pulumi with Tag Policies" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/validate-enforce-required-tags-cloudformation-terraform-pulumi/" .
 <https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Prescriptive Guidance)" .
 <https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s1> <http://purl.org/dc/terms/title> "Transitioning from VMware to the AWS Cloud — Introduction" .
 <https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
@@ -14123,6 +14158,36 @@
 <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Tagging strategy" .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS tagging best practices" .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS tagging strategy" .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "Resource tagging strategy" .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "Tagging schema" .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/2004/02/skos/core#definition> "The organization-wide practice of defining which key-value tags AWS resources must and may carry, how they are named, who owns them, and how they are applied, enforced and audited, so that tags can reliably drive cost allocation, operations automation, access control and compliance reporting." .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tagging strategy" .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s1> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s2> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s3> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s4> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s5> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s6> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/tagging-strategy/s7> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-tag-editor> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/tag-policies> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/tagging-strategy> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <http://www.w3.org/2000/01/rdf-schema#label> "VMware migration to AWS" .
