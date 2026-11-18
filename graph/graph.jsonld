@@ -3821,6 +3821,86 @@
       ]
     },
     {
+      "@id": "kt:shuffle-sharding",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Shuffle sharding",
+      "skos:definition": "A fault-isolation pattern in which each customer or resource is assigned its own pseudo-random combination of workers (a virtual \"shuffle shard\") instead of one fixed shard, so a poison-pill request or flood aimed at one customer degrades only its combination while other customers keep at least some healthy workers.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Workload isolation using shuffle-sharding (Amazon Builders' Library)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://builder.aws.com/content/3F06NpJ8YeoIGP8VHTw4n81pFn8/workload-isolation-using-shuffle-sharding",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Shuffle Sharding: Massive and Magical Fault Isolation",
+          "dcterms:publisher": "AWS Architecture Blog",
+          "schema:url": "https://aws.amazon.com/blogs/architecture/shuffle-sharding-massive-and-magical-fault-isolation/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "FAQ - Reducing the Scope of Impact with Cell-Based Architecture",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/faq.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Improving reliability with fault isolation and shuffle sharding (AWS re:Invent 2021, ARC319-R2, slides)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://d1.awsstatic.com/events/reinvent/2021/Improving_reliability_with_fault_isolation_and_shuffle_sharding_REPEAT_ARC319-R2.pdf",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "REL10-BP03 Use bulkhead architectures to limit scope of impact - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_use_bulkhead.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/shuffle-sharding.md",
+      "skos:altLabel": [
+        "shuffle-sharding",
+        "shuffle shards",
+        "combinatorial sharding"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:reliability-pillar"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cell-based-architecture"
+        },
+        {
+          "@id": "kt:static-stability"
+        },
+        {
+          "@id": "kt:availability-zones"
+        },
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-route-53"
+        },
+        {
+          "@id": "kt:aws-shield"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:retry-with-backoff"
+        }
+      ]
+    },
+    {
       "@id": "kt:static-stability",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Static stability",

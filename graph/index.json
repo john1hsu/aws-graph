@@ -5618,6 +5618,28 @@
     ]
   },
   {
+    "id": "kt:shuffle-sharding",
+    "title": "Shuffle sharding",
+    "aliases": [
+      "shuffle-sharding",
+      "shuffle shards",
+      "combinatorial sharding"
+    ],
+    "type": "Pattern",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/shuffle-sharding.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "concept",
+    "source_urls": [
+      "https://builder.aws.com/content/3F06NpJ8YeoIGP8VHTw4n81pFn8/workload-isolation-using-shuffle-sharding",
+      "https://aws.amazon.com/blogs/architecture/shuffle-sharding-massive-and-magical-fault-isolation/",
+      "https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/faq.html",
+      "https://d1.awsstatic.com/events/reinvent/2021/Improving_reliability_with_fault_isolation_and_shuffle_sharding_REPEAT_ARC319-R2.pdf",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_use_bulkhead.html"
+    ]
+  },
+  {
     "id": "kt:spot-instances",
     "title": "Amazon EC2 Spot Instances",
     "aliases": [

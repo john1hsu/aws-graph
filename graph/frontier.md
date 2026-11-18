@@ -139,6 +139,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:red-hat-openshift-service-on-aws` | `kt:aws-container-services` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
 | `kt:rekognition-quotas` | `kt:amazon-rekognition` |
+| `kt:retry-with-backoff` | `kt:shuffle-sharding` |
 | `kt:role-based-access-control` | `kt:attribute-based-access-control` |
 | `kt:route-53-quotas` | `kt:amazon-route-53` |
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
@@ -146,7 +147,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:s3-storage-lens` | `kt:s3-storage-classes` |
 | `kt:sagemaker-ai-quotas` | `kt:amazon-sagemaker-ai` |
 | `kt:secrets-manager-quotas` | `kt:aws-secrets-manager` |
-| `kt:shuffle-sharding` | `kt:cell-based-architecture` |
 | `kt:sns-quotas` | `kt:amazon-sns` |
 | `kt:sqs-quotas` | `kt:amazon-sqs` |
 | `kt:ssm-agent` | `kt:aws-systems-manager` |

@@ -6419,6 +6419,30 @@
 <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/amazon-rds> .
 <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
 <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/2000/01/rdf-schema#label> "Shuffle sharding" .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/2004/02/skos/core#altLabel> "combinatorial sharding" .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/2004/02/skos/core#altLabel> "shuffle shards" .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/2004/02/skos/core#altLabel> "shuffle-sharding" .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/2004/02/skos/core#definition> "A fault-isolation pattern in which each customer or resource is assigned its own pseudo-random combination of workers (a virtual \"shuffle shard\") instead of one fixed shard, so a poison-pill request or flood aimed at one customer degrades only its combination while other customers keep at least some healthy workers." .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shuffle sharding" .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cell-based-architecture> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/static-stability> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s1> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s2> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s3> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s4> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s5> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/retry-with-backoff> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-route-53> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-shield> .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/shuffle-sharding> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Developer - Associate" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-api-gateway/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
@@ -14239,6 +14263,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/shared-responsibility-model/s4> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s1> <http://purl.org/dc/terms/title> "Workload isolation using shuffle-sharding (Amazon Builders' Library)" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s1> <https://schema.org/url> "https://builder.aws.com/content/3F06NpJ8YeoIGP8VHTw4n81pFn8/workload-isolation-using-shuffle-sharding" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s2> <http://purl.org/dc/terms/publisher> "AWS Architecture Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s2> <http://purl.org/dc/terms/title> "Shuffle Sharding: Massive and Magical Fault Isolation" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s2> <https://schema.org/url> "https://aws.amazon.com/blogs/architecture/shuffle-sharding-massive-and-magical-fault-isolation/" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s3> <http://purl.org/dc/terms/title> "FAQ - Reducing the Scope of Impact with Cell-Based Architecture" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/faq.html" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s4> <http://purl.org/dc/terms/title> "Improving reliability with fault isolation and shuffle sharding (AWS re:Invent 2021, ARC319-R2, slides)" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s4> <https://schema.org/url> "https://d1.awsstatic.com/events/reinvent/2021/Improving_reliability_with_fault_isolation_and_shuffle_sharding_REPEAT_ARC319-R2.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s5> <http://purl.org/dc/terms/title> "REL10-BP03 Use bulkhead architectures to limit scope of impact - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/shuffle-sharding/s5> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_fault_isolation_use_bulkhead.html" .
 <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <http://purl.org/dc/terms/title> "Amazon EC2 Spot Instances" .
 <https://github.com/john1hsu/aws-graph/id/source/spot-instances/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
