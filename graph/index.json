@@ -3181,6 +3181,28 @@
     ]
   },
   {
+    "id": "kt:aws-payment-cryptography",
+    "title": "AWS Payment Cryptography",
+    "aliases": [
+      "Payment Cryptography",
+      "AWS payment HSM service"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/aws-payment-cryptography.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/payment-cryptography/latest/userguide/what-is.html",
+      "https://aws.amazon.com/payment-cryptography/faqs",
+      "https://docs.aws.amazon.com/payment-cryptography/latest/userguide/quotas.html",
+      "https://aws.amazon.com/payment-cryptography/pricing/",
+      "https://docs.aws.amazon.com/general/latest/gr/payment-cryptography.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/05/payment-cryptography-resource/"
+    ]
+  },
+  {
     "id": "kt:aws-pricing-calculator",
     "title": "AWS Pricing Calculator",
     "aliases": [

@@ -10,7 +10,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:aws-cost-and-usage-report` | `kt:aws-cost-explorer`, `kt:cost-allocation-tags` |
-| `kt:aws-payment-cryptography` | `kt:pci-dss-on-aws`, `kt:aws-cloudhsm` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
@@ -132,6 +131,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:neptune-quotas` | `kt:amazon-neptune` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
 | `kt:opensearch-service-quotas` | `kt:amazon-opensearch-service` |
+| `kt:payment-cryptography-quotas` | `kt:aws-payment-cryptography` |
 | `kt:ram-quotas` | `kt:aws-resource-access-manager` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
 | `kt:red-hat-openshift-service-on-aws` | `kt:aws-container-services` |

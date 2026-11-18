@@ -3646,6 +3646,31 @@
 <https://github.com/john1hsu/aws-graph/id/aws-partitions> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-partitions> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-partitions> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-09" .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Payment Cryptography" .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS payment HSM service" .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/2004/02/skos/core#altLabel> "Payment Cryptography" .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed, elastic service for payment-specific cryptography and key management, such as PIN translation, CVV and ARQC validation, MAC generation and TR-31/TR-34 key exchange, run on PCI PTS-validated payment HSMs so card processors no longer need dedicated payment HSM appliances." .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Payment Cryptography" .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-cloudhsm> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/pci-dss-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/payment-cryptography-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-payment-cryptography> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Tool> .
 <https://github.com/john1hsu/aws-graph/id/aws-pricing-calculator> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Pricing Calculator" .
@@ -10681,6 +10706,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-partitions/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/security/architecting-a-secure-landing-zone-in-the-aws-european-sovereign-cloud/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s1> <http://purl.org/dc/terms/title> "What is AWS Payment Cryptography?" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s1> <https://schema.org/url> "https://docs.aws.amazon.com/payment-cryptography/latest/userguide/what-is.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s2> <http://purl.org/dc/terms/title> "AWS Payment Cryptography FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s2> <https://schema.org/url> "https://aws.amazon.com/payment-cryptography/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s3> <http://purl.org/dc/terms/title> "Quotas for AWS Payment Cryptography" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s3> <https://schema.org/url> "https://docs.aws.amazon.com/payment-cryptography/latest/userguide/quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s4> <http://purl.org/dc/terms/title> "AWS Payment Cryptography Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s4> <https://schema.org/url> "https://aws.amazon.com/payment-cryptography/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s5> <http://purl.org/dc/terms/title> "AWS Payment Cryptography endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s5> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/payment-cryptography.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s6> <http://purl.org/dc/terms/title> "AWS Payment Cryptography announces support for cross account key sharing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-payment-cryptography/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/payment-cryptography-resource/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s1> <http://purl.org/dc/terms/title> "What is AWS Pricing Calculator?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-pricing-calculator/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
