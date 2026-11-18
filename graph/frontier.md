@@ -8,9 +8,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:tag-policies` | `kt:cost-allocation-tags`, `kt:aws-tag-editor`, `kt:tagging-strategy` |
+| `kt:amazon-dynamodb-accelerator` | `kt:database-caching-strategies`, `kt:dynamodb-partition-key-design` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
-| `kt:database-caching-strategies` | `kt:amazon-elasticache`, `kt:purpose-built-databases` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
 | `kt:network-load-balancer` | `kt:elastic-load-balancing`, `kt:application-load-balancer` |
@@ -24,7 +24,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
 | `kt:amazon-detective` | `kt:amazon-guardduty` |
-| `kt:amazon-dynamodb-accelerator` | `kt:dynamodb-partition-key-design` |
 | `kt:amazon-elastic-vmware-service` | `kt:vmware-migration-to-aws` |
 | `kt:amazon-kinesis-video-streams` | `kt:amazon-rekognition` |
 | `kt:amazon-macie` | `kt:aws-security-hub` |

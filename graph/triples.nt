@@ -4982,6 +4982,34 @@
 <https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
 <https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2000/01/rdf-schema#label> "Database caching strategies" .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2004/02/skos/core#altLabel> "Cache-aside" .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2004/02/skos/core#altLabel> "Caching strategies" .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2004/02/skos/core#altLabel> "Database caching patterns" .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2004/02/skos/core#altLabel> "Lazy loading cache" .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2004/02/skos/core#altLabel> "Write-through cache" .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2004/02/skos/core#definition> "The set of patterns (lazy loading/cache-aside, write-through, TTL expiry and invalidation) used to put an in-memory cache such as Amazon ElastiCache or DynamoDB Accelerator in front of a database so that frequently read data is served faster while bounding staleness and protecting the database." .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2004/02/skos/core#prefLabel> "Database caching strategies" .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-aurora> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-rds> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s1> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s2> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s3> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s4> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s5> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-elasticache> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/devops> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/devops> <http://www.w3.org/2000/01/rdf-schema#label> "DevOps" .
@@ -12739,6 +12767,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <https://schema.org/url> "https://aws.amazon.com/compliance/europe-digital-sovereignty/faq/" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s1> <http://purl.org/dc/terms/title> "Caching strategies for Memcached - Amazon ElastiCache" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/Strategies.html" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s2> <http://purl.org/dc/terms/title> "PERF03-BP05 Implement data access patterns that utilize caching - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf_data_access_patterns_caching.html" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s3> <http://purl.org/dc/terms/title> "Caching Best Practices" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s3> <https://schema.org/url> "https://aws.amazon.com/caching/best-practices/" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s4> <http://purl.org/dc/terms/title> "Caching database query results - Amazon ElastiCache" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/caching-database-query-results.html" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s5> <http://purl.org/dc/terms/title> "DAX: How it works - Amazon DynamoDB" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s5> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide//DAX.concepts.html" .
 <https://github.com/john1hsu/aws-graph/id/source/devops/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/devops/s1> <http://purl.org/dc/terms/title> "What is DevOps?" .
 <https://github.com/john1hsu/aws-graph/id/source/devops/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

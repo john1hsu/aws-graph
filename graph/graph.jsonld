@@ -10362,6 +10362,98 @@
       ]
     },
     {
+      "@id": "kt:database-caching-strategies",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Database caching strategies",
+      "skos:definition": "The set of patterns (lazy loading/cache-aside, write-through, TTL expiry and invalidation) used to put an in-memory cache such as Amazon ElastiCache or DynamoDB Accelerator in front of a database so that frequently read data is served faster while bounding staleness and protecting the database.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Caching strategies for Memcached - Amazon ElastiCache",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/Strategies.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PERF03-BP05 Implement data access patterns that utilize caching - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf_data_access_patterns_caching.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Caching Best Practices",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/caching/best-practices/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Caching database query results - Amazon ElastiCache",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/caching-database-query-results.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DAX: How it works - Amazon DynamoDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide//DAX.concepts.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/databases/database-caching-strategies.md",
+      "skos:altLabel": [
+        "Caching strategies",
+        "Cache-aside",
+        "Lazy loading cache",
+        "Write-through cache",
+        "Database caching patterns"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:purpose-built-databases"
+        },
+        {
+          "@id": "kt:performance-efficiency-pillar"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-rds"
+        },
+        {
+          "@id": "kt:amazon-aurora"
+        },
+        {
+          "@id": "kt:amazon-api-gateway"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:performance-efficiency-pillar"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-elasticache"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-dynamodb-accelerator"
+        },
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ]
+    },
+    {
       "@id": "kt:dynamodb-global-tables",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon DynamoDB global tables",
