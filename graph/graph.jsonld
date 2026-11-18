@@ -5364,6 +5364,9 @@
         },
         {
           "@id": "kt:amazon-ec2-auto-scaling"
+        },
+        {
+          "@id": "kt:ec2-instance-metadata-service"
         }
       ],
       "kto:pricedBy": [
@@ -6160,6 +6163,108 @@
       "kto:coveredBy": [
         {
           "@id": "kt:aws-certified-devops-engineer-professional"
+        }
+      ]
+    },
+    {
+      "@id": "kt:ec2-instance-metadata-service",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon EC2 Instance Metadata Service (IMDS)",
+      "skos:definition": "The link-local HTTP endpoint (169.254.169.254, or fd00:ec2::254 over IPv6) that every Amazon EC2 instance uses to read its own metadata, user data and IAM role credentials; IMDSv2 adds session tokens obtained with a PUT request to defend against SSRF and open-proxy attacks.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedOn": "2026-11-18",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Use the Instance Metadata Service to access instance metadata",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Access instance metadata for an EC2 instance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure the Instance Metadata Service options",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-options.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Transition to using Instance Metadata Service Version 2",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-transition-to-version-2.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Add defense in depth against open firewalls, reverse proxies, and SSRF vulnerabilities with enhancements to the EC2 Instance Metadata Service",
+          "dcterms:publisher": "Amazon Web Services (AWS Security Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon EC2 Instance Metadata Service IMDSv2 by default",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/amazon-ec2-instance-metadata-service-imdsv2-by-default",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Set IMDSv2 as default for all new instance launches in your account",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/03/set-imdsv2-default-new-instance-launches",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/compute/ec2-instance-metadata-service.md",
+      "skos:altLabel": [
+        "IMDS",
+        "IMDSv2",
+        "IMDSv1",
+        "EC2 instance metadata",
+        "Instance Metadata Service Version 2",
+        "EC2 metadata service"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:iam-roles"
+        },
+        {
+          "@id": "kt:aws-sts"
+        },
+        {
+          "@id": "kt:amazon-machine-images"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:service-control-policies"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:declarative-policies"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-nitro-system"
         }
       ]
     },

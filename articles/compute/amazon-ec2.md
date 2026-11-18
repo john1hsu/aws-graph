@@ -11,7 +11,7 @@ summary: >-
 verified: 2026-11-08
 status: current
 broader: [kt:aws-compute-services]
-related: [kt:ec2-instance-types, kt:amazon-ec2-auto-scaling]
+related: [kt:ec2-instance-types, kt:amazon-ec2-auto-scaling, kt:ec2-instance-metadata-service]
 relations:
   - {predicate: pricedBy, object: kt:savings-plans}
   - {predicate: pricedBy, object: kt:spot-instances}

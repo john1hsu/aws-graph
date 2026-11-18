@@ -88,6 +88,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-perimeter` | `kt:resource-control-policies` |
 | `kt:data-warehouse` | `kt:data-lake-on-aws` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |
+| `kt:declarative-policies` | `kt:ec2-instance-metadata-service` |
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |
 | `kt:dms-schema-conversion` | `kt:aws-schema-conversion-tool` |
 | `kt:documentdb-quotas` | `kt:amazon-documentdb` |

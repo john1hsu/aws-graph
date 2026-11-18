@@ -4517,6 +4517,33 @@
     ]
   },
   {
+    "id": "kt:ec2-instance-metadata-service",
+    "title": "Amazon EC2 Instance Metadata Service (IMDS)",
+    "aliases": [
+      "IMDS",
+      "IMDSv2",
+      "IMDSv1",
+      "EC2 instance metadata",
+      "Instance Metadata Service Version 2",
+      "EC2 metadata service"
+    ],
+    "type": "Feature",
+    "domain": "compute",
+    "file": "articles/compute/ec2-instance-metadata-service.md",
+    "created": "2026-11-18",
+    "verified": "2026-11-18",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.md",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-options.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-transition-to-version-2.md",
+      "https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/",
+      "https://aws.amazon.com/blogs/aws/amazon-ec2-instance-metadata-service-imdsv2-by-default",
+      "https://aws.amazon.com/about-aws/whats-new/2024/03/set-imdsv2-default-new-instance-launches"
+    ]
+  },
+  {
     "id": "kt:ec2-instance-types",
     "title": "Amazon EC2 instance types",
     "aliases": [

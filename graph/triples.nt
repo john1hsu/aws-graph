@@ -497,6 +497,7 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://www.w3.org/2004/02/skos/core#definition> "AWS's core infrastructure-as-a-service offering for launching and managing virtual servers (instances) with a chosen instance type, machine image, storage and network configuration, billed per second or discounted through commitments and spare-capacity pricing." .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EC2" .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2-auto-scaling> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2/s1> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ec2> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ec2/s2> .
@@ -5172,6 +5173,36 @@
 <https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 Instance Metadata Service (IMDS)" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 instance metadata" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 metadata service" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#altLabel> "IMDS" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#altLabel> "IMDSv1" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#altLabel> "IMDSv2" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#altLabel> "Instance Metadata Service Version 2" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#definition> "The link-local HTTP endpoint (169.254.169.254, or fd00:ec2::254 over IPv6) that every Amazon EC2 instance uses to read its own metadata, user data and IAM role credentials; IMDSv2 adds session tokens obtained with a PUT request to defend against SSRF and open-proxy attacks." .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EC2 Instance Metadata Service (IMDS)" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-sts> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-roles> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s1> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s2> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s3> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s4> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s5> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s6> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s7> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/declarative-policies> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-nitro-system> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <https://github.com/john1hsu/aws-graph/ontology#domain> "compute" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/ec2-instance-metadata-service> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 instance types" .
@@ -12877,6 +12908,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/userguide/devops-engineer-professional-02-domain1.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s1> <http://purl.org/dc/terms/title> "Use the Instance Metadata Service to access instance metadata" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s2> <http://purl.org/dc/terms/title> "Access instance metadata for an EC2 instance" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.md" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s3> <http://purl.org/dc/terms/title> "Configure the Instance Metadata Service options" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-options.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s4> <http://purl.org/dc/terms/title> "Transition to using Instance Metadata Service Version 2" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-transition-to-version-2.md" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Security Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s5> <http://purl.org/dc/terms/title> "Add defense in depth against open firewalls, reverse proxies, and SSRF vulnerabilities with enhancements to the EC2 Instance Metadata Service" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s6> <http://purl.org/dc/terms/title> "Amazon EC2 Instance Metadata Service IMDSv2 by default" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/amazon-ec2-instance-metadata-service-imdsv2-by-default" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s7> <http://purl.org/dc/terms/title> "Set IMDSv2 as default for all new instance launches in your account" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-instance-metadata-service/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2024/03/set-imdsv2-default-new-instance-launches" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <http://purl.org/dc/terms/title> "Amazon EC2 instance type naming conventions" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-instance-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
