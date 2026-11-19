@@ -3749,6 +3749,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
 <https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-lake-formation> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Lambda durable functions" .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Durable Execution SDK" .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/2004/02/skos/core#altLabel> "Lambda durable execution" .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/2004/02/skos/core#altLabel> "Lambda durable functions" .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/2004/02/skos/core#definition> "A Lambda capability that lets an ordinary function run a multi-step workflow for up to one year by checkpointing each durable operation and replaying the handler after a pause or failure, skipping work that already completed." .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Lambda durable functions" .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-step-functions> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-sam> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Lambda" .
@@ -3761,6 +3787,7 @@
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-step-functions> .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s1> .
 <https://github.com/john1hsu/aws-graph/id/aws-lambda> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s2> .
@@ -11893,6 +11920,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lake-formation/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s1> <http://purl.org/dc/terms/title> "Lambda durable functions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s1> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/durable-functions.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s2> <http://purl.org/dc/terms/title> "Basic concepts - Lambda durable functions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s2> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/durable-basic-concepts.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s3> <http://purl.org/dc/terms/title> "Invoking Lambda durable functions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s3> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/durable-invoking.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s4> <http://purl.org/dc/terms/title> "Durable functions or Step Functions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s4> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/durable-step-functions.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s5> <http://purl.org/dc/terms/title> "Security and permissions for Lambda durable functions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s5> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/durable-security.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s6> <http://purl.org/dc/terms/title> "AWS Lambda announces durable functions for multi-step applications and AI workflows" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/12/lambda-durable-multi-step-applications-ai-workflows" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s7> <http://purl.org/dc/terms/title> "AWS Lambda durable functions are now available in 16 additional AWS Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-functions-16-new-regions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Compute Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s8> <http://purl.org/dc/terms/title> "Building fault-tolerant applications with AWS Lambda durable functions" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-lambda-durable-functions/s8> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/building-fault-tolerant-long-running-application-with-aws-lambda-durable-functions/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s1> <http://purl.org/dc/terms/title> "What is AWS Lambda?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-lambda/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

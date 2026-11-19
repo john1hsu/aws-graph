@@ -11,7 +11,7 @@ summary: >-
 verified: 2026-11-09
 status: current
 broader: [kt:aws-compute-services, kt:aws-serverless-services]
-related: [kt:amazon-api-gateway, kt:amazon-eventbridge, kt:amazon-sqs, kt:aws-step-functions]
+related: [kt:amazon-api-gateway, kt:amazon-eventbridge, kt:amazon-sqs, kt:aws-step-functions, kt:aws-lambda-durable-functions]
 relations:
   - {predicate: governedBy, object: kt:lambda-quotas}
   - {predicate: runsOn, object: kt:amazon-ec2}

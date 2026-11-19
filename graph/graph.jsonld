@@ -24757,6 +24757,107 @@
       ]
     },
     {
+      "@id": "kt:aws-lambda-durable-functions",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "AWS Lambda durable functions",
+      "skos:definition": "A Lambda capability that lets an ordinary function run a multi-step workflow for up to one year by checkpointing each durable operation and replaying the handler after a pause or failure, skipping work that already completed.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lambda durable functions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/durable-functions.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Basic concepts - Lambda durable functions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/durable-basic-concepts.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Invoking Lambda durable functions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/durable-invoking.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Durable functions or Step Functions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/durable-step-functions.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Security and permissions for Lambda durable functions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/durable-security.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Lambda announces durable functions for multi-step applications and AI workflows",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/12/lambda-durable-multi-step-applications-ai-workflows",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Lambda durable functions are now available in 16 additional AWS Regions",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-functions-16-new-regions",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Building fault-tolerant applications with AWS Lambda durable functions",
+          "dcterms:publisher": "Amazon Web Services (AWS Compute Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/compute/building-fault-tolerant-long-running-application-with-aws-lambda-durable-functions/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/aws-lambda-durable-functions.md",
+      "skos:altLabel": [
+        "Lambda durable functions",
+        "Lambda durable execution",
+        "AWS Durable Execution SDK"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-step-functions"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-sam"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-sqs"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-lambda",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Lambda",
@@ -24846,6 +24947,9 @@
         },
         {
           "@id": "kt:aws-step-functions"
+        },
+        {
+          "@id": "kt:aws-lambda-durable-functions"
         }
       ],
       "kto:governedBy": [
