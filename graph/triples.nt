@@ -2453,6 +2453,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Machine Learning - Specialty" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS ML Specialty" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Machine Learning Specialty" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/2004/02/skos/core#altLabel> "MLS-C01" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/2004/02/skos/core#definition> "AWS's former specialty-level certification for data scientists and ML practitioners (exam MLS-C01), covering data engineering, exploratory data analysis, modeling and ML operations on AWS; it was retired after its last exam date of March 31, 2026, and AWS points candidates to the Machine Learning Engineer - Associate." .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Certified Machine Learning - Specialty" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-emr> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-data-engineer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-certified-generative-ai-developer-professional> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <https://github.com/john1hsu/aws-graph/ontology#replacedBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-engineer-associate> .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <https://github.com/john1hsu/aws-graph/ontology#status> "retired" .
+<https://github.com/john1hsu/aws-graph/id/aws-certified-machine-learning-specialty> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Certification> .
 <https://github.com/john1hsu/aws-graph/id/aws-certified-security-specialty> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Certified Security - Specialty" .
@@ -9960,6 +9986,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-engineer-associate/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-engineer-associate/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-engineer-associate/s3> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/updates-to-aws-certified-machine-learning-engineer-associate-mla-c02/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s1> <http://purl.org/dc/terms/title> "AWS Certified Machine Learning - Specialty (MLS-C01) exam guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s1> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/machine-learning-specialty-01/machine-learning-specialty-01.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s2> <http://purl.org/dc/terms/title> "Content Domain 1: Data Engineering - AWS Certified Machine Learning - Specialty" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s2> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/machine-learning-specialty-01/machine-learning-specialty-01-domain1.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s3> <http://purl.org/dc/terms/title> "AWS Certified Machine Learning - Specialty" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s3> <https://schema.org/url> "https://aws.amazon.com/certification/certified-machine-learning-specialty/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Training and Certification Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s4> <http://purl.org/dc/terms/title> "AWS expands AI certification portfolio and updates security certification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s4> <https://schema.org/url> "https://aws.amazon.com/ko/blogs/training-and-certification/big-news-aws-expands-ai-certification-portfolio-and-updates-security-certification/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Training and Certification Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s5> <http://purl.org/dc/terms/title> "Strategies for excelling across all four exam domains of the AWS Certified Machine Learning - Specialty certification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/strategies-for-excelling-across-all-four-exam-domains-of-the-aws-certified-machine-learning-specialty-certification/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Training and Certification Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s6> <http://purl.org/dc/terms/title> "New courses and certification updates from AWS Training and Certification in October 2025" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-certified-machine-learning-specialty/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/october-2025-new-offerings/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s1> <http://purl.org/dc/terms/title> "AWS Certified Security - Specialty (SCS-C03) exam guide" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-certified-security-specialty/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
