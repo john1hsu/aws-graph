@@ -4463,6 +4463,31 @@
     ]
   },
   {
+    "id": "kt:cloudformation-stacksets",
+    "title": "AWS CloudFormation StackSets",
+    "aliases": [
+      "CloudFormation StackSets",
+      "StackSets",
+      "CloudFormation stack sets",
+      "CFN StackSets"
+    ],
+    "type": "Feature",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/cloudformation-stacksets.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/he_il/AWSCloudFormation/latest/UserGuide/stacksets-concepts.html",
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/account-level-targets.html",
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacksets-prereqs-self-managed.html",
+      "https://docs.aws.amazon.com/organizations/latest/userguide/services-that-can-integrate-cloudformation",
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cloudformation-stacksets-deployment-ordering",
+      "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain2.html"
+    ]
+  },
+  {
     "id": "kt:container-networking-on-aws",
     "title": "Container networking on AWS",
     "aliases": [

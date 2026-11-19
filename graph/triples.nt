@@ -5127,6 +5127,36 @@
 <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CloudFormation StackSets" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2004/02/skos/core#altLabel> "CFN StackSets" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2004/02/skos/core#altLabel> "CloudFormation StackSets" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2004/02/skos/core#altLabel> "CloudFormation stack sets" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2004/02/skos/core#altLabel> "StackSets" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2004/02/skos/core#definition> "The AWS CloudFormation capability that deploys one template as stacks across many AWS accounts and Regions from a single administrator account, using either self-managed IAM roles or service-managed permissions through AWS Organizations, with automatic deployment to new accounts." .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS CloudFormation StackSets" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-control-tower> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-account-strategy> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s1> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s2> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s3> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s4> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s5> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s6> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s7> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-devops-engineer-professional> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "Container networking on AWS" .
@@ -13457,6 +13487,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/devops/safely-handle-configuration-drift-with-cloudformation-drift-aware-change-sets" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s1> <http://purl.org/dc/terms/title> "StackSets concepts" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s1> <https://schema.org/url> "https://docs.aws.amazon.com/he_il/AWSCloudFormation/latest/UserGuide/stacksets-concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s2> <http://purl.org/dc/terms/title> "Create AWS CloudFormation StackSets with service-managed permissions" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/account-level-targets.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s3> <http://purl.org/dc/terms/title> "Grant self-managed permissions" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacksets-prereqs-self-managed.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s4> <http://purl.org/dc/terms/title> "AWS CloudFormation StackSets and AWS Organizations" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s4> <https://schema.org/url> "https://docs.aws.amazon.com/organizations/latest/userguide/services-that-can-integrate-cloudformation" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s5> <http://purl.org/dc/terms/title> "Understand CloudFormation quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s6> <http://purl.org/dc/terms/title> "AWS CloudFormation StackSets now supports deployment ordering" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cloudformation-stacksets-deployment-ordering" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s7> <http://purl.org/dc/terms/title> "Content Domain 2: Configuration Management and IaC (DOP-C02 exam guide)" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain2.html" .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <http://purl.org/dc/terms/title> "Amazon ECS task networking options for EC2" .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

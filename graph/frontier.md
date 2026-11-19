@@ -6,11 +6,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-kendra`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract`, `kt:amazon-transcribe` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract`, `kt:amazon-transcribe`, `kt:amazon-transcribe` |
+| `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:cloudformation-stacksets` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service`, `kt:aws-migration-hub` |
 | `kt:aws-resource-groups-tagging-api` | `kt:aws-tag-editor`, `kt:tag-policies` |
 | `kt:cloud-computing` | `kt:cloud-architecture`, `kt:amazon-web-services` |
-| `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
 | `kt:gateway-load-balancer` | `kt:elastic-load-balancing`, `kt:elb-quotas` |
 | `kt:role-based-access-control` | `kt:amazon-verified-permissions`, `kt:attribute-based-access-control` |
@@ -71,7 +71,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloud-security` | `kt:aws-security-services` |
 | `kt:cloud-wan-quotas` | `kt:aws-cloud-wan` |
 | `kt:cloudendure-disaster-recovery` | `kt:aws-elastic-disaster-recovery` |
-| `kt:cloudformation-stacksets` | `kt:cloudformation-drift-detection` |
 | `kt:cloudfront-functions` | `kt:amazon-cloudfront` |
 | `kt:cloudfront-quotas` | `kt:amazon-cloudfront` |
 | `kt:cloudhsm-quotas` | `kt:aws-cloudhsm` |

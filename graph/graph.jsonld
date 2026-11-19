@@ -12726,6 +12726,116 @@
       ]
     },
     {
+      "@id": "kt:cloudformation-stacksets",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "AWS CloudFormation StackSets",
+      "skos:definition": "The AWS CloudFormation capability that deploys one template as stacks across many AWS accounts and Regions from a single administrator account, using either self-managed IAM roles or service-managed permissions through AWS Organizations, with automatic deployment to new accounts.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "StackSets concepts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/he_il/AWSCloudFormation/latest/UserGuide/stacksets-concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create AWS CloudFormation StackSets with service-managed permissions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/account-level-targets.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Grant self-managed permissions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacksets-prereqs-self-managed.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CloudFormation StackSets and AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/services-that-can-integrate-cloudformation",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understand CloudFormation quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CloudFormation StackSets now supports deployment ordering",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cloudformation-stacksets-deployment-ordering",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Content Domain 2: Configuration Management and IaC (DOP-C02 exam guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain2.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/cloudformation-stacksets.md",
+      "skos:altLabel": [
+        "CloudFormation StackSets",
+        "StackSets",
+        "CloudFormation stack sets",
+        "CFN StackSets"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-cloudformation"
+        },
+        {
+          "@id": "kt:infrastructure-as-code"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-control-tower"
+        },
+        {
+          "@id": "kt:multi-account-strategy"
+        },
+        {
+          "@id": "kt:cloudformation-drift-detection"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:cloudformation-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-devops-engineer-professional"
+        }
+      ]
+    },
+    {
       "@id": "kt:devops",
       "@type": "kto:Concept",
       "skos:prefLabel": "DevOps",
