@@ -9723,6 +9723,97 @@
       ]
     },
     {
+      "@id": "kt:data-transfer-costs",
+      "@type": "kto:PricingModel",
+      "skos:prefLabel": "AWS data transfer costs",
+      "skos:definition": "How AWS bills for moving data: inbound internet traffic is free, while outbound internet, inter-Region and cross-Availability Zone traffic, plus NAT gateway processing and dedicated links, carry per-GB or hourly charges that architecture choices can greatly reduce.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Overview of Data Transfer Costs for Common Architectures",
+          "dcterms:publisher": "Amazon Web Services (AWS Architecture Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "COST08-BP02 Select components to optimize data transfer cost - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost_data_transfer_optimized_components.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon VPC Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/vpc/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Direct Connect Pay-as-you-go Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/directconnect/pricing/pay-as-you-go/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Free data transfer out to internet when moving out of AWS",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/jp/blogs/aws/free-data-transfer-out-to-internet-when-moving-out-of-aws/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/cost-management/data-transfer-costs.md",
+      "skos:altLabel": [
+        "Data transfer costs",
+        "AWS data transfer pricing",
+        "Data transfer out",
+        "DTO",
+        "AWS egress fees"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-pricing-fundamentals"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-free-tier"
+        },
+        {
+          "@id": "kt:aws-cost-explorer"
+        },
+        {
+          "@id": "kt:availability-zones"
+        },
+        {
+          "@id": "kt:aws-regions"
+        },
+        {
+          "@id": "kt:nat-gateway"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:cost-optimization-pillar"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-direct-connect"
+        },
+        {
+          "@id": "kt:aws-transit-gateway"
+        },
+        {
+          "@id": "kt:amazon-cloudfront"
+        },
+        {
+          "@id": "kt:aws-privatelink"
+        }
+      ]
+    },
+    {
       "@id": "kt:reserved-instances",
       "@type": "kto:PricingModel",
       "skos:prefLabel": "Reserved Instances",

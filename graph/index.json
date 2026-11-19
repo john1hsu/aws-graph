@@ -4585,6 +4585,30 @@
     ]
   },
   {
+    "id": "kt:data-transfer-costs",
+    "title": "AWS data transfer costs",
+    "aliases": [
+      "Data transfer costs",
+      "AWS data transfer pricing",
+      "Data transfer out",
+      "DTO",
+      "AWS egress fees"
+    ],
+    "type": "PricingModel",
+    "domain": "cost-management",
+    "file": "articles/cost-management/data-transfer-costs.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "concept",
+    "source_urls": [
+      "https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost_data_transfer_optimized_components.html",
+      "https://aws.amazon.com/vpc/pricing/",
+      "https://aws.amazon.com/directconnect/pricing/pay-as-you-go/",
+      "https://aws.amazon.com/jp/blogs/aws/free-data-transfer-out-to-internet-when-moving-out-of-aws/"
+    ]
+  },
+  {
     "id": "kt:database-caching-strategies",
     "title": "Database caching strategies",
     "aliases": [

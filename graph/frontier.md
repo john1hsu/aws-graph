@@ -11,7 +11,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-resource-groups-tagging-api` | `kt:aws-tag-editor`, `kt:tag-policies` |
 | `kt:cloud-computing` | `kt:cloud-architecture`, `kt:amazon-web-services` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
-| `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
 | `kt:gateway-load-balancer` | `kt:elastic-load-balancing`, `kt:elb-quotas` |
 | `kt:role-based-access-control` | `kt:amazon-verified-permissions`, `kt:attribute-based-access-control` |
@@ -126,6 +125,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:microservices` | `kt:devops` |
 | `kt:migration-evaluator` | `kt:application-portfolio-assessment` |
 | `kt:multi-az-architecture` | `kt:multi-region-architecture` |
+| `kt:nat-gateway` | `kt:data-transfer-costs` |
 | `kt:neptune-analytics` | `kt:amazon-neptune` |
 | `kt:neptune-quotas` | `kt:amazon-neptune` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |

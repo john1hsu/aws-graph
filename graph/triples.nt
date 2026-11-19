@@ -5263,6 +5263,35 @@
 <https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/service-control-policies> .
 <https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#PricingModel> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2000/01/rdf-schema#label> "AWS data transfer costs" .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS data transfer pricing" .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS egress fees" .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#altLabel> "DTO" .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#altLabel> "Data transfer costs" .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#altLabel> "Data transfer out" .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#definition> "How AWS bills for moving data: inbound internet traffic is free, while outbound internet, inter-Region and cross-Availability Zone traffic, plus NAT gateway processing and dedicated links, carry per-GB or hourly charges that architecture choices can greatly reduce." .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS data transfer costs" .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cost-explorer> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-free-tier> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/nat-gateway> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s1> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s2> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s3> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s4> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s5> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-privatelink> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/data-transfer-costs> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://purl.org/dc/terms/created> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/database-caching-strategies> <http://www.w3.org/2000/01/rdf-schema#label> "Database caching strategies" .
@@ -13563,6 +13592,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/data-residency-on-aws/s6> <https://schema.org/url> "https://aws.amazon.com/compliance/europe-digital-sovereignty/faq/" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Architecture Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s1> <http://purl.org/dc/terms/title> "Overview of Data Transfer Costs for Common Architectures" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s1> <https://schema.org/url> "https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s2> <http://purl.org/dc/terms/title> "COST08-BP02 Select components to optimize data transfer cost - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost_data_transfer_optimized_components.html" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s3> <http://purl.org/dc/terms/title> "Amazon VPC Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s3> <https://schema.org/url> "https://aws.amazon.com/vpc/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s4> <http://purl.org/dc/terms/title> "AWS Direct Connect Pay-as-you-go Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s4> <https://schema.org/url> "https://aws.amazon.com/directconnect/pricing/pay-as-you-go/" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s5> <http://purl.org/dc/terms/title> "Free data transfer out to internet when moving out of AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/data-transfer-costs/s5> <https://schema.org/url> "https://aws.amazon.com/jp/blogs/aws/free-data-transfer-out-to-internet-when-moving-out-of-aws/" .
 <https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s1> <http://purl.org/dc/terms/title> "Caching strategies for Memcached - Amazon ElastiCache" .
 <https://github.com/john1hsu/aws-graph/id/source/database-caching-strategies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
