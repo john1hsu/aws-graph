@@ -5030,6 +5030,33 @@
     ]
   },
   {
+    "id": "kt:elb-quotas",
+    "title": "Elastic Load Balancing quotas",
+    "aliases": [
+      "ELB quotas",
+      "ELB limits",
+      "Elastic Load Balancing limits",
+      "Load balancer quotas",
+      "ELB service quotas"
+    ],
+    "type": "Limit",
+    "domain": "compute",
+    "file": "articles/compute/elb-quotas.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/general/latest/gr/elb.html",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.md",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/quotas-limits.html",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/capacity-unit-reservation.md",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/capacity-unit-reservation.html",
+      "https://aws.amazon.com/elasticloadbalancing/pricing/?z=3",
+      "https://aws.amazon.com/blogs/networking-and-content-delivery/using-load-balancer-capacity-unit-reservation-to-prepare-for-sharp-increases-in-traffic/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/04/load-balancer-capacity-unit-reservation-gateway-load-balancers"
+    ]
+  },
+  {
     "id": "kt:event-driven-architecture",
     "title": "Event-driven architecture",
     "aliases": [

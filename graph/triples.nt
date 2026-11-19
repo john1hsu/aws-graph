@@ -5775,6 +5775,36 @@
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-waf> .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Elastic Load Balancing quotas" .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "ELB limits" .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "ELB quotas" .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "ELB service quotas" .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Elastic Load Balancing limits" .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Load balancer quotas" .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/elastic-load-balancing> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-Region and per-load-balancer limits that apply to Application, Network, Gateway and Classic Load Balancers and their target groups, including the reserved-capacity (LCU) quotas that default to zero and must be raised before an LCU reservation can be made." .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elastic Load Balancing quotas" .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/application-load-balancer> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/gateway-load-balancer> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/network-load-balancer> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s6> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s7> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s8> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "compute" .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/elb-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Event-driven architecture" .
@@ -14025,6 +14055,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/elastic-load-balancing/s5> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/doc-history.html" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s1> <http://purl.org/dc/terms/title> "Elastic Load Balancing endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/elb.html" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s2> <http://purl.org/dc/terms/title> "Quotas for your Application Load Balancers" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.md" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s3> <http://purl.org/dc/terms/title> "Quotas for your Gateway Load Balancers" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/quotas-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s4> <http://purl.org/dc/terms/title> "Capacity reservations for your Network Load Balancer" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/capacity-unit-reservation.md" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s5> <http://purl.org/dc/terms/title> "Capacity reservations for your Application Load Balancer" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s5> <https://schema.org/url> "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/capacity-unit-reservation.html" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s6> <http://purl.org/dc/terms/title> "Elastic Load Balancing pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s6> <https://schema.org/url> "https://aws.amazon.com/elasticloadbalancing/pricing/?z=3" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Networking & Content Delivery Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s7> <http://purl.org/dc/terms/title> "Using Load Balancer Capacity Unit Reservation to prepare for sharp increases in traffic" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/networking-and-content-delivery/using-load-balancer-capacity-unit-reservation-to-prepare-for-sharp-increases-in-traffic/" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s8> <http://purl.org/dc/terms/title> "Load Balancer Capacity Unit Reservation for Gateway Load Balancers" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/elb-quotas/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/04/load-balancer-capacity-unit-reservation-gateway-load-balancers" .
 <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s1> <http://purl.org/dc/terms/title> "What is EDA (Event-Driven Architecture)?" .
 <https://github.com/john1hsu/aws-graph/id/source/event-driven-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -6849,6 +6849,111 @@
       ]
     },
     {
+      "@id": "kt:elb-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Elastic Load Balancing quotas",
+      "skos:definition": "The per-Region and per-load-balancer limits that apply to Application, Network, Gateway and Classic Load Balancers and their target groups, including the reserved-capacity (LCU) quotas that default to zero and must be raised before an LCU reservation can be made.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Elastic Load Balancing endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/elb.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for your Application Load Balancers",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for your Gateway Load Balancers",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/quotas-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Capacity reservations for your Network Load Balancer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/capacity-unit-reservation.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Capacity reservations for your Application Load Balancer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/capacity-unit-reservation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Elastic Load Balancing pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/elasticloadbalancing/pricing/?z=3",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using Load Balancer Capacity Unit Reservation to prepare for sharp increases in traffic",
+          "dcterms:publisher": "Amazon Web Services (AWS Networking & Content Delivery Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/networking-and-content-delivery/using-load-balancer-capacity-unit-reservation-to-prepare-for-sharp-increases-in-traffic/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Load Balancer Capacity Unit Reservation for Gateway Load Balancers",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/04/load-balancer-capacity-unit-reservation-gateway-load-balancers",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/compute/elb-quotas.md",
+      "skos:altLabel": [
+        "ELB quotas",
+        "ELB limits",
+        "Elastic Load Balancing limits",
+        "Load balancer quotas",
+        "ELB service quotas"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:application-load-balancer"
+        },
+        {
+          "@id": "kt:network-load-balancer"
+        },
+        {
+          "@id": "kt:gateway-load-balancer"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ]
+    },
+    {
       "@id": "kt:on-demand-capacity-reservations",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon EC2 On-Demand Capacity Reservations",

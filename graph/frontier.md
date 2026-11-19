@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-kendra`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract`, `kt:amazon-transcribe` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract`, `kt:amazon-transcribe`, `kt:amazon-transcribe` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
-| `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer`, `kt:network-load-balancer` |
 | `kt:tag-policies` | `kt:cost-allocation-tags`, `kt:aws-tag-editor`, `kt:tagging-strategy` |
 | `kt:amazon-dynamodb-accelerator` | `kt:database-caching-strategies`, `kt:dynamodb-partition-key-design` |
 | `kt:aws-migration-hub` | `kt:aws-application-discovery-service`, `kt:migration-wave-planning` |
@@ -15,6 +14,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
+| `kt:gateway-load-balancer` | `kt:elastic-load-balancing`, `kt:elb-quotas` |
 | `kt:role-based-access-control` | `kt:amazon-verified-permissions`, `kt:attribute-based-access-control` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
@@ -108,7 +108,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:eventbridge-quotas` | `kt:amazon-eventbridge` |
 | `kt:firewall-manager-quotas` | `kt:aws-firewall-manager` |
 | `kt:fsx-quotas` | `kt:amazon-fsx` |
-| `kt:gateway-load-balancer` | `kt:elastic-load-balancing` |
 | `kt:global-accelerator-quotas` | `kt:aws-global-accelerator` |
 | `kt:glue-quotas` | `kt:aws-glue` |
 | `kt:guardduty-quotas` | `kt:amazon-guardduty` |
