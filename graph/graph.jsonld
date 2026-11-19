@@ -17345,6 +17345,90 @@
       ]
     },
     {
+      "@id": "kt:role-based-access-control",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Role-based access control (RBAC) on AWS",
+      "skos:definition": "An authorization model in which permissions are bundled into roles that mirror job functions and people receive access only through the roles they are assigned; on AWS it is built from IAM roles and groups, job-function managed policies and IAM Identity Center permission sets.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Role Based Access Control - FAQs",
+          "dcterms:publisher": "National Institute of Standards and Technology",
+          "schema:url": "https://csrc.nist.gov/projects/role-based-access-control/faqs",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "AWS managed policies for job functions - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage AWS accounts with permission sets - AWS IAM Identity Center",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/singlesignon/latest/userguide/permissionsetsconcept.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Types of access control - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/saas-multitenant-api-access-authorization/access-control-types.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Verified Permissions and Cedar policy language terms and concepts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/terminology.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "IAM and AWS STS quotas - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/role-based-access-control.md",
+      "skos:altLabel": [
+        "RBAC",
+        "role-based access control",
+        "role based access control",
+        "job-function access control"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:iam-roles"
+        },
+        {
+          "@id": "kt:iam-identity-center"
+        },
+        {
+          "@id": "kt:amazon-verified-permissions"
+        },
+        {
+          "@id": "kt:iam-access-analyzer"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:attribute-based-access-control"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:iam-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:service-control-policies",
       "@type": "kto:Feature",
       "skos:prefLabel": "Service control policies (SCPs)",

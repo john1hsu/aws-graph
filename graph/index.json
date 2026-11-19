@@ -6015,6 +6015,30 @@
     ]
   },
   {
+    "id": "kt:role-based-access-control",
+    "title": "Role-based access control (RBAC) on AWS",
+    "aliases": [
+      "RBAC",
+      "role-based access control",
+      "role based access control",
+      "job-function access control"
+    ],
+    "type": "Pattern",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/role-based-access-control.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "concept",
+    "source_urls": [
+      "https://csrc.nist.gov/projects/role-based-access-control/faqs",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html",
+      "https://docs.aws.amazon.com/singlesignon/latest/userguide/permissionsetsconcept.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/saas-multitenant-api-access-authorization/access-control-types.html",
+      "https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/terminology.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html"
+    ]
+  },
+  {
     "id": "kt:s3-storage-classes",
     "title": "Amazon S3 storage classes",
     "aliases": [
