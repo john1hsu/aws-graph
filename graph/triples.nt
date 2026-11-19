@@ -6197,6 +6197,34 @@
 <https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon FSx quotas" .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon FSx endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon FSx service limits" .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "FSx limits" .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "FSx quotas" .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "FSx service quotas" .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-fsx> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The limits that constrain Amazon FSx, set separately for each file system type: adjustable per-account, per-Region defaults (typically 100 file systems per type and 10,240 MBps of aggregate throughput) and fixed per-file-system ceilings such as 64 TiB for FSx for Windows File Server, 512 TiB for FSx for OpenZFS and up to 1 PiB for a scale-out FSx for NetApp ONTAP file system." .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon FSx quotas" .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-backup-quotas> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ebs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/efs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/kms-quotas> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s6> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-support-plans> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/efs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/fsx-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/gateway-load-balancer> <http://purl.org/dc/terms/created> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/gateway-load-balancer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/gateway-load-balancer> <http://www.w3.org/2000/01/rdf-schema#label> "Gateway Load Balancer" .
@@ -14880,6 +14908,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/aws-graph/id/source/fips-140-3-on-aws/s5> <https://schema.org/url> "https://csrc.nist.gov/Projects/fips-140-3-transition-effort" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s1> <http://purl.org/dc/terms/title> "Amazon FSx endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/fsxn.html" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s2> <http://purl.org/dc/terms/title> "Service quotas for Amazon FSx for Lustre" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/fsx/latest/LustreGuide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s3> <http://purl.org/dc/terms/title> "Quotas - FSx for ONTAP" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s4> <http://purl.org/dc/terms/title> "Amazon FSx for OpenZFS service quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/fsx/latest/OpenZFSGuide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s5> <http://purl.org/dc/terms/title> "Quotas - Amazon FSx for Windows File Server" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s5> <https://schema.org/url> "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s6> <http://purl.org/dc/terms/title> "Amazon FSx for Windows File Server increases maximum throughput to 12 GB/s" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/fsx-quotas/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-fsx-windows-file-server-increases-throughput-12-gbs" .
 <https://github.com/john1hsu/aws-graph/id/source/gateway-load-balancer/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/gateway-load-balancer/s1> <http://purl.org/dc/terms/title> "What is a Gateway Load Balancer? - Elastic Load Balancing" .
 <https://github.com/john1hsu/aws-graph/id/source/gateway-load-balancer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

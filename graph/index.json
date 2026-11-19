@@ -5398,6 +5398,31 @@
     ]
   },
   {
+    "id": "kt:fsx-quotas",
+    "title": "Amazon FSx quotas",
+    "aliases": [
+      "FSx quotas",
+      "FSx limits",
+      "FSx service quotas",
+      "Amazon FSx service limits",
+      "Amazon FSx endpoints and quotas"
+    ],
+    "type": "Limit",
+    "domain": "storage",
+    "file": "articles/storage/fsx-quotas.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/general/latest/gr/fsxn.html",
+      "https://docs.aws.amazon.com/fsx/latest/LustreGuide/limits.html",
+      "https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/limits.html",
+      "https://docs.aws.amazon.com/fsx/latest/OpenZFSGuide/limits.html",
+      "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/limits.html",
+      "https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-fsx-windows-file-server-increases-throughput-12-gbs"
+    ]
+  },
+  {
     "id": "kt:gateway-load-balancer",
     "title": "Gateway Load Balancer",
     "aliases": [

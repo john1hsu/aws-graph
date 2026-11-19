@@ -26719,6 +26719,99 @@
       ]
     },
     {
+      "@id": "kt:fsx-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Amazon FSx quotas",
+      "skos:definition": "The limits that constrain Amazon FSx, set separately for each file system type: adjustable per-account, per-Region defaults (typically 100 file systems per type and 10,240 MBps of aggregate throughput) and fixed per-file-system ceilings such as 64 TiB for FSx for Windows File Server, 512 TiB for FSx for OpenZFS and up to 1 PiB for a scale-out FSx for NetApp ONTAP file system.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon FSx endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/fsxn.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Service quotas for Amazon FSx for Lustre",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fsx/latest/LustreGuide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas - FSx for ONTAP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon FSx for OpenZFS service quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fsx/latest/OpenZFSGuide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas - Amazon FSx for Windows File Server",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon FSx for Windows File Server increases maximum throughput to 12 GB/s",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-fsx-windows-file-server-increases-throughput-12-gbs",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/storage/fsx-quotas.md",
+      "skos:altLabel": [
+        "FSx quotas",
+        "FSx limits",
+        "FSx service quotas",
+        "Amazon FSx service limits",
+        "Amazon FSx endpoints and quotas"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-fsx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:efs-quotas"
+        },
+        {
+          "@id": "kt:ebs-quotas"
+        },
+        {
+          "@id": "kt:aws-backup-quotas"
+        },
+        {
+          "@id": "kt:kms-quotas"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        },
+        {
+          "@id": "kt:aws-support-plans"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:efs-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:s3-storage-classes",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon S3 storage classes",

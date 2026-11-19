@@ -98,7 +98,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |
 | `kt:eventbridge-quotas` | `kt:amazon-eventbridge` |
 | `kt:firewall-manager-quotas` | `kt:aws-firewall-manager` |
-| `kt:fsx-quotas` | `kt:amazon-fsx` |
 | `kt:global-accelerator-quotas` | `kt:aws-global-accelerator` |
 | `kt:glue-quotas` | `kt:aws-glue` |
 | `kt:guardduty-quotas` | `kt:amazon-guardduty` |
