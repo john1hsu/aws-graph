@@ -7,9 +7,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-kendra`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract`, `kt:amazon-transcribe` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract`, `kt:amazon-transcribe`, `kt:amazon-transcribe` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
-| `kt:tag-policies` | `kt:cost-allocation-tags`, `kt:aws-tag-editor`, `kt:tagging-strategy` |
 | `kt:amazon-dynamodb-accelerator` | `kt:database-caching-strategies`, `kt:dynamodb-partition-key-design` |
 | `kt:aws-migration-hub` | `kt:aws-application-discovery-service`, `kt:migration-wave-planning` |
+| `kt:aws-resource-groups-tagging-api` | `kt:aws-tag-editor`, `kt:tag-policies` |
 | `kt:cloud-computing` | `kt:cloud-architecture`, `kt:amazon-web-services` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
@@ -59,7 +59,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-nitro-enclaves` | `kt:aws-nitro-system` |
 | `kt:aws-professional-services` | `kt:aws-support-plans` |
 | `kt:aws-resource-explorer` | `kt:aws-tag-editor` |
-| `kt:aws-resource-groups-tagging-api` | `kt:aws-tag-editor` |
 | `kt:aws-sdks` | `kt:fips-140-3-on-aws` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-security-incident-response` | `kt:aws-support-plans` |

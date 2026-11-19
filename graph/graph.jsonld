@@ -15423,6 +15423,125 @@
       ]
     },
     {
+      "@id": "kt:tag-policies",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Tag policies",
+      "skos:definition": "An AWS Organizations policy type that standardizes tag keys, their capitalization and their allowed values across the accounts in an organization, with compliance reporting, optional enforcement on supported resource types, and required-tag checks for infrastructure-as-code deployments.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Tag policy syntax and examples - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_example-tag-policies.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding enforcement - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_tag-policies-enforcement.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enforce \"Required tag key\" with IaC - AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/enforce-required-tag-keys-iac.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Organizations tag policies - Tagging AWS Resources and Tag Editor",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/tag-editor/latest/userguide/tag-policies-orgs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Generating an organization-wide compliance report with AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/enforcement-report.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas and service limits for AWS Organizations",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_reference_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Implementing and enforcing tagging - Best Practices for Tagging AWS Resources",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/implementing-and-enforcing-tagging",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Validate and enforce required tags in CloudFormation, Terraform and Pulumi with Tag Policies",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/validate-enforce-required-tags-cloudformation-terraform-pulumi/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Simplify AWS Organization Tag Policies using new wildcard statement",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-organization-tag-policies-wildcard-statement",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Implement AWS resource tagging strategy using AWS Tag Policies and Service Control Policies (SCPs)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/mt/implement-aws-resource-tagging-strategy-using-aws-tag-policies-and-service-control-policies-scps",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/tag-policies.md",
+      "skos:altLabel": [
+        "AWS Organizations tag policies",
+        "Tag policy",
+        "AWS tag policies"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-tag-editor"
+        },
+        {
+          "@id": "kt:cost-allocation-tags"
+        },
+        {
+          "@id": "kt:aws-config"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:tagging-strategy"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:service-control-policies"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:organizations-quotas"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:aws-resource-groups-tagging-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:tagging-strategy",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Tagging strategy",
