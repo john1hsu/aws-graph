@@ -4561,6 +4561,31 @@
     ]
   },
   {
+    "id": "kt:cloudformation-quotas",
+    "title": "AWS CloudFormation quotas",
+    "aliases": [
+      "CloudFormation quotas",
+      "CloudFormation limits",
+      "CloudFormation service limits",
+      "CFN quotas"
+    ],
+    "type": "Limit",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/cloudformation-quotas.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html",
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-endpoints.html",
+      "https://docs.aws.amazon.com/goto/cli2/cloudformation-2010-05-15/DescribeAccountLimits",
+      "https://docs.aws.amazon.com/goto/WebAPI/cloudformation-2010-05-15/AccountLimit",
+      "https://aws.amazon.com/about-aws/whats-new/2020/10/aws-cloudformation-now-supports-increased-limits-on-five-service-quotas",
+      "https://aws.amazon.com/about-aws/whats-new/2021/06/aws-cloudformation-now-supports-more-stacks-per-aws-account",
+      "https://aws.amazon.com/about-aws/whats-new/2022/10/aws-cloudformation-stacksets-increases-limits-three-service-quotas"
+    ]
+  },
+  {
     "id": "kt:cloudformation-stacksets",
     "title": "AWS CloudFormation StackSets",
     "aliases": [

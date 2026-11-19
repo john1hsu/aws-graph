@@ -5,7 +5,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract`, `kt:amazon-transcribe`, `kt:amazon-transcribe` |
-| `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:cloudformation-stacksets` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc`, `kt:aws-network-firewall` |
 | `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service`, `kt:aws-migration-hub` |

@@ -5239,6 +5239,32 @@
 <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CloudFormation quotas" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "CFN quotas" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "CloudFormation limits" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "CloudFormation quotas" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "CloudFormation service limits" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-account, per-Region and per-template limits that bound AWS CloudFormation: how many stacks and StackSets you can own, how large a template can be and how many resources, parameters, mappings and outputs it may declare, plus registry, Hooks and API rate limits. Account-level counts are adjustable; template-shape limits are fixed." .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS CloudFormation quotas" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-cdk> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/infrastructure-as-code> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s6> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s7> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/cloudformation-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://purl.org/dc/terms/created> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <http://www.w3.org/2000/01/rdf-schema#label> "AWS CloudFormation StackSets" .
@@ -13852,6 +13878,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/devops/safely-handle-configuration-drift-with-cloudformation-drift-aware-change-sets" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s1> <http://purl.org/dc/terms/title> "Understand CloudFormation quotas - AWS CloudFormation" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s2> <http://purl.org/dc/terms/title> "AWS CloudFormation endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-endpoints.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s3> <http://purl.org/dc/terms/title> "describe-account-limits - AWS CLI Command Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/goto/cli2/cloudformation-2010-05-15/DescribeAccountLimits" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s4> <http://purl.org/dc/terms/title> "AccountLimit - AWS CloudFormation API Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/goto/WebAPI/cloudformation-2010-05-15/AccountLimit" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s5> <http://purl.org/dc/terms/title> "AWS CloudFormation now supports increased limits on five service quotas (What's New with AWS, 2020-10-22)" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2020/10/aws-cloudformation-now-supports-increased-limits-on-five-service-quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s6> <http://purl.org/dc/terms/title> "AWS CloudFormation now supports more stacks per AWS account (What's New with AWS, 2021-07-15)" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2021/06/aws-cloudformation-now-supports-more-stacks-per-aws-account" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s7> <http://purl.org/dc/terms/title> "AWS CloudFormation StackSets increases limits on three service quotas (What's New with AWS, 2022-10-11)" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cloudformation-quotas/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2022/10/aws-cloudformation-stacksets-increases-limits-three-service-quotas" .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s1> <http://purl.org/dc/terms/title> "StackSets concepts" .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

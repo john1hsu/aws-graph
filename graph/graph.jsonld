@@ -12826,6 +12826,96 @@
       ]
     },
     {
+      "@id": "kt:cloudformation-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "AWS CloudFormation quotas",
+      "skos:definition": "The per-account, per-Region and per-template limits that bound AWS CloudFormation: how many stacks and StackSets you can own, how large a template can be and how many resources, parameters, mappings and outputs it may declare, plus registry, Hooks and API rate limits. Account-level counts are adjustable; template-shape limits are fixed.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understand CloudFormation quotas - AWS CloudFormation",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CloudFormation endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-endpoints.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "describe-account-limits - AWS CLI Command Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/goto/cli2/cloudformation-2010-05-15/DescribeAccountLimits",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AccountLimit - AWS CloudFormation API Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/goto/WebAPI/cloudformation-2010-05-15/AccountLimit",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS CloudFormation now supports increased limits on five service quotas (What's New with AWS, 2020-10-22)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2020/10/aws-cloudformation-now-supports-increased-limits-on-five-service-quotas",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS CloudFormation now supports more stacks per AWS account (What's New with AWS, 2021-07-15)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2021/06/aws-cloudformation-now-supports-more-stacks-per-aws-account",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS CloudFormation StackSets increases limits on three service quotas (What's New with AWS, 2022-10-11)",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2022/10/aws-cloudformation-stacksets-increases-limits-three-service-quotas",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/cloudformation-quotas.md",
+      "skos:altLabel": [
+        "CloudFormation quotas",
+        "CloudFormation limits",
+        "CloudFormation service limits",
+        "CFN quotas"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cloudformation-stacksets"
+        },
+        {
+          "@id": "kt:aws-cdk"
+        },
+        {
+          "@id": "kt:infrastructure-as-code"
+        },
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:cloudformation-stacksets",
       "@type": "kto:Feature",
       "skos:prefLabel": "AWS CloudFormation StackSets",
