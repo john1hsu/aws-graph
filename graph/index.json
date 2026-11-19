@@ -456,6 +456,29 @@
     ]
   },
   {
+    "id": "kt:amazon-dynamodb-accelerator",
+    "title": "Amazon DynamoDB Accelerator (DAX)",
+    "aliases": [
+      "DynamoDB Accelerator",
+      "DAX",
+      "DynamoDB DAX"
+    ],
+    "type": "Service",
+    "domain": "databases",
+    "file": "articles/databases/amazon-dynamodb-accelerator.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.html",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.concepts.html",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.concepts.cluster.md",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.consistency.md",
+      "https://aws.amazon.com/dynamodbaccelerator/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-dynamodb-accelerator/"
+    ]
+  },
+  {
     "id": "kt:amazon-ebs",
     "title": "Amazon EBS",
     "aliases": [

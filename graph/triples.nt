@@ -490,6 +490,30 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-documentdb> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon DynamoDB Accelerator (DAX)" .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/2004/02/skos/core#altLabel> "DAX" .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/2004/02/skos/core#altLabel> "DynamoDB Accelerator" .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/2004/02/skos/core#altLabel> "DynamoDB DAX" .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/2004/02/skos/core#definition> "A fully managed, DynamoDB API-compatible in-memory cache that runs as a cluster of nodes in your VPC and serves eventually consistent DynamoDB reads with microsecond latency, using a write-through item cache and a separate query cache." .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon DynamoDB Accelerator (DAX)" .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/database-caching-strategies> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-elasticache> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon DynamoDB" .
@@ -7634,6 +7658,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-documentdb/s6> <https://schema.org/url> "https://aws.amazon.com/documentdb/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s1> <http://purl.org/dc/terms/title> "In-memory acceleration with DynamoDB Accelerator (DAX) - Amazon DynamoDB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s1> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s2> <http://purl.org/dc/terms/title> "DAX: How it works - Amazon DynamoDB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s2> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s3> <http://purl.org/dc/terms/title> "DAX cluster components - Amazon DynamoDB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s3> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.concepts.cluster.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s4> <http://purl.org/dc/terms/title> "DAX and DynamoDB consistency models - Amazon DynamoDB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s4> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.consistency.md" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s5> <http://purl.org/dc/terms/title> "Amazon DynamoDB Accelerator (DAX) Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s5> <https://schema.org/url> "https://aws.amazon.com/dynamodbaccelerator/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s6> <http://purl.org/dc/terms/title> "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb-accelerator/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-dynamodb-accelerator/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb/s1> <http://purl.org/dc/terms/title> "What is Amazon DynamoDB?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-dynamodb/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

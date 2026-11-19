@@ -10241,6 +10241,93 @@
       ]
     },
     {
+      "@id": "kt:amazon-dynamodb-accelerator",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon DynamoDB Accelerator (DAX)",
+      "skos:definition": "A fully managed, DynamoDB API-compatible in-memory cache that runs as a cluster of nodes in your VPC and serves eventually consistent DynamoDB reads with microsecond latency, using a write-through item cache and a separate query cache.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "In-memory acceleration with DynamoDB Accelerator (DAX) - Amazon DynamoDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DAX: How it works - Amazon DynamoDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DAX cluster components - Amazon DynamoDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.concepts.cluster.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DAX and DynamoDB consistency models - Amazon DynamoDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.consistency.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon DynamoDB Accelerator (DAX) Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/dynamodbaccelerator/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-dynamodb-accelerator/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/databases/amazon-dynamodb-accelerator.md",
+      "skos:altLabel": [
+        "DynamoDB Accelerator",
+        "DAX",
+        "DynamoDB DAX"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:database-caching-strategies"
+        },
+        {
+          "@id": "kt:dynamodb-partition-key-design"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-elasticache"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-dynamodb",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon DynamoDB",
