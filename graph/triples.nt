@@ -1896,6 +1896,35 @@
 <https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/aws-nitro-system> .
 <https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-ai-factories> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS AI services" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS AI APIs" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS AI services layer" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS pre-trained AI services" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/2004/02/skos/core#altLabel> "pre-built AI services on AWS" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/2004/02/skos/core#definition> "The top layer of the AWS machine learning stack: fully managed, pre-trained services such as Amazon Rekognition, Textract, Comprehend, Transcribe, Polly, Translate, Lex, Kendra and Personalize that add vision, speech, language, document and recommendation capabilities through API calls, without building or training a model." .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS AI services" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-kendra> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-q-business> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <https://github.com/john1hsu/aws-graph/ontology#coveredBy> <https://github.com/john1hsu/aws-graph/id/aws-certified-ai-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-comprehend> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-rekognition> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-textract> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/amazon-transcribe> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/aws-free-tier> .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-ai-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> <http://www.w3.org/2000/01/rdf-schema#label> "AWS analytics services" .
@@ -9703,6 +9732,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-ai-factories/s5> <https://schema.org/url> "https://www.aboutamazon.com/news/aws/aws-data-centers-ai-factories" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s1> <http://purl.org/dc/terms/title> "Choosing an AWS machine learning service - AWS Decision Guides" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s1> <https://schema.org/url> "https://docs.aws.amazon.com/decision-guides/latest/machine-learning-on-aws-how-to-choose/guide.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s2> <http://purl.org/dc/terms/title> "Machine Learning (ML) and Artificial Intelligence (AI) - Overview of Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s2> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/machine-learning.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s3> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified AI Practitioner" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s3> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s4> <http://purl.org/dc/terms/title> "Amazon Translate Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s4> <https://schema.org/url> "https://aws.amazon.com/translate/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Machine Learning Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s5> <http://purl.org/dc/terms/title> "Transition your Amazon Forecast usage to Amazon SageMaker Canvas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/machine-learning/transition-your-amazon-forecast-usage-to-amazon-sagemaker-canvas/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Machine Learning Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s6> <http://purl.org/dc/terms/title> "Exploring alternatives and seamlessly migrating data from Amazon Lookout for Vision" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ai-services/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/machine-learning/exploring-alternatives-and-seamlessly-migrating-data-from-amazon-lookout-for-vision/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s1> <http://purl.org/dc/terms/title> "Analytics - Overview of Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-analytics-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

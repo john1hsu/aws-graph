@@ -1276,6 +1276,106 @@
       ]
     },
     {
+      "@id": "kt:aws-ai-services",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS AI services",
+      "skos:definition": "The top layer of the AWS machine learning stack: fully managed, pre-trained services such as Amazon Rekognition, Textract, Comprehend, Transcribe, Polly, Translate, Lex, Kendra and Personalize that add vision, speech, language, document and recommendation capabilities through API calls, without building or training a model.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Choosing an AWS machine learning service - AWS Decision Guides",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/machine-learning-on-aws-how-to-choose/guide.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Machine Learning (ML) and Artificial Intelligence (AI) - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/machine-learning.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-Scope AWS Services - AWS Certified AI Practitioner",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Amazon Translate Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/translate/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Transition your Amazon Forecast usage to Amazon SageMaker Canvas",
+          "dcterms:publisher": "Amazon Web Services (AWS Machine Learning Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/machine-learning/transition-your-amazon-forecast-usage-to-amazon-sagemaker-canvas/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Exploring alternatives and seamlessly migrating data from Amazon Lookout for Vision",
+          "dcterms:publisher": "Amazon Web Services (AWS Machine Learning Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/machine-learning/exploring-alternatives-and-seamlessly-migrating-data-from-amazon-lookout-for-vision/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/aws-ai-services.md",
+      "skos:altLabel": [
+        "AWS pre-trained AI services",
+        "AWS AI services layer",
+        "AWS AI APIs",
+        "pre-built AI services on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:generative-ai-on-aws"
+        },
+        {
+          "@id": "kt:amazon-q-business"
+        },
+        {
+          "@id": "kt:amazon-kendra"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:amazon-rekognition"
+        },
+        {
+          "@id": "kt:amazon-textract"
+        },
+        {
+          "@id": "kt:amazon-comprehend"
+        },
+        {
+          "@id": "kt:amazon-transcribe"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:aws-free-tier"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-trainium-and-inferentia",
       "@type": "kto:Feature",
       "skos:prefLabel": "AWS Trainium and Inferentia",

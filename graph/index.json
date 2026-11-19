@@ -1660,6 +1660,30 @@
     ]
   },
   {
+    "id": "kt:aws-ai-services",
+    "title": "AWS AI services",
+    "aliases": [
+      "AWS pre-trained AI services",
+      "AWS AI services layer",
+      "AWS AI APIs",
+      "pre-built AI services on AWS"
+    ],
+    "type": "Concept",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/aws-ai-services.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/decision-guides/latest/machine-learning-on-aws-how-to-choose/guide.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/machine-learning.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-in-scope-services.html",
+      "https://aws.amazon.com/translate/pricing/",
+      "https://aws.amazon.com/blogs/machine-learning/transition-your-amazon-forecast-usage-to-amazon-sagemaker-canvas/",
+      "https://aws.amazon.com/blogs/machine-learning/exploring-alternatives-and-seamlessly-migrating-data-from-amazon-lookout-for-vision/"
+    ]
+  },
+  {
     "id": "kt:aws-analytics-services",
     "title": "AWS analytics services",
     "aliases": [
