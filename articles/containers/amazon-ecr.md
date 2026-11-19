@@ -11,7 +11,7 @@ summary: >-
 verified: 2026-11-11
 status: current
 broader: [kt:aws-container-services]
-related: [kt:amazon-ecs, kt:amazon-eks, kt:aws-fargate]
+related: [kt:amazon-ecs, kt:amazon-eks, kt:aws-fargate, kt:ecr-quotas]
 relations:
   - {predicate: securedBy, object: kt:aws-iam}
   - {predicate: integratesWith, object: kt:amazon-inspector}

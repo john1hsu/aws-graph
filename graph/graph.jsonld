@@ -7241,6 +7241,9 @@
         },
         {
           "@id": "kt:aws-fargate"
+        },
+        {
+          "@id": "kt:ecr-quotas"
         }
       ],
       "kto:securedBy": [
@@ -7855,6 +7858,95 @@
         },
         {
           "@id": "kt:aws-cloud-map"
+        }
+      ]
+    },
+    {
+      "@id": "kt:ecr-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Amazon ECR quotas",
+      "skos:definition": "The per-account, per-Region limits on Amazon ECR private registries: repository and image counts, layer and multipart-upload sizes, lifecycle, replication and pull through cache rule limits, image scanning limits, and per-second rate quotas on the push, pull and authentication APIs. ECR Public has its own, lower set.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon ECR service quotas (Amazon ECR User Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/service-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECR endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/ecr.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon ECR now supports 100,000 images per repository",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-ecr-supports-100000-images",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECR now supports additional metrics for monitoring repositories",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecr-additional-repository-metrics",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ECR Public service quotas (Amazon ECR Public User Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECR/latest/public/public-service-quotas.md",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/containers/ecr-quotas.md",
+      "skos:altLabel": [
+        "ECR quotas",
+        "ECR service quotas",
+        "ECR limits",
+        "Amazon ECR service limits",
+        "Amazon Elastic Container Registry quotas"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ecr"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-inspector"
+        },
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:ecs-quotas"
+        },
+        {
+          "@id": "kt:eks-quotas"
         }
       ]
     },

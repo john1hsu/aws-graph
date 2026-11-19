@@ -101,7 +101,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ec2-gpu-instances` | `kt:aws-trainium-and-inferentia` |
 | `kt:ec2-image-builder-quotas` | `kt:ec2-image-builder` |
 | `kt:ec2-instance-quotas` | `kt:amazon-ec2` |
-| `kt:ecr-quotas` | `kt:amazon-ecr` |
 | `kt:elastic-beanstalk-quotas` | `kt:aws-elastic-beanstalk` |
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |
 | `kt:eventbridge-quotas` | `kt:amazon-eventbridge` |

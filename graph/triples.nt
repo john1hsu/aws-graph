@@ -620,6 +620,7 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-ecr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ecr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ecr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-ecr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ecr-quotas> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ecr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ecr/s10> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ecr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ecr/s1> .
 <https://github.com/john1hsu/aws-graph/id/amazon-ecr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-ecr/s2> .
@@ -5568,6 +5569,33 @@
 <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
 <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/ec2-placement-groups> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon ECR quotas" .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon ECR service limits" .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Elastic Container Registry quotas" .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "ECR limits" .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "ECR quotas" .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "ECR service quotas" .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ecr> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-account, per-Region limits on Amazon ECR private registries: repository and image counts, layer and multipart-upload sizes, lifecycle, replication and pull through cache rule limits, image scanning limits, and per-second rate quotas on the push, pull and authentication APIs. ECR Public has its own, lower set." .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon ECR quotas" .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-inspector> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/ecs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/eks-quotas> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/ecr-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/ecs-managed-instances> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon ECS Managed Instances" .
@@ -13856,6 +13884,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-placement-groups/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-time-sync-precision-time-placement-group" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s1> <http://purl.org/dc/terms/title> "Amazon ECR service quotas (Amazon ECR User Guide)" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECR/latest/userguide/service-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s2> <http://purl.org/dc/terms/title> "Amazon ECR endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/ecr.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s3> <http://purl.org/dc/terms/title> "Amazon ECR now supports 100,000 images per repository" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s3> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-ecr-supports-100000-images" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s4> <http://purl.org/dc/terms/title> "Amazon ECR now supports additional metrics for monitoring repositories" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecr-additional-repository-metrics" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s5> <http://purl.org/dc/terms/title> "Amazon ECR Public service quotas (Amazon ECR Public User Guide)" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ecr-quotas/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonECR/latest/public/public-service-quotas.md" .
 <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s1> <http://purl.org/dc/terms/title> "Architect for Amazon ECS Managed Instances" .
 <https://github.com/john1hsu/aws-graph/id/source/ecs-managed-instances/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
