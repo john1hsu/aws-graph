@@ -406,6 +406,32 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-data-firehose> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon DataZone" .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS DataZone" .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/2004/02/skos/core#altLabel> "DataZone" .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/2004/02/skos/core#definition> "AWS's data management service for cataloging, discovering, sharing and governing data across AWS, on-premises and third-party sources, organized around domains, projects, a business data catalog with glossaries, and a publish/subscribe access workflow fulfilled through Lake Formation and Amazon Redshift grants." .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon DataZone" .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-lake-formation> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-datazone> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://purl.org/dc/terms/created> "2026-11-18" .
 <https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-detective> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Detective" .
@@ -7424,6 +7450,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-data-firehose/s6> <https://schema.org/url> "https://aws.amazon.com/compare/data-firehose-and-kinesis-data-streams/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s1> <http://purl.org/dc/terms/title> "Amazon DataZone terminology and concepts - Amazon DataZone" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s1> <https://schema.org/url> "https://docs.aws.amazon.com/datazone/latest/userguide/datazone-concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s2> <http://purl.org/dc/terms/title> "Amazon DataZone FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s2> <https://schema.org/url> "https://aws.amazon.com/datazone/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s3> <http://purl.org/dc/terms/title> "Amazon DataZone Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s3> <https://schema.org/url> "https://aws.amazon.com/datazone/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s4> <http://purl.org/dc/terms/title> "Amazon DataZone updates pricing and removes the user-level subscription fee" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-datazone-pricing-removes-user-subscription-fee" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s5> <http://purl.org/dc/terms/title> "Upgrade Amazon DataZone domains to Amazon SageMaker unified domains - Amazon DataZone" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s5> <https://schema.org/url> "https://docs.aws.amazon.com/datazone/latest/userguide/upgrade-domain.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s6> <http://purl.org/dc/terms/title> "Amazon SageMaker Data and AI Governance FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s6> <https://schema.org/url> "https://aws.amazon.com/sagemaker/catalog/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s7> <http://purl.org/dc/terms/title> "Amazon DataZone Now Generally Available – Collaborate on Data Projects across Organizational Boundaries" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-datazone/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/amazon-datazone-now-generally-available-collaborate-on-data-projects-across-organizational-boundaries/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s1> <http://purl.org/dc/terms/title> "What is Amazon Detective?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-detective/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

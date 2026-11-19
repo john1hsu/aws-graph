@@ -363,6 +363,29 @@
     ]
   },
   {
+    "id": "kt:amazon-datazone",
+    "title": "Amazon DataZone",
+    "aliases": [
+      "DataZone",
+      "AWS DataZone"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/amazon-datazone.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/datazone/latest/userguide/datazone-concepts.html",
+      "https://aws.amazon.com/datazone/faqs/",
+      "https://aws.amazon.com/datazone/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-datazone-pricing-removes-user-subscription-fee",
+      "https://docs.aws.amazon.com/datazone/latest/userguide/upgrade-domain.html",
+      "https://aws.amazon.com/sagemaker/catalog/faqs/",
+      "https://aws.amazon.com/blogs/aws/amazon-datazone-now-generally-available-collaborate-on-data-projects-across-organizational-boundaries/"
+    ]
+  },
+  {
     "id": "kt:amazon-detective",
     "title": "Amazon Detective",
     "aliases": [
