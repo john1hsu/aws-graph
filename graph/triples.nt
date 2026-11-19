@@ -3381,6 +3381,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-elastic-disaster-recovery> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Entity Resolution" .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Entity Resolution" .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/2004/02/skos/core#altLabel> "Entity Resolution" .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed record-matching service: it links related records about the same customer, product or business across many datasets using rule-based, machine-learning or data-provider matching, and stamps each matched group with a shared match ID." .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Entity Resolution" .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-data-exchange> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/entity-resolution-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-clean-rooms> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-entity-resolution> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/aws-european-sovereign-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "AWS European Sovereign Cloud" .
@@ -11543,6 +11569,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-disaster-recovery/s9> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s1> <http://purl.org/dc/terms/title> "What is AWS Entity Resolution? - AWS Entity Resolution" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s1> <https://schema.org/url> "https://docs.aws.amazon.com/entityresolution/latest/userguide/what-is-service.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s2> <http://purl.org/dc/terms/title> "Quotas for AWS Entity Resolution - AWS Entity Resolution" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s2> <https://schema.org/url> "https://docs.aws.amazon.com/entityresolution/latest/userguide/quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s3> <http://purl.org/dc/terms/title> "AWS Entity Resolution Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s3> <https://schema.org/url> "https://aws.amazon.com/entity-resolution/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s4> <http://purl.org/dc/terms/title> "AWS Entity Resolution endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s4> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/entity-resolution.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s5> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s5> <http://purl.org/dc/terms/title> "AWS Entity Resolution: Match and Link Related Records from Multiple Applications and Data Stores" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-entity-resolution/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/aws-entity-resolution-match-and-link-related-records-from-multiple-applications-and-data-stores" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s1> <http://purl.org/dc/terms/title> "Opening the AWS European Sovereign Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-european-sovereign-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

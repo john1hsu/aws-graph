@@ -2953,6 +2953,27 @@
     ]
   },
   {
+    "id": "kt:aws-entity-resolution",
+    "title": "AWS Entity Resolution",
+    "aliases": [
+      "Entity Resolution",
+      "Amazon Entity Resolution"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/aws-entity-resolution.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/entityresolution/latest/userguide/what-is-service.html",
+      "https://docs.aws.amazon.com/entityresolution/latest/userguide/quotas.html",
+      "https://aws.amazon.com/entity-resolution/pricing",
+      "https://docs.aws.amazon.com/general/latest/gr/entity-resolution.html",
+      "https://aws.amazon.com/blogs/aws/aws-entity-resolution-match-and-link-related-records-from-multiple-applications-and-data-stores"
+    ]
+  },
+  {
     "id": "kt:aws-european-sovereign-cloud",
     "title": "AWS European Sovereign Cloud",
     "aliases": [

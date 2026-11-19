@@ -42,9 +42,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-client-vpn` | `kt:aws-site-to-site-vpn` |
 | `kt:aws-codecommit` | `kt:aws-developer-tools` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
+| `kt:aws-data-exchange` | `kt:aws-entity-resolution` |
 | `kt:aws-data-exports` | `kt:aws-cost-and-usage-report` |
 | `kt:aws-devops-agent` | `kt:aws-support-plans` |
-| `kt:aws-entity-resolution` | `kt:aws-clean-rooms` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
 | `kt:aws-network-security-manager` | `kt:aws-firewall-manager` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
@@ -94,6 +94,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ec2-instance-quotas` | `kt:amazon-ec2` |
 | `kt:elastic-beanstalk-quotas` | `kt:aws-elastic-beanstalk` |
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |
+| `kt:entity-resolution-quotas` | `kt:aws-entity-resolution` |
 | `kt:eventbridge-quotas` | `kt:amazon-eventbridge` |
 | `kt:firewall-manager-quotas` | `kt:aws-firewall-manager` |
 | `kt:global-accelerator-quotas` | `kt:aws-global-accelerator` |

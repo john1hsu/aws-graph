@@ -2763,6 +2763,102 @@
       ]
     },
     {
+      "@id": "kt:aws-entity-resolution",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Entity Resolution",
+      "skos:definition": "AWS's managed record-matching service: it links related records about the same customer, product or business across many datasets using rule-based, machine-learning or data-provider matching, and stamps each matched group with a shared match ID.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Entity Resolution? - AWS Entity Resolution",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/entityresolution/latest/userguide/what-is-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for AWS Entity Resolution - AWS Entity Resolution",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/entityresolution/latest/userguide/quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Entity Resolution Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/entity-resolution/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Entity Resolution endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/entity-resolution.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Entity Resolution: Match and Link Related Records from Multiple Applications and Data Stores",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/blogs/aws/aws-entity-resolution-match-and-link-related-records-from-multiple-applications-and-data-stores",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/analytics/aws-entity-resolution.md",
+      "skos:altLabel": [
+        "Entity Resolution",
+        "Amazon Entity Resolution"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-analytics-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-clean-rooms"
+        },
+        {
+          "@id": "kt:data-lake-on-aws"
+        },
+        {
+          "@id": "kt:aws-data-exchange"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-glue"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:aws-clean-rooms"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:entity-resolution-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-glue",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Glue",
