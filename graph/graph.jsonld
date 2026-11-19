@@ -13410,6 +13410,90 @@
       ]
     },
     {
+      "@id": "kt:aws-data-centers",
+      "@type": "kto:InfrastructureConcept",
+      "skos:prefLabel": "AWS data centers",
+      "skos:definition": "The physical facilities that house AWS infrastructure, grouped into Availability Zones, and the layered physical, environmental and operational controls (perimeter, infrastructure, data and environmental layers) that AWS runs on its side of the shared responsibility model and attests to through third-party audits.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Data Centers - Amazon Web Services (AWS)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/trust-center/data-center/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data Center Controls - Our Controls",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/data-center/controls/?nc1=h_ls",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Perimeter Layer - Amazon Web Services (AWS)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/trust-center/data-center/perimeter-layer/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Sustainable Infrastructure - Data Centers",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/sustainability/data-centers/?utm_=",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cloud - Amazon Sustainability",
+          "dcterms:publisher": "Amazon",
+          "schema:url": "https://sustainability.aboutamazon.com/products-services/aws-cloud",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "SP 800-88 Rev. 2, Guidelines for Media Sanitization",
+          "dcterms:publisher": "National Institute of Standards and Technology",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/88/r2/final",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/aws-data-centers.md",
+      "skos:altLabel": [
+        "AWS data center",
+        "AWS data center security",
+        "AWS data center controls",
+        "AWS physical security"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:aws-nitro-system"
+        },
+        {
+          "@id": "kt:aws-artifact"
+        },
+        {
+          "@id": "kt:sustainability-pillar"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-dedicated-local-zones",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS Dedicated Local Zones",

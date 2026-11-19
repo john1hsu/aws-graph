@@ -2727,6 +2727,30 @@
     ]
   },
   {
+    "id": "kt:aws-data-centers",
+    "title": "AWS data centers",
+    "aliases": [
+      "AWS data center",
+      "AWS data center security",
+      "AWS data center controls",
+      "AWS physical security"
+    ],
+    "type": "InfrastructureConcept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/aws-data-centers.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "concept",
+    "source_urls": [
+      "https://aws.amazon.com/trust-center/data-center/",
+      "https://aws.amazon.com/compliance/data-center/controls/?nc1=h_ls",
+      "https://aws.amazon.com/trust-center/data-center/perimeter-layer/",
+      "https://aws.amazon.com/sustainability/data-centers/?utm_=",
+      "https://sustainability.aboutamazon.com/products-services/aws-cloud",
+      "https://csrc.nist.gov/pubs/sp/800/88/r2/final"
+    ]
+  },
+  {
     "id": "kt:aws-database-migration-service",
     "title": "AWS Database Migration Service",
     "aliases": [

@@ -3118,6 +3118,31 @@
 <https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/2000/01/rdf-schema#label> "AWS data centers" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS data center controls" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS data center security" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS data center" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS physical security" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/2004/02/skos/core#definition> "The physical facilities that house AWS infrastructure, grouped into Availability Zones, and the layered physical, environmental and operational controls (perimeter, infrastructure, data and environmental layers) that AWS runs on its side of the shared responsibility model and attests to through third-party audits." .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS data centers" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-artifact> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-nitro-system> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-centers> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Database Migration Service" .
@@ -10967,6 +10992,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cost-management-services/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2025" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s1> <http://purl.org/dc/terms/title> "AWS Data Centers - Amazon Web Services (AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s1> <https://schema.org/url> "https://aws.amazon.com/trust-center/data-center/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s2> <http://purl.org/dc/terms/title> "Data Center Controls - Our Controls" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s2> <https://schema.org/url> "https://aws.amazon.com/compliance/data-center/controls/?nc1=h_ls" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s3> <http://purl.org/dc/terms/title> "Perimeter Layer - Amazon Web Services (AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s3> <https://schema.org/url> "https://aws.amazon.com/trust-center/data-center/perimeter-layer/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s4> <http://purl.org/dc/terms/title> "AWS Sustainable Infrastructure - Data Centers" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s4> <https://schema.org/url> "https://aws.amazon.com/sustainability/data-centers/?utm_=" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s5> <http://purl.org/dc/terms/publisher> "Amazon" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s5> <http://purl.org/dc/terms/title> "AWS Cloud - Amazon Sustainability" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s5> <https://schema.org/url> "https://sustainability.aboutamazon.com/products-services/aws-cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s6> <http://purl.org/dc/terms/publisher> "National Institute of Standards and Technology" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s6> <http://purl.org/dc/terms/title> "SP 800-88 Rev. 2, Guidelines for Media Sanitization" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s6> <https://schema.org/url> "https://csrc.nist.gov/pubs/sp/800/88/r2/final" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-database-migration-service/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-database-migration-service/s10> <http://purl.org/dc/terms/title> "AWS Certified Cloud Practitioner - Exam Guide (CLF-C02)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-database-migration-service/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
