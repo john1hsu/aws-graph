@@ -4970,6 +4970,31 @@
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Cloud architecture" .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "architecting for the cloud" .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "cloud architecture design" .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "cloud solution architecture" .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/cloud-computing> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2004/02/skos/core#definition> "The discipline of deciding how the components of a workload are composed from on-demand, elastic, metered cloud resources and how they interact, trading off quality attributes such as reliability, cost and performance; on AWS it is codified by the Well-Architected Framework and its design principles." .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cloud architecture" .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cell-based-architecture> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/multi-region-architecture> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s1> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s2> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s3> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s4> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s5> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-cloud-adoption-framework> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/cloud-architecture> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/2000/01/rdf-schema#label> "CloudFormation drift detection" .
@@ -13044,6 +13069,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <https://schema.org/url> "https://builder.aws.com/content/3ErTKQOTKc5NIw031UePBPxTQ6I/automating-safe-hands-off-deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s1> <http://purl.org/dc/terms/publisher> "National Institute of Standards and Technology" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s1> <http://purl.org/dc/terms/title> "The NIST Definition of Cloud Computing (SP 800-145)" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s1> <https://schema.org/url> "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s2> <http://purl.org/dc/terms/title> "Definitions - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s3> <http://purl.org/dc/terms/title> "General design principles - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s3> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/framework/general-design-principles.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s4> <http://purl.org/dc/terms/title> "Six advantages of cloud computing - Overview of Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s4> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s5> <http://purl.org/dc/terms/title> "AWS Reference Architecture Diagrams" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s5> <https://schema.org/url> "https://docs.aws.amazon.com/reference-architecture-diagrams/" .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s1> <http://purl.org/dc/terms/title> "Detect unmanaged configuration changes to stacks and resources with drift detection" .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

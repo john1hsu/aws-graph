@@ -4324,6 +4324,28 @@
     ]
   },
   {
+    "id": "kt:cloud-architecture",
+    "title": "Cloud architecture",
+    "aliases": [
+      "cloud solution architecture",
+      "cloud architecture design",
+      "architecting for the cloud"
+    ],
+    "type": "Concept",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/cloud-architecture.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "concept",
+    "source_urls": [
+      "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/general-design-principles.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html",
+      "https://docs.aws.amazon.com/reference-architecture-diagrams/"
+    ]
+  },
+  {
     "id": "kt:cloudformation-drift-detection",
     "title": "CloudFormation drift detection",
     "aliases": [

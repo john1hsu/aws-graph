@@ -3129,6 +3129,87 @@
       ]
     },
     {
+      "@id": "kt:cloud-architecture",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Cloud architecture",
+      "skos:definition": "The discipline of deciding how the components of a workload are composed from on-demand, elastic, metered cloud resources and how they interact, trading off quality attributes such as reliability, cost and performance; on AWS it is codified by the Well-Architected Framework and its design principles.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The NIST Definition of Cloud Computing (SP 800-145)",
+          "dcterms:publisher": "National Institute of Standards and Technology",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Definitions - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "General design principles - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/general-design-principles.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Six advantages of cloud computing - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Reference Architecture Diagrams",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/reference-architecture-diagrams/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/cloud-architecture.md",
+      "skos:altLabel": [
+        "cloud solution architecture",
+        "cloud architecture design",
+        "architecting for the cloud"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:cloud-computing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-web-services"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:multi-region-architecture"
+        },
+        {
+          "@id": "kt:cell-based-architecture"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        },
+        {
+          "@id": "kt:aws-cloud-adoption-framework"
+        },
+        {
+          "@id": "kt:aws-serverless-services"
+        }
+      ]
+    },
+    {
       "@id": "kt:cost-optimization-pillar",
       "@type": "kto:Concept",
       "skos:prefLabel": "Cost Optimization Pillar",

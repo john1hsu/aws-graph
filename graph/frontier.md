@@ -6,12 +6,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-kendra`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract`, `kt:amazon-transcribe` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract`, `kt:amazon-transcribe`, `kt:amazon-transcribe` |
-| `kt:cloud-architecture` | `kt:aws-cloud-adoption-framework`, `kt:aws-well-architected-framework`, `kt:aws-serverless-services` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:elb-quotas` | `kt:elastic-load-balancing`, `kt:application-load-balancer`, `kt:network-load-balancer` |
 | `kt:tag-policies` | `kt:cost-allocation-tags`, `kt:aws-tag-editor`, `kt:tagging-strategy` |
 | `kt:amazon-dynamodb-accelerator` | `kt:database-caching-strategies`, `kt:dynamodb-partition-key-design` |
 | `kt:aws-migration-hub` | `kt:aws-application-discovery-service`, `kt:migration-wave-planning` |
+| `kt:cloud-computing` | `kt:cloud-architecture`, `kt:amazon-web-services` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
 | `kt:data-transfer-costs` | `kt:aws-pricing-fundamentals`, `kt:aws-direct-connect` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
@@ -70,7 +70,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:bsi-c5` | `kt:aws-european-sovereign-cloud` |
 | `kt:cedar-policy-language` | `kt:amazon-verified-permissions` |
 | `kt:clean-rooms-quotas` | `kt:aws-clean-rooms` |
-| `kt:cloud-computing` | `kt:amazon-web-services` |
 | `kt:cloud-map-quotas` | `kt:aws-cloud-map` |
 | `kt:cloud-security` | `kt:aws-security-services` |
 | `kt:cloud-wan-quotas` | `kt:aws-cloud-wan` |
