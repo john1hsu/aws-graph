@@ -24916,6 +24916,99 @@
       ]
     },
     {
+      "@id": "kt:efs-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Amazon EFS quotas",
+      "skos:definition": "The limits that constrain Amazon EFS: a few adjustable account and performance quotas (1,000 file systems per Region, Elastic throughput and IOPS ceilings), many fixed ones (25,000 connections, one mount target per AZ, one VPC per file system), per-NFS-client caps such as 1,500 MiBps and 65,536 open files, and file-level limits such as a 47.9 TiB maximum file size.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon EFS quotas - Amazon Elastic File System",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/efs/latest/ug/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Elastic File System endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/general/latest/gr/elasticfilesystem.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EFS performance specifications",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/efs/latest/ug//performance.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EFS now supports up to 2.5 million IOPS per file system",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-efs-up-to-2-5-million-iops-per-file-system",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon EFS now supports up to 60 GiB/s (a 2x increase) of read throughput",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/10/amazon-efs-60-gib-s-2x-increase-read-throughput",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/storage/efs-quotas.md",
+      "skos:altLabel": [
+        "EFS quotas",
+        "EFS limits",
+        "EFS service quotas",
+        "Amazon Elastic File System quotas",
+        "Amazon EFS service limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-efs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:ebs-quotas"
+        },
+        {
+          "@id": "kt:amazon-s3-quotas"
+        },
+        {
+          "@id": "kt:amazon-fsx"
+        },
+        {
+          "@id": "kt:aws-datasync"
+        },
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        },
+        {
+          "@id": "kt:aws-support-plans"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        },
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:ebs-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:s3-storage-classes",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon S3 storage classes",

@@ -4867,6 +4867,30 @@
     ]
   },
   {
+    "id": "kt:efs-quotas",
+    "title": "Amazon EFS quotas",
+    "aliases": [
+      "EFS quotas",
+      "EFS limits",
+      "EFS service quotas",
+      "Amazon Elastic File System quotas",
+      "Amazon EFS service limits"
+    ],
+    "type": "Limit",
+    "domain": "storage",
+    "file": "articles/storage/efs-quotas.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/efs/latest/ug/limits.html",
+      "https://docs.aws.amazon.com/en_us/general/latest/gr/elasticfilesystem.html",
+      "https://docs.aws.amazon.com/efs/latest/ug//performance.html",
+      "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-efs-up-to-2-5-million-iops-per-file-system",
+      "https://aws.amazon.com/about-aws/whats-new/2024/10/amazon-efs-60-gib-s-2x-increase-read-throughput"
+    ]
+  },
+  {
     "id": "kt:eks-auto-mode",
     "title": "Amazon EKS Auto Mode",
     "aliases": [

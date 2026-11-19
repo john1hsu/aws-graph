@@ -5581,6 +5581,35 @@
 <https://github.com/john1hsu/aws-graph/id/edge-locations> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> .
 <https://github.com/john1hsu/aws-graph/id/edge-locations> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/aws-global-accelerator> .
 <https://github.com/john1hsu/aws-graph/id/edge-locations> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EFS quotas" .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon EFS service limits" .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Elastic File System quotas" .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "EFS limits" .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "EFS quotas" .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "EFS service quotas" .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-efs> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The limits that constrain Amazon EFS: a few adjustable account and performance quotas (1,000 file systems per Region, Elastic throughput and IOPS ceilings), many fixed ones (25,000 connections, one mount target per AZ, one VPC per file system), per-NFS-client caps such as 1,500 MiBps and 65,536 open files, and file-level limits such as a 47.9 TiB maximum file size." .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EFS quotas" .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-fsx> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-datasync> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ebs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-support-plans> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/ebs-quotas> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/efs-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/eks-auto-mode> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EKS Auto Mode" .
@@ -13701,6 +13730,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/edge-locations/s6> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s1> <http://purl.org/dc/terms/title> "Amazon EFS quotas - Amazon Elastic File System" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/efs/latest/ug/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s2> <http://purl.org/dc/terms/title> "Amazon Elastic File System endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/general/latest/gr/elasticfilesystem.html" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s3> <http://purl.org/dc/terms/title> "Amazon EFS performance specifications" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/efs/latest/ug//performance.html" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s4> <http://purl.org/dc/terms/title> "Amazon EFS now supports up to 2.5 million IOPS per file system" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-efs-up-to-2-5-million-iops-per-file-system" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s5> <http://purl.org/dc/terms/title> "Amazon EFS now supports up to 60 GiB/s (a 2x increase) of read throughput" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/efs-quotas/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2024/10/amazon-efs-60-gib-s-2x-increase-read-throughput" .
 <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s1> <http://purl.org/dc/terms/title> "Create a Node Pool for EKS Auto Mode" .
 <https://github.com/john1hsu/aws-graph/id/source/eks-auto-mode/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
