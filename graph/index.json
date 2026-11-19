@@ -3348,6 +3348,31 @@
     ]
   },
   {
+    "id": "kt:aws-migration-hub",
+    "title": "AWS Migration Hub",
+    "aliases": [
+      "Migration Hub",
+      "Migration Hub home Region"
+    ],
+    "type": "Service",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/aws-migration-hub.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "closed-to-new-customers",
+    "source_urls": [
+      "https://docs.aws.amazon.com/migrationhub/latest/ug/whatishub.md",
+      "https://docs.aws.amazon.com/migrationhub/latest/ug/migrationhub-availability-change.md",
+      "https://docs.aws.amazon.com/migrationhub/latest/ug/home-region.md",
+      "https://docs.aws.amazon.com/general/latest/gr/migrationhubn.md",
+      "https://docs.aws.amazon.com/migrationhub/latest/ug/migrate-wt-track.html",
+      "https://docs.aws.amazon.com/migrationhub-strategy/latest/userguide/what-is-mhub-strategy.md",
+      "https://docs.aws.amazon.com/migrationhub-refactor-spaces/latest/userguide/what-is-mhub-refactor-spaces.html",
+      "https://docs.aws.amazon.com/pdfs/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.pdf",
+      "https://aws.amazon.com/about-aws/whats-new/2018/10/aws_migration_hub_saves_time_migrating_with_application_migration_status_automation"
+    ]
+  },
+  {
     "id": "kt:aws-networking-and-content-delivery",
     "title": "AWS networking and content delivery",
     "aliases": [

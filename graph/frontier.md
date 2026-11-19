@@ -7,7 +7,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-ai-services` | `kt:amazon-comprehend`, `kt:amazon-kendra`, `kt:amazon-q-business`, `kt:amazon-rekognition`, `kt:amazon-textract`, `kt:amazon-transcribe` |
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract`, `kt:amazon-transcribe`, `kt:amazon-transcribe` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
-| `kt:aws-migration-hub` | `kt:aws-application-discovery-service`, `kt:migration-wave-planning` |
+| `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service`, `kt:aws-migration-hub` |
 | `kt:aws-resource-groups-tagging-api` | `kt:aws-tag-editor`, `kt:tag-policies` |
 | `kt:cloud-computing` | `kt:cloud-architecture`, `kt:amazon-web-services` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation` |
@@ -33,7 +33,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
 | `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
 | `kt:appflow-quotas` | `kt:amazon-appflow` |
-| `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service` |
 | `kt:appsync-quotas` | `kt:aws-appsync` |
 | `kt:attribute-based-instance-type-selection` | `kt:ec2-instance-types` |
 | `kt:aurora-limitless-database` | `kt:aurora-quotas` |

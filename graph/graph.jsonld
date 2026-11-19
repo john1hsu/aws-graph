@@ -18081,6 +18081,124 @@
       ]
     },
     {
+      "@id": "kt:aws-migration-hub",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Migration Hub",
+      "skos:definition": "AWS's single-console service for tracking discovery, planning and per-application migration status across migration tools, with all tracking data held in one chosen home Region; it closed to new customers on 2025-11-07, and AWS recommends AWS Transform for new migration projects.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "closed-to-new-customers",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is AWS Migration Hub?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/migrationhub/latest/ug/whatishub.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Migration Hub availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/migrationhub/latest/ug/migrationhub-availability-change.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Managing your AWS Migration Hub home Region",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/migrationhub/latest/ug/home-region.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Migration Hub endpoints and quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/migrationhubn.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Track the status of your migrations in AWS Migration Hub",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/migrationhub/latest/ug/migrate-wt-track.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is Migration Hub Strategy Recommendations?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/migrationhub-strategy/latest/userguide/what-is-mhub-strategy.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is AWS Migration Hub Refactor Spaces?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/migrationhub-refactor-spaces/latest/userguide/what-is-mhub-refactor-spaces.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Certified Cloud Practitioner - Exam Guide (CLF-C02)",
+          "dcterms:publisher": "AWS Certification",
+          "schema:url": "https://docs.aws.amazon.com/pdfs/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.pdf",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Automated Application Migration Status in AWS Migration Hub",
+          "dcterms:publisher": "What's New with AWS",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2018/10/aws_migration_hub_saves_time_migrating_with_application_migration_status_automation",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/aws-migration-hub.md",
+      "skos:altLabel": [
+        "Migration Hub",
+        "Migration Hub home Region"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:migration-wave-planning"
+        },
+        {
+          "@id": "kt:seven-rs-migration-strategies"
+        },
+        {
+          "@id": "kt:aws-migration-acceleration-program"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-transform"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-application-discovery-service"
+        },
+        {
+          "@id": "kt:aws-transform-mgn"
+        },
+        {
+          "@id": "kt:aws-database-migration-service"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:application-discovery-service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-schema-conversion-tool",
       "@type": "kto:Tool",
       "skos:prefLabel": "AWS Schema Conversion Tool",
