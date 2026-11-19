@@ -6702,6 +6702,34 @@
 <https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Microservices architecture" .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "microservice-based architecture" .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "microservices on AWS" .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "microservices" .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/cloud-architecture> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/reliability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/2004/02/skos/core#definition> "An architectural style that splits an application into small, independently deployable services that own their data, communicate through well-defined APIs or events and are run by autonomous teams; AWS frames it as a reliability and agility choice whose distributed-system costs must be weighed against a modular monolith." .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Microservices architecture" .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-container-services> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-serverless-services> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cell-based-architecture> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s1> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s2> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s3> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s4> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s5> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-cloud-map> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-x-ray> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/microservices-architecture> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/migration-wave-planning> <http://www.w3.org/2000/01/rdf-schema#label> "Migration wave planning" .
@@ -15581,6 +15609,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada/" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s1> <http://purl.org/dc/terms/title> "Implementing Microservices on AWS - AWS Whitepaper" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s1> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s2> <http://purl.org/dc/terms/title> "REL03-BP01 Choose how to segment your workload - AWS Well-Architected Framework" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s2> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/2025-02-25/framework/rel_service_architecture_monolith_soa_microservice.html" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s3> <http://purl.org/dc/terms/title> "Decomposing monoliths into microservices - AWS Prescriptive Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s3> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-decomposing-monoliths/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s4> <http://purl.org/dc/terms/title> "Strangler fig pattern - AWS Prescriptive Guidance (Cloud design patterns)" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s4> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s5> <http://purl.org/dc/terms/title> "Simplifying operations - Implementing Microservices on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/microservices-architecture/s5> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/simplyfing-operations.html" .
 <https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Prescriptive Guidance)" .
 <https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s1> <http://purl.org/dc/terms/title> "Wave planning - Application portfolio assessment guide for AWS Cloud migration" .
 <https://github.com/john1hsu/aws-graph/id/source/migration-wave-planning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

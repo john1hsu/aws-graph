@@ -5845,6 +5845,28 @@
     ]
   },
   {
+    "id": "kt:microservices-architecture",
+    "title": "Microservices architecture",
+    "aliases": [
+      "microservices",
+      "microservices on AWS",
+      "microservice-based architecture"
+    ],
+    "type": "Pattern",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/microservices-architecture.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html",
+      "https://docs.aws.amazon.com/wellarchitected/2025-02-25/framework/rel_service_architecture_monolith_soa_microservice.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-decomposing-monoliths/introduction.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/simplyfing-operations.html"
+    ]
+  },
+  {
     "id": "kt:migration-wave-planning",
     "title": "Migration wave planning",
     "aliases": [

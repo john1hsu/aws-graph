@@ -3793,6 +3793,100 @@
       ]
     },
     {
+      "@id": "kt:microservices-architecture",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Microservices architecture",
+      "skos:definition": "An architectural style that splits an application into small, independently deployable services that own their data, communicate through well-defined APIs or events and are run by autonomous teams; AWS frames it as a reliability and agility choice whose distributed-system costs must be weighed against a modular monolith.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Implementing Microservices on AWS - AWS Whitepaper",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REL03-BP01 Choose how to segment your workload - AWS Well-Architected Framework",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/2025-02-25/framework/rel_service_architecture_monolith_soa_microservice.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Decomposing monoliths into microservices - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-decomposing-monoliths/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Strangler fig pattern - AWS Prescriptive Guidance (Cloud design patterns)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Simplifying operations - Implementing Microservices on AWS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/simplyfing-operations.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/microservices-architecture.md",
+      "skos:altLabel": [
+        "microservices",
+        "microservices on AWS",
+        "microservice-based architecture"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:cloud-architecture"
+        },
+        {
+          "@id": "kt:reliability-pillar"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:cell-based-architecture"
+        },
+        {
+          "@id": "kt:aws-serverless-services"
+        },
+        {
+          "@id": "kt:aws-container-services"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-api-gateway"
+        },
+        {
+          "@id": "kt:aws-cloud-map"
+        },
+        {
+          "@id": "kt:strangler-fig-pattern"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-ecs"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-x-ray"
+        }
+      ]
+    },
+    {
       "@id": "kt:multi-region-architecture",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Multi-Region architecture",
