@@ -20972,6 +20972,100 @@
       ]
     },
     {
+      "@id": "kt:security-groups-vs-network-acls",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Security groups vs network ACLs",
+      "skos:definition": "The two built-in traffic filters of an Amazon VPC: security groups are stateful, allow-only firewalls attached to resources, while network ACLs are stateless, ordered allow/deny rule lists attached to subnets. AWS treats security groups as the primary control and network ACLs as an optional, coarse-grained second layer.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Infrastructure security in Amazon VPC - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/userguide/infrastructure-security.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Control traffic to your AWS resources using security groups - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Security group rules - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Control subnet traffic with network access control lists - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon VPC quotas - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Appendix_Limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Security groups and network ACLs (BP5) - AWS Best Practices for DDoS Resiliency",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/security-groups-and-network-acls-bp5.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/security-groups-vs-network-acls.md",
+      "skos:altLabel": [
+        "Security groups and network ACLs",
+        "Security groups vs NACLs",
+        "SG vs NACL",
+        "VPC security groups",
+        "Network access control lists"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:subnets-and-route-tables"
+        },
+        {
+          "@id": "kt:security-pillar"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:vpc-quotas"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-network-firewall"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-shield"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-artifact",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Artifact",

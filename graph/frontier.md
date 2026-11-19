@@ -6,14 +6,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract`, `kt:amazon-transcribe`, `kt:amazon-transcribe` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
-| `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc`, `kt:aws-network-firewall` |
+| `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc`, `kt:security-groups-vs-network-acls` |
 | `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service`, `kt:aws-migration-hub` |
 | `kt:aws-resource-groups-tagging-api` | `kt:aws-tag-editor`, `kt:tag-policies` |
 | `kt:cloud-computing` | `kt:cloud-architecture`, `kt:amazon-web-services` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
-| `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
+| `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
@@ -150,4 +150,3 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:transit-gateway-quotas` | `kt:aws-transit-gateway` |
 | `kt:verified-permissions-quotas` | `kt:amazon-verified-permissions` |
 | `kt:vpc-endpoints` | `kt:aws-privatelink` |
-| `kt:vpc-quotas` | `kt:amazon-vpc` |

@@ -6308,6 +6308,31 @@
     ]
   },
   {
+    "id": "kt:security-groups-vs-network-acls",
+    "title": "Security groups vs network ACLs",
+    "aliases": [
+      "Security groups and network ACLs",
+      "Security groups vs NACLs",
+      "SG vs NACL",
+      "VPC security groups",
+      "Network access control lists"
+    ],
+    "type": "Concept",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/security-groups-vs-network-acls.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/vpc/latest/userguide/infrastructure-security.html",
+      "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html",
+      "https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html",
+      "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.md",
+      "https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Appendix_Limits.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/security-groups-and-network-acls-bp5.html"
+    ]
+  },
+  {
     "id": "kt:security-pillar",
     "title": "Security Pillar",
     "aliases": [

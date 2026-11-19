@@ -7223,6 +7223,33 @@
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/savings-plans> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-08" .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/2000/01/rdf-schema#label> "Security groups vs network ACLs" .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/2004/02/skos/core#altLabel> "Network access control lists" .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/2004/02/skos/core#altLabel> "SG vs NACL" .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/2004/02/skos/core#altLabel> "Security groups and network ACLs" .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/2004/02/skos/core#altLabel> "Security groups vs NACLs" .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/2004/02/skos/core#altLabel> "VPC security groups" .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/2004/02/skos/core#definition> "The two built-in traffic filters of an Amazon VPC: security groups are stateful, allow-only firewalls attached to resources, while network ACLs are stateless, ordered allow/deny rule lists attached to subnets. AWS treats security groups as the primary control and network ACLs as an optional, coarse-grained second layer." .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/2004/02/skos/core#prefLabel> "Security groups vs network ACLs" .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/security-pillar> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s1> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s2> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s3> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s4> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s5> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s6> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-network-firewall> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/vpc-quotas> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-shield> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/security-pillar> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/security-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/security-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Security Pillar" .
@@ -16179,6 +16206,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/savings-plans/s6> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/select-the-best-pricing-model.html" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s1> <http://purl.org/dc/terms/title> "Infrastructure security in Amazon VPC - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s1> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/userguide/infrastructure-security.html" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s2> <http://purl.org/dc/terms/title> "Control traffic to your AWS resources using security groups - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s2> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s3> <http://purl.org/dc/terms/title> "Security group rules - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s3> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s4> <http://purl.org/dc/terms/title> "Control subnet traffic with network access control lists - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s4> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.md" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s5> <http://purl.org/dc/terms/title> "Amazon VPC quotas - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Appendix_Limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s6> <http://purl.org/dc/terms/title> "Security groups and network ACLs (BP5) - AWS Best Practices for DDoS Resiliency" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/security-groups-vs-network-acls/s6> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/security-groups-and-network-acls-bp5.html" .
 <https://github.com/john1hsu/aws-graph/id/source/security-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/security-pillar/s1> <http://purl.org/dc/terms/title> "Security Pillar - AWS Well-Architected Framework (introduction)" .
 <https://github.com/john1hsu/aws-graph/id/source/security-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
