@@ -3397,6 +3397,31 @@
     ]
   },
   {
+    "id": "kt:aws-network-firewall",
+    "title": "AWS Network Firewall",
+    "aliases": [
+      "Network Firewall",
+      "AWS NFW",
+      "ANFW"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/aws-network-firewall.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/network-firewall/faqs",
+      "https://docs.aws.amazon.com/network-firewall/latest/developerguide/firewall-policy-processing.html",
+      "https://docs.aws.amazon.com/network-firewall/latest/developerguide/quotas.html",
+      "https://aws.amazon.com/network-firewall/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-network-firewall-new-price-reduction/",
+      "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/aws-network-firewall-updates-default-drop-action/",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+      "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:aws-networking-and-content-delivery",
     "title": "AWS networking and content delivery",
     "aliases": [

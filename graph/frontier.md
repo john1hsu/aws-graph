@@ -8,13 +8,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-bedrock-data-automation` | `kt:amazon-textract`, `kt:amazon-transcribe`, `kt:amazon-transcribe` |
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:cloudformation-stacksets` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
+| `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc`, `kt:aws-network-firewall` |
 | `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service`, `kt:aws-migration-hub` |
-| `kt:aws-network-firewall` | `kt:gateway-load-balancer`, `kt:aws-firewall-manager` |
 | `kt:aws-resource-groups-tagging-api` | `kt:aws-tag-editor`, `kt:tag-policies` |
 | `kt:cloud-computing` | `kt:cloud-architecture`, `kt:amazon-web-services` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
-| `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
@@ -124,6 +123,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:nat-gateway` | `kt:data-transfer-costs` |
 | `kt:neptune-analytics` | `kt:amazon-neptune` |
 | `kt:neptune-quotas` | `kt:amazon-neptune` |
+| `kt:network-firewall-quotas` | `kt:aws-network-firewall` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
 | `kt:nist-sp-800-171` | `kt:cmmc-on-aws` |
 | `kt:opensearch-service-quotas` | `kt:amazon-opensearch-service` |

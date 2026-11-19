@@ -22861,6 +22861,126 @@
       ]
     },
     {
+      "@id": "kt:aws-network-firewall",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Network Firewall",
+      "skos:definition": "AWS's managed, VPC-level network firewall and intrusion prevention service: traffic routed through zonal firewall endpoints passes a stateless rules engine and a Suricata-compatible stateful engine for Layer 3–7 filtering, domain filtering, TLS inspection and managed threat signatures, scaling to 100 Gbps per Availability Zone on Gateway Load Balancer.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Network Firewall FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/network-firewall/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How AWS Network Firewall filters network traffic",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/network-firewall/latest/developerguide/firewall-policy-processing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Network Firewall quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/network-firewall/latest/developerguide/quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Network Firewall pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/network-firewall/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Network Firewall announces new price reductions",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-network-firewall-new-price-reduction/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Network Firewall updates default drop action to improve connection reliability",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/aws-network-firewall-updates-default-drop-action/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "In-scope AWS services – AWS Certified Solutions Architect – Associate (SAA-C03)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security/aws-network-firewall.md",
+      "skos:altLabel": [
+        "Network Firewall",
+        "AWS NFW",
+        "ANFW"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-waf"
+        },
+        {
+          "@id": "kt:security-groups-vs-network-acls"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:gateway-load-balancer"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-transit-gateway"
+        },
+        {
+          "@id": "kt:aws-firewall-manager"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:network-firewall-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-solutions-architect-associate"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-payment-cryptography",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Payment Cryptography",
