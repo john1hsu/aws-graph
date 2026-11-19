@@ -5322,6 +5322,32 @@
     ]
   },
   {
+    "id": "kt:gateway-load-balancer",
+    "title": "Gateway Load Balancer",
+    "aliases": [
+      "GWLB",
+      "AWS Gateway Load Balancer",
+      "Elastic Load Balancing Gateway Load Balancer"
+    ],
+    "type": "Service",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/gateway-load-balancer.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/introduction.html",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/gateway-load-balancers.html",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/target-groups.md",
+      "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/quotas-limits.html",
+      "https://aws.amazon.com/elasticloadbalancing/pricing/?z=3",
+      "https://docs.amazonaws.cn/en_us/vpc/latest/privatelink/vpce-gateway-load-balancer.html",
+      "https://aws.amazon.com/blogs/aws/introducing-aws-gateway-load-balancer-easy-deployment-scalability-and-high-availability-for-partner-appliances",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/04/load-balancer-capacity-unit-reservation-gateway-load-balancers"
+    ]
+  },
+  {
     "id": "kt:generative-ai-on-aws",
     "title": "Generative AI on AWS",
     "aliases": [

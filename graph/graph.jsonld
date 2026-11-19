@@ -20467,6 +20467,117 @@
       ]
     },
     {
+      "@id": "kt:gateway-load-balancer",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Gateway Load Balancer",
+      "skos:definition": "The layer-3 load balancer type in Elastic Load Balancing that inserts fleets of third-party virtual appliances (firewalls, IDS/IPS, deep packet inspection) transparently into a traffic path, exchanging packets with them over GENEVE on port 6081 and reaching consumer VPCs through Gateway Load Balancer endpoints.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is a Gateway Load Balancer? - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Gateway Load Balancers - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/gateway-load-balancers.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Target groups for your Gateway Load Balancers - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/target-groups.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for your Gateway Load Balancers - Elastic Load Balancing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/quotas-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Elastic Load Balancing pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/elasticloadbalancing/pricing/?z=3",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Access virtual appliances through AWS PrivateLink (Gateway Load Balancer endpoints)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.amazonaws.cn/en_us/vpc/latest/privatelink/vpce-gateway-load-balancer.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing AWS Gateway Load Balancer – Easy Deployment, Scalability, and High Availability for Partner Appliances",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/aws/introducing-aws-gateway-load-balancer-easy-deployment-scalability-and-high-availability-for-partner-appliances",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Gateway Load Balancer now supports TCP Reset for faster failure recovery",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Load Balancer Capacity Unit Reservation for Gateway Load Balancers",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/04/load-balancer-capacity-unit-reservation-gateway-load-balancers",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/gateway-load-balancer.md",
+      "skos:altLabel": [
+        "GWLB",
+        "AWS Gateway Load Balancer",
+        "Elastic Load Balancing Gateway Load Balancer"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:elastic-load-balancing"
+        },
+        {
+          "@id": "kt:aws-networking-and-content-delivery"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:network-load-balancer"
+        },
+        {
+          "@id": "kt:aws-transit-gateway"
+        },
+        {
+          "@id": "kt:aws-network-firewall"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-privatelink"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:elb-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ]
+    },
+    {
       "@id": "kt:network-load-balancer",
       "@type": "kto:Service",
       "skos:prefLabel": "Network Load Balancer",

@@ -9,10 +9,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cloudformation-quotas` | `kt:aws-cdk`, `kt:aws-cloudformation`, `kt:cloudformation-stacksets` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service`, `kt:aws-migration-hub` |
+| `kt:aws-network-firewall` | `kt:gateway-load-balancer`, `kt:aws-firewall-manager` |
 | `kt:aws-resource-groups-tagging-api` | `kt:aws-tag-editor`, `kt:tag-policies` |
 | `kt:cloud-computing` | `kt:cloud-architecture`, `kt:amazon-web-services` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
-| `kt:gateway-load-balancer` | `kt:elastic-load-balancing`, `kt:elb-quotas` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
 | `kt:security-groups-vs-network-acls` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc` |
@@ -49,7 +49,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-devops-agent` | `kt:aws-support-plans` |
 | `kt:aws-entity-resolution` | `kt:aws-clean-rooms` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
-| `kt:aws-network-firewall` | `kt:aws-firewall-manager` |
 | `kt:aws-network-security-manager` | `kt:aws-firewall-manager` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
 | `kt:aws-nitro-enclaves` | `kt:aws-nitro-system` |
