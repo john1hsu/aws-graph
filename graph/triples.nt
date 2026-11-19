@@ -5182,6 +5182,37 @@
 <https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-stacksets> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ComplianceProgram> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "CMMC on AWS" .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS CMMC compliance" .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "CMMC 2.0" .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "CMMC Level 2 on AWS" .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "CMMC" .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "Cybersecurity Maturity Model Certification on AWS" .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#definition> "How U.S. defense contractors meet the DoD's Cybersecurity Maturity Model Certification (CMMC) on AWS: CMMC certifies the contractor, not the cloud, so contractors build their CUI environment in AWS GovCloud (US) or the US East/West Regions on FedRAMP-authorized services and inherit part of the NIST SP 800-171 controls through AWS's CMMC Customer Package." .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#prefLabel> "CMMC on AWS" .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-artifact> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/dod-cloud-computing-srg-impact-levels> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/itar-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s1> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s2> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s3> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s4> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s5> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s6> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s7> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/nist-sp-800-171> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/cmmc-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "Container networking on AWS" .
@@ -13631,6 +13662,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-stacksets/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain2.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s1> <http://purl.org/dc/terms/title> "Cybersecurity Maturity Model Certification (CMMC)" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s1> <https://schema.org/url> "https://aws.amazon.com/compliance/cmmc" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s2> <http://purl.org/dc/terms/title> "Preparation guide for CMMC Level 2 on AWS - AWS Prescriptive Guidance" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s2> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/cmmc-level-2-compliance-on-aws/introduction.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s3> <http://purl.org/dc/terms/title> "Defense Federal Acquisition Regulation Supplement (DFARS)" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s3> <https://schema.org/url> "https://aws.amazon.com/compliance/dfars" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s4> <http://purl.org/dc/terms/title> "Operational Best Practices for CMMC 2.0 Level 1 - AWS Config Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s4> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/config/latest/developerguide/operational-best-practices-for-cmmc_2.0_level_1.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s5> <http://purl.org/dc/terms/publisher> "U.S. Department of War (DoD) Chief Information Officer" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s5> <http://purl.org/dc/terms/title> "About CMMC" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s5> <https://schema.org/url> "https://dodcio.defense.gov/CMMC/About/" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s6> <http://purl.org/dc/terms/publisher> "U.S. Government Publishing Office (govinfo)" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s6> <http://purl.org/dc/terms/title> "Defense Federal Acquisition Regulation Supplement: Assessing Contractor Implementation of Cybersecurity Requirements (DFARS Case 2019-D041), Federal Register Vol. 90 No. 173" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s6> <https://schema.org/url> "https://www.govinfo.gov/content/pkg/FR-2025-09-10/html/2025-17359.htm" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s7> <http://purl.org/dc/terms/publisher> "Legal Information Institute, Cornell Law School" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s7> <http://purl.org/dc/terms/title> "32 CFR 170.16 - CMMC Level 2 self-assessment and affirmation requirements" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/aws-graph/id/source/cmmc-on-aws/s7> <https://schema.org/url> "https://www.law.cornell.edu/cfr/text/32/170.16" .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <http://purl.org/dc/terms/title> "Amazon ECS task networking options for EC2" .
 <https://github.com/john1hsu/aws-graph/id/source/container-networking-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -21276,6 +21276,113 @@
       ]
     },
     {
+      "@id": "kt:cmmc-on-aws",
+      "@type": "kto:ComplianceProgram",
+      "skos:prefLabel": "CMMC on AWS",
+      "skos:definition": "How U.S. defense contractors meet the DoD's Cybersecurity Maturity Model Certification (CMMC) on AWS: CMMC certifies the contractor, not the cloud, so contractors build their CUI environment in AWS GovCloud (US) or the US East/West Regions on FedRAMP-authorized services and inherit part of the NIST SP 800-171 controls through AWS's CMMC Customer Package.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Cybersecurity Maturity Model Certification (CMMC)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/cmmc",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Preparation guide for CMMC Level 2 on AWS - AWS Prescriptive Guidance",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/cmmc-level-2-compliance-on-aws/introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Defense Federal Acquisition Regulation Supplement (DFARS)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/dfars",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Operational Best Practices for CMMC 2.0 Level 1 - AWS Config Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/config/latest/developerguide/operational-best-practices-for-cmmc_2.0_level_1.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "About CMMC",
+          "dcterms:publisher": "U.S. Department of War (DoD) Chief Information Officer",
+          "schema:url": "https://dodcio.defense.gov/CMMC/About/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Defense Federal Acquisition Regulation Supplement: Assessing Contractor Implementation of Cybersecurity Requirements (DFARS Case 2019-D041), Federal Register Vol. 90 No. 173",
+          "dcterms:publisher": "U.S. Government Publishing Office (govinfo)",
+          "schema:url": "https://www.govinfo.gov/content/pkg/FR-2025-09-10/html/2025-17359.htm",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "32 CFR 170.16 - CMMC Level 2 self-assessment and affirmation requirements",
+          "dcterms:publisher": "Legal Information Institute, Cornell Law School",
+          "schema:url": "https://www.law.cornell.edu/cfr/text/32/170.16",
+          "kto:sourceType": "academic"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/cmmc-on-aws.md",
+      "skos:altLabel": [
+        "Cybersecurity Maturity Model Certification on AWS",
+        "CMMC",
+        "CMMC 2.0",
+        "AWS CMMC compliance",
+        "CMMC Level 2 on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        },
+        {
+          "@id": "kt:itar-on-aws"
+        },
+        {
+          "@id": "kt:dod-cloud-computing-srg-impact-levels"
+        },
+        {
+          "@id": "kt:aws-artifact"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:nist-sp-800-171"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        },
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-config"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-residency-on-aws",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data residency on AWS",

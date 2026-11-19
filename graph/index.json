@@ -4512,6 +4512,32 @@
     ]
   },
   {
+    "id": "kt:cmmc-on-aws",
+    "title": "CMMC on AWS",
+    "aliases": [
+      "Cybersecurity Maturity Model Certification on AWS",
+      "CMMC",
+      "CMMC 2.0",
+      "AWS CMMC compliance",
+      "CMMC Level 2 on AWS"
+    ],
+    "type": "ComplianceProgram",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/cmmc-on-aws.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/compliance/cmmc",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/cmmc-level-2-compliance-on-aws/introduction.html",
+      "https://aws.amazon.com/compliance/dfars",
+      "https://docs.aws.amazon.com/en_us/config/latest/developerguide/operational-best-practices-for-cmmc_2.0_level_1.html",
+      "https://dodcio.defense.gov/CMMC/About/",
+      "https://www.govinfo.gov/content/pkg/FR-2025-09-10/html/2025-17359.htm",
+      "https://www.law.cornell.edu/cfr/text/32/170.16"
+    ]
+  },
+  {
     "id": "kt:container-networking-on-aws",
     "title": "Container networking on AWS",
     "aliases": [

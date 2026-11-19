@@ -125,6 +125,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:neptune-analytics` | `kt:amazon-neptune` |
 | `kt:neptune-quotas` | `kt:amazon-neptune` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
+| `kt:nist-sp-800-171` | `kt:cmmc-on-aws` |
 | `kt:opensearch-service-quotas` | `kt:amazon-opensearch-service` |
 | `kt:payment-cryptography-quotas` | `kt:aws-payment-cryptography` |
 | `kt:ram-quotas` | `kt:aws-resource-access-manager` |
