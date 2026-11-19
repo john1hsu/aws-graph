@@ -1323,6 +1323,31 @@
     ]
   },
   {
+    "id": "kt:amazon-transcribe",
+    "title": "Amazon Transcribe",
+    "aliases": [
+      "Transcribe",
+      "AWS Transcribe",
+      "Amazon Transcribe Call Analytics"
+    ],
+    "type": "Service",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-transcribe.md",
+    "created": "2026-11-19",
+    "verified": "2026-11-19",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html",
+      "https://aws.amazon.com/transcribe/pricing/",
+      "https://docs.aws.amazon.com/general/latest/gr/transcribe.html",
+      "https://docs.aws.amazon.com/transcribe/latest/dg/call-analytics-batch.html",
+      "https://docs.amazonaws.cn/en_us/transcribe/latest/dg/doc-history.html",
+      "https://aws.amazon.com/blogs/machine-learning/amazon-transcribe-announces-a-new-speech-foundation-model-powered-asr-system-that-expands-support-to-over-100-languages",
+      "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-data-automation-vocabulary",
+      "https://docs.aws.amazon.com/it_it/aws-certification/latest/userguide/aif-01-in-scope-services.html"
+    ]
+  },
+  {
     "id": "kt:amazon-verified-permissions",
     "title": "Amazon Verified Permissions",
     "aliases": [

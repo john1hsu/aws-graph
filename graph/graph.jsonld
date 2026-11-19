@@ -1164,6 +1164,118 @@
       ]
     },
     {
+      "@id": "kt:amazon-transcribe",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Transcribe",
+      "skos:definition": "AWS's managed automatic speech recognition (ASR) service that converts recorded or live audio to text through batch jobs on Amazon S3 files or real-time streams, with speaker partitioning, custom vocabularies, PII redaction and a Call Analytics variant for contact-center audio.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedOn": "2026-11-19",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Transcribe?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Transcribe Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/transcribe/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Transcribe endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/transcribe.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Post-call analytics (Amazon Transcribe Developer Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/transcribe/latest/dg/call-analytics-batch.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Document history for Amazon Transcribe",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.amazonaws.cn/en_us/transcribe/latest/dg/doc-history.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Transcribe announces a new speech foundation model-powered ASR system that expands support to over 100 languages",
+          "dcterms:publisher": "AWS Machine Learning Blog",
+          "schema:url": "https://aws.amazon.com/blogs/machine-learning/amazon-transcribe-announces-a-new-speech-foundation-model-powered-asr-system-that-expands-support-to-over-100-languages",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock Data Automation now supports custom vocabulary",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-data-automation-vocabulary",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Certified AI Practitioner (AIF-C01): In-scope AWS services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/it_it/aws-certification/latest/userguide/aif-01-in-scope-services.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-transcribe.md",
+      "skos:altLabel": [
+        "Transcribe",
+        "AWS Transcribe",
+        "Amazon Transcribe Call Analytics"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-ai-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-comprehend"
+        },
+        {
+          "@id": "kt:amazon-bedrock-data-automation"
+        },
+        {
+          "@id": "kt:amazon-bedrock"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-bedrock-data-automation"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:hipaa-eligible-services"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-trainium-and-inferentia",
       "@type": "kto:Feature",
       "skos:prefLabel": "AWS Trainium and Inferentia",
