@@ -17355,6 +17355,21 @@
 <https://github.com/john1hsu/aws-graph/id/source/static-stability/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/static-stability/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/static-stability/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/aws-lambda-resilience-under-the-hood/" .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s1> <http://purl.org/dc/terms/title> "Subnet CIDR blocks - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s1> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html" .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s2> <http://purl.org/dc/terms/title> "Subnet route tables - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s2> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/userguide/subnet-route-tables.html" .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s3> <http://purl.org/dc/terms/title> "How route priority works - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s3> <https://schema.org/url> "https://docs.aws.amazon.com/en_en/vpc/latest/userguide/route-tables-priority.html" .
 <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s10> <http://purl.org/dc/terms/title> "Document revisions - Sustainability Pillar" .
 <https://github.com/john1hsu/aws-graph/id/source/sustainability-pillar/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
@@ -17610,6 +17625,31 @@
 <https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
 <https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Resource> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/2000/01/rdf-schema#label> "Subnets and route tables" .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "Main route table" .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "Subnet route tables" .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "VPC route tables" .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "VPC subnets" .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/2004/02/skos/core#definition> "The two building blocks that shape traffic inside an Amazon VPC: subnets carve the VPC's CIDR range into smaller address blocks, and route tables, associated with subnets, decide where packets leaving each subnet are sent, using longest-prefix matching." .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/2004/02/skos/core#prefLabel> "Subnets and route tables" .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/container-networking-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s1> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s2> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s3> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/vpc-quotas> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/gateway-load-balancer> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/vpc-peering> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Sustainability Pillar" .

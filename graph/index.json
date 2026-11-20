@@ -6892,6 +6892,27 @@
     ]
   },
   {
+    "id": "kt:subnets-and-route-tables",
+    "title": "Subnets and route tables",
+    "aliases": [
+      "VPC subnets",
+      "Subnet route tables",
+      "VPC route tables",
+      "Main route table"
+    ],
+    "type": "Resource",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/subnets-and-route-tables.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html",
+      "https://docs.aws.amazon.com/vpc/latest/userguide/subnet-route-tables.html",
+      "https://docs.aws.amazon.com/en_en/vpc/latest/userguide/route-tables-priority.html"
+    ]
+  },
+  {
     "id": "kt:sustainability-pillar",
     "title": "Sustainability Pillar",
     "aliases": [

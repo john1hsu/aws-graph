@@ -22080,6 +22080,83 @@
       ]
     },
     {
+      "@id": "kt:subnets-and-route-tables",
+      "@type": "kto:Resource",
+      "skos:prefLabel": "Subnets and route tables",
+      "skos:definition": "The two building blocks that shape traffic inside an Amazon VPC: subnets carve the VPC's CIDR range into smaller address blocks, and route tables, associated with subnets, decide where packets leaving each subnet are sent, using longest-prefix matching.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Subnet CIDR blocks - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Subnet route tables - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/userguide/subnet-route-tables.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How route priority works - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_en/vpc/latest/userguide/route-tables-priority.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/subnets-and-route-tables.md",
+      "skos:altLabel": [
+        "VPC subnets",
+        "Subnet route tables",
+        "VPC route tables",
+        "Main route table"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:security-groups-vs-network-acls"
+        },
+        {
+          "@id": "kt:container-networking-on-aws"
+        },
+        {
+          "@id": "kt:aws-transit-gateway"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:vpc-quotas"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-site-to-site-vpn"
+        },
+        {
+          "@id": "kt:aws-direct-connect"
+        },
+        {
+          "@id": "kt:gateway-load-balancer"
+        },
+        {
+          "@id": "kt:vpc-peering"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-artifact",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Artifact",

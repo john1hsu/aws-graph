@@ -5,7 +5,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
-| `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc`, `kt:security-groups-vs-network-acls` |
+| `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway`, `kt:subnets-and-route-tables` |
+| `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls`, `kt:subnets-and-route-tables` |
 | `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service`, `kt:aws-migration-hub` |
 | `kt:appsync-quotas` | `kt:api-gateway-quotas`, `kt:aws-appsync` |
 | `kt:aws-data-exports` | `kt:aws-cost-and-usage-report`, `kt:cost-optimization-hub` |
@@ -14,8 +15,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ec2-capacity-blocks-for-ml` | `kt:aws-trainium-and-inferentia`, `kt:ec2-instance-quotas` |
 | `kt:lambda-quotas` | `kt:api-gateway-quotas`, `kt:aws-lambda` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
-| `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
-| `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
