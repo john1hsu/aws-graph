@@ -4312,6 +4312,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#API> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Resource Groups Tagging API" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Resource Groups Tagging API" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Tagging API" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/2004/02/skos/core#altLabel> "resourcegroupstaggingapi" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/2004/02/skos/core#definition> "AWS's cross-service, per-Region API for finding tagged resources and adding or removing tags on many resource types through one interface, plus organization-wide tag-policy compliance reporting through GetComplianceSummary." .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Resource Groups Tagging API" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-tag-editor> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/tagging-strategy> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/tag-policies> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-sam> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Serverless Application Model (AWS SAM)" .
@@ -12779,6 +12805,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s8> <https://schema.org/url> "https://aws.amazon.com/ram/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s1> <http://purl.org/dc/terms/title> "GetResources - Resource Groups Tagging API" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s1> <https://schema.org/url> "https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/API_GetResources.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s2> <http://purl.org/dc/terms/title> "TagResources - Resource Groups Tagging API" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s2> <https://schema.org/url> "https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/API_TagResources.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s3> <http://purl.org/dc/terms/title> "GetComplianceSummary - Resource Groups Tagging API" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s3> <https://schema.org/url> "https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/API_GetComplianceSummary.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s4> <http://purl.org/dc/terms/title> "AWS Resource Groups and Tagging endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s4> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/arg.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s5> <http://purl.org/dc/terms/title> "Service quotas - Tagging AWS Resources and Tag Editor" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s5> <https://schema.org/url> "https://docs.aws.amazon.com/tag-editor/latest/userguide/reference.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s1> <http://purl.org/dc/terms/title> "How AWS SAM works" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-sam/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

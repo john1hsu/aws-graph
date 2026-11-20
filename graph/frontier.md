@@ -8,7 +8,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc`, `kt:security-groups-vs-network-acls` |
 | `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service`, `kt:aws-migration-hub` |
-| `kt:aws-resource-groups-tagging-api` | `kt:aws-tag-editor`, `kt:tag-policies` |
+| `kt:aws-resource-explorer` | `kt:aws-resource-groups-tagging-api`, `kt:aws-tag-editor` |
 | `kt:aws-x-ray` | `kt:microservices-architecture`, `kt:aws-developer-tools` |
 | `kt:cloud-computing` | `kt:cloud-architecture`, `kt:amazon-web-services` |
 | `kt:dynamodb-quotas` | `kt:amazon-dynamodb`, `kt:dynamodb-partition-key-design` |
@@ -51,7 +51,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
 | `kt:aws-nitro-enclaves` | `kt:aws-nitro-system` |
 | `kt:aws-professional-services` | `kt:aws-support-plans` |
-| `kt:aws-resource-explorer` | `kt:aws-tag-editor` |
 | `kt:aws-sdks` | `kt:fips-140-3-on-aws` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-security-incident-response` | `kt:aws-support-plans` |

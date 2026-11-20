@@ -3758,6 +3758,28 @@
     ]
   },
   {
+    "id": "kt:aws-resource-groups-tagging-api",
+    "title": "AWS Resource Groups Tagging API",
+    "aliases": [
+      "Resource Groups Tagging API",
+      "Tagging API",
+      "resourcegroupstaggingapi"
+    ],
+    "type": "API",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/aws-resource-groups-tagging-api.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/API_GetResources.html",
+      "https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/API_TagResources.html",
+      "https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/API_GetComplianceSummary.html",
+      "https://docs.aws.amazon.com/general/latest/gr/arg.html",
+      "https://docs.aws.amazon.com/tag-editor/latest/userguide/reference.html"
+    ]
+  },
+  {
     "id": "kt:aws-sam",
     "title": "AWS Serverless Application Model (AWS SAM)",
     "aliases": [

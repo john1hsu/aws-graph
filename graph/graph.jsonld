@@ -15526,6 +15526,96 @@
       ]
     },
     {
+      "@id": "kt:aws-resource-groups-tagging-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "AWS Resource Groups Tagging API",
+      "skos:definition": "AWS's cross-service, per-Region API for finding tagged resources and adding or removing tags on many resource types through one interface, plus organization-wide tag-policy compliance reporting through GetComplianceSummary.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "GetResources - Resource Groups Tagging API",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/API_GetResources.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "TagResources - Resource Groups Tagging API",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/API_TagResources.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "GetComplianceSummary - Resource Groups Tagging API",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/API_GetComplianceSummary.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Resource Groups and Tagging endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/arg.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Service quotas - Tagging AWS Resources and Tag Editor",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/tag-editor/latest/userguide/reference.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/aws-resource-groups-tagging-api.md",
+      "skos:altLabel": [
+        "Resource Groups Tagging API",
+        "Tagging API",
+        "resourcegroupstaggingapi"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:tagging-strategy"
+        },
+        {
+          "@id": "kt:cost-allocation-tags"
+        },
+        {
+          "@id": "kt:aws-tag-editor"
+        },
+        {
+          "@id": "kt:attribute-based-access-control"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:tag-policies"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-resource-explorer"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-support-plans",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Support plans",
