@@ -3551,6 +3551,97 @@
       ]
     },
     {
+      "@id": "kt:aws-well-architected-tool",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Well-Architected Tool",
+      "skos:definition": "AWS's console service and API for running Well-Architected reviews: you define a workload, answer a lens's questions, and get high- and medium-risk issues, an improvement plan, milestones and reports.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Well-Architected Tool?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/userguide/tool.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Well-Architected Tool features",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/well-architected-tool/features",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tutorial: Document an AWS Well-Architected Tool workload",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/userguide/tutorial.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Milestones - AWS Well-Architected",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/userguide/milestones.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Release notes - AWS Well-Architected",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/userguide/release-notes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/aws-well-architected-tool.md",
+      "skos:altLabel": [
+        "AWS WA Tool",
+        "Well-Architected Tool",
+        "WA Tool"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        },
+        {
+          "@id": "kt:aws-well-architected-agent"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:aws-well-architected-framework"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-trusted-advisor"
+        },
+        {
+          "@id": "kt:aws-service-catalog-appregistry"
+        },
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        }
+      ]
+    },
+    {
       "@id": "kt:cell-based-architecture",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Cell-based architecture",

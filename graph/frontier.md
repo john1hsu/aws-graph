@@ -49,9 +49,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-sdks` | `kt:fips-140-3-on-aws` |
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-security-incident-response` | `kt:aws-support-plans` |
+| `kt:aws-service-catalog-appregistry` | `kt:aws-well-architected-tool` |
 | `kt:aws-snowball-edge` | `kt:aws-schema-conversion-tool` |
 | `kt:aws-sustainability-console` | `kt:sustainability-pillar` |
-| `kt:aws-well-architected-tool` | `kt:aws-well-architected-framework` |
+| `kt:aws-well-architected-agent` | `kt:aws-well-architected-tool` |
 | `kt:bimodal-behavior` | `kt:static-stability` |
 | `kt:bsi-c5` | `kt:aws-european-sovereign-cloud` |
 | `kt:cedar-policy-language` | `kt:amazon-verified-permissions` |

@@ -4601,6 +4601,29 @@
     ]
   },
   {
+    "id": "kt:aws-well-architected-tool",
+    "title": "AWS Well-Architected Tool",
+    "aliases": [
+      "AWS WA Tool",
+      "Well-Architected Tool",
+      "WA Tool"
+    ],
+    "type": "Service",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/aws-well-architected-tool.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/wellarchitected/latest/userguide/tool.md",
+      "https://aws.amazon.com/well-architected-tool/features",
+      "https://docs.aws.amazon.com/wellarchitected/latest/userguide/tutorial.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/userguide/milestones.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/userguide/release-notes.html",
+      "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/"
+    ]
+  },
+  {
     "id": "kt:blue-green-deployments",
     "title": "Blue/green deployments",
     "aliases": [
