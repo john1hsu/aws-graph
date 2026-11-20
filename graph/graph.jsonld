@@ -25920,6 +25920,96 @@
       ]
     },
     {
+      "@id": "kt:api-gateway-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Amazon API Gateway quotas",
+      "skos:definition": "The limits that shape Amazon API Gateway designs: a shared per-Region account throttle with a fixed burst bucket, fixed control-plane call rates, and separate per-API limit tables for REST, HTTP and WebSocket APIs covering timeouts, payload sizes, routes or resources, stages, authorizers and connections.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon API Gateway quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for configuring and running a REST API in API Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-execution-service-limits-table.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for configuring and running an HTTP API in API Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for configuring and running a WebSocket in API Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-execution-service-websocket-limits-table.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Throttle requests to your REST APIs for better throughput in API Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Stream the integration response for your proxy integrations in API Gateway",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/response-transfer-mode.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/api-gateway-quotas.md",
+      "skos:altLabel": [
+        "API Gateway quotas",
+        "API Gateway limits",
+        "API Gateway service quotas",
+        "Amazon API Gateway limits",
+        "API Gateway throttling limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-api-gateway"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:lambda-quotas"
+        },
+        {
+          "@id": "kt:amazon-cloudfront"
+        },
+        {
+          "@id": "kt:application-load-balancer"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:appsync-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-application-integration-services",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS application integration services",

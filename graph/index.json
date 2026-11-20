@@ -1513,6 +1513,31 @@
     ]
   },
   {
+    "id": "kt:api-gateway-quotas",
+    "title": "Amazon API Gateway quotas",
+    "aliases": [
+      "API Gateway quotas",
+      "API Gateway limits",
+      "API Gateway service quotas",
+      "Amazon API Gateway limits",
+      "API Gateway throttling limits"
+    ],
+    "type": "Limit",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/api-gateway-quotas.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/limits.html",
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-execution-service-limits-table.html",
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-quotas.html",
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-execution-service-websocket-limits-table.html",
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html",
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/response-transfer-mode.html"
+    ]
+  },
+  {
     "id": "kt:application-load-balancer",
     "title": "Application Load Balancer",
     "aliases": [

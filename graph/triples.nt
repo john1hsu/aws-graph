@@ -1736,6 +1736,33 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-web-services> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
 <https://github.com/john1hsu/aws-graph/id/amazon-web-services> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-web-services> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon API Gateway quotas" .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "API Gateway limits" .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "API Gateway quotas" .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "API Gateway service quotas" .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "API Gateway throttling limits" .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon API Gateway limits" .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The limits that shape Amazon API Gateway designs: a shared per-Region account throttle with a fixed burst bucket, fixed control-plane call rates, and separate per-API limit tables for REST, HTTP and WebSocket APIs covering timeouts, payload sizes, routes or resources, stages, authorizers and connections." .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon API Gateway quotas" .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-cloudfront> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/application-load-balancer> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/lambda-quotas> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s6> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/appsync-quotas> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/2000/01/rdf-schema#label> "Application Load Balancer" .
@@ -9911,6 +9938,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-web-services/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-web-services/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-web-services/s6> <https://schema.org/url> "https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s1> <http://purl.org/dc/terms/title> "Amazon API Gateway quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s2> <http://purl.org/dc/terms/title> "Quotas for configuring and running a REST API in API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-execution-service-limits-table.html" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s3> <http://purl.org/dc/terms/title> "Quotas for configuring and running an HTTP API in API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s4> <http://purl.org/dc/terms/title> "Quotas for configuring and running a WebSocket in API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-execution-service-websocket-limits-table.html" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s5> <http://purl.org/dc/terms/title> "Throttle requests to your REST APIs for better throughput in API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s5> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s6> <http://purl.org/dc/terms/title> "Stream the integration response for your proxy integrations in API Gateway" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s6> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/response-transfer-mode.html" .
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s1> <http://purl.org/dc/terms/title> "What is an Application Load Balancer? - Elastic Load Balancing" .
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

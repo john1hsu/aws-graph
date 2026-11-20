@@ -8,10 +8,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc`, `kt:security-groups-vs-network-acls` |
 | `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service`, `kt:aws-migration-hub` |
+| `kt:appsync-quotas` | `kt:api-gateway-quotas`, `kt:aws-appsync` |
 | `kt:aws-data-exports` | `kt:aws-cost-and-usage-report`, `kt:cost-optimization-hub` |
 | `kt:aws-resource-explorer` | `kt:aws-resource-groups-tagging-api`, `kt:aws-tag-editor` |
 | `kt:aws-x-ray` | `kt:microservices-architecture`, `kt:aws-developer-tools` |
 | `kt:ec2-capacity-blocks-for-ml` | `kt:aws-trainium-and-inferentia`, `kt:ec2-instance-quotas` |
+| `kt:lambda-quotas` | `kt:api-gateway-quotas`, `kt:aws-lambda` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
 | `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls` |
@@ -26,9 +28,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ami-quotas` | `kt:amazon-machine-images` |
 | `kt:apache-flink` | `kt:amazon-managed-service-for-apache-flink` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
-| `kt:api-gateway-quotas` | `kt:amazon-api-gateway` |
 | `kt:appflow-quotas` | `kt:amazon-appflow` |
-| `kt:appsync-quotas` | `kt:aws-appsync` |
 | `kt:attribute-based-instance-type-selection` | `kt:ec2-instance-types` |
 | `kt:aurora-limitless-database` | `kt:aurora-quotas` |
 | `kt:aws-account-management` | `kt:aws-regions` |
@@ -105,7 +105,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:kiro` | `kt:amazon-q-developer` |
 | `kt:lake-formation-quotas` | `kt:aws-lake-formation` |
 | `kt:lambda-provisioned-concurrency` | `kt:lambda-cold-starts` |
-| `kt:lambda-quotas` | `kt:aws-lambda` |
 | `kt:lambda-snapstart` | `kt:lambda-cold-starts` |
 | `kt:landing-zone` | `kt:multi-account-strategy` |
 | `kt:macie-quotas` | `kt:amazon-macie` |
