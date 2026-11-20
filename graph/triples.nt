@@ -5342,6 +5342,26 @@
 <https://github.com/john1hsu/aws-graph/id/cloud-architecture> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-well-architected-framework> .
 <https://github.com/john1hsu/aws-graph/id/cloud-architecture> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/cloud-architecture> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/2000/01/rdf-schema#label> "Cloud computing" .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/2004/02/skos/core#altLabel> "cloud services" .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/2004/02/skos/core#altLabel> "the cloud" .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/distributed-computing> .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/2004/02/skos/core#definition> "A model for on-demand, network-based access to a shared, elastic pool of metered computing resources that are provisioned and released with minimal provider interaction; NIST defines it by five essential characteristics, three service models (IaaS, PaaS, SaaS) and four deployment models." .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cloud computing" .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-outposts> .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-pricing-fundamentals> .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s1> .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s2> .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s3> .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s4> .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/cloud-deployment-models> .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/cloud-computing> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/cloudformation-drift-detection> <http://www.w3.org/2000/01/rdf-schema#label> "CloudFormation drift detection" .
@@ -14275,6 +14295,26 @@
 <https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s5> <https://schema.org/url> "https://docs.aws.amazon.com/reference-architecture-diagrams/" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s1> <http://purl.org/dc/terms/publisher> "National Institute of Standards and Technology" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s1> <http://purl.org/dc/terms/title> "The NIST Definition of Cloud Computing (SP 800-145)" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s1> <https://schema.org/url> "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s2> <http://purl.org/dc/terms/title> "What is cloud computing? - Overview of Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s2> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/what-is-cloud-computing.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s3> <http://purl.org/dc/terms/title> "Types of cloud computing - Overview of Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s3> <https://schema.org/url> "https://docs.aws.amazon.com/aws-technical-content/latest/aws-overview/types-of-cloud-computing.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s4> <http://purl.org/dc/terms/title> "What is Cloud Computing? - Cloud Computing Services, Benefits, and Types" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cloud-computing/s4> <https://schema.org/url> "https://aws.amazon.com/what-is-cloud-computing/" .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s1> <http://purl.org/dc/terms/title> "Detect unmanaged configuration changes to stacks and resources with drift detection" .
 <https://github.com/john1hsu/aws-graph/id/source/cloudformation-drift-detection/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

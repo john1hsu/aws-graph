@@ -11,7 +11,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-data-exports` | `kt:aws-cost-and-usage-report`, `kt:cost-optimization-hub` |
 | `kt:aws-resource-explorer` | `kt:aws-resource-groups-tagging-api`, `kt:aws-tag-editor` |
 | `kt:aws-x-ray` | `kt:microservices-architecture`, `kt:aws-developer-tools` |
-| `kt:cloud-computing` | `kt:cloud-architecture`, `kt:amazon-web-services` |
 | `kt:ec2-capacity-blocks-for-ml` | `kt:aws-trainium-and-inferentia`, `kt:ec2-instance-quotas` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
@@ -59,6 +58,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:bsi-c5` | `kt:aws-european-sovereign-cloud` |
 | `kt:cedar-policy-language` | `kt:amazon-verified-permissions` |
 | `kt:clean-rooms-quotas` | `kt:aws-clean-rooms` |
+| `kt:cloud-deployment-models` | `kt:cloud-computing` |
 | `kt:cloud-map-quotas` | `kt:aws-cloud-map` |
 | `kt:cloud-security` | `kt:aws-security-services` |
 | `kt:cloud-wan-quotas` | `kt:aws-cloud-wan` |
@@ -78,6 +78,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:datasync-quotas` | `kt:aws-datasync` |
 | `kt:declarative-policies` | `kt:ec2-instance-metadata-service` |
 | `kt:detective-quotas` | `kt:amazon-detective` |
+| `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:dms-quotas` | `kt:aws-database-migration-service` |
 | `kt:dms-schema-conversion` | `kt:aws-schema-conversion-tool` |
 | `kt:documentdb-quotas` | `kt:amazon-documentdb` |

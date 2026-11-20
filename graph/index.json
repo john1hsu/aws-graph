@@ -4646,6 +4646,26 @@
     ]
   },
   {
+    "id": "kt:cloud-computing",
+    "title": "Cloud computing",
+    "aliases": [
+      "the cloud",
+      "cloud services"
+    ],
+    "type": "Concept",
+    "domain": "global-infrastructure",
+    "file": "articles/global-infrastructure/cloud-computing.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "concept",
+    "source_urls": [
+      "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf",
+      "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/what-is-cloud-computing.html",
+      "https://docs.aws.amazon.com/aws-technical-content/latest/aws-overview/types-of-cloud-computing.html",
+      "https://aws.amazon.com/what-is-cloud-computing/"
+    ]
+  },
+  {
     "id": "kt:cloudformation-drift-detection",
     "title": "CloudFormation drift detection",
     "aliases": [

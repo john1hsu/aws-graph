@@ -14979,6 +14979,71 @@
       ]
     },
     {
+      "@id": "kt:cloud-computing",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Cloud computing",
+      "skos:definition": "A model for on-demand, network-based access to a shared, elastic pool of metered computing resources that are provisioned and released with minimal provider interaction; NIST defines it by five essential characteristics, three service models (IaaS, PaaS, SaaS) and four deployment models.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The NIST Definition of Cloud Computing (SP 800-145)",
+          "dcterms:publisher": "National Institute of Standards and Technology",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "What is cloud computing? - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/what-is-cloud-computing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Types of cloud computing - Overview of Amazon Web Services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-technical-content/latest/aws-overview/types-of-cloud-computing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What is Cloud Computing? - Cloud Computing Services, Benefits, and Types",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/what-is-cloud-computing/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/cloud-computing.md",
+      "skos:altLabel": [
+        "the cloud",
+        "cloud services"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:distributed-computing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-web-services"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:aws-pricing-fundamentals"
+        },
+        {
+          "@id": "kt:aws-outposts"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:cloud-deployment-models"
+        }
+      ]
+    },
+    {
       "@id": "kt:control-plane-and-data-plane",
       "@type": "kto:Concept",
       "skos:prefLabel": "Control plane and data plane",
