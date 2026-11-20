@@ -11,6 +11,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-resource-explorer` | `kt:aws-resource-groups-tagging-api`, `kt:aws-tag-editor` |
 | `kt:aws-x-ray` | `kt:microservices-architecture`, `kt:aws-developer-tools` |
 | `kt:cloud-computing` | `kt:cloud-architecture`, `kt:amazon-web-services` |
+| `kt:ec2-capacity-blocks-for-ml` | `kt:aws-trainium-and-inferentia`, `kt:ec2-instance-quotas` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway` |
 | `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls` |
@@ -86,10 +87,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:drs-quotas` | `kt:aws-elastic-disaster-recovery` |
 | `kt:dynamodb-hot-partitions` | `kt:dynamodb-partition-key-design` |
 | `kt:ec2-auto-scaling-quotas` | `kt:amazon-ec2-auto-scaling` |
-| `kt:ec2-capacity-blocks-for-ml` | `kt:aws-trainium-and-inferentia` |
 | `kt:ec2-gpu-instances` | `kt:aws-trainium-and-inferentia` |
 | `kt:ec2-image-builder-quotas` | `kt:ec2-image-builder` |
-| `kt:ec2-instance-quotas` | `kt:amazon-ec2` |
 | `kt:elastic-beanstalk-quotas` | `kt:aws-elastic-beanstalk` |
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |
 | `kt:entity-resolution-quotas` | `kt:aws-entity-resolution` |

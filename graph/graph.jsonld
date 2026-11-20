@@ -7014,6 +7014,98 @@
       ]
     },
     {
+      "@id": "kt:ec2-instance-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Amazon EC2 instance quotas",
+      "skos:definition": "The per-account, per-Region limits on how much Amazon EC2 capacity you can run, expressed as vCPU quotas per instance-family group for On-Demand and Spot, host counts for Dedicated Hosts and vCPUs for Capacity Blocks, together with the token-bucket API rate limits that cap how fast you can launch.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon EC2 instance type quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ec2/latest/instancetypes/ec2-instance-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EC2 service quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Spot Instance quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Request throttling for the Amazon EC2 API",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ec2/latest/devguide/ec2-api-throttling.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How do I request a vCPU service quota increase for my Amazon EC2 On-Demand Instance?",
+          "dcterms:publisher": "Amazon Web Services (AWS Knowledge Center)",
+          "schema:url": "https://aws.amazon.com/premiumsupport/knowledge-center/ec2-on-demand-instance-vcpu-increase/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "vCPU-based Spot Instance Limits are Now Available in Amazon EC2",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/pt/about-aws/whats-new/2020/10/vcpu-based-spot-instance-limits-available-amazon-ec2/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/compute/ec2-instance-quotas.md",
+      "skos:altLabel": [
+        "EC2 instance quotas",
+        "EC2 instance type quotas",
+        "EC2 vCPU limits",
+        "EC2 vCPU quotas",
+        "EC2 instance limits",
+        "Spot Instance quotas",
+        "EC2 API throttling limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:ec2-instance-types"
+        },
+        {
+          "@id": "kt:spot-instances"
+        },
+        {
+          "@id": "kt:on-demand-capacity-reservations"
+        },
+        {
+          "@id": "kt:ec2-capacity-blocks-for-ml"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ]
+    },
+    {
       "@id": "kt:ec2-instance-types",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon EC2 instance types",

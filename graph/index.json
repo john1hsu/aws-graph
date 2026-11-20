@@ -5144,6 +5144,33 @@
     ]
   },
   {
+    "id": "kt:ec2-instance-quotas",
+    "title": "Amazon EC2 instance quotas",
+    "aliases": [
+      "EC2 instance quotas",
+      "EC2 instance type quotas",
+      "EC2 vCPU limits",
+      "EC2 vCPU quotas",
+      "EC2 instance limits",
+      "Spot Instance quotas",
+      "EC2 API throttling limits"
+    ],
+    "type": "Limit",
+    "domain": "compute",
+    "file": "articles/compute/ec2-instance-quotas.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/ec2/latest/instancetypes/ec2-instance-quotas.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-limits.html",
+      "https://docs.aws.amazon.com/ec2/latest/devguide/ec2-api-throttling.html",
+      "https://aws.amazon.com/premiumsupport/knowledge-center/ec2-on-demand-instance-vcpu-increase/",
+      "https://aws.amazon.com/pt/about-aws/whats-new/2020/10/vcpu-based-spot-instance-limits-available-amazon-ec2/"
+    ]
+  },
+  {
     "id": "kt:ec2-instance-types",
     "title": "Amazon EC2 instance types",
     "aliases": [
