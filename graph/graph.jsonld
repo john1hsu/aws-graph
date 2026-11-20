@@ -5472,6 +5472,95 @@
       ]
     },
     {
+      "@id": "kt:aws-certified-data-analytics-specialty",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "AWS Certified Data Analytics - Specialty",
+      "skos:definition": "AWS's former specialty-level certification for designing, building, securing and maintaining analytics solutions on AWS (exam DAS-C01); AWS retired it in April 2024 and named AWS Certified Data Engineer - Associate as its successor.",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "retired",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Certified Data Analytics - Specialty (DAS-C01) Exam Guide, version 1.1 (PDF)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://d1.awsstatic.com/training-and-certification/docs-data-analytics-specialty/AWS-Certified-Data-Analytics-Specialty_Exam-Guide.pdf",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certification retirements and launches",
+          "dcterms:publisher": "Amazon Web Services (AWS Training and Certification Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/training-and-certification/aws-certification-retirements-and-launches",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Registration open for AWS Certified Data Engineer - Associate beta exam",
+          "dcterms:publisher": "Amazon Web Services (AWS Training and Certification Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/training-and-certification/registration-open-for-aws-certified-data-engineer-associate-beta-exam",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "10 study areas for the AWS Certified Data Analytics - Specialty exam",
+          "dcterms:publisher": "Amazon Web Services (AWS Training and Certification Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/training-and-certification/10-study-areas-for-the-aws-certified-data-analytics-specialty-exam",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Recertification | AWS Certification Information and Policies",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/policies/recertification/",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certified Data Engineer - Associate (DEA-C01) exam guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/data-engineer-associate-01/data-engineer-associate-01.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-certified-data-analytics-specialty.md",
+      "skos:altLabel": [
+        "DAS-C01",
+        "AWS Data Analytics Specialty",
+        "AWS DAS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-analytics-services"
+        },
+        {
+          "@id": "kt:amazon-kinesis-data-streams"
+        },
+        {
+          "@id": "kt:amazon-redshift"
+        },
+        {
+          "@id": "kt:amazon-emr"
+        },
+        {
+          "@id": "kt:aws-glue"
+        },
+        {
+          "@id": "kt:amazon-opensearch-service"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:aws-certified-data-engineer-associate"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-certified-machine-learning-specialty"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-certified-data-engineer-associate",
       "@type": "kto:Certification",
       "skos:prefLabel": "AWS Certified Data Engineer - Associate",
@@ -5529,6 +5618,9 @@
         },
         {
           "@id": "kt:aws-analytics-services"
+        },
+        {
+          "@id": "kt:aws-certified-data-analytics-specialty"
         }
       ],
       "kto:contrastsWith": [

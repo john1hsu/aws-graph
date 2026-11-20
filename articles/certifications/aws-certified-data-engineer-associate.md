@@ -11,7 +11,7 @@ summary: >-
 verified: 2026-11-14
 status: current
 broader: [kt:aws-certification-program]
-related: [kt:aws-glue, kt:amazon-redshift, kt:aws-lake-formation, kt:amazon-athena, kt:data-lake-on-aws, kt:aws-analytics-services]
+related: [kt:aws-glue, kt:amazon-redshift, kt:aws-lake-formation, kt:amazon-athena, kt:data-lake-on-aws, kt:aws-analytics-services, kt:aws-certified-data-analytics-specialty]
 relations:
   - {predicate: contrastsWith, object: kt:aws-certified-machine-learning-engineer-associate}
   - {predicate: contrastsWith, object: kt:aws-certified-solutions-architect-associate}

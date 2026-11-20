@@ -2245,6 +2245,29 @@
     ]
   },
   {
+    "id": "kt:aws-certified-data-analytics-specialty",
+    "title": "AWS Certified Data Analytics - Specialty",
+    "aliases": [
+      "DAS-C01",
+      "AWS Data Analytics Specialty",
+      "AWS DAS"
+    ],
+    "type": "Certification",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certified-data-analytics-specialty.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "retired",
+    "source_urls": [
+      "https://d1.awsstatic.com/training-and-certification/docs-data-analytics-specialty/AWS-Certified-Data-Analytics-Specialty_Exam-Guide.pdf",
+      "https://aws.amazon.com/blogs/training-and-certification/aws-certification-retirements-and-launches",
+      "https://aws.amazon.com/blogs/training-and-certification/registration-open-for-aws-certified-data-engineer-associate-beta-exam",
+      "https://aws.amazon.com/blogs/training-and-certification/10-study-areas-for-the-aws-certified-data-analytics-specialty-exam",
+      "https://aws.amazon.com/certification/policies/recertification/",
+      "https://docs.aws.amazon.com/aws-certification/latest/data-engineer-associate-01/data-engineer-associate-01.html"
+    ]
+  },
+  {
     "id": "kt:aws-certified-data-engineer-associate",
     "title": "AWS Certified Data Engineer - Associate",
     "aliases": [
