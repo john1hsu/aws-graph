@@ -1,9 +1,9 @@
 # Graph statistics
 
-- Articles (nodes written): **296**
-- Frontier nodes (referenced, unwritten): **139**
-- Edges: **2807**
-- Citations: **1982**
+- Articles (nodes written): **297**
+- Frontier nodes (referenced, unwritten): **138**
+- Edges: **2817**
+- Citations: **1988**
 
 - Weakly connected components: **1**
 - Isolated articles (no edges): **0**
@@ -14,14 +14,14 @@
 |---|---|---|
 | `kt:aws-certified-cloud-practitioner` | 0.0347 | yes |
 | `kt:aws-regions` | 0.0299 | yes |
-| `kt:aws-organizations` | 0.0208 | yes |
+| `kt:aws-organizations` | 0.0210 | yes |
 | `kt:aws-certified-solutions-architect-associate` | 0.0193 | yes |
-| `kt:aws-iam` | 0.0191 | yes |
+| `kt:aws-iam` | 0.0192 | yes |
 | `kt:aws-well-architected-framework` | 0.0164 | yes |
 | `kt:disaster-recovery-strategies` | 0.0140 | yes |
 | `kt:amazon-cloudwatch` | 0.0135 | yes |
 | `kt:amazon-ec2` | 0.0130 | yes |
-| `kt:aws-cloudtrail` | 0.0129 | yes |
+| `kt:aws-cloudtrail` | 0.0130 | yes |
 | `kt:amazon-s3` | 0.0117 | yes |
 | `kt:aws-lambda` | 0.0110 | yes |
 | `kt:aws-certification-program` | 0.0109 | yes |
@@ -30,16 +30,16 @@
 
 ## Communities (Louvain): 10
 
-1. `kt:amazon-verified-permissions`, `kt:amazon-web-services`, `kt:attribute-based-access-control`, `kt:aws-billing-and-cost-management`, `kt:aws-billing-conductor`, `kt:aws-billing-transfer`, `kt:aws-budgets`, `kt:aws-certified-cloud-practitioner`, `kt:aws-certified-solutions-architect-professional`, `kt:aws-cloud-adoption-framework`, `kt:aws-compute-optimizer`, `kt:aws-control-tower` …
-2. `kt:agentcore-quotas`, `kt:amazon-athena`, `kt:amazon-bedrock`, `kt:amazon-bedrock-agentcore`, `kt:amazon-bedrock-agents`, `kt:amazon-bedrock-data-automation`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-comprehend`, `kt:amazon-comprehend-medical`, `kt:amazon-data-firehose`, `kt:amazon-data-firehose-quotas` …
-3. `kt:amazon-detective`, `kt:amazon-guardduty`, `kt:amazon-inspector`, `kt:amazon-macie`, `kt:amazon-security-lake`, `kt:aws-ai-factories`, `kt:aws-artifact`, `kt:aws-audit-manager`, `kt:aws-certified-security-specialty`, `kt:aws-cloudhsm`, `kt:aws-cloudtrail`, `kt:aws-compliance-programs` …
-4. `kt:amazon-ec2`, `kt:amazon-ec2-auto-scaling`, `kt:amazon-ecr`, `kt:amazon-ecs`, `kt:amazon-eks`, `kt:attribute-based-instance-type-selection`, `kt:aws-app-runner`, `kt:aws-auto-scaling`, `kt:aws-batch`, `kt:aws-cloud-map`, `kt:aws-compute-services`, `kt:aws-container-services` …
-5. `kt:amazon-application-recovery-controller`, `kt:amazon-aurora`, `kt:amazon-documentdb`, `kt:amazon-dynamodb`, `kt:amazon-dynamodb-accelerator`, `kt:amazon-elasticache`, `kt:amazon-neptune`, `kt:amazon-rds`, `kt:aurora-global-database`, `kt:aurora-limitless-database`, `kt:aurora-quotas`, `kt:aurora-serverless-v2` …
-6. `kt:amazon-cloudfront`, `kt:amazon-elastic-vmware-service`, `kt:amazon-route-53`, `kt:amazon-vpc`, `kt:aws-certified-advanced-networking-specialty`, `kt:aws-client-vpn`, `kt:aws-cloud-wan`, `kt:aws-direct-connect`, `kt:aws-firewall-manager`, `kt:aws-global-accelerator`, `kt:aws-global-network`, `kt:aws-network-firewall` …
-7. `kt:amazon-api-gateway`, `kt:amazon-appflow`, `kt:amazon-cloudwatch`, `kt:amazon-cognito`, `kt:amazon-eventbridge`, `kt:amazon-kinesis-data-streams`, `kt:amazon-mq`, `kt:amazon-msk`, `kt:amazon-msk-quotas`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:amazon-swf` …
-8. `kt:amazon-ebs`, `kt:amazon-efs`, `kt:amazon-fsx`, `kt:amazon-machine-images`, `kt:amazon-s3-files`, `kt:amazon-s3-quotas`, `kt:ami-quotas`, `kt:aws-account-management`, `kt:aws-backup`, `kt:aws-backup-quotas`, `kt:aws-datasync`, `kt:aws-elastic-disaster-recovery` …
-9. `kt:amazon-vpc-lattice`, `kt:aws-cdk`, `kt:aws-certified-cloudops-engineer-associate`, `kt:aws-certified-developer-associate`, `kt:aws-certified-devops-engineer-professional`, `kt:aws-cloudformation`, `kt:aws-codebuild`, `kt:aws-codecommit`, `kt:aws-codedeploy`, `kt:aws-codepipeline`, `kt:aws-developer-tools`, `kt:aws-sam` …
-10. `kt:application-discovery-service-quotas`, `kt:application-portfolio-assessment`, `kt:aws-application-discovery-service`, `kt:aws-database-migration-service`, `kt:aws-migration-acceleration-program`, `kt:aws-migration-and-transfer-services`, `kt:aws-migration-hub`, `kt:aws-schema-conversion-tool`, `kt:aws-snowball-edge`, `kt:aws-transform`, `kt:aws-transform-mgn`, `kt:dms-quotas` …
+1. `kt:amazon-cognito`, `kt:amazon-detective`, `kt:amazon-guardduty`, `kt:amazon-inspector`, `kt:amazon-macie`, `kt:amazon-security-lake`, `kt:amazon-verified-permissions`, `kt:attribute-based-access-control`, `kt:aws-audit-manager`, `kt:aws-certified-cloud-practitioner`, `kt:aws-cloudtrail`, `kt:aws-config` …
+2. `kt:agentcore-quotas`, `kt:amazon-appflow`, `kt:amazon-athena`, `kt:amazon-bedrock`, `kt:amazon-bedrock-agentcore`, `kt:amazon-bedrock-agents`, `kt:amazon-bedrock-data-automation`, `kt:amazon-bedrock-guardrails`, `kt:amazon-bedrock-knowledge-bases`, `kt:amazon-comprehend`, `kt:amazon-comprehend-medical`, `kt:amazon-data-firehose` …
+3. `kt:amazon-application-recovery-controller`, `kt:amazon-cloudfront`, `kt:amazon-elastic-vmware-service`, `kt:amazon-route-53`, `kt:amazon-vpc`, `kt:availability-zones`, `kt:aws-certified-advanced-networking-specialty`, `kt:aws-client-vpn`, `kt:aws-cloud-wan`, `kt:aws-direct-connect`, `kt:aws-global-accelerator`, `kt:aws-global-network` …
+4. `kt:amazon-aurora`, `kt:amazon-cloudwatch`, `kt:amazon-documentdb`, `kt:amazon-dynamodb`, `kt:amazon-dynamodb-accelerator`, `kt:amazon-elasticache`, `kt:amazon-neptune`, `kt:amazon-rds`, `kt:application-discovery-service-quotas`, `kt:application-portfolio-assessment`, `kt:aurora-global-database`, `kt:aurora-limitless-database` …
+5. `kt:amazon-ec2`, `kt:amazon-ec2-auto-scaling`, `kt:amazon-ecr`, `kt:amazon-ecs`, `kt:amazon-eks`, `kt:attribute-based-instance-type-selection`, `kt:aws-app-runner`, `kt:aws-auto-scaling`, `kt:aws-batch`, `kt:aws-cloud-map`, `kt:aws-compute-services`, `kt:aws-container-services` …
+6. `kt:aws-ai-factories`, `kt:aws-artifact`, `kt:aws-cloudhsm`, `kt:aws-compliance-programs`, `kt:aws-data-centers`, `kt:aws-dedicated-local-zones`, `kt:aws-european-sovereign-cloud`, `kt:aws-global-infrastructure`, `kt:aws-govcloud-us`, `kt:aws-marketplace-vendor-insights`, `kt:aws-nitro-enclaves`, `kt:aws-nitro-system` …
+7. `kt:amazon-api-gateway`, `kt:amazon-eventbridge`, `kt:amazon-mq`, `kt:amazon-sns`, `kt:amazon-sqs`, `kt:amazon-swf`, `kt:api-gateway-quotas`, `kt:application-load-balancer`, `kt:appsync-quotas`, `kt:aws-amplify`, `kt:aws-application-integration-services`, `kt:aws-appsync` …
+8. `kt:amazon-vpc-lattice`, `kt:aws-builder-id`, `kt:aws-cdk`, `kt:aws-certification-program`, `kt:aws-certified-cloudops-engineer-associate`, `kt:aws-certified-devops-engineer-professional`, `kt:aws-certified-security-specialty`, `kt:aws-certified-solutions-architect-professional`, `kt:aws-cloudformation`, `kt:aws-codebuild`, `kt:aws-codecommit`, `kt:aws-codedeploy` …
+9. `kt:amazon-ebs`, `kt:amazon-efs`, `kt:amazon-fsx`, `kt:amazon-machine-images`, `kt:amazon-s3-files`, `kt:amazon-s3-quotas`, `kt:ami-quotas`, `kt:aws-account-management`, `kt:aws-backup`, `kt:aws-backup-quotas`, `kt:aws-datasync`, `kt:aws-elastic-disaster-recovery` …
+10. `kt:amazon-web-services`, `kt:aws-billing-and-cost-management`, `kt:aws-billing-conductor`, `kt:aws-billing-transfer`, `kt:aws-budgets`, `kt:aws-compute-optimizer`, `kt:aws-cost-and-usage-report`, `kt:aws-cost-anomaly-detection`, `kt:aws-cost-explorer`, `kt:aws-cost-management-services`, `kt:aws-data-exports`, `kt:aws-free-tier` …
 
 ## By type
 
@@ -55,7 +55,7 @@
 - Pattern: 17
 - PricingModel: 5
 - Resource: 4
-- Service: 128
+- Service: 129
 - Tool: 5
 
 ## By domain
@@ -70,7 +70,7 @@
 - databases: 16
 - devops-and-iac: 16
 - global-infrastructure: 16
-- governance-and-operations: 16
+- governance-and-operations: 17
 - identity-and-access: 16
 - migration-and-hybrid: 17
 - networking-and-content-delivery: 17
@@ -81,12 +81,12 @@
 
 ## By month verified (oldest = most likely stale)
 
-- 2026-11: 296
+- 2026-11: 297
 
 ## By status
 
 - closed-to-new-customers: 7
 - concept: 69
-- current: 217
+- current: 218
 - preview: 1
 - retired: 2

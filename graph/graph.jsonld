@@ -16563,6 +16563,102 @@
       ]
     },
     {
+      "@id": "kt:aws-resource-explorer",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Resource Explorer",
+      "skos:definition": "A no-additional-charge AWS service that indexes resource metadata (ARNs, names, IDs, tags) per Region and lets you search it with a query language, across Regions through an aggregator index and across accounts through AWS Organizations multi-account views.",
+      "kto:domain": "governance-and-operations",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Resource Explorer? - AWS Resource Explorer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/resource-explorer/latest/userguide/welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for Resource Explorer - AWS Resource Explorer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/resource-explorer/latest/userguide/quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using AWS Resource Explorer to search for resources - AWS Resource Explorer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/resource-explorer/latest/userguide/using-search.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Resource Explorer FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/resourceexplorer/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Resource Explorer endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/arex.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Resource Explorer Features",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/resourceexplorer/features",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/governance-and-operations/aws-resource-explorer.md",
+      "skos:altLabel": [
+        "Resource Explorer",
+        "AWS Resource Explorer 2",
+        "resource-explorer-2"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-management-and-governance-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-tag-editor"
+        },
+        {
+          "@id": "kt:tagging-strategy"
+        },
+        {
+          "@id": "kt:aws-resource-groups-tagging-api"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-config"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:aws-resource-access-manager"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-systems-manager"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-resource-groups-tagging-api",
       "@type": "kto:API",
       "skos:prefLabel": "AWS Resource Groups Tagging API",

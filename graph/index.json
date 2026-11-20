@@ -3989,6 +3989,29 @@
     ]
   },
   {
+    "id": "kt:aws-resource-explorer",
+    "title": "AWS Resource Explorer",
+    "aliases": [
+      "Resource Explorer",
+      "AWS Resource Explorer 2",
+      "resource-explorer-2"
+    ],
+    "type": "Service",
+    "domain": "governance-and-operations",
+    "file": "articles/governance-and-operations/aws-resource-explorer.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/resource-explorer/latest/userguide/welcome.html",
+      "https://docs.aws.amazon.com/resource-explorer/latest/userguide/quotas.html",
+      "https://docs.aws.amazon.com/resource-explorer/latest/userguide/using-search.html",
+      "https://aws.amazon.com/resourceexplorer/faqs",
+      "https://docs.aws.amazon.com/general/latest/gr/arex.html",
+      "https://aws.amazon.com/resourceexplorer/features"
+    ]
+  },
+  {
     "id": "kt:aws-resource-groups-tagging-api",
     "title": "AWS Resource Groups Tagging API",
     "aliases": [

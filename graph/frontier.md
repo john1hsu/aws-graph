@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway`, `kt:subnets-and-route-tables` |
 | `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls`, `kt:subnets-and-route-tables` |
-| `kt:aws-resource-explorer` | `kt:aws-resource-groups-tagging-api`, `kt:aws-tag-editor` |
 | `kt:aws-x-ray` | `kt:microservices-architecture`, `kt:aws-developer-tools` |
 | `kt:ec2-capacity-blocks-for-ml` | `kt:aws-trainium-and-inferentia`, `kt:ec2-instance-quotas` |
 | `kt:lambda-quotas` | `kt:api-gateway-quotas`, `kt:aws-lambda` |

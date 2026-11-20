@@ -4577,6 +4577,33 @@
 <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Resource Explorer" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Resource Explorer 2" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/2004/02/skos/core#altLabel> "Resource Explorer" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/2004/02/skos/core#altLabel> "resource-explorer-2" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-management-and-governance-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/2004/02/skos/core#definition> "A no-additional-charge AWS service that indexes resource metadata (ARNs, names, IDs, tags) per Region and lets you search it with a query language, across Regions through an aggregator index and across accounts through AWS Organizations multi-account views." .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Resource Explorer" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-tag-editor> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/tagging-strategy> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-systems-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <https://github.com/john1hsu/aws-graph/ontology#domain> "governance-and-operations" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-config> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-resource-access-manager> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-resource-explorer> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://purl.org/dc/terms/created> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#API> .
 <https://github.com/john1hsu/aws-graph/id/aws-resource-groups-tagging-api> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Resource Groups Tagging API" .
@@ -13595,6 +13622,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-resource-access-manager/s8> <https://schema.org/url> "https://aws.amazon.com/ram/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s1> <http://purl.org/dc/terms/title> "What is AWS Resource Explorer? - AWS Resource Explorer" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s1> <https://schema.org/url> "https://docs.aws.amazon.com/resource-explorer/latest/userguide/welcome.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s2> <http://purl.org/dc/terms/title> "Quotas for Resource Explorer - AWS Resource Explorer" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s2> <https://schema.org/url> "https://docs.aws.amazon.com/resource-explorer/latest/userguide/quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s3> <http://purl.org/dc/terms/title> "Using AWS Resource Explorer to search for resources - AWS Resource Explorer" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s3> <https://schema.org/url> "https://docs.aws.amazon.com/resource-explorer/latest/userguide/using-search.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s4> <http://purl.org/dc/terms/title> "AWS Resource Explorer FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s4> <https://schema.org/url> "https://aws.amazon.com/resourceexplorer/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s5> <http://purl.org/dc/terms/title> "AWS Resource Explorer endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s5> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/arex.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s6> <http://purl.org/dc/terms/title> "AWS Resource Explorer Features" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-resource-explorer/s6> <https://schema.org/url> "https://aws.amazon.com/resourceexplorer/features" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s1> <http://purl.org/dc/terms/title> "GetResources - Resource Groups Tagging API" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-resource-groups-tagging-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
