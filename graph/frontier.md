@@ -8,7 +8,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway`, `kt:subnets-and-route-tables` |
 | `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls`, `kt:subnets-and-route-tables` |
 | `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service`, `kt:aws-migration-hub` |
-| `kt:aws-data-exports` | `kt:aws-cost-and-usage-report`, `kt:cost-optimization-hub` |
 | `kt:aws-resource-explorer` | `kt:aws-resource-groups-tagging-api`, `kt:aws-tag-editor` |
 | `kt:aws-x-ray` | `kt:microservices-architecture`, `kt:aws-developer-tools` |
 | `kt:ec2-capacity-blocks-for-ml` | `kt:aws-trainium-and-inferentia`, `kt:ec2-instance-quotas` |
@@ -90,6 +89,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |
 | `kt:entity-resolution-quotas` | `kt:aws-entity-resolution` |
 | `kt:eventbridge-quotas` | `kt:amazon-eventbridge` |
+| `kt:finops-open-cost-and-usage-specification` | `kt:aws-data-exports` |
 | `kt:firewall-manager-quotas` | `kt:aws-firewall-manager` |
 | `kt:global-accelerator-quotas` | `kt:aws-global-accelerator` |
 | `kt:glue-quotas` | `kt:aws-glue` |

@@ -10216,6 +10216,117 @@
       ]
     },
     {
+      "@id": "kt:aws-data-exports",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Data Exports",
+      "skos:definition": "The Billing and Cost Management feature that delivers recurring exports of billing, cost-optimization and carbon-emissions tables (CUR 2.0, FOCUS 1.0 and 1.2, Cost Optimization Hub recommendations, carbon emissions) to Amazon S3, shaped by a basic SQL query, and that can also deploy a prebuilt QuickSight cost and usage dashboard.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Data Exports? - AWS Data Exports",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cur/latest/userguide/what-is-data-exports.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Creating data exports - AWS Data Exports",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-create.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Creating a standard export - AWS Data Exports",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-create-standard.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Setting up an Amazon S3 bucket for data exports - AWS Data Exports",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-s3-bucket.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data query–SQL query and table configurations - AWS Data Exports",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-data-query.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Data Exports for FOCUS 1.2 is now generally available",
+          "dcterms:publisher": "What's New with AWS",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-data-exports-focus-1-2-available/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Data Exports now supports cross-account delivery",
+          "dcterms:publisher": "What's New with AWS",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-data-exports-cross-account-delivery-cost/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "FOCUS - FinOps Open Cost & Usage Specification",
+          "dcterms:publisher": "FinOps Foundation",
+          "schema:url": "https://focus.finops.org/",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/cost-management/aws-data-exports.md",
+      "skos:altLabel": [
+        "Data Exports",
+        "BCM Data Exports",
+        "Billing and Cost Management Data Exports"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-billing-and-cost-management"
+        },
+        {
+          "@id": "kt:aws-cost-management-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cost-optimization-hub"
+        },
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:sustainability-pillar"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:aws-cost-and-usage-report"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:finops-open-cost-and-usage-specification"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-athena"
+        },
+        {
+          "@id": "kt:amazon-redshift"
+        },
+        {
+          "@id": "kt:amazon-quick"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-free-tier",
       "@type": "kto:PricingModel",
       "skos:prefLabel": "AWS Free Tier",

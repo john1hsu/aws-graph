@@ -3358,6 +3358,36 @@
 <https://github.com/john1hsu/aws-graph/id/aws-data-centers> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
 <https://github.com/john1hsu/aws-graph/id/aws-data-centers> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/aws-data-centers> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/2004/02/skos/core#altLabel> "BCM Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/2004/02/skos/core#altLabel> "Billing and Cost Management Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-billing-and-cost-management> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/2004/02/skos/core#definition> "The Billing and Cost Management feature that delivers recurring exports of billing, cost-optimization and carbon-emissions tables (CUR 2.0, FOCUS 1.0 and 1.2, Cost Optimization Hub recommendations, carbon emissions) to Amazon S3, shaped by a basic SQL query, and that can also deploy a prebuilt QuickSight cost and usage dashboard." .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/sustainability-pillar> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s7> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s8> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <https://github.com/john1hsu/aws-graph/ontology#hasPart> <https://github.com/john1hsu/aws-graph/id/aws-cost-and-usage-report> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/finops-open-cost-and-usage-specification> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-quick> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-data-exports> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Database Migration Service" .
@@ -11986,6 +12016,46 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-data-centers/s6> <https://schema.org/url> "https://csrc.nist.gov/pubs/sp/800/88/r2/final" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s1> <http://purl.org/dc/terms/title> "What is AWS Data Exports? - AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s1> <https://schema.org/url> "https://docs.aws.amazon.com/cur/latest/userguide/what-is-data-exports.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s2> <http://purl.org/dc/terms/title> "Creating data exports - AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s2> <https://schema.org/url> "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-create.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s3> <http://purl.org/dc/terms/title> "Creating a standard export - AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s3> <https://schema.org/url> "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-create-standard.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s4> <http://purl.org/dc/terms/title> "Setting up an Amazon S3 bucket for data exports - AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s4> <https://schema.org/url> "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-s3-bucket.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s5> <http://purl.org/dc/terms/title> "Data query–SQL query and table configurations - AWS Data Exports" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s5> <https://schema.org/url> "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-data-query.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s6> <http://purl.org/dc/terms/publisher> "What's New with AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s6> <http://purl.org/dc/terms/title> "AWS Data Exports for FOCUS 1.2 is now generally available" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-data-exports-focus-1-2-available/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s7> <http://purl.org/dc/terms/publisher> "What's New with AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s7> <http://purl.org/dc/terms/title> "AWS Data Exports now supports cross-account delivery" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-data-exports-cross-account-delivery-cost/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s8> <http://purl.org/dc/terms/publisher> "FinOps Foundation" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s8> <http://purl.org/dc/terms/title> "FOCUS - FinOps Open Cost & Usage Specification" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-data-exports/s8> <https://schema.org/url> "https://focus.finops.org/" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-database-migration-service/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-database-migration-service/s10> <http://purl.org/dc/terms/title> "AWS Certified Cloud Practitioner - Exam Guide (CLF-C02)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-database-migration-service/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

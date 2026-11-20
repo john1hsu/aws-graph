@@ -2937,6 +2937,31 @@
     ]
   },
   {
+    "id": "kt:aws-data-exports",
+    "title": "AWS Data Exports",
+    "aliases": [
+      "Data Exports",
+      "BCM Data Exports",
+      "Billing and Cost Management Data Exports"
+    ],
+    "type": "Service",
+    "domain": "cost-management",
+    "file": "articles/cost-management/aws-data-exports.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/cur/latest/userguide/what-is-data-exports.html",
+      "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-create.html",
+      "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-create-standard.html",
+      "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-s3-bucket.html",
+      "https://docs.aws.amazon.com/cur/latest/userguide/dataexports-data-query.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-data-exports-focus-1-2-available/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-data-exports-cross-account-delivery-cost/",
+      "https://focus.finops.org/"
+    ]
+  },
+  {
     "id": "kt:aws-database-migration-service",
     "title": "AWS Database Migration Service",
     "aliases": [
