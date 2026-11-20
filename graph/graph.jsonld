@@ -11752,6 +11752,98 @@
       ]
     },
     {
+      "@id": "kt:dynamodb-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Amazon DynamoDB quotas",
+      "skos:definition": "The per-account, per-Region throughput, table, index, stream, global-table and data-movement quotas that bound Amazon DynamoDB; throughput and table counts are starting defaults that can be raised (throughput requests are auto-approved through Service Quotas), while index structure, vector-index and stream-reader limits are largely fixed.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Quotas in Amazon DynamoDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon DynamoDB endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/ddb.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "3- Account limits exceeded - Amazon DynamoDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/throttling-account-limit-exceeded-mitigation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DynamoDB maximum throughput for on-demand tables",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/on-demand-capacity-mode-max-throughput.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon DynamoDB now supports auto-approval of quota adjustments",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-dynamodb-supports-auto-approval-quota-adjustments",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon DynamoDB now supports more frequent throughput mode updates from provisioned to on-demand capacity",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-dynamodb-more-frequent-throughput-mode-updates",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/databases/dynamodb-quotas.md",
+      "skos:altLabel": [
+        "DynamoDB quotas",
+        "DynamoDB limits",
+        "DynamoDB service quotas",
+        "DynamoDB service limits",
+        "Amazon DynamoDB service limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:dynamodb-global-tables"
+        },
+        {
+          "@id": "kt:dynamodb-partition-key-design"
+        },
+        {
+          "@id": "kt:amazon-dynamodb-accelerator"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aurora-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:purpose-built-databases",
       "@type": "kto:Concept",
       "skos:prefLabel": "Purpose-built databases",

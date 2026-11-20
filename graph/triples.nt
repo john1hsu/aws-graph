@@ -5753,6 +5753,33 @@
 <https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <https://github.com/john1hsu/aws-graph/ontology#mitigates> <https://github.com/john1hsu/aws-graph/id/dynamodb-hot-partitions> .
 <https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon DynamoDB quotas" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon DynamoDB service limits" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "DynamoDB limits" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "DynamoDB quotas" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "DynamoDB service limits" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "DynamoDB service quotas" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-account, per-Region throughput, table, index, stream, global-table and data-movement quotas that bound Amazon DynamoDB; throughput and table counts are starting defaults that can be raised (throughput requests are auto-approved through Service Quotas), while index structure, vector-index and stream-reader limits are largely fixed." .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon DynamoDB quotas" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb-accelerator> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/dynamodb-global-tables> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/dynamodb-partition-key-design> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s6> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aurora-quotas> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/dynamodb-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
 <https://github.com/john1hsu/aws-graph/id/ebs-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EBS quotas" .
@@ -14598,6 +14625,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/aws-graph/id/source/dynamodb-partition-key-design/s6> <https://schema.org/url> "https://usenix.org/system/files/atc22-elhemali.pdf" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s1> <http://purl.org/dc/terms/title> "Quotas in Amazon DynamoDB" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s2> <http://purl.org/dc/terms/title> "Amazon DynamoDB endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/ddb.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s3> <http://purl.org/dc/terms/title> "3- Account limits exceeded - Amazon DynamoDB" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/throttling-account-limit-exceeded-mitigation.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s4> <http://purl.org/dc/terms/title> "DynamoDB maximum throughput for on-demand tables" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/on-demand-capacity-mode-max-throughput.html" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s5> <http://purl.org/dc/terms/title> "Amazon DynamoDB now supports auto-approval of quota adjustments" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-dynamodb-supports-auto-approval-quota-adjustments" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s6> <http://purl.org/dc/terms/title> "Amazon DynamoDB now supports more frequent throughput mode updates from provisioned to on-demand capacity" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/dynamodb-quotas/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-dynamodb-more-frequent-throughput-mode-updates" .
 <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s1> <http://purl.org/dc/terms/title> "Amazon Elastic Block Store endpoints and quotas (AWS General Reference)" .
 <https://github.com/john1hsu/aws-graph/id/source/ebs-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -5016,6 +5016,31 @@
     ]
   },
   {
+    "id": "kt:dynamodb-quotas",
+    "title": "Amazon DynamoDB quotas",
+    "aliases": [
+      "DynamoDB quotas",
+      "DynamoDB limits",
+      "DynamoDB service quotas",
+      "DynamoDB service limits",
+      "Amazon DynamoDB service limits"
+    ],
+    "type": "Limit",
+    "domain": "databases",
+    "file": "articles/databases/dynamodb-quotas.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html",
+      "https://docs.aws.amazon.com/general/latest/gr/ddb.html",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/throttling-account-limit-exceeded-mitigation.html",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/on-demand-capacity-mode-max-throughput.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-dynamodb-supports-auto-approval-quota-adjustments",
+      "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-dynamodb-more-frequent-throughput-mode-updates"
+    ]
+  },
+  {
     "id": "kt:ebs-quotas",
     "title": "Amazon EBS quotas",
     "aliases": [
