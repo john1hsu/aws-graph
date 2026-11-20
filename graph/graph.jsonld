@@ -22564,6 +22564,91 @@
       ]
     },
     {
+      "@id": "kt:cjis-on-aws",
+      "@type": "kto:ComplianceProgram",
+      "skos:prefLabel": "CJIS on AWS",
+      "skos:definition": "How U.S. criminal justice and public safety agencies host criminal justice information (CJI) on AWS under the FBI CJIS Security Policy: there is no central CJIS authorization, so agencies and their state CJIS Systems Agency assess compliance, typically relying on customer-controlled encryption keys in AWS KMS and the AWS Nitro System, in either AWS GovCloud (US) or the US commercial Regions.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Using AWS for Criminal Justice Information Solutions (CJIS Compliance)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/cjis/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Continued innovation in CJIS compliance in both AWS GovCloud (US) and AWS US Commercial Regions",
+          "dcterms:publisher": "Amazon Web Services (AWS Public Sector Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/publicsector/continued-innovation-cjis-compliance-both-aws-govcloud-us-aws-us-commercial-regions/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "How the latest FBI CJIS Security Policy updates help you control your criminal justice information",
+          "dcterms:publisher": "Amazon Web Services (AWS Public Sector Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/publicsector/latest-fbi-cjis-security-policy-updates-help-you-control-criminal-justice-information/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "CJIS Security Policy, Section 5: Policy and Implementation",
+          "dcterms:publisher": "FBI Criminal Justice Information Services Division",
+          "schema:url": "https://le.fbi.gov/cjis-division/cjis-security-policy-resource-center/policy-and-implementation",
+          "kto:sourceType": "government"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/cjis-on-aws.md",
+      "skos:altLabel": [
+        "AWS CJIS compliance",
+        "CJIS Security Policy on AWS",
+        "Criminal Justice Information Services on AWS",
+        "CJI on AWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        },
+        {
+          "@id": "kt:aws-govcloud-us"
+        },
+        {
+          "@id": "kt:fips-140-3-on-aws"
+        },
+        {
+          "@id": "kt:data-residency-on-aws"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        },
+        {
+          "@id": "kt:aws-nitro-system"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:cmmc-on-aws",
       "@type": "kto:ComplianceProgram",
       "skos:prefLabel": "CMMC on AWS",

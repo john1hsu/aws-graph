@@ -4649,6 +4649,28 @@
     ]
   },
   {
+    "id": "kt:cjis-on-aws",
+    "title": "CJIS on AWS",
+    "aliases": [
+      "AWS CJIS compliance",
+      "CJIS Security Policy on AWS",
+      "Criminal Justice Information Services on AWS",
+      "CJI on AWS"
+    ],
+    "type": "ComplianceProgram",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/cjis-on-aws.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/compliance/cjis/",
+      "https://aws.amazon.com/blogs/publicsector/continued-innovation-cjis-compliance-both-aws-govcloud-us-aws-us-commercial-regions/",
+      "https://aws.amazon.com/blogs/publicsector/latest-fbi-cjis-security-policy-updates-help-you-control-criminal-justice-information/",
+      "https://le.fbi.gov/cjis-division/cjis-security-policy-resource-center/policy-and-implementation"
+    ]
+  },
+  {
     "id": "kt:cloud-architecture",
     "title": "Cloud architecture",
     "aliases": [

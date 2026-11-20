@@ -5344,6 +5344,32 @@
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/ci-cd> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#ComplianceProgram> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/2000/01/rdf-schema#label> "CJIS on AWS" .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS CJIS compliance" .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "CJI on AWS" .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "CJIS Security Policy on AWS" .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/2004/02/skos/core#altLabel> "Criminal Justice Information Services on AWS" .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compliance-programs> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/2004/02/skos/core#definition> "How U.S. criminal justice and public safety agencies host criminal justice information (CJI) on AWS under the FBI CJIS Security Policy: there is no central CJIS authorization, so agencies and their state CJIS Systems Agency assess compliance, typically relying on customer-controlled encryption keys in AWS KMS and the AWS Nitro System, in either AWS GovCloud (US) or the US commercial Regions." .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/2004/02/skos/core#prefLabel> "CJIS on AWS" .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/data-residency-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/fips-140-3-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s1> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s2> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s3> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s4> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <https://github.com/john1hsu/aws-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-nitro-system> .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/cjis-on-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://purl.org/dc/terms/created> "2026-11-19" .
 <https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/cloud-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Cloud architecture" .
@@ -14353,6 +14379,26 @@
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/ci-cd/s9> <https://schema.org/url> "https://builder.aws.com/content/3ErTKQOTKc5NIw031UePBPxTQ6I/automating-safe-hands-off-deployments" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s1> <http://purl.org/dc/terms/title> "Using AWS for Criminal Justice Information Solutions (CJIS Compliance)" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s1> <https://schema.org/url> "https://aws.amazon.com/compliance/cjis/" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Public Sector Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s2> <http://purl.org/dc/terms/title> "Continued innovation in CJIS compliance in both AWS GovCloud (US) and AWS US Commercial Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s2> <https://schema.org/url> "https://aws.amazon.com/blogs/publicsector/continued-innovation-cjis-compliance-both-aws-govcloud-us-aws-us-commercial-regions/" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Public Sector Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s3> <http://purl.org/dc/terms/title> "How the latest FBI CJIS Security Policy updates help you control your criminal justice information" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s3> <https://schema.org/url> "https://aws.amazon.com/blogs/publicsector/latest-fbi-cjis-security-policy-updates-help-you-control-criminal-justice-information/" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s4> <http://purl.org/dc/terms/publisher> "FBI Criminal Justice Information Services Division" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s4> <http://purl.org/dc/terms/title> "CJIS Security Policy, Section 5: Policy and Implementation" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/aws-graph/id/source/cjis-on-aws/s4> <https://schema.org/url> "https://le.fbi.gov/cjis-division/cjis-security-policy-resource-center/policy-and-implementation" .
 <https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s1> <http://purl.org/dc/terms/publisher> "National Institute of Standards and Technology" .
 <https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s1> <http://purl.org/dc/terms/title> "The NIST Definition of Cloud Computing (SP 800-145)" .
 <https://github.com/john1hsu/aws-graph/id/source/cloud-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
