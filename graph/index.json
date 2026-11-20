@@ -6458,6 +6458,32 @@
     ]
   },
   {
+    "id": "kt:recycle-bin",
+    "title": "Recycle Bin for Amazon EBS",
+    "aliases": [
+      "Recycle Bin",
+      "Amazon EBS Recycle Bin",
+      "EC2 Recycle Bin",
+      "Recycle Bin rule lock",
+      "rbin"
+    ],
+    "type": "Feature",
+    "domain": "storage",
+    "file": "articles/storage/recycle-bin.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recycle-bin.html",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/recycle-bin-concepts.html",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/recycle-bin-factors.md",
+      "https://docs.aws.amazon.com/ebs/latest/userguide/recycle-bin-lock.html",
+      "https://docs.aws.amazon.com/recyclebin/latest/APIReference/API_CreateRule.html",
+      "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-ebs-rule-lock-recycle-bin-unintended-changes-region-level-snapshots-amis",
+      "https://aws.amazon.com/blogs/storage/protect-your-resources-from-deletions-through-rule-lock-for-recycle-bin"
+    ]
+  },
+  {
     "id": "kt:reliability-pillar",
     "title": "Reliability Pillar",
     "aliases": [

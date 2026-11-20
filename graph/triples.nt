@@ -7400,6 +7400,34 @@
 <https://github.com/john1hsu/aws-graph/id/rds-proxy> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/rds-proxy> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/rds-proxy> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/2000/01/rdf-schema#label> "Recycle Bin for Amazon EBS" .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon EBS Recycle Bin" .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 Recycle Bin" .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/2004/02/skos/core#altLabel> "Recycle Bin rule lock" .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/2004/02/skos/core#altLabel> "Recycle Bin" .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/2004/02/skos/core#altLabel> "rbin" .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ebs> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/2004/02/skos/core#definition> "A Region-scoped Amazon EBS capability that retains deleted EBS volumes, EBS snapshots and EBS-backed AMIs for a period set by retention rules, so they can be restored after accidental or malicious deletion; rules can be locked against changes." .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Recycle Bin for Amazon EBS" .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-backup> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ebs-snapshots> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s1> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s2> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s3> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s4> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s5> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s6> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s7> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/disaster-recovery-strategies> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/recycle-bin> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/reliability-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Reliability Pillar" .
@@ -16719,6 +16747,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/rds-proxy/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/rds-proxy/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/rds-proxy/s9> <https://schema.org/url> "https://docs.aws.amazon.com/hi_in/AmazonRDS/latest/AuroraUserGuide/rds-proxy-gdb.html" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s1> <http://purl.org/dc/terms/title> "Recover deleted EBS volumes, EBS snapshots, and EBS-backed AMIs with Recycle Bin - Amazon EBS" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recycle-bin.html" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s2> <http://purl.org/dc/terms/title> "How does Recycle Bin work? - Amazon EBS" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s2> <https://schema.org/url> "https://docs.aws.amazon.com/ebs/latest/userguide/recycle-bin-concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s3> <http://purl.org/dc/terms/title> "Considerations for Recycle Bin - Amazon EBS" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s3> <https://schema.org/url> "https://docs.aws.amazon.com/ebs/latest/userguide/recycle-bin-factors.md" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s4> <http://purl.org/dc/terms/title> "Lock a Recycle Bin retention rule to prevent it from being updated or deleted - Amazon EBS" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s4> <https://schema.org/url> "https://docs.aws.amazon.com/ebs/latest/userguide/recycle-bin-lock.html" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s5> <http://purl.org/dc/terms/title> "CreateRule - Recycle Bin API Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s5> <https://schema.org/url> "https://docs.aws.amazon.com/recyclebin/latest/APIReference/API_CreateRule.html" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s6> <http://purl.org/dc/terms/title> "Amazon EBS launches Rule Lock for Recycle Bin to prevent unintended changes to Region-level retention rules for Snapshots and AMIs" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-ebs-rule-lock-recycle-bin-unintended-changes-region-level-snapshots-amis" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Storage Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s7> <http://purl.org/dc/terms/title> "Protect your resources from unintended deletions through Rule Lock for Recycle Bin" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/recycle-bin/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/storage/protect-your-resources-from-deletions-through-rule-lock-for-recycle-bin" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://purl.org/dc/terms/title> "Reliability Pillar - AWS Well-Architected Framework (introduction)" .
 <https://github.com/john1hsu/aws-graph/id/source/reliability-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

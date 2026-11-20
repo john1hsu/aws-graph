@@ -123,7 +123,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:payment-cryptography-quotas` | `kt:aws-payment-cryptography` |
 | `kt:ram-quotas` | `kt:aws-resource-access-manager` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
-| `kt:recycle-bin` | `kt:ebs-snapshots` |
 | `kt:red-hat-openshift-service-on-aws` | `kt:aws-container-services` |
 | `kt:redshift-quotas` | `kt:amazon-redshift` |
 | `kt:rekognition-quotas` | `kt:amazon-rekognition` |

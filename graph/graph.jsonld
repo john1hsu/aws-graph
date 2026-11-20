@@ -28372,6 +28372,104 @@
       ]
     },
     {
+      "@id": "kt:recycle-bin",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Recycle Bin for Amazon EBS",
+      "skos:definition": "A Region-scoped Amazon EBS capability that retains deleted EBS volumes, EBS snapshots and EBS-backed AMIs for a period set by retention rules, so they can be restored after accidental or malicious deletion; rules can be locked against changes.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Recover deleted EBS volumes, EBS snapshots, and EBS-backed AMIs with Recycle Bin - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recycle-bin.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How does Recycle Bin work? - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/recycle-bin-concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Recycle Bin - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/recycle-bin-factors.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lock a Recycle Bin retention rule to prevent it from being updated or deleted - Amazon EBS",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ebs/latest/userguide/recycle-bin-lock.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CreateRule - Recycle Bin API Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/recyclebin/latest/APIReference/API_CreateRule.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EBS launches Rule Lock for Recycle Bin to prevent unintended changes to Region-level retention rules for Snapshots and AMIs",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-ebs-rule-lock-recycle-bin-unintended-changes-region-level-snapshots-amis",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Protect your resources from unintended deletions through Rule Lock for Recycle Bin",
+          "dcterms:publisher": "Amazon Web Services (AWS Storage Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/storage/protect-your-resources-from-deletions-through-rule-lock-for-recycle-bin",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/storage/recycle-bin.md",
+      "skos:altLabel": [
+        "Recycle Bin",
+        "Amazon EBS Recycle Bin",
+        "EC2 Recycle Bin",
+        "Recycle Bin rule lock",
+        "rbin"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ebs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:ebs-snapshots"
+        },
+        {
+          "@id": "kt:amazon-machine-images"
+        },
+        {
+          "@id": "kt:aws-backup"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:disaster-recovery-strategies"
+        }
+      ]
+    },
+    {
       "@id": "kt:s3-storage-classes",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon S3 storage classes",
