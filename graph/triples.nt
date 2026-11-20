@@ -1822,6 +1822,28 @@
 <https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Application Discovery Service quotas" .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "ADS quotas" .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "ADS service limits" .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Application Discovery Service limits" .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Application Discovery Service quotas" .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-application-discovery-service> .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-account, per-Region limits on AWS Application Discovery Service: caps on applications, servers per application, imported server records and daily import deletions, import file size, active and inactive agents, and tags per server. Only the imported-servers quota is adjustable." .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Application Discovery Service quotas" .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-migration-hub> .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/migration-wave-planning> .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-transform> .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/application-discovery-service-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/application-load-balancer> <http://www.w3.org/2000/01/rdf-schema#label> "Application Load Balancer" .
@@ -10258,6 +10280,21 @@
 <https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/api-gateway-quotas/s6> <https://schema.org/url> "https://docs.aws.amazon.com/apigateway/latest/developerguide/response-transfer-mode.html" .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s1> <http://purl.org/dc/terms/title> "AWS Application Discovery Service Quotas - AWS Application Discovery Service" .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/application-discovery/latest/userguide/ads_service_limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s2> <http://purl.org/dc/terms/title> "AWS Application Discovery Service endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/appdiscserv.html" .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s3> <http://purl.org/dc/terms/title> "AWS Application Discovery Service availability change" .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/application-discovery-service-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/application-discovery/latest/userguide/application-discovery-service-availability-change.html" .
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s1> <http://purl.org/dc/terms/title> "What is an Application Load Balancer? - Elastic Load Balancing" .
 <https://github.com/john1hsu/aws-graph/id/source/application-load-balancer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

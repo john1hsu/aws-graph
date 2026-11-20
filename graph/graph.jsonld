@@ -19308,6 +19308,74 @@
       ]
     },
     {
+      "@id": "kt:application-discovery-service-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "AWS Application Discovery Service quotas",
+      "skos:definition": "The per-account, per-Region limits on AWS Application Discovery Service: caps on applications, servers per application, imported server records and daily import deletions, import file size, active and inactive agents, and tags per server. Only the imported-servers quota is adjustable.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Application Discovery Service Quotas - AWS Application Discovery Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/application-discovery/latest/userguide/ads_service_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Application Discovery Service endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/appdiscserv.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Application Discovery Service availability change",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/application-discovery/latest/userguide/application-discovery-service-availability-change.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/application-discovery-service-quotas.md",
+      "skos:altLabel": [
+        "Application Discovery Service quotas",
+        "ADS quotas",
+        "AWS Application Discovery Service limits",
+        "ADS service limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-application-discovery-service"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:application-portfolio-assessment"
+        },
+        {
+          "@id": "kt:migration-wave-planning"
+        },
+        {
+          "@id": "kt:aws-migration-hub"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-transform"
+        }
+      ]
+    },
+    {
       "@id": "kt:application-portfolio-assessment",
       "@type": "kto:Concept",
       "skos:prefLabel": "Application portfolio assessment",

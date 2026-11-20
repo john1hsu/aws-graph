@@ -1587,6 +1587,27 @@
     ]
   },
   {
+    "id": "kt:application-discovery-service-quotas",
+    "title": "AWS Application Discovery Service quotas",
+    "aliases": [
+      "Application Discovery Service quotas",
+      "ADS quotas",
+      "AWS Application Discovery Service limits",
+      "ADS service limits"
+    ],
+    "type": "Limit",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/application-discovery-service-quotas.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/application-discovery/latest/userguide/ads_service_limits.html",
+      "https://docs.aws.amazon.com/general/latest/gr/appdiscserv.html",
+      "https://docs.aws.amazon.com/application-discovery/latest/userguide/application-discovery-service-availability-change.html"
+    ]
+  },
+  {
     "id": "kt:application-load-balancer",
     "title": "Application Load Balancer",
     "aliases": [
