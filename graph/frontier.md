@@ -99,6 +99,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:hitrust-csf` | `kt:hipaa-eligible-services` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
 | `kt:iam-policy-simulator` | `kt:iam-policy-evaluation-logic` |
+| `kt:iam-roles-for-service-accounts` | `kt:eks-pod-identity` |
 | `kt:iam-users` | `kt:iam-roles` |
 | `kt:icd-503` | `kt:aws-secret-and-top-secret-regions` |
 | `kt:kendra-quotas` | `kt:amazon-kendra` |

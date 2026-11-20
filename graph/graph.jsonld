@@ -8845,6 +8845,101 @@
       ]
     },
     {
+      "@id": "kt:eks-pod-identity",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon EKS Pod Identity",
+      "skos:definition": "An Amazon EKS feature that gives the pods of a Kubernetes service account temporary IAM credentials through an association managed by the EKS API and a per-node agent, without an OIDC identity provider per cluster; a simpler alternative to IAM roles for service accounts (IRSA).",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn how EKS Pod Identity grants pods access to AWS services",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understand how EKS Pod Identity works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/pod-id-how-it-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EKS Pod Identity: a new way for applications on EKS to obtain IAM credentials",
+          "dcterms:publisher": "AWS Containers Blog",
+          "schema:url": "https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon EKS Pod Identity simplifies the experience for cross-account access",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-eks-pod-identity-cross-account-access",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Session policies for Amazon EKS Pod Identity",
+          "dcterms:publisher": "AWS Containers Blog",
+          "schema:url": "https://aws.amazon.com/blogs/containers/session-policies-for-amazon-eks-pod-identity",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon EKS introduces EKS Pod Identity in the AWS GovCloud (US) Regions",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/08/amazon-eks-pod-identity-aws-govcloud-us-regions",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/containers/eks-pod-identity.md",
+      "skos:altLabel": [
+        "EKS Pod Identity",
+        "Pod Identity",
+        "EKS Pod Identity Agent"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:eks-auto-mode"
+        },
+        {
+          "@id": "kt:eks-quotas"
+        },
+        {
+          "@id": "kt:attribute-based-access-control"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:iam-roles-for-service-accounts"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:iam-roles"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-sts"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:eks-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:eks-quotas",
       "@type": "kto:Limit",
       "skos:prefLabel": "Amazon EKS quotas",

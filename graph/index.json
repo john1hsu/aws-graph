@@ -5416,6 +5416,29 @@
     ]
   },
   {
+    "id": "kt:eks-pod-identity",
+    "title": "Amazon EKS Pod Identity",
+    "aliases": [
+      "EKS Pod Identity",
+      "Pod Identity",
+      "EKS Pod Identity Agent"
+    ],
+    "type": "Feature",
+    "domain": "containers",
+    "file": "articles/containers/eks-pod-identity.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html",
+      "https://docs.aws.amazon.com/eks/latest/userguide/pod-id-how-it-works.html",
+      "https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials",
+      "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-eks-pod-identity-cross-account-access",
+      "https://aws.amazon.com/blogs/containers/session-policies-for-amazon-eks-pod-identity",
+      "https://aws.amazon.com/about-aws/whats-new/2024/08/amazon-eks-pod-identity-aws-govcloud-us-regions"
+    ]
+  },
+  {
     "id": "kt:eks-quotas",
     "title": "Amazon EKS quotas",
     "aliases": [
