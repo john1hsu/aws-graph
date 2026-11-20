@@ -5412,6 +5412,30 @@
     ]
   },
   {
+    "id": "kt:ec2-capacity-blocks-for-ml",
+    "title": "Amazon EC2 Capacity Blocks for ML",
+    "aliases": [
+      "EC2 Capacity Blocks",
+      "Capacity Blocks for ML",
+      "Capacity Blocks",
+      "Capacity Block reservations"
+    ],
+    "type": "Feature",
+    "domain": "compute",
+    "file": "articles/compute/ec2-capacity-blocks-for-ml.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-blocks.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-blocks-how.html",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-blocks-extend.html",
+      "https://aws.amazon.com/ec2/capacityblocks/pricing/",
+      "https://docs.aws.amazon.com/decision-guides/latest/decision-guides/ec2-purchasing-options-aws-how-to-choose.html",
+      "https://aws.amazon.com/blogs/machine-learning/secure-short-term-gpu-capacity-for-ml-workloads-with-ec2-capacity-blocks-for-ml-and-sagemaker-training-plans/"
+    ]
+  },
+  {
     "id": "kt:ec2-image-builder",
     "title": "EC2 Image Builder",
     "aliases": [

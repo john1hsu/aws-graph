@@ -6205,6 +6205,36 @@
 <https://github.com/john1hsu/aws-graph/id/ebs-snapshots> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/ebs-snapshots> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/ebs-snapshots> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 Capacity Blocks for ML" .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2004/02/skos/core#altLabel> "Capacity Block reservations" .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2004/02/skos/core#altLabel> "Capacity Blocks for ML" .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2004/02/skos/core#altLabel> "Capacity Blocks" .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2004/02/skos/core#altLabel> "EC2 Capacity Blocks" .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2004/02/skos/core#definition> "An Amazon EC2 purchasing option that reserves GPU or Trainium accelerated instances (or UltraServers) inside EC2 UltraClusters for a fixed, time-boxed window of 1 to 182 days, starting as soon as minutes later or up to eight weeks ahead, paid up front at a supply-and-demand price." .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EC2 Capacity Blocks for ML" .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-trainium-and-inferentia> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ec2-instance-quotas> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ec2-instance-types> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s1> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s2> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s3> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s4> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s5> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s6> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/spot-instances> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/on-demand-capacity-reservations> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <https://github.com/john1hsu/aws-graph/ontology#domain> "compute" .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/ec2-capacity-blocks-for-ml> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/ec2-image-builder> <http://www.w3.org/2000/01/rdf-schema#label> "EC2 Image Builder" .
@@ -15602,6 +15632,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/ebs-snapshots/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/ebs-snapshots/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/ebs-snapshots/s9> <https://schema.org/url> "https://docs.aws.amazon.com/ebs/latest/userguide/snapshot-archive.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s1> <http://purl.org/dc/terms/title> "Capacity Blocks for ML - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-blocks.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s2> <http://purl.org/dc/terms/title> "How Amazon EC2 Capacity Blocks work - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-blocks-how.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s3> <http://purl.org/dc/terms/title> "Extend Capacity Blocks - Amazon Elastic Compute Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-blocks-extend.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s4> <http://purl.org/dc/terms/title> "Amazon EC2 Capacity Blocks for ML pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s4> <https://schema.org/url> "https://aws.amazon.com/ec2/capacityblocks/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s5> <http://purl.org/dc/terms/title> "Choosing a purchasing option for Amazon EC2 - AWS Decision Guides" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s5> <https://schema.org/url> "https://docs.aws.amazon.com/decision-guides/latest/decision-guides/ec2-purchasing-options-aws-how-to-choose.html" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s6> <http://purl.org/dc/terms/publisher> "AWS Machine Learning Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s6> <http://purl.org/dc/terms/title> "Secure short-term GPU capacity for ML workloads with EC2 Capacity Blocks for ML and SageMaker training plans" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/ec2-capacity-blocks-for-ml/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/machine-learning/secure-short-term-gpu-capacity-for-ml-workloads-with-ec2-capacity-blocks-for-ml-and-sagemaker-training-plans/" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s1> <http://purl.org/dc/terms/title> "What is Image Builder? - EC2 Image Builder" .
 <https://github.com/john1hsu/aws-graph/id/source/ec2-image-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

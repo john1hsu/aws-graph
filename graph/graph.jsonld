@@ -7203,6 +7203,111 @@
       ]
     },
     {
+      "@id": "kt:ec2-capacity-blocks-for-ml",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon EC2 Capacity Blocks for ML",
+      "skos:definition": "An Amazon EC2 purchasing option that reserves GPU or Trainium accelerated instances (or UltraServers) inside EC2 UltraClusters for a fixed, time-boxed window of 1 to 182 days, starting as soon as minutes later or up to eight weeks ahead, paid up front at a supply-and-demand price.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Capacity Blocks for ML - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-blocks.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Amazon EC2 Capacity Blocks work - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-blocks-how.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Extend Capacity Blocks - Amazon Elastic Compute Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-blocks-extend.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EC2 Capacity Blocks for ML pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choosing a purchasing option for Amazon EC2 - AWS Decision Guides",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/decision-guides/latest/decision-guides/ec2-purchasing-options-aws-how-to-choose.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Secure short-term GPU capacity for ML workloads with EC2 Capacity Blocks for ML and SageMaker training plans",
+          "dcterms:publisher": "AWS Machine Learning Blog",
+          "schema:url": "https://aws.amazon.com/blogs/machine-learning/secure-short-term-gpu-capacity-for-ml-workloads-with-ec2-capacity-blocks-for-ml-and-sagemaker-training-plans/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/compute/ec2-capacity-blocks-for-ml.md",
+      "skos:altLabel": [
+        "EC2 Capacity Blocks",
+        "Capacity Blocks for ML",
+        "Capacity Blocks",
+        "Capacity Block reservations"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:on-demand-capacity-reservations"
+        },
+        {
+          "@id": "kt:aws-trainium-and-inferentia"
+        },
+        {
+          "@id": "kt:ec2-instance-types"
+        },
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        },
+        {
+          "@id": "kt:ec2-instance-quotas"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:on-demand-capacity-reservations"
+        },
+        {
+          "@id": "kt:savings-plans"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:spot-instances"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:availability-zones"
+        }
+      ]
+    },
+    {
       "@id": "kt:ec2-image-builder",
       "@type": "kto:Service",
       "skos:prefLabel": "EC2 Image Builder",
