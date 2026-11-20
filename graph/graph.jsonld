@@ -18332,6 +18332,108 @@
       ]
     },
     {
+      "@id": "kt:amazon-elastic-vmware-service",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Elastic VMware Service",
+      "skos:definition": "An AWS-native service, generally available since August 2025, that deploys a customer-licensed VMware Cloud Foundation (VCF) stack onto EC2 bare metal hosts inside the customer's own Amazon VPC, so VMware workloads can move to AWS while keeping vSphere tooling and IP addressing.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Elastic VMware Service?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/evs/latest/userguide/what-is-evs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS announces general availability of Amazon Elastic VMware Service (Amazon EVS)",
+          "dcterms:publisher": "What's New with AWS",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-general-availability-amazon-elastic-evs",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Introducing Amazon Elastic VMware Service for running VMware Cloud Foundation on AWS",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/blogs/aws/introducing-amazon-elastic-vmware-service-for-running-vmware-cloud-foundation-on-aws",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Elastic VMware Service endpoints and quotas",
+          "dcterms:publisher": "Amazon Web Services (AWS General Reference)",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/evs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EVS service quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/evs/latest/userguide/service-quotas-evs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EVS is now available in additional Regions",
+          "dcterms:publisher": "What's New with AWS",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/amazon-elastic-vmware-service.md",
+      "skos:altLabel": [
+        "Amazon EVS",
+        "EVS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:vmware-migration-to-aws"
+        },
+        {
+          "@id": "kt:aws-direct-connect"
+        },
+        {
+          "@id": "kt:aws-site-to-site-vpn"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-transit-gateway"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-transform-mgn"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-fsx"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ]
+    },
+    {
       "@id": "kt:application-portfolio-assessment",
       "@type": "kto:Concept",
       "skos:prefLabel": "Application portfolio assessment",

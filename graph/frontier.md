@@ -18,7 +18,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
-| `kt:amazon-elastic-vmware-service` | `kt:vmware-migration-to-aws` |
 | `kt:amazon-kinesis-video-streams` | `kt:amazon-rekognition` |
 | `kt:amazon-macie` | `kt:aws-security-hub` |
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |

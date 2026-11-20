@@ -656,6 +656,28 @@
     ]
   },
   {
+    "id": "kt:amazon-elastic-vmware-service",
+    "title": "Amazon Elastic VMware Service",
+    "aliases": [
+      "Amazon EVS",
+      "EVS"
+    ],
+    "type": "Service",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/amazon-elastic-vmware-service.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/evs/latest/userguide/what-is-evs.html",
+      "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-general-availability-amazon-elastic-evs",
+      "https://aws.amazon.com/blogs/aws/introducing-amazon-elastic-vmware-service-for-running-vmware-cloud-foundation-on-aws",
+      "https://docs.aws.amazon.com/general/latest/gr/evs.html",
+      "https://docs.aws.amazon.com/evs/latest/userguide/service-quotas-evs.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/"
+    ]
+  },
+  {
     "id": "kt:amazon-elasticache",
     "title": "Amazon ElastiCache",
     "aliases": [

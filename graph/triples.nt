@@ -750,6 +750,33 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Elastic VMware Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon EVS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/2004/02/skos/core#altLabel> "EVS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/2004/02/skos/core#definition> "An AWS-native service, generally available since August 2025, that deploys a customer-licensed VMware Cloud Foundation (VCF) stack onto EC2 bare metal hosts inside the customer's own Amazon VPC, so VMware workloads can move to AWS while keeping vSphere tooling and IP addressing." .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Elastic VMware Service" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-site-to-site-vpn> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-transform-mgn> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-fsx> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-elastic-vmware-service> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-elasticache> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon ElastiCache" .
@@ -8519,6 +8546,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s1> <http://purl.org/dc/terms/title> "What is Amazon Elastic VMware Service?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s1> <https://schema.org/url> "https://docs.aws.amazon.com/evs/latest/userguide/what-is-evs.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s2> <http://purl.org/dc/terms/publisher> "What's New with AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s2> <http://purl.org/dc/terms/title> "AWS announces general availability of Amazon Elastic VMware Service (Amazon EVS)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s2> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-general-availability-amazon-elastic-evs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s3> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s3> <http://purl.org/dc/terms/title> "Introducing Amazon Elastic VMware Service for running VMware Cloud Foundation on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s3> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/introducing-amazon-elastic-vmware-service-for-running-vmware-cloud-foundation-on-aws" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s4> <http://purl.org/dc/terms/title> "Amazon Elastic VMware Service endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s4> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/evs.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s5> <http://purl.org/dc/terms/title> "Amazon EVS service quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s5> <https://schema.org/url> "https://docs.aws.amazon.com/evs/latest/userguide/service-quotas-evs.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s6> <http://purl.org/dc/terms/publisher> "What's New with AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s6> <http://purl.org/dc/terms/title> "Amazon EVS is now available in additional Regions" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-elastic-vmware-service/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s1> <http://purl.org/dc/terms/title> "What is Amazon ElastiCache?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-elasticache/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
