@@ -199,6 +199,112 @@
       ]
     },
     {
+      "@id": "kt:amazon-bedrock-data-automation",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon Bedrock Data Automation",
+      "skos:definition": "A generative-AI capability of Amazon Bedrock that turns unstructured documents, images, audio and video into structured output, either as default \"standard output\" or as fields defined in reusable blueprints, grouped and invoked through projects.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How Bedrock Data Automation works",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/bda-how-it-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prerequisites for using Bedrock Data Automation",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/bda-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Bedrock Data Automation projects",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/bda-projects.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Blueprints",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/bedrock/latest/userguide/bda-blueprint-info.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock endpoints and quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/bedrock.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Bedrock Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/bedrock/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get insights from multimodal content with Amazon Bedrock Data Automation, now generally available",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/blogs/aws/get-insights-from-multimodal-content-with-amazon-bedrock-data-automation-now-generally-available/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-bedrock-data-automation.md",
+      "skos:altLabel": [
+        "Bedrock Data Automation",
+        "BDA"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:generative-ai-on-aws"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-bedrock-knowledge-bases"
+        },
+        {
+          "@id": "kt:amazon-textract"
+        },
+        {
+          "@id": "kt:amazon-transcribe"
+        },
+        {
+          "@id": "kt:amazon-rekognition"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:amazon-bedrock"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-textract"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-bedrock-knowledge-bases"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-bedrock-guardrails",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon Bedrock Guardrails",

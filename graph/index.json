@@ -197,6 +197,29 @@
     ]
   },
   {
+    "id": "kt:amazon-bedrock-data-automation",
+    "title": "Amazon Bedrock Data Automation",
+    "aliases": [
+      "Bedrock Data Automation",
+      "BDA"
+    ],
+    "type": "Feature",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-bedrock-data-automation.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/bda-how-it-works.html",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/bda-limits.html",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/bda-projects.html",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/bda-blueprint-info.html",
+      "https://docs.aws.amazon.com/general/latest/gr/bedrock.html",
+      "https://aws.amazon.com/bedrock/pricing/",
+      "https://aws.amazon.com/blogs/aws/get-insights-from-multimodal-content-with-amazon-bedrock-data-automation-now-generally-available/"
+    ]
+  },
+  {
     "id": "kt:amazon-bedrock-guardrails",
     "title": "Amazon Bedrock Guardrails",
     "aliases": [

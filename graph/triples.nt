@@ -199,6 +199,34 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <https://github.com/john1hsu/aws-graph/ontology#status> "closed-to-new-customers" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-agents> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Bedrock Data Automation" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/2004/02/skos/core#altLabel> "BDA" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/2004/02/skos/core#altLabel> "Bedrock Data Automation" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/generative-ai-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/2004/02/skos/core#definition> "A generative-AI capability of Amazon Bedrock that turns unstructured documents, images, audio and video into structured output, either as default \"standard output\" or as fields defined in reusable blueprints, grouped and invoked through projects." .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Bedrock Data Automation" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-rekognition> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-textract> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-transcribe> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-textract> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-knowledge-bases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-bedrock-data-automation> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/amazon-bedrock-guardrails> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Bedrock Guardrails" .
@@ -8047,6 +8075,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-agents/s6> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/bedrock.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s1> <http://purl.org/dc/terms/title> "How Bedrock Data Automation works" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s1> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/bda-how-it-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s2> <http://purl.org/dc/terms/title> "Prerequisites for using Bedrock Data Automation" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s2> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/bda-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s3> <http://purl.org/dc/terms/title> "Bedrock Data Automation projects" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s3> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/bda-projects.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s4> <http://purl.org/dc/terms/title> "Blueprints" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s4> <https://schema.org/url> "https://docs.aws.amazon.com/bedrock/latest/userguide/bda-blueprint-info.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s5> <http://purl.org/dc/terms/title> "Amazon Bedrock endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s5> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/bedrock.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s6> <http://purl.org/dc/terms/title> "Amazon Bedrock Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s6> <https://schema.org/url> "https://aws.amazon.com/bedrock/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s7> <http://purl.org/dc/terms/title> "Get insights from multimodal content with Amazon Bedrock Data Automation, now generally available" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-data-automation/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/get-insights-from-multimodal-content-with-amazon-bedrock-data-automation-now-generally-available/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <http://purl.org/dc/terms/title> "Detect and filter harmful content by using Amazon Bedrock Guardrails" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-bedrock-guardrails/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
