@@ -1634,6 +1634,29 @@
     ]
   },
   {
+    "id": "kt:appsync-quotas",
+    "title": "AWS AppSync quotas",
+    "aliases": [
+      "AppSync quotas",
+      "AWS AppSync limits",
+      "AppSync limits",
+      "AppSync service quotas",
+      "AppSync request token quota"
+    ],
+    "type": "Limit",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/appsync-quotas.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/general/latest/gr/appsync.html",
+      "https://docs.aws.amazon.com/appsync/latest/devguide/monitoring.html",
+      "https://docs.aws.amazon.com/appsync/latest/devguide/configuration-limits.html",
+      "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-appsync-increases-service-quota-adds-subscription/"
+    ]
+  },
+  {
     "id": "kt:attribute-based-access-control",
     "title": "Attribute-based access control (ABAC) on AWS",
     "aliases": [

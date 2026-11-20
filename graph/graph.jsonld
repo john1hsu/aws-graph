@@ -26391,6 +26391,83 @@
       ]
     },
     {
+      "@id": "kt:appsync-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "AWS AppSync quotas",
+      "skos:definition": "The per-account, per-Region limits on AWS AppSync: a request-token rate that meters GraphQL and Event API traffic by the compute each request consumes, adjustable real-time message and connection rates, and mostly fixed per-API limits on execution time, payload, code and schema size.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS AppSync endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/appsync.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using CloudWatch to monitor and log GraphQL API data - AWS AppSync GraphQL",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/appsync/latest/devguide/monitoring.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configuring GraphQL run complexity, query depth, and introspection with AWS AppSync - AWS AppSync GraphQL",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/appsync/latest/devguide/configuration-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS AppSync increases existing service quota and adds subscription service quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-appsync-increases-service-quota-adds-subscription/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/appsync-quotas.md",
+      "skos:altLabel": [
+        "AppSync quotas",
+        "AWS AppSync limits",
+        "AppSync limits",
+        "AppSync service quotas",
+        "AppSync request token quota"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-appsync"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:api-gateway-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-application-integration-services",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS application integration services",

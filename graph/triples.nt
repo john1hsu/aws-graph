@@ -1875,6 +1875,30 @@
 <https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> .
 <https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/application-portfolio-assessment> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "AWS AppSync quotas" .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS AppSync limits" .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AppSync limits" .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AppSync quotas" .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AppSync request token quota" .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AppSync service quotas" .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-appsync> .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The per-account, per-Region limits on AWS AppSync: a request-token rate that meters GraphQL and Event API traffic by the compute each request consumes, adjustable real-time message and connection rates, and mostly fixed per-API limits on execution time, payload, code and schema size." .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS AppSync quotas" .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/appsync-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/attribute-based-access-control> <http://www.w3.org/2000/01/rdf-schema#label> "Attribute-based access control (ABAC) on AWS" .
@@ -10211,6 +10235,26 @@
 <https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/application-portfolio-assessment/s6> <https://schema.org/url> "https://docs.aws.amazon.com/application-discovery/latest/userguide/application-discovery-service-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s1> <http://purl.org/dc/terms/title> "AWS AppSync endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/appsync.html" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s2> <http://purl.org/dc/terms/title> "Using CloudWatch to monitor and log GraphQL API data - AWS AppSync GraphQL" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/appsync/latest/devguide/monitoring.html" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s3> <http://purl.org/dc/terms/title> "Configuring GraphQL run complexity, query depth, and introspection with AWS AppSync - AWS AppSync GraphQL" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/appsync/latest/devguide/configuration-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s4> <http://purl.org/dc/terms/title> "AWS AppSync increases existing service quota and adds subscription service quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/appsync-quotas/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-appsync-increases-service-quota-adds-subscription/" .
 <https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s1> <http://purl.org/dc/terms/title> "Define permissions based on attributes with ABAC authorization - AWS Identity and Access Management" .
 <https://github.com/john1hsu/aws-graph/id/source/attribute-based-access-control/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
