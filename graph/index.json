@@ -5886,6 +5886,29 @@
     ]
   },
   {
+    "id": "kt:iam-users",
+    "title": "IAM users",
+    "aliases": [
+      "IAM user",
+      "AWS IAM user"
+    ],
+    "type": "Resource",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/iam-users.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_remove.html",
+      "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_unique.html",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html"
+    ]
+  },
+  {
     "id": "kt:immutable-infrastructure",
     "title": "Immutable infrastructure",
     "aliases": [

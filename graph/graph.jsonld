@@ -18264,6 +18264,104 @@
       ]
     },
     {
+      "@id": "kt:iam-users",
+      "@type": "kto:Resource",
+      "skos:prefLabel": "IAM users",
+      "skos:definition": "An identity created inside one AWS account, made of a name plus long-term credentials such as a console password or access keys; AWS now reserves IAM users for the few cases that cannot use federation or temporary credentials from IAM roles.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "IAM users - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage access keys for IAM users - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Security best practices in IAM - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Remove or deactivate an IAM user - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_remove.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SEC02-BP02 Use temporary credentials - Security Pillar",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_unique.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "IAM and AWS STS quotas - AWS Identity and Access Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Content Domain 2: Security and Compliance - AWS Certified Cloud Practitioner (CLF-C02)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/iam-users.md",
+      "skos:altLabel": [
+        "IAM user",
+        "AWS IAM user"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:iam-identity-center"
+        },
+        {
+          "@id": "kt:iam-policy-evaluation-logic"
+        },
+        {
+          "@id": "kt:security-pillar"
+        },
+        {
+          "@id": "kt:aws-secrets-manager"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:iam-roles"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:iam-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        }
+      ]
+    },
+    {
       "@id": "kt:permissions-boundaries",
       "@type": "kto:Feature",
       "skos:prefLabel": "IAM permissions boundaries",
