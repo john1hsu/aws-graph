@@ -903,6 +903,28 @@
     ]
   },
   {
+    "id": "kt:amazon-macie",
+    "title": "Amazon Macie",
+    "aliases": [
+      "Macie",
+      "AWS Macie"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/amazon-macie.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html",
+      "https://docs.aws.amazon.com/macie/latest/user/macie-quotas.html",
+      "https://docs.aws.amazon.com/macie/latest/user/discovery-asdd-how-it-works.html",
+      "https://docs.aws.amazon.com/macie/latest/user/account-mgmt-free-trial.html",
+      "https://aws.amazon.com/macie/pricing/",
+      "https://aws.amazon.com/macie/faq/"
+    ]
+  },
+  {
     "id": "kt:amazon-managed-service-for-apache-flink",
     "title": "Amazon Managed Service for Apache Flink",
     "aliases": [

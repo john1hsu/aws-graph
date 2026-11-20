@@ -23491,6 +23491,103 @@
       ]
     },
     {
+      "@id": "kt:amazon-macie",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Macie",
+      "skos:definition": "AWS's managed data security service for Amazon S3: it inventories and monitors general purpose buckets for security and access-control risks, and uses machine learning and pattern matching to discover sensitive data such as PII, financial data and credentials in S3 objects.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Macie? - Amazon Macie",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for Macie - Amazon Macie",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/macie/latest/user/macie-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How automated sensitive data discovery works - Amazon Macie",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/macie/latest/user/discovery-asdd-how-it-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Participating in the free trial of Macie - Amazon Macie",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/macie/latest/user/account-mgmt-free-trial.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Macie Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/macie/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Macie FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/macie/faq/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security/amazon-macie.md",
+      "skos:altLabel": [
+        "Macie",
+        "AWS Macie"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-security-hub"
+        },
+        {
+          "@id": "kt:amazon-guardduty"
+        },
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        },
+        {
+          "@id": "kt:aws-security-hub"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:macie-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cloudhsm",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS CloudHSM",

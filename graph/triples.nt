@@ -1043,6 +1043,32 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Macie" .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Macie" .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/2004/02/skos/core#altLabel> "Macie" .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed data security service for Amazon S3: it inventories and monitors general purpose buckets for security and access-control risks, and uses machine learning and pattern matching to discover sensitive data such as PII, financial data and credentials in S3 objects." .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Macie" .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-guardduty> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-security-hub> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/macie-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-security-hub> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-macie> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Managed Service for Apache Flink" .
@@ -8942,6 +8968,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-machine-images/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-machine-images/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-machine-images/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-ec2-amis-disabled-state" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s1> <http://purl.org/dc/terms/title> "What is Amazon Macie? - Amazon Macie" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s1> <https://schema.org/url> "https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s2> <http://purl.org/dc/terms/title> "Quotas for Macie - Amazon Macie" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s2> <https://schema.org/url> "https://docs.aws.amazon.com/macie/latest/user/macie-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s3> <http://purl.org/dc/terms/title> "How automated sensitive data discovery works - Amazon Macie" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s3> <https://schema.org/url> "https://docs.aws.amazon.com/macie/latest/user/discovery-asdd-how-it-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s4> <http://purl.org/dc/terms/title> "Participating in the free trial of Macie - Amazon Macie" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s4> <https://schema.org/url> "https://docs.aws.amazon.com/macie/latest/user/account-mgmt-free-trial.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s5> <http://purl.org/dc/terms/title> "Amazon Macie Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s5> <https://schema.org/url> "https://aws.amazon.com/macie/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s6> <http://purl.org/dc/terms/title> "Amazon Macie FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-macie/s6> <https://schema.org/url> "https://aws.amazon.com/macie/faq/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s10> <http://purl.org/dc/terms/title> "AWS Certified Data Engineer - Associate (DEA-C01) Exam Guide" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
