@@ -24,6 +24,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-security-lake` | `kt:amazon-detective` |
 | `kt:amazon-vpc-lattice` | `kt:ecs-native-blue-green-deployments` |
 | `kt:ami-quotas` | `kt:amazon-machine-images` |
+| `kt:apache-airflow` | `kt:amazon-mwaa` |
 | `kt:apache-flink` | `kt:amazon-managed-service-for-apache-flink` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
 | `kt:appflow-quotas` | `kt:amazon-appflow` |

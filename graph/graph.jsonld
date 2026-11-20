@@ -2383,6 +2383,119 @@
       ]
     },
     {
+      "@id": "kt:amazon-mwaa",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Managed Workflows for Apache Airflow",
+      "skos:definition": "AWS's managed service for running Apache Airflow workflow orchestration, either as provisioned environments (Fargate-based schedulers, workers and web server billed by the hour) or, with MWAA Serverless, as pay-per-task-time workflows with no environment to size.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is Amazon Managed Workflows for Apache Airflow?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/mwaa/latest/userguide/what-is-mwaa.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configuring the Amazon MWAA environment class",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/mwaa/latest/userguide/environment-class.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apache Airflow versions on Amazon Managed Workflows for Apache Airflow",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/mwaa/latest/userguide/airflow-versions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Managed Workflows for Apache Airflow pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/managed-workflows-for-apache-airflow/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon MWAA Serverless now supports PythonOperator and BashOperator",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon MWAA Serverless is now available in AWS GovCloud (US)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-serverless-aws-govcloud/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Apache Airflow UI available in Amazon MWAA Serverless",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/11/airflow-ui-for-mwaa-serverless/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/analytics/amazon-mwaa.md",
+      "skos:altLabel": [
+        "Amazon MWAA",
+        "MWAA",
+        "Managed Airflow",
+        "Amazon MWAA Serverless",
+        "MWAA Serverless"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-analytics-services"
+        },
+        {
+          "@id": "kt:aws-application-integration-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-glue"
+        },
+        {
+          "@id": "kt:amazon-emr"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:apache-airflow"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:aws-fargate"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-step-functions"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-opensearch-service",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon OpenSearch Service",

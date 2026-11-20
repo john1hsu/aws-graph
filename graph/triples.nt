@@ -1192,6 +1192,37 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-msk> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-16" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Managed Workflows for Apache Airflow" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon MWAA Serverless" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon MWAA" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/2004/02/skos/core#altLabel> "MWAA Serverless" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/2004/02/skos/core#altLabel> "MWAA" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/2004/02/skos/core#altLabel> "Managed Airflow" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-application-integration-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed service for running Apache Airflow workflow orchestration, either as provisioned environments (Fargate-based schedulers, workers and web server billed by the hour) or, with MWAA Serverless, as pay-per-task-time workflows with no environment to size." .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Managed Workflows for Apache Airflow" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-emr> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-step-functions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/apache-airflow> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/aws-fargate> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-mwaa> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-neptune> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Neptune" .
@@ -9340,6 +9371,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-msk/s8> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s1> <http://purl.org/dc/terms/title> "What Is Amazon Managed Workflows for Apache Airflow?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s1> <https://schema.org/url> "https://docs.aws.amazon.com/mwaa/latest/userguide/what-is-mwaa.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s2> <http://purl.org/dc/terms/title> "Configuring the Amazon MWAA environment class" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s2> <https://schema.org/url> "https://docs.aws.amazon.com/mwaa/latest/userguide/environment-class.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s3> <http://purl.org/dc/terms/title> "Apache Airflow versions on Amazon Managed Workflows for Apache Airflow" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s3> <https://schema.org/url> "https://docs.aws.amazon.com/mwaa/latest/userguide/airflow-versions.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s4> <http://purl.org/dc/terms/title> "Amazon Managed Workflows for Apache Airflow pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s4> <https://schema.org/url> "https://aws.amazon.com/managed-workflows-for-apache-airflow/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s5> <http://purl.org/dc/terms/title> "Amazon MWAA Serverless now supports PythonOperator and BashOperator" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s6> <http://purl.org/dc/terms/title> "Amazon MWAA Serverless is now available in AWS GovCloud (US)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-serverless-aws-govcloud/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s7> <http://purl.org/dc/terms/title> "Apache Airflow UI available in Amazon MWAA Serverless" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-mwaa/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/11/airflow-ui-for-mwaa-serverless/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s1> <http://purl.org/dc/terms/title> "What Is Amazon Neptune?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-neptune/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

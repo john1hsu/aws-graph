@@ -1030,6 +1030,32 @@
     ]
   },
   {
+    "id": "kt:amazon-mwaa",
+    "title": "Amazon Managed Workflows for Apache Airflow",
+    "aliases": [
+      "Amazon MWAA",
+      "MWAA",
+      "Managed Airflow",
+      "Amazon MWAA Serverless",
+      "MWAA Serverless"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/amazon-mwaa.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/mwaa/latest/userguide/what-is-mwaa.html",
+      "https://docs.aws.amazon.com/mwaa/latest/userguide/environment-class.html",
+      "https://docs.aws.amazon.com/mwaa/latest/userguide/airflow-versions.html",
+      "https://aws.amazon.com/managed-workflows-for-apache-airflow/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-serverless-aws-govcloud/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/11/airflow-ui-for-mwaa-serverless/"
+    ]
+  },
+  {
     "id": "kt:amazon-neptune",
     "title": "Amazon Neptune",
     "aliases": [
