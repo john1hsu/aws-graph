@@ -11,7 +11,7 @@ summary: >-
 verified: 2026-11-12
 status: concept
 broader: [kt:amazon-web-services]
-related: [kt:aws-skill-builder]
+related: [kt:aws-skill-builder, kt:aws-certified-ai-business-strategist]
 relations:
   - {predicate: hasPart, object: kt:aws-certified-cloud-practitioner}
   - {predicate: hasPart, object: kt:aws-certified-ai-practitioner}

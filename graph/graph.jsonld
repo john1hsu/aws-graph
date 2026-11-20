@@ -4760,6 +4760,9 @@
       "skos:related": [
         {
           "@id": "kt:aws-skill-builder"
+        },
+        {
+          "@id": "kt:aws-certified-ai-business-strategist"
         }
       ],
       "kto:hasPart": [
@@ -4864,6 +4867,80 @@
         },
         {
           "@id": "kt:aws-certified-solutions-architect-professional"
+        }
+      ]
+    },
+    {
+      "@id": "kt:aws-certified-ai-business-strategist",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "AWS Certified AI Business Strategist",
+      "skos:definition": "AWS's Business-category certification (exam AIB-C01, in beta from September 2026) that validates business judgment on AI initiatives (strategy, value, governance and organisational readiness) for non-technical professionals, rather than knowledge of how to build with AWS AI services.",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "preview",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Certified AI Business Strategist (AIB-C01) - Exam Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-business-strategist-01/ai-business-strategist-01.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Certified AI Business Strategist",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/certification/certified-ai-business-strategist/",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Introducing AWS Certified AI Business Strategist: Built for the people who scale AI",
+          "dcterms:publisher": "Amazon Web Services (AWS Training and Certification Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/training-and-certification/introducing-aws-certified-ai-business-strategist-built-for-the-people-who-scale-ai/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Content Domain 3: AI Governance and Responsible AI Leadership - AWS Certified AI Business Strategist",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-business-strategist-01/ai-business-strategist-01-domain3.html",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Technologies and concepts that might appear on the exam - AWS Certified AI Business Strategist",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/aws-certification/latest/ai-business-strategist-01/aib-01-technologies-concepts.html",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-certified-ai-business-strategist.md",
+      "skos:altLabel": [
+        "AIB-C01",
+        "AWS AI Business Strategist"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:generative-ai-on-aws"
+        },
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        },
+        {
+          "@id": "kt:amazon-quick"
+        },
+        {
+          "@id": "kt:aws-cloud-adoption-framework"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-certified-ai-practitioner"
         }
       ]
     },

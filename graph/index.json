@@ -2018,6 +2018,27 @@
     ]
   },
   {
+    "id": "kt:aws-certified-ai-business-strategist",
+    "title": "AWS Certified AI Business Strategist",
+    "aliases": [
+      "AIB-C01",
+      "AWS AI Business Strategist"
+    ],
+    "type": "Certification",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-certified-ai-business-strategist.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "preview",
+    "source_urls": [
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-business-strategist-01/ai-business-strategist-01.html",
+      "https://aws.amazon.com/certification/certified-ai-business-strategist/",
+      "https://aws.amazon.com/blogs/training-and-certification/introducing-aws-certified-ai-business-strategist-built-for-the-people-who-scale-ai/",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-business-strategist-01/ai-business-strategist-01-domain3.html",
+      "https://docs.aws.amazon.com/aws-certification/latest/ai-business-strategist-01/aib-01-technologies-concepts.html"
+    ]
+  },
+  {
     "id": "kt:aws-certified-ai-practitioner",
     "title": "AWS Certified AI Practitioner",
     "aliases": [
