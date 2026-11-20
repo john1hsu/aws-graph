@@ -5534,6 +5534,33 @@
 <https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
 <https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/cost-allocation-tags> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cost Optimization Hub" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/2004/02/skos/core#altLabel> "Cost Optimization Hub" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-billing-and-cost-management> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-cost-management-services> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/2004/02/skos/core#definition> "A free feature of AWS Billing and Cost Management that gathers rightsizing, idle-resource, upgrade, Graviton and commitment (Savings Plans and reservation) recommendations from across an organization's accounts and Regions into one deduplicated, prioritized list, with savings estimated after your existing discounts and a daily Cost Efficiency score." .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Cost Optimization Hub" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-trusted-advisor> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/reserved-instances> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s1> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s2> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s3> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s4> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s5> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s6> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s7> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-compute-optimizer> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <https://github.com/john1hsu/aws-graph/ontology#domain> "cost-management" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-data-exports> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/savings-plans> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-billing-and-cost-management> .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/cost-optimization-hub> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
 <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> <http://www.w3.org/2000/01/rdf-schema#label> "Cost Optimization Pillar" .
@@ -14478,6 +14505,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-allocation-tags/s7> <https://schema.org/url> "https://aws.amazon.com/blogs/aws-cost-management/cost-allocation-blog-series-2-aws-generated-vs-user-defined-cost-allocation-tag" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s1> <http://purl.org/dc/terms/title> "Identifying opportunities with Cost Optimization Hub - AWS Cost Management" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s1> <https://schema.org/url> "https://docs.aws.amazon.com/cost-management/latest/userguide/cost-optimization-hub.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s2> <http://purl.org/dc/terms/title> "Getting started with Cost Optimization Hub - AWS Cost Management" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s2> <https://schema.org/url> "https://docs.aws.amazon.com/cost-management/latest/userguide/coh-getting-started.html" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s3> <http://purl.org/dc/terms/title> "AWS Cost Optimization Hub FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s3> <https://schema.org/url> "https://aws.amazon.com/aws-cost-management/cost-optimization-hub/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s4> <http://purl.org/dc/terms/title> "Introducing Cost Optimization Hub" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2023/11/cost-optimization-hub" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s5> <http://purl.org/dc/terms/title> "AWS Cost Optimization Hub introduces Cost Efficiency metric to measure and track cloud cost efficiency" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cost-optimization-hub-cost-efficiency-metric-measure-track" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s6> <http://purl.org/dc/terms/title> "Cost Optimization Hub now supports Savings Plans and reservations preferences" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/05/cost-optimization-hub-savings-plans-reservations-preferences" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s7> <http://purl.org/dc/terms/title> "AWS Cost Optimization Hub now supports CSV download" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/cost-optimization-hub/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-cost-optimization-hub-csv-download/" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://purl.org/dc/terms/title> "Cost Optimization Pillar - AWS Well-Architected Framework (abstract and introduction)" .
 <https://github.com/john1hsu/aws-graph/id/source/cost-optimization-pillar/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

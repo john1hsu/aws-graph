@@ -4816,6 +4816,28 @@
     ]
   },
   {
+    "id": "kt:cost-optimization-hub",
+    "title": "AWS Cost Optimization Hub",
+    "aliases": [
+      "Cost Optimization Hub"
+    ],
+    "type": "Feature",
+    "domain": "cost-management",
+    "file": "articles/cost-management/cost-optimization-hub.md",
+    "created": "2026-11-20",
+    "verified": "2026-11-20",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/cost-management/latest/userguide/cost-optimization-hub.html",
+      "https://docs.aws.amazon.com/cost-management/latest/userguide/coh-getting-started.html",
+      "https://aws.amazon.com/aws-cost-management/cost-optimization-hub/faqs/",
+      "https://aws.amazon.com/about-aws/whats-new/2023/11/cost-optimization-hub",
+      "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cost-optimization-hub-cost-efficiency-metric-measure-track",
+      "https://aws.amazon.com/about-aws/whats-new/2025/05/cost-optimization-hub-savings-plans-reservations-preferences",
+      "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-cost-optimization-hub-csv-download/"
+    ]
+  },
+  {
     "id": "kt:cost-optimization-pillar",
     "title": "Cost Optimization Pillar",
     "aliases": [

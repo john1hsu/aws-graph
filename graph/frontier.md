@@ -8,6 +8,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:subnets-and-route-tables` | `kt:container-networking-on-aws`, `kt:amazon-vpc`, `kt:security-groups-vs-network-acls` |
 | `kt:application-discovery-service-quotas` | `kt:aws-application-discovery-service`, `kt:aws-migration-hub` |
+| `kt:aws-data-exports` | `kt:aws-cost-and-usage-report`, `kt:cost-optimization-hub` |
 | `kt:aws-resource-explorer` | `kt:aws-resource-groups-tagging-api`, `kt:aws-tag-editor` |
 | `kt:aws-x-ray` | `kt:microservices-architecture`, `kt:aws-developer-tools` |
 | `kt:cloud-computing` | `kt:cloud-architecture`, `kt:amazon-web-services` |
@@ -42,7 +43,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-codecommit` | `kt:aws-developer-tools` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-data-exchange` | `kt:aws-entity-resolution` |
-| `kt:aws-data-exports` | `kt:aws-cost-and-usage-report` |
 | `kt:aws-devops-agent` | `kt:aws-support-plans` |
 | `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
 | `kt:aws-network-security-manager` | `kt:aws-firewall-manager` |
@@ -73,7 +73,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cognito-quotas` | `kt:amazon-cognito` |
 | `kt:comprehend-quotas` | `kt:amazon-comprehend` |
 | `kt:control-tower-quotas` | `kt:aws-control-tower` |
-| `kt:cost-optimization-hub` | `kt:aws-compute-optimizer` |
 | `kt:data-perimeter` | `kt:resource-control-policies` |
 | `kt:data-warehouse` | `kt:data-lake-on-aws` |
 | `kt:datasync-quotas` | `kt:aws-datasync` |

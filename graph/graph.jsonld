@@ -10277,6 +10277,109 @@
       ]
     },
     {
+      "@id": "kt:cost-optimization-hub",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "AWS Cost Optimization Hub",
+      "skos:definition": "A free feature of AWS Billing and Cost Management that gathers rightsizing, idle-resource, upgrade, Graviton and commitment (Savings Plans and reservation) recommendations from across an organization's accounts and Regions into one deduplicated, prioritized list, with savings estimated after your existing discounts and a daily Cost Efficiency score.",
+      "kto:domain": "cost-management",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedOn": "2026-11-20",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Identifying opportunities with Cost Optimization Hub - AWS Cost Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cost-management/latest/userguide/cost-optimization-hub.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Getting started with Cost Optimization Hub - AWS Cost Management",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/cost-management/latest/userguide/coh-getting-started.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Cost Optimization Hub FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/aws-cost-management/cost-optimization-hub/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing Cost Optimization Hub",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2023/11/cost-optimization-hub",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Cost Optimization Hub introduces Cost Efficiency metric to measure and track cloud cost efficiency",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-cost-optimization-hub-cost-efficiency-metric-measure-track",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Cost Optimization Hub now supports Savings Plans and reservations preferences",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/05/cost-optimization-hub-savings-plans-reservations-preferences",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Cost Optimization Hub now supports CSV download",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-cost-optimization-hub-csv-download/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/cost-management/cost-optimization-hub.md",
+      "skos:altLabel": [
+        "Cost Optimization Hub"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-billing-and-cost-management"
+        },
+        {
+          "@id": "kt:aws-cost-management-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cost-optimization-pillar"
+        },
+        {
+          "@id": "kt:aws-trusted-advisor"
+        },
+        {
+          "@id": "kt:reserved-instances"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:aws-billing-and-cost-management"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-compute-optimizer"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-organizations"
+        },
+        {
+          "@id": "kt:savings-plans"
+        },
+        {
+          "@id": "kt:aws-data-exports"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-transfer-costs",
       "@type": "kto:PricingModel",
       "skos:prefLabel": "AWS data transfer costs",
