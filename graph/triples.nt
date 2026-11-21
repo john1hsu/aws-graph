@@ -5417,6 +5417,31 @@
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-tool> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-tool> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-well-architected-tool> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-20" .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/2000/01/rdf-schema#label> "AWS X-Ray" .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon X-Ray" .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/2004/02/skos/core#altLabel> "X-Ray" .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-developer-tools> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/2004/02/skos/core#definition> "AWS's distributed tracing service, which collects segments from instrumented applications and AWS services, stitches them into end-to-end traces and a service graph, and samples requests so you can find latency, errors and faults across microservices." .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS X-Ray" .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/microservices-architecture> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/opentelemetry> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <https://github.com/john1hsu/aws-graph/ontology#domain> "devops-and-iac" .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <https://github.com/john1hsu/aws-graph/ontology#partOf> <https://github.com/john1hsu/aws-graph/id/aws-developer-tools> .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-x-ray> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-21" .
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
 <https://github.com/john1hsu/aws-graph/id/blue-green-deployments> <http://www.w3.org/2000/01/rdf-schema#label> "Blue/green deployments" .
@@ -14727,6 +14752,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-tool/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-tool/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-well-architected-tool/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Cloud Operations Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s1> <http://purl.org/dc/terms/title> "Announcing AWS X-Ray SDKs/Daemon End-of-Support and OpenTelemetry Migration" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s1> <https://schema.org/url> "https://aws.amazon.com/blogs/mt/announcing-aws-x-ray-sdks-daemon-end-of-support-and-opentelemetry-migration" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s2> <http://purl.org/dc/terms/title> "AWS X-Ray endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s2> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/xray.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s3> <http://purl.org/dc/terms/title> "Transaction Search - Amazon CloudWatch" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Transaction-Search.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s4> <http://purl.org/dc/terms/title> "AWS X-Ray concepts" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s4> <https://schema.org/url> "https://docs.aws.amazon.com/xray/latest/devguide/xray-concepts.md" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s5> <http://purl.org/dc/terms/title> "Configuring sampling rules - AWS X-Ray" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-x-ray/s5> <https://schema.org/url> "https://docs.aws.amazon.com/xray/latest/devguide/xray-console-sampling.md" .
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s1> <http://purl.org/dc/terms/title> "Introduction - Blue/Green Deployments on AWS" .
 <https://github.com/john1hsu/aws-graph/id/source/blue-green-deployments/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

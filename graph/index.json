@@ -4716,6 +4716,27 @@
     ]
   },
   {
+    "id": "kt:aws-x-ray",
+    "title": "AWS X-Ray",
+    "aliases": [
+      "X-Ray",
+      "Amazon X-Ray"
+    ],
+    "type": "Service",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/aws-x-ray.md",
+    "created": "2026-11-21",
+    "verified": "2026-11-21",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/blogs/mt/announcing-aws-x-ray-sdks-daemon-end-of-support-and-opentelemetry-migration",
+      "https://docs.aws.amazon.com/general/latest/gr/xray.html",
+      "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Transaction-Search.html",
+      "https://docs.aws.amazon.com/xray/latest/devguide/xray-concepts.md",
+      "https://docs.aws.amazon.com/xray/latest/devguide/xray-console-sampling.md"
+    ]
+  },
+  {
     "id": "kt:blue-green-deployments",
     "title": "Blue/green deployments",
     "aliases": [

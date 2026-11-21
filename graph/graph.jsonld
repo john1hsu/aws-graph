@@ -13676,6 +13676,95 @@
       ]
     },
     {
+      "@id": "kt:aws-x-ray",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS X-Ray",
+      "skos:definition": "AWS's distributed tracing service, which collects segments from instrumented applications and AWS services, stitches them into end-to-end traces and a service graph, and samples requests so you can find latency, errors and faults across microservices.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedOn": "2026-11-21",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Announcing AWS X-Ray SDKs/Daemon End-of-Support and OpenTelemetry Migration",
+          "dcterms:publisher": "Amazon Web Services (AWS Cloud Operations Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/mt/announcing-aws-x-ray-sdks-daemon-end-of-support-and-opentelemetry-migration",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS X-Ray endpoints and quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/xray.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Transaction Search - Amazon CloudWatch",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Transaction-Search.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS X-Ray concepts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/xray/latest/devguide/xray-concepts.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configuring sampling rules - AWS X-Ray",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/xray/latest/devguide/xray-console-sampling.md",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/aws-x-ray.md",
+      "skos:altLabel": [
+        "X-Ray",
+        "Amazon X-Ray"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-developer-tools"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        },
+        {
+          "@id": "kt:microservices-architecture"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:aws-developer-tools"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        },
+        {
+          "@id": "kt:amazon-dynamodb"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:opentelemetry"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:blue-green-deployments",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Blue/green deployments",

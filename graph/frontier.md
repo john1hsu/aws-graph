@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway`, `kt:subnets-and-route-tables` |
 | `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls`, `kt:subnets-and-route-tables` |
-| `kt:aws-x-ray` | `kt:microservices-architecture`, `kt:aws-developer-tools` |
 | `kt:lambda-quotas` | `kt:api-gateway-quotas`, `kt:aws-lambda` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
@@ -116,6 +115,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
 | `kt:nist-sp-800-171` | `kt:cmmc-on-aws` |
 | `kt:opensearch-service-quotas` | `kt:amazon-opensearch-service` |
+| `kt:opentelemetry` | `kt:aws-x-ray` |
 | `kt:payment-cryptography-quotas` | `kt:aws-payment-cryptography` |
 | `kt:ram-quotas` | `kt:aws-resource-access-manager` |
 | `kt:rds-quotas` | `kt:amazon-rds` |
