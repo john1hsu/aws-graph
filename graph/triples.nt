@@ -1315,6 +1315,36 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Polly" .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Polly" .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Polly text-to-speech" .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/2004/02/skos/core#altLabel> "Polly" .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-ai-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/2004/02/skos/core#definition> "AWS's managed text-to-speech (TTS) service that turns plain text or SSML into lifelike audio through four voice engines (Standard, Neural, Long-form and Generative), with pronunciation lexicons, speech marks, asynchronous long-audio tasks to Amazon S3 and a bidirectional streaming API." .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Polly" .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-lex> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-transcribe> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s10> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s9> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/hipaa-eligible-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <https://github.com/john1hsu/aws-graph/ontology#domain> "ai-and-ml" .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-sns> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-polly> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-21" .
 <https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-q-business> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Q Business" .
@@ -9931,6 +9961,56 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-opensearch-service/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s10> <http://purl.org/dc/terms/title> "Amazon Polly now supports voice cloning" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s10> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s10> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-polly-now-supports-voice-cloning/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s1> <http://purl.org/dc/terms/title> "Amazon Polly voice engines" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s1> <https://schema.org/url> "https://docs.aws.amazon.com/polly/latest/dg/voice-engines-polly.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s2> <http://purl.org/dc/terms/title> "Quotas in Amazon Polly" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s2> <https://schema.org/url> "https://docs.aws.amazon.com/polly/latest/dg/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s3> <http://purl.org/dc/terms/title> "SynthesizeSpeech and StartSpeechSynthesisStream compared" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s3> <https://schema.org/url> "https://docs.aws.amazon.com/polly/latest/dg/bidirectional-streaming-choosing.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s4> <http://purl.org/dc/terms/title> "Amazon Polly endpoints and quotas (AWS General Reference)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s4> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/pol.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s5> <http://purl.org/dc/terms/title> "Amazon Polly Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s5> <https://schema.org/url> "https://aws.amazon.com/polly/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s6> <http://purl.org/dc/terms/title> "Amazon Polly FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s6> <https://schema.org/url> "https://aws.amazon.com/polly/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s7> <http://purl.org/dc/terms/title> "Long audio files (Amazon Polly Developer Guide)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s7> <https://schema.org/url> "https://docs.aws.amazon.com/polly/latest/dg/asynchronous.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s8> <http://purl.org/dc/terms/title> "Amazon Polly expands Generative TTS engine with 10 new voices, 2 new regions, and Bidirectional Streaming API" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s8> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-polly-expands-TTS-new-voices-and-bidirectional-streaming/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s9> <http://purl.org/dc/terms/title> "Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-polly/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s1> <http://purl.org/dc/terms/title> "Amazon Q Business availability change" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-q-business/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

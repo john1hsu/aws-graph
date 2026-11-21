@@ -786,6 +786,123 @@
       ]
     },
     {
+      "@id": "kt:amazon-polly",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Polly",
+      "skos:definition": "AWS's managed text-to-speech (TTS) service that turns plain text or SSML into lifelike audio through four voice engines (Standard, Neural, Long-form and Generative), with pronunciation lexicons, speech marks, asynchronous long-audio tasks to Amazon S3 and a bidirectional streaming API.",
+      "kto:domain": "ai-and-ml",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedOn": "2026-11-21",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Amazon Polly voice engines",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/polly/latest/dg/voice-engines-polly.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas in Amazon Polly",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/polly/latest/dg/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SynthesizeSpeech and StartSpeechSynthesisStream compared",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/polly/latest/dg/bidirectional-streaming-choosing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Polly endpoints and quotas (AWS General Reference)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/pol.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Polly Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/polly/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Polly FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/polly/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Long audio files (Amazon Polly Developer Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/polly/latest/dg/asynchronous.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Polly expands Generative TTS engine with 10 new voices, 2 new regions, and Bidirectional Streaming API",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-polly-expands-TTS-new-voices-and-bidirectional-streaming/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon Polly now supports voice cloning",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-polly-now-supports-voice-cloning/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/ai-and-ml/amazon-polly.md",
+      "skos:altLabel": [
+        "Polly",
+        "AWS Polly",
+        "Amazon Polly text-to-speech"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-ai-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-transcribe"
+        },
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:amazon-lex"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:amazon-sns"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:hipaa-eligible-services"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-q-business",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Q Business",

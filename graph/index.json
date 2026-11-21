@@ -1136,6 +1136,33 @@
     ]
   },
   {
+    "id": "kt:amazon-polly",
+    "title": "Amazon Polly",
+    "aliases": [
+      "Polly",
+      "AWS Polly",
+      "Amazon Polly text-to-speech"
+    ],
+    "type": "Service",
+    "domain": "ai-and-ml",
+    "file": "articles/ai-and-ml/amazon-polly.md",
+    "created": "2026-11-21",
+    "verified": "2026-11-21",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/polly/latest/dg/voice-engines-polly.html",
+      "https://docs.aws.amazon.com/polly/latest/dg/limits.html",
+      "https://docs.aws.amazon.com/polly/latest/dg/bidirectional-streaming-choosing.html",
+      "https://docs.aws.amazon.com/general/latest/gr/pol.html",
+      "https://aws.amazon.com/polly/pricing/",
+      "https://aws.amazon.com/polly/faqs/",
+      "https://docs.aws.amazon.com/polly/latest/dg/asynchronous.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-polly-expands-TTS-new-voices-and-bidirectional-streaming/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-polly-now-supports-voice-cloning/"
+    ]
+  },
+  {
     "id": "kt:amazon-q-business",
     "title": "Amazon Q Business",
     "aliases": [

@@ -15,6 +15,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
 | `kt:amazon-kinesis-video-streams` | `kt:amazon-rekognition` |
+| `kt:amazon-lex` | `kt:amazon-polly` |
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |
 | `kt:amazon-sagemaker-unified-studio` | `kt:amazon-datazone` |
 | `kt:amazon-vpc-lattice` | `kt:ecs-native-blue-green-deployments` |
