@@ -18463,6 +18463,90 @@
       ]
     },
     {
+      "@id": "kt:aws-builder-id",
+      "@type": "kto:Resource",
+      "skos:prefLabel": "AWS Builder ID",
+      "skos:definition": "A free personal AWS profile, separate from any AWS account, that signs an individual into select AWS tools such as AWS Builder Center, AWS Skill Builder, Amazon Q Developer, Kiro and AWS re:Post; it does not grant IAM credentials to AWS accounts except within the new AWS experience.",
+      "kto:domain": "identity-and-access",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedOn": "2026-11-21",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Sign in with AWS Builder ID - AWS Sign-In",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/signin/latest/userguide/sign-in-aws_builder_id.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Builder ID and other AWS credentials - AWS Sign-In",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/signin/latest/userguide/differences-aws_builder_id.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS tools and services that use AWS Builder ID - AWS Sign-In",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/en_us/signin/latest/userguide/builder_id-apps.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create your AWS Builder ID - AWS Sign-In",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/signin/latest/userguide/create-builder-id.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage AWS Builder ID multi-factor authentication (MFA) - AWS Sign-In",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/signin/latest/userguide/mfa-builder-id.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Builder ID now supports Sign in with GitHub and Amazon",
+          "dcterms:publisher": "Amazon Web Services (What's New with AWS)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-builder-id-sign-in-github-amazon",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/identity-and-access/aws-builder-id.md",
+      "skos:altLabel": [
+        "Builder ID",
+        "AWS Builder ID profile"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-sign-in"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-skill-builder"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:iam-identity-center"
+        },
+        {
+          "@id": "kt:iam-users"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:amazon-q-developer"
+        },
+        {
+          "@id": "kt:kiro"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-iam",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Identity and Access Management",

@@ -7,6 +7,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway`, `kt:subnets-and-route-tables` |
 | `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls`, `kt:subnets-and-route-tables` |
+| `kt:kiro` | `kt:amazon-q-developer`, `kt:aws-builder-id` |
 | `kt:lambda-quotas` | `kt:api-gateway-quotas`, `kt:aws-lambda` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
@@ -29,7 +30,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-auto-scaling` | `kt:amazon-ec2-auto-scaling` |
 | `kt:aws-billing-conductor` | `kt:aws-billing-and-cost-management` |
 | `kt:aws-billing-transfer` | `kt:aws-billing-and-cost-management` |
-| `kt:aws-builder-id` | `kt:aws-skill-builder` |
 | `kt:aws-client-vpn` | `kt:aws-site-to-site-vpn` |
 | `kt:aws-cloudtrail-lake` | `kt:amazon-security-lake` |
 | `kt:aws-codecommit` | `kt:aws-developer-tools` |
@@ -45,6 +45,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-security-hub-cspm` | `kt:aws-security-hub` |
 | `kt:aws-security-incident-response` | `kt:aws-support-plans` |
 | `kt:aws-service-catalog-appregistry` | `kt:aws-well-architected-tool` |
+| `kt:aws-sign-in` | `kt:aws-builder-id` |
 | `kt:aws-snowball-edge` | `kt:aws-schema-conversion-tool` |
 | `kt:aws-sustainability-console` | `kt:sustainability-pillar` |
 | `kt:aws-well-architected-agent` | `kt:aws-well-architected-tool` |
@@ -96,7 +97,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:icd-503` | `kt:aws-secret-and-top-secret-regions` |
 | `kt:kendra-quotas` | `kt:amazon-kendra` |
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
-| `kt:kiro` | `kt:amazon-q-developer` |
 | `kt:lake-formation-quotas` | `kt:aws-lake-formation` |
 | `kt:lambda-provisioned-concurrency` | `kt:lambda-cold-starts` |
 | `kt:lambda-snapstart` | `kt:lambda-cold-starts` |

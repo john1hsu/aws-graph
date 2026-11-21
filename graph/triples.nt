@@ -2489,6 +2489,29 @@
 <https://github.com/john1hsu/aws-graph/id/aws-budgets> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
 <https://github.com/john1hsu/aws-graph/id/aws-budgets> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-budgets> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Resource> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Builder ID" .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Builder ID profile" .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/2004/02/skos/core#altLabel> "Builder ID" .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-sign-in> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/2004/02/skos/core#definition> "A free personal AWS profile, separate from any AWS account, that signs an individual into select AWS tools such as AWS Builder Center, AWS Skill Builder, Amazon Q Developer, Kiro and AWS re:Post; it does not grant IAM credentials to AWS accounts except within the new AWS experience." .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Builder ID" .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-skill-builder> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/iam-users> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <https://github.com/john1hsu/aws-graph/ontology#domain> "identity-and-access" .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/amazon-q-developer> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/kiro> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-builder-id> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-21" .
 <https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-cdk> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Cloud Development Kit (AWS CDK)" .
@@ -11235,6 +11258,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-budgets/s7> <https://schema.org/url> "https://docs.aws.amazon.com/fr_fr/aws-certification/latest/userguide/clf-02-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s1> <http://purl.org/dc/terms/title> "Sign in with AWS Builder ID - AWS Sign-In" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s1> <https://schema.org/url> "https://docs.aws.amazon.com/signin/latest/userguide/sign-in-aws_builder_id.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s2> <http://purl.org/dc/terms/title> "AWS Builder ID and other AWS credentials - AWS Sign-In" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s2> <https://schema.org/url> "https://docs.aws.amazon.com/signin/latest/userguide/differences-aws_builder_id.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s3> <http://purl.org/dc/terms/title> "AWS tools and services that use AWS Builder ID - AWS Sign-In" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s3> <https://schema.org/url> "https://docs.aws.amazon.com/en_us/signin/latest/userguide/builder_id-apps.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s4> <http://purl.org/dc/terms/title> "Create your AWS Builder ID - AWS Sign-In" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s4> <https://schema.org/url> "https://docs.aws.amazon.com/signin/latest/userguide/create-builder-id.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s5> <http://purl.org/dc/terms/title> "Manage AWS Builder ID multi-factor authentication (MFA) - AWS Sign-In" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s5> <https://schema.org/url> "https://docs.aws.amazon.com/signin/latest/userguide/mfa-builder-id.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New with AWS)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s6> <http://purl.org/dc/terms/title> "AWS Builder ID now supports Sign in with GitHub and Amazon" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-builder-id/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-builder-id-sign-in-github-amazon" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <http://purl.org/dc/terms/title> "AWS Cloud Development Kit FAQs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-cdk/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

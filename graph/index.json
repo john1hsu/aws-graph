@@ -2165,6 +2165,28 @@
     ]
   },
   {
+    "id": "kt:aws-builder-id",
+    "title": "AWS Builder ID",
+    "aliases": [
+      "Builder ID",
+      "AWS Builder ID profile"
+    ],
+    "type": "Resource",
+    "domain": "identity-and-access",
+    "file": "articles/identity-and-access/aws-builder-id.md",
+    "created": "2026-11-21",
+    "verified": "2026-11-21",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/signin/latest/userguide/sign-in-aws_builder_id.html",
+      "https://docs.aws.amazon.com/signin/latest/userguide/differences-aws_builder_id.html",
+      "https://docs.aws.amazon.com/en_us/signin/latest/userguide/builder_id-apps.html",
+      "https://docs.aws.amazon.com/signin/latest/userguide/create-builder-id.html",
+      "https://docs.aws.amazon.com/signin/latest/userguide/mfa-builder-id.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-builder-id-sign-in-github-amazon"
+    ]
+  },
+  {
     "id": "kt:aws-cdk",
     "title": "AWS Cloud Development Kit (AWS CDK)",
     "aliases": [
