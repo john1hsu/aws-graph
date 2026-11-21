@@ -1421,6 +1421,29 @@
     ]
   },
   {
+    "id": "kt:amazon-sagemaker-unified-studio",
+    "title": "Amazon SageMaker Unified Studio",
+    "aliases": [
+      "SageMaker Unified Studio",
+      "SMUS"
+    ],
+    "type": "Service",
+    "domain": "analytics",
+    "file": "articles/analytics/amazon-sagemaker-unified-studio.md",
+    "created": "2026-11-21",
+    "verified": "2026-11-21",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/what-is-sagemaker-unified-studio.html",
+      "https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/concepts.html",
+      "https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/projects.html",
+      "https://aws.amazon.com/sagemaker/pricing/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-sagemaker-unified-studio-generally-available",
+      "https://aws.amazon.com/blogs/aws/collaborate-and-build-faster-with-amazon-sagemaker-unified-studio-now-generally-available",
+      "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-getting-started"
+    ]
+  },
+  {
     "id": "kt:amazon-security-lake",
     "title": "Amazon Security Lake",
     "aliases": [

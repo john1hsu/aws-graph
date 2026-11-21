@@ -1632,6 +1632,34 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon SageMaker Unified Studio" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/2004/02/skos/core#altLabel> "SMUS" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/2004/02/skos/core#altLabel> "SageMaker Unified Studio" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-analytics-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/2004/02/skos/core#definition> "The single web-based development environment of the next generation of Amazon SageMaker, where teams work in shared projects to query, prepare, govern and model data and build generative AI applications using AWS analytics, ML and Amazon Bedrock tools, with governance from the DataZone-based SageMaker Catalog." .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon SageMaker Unified Studio" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-bedrock> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-q-developer> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-datazone> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <https://github.com/john1hsu/aws-graph/ontology#domain> "analytics" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-emr> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/iam-identity-center> .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-unified-studio> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-21" .
 <https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://purl.org/dc/terms/created> "2026-11-21" .
 <https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Security Lake" .
@@ -10356,6 +10384,41 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <https://schema.org/url> "https://docs.aws.amazon.com/id_id/aws-certification/latest/userguide/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s1> <http://purl.org/dc/terms/title> "What is Amazon SageMaker Unified Studio? - Amazon SageMaker Unified Studio" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s1> <https://schema.org/url> "https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/what-is-sagemaker-unified-studio.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s2> <http://purl.org/dc/terms/title> "Amazon SageMaker Unified Studio terminology and concepts - Amazon SageMaker Unified Studio" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s2> <https://schema.org/url> "https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s3> <http://purl.org/dc/terms/title> "Projects - Amazon SageMaker Unified Studio" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s3> <https://schema.org/url> "https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/projects.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s4> <http://purl.org/dc/terms/title> "SageMaker pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s4> <https://schema.org/url> "https://aws.amazon.com/sagemaker/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s5> <http://purl.org/dc/terms/title> "Amazon SageMaker Unified Studio is now generally available" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-sagemaker-unified-studio-generally-available" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s6> <http://purl.org/dc/terms/title> "Collaborate and build faster with Amazon SageMaker Unified Studio, now generally available" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/collaborate-and-build-faster-with-amazon-sagemaker-unified-studio-now-generally-available" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s7> <http://purl.org/dc/terms/title> "Amazon SageMaker Unified Studio adds getting started tutorials and in-product release notes" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-unified-studio/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-getting-started" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s1> <http://purl.org/dc/terms/title> "What is Amazon Security Lake?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

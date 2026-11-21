@@ -2902,6 +2902,110 @@
       ]
     },
     {
+      "@id": "kt:amazon-sagemaker-unified-studio",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon SageMaker Unified Studio",
+      "skos:definition": "The single web-based development environment of the next generation of Amazon SageMaker, where teams work in shared projects to query, prepare, govern and model data and build generative AI applications using AWS analytics, ML and Amazon Bedrock tools, with governance from the DataZone-based SageMaker Catalog.",
+      "kto:domain": "analytics",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedOn": "2026-11-21",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon SageMaker Unified Studio? - Amazon SageMaker Unified Studio",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/what-is-sagemaker-unified-studio.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SageMaker Unified Studio terminology and concepts - Amazon SageMaker Unified Studio",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Projects - Amazon SageMaker Unified Studio",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/projects.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SageMaker pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/sagemaker/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon SageMaker Unified Studio is now generally available",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-sagemaker-unified-studio-generally-available",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Collaborate and build faster with Amazon SageMaker Unified Studio, now generally available",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/collaborate-and-build-faster-with-amazon-sagemaker-unified-studio-now-generally-available",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon SageMaker Unified Studio adds getting started tutorials and in-product release notes",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-getting-started",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/analytics/amazon-sagemaker-unified-studio.md",
+      "skos:altLabel": [
+        "SageMaker Unified Studio",
+        "SMUS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-analytics-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-sagemaker-ai"
+        },
+        {
+          "@id": "kt:amazon-bedrock"
+        },
+        {
+          "@id": "kt:data-lake-on-aws"
+        },
+        {
+          "@id": "kt:amazon-q-developer"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-datazone"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-redshift"
+        },
+        {
+          "@id": "kt:amazon-emr"
+        },
+        {
+          "@id": "kt:aws-glue"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:iam-identity-center"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-analytics-services",
       "@type": "kto:Concept",
       "skos:prefLabel": "AWS analytics services",

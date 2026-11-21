@@ -17,7 +17,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-kinesis-video-streams` | `kt:amazon-rekognition` |
 | `kt:amazon-lex` | `kt:amazon-polly` |
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |
-| `kt:amazon-sagemaker-unified-studio` | `kt:amazon-datazone` |
 | `kt:amazon-vpc-lattice` | `kt:ecs-native-blue-green-deployments` |
 | `kt:ami-quotas` | `kt:amazon-machine-images` |
 | `kt:apache-airflow` | `kt:amazon-mwaa` |
