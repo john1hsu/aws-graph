@@ -24985,6 +24985,137 @@
       ]
     },
     {
+      "@id": "kt:amazon-security-lake",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Security Lake",
+      "skos:definition": "AWS's fully managed security data lake, which collects logs and findings from AWS services, SaaS applications and third-party sources into Amazon S3 buckets in your own account, normalizes them to the Open Cybersecurity Schema Framework (OCSF) in Apache Parquet, and shares them with analytics and SIEM subscribers.",
+      "kto:domain": "security",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedOn": "2026-11-21",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Security Lake?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/security-lake/latest/userguide/what-is-security-lake.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Concepts and terminology - Amazon Security Lake",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/security-lake/latest/userguide/service-concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Open Cybersecurity Schema Framework (OCSF) in Security Lake",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/security-lake/latest/userguide/open-cybersecurity-schema-framework.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Security Lake FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/security-lake/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Security Lake Features",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/security-lake/features/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Security Lake Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/security-lake/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Security Lake pricing is determined",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/security-lake/latest/userguide/estimating-costs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Managing multiple accounts with AWS Organizations in Security Lake",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/security-lake/latest/userguide/multi-account-management.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Services in Scope by Compliance Program: FedRAMP",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security/amazon-security-lake.md",
+      "skos:altLabel": [
+        "Security Lake",
+        "AWS Security Lake"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-security-services"
+        },
+        {
+          "@id": "kt:data-lake-on-aws"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-detective"
+        },
+        {
+          "@id": "kt:aws-security-hub"
+        },
+        {
+          "@id": "kt:amazon-athena"
+        },
+        {
+          "@id": "kt:amazon-opensearch-service"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:aws-lake-formation"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-glue"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:open-cybersecurity-schema-framework"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:aws-organizations"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-cloudtrail-lake"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-cloudhsm",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS CloudHSM",

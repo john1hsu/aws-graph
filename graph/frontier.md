@@ -15,7 +15,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-kinesis-video-streams` | `kt:amazon-rekognition` |
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |
 | `kt:amazon-sagemaker-unified-studio` | `kt:amazon-datazone` |
-| `kt:amazon-security-lake` | `kt:amazon-detective` |
 | `kt:amazon-vpc-lattice` | `kt:ecs-native-blue-green-deployments` |
 | `kt:ami-quotas` | `kt:amazon-machine-images` |
 | `kt:apache-airflow` | `kt:amazon-mwaa` |
@@ -32,6 +31,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-billing-transfer` | `kt:aws-billing-and-cost-management` |
 | `kt:aws-builder-id` | `kt:aws-skill-builder` |
 | `kt:aws-client-vpn` | `kt:aws-site-to-site-vpn` |
+| `kt:aws-cloudtrail-lake` | `kt:amazon-security-lake` |
 | `kt:aws-codecommit` | `kt:aws-developer-tools` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-data-exchange` | `kt:aws-entity-resolution` |
@@ -113,6 +113,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:network-firewall-quotas` | `kt:aws-network-firewall` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
 | `kt:nist-sp-800-171` | `kt:cmmc-on-aws` |
+| `kt:open-cybersecurity-schema-framework` | `kt:amazon-security-lake` |
 | `kt:openid-connect` | `kt:iam-roles-for-service-accounts` |
 | `kt:opensearch-service-quotas` | `kt:amazon-opensearch-service` |
 | `kt:opentelemetry` | `kt:aws-x-ray` |

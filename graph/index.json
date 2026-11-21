@@ -1365,6 +1365,31 @@
     ]
   },
   {
+    "id": "kt:amazon-security-lake",
+    "title": "Amazon Security Lake",
+    "aliases": [
+      "Security Lake",
+      "AWS Security Lake"
+    ],
+    "type": "Service",
+    "domain": "security",
+    "file": "articles/security/amazon-security-lake.md",
+    "created": "2026-11-21",
+    "verified": "2026-11-21",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/security-lake/latest/userguide/what-is-security-lake.html",
+      "https://docs.aws.amazon.com/security-lake/latest/userguide/service-concepts.html",
+      "https://docs.aws.amazon.com/security-lake/latest/userguide/open-cybersecurity-schema-framework.html",
+      "https://aws.amazon.com/security-lake/faqs/",
+      "https://aws.amazon.com/security-lake/features/",
+      "https://aws.amazon.com/security-lake/pricing/",
+      "https://docs.aws.amazon.com/security-lake/latest/userguide/estimating-costs.html",
+      "https://docs.aws.amazon.com/security-lake/latest/userguide/multi-account-management.html",
+      "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/"
+    ]
+  },
+  {
     "id": "kt:amazon-sns",
     "title": "Amazon SNS",
     "aliases": [

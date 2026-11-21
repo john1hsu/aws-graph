@@ -1570,6 +1570,39 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-sagemaker-ai> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Security Lake" .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Security Lake" .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/2004/02/skos/core#altLabel> "Security Lake" .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-security-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/data-lake-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/2004/02/skos/core#definition> "AWS's fully managed security data lake, which collects logs and findings from AWS services, SaaS applications and third-party sources into Amazon S3 buckets in your own account, normalizes them to the Open Cybersecurity Schema Framework (OCSF) in Apache Parquet, and shares them with analytics and SIEM subscribers." .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Security Lake" .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-athena> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-detective> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-opensearch-service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-security-hub> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s9> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail-lake> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/fedramp-on-aws> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/aws-organizations> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-lake-formation> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <https://github.com/john1hsu/aws-graph/ontology#domain> "security" .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/open-cybersecurity-schema-framework> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-glue> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-security-lake> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-21" .
 <https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-sns> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon SNS" .
@@ -10059,6 +10092,51 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sagemaker-ai/s7> <https://schema.org/url> "https://docs.aws.amazon.com/id_id/aws-certification/latest/userguide/aif-01-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s1> <http://purl.org/dc/terms/title> "What is Amazon Security Lake?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s1> <https://schema.org/url> "https://docs.aws.amazon.com/security-lake/latest/userguide/what-is-security-lake.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s2> <http://purl.org/dc/terms/title> "Concepts and terminology - Amazon Security Lake" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s2> <https://schema.org/url> "https://docs.aws.amazon.com/security-lake/latest/userguide/service-concepts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s3> <http://purl.org/dc/terms/title> "Open Cybersecurity Schema Framework (OCSF) in Security Lake" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s3> <https://schema.org/url> "https://docs.aws.amazon.com/security-lake/latest/userguide/open-cybersecurity-schema-framework.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s4> <http://purl.org/dc/terms/title> "Amazon Security Lake FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s4> <https://schema.org/url> "https://aws.amazon.com/security-lake/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s5> <http://purl.org/dc/terms/title> "Amazon Security Lake Features" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s5> <https://schema.org/url> "https://aws.amazon.com/security-lake/features/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s6> <http://purl.org/dc/terms/title> "Amazon Security Lake Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s6> <https://schema.org/url> "https://aws.amazon.com/security-lake/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s7> <http://purl.org/dc/terms/title> "How Security Lake pricing is determined" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s7> <https://schema.org/url> "https://docs.aws.amazon.com/security-lake/latest/userguide/estimating-costs.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s8> <http://purl.org/dc/terms/title> "Managing multiple accounts with AWS Organizations in Security Lake" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s8> <https://schema.org/url> "https://docs.aws.amazon.com/security-lake/latest/userguide/multi-account-management.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s9> <http://purl.org/dc/terms/title> "AWS Services in Scope by Compliance Program: FedRAMP" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-security-lake/s9> <https://schema.org/url> "https://aws.amazon.com/compliance/services-in-scope/FedRAMP/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s1> <http://purl.org/dc/terms/title> "Amazon SNS features and capabilities" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-sns/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
