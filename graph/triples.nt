@@ -4043,6 +4043,32 @@
 <https://github.com/john1hsu/aws-graph/id/aws-graviton> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-graviton> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-graviton> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-11" .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Ground Station" .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Ground Station Dedicated Antennas" .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/2004/02/skos/core#altLabel> "Ground Station" .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-global-infrastructure> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/2004/02/skos/core#definition> "A fully managed AWS service that rents time on AWS-operated satellite antennas, co-located with or attached to AWS Regions, so satellite operators can uplink commands and downlink data per minute and process it in EC2 or S3 without building their own ground stations." .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Ground Station" .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-global-network> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <https://github.com/john1hsu/aws-graph/ontology#domain> "global-infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/ground-station-quotas> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-eventbridge> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-ground-station> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-21" .
 <https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-health-dashboard> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Health Dashboard" .
@@ -13103,6 +13129,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-graviton/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-graviton/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-graviton/s6> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/net-graviton.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s1> <http://purl.org/dc/terms/title> "What is AWS Ground Station? - AWS Ground Station User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s1> <https://schema.org/url> "https://docs.aws.amazon.com/ground-station/latest/ug/what-is.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s2> <http://purl.org/dc/terms/title> "How AWS Ground Station works - AWS Ground Station User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s2> <https://schema.org/url> "https://docs.aws.amazon.com/ground-station/latest/ug/how-it-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s3> <http://purl.org/dc/terms/title> "AWS Ground Station Locations - AWS Ground Station User Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s3> <https://schema.org/url> "https://docs.aws.amazon.com/ground-station/latest/ug/aws-ground-station-antenna-locations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s4> <http://purl.org/dc/terms/title> "AWS Ground Station FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s4> <https://schema.org/url> "https://aws.amazon.com/ground-station/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s5> <http://purl.org/dc/terms/title> "AWS Ground Station Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s5> <https://schema.org/url> "https://aws.amazon.com/ground-station/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s6> <http://purl.org/dc/terms/title> "AWS Ground Station endpoints and quotas - AWS General Reference" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-ground-station/s6> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/gs.html" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s10> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02) Exam Guide" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-health-dashboard/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -90,6 +90,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:firewall-manager-quotas` | `kt:aws-firewall-manager` |
 | `kt:global-accelerator-quotas` | `kt:aws-global-accelerator` |
 | `kt:glue-quotas` | `kt:aws-glue` |
+| `kt:ground-station-quotas` | `kt:aws-ground-station` |
 | `kt:guardduty-quotas` | `kt:amazon-guardduty` |
 | `kt:hitrust-csf` | `kt:hipaa-eligible-services` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |

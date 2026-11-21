@@ -15520,6 +15520,103 @@
       ]
     },
     {
+      "@id": "kt:aws-ground-station",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Ground Station",
+      "skos:definition": "A fully managed AWS service that rents time on AWS-operated satellite antennas, co-located with or attached to AWS Regions, so satellite operators can uplink commands and downlink data per minute and process it in EC2 or S3 without building their own ground stations.",
+      "kto:domain": "global-infrastructure",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedOn": "2026-11-21",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is AWS Ground Station? - AWS Ground Station User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ground-station/latest/ug/what-is.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How AWS Ground Station works - AWS Ground Station User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ground-station/latest/ug/how-it-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Ground Station Locations - AWS Ground Station User Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/ground-station/latest/ug/aws-ground-station-antenna-locations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Ground Station FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ground-station/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Ground Station Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/ground-station/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Ground Station endpoints and quotas - AWS General Reference",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/gs.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/global-infrastructure/aws-ground-station.md",
+      "skos:altLabel": [
+        "Ground Station",
+        "AWS Ground Station Dedicated Antennas"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-global-infrastructure"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:amazon-vpc"
+        },
+        {
+          "@id": "kt:aws-global-network"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-eventbridge"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:ground-station-quotas"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-outposts",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Outposts",
