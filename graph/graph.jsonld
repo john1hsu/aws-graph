@@ -11998,6 +11998,122 @@
       ]
     },
     {
+      "@id": "kt:amazon-memorydb",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon MemoryDB",
+      "skos:definition": "AWS's durable, Valkey- and Redis OSS-compatible in-memory database, which persists every write to a Multi-AZ transactional log so it can serve as a primary database with microsecond reads rather than only as a cache.",
+      "kto:domain": "databases",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedOn": "2026-11-21",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is MemoryDB - Amazon MemoryDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/memorydb/latest/devguide/what-is-memorydb.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Features of MemoryDB - Amazon MemoryDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/memorydb/latest/devguide/servicename-feature-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "MemoryDB core components - Amazon MemoryDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/memorydb/latest/devguide/components.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quotas for MemoryDB - Amazon MemoryDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/memorydb/latest/devguide/quota-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Pricing for Amazon MemoryDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/memorydb/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon MemoryDB FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/memorydb/faqs/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Related services - Amazon MemoryDB",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/memorydb/latest/devguide/related-services-choose-between-memorydb-and-redis.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get started with Amazon MemoryDB for Valkey",
+          "dcterms:publisher": "Amazon Web Services (AWS Database Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/database/get-started-with-amazon-memorydb-for-valkey/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon ElastiCache for Valkey now supports durability",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/databases/amazon-memorydb.md",
+      "skos:altLabel": [
+        "MemoryDB",
+        "Amazon MemoryDB for Redis",
+        "MemoryDB for Redis",
+        "Amazon MemoryDB for Valkey",
+        "MemoryDB for Valkey",
+        "MemoryDB Multi-Region"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:purpose-built-databases"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-dynamodb"
+        },
+        {
+          "@id": "kt:database-caching-strategies"
+        },
+        {
+          "@id": "kt:availability-zones"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-elasticache"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:memorydb-quotas"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-neptune",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Neptune",
@@ -12920,6 +13036,9 @@
         },
         {
           "@id": "kt:amazon-redshift"
+        },
+        {
+          "@id": "kt:amazon-memorydb"
         }
       ],
       "kto:hasPart": [

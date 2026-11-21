@@ -11,7 +11,7 @@ summary: >-
 verified: 2026-11-11
 status: concept
 broader: [kt:amazon-web-services, kt:performance-efficiency-pillar]
-related: [kt:aws-database-migration-service, kt:database-caching-strategies, kt:amazon-redshift]
+related: [kt:aws-database-migration-service, kt:database-caching-strategies, kt:amazon-redshift, kt:amazon-memorydb]
 relations:
   - {predicate: hasPart, object: kt:amazon-rds}
   - {predicate: hasPart, object: kt:amazon-aurora}

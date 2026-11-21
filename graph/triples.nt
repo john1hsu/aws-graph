@@ -1132,6 +1132,38 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
 <https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-managed-service-for-apache-flink> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon MemoryDB" .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon MemoryDB for Redis" .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon MemoryDB for Valkey" .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2004/02/skos/core#altLabel> "MemoryDB Multi-Region" .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2004/02/skos/core#altLabel> "MemoryDB for Redis" .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2004/02/skos/core#altLabel> "MemoryDB for Valkey" .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2004/02/skos/core#altLabel> "MemoryDB" .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2004/02/skos/core#definition> "AWS's durable, Valkey- and Redis OSS-compatible in-memory database, which persists every write to a Multi-AZ transactional log so it can serve as a primary database with microsecond reads rather than only as a cache." .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon MemoryDB" .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-dynamodb> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/availability-zones> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/database-caching-strategies> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s7> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s8> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s9> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-elasticache> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <https://github.com/john1hsu/aws-graph/ontology#domain> "databases" .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/memorydb-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-memorydb> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-21" .
 <https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-mq> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon MQ" .
@@ -7684,6 +7716,7 @@
 <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/performance-efficiency-pillar> .
 <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#definition> "AWS's approach of matching each workload to a database engineered for its data model and access pattern (relational, key-value, document, wide-column, graph, in-memory, time-series or vector) instead of forcing every workload into one general-purpose database." .
 <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#prefLabel> "Purpose-built databases" .
+<https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-memorydb> .
 <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-redshift> .
 <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-database-migration-service> .
 <https://github.com/john1hsu/aws-graph/id/purpose-built-databases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/database-caching-strategies> .
@@ -9567,6 +9600,51 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-managed-service-for-apache-flink/s9> <https://schema.org/url> "https://aws.amazon.com/pt/about-aws/whats-new/2026/07/amazon-managed-service-flink-2-3/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s1> <http://purl.org/dc/terms/title> "What is MemoryDB - Amazon MemoryDB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s1> <https://schema.org/url> "https://docs.aws.amazon.com/memorydb/latest/devguide/what-is-memorydb.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s2> <http://purl.org/dc/terms/title> "Features of MemoryDB - Amazon MemoryDB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s2> <https://schema.org/url> "https://docs.aws.amazon.com/memorydb/latest/devguide/servicename-feature-overview.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s3> <http://purl.org/dc/terms/title> "MemoryDB core components - Amazon MemoryDB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s3> <https://schema.org/url> "https://docs.aws.amazon.com/memorydb/latest/devguide/components.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s4> <http://purl.org/dc/terms/title> "Quotas for MemoryDB - Amazon MemoryDB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s4> <https://schema.org/url> "https://docs.aws.amazon.com/memorydb/latest/devguide/quota-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s5> <http://purl.org/dc/terms/title> "Pricing for Amazon MemoryDB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s5> <https://schema.org/url> "https://aws.amazon.com/memorydb/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s6> <http://purl.org/dc/terms/title> "Amazon MemoryDB FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s6> <https://schema.org/url> "https://aws.amazon.com/memorydb/faqs/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s7> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s7> <http://purl.org/dc/terms/title> "Related services - Amazon MemoryDB" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s7> <https://schema.org/url> "https://docs.aws.amazon.com/memorydb/latest/devguide/related-services-choose-between-memorydb-and-redis.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s8> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Database Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s8> <http://purl.org/dc/terms/title> "Get started with Amazon MemoryDB for Valkey" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s8> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s8> <https://schema.org/url> "https://aws.amazon.com/blogs/database/get-started-with-amazon-memorydb-for-valkey/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s9> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s9> <http://purl.org/dc/terms/title> "Amazon ElastiCache for Valkey now supports durability" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s9> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-memorydb/s9> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s1> <http://purl.org/dc/terms/title> "What is Amazon MQ?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-mq/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

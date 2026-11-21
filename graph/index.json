@@ -979,6 +979,35 @@
     ]
   },
   {
+    "id": "kt:amazon-memorydb",
+    "title": "Amazon MemoryDB",
+    "aliases": [
+      "MemoryDB",
+      "Amazon MemoryDB for Redis",
+      "MemoryDB for Redis",
+      "Amazon MemoryDB for Valkey",
+      "MemoryDB for Valkey",
+      "MemoryDB Multi-Region"
+    ],
+    "type": "Service",
+    "domain": "databases",
+    "file": "articles/databases/amazon-memorydb.md",
+    "created": "2026-11-21",
+    "verified": "2026-11-21",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/memorydb/latest/devguide/what-is-memorydb.html",
+      "https://docs.aws.amazon.com/memorydb/latest/devguide/servicename-feature-overview.html",
+      "https://docs.aws.amazon.com/memorydb/latest/devguide/components.html",
+      "https://docs.aws.amazon.com/memorydb/latest/devguide/quota-limits.html",
+      "https://aws.amazon.com/memorydb/pricing/",
+      "https://aws.amazon.com/memorydb/faqs/",
+      "https://docs.aws.amazon.com/memorydb/latest/devguide/related-services-choose-between-memorydb-and-redis.html",
+      "https://aws.amazon.com/blogs/database/get-started-with-amazon-memorydb-for-valkey/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache/"
+    ]
+  },
+  {
     "id": "kt:amazon-mq",
     "title": "Amazon MQ",
     "aliases": [

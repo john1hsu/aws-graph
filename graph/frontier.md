@@ -103,6 +103,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:landing-zone` | `kt:multi-account-strategy` |
 | `kt:macie-quotas` | `kt:amazon-macie` |
 | `kt:managed-flink-quotas` | `kt:amazon-managed-service-for-apache-flink` |
+| `kt:memorydb-quotas` | `kt:amazon-memorydb` |
 | `kt:mgn-quotas` | `kt:aws-transform-mgn` |
 | `kt:microservices` | `kt:devops` |
 | `kt:migration-evaluator` | `kt:application-portfolio-assessment` |
