@@ -93,7 +93,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:hitrust-csf` | `kt:hipaa-eligible-services` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
 | `kt:iam-policy-simulator` | `kt:iam-policy-evaluation-logic` |
-| `kt:iam-roles-for-service-accounts` | `kt:eks-pod-identity` |
 | `kt:icd-503` | `kt:aws-secret-and-top-secret-regions` |
 | `kt:kendra-quotas` | `kt:amazon-kendra` |
 | `kt:kinesis-data-streams-quotas` | `kt:amazon-kinesis-data-streams` |
@@ -114,6 +113,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:network-firewall-quotas` | `kt:aws-network-firewall` |
 | `kt:nist-cybersecurity-framework` | `kt:nist-sp-800-53` |
 | `kt:nist-sp-800-171` | `kt:cmmc-on-aws` |
+| `kt:openid-connect` | `kt:iam-roles-for-service-accounts` |
 | `kt:opensearch-service-quotas` | `kt:amazon-opensearch-service` |
 | `kt:opentelemetry` | `kt:aws-x-ray` |
 | `kt:payment-cryptography-quotas` | `kt:aws-payment-cryptography` |

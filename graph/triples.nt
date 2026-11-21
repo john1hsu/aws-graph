@@ -7047,6 +7047,33 @@
 <https://github.com/john1hsu/aws-graph/id/iam-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-partitions> .
 <https://github.com/john1hsu/aws-graph/id/iam-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/iam-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-13" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/2000/01/rdf-schema#label> "IAM roles for service accounts" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/2004/02/skos/core#altLabel> "EKS IRSA" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/2004/02/skos/core#altLabel> "IAM Roles for Service Accounts (EKS)" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/2004/02/skos/core#altLabel> "IRSA" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/2004/02/skos/core#definition> "The Amazon EKS mechanism that lets pods using a Kubernetes service account assume an IAM role by exchanging a projected OIDC service-account token through AWS STS AssumeRoleWithWebIdentity, using a per-cluster IAM OIDC identity provider." .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/2004/02/skos/core#prefLabel> "IAM roles for service accounts" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-iam> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-outposts> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/iam-quotas> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s1> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s2> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s3> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s4> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s5> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s6> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/eks-pod-identity> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-sts> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/iam-roles> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/openid-connect> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/aws-privatelink> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/iam-roles-for-service-accounts> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-21" .
 <https://github.com/john1hsu/aws-graph/id/iam-roles> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Resource> .
 <https://github.com/john1hsu/aws-graph/id/iam-roles> <http://www.w3.org/2000/01/rdf-schema#label> "IAM roles" .
@@ -16587,6 +16614,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-quotas/s5> <https://schema.org/url> "https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s1> <http://purl.org/dc/terms/title> "IAM roles for service accounts" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s1> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s2> <http://purl.org/dc/terms/title> "Assign IAM roles to Kubernetes service accounts" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s2> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/associate-service-account-role.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s3> <http://purl.org/dc/terms/title> "Create an IAM OIDC provider for your cluster" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s3> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s4> <http://purl.org/dc/terms/title> "Use IRSA with the AWS SDK" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s4> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts-minimum-sdk.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s5> <http://purl.org/dc/terms/title> "Authenticate to another account with IRSA" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s5> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/cross-account-access.html" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s6> <http://purl.org/dc/terms/publisher> "AWS Containers Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s6> <http://purl.org/dc/terms/title> "Diving into IAM Roles for Service Accounts" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/iam-roles-for-service-accounts/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-roles/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-roles/s1> <http://purl.org/dc/terms/title> "IAM roles - AWS Identity and Access Management" .
 <https://github.com/john1hsu/aws-graph/id/source/iam-roles/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

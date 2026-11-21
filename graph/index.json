@@ -6165,6 +6165,29 @@
     ]
   },
   {
+    "id": "kt:iam-roles-for-service-accounts",
+    "title": "IAM roles for service accounts",
+    "aliases": [
+      "IRSA",
+      "EKS IRSA",
+      "IAM Roles for Service Accounts (EKS)"
+    ],
+    "type": "Feature",
+    "domain": "containers",
+    "file": "articles/containers/iam-roles-for-service-accounts.md",
+    "created": "2026-11-21",
+    "verified": "2026-11-21",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html",
+      "https://docs.aws.amazon.com/eks/latest/userguide/associate-service-account-role.html",
+      "https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html",
+      "https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts-minimum-sdk.html",
+      "https://docs.aws.amazon.com/eks/latest/userguide/cross-account-access.html",
+      "https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts"
+    ]
+  },
+  {
     "id": "kt:iam-users",
     "title": "IAM users",
     "aliases": [

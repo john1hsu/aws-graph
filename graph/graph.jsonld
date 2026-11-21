@@ -9620,6 +9620,104 @@
       ]
     },
     {
+      "@id": "kt:iam-roles-for-service-accounts",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "IAM roles for service accounts",
+      "skos:definition": "The Amazon EKS mechanism that lets pods using a Kubernetes service account assume an IAM role by exchanging a projected OIDC service-account token through AWS STS AssumeRoleWithWebIdentity, using a per-cluster IAM OIDC identity provider.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedOn": "2026-11-21",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "IAM roles for service accounts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Assign IAM roles to Kubernetes service accounts",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/associate-service-account-role.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create an IAM OIDC provider for your cluster",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use IRSA with the AWS SDK",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts-minimum-sdk.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Authenticate to another account with IRSA",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/cross-account-access.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Diving into IAM Roles for Service Accounts",
+          "dcterms:publisher": "AWS Containers Blog",
+          "schema:url": "https://aws.amazon.com/blogs/containers/diving-into-iam-roles-for-service-accounts",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/containers/iam-roles-for-service-accounts.md",
+      "skos:altLabel": [
+        "IRSA",
+        "EKS IRSA",
+        "IAM Roles for Service Accounts (EKS)"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-eks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-iam"
+        },
+        {
+          "@id": "kt:iam-quotas"
+        },
+        {
+          "@id": "kt:aws-outposts"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:eks-pod-identity"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:iam-roles"
+        },
+        {
+          "@id": "kt:aws-sts"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:openid-connect"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-privatelink"
+        }
+      ]
+    },
+    {
       "@id": "kt:karpenter",
       "@type": "kto:Tool",
       "skos:prefLabel": "Karpenter",
