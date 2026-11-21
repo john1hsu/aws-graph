@@ -3721,6 +3721,31 @@
     ]
   },
   {
+    "id": "kt:aws-marketplace-vendor-insights",
+    "title": "AWS Marketplace Vendor Insights",
+    "aliases": [
+      "Vendor Insights",
+      "AWS Vendor Insights",
+      "Marketplace Vendor Insights"
+    ],
+    "type": "Feature",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/aws-marketplace-vendor-insights.md",
+    "created": "2026-11-21",
+    "verified": "2026-11-21",
+    "status": "closed-to-new-customers",
+    "source_urls": [
+      "https://docs.aws.amazon.com/marketplace/latest/userguide/vendor-insights.html",
+      "https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-vendor-insights.html",
+      "https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-vendor-insights-view-profile.html",
+      "https://docs.aws.amazon.com/marketplace/latest/userguide/vendor-insights-understanding.html",
+      "https://docs.aws.amazon.com/marketplace/latest/userguide/vendor-insights-setting-up.html",
+      "https://aws.amazon.com/blogs/aws/aws-marketplace-vendor-insights-simplify-third-party-software-risk-assessments/",
+      "https://aws.amazon.com/marketplace/features/vendor-insights/pricing",
+      "https://aws.amazon.com/about-aws/whats-new/2023/08/self-service-vendor-insights-onboarding-experience-aws-marketplace-sellers"
+    ]
+  },
+  {
     "id": "kt:aws-migration-acceleration-program",
     "title": "AWS Migration Acceleration Program",
     "aliases": [

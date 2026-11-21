@@ -23800,6 +23800,122 @@
       ]
     },
     {
+      "@id": "kt:aws-marketplace-vendor-insights",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "AWS Marketplace Vendor Insights",
+      "skos:definition": "An AWS Marketplace capability that gave buyers a security and compliance profile for a seller's product, built from the seller's self-assessment, third-party audit reports and live AWS Config evidence; closed to new profiles and access requests since October 27, 2026 and ending on November 26, 2026.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedOn": "2026-11-21",
+      "kto:status": "closed-to-new-customers",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Marketplace Vendor Insights (Seller Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/marketplace/latest/userguide/vendor-insights.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Marketplace Vendor Insights (Buyer Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-vendor-insights.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Viewing the security profile of a product with AWS Marketplace Vendor Insights",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-vendor-insights-view-profile.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding AWS Marketplace Vendor Insights",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/marketplace/latest/userguide/vendor-insights-understanding.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Setting up AWS Marketplace Vendor Insights",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/marketplace/latest/userguide/vendor-insights-setting-up.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Marketplace Vendor Insights – Simplify Third-Party Software Risk Assessments",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/aws-marketplace-vendor-insights-simplify-third-party-software-risk-assessments/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Pricing | Vendor Insights for Third-Party Software",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/marketplace/features/vendor-insights/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "New self-service Vendor Insights onboarding experience for AWS Marketplace sellers",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2023/08/self-service-vendor-insights-onboarding-experience-aws-marketplace-sellers",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/aws-marketplace-vendor-insights.md",
+      "skos:altLabel": [
+        "Vendor Insights",
+        "AWS Vendor Insights",
+        "Marketplace Vendor Insights"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-marketplace"
+        },
+        {
+          "@id": "kt:aws-compliance-programs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fedramp-on-aws"
+        },
+        {
+          "@id": "kt:hipaa-eligible-services"
+        },
+        {
+          "@id": "kt:pci-dss-on-aws"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:aws-artifact"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:aws-audit-manager"
+        },
+        {
+          "@id": "kt:aws-config"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:cloudformation-stacksets"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-iam"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-govcloud-us"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-secret-and-top-secret-regions",
       "@type": "kto:InfrastructureConcept",
       "skos:prefLabel": "AWS Secret and Top Secret Regions",

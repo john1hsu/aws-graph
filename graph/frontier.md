@@ -36,7 +36,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-data-exchange` | `kt:aws-entity-resolution` |
 | `kt:aws-devops-agent` | `kt:aws-support-plans` |
-| `kt:aws-marketplace-vendor-insights` | `kt:aws-artifact` |
+| `kt:aws-marketplace` | `kt:aws-marketplace-vendor-insights` |
 | `kt:aws-network-security-manager` | `kt:aws-firewall-manager` |
 | `kt:aws-neuron-sdk` | `kt:aws-trainium-and-inferentia` |
 | `kt:aws-nitro-enclaves` | `kt:aws-nitro-system` |
