@@ -6960,6 +6960,28 @@
     ]
   },
   {
+    "id": "kt:s3-object-lock",
+    "title": "Amazon S3 Object Lock",
+    "aliases": [
+      "S3 Object Lock",
+      "S3 WORM",
+      "Object Lock"
+    ],
+    "type": "Feature",
+    "domain": "storage",
+    "file": "articles/storage/s3-object-lock.md",
+    "created": "2026-11-21",
+    "verified": "2026-11-21",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-managing.html",
+      "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-object-lock-variable-retention/",
+      "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-s3-enabling-object-lock-buckets/",
+      "https://aws.amazon.com/s3/features/object-lock/"
+    ]
+  },
+  {
     "id": "kt:s3-storage-classes",
     "title": "Amazon S3 storage classes",
     "aliases": [

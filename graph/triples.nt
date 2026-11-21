@@ -7977,6 +7977,32 @@
 <https://github.com/john1hsu/aws-graph/id/role-based-access-control> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/iam-quotas> .
 <https://github.com/john1hsu/aws-graph/id/role-based-access-control> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/role-based-access-control> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-19" .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon S3 Object Lock" .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/2004/02/skos/core#altLabel> "Object Lock" .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 Object Lock" .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 WORM" .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/2004/02/skos/core#definition> "An Amazon S3 feature that stores object versions in a write-once-read-many (WORM) model, blocking deletion or overwrite through retention periods (governance or compliance mode, fixed or event-driven) and legal holds, for regulatory record retention and ransomware protection." .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon S3 Object Lock" .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-backup> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/ebs-snapshots> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/s3-storage-classes> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s1> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s2> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s3> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s4> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s5> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <https://github.com/john1hsu/aws-graph/ontology#compliesWith> <https://github.com/john1hsu/aws-graph/id/sec-rule-17a-4> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/s3-batch-operations> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/s3-versioning> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudtrail> .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/s3-object-lock> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-21" .
 <https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/s3-storage-classes> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon S3 storage classes" .
@@ -17865,6 +17891,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/role-based-access-control/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/role-based-access-control/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/role-based-access-control/s6> <https://schema.org/url> "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s1> <http://purl.org/dc/terms/title> "Locking objects with Object Lock - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s2> <http://purl.org/dc/terms/title> "Object Lock considerations - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s2> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-managing.html" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s3> <http://purl.org/dc/terms/title> "Amazon S3 Object Lock now supports variable retention with event holds" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s3> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-object-lock-variable-retention/" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s4> <http://purl.org/dc/terms/title> "Amazon S3 now supports enabling S3 Object Lock on existing buckets" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-s3-enabling-object-lock-buckets/" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s5> <http://purl.org/dc/terms/title> "S3 Object Lock – Amazon S3" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s5> <https://schema.org/url> "https://aws.amazon.com/s3/features/object-lock/" .
 <https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s1> <http://purl.org/dc/terms/title> "Understanding and managing Amazon S3 storage classes - Amazon Simple Storage Service" .
 <https://github.com/john1hsu/aws-graph/id/source/s3-storage-classes/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -30140,6 +30140,98 @@
       ]
     },
     {
+      "@id": "kt:s3-object-lock",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon S3 Object Lock",
+      "skos:definition": "An Amazon S3 feature that stores object versions in a write-once-read-many (WORM) model, blocking deletion or overwrite through retention periods (governance or compliance mode, fixed or event-driven) and legal holds, for regulatory record retention and ransomware protection.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedOn": "2026-11-21",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Locking objects with Object Lock - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Object Lock considerations - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-managing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon S3 Object Lock now supports variable retention with event holds",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-object-lock-variable-retention/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon S3 now supports enabling S3 Object Lock on existing buckets",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-s3-enabling-object-lock-buckets/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "S3 Object Lock – Amazon S3",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/s3/features/object-lock/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/storage/s3-object-lock.md",
+      "skos:altLabel": [
+        "S3 Object Lock",
+        "S3 WORM",
+        "Object Lock"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-backup"
+        },
+        {
+          "@id": "kt:ebs-snapshots"
+        },
+        {
+          "@id": "kt:s3-storage-classes"
+        },
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:s3-versioning"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:s3-batch-operations"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:s3-lifecycle-policies"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:aws-cloudtrail"
+        }
+      ],
+      "kto:compliesWith": [
+        {
+          "@id": "kt:sec-rule-17a-4"
+        }
+      ]
+    },
+    {
       "@id": "kt:s3-storage-classes",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon S3 storage classes",
