@@ -5102,6 +5102,91 @@
       ]
     },
     {
+      "@id": "kt:strangler-fig-pattern",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Strangler fig pattern",
+      "skos:definition": "An incremental modernization pattern in which a routing layer is placed in front of a legacy (usually monolithic) application and its functionality is replaced piece by piece with new services, until the legacy system receives no traffic and can be retired, avoiding a risky big-bang rewrite.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedOn": "2026-11-21",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Strangler fig pattern - AWS Prescriptive Guidance (Cloud design patterns, architectures, and implementations)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Strangler fig pattern - AWS Prescriptive Guidance (Decomposing monoliths into microservices)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-decomposing-monoliths/strangler-fig.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The strangler fig pattern - AWS Prescriptive Guidance (Modernizing ASP.NET web services)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-aspnet-web-services/fig-pattern.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Strangler Fig (bliki)",
+          "dcterms:publisher": "Martin Fowler",
+          "schema:url": "https://www.martinfowler.com/bliki/StranglerApplication.html",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "The Strangler Fig application pattern: incremental modernization to microservices",
+          "dcterms:publisher": "Chris Richardson (microservices.io)",
+          "schema:url": "https://microservices.io/post/refactoring/2023/06/21/strangler-fig-application-pattern-incremental-modernization-to-services.md.html",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/strangler-fig-pattern.md",
+      "skos:altLabel": [
+        "strangler fig application",
+        "strangler application",
+        "strangler pattern"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:cloud-architecture"
+        },
+        {
+          "@id": "kt:seven-rs-migration-strategies"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:microservices-architecture"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:aws-migration-hub"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-api-gateway"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:anti-corruption-layer-pattern"
+        },
+        {
+          "@id": "kt:amazon-ecs"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:big-bang-rewrite"
+        }
+      ]
+    },
+    {
       "@id": "kt:sustainability-pillar",
       "@type": "kto:Concept",
       "skos:prefLabel": "Sustainability Pillar",

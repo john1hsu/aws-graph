@@ -18439,6 +18439,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/static-stability/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/static-stability/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/static-stability/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/aws-lambda-resilience-under-the-hood/" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s1> <http://purl.org/dc/terms/title> "Strangler fig pattern - AWS Prescriptive Guidance (Cloud design patterns, architectures, and implementations)" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s1> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s2> <http://purl.org/dc/terms/title> "Strangler fig pattern - AWS Prescriptive Guidance (Decomposing monoliths into microservices)" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s2> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-decomposing-monoliths/strangler-fig.html" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s3> <http://purl.org/dc/terms/title> "The strangler fig pattern - AWS Prescriptive Guidance (Modernizing ASP.NET web services)" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s3> <https://schema.org/url> "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-aspnet-web-services/fig-pattern.html" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s4> <http://purl.org/dc/terms/publisher> "Martin Fowler" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s4> <http://purl.org/dc/terms/title> "Strangler Fig (bliki)" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s4> <https://schema.org/url> "https://www.martinfowler.com/bliki/StranglerApplication.html" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s5> <http://purl.org/dc/terms/publisher> "Chris Richardson (microservices.io)" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s5> <http://purl.org/dc/terms/title> "The Strangler Fig application pattern: incremental modernization to microservices" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s5> <https://schema.org/url> "https://microservices.io/post/refactoring/2023/06/21/strangler-fig-application-pattern-incremental-modernization-to-services.md.html" .
 <https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s1> <http://purl.org/dc/terms/title> "Subnet CIDR blocks - Amazon Virtual Private Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/subnets-and-route-tables/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
@@ -18729,6 +18754,31 @@
 <https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
 <https://github.com/john1hsu/aws-graph/id/static-stability> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-17" .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Pattern> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/2000/01/rdf-schema#label> "Strangler fig pattern" .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/2004/02/skos/core#altLabel> "strangler application" .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/2004/02/skos/core#altLabel> "strangler fig application" .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/2004/02/skos/core#altLabel> "strangler pattern" .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/cloud-architecture> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/seven-rs-migration-strategies> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/2004/02/skos/core#definition> "An incremental modernization pattern in which a routing layer is placed in front of a legacy (usually monolithic) application and its functionality is replaced piece by piece with new services, until the legacy system receives no traffic and can be retired, avoiding a risky big-bang rewrite." .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/2004/02/skos/core#prefLabel> "Strangler fig pattern" .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-migration-hub> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/microservices-architecture> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s1> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s2> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s3> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s4> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/strangler-fig-pattern/s5> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/big-bang-rewrite> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-api-gateway> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <https://github.com/john1hsu/aws-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-ecs> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/anti-corruption-layer-pattern> .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/aws-graph/id/strangler-fig-pattern> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-21" .
 <https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://purl.org/dc/terms/created> "2026-11-20" .
 <https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Resource> .
 <https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> <http://www.w3.org/2000/01/rdf-schema#label> "Subnets and route tables" .

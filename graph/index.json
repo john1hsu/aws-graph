@@ -7319,6 +7319,28 @@
     ]
   },
   {
+    "id": "kt:strangler-fig-pattern",
+    "title": "Strangler fig pattern",
+    "aliases": [
+      "strangler fig application",
+      "strangler application",
+      "strangler pattern"
+    ],
+    "type": "Pattern",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/strangler-fig-pattern.md",
+    "created": "2026-11-21",
+    "verified": "2026-11-21",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-decomposing-monoliths/strangler-fig.html",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-aspnet-web-services/fig-pattern.html",
+      "https://www.martinfowler.com/bliki/StranglerApplication.html",
+      "https://microservices.io/post/refactoring/2023/06/21/strangler-fig-application-pattern-incremental-modernization-to-services.md.html"
+    ]
+  },
+  {
     "id": "kt:subnets-and-route-tables",
     "title": "Subnets and route tables",
     "aliases": [

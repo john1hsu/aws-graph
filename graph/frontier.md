@@ -18,6 +18,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |
 | `kt:amazon-vpc-lattice` | `kt:ecs-native-blue-green-deployments` |
 | `kt:ami-quotas` | `kt:amazon-machine-images` |
+| `kt:anti-corruption-layer-pattern` | `kt:strangler-fig-pattern` |
 | `kt:apache-airflow` | `kt:amazon-mwaa` |
 | `kt:apache-flink` | `kt:amazon-managed-service-for-apache-flink` |
 | `kt:apache-iceberg` | `kt:data-lake-on-aws` |
@@ -49,6 +50,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-snowball-edge` | `kt:aws-schema-conversion-tool` |
 | `kt:aws-sustainability-console` | `kt:sustainability-pillar` |
 | `kt:aws-well-architected-agent` | `kt:aws-well-architected-tool` |
+| `kt:big-bang-rewrite` | `kt:strangler-fig-pattern` |
 | `kt:bimodal-behavior` | `kt:static-stability` |
 | `kt:bsi-c5` | `kt:aws-european-sovereign-cloud` |
 | `kt:cedar-policy-language` | `kt:amazon-verified-permissions` |
@@ -139,7 +141,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ssm-agent` | `kt:aws-systems-manager` |
 | `kt:step-functions-quotas` | `kt:aws-step-functions` |
 | `kt:storage-gateway-quotas` | `kt:aws-storage-gateway` |
-| `kt:strangler-fig-pattern` | `kt:microservices-architecture` |
 | `kt:systems-manager-parameter-store` | `kt:aws-systems-manager` |
 | `kt:systems-manager-session-manager` | `kt:aws-systems-manager` |
 | `kt:transfer-family-quotas` | `kt:aws-transfer-family` |
