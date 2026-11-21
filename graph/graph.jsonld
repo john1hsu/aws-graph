@@ -23541,6 +23541,86 @@
       ]
     },
     {
+      "@id": "kt:vpc-peering",
+      "@type": "kto:Resource",
+      "skos:prefLabel": "VPC peering",
+      "skos:definition": "A point-to-point networking connection between two Amazon VPCs, in the same or different accounts and Regions, that routes traffic between them over private IPv4 or IPv6 addresses without an internet gateway, VPN or Direct Connect.",
+      "kto:domain": "networking-and-content-delivery",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedOn": "2026-11-21",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "VPC peering connections - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/peering/working-with-vpc-peering.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How VPC peering connections work - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/peering/vpc-peering-basics.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "VPC peering connection quotas for an account - Amazon Virtual Private Cloud",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/vpc/latest/peering/vpc-peering-connection-quotas.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "VPC peering - Building a Scalable and Secure Multi-VPC AWS Network Infrastructure",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/vpc-peering.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/networking-and-content-delivery/vpc-peering.md",
+      "skos:altLabel": [
+        "VPC peering connection",
+        "Amazon VPC peering",
+        "inter-Region VPC peering"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-vpc"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:subnets-and-route-tables"
+        },
+        {
+          "@id": "kt:security-groups-vs-network-acls"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-transit-gateway"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:vpc-quotas"
+        }
+      ],
+      "kto:pricedBy": [
+        {
+          "@id": "kt:data-transfer-costs"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:subnets-and-route-tables"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-artifact",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Artifact",

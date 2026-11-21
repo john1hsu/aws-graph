@@ -18629,6 +18629,26 @@
 <https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/vmware-migration-to-aws/s6> <https://schema.org/url> "https://docs.aws.amazon.com/transform/latest/userguide/transform-app-vmware" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s1> <http://purl.org/dc/terms/title> "VPC peering connections - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s1> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/peering/working-with-vpc-peering.html" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s2> <http://purl.org/dc/terms/title> "How VPC peering connections work - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s2> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/peering/vpc-peering-basics.html" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s3> <http://purl.org/dc/terms/title> "VPC peering connection quotas for an account - Amazon Virtual Private Cloud" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s3> <https://schema.org/url> "https://docs.aws.amazon.com/vpc/latest/peering/vpc-peering-connection-quotas.html" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s4> <http://purl.org/dc/terms/title> "VPC peering - Building a Scalable and Secure Multi-VPC AWS Network Infrastructure" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s4> <https://schema.org/url> "https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/vpc-peering.html" .
 <https://github.com/john1hsu/aws-graph/id/spot-instances> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#PricingModel> .
 <https://github.com/john1hsu/aws-graph/id/spot-instances> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EC2 Spot Instances" .
@@ -18852,3 +18872,26 @@
 <https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
 <https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/vmware-migration-to-aws> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-14" .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Resource> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/2000/01/rdf-schema#label> "VPC peering" .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon VPC peering" .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/2004/02/skos/core#altLabel> "VPC peering connection" .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/2004/02/skos/core#altLabel> "inter-Region VPC peering" .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-vpc> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/2004/02/skos/core#definition> "A point-to-point networking connection between two Amazon VPCs, in the same or different accounts and Regions, that routes traffic between them over private IPv4 or IPv6 addresses without an internet gateway, VPN or Direct Connect." .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/2004/02/skos/core#prefLabel> "VPC peering" .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/security-groups-vs-network-acls> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s1> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s2> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s3> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/vpc-peering/s4> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-transit-gateway> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/subnets-and-route-tables> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <https://github.com/john1hsu/aws-graph/ontology#domain> "networking-and-content-delivery" .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/vpc-quotas> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <https://github.com/john1hsu/aws-graph/ontology#pricedBy> <https://github.com/john1hsu/aws-graph/id/data-transfer-costs> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/vpc-peering> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-21" .

@@ -7443,5 +7443,26 @@
       "https://aws.amazon.com/evs/faqs",
       "https://docs.aws.amazon.com/transform/latest/userguide/transform-app-vmware"
     ]
+  },
+  {
+    "id": "kt:vpc-peering",
+    "title": "VPC peering",
+    "aliases": [
+      "VPC peering connection",
+      "Amazon VPC peering",
+      "inter-Region VPC peering"
+    ],
+    "type": "Resource",
+    "domain": "networking-and-content-delivery",
+    "file": "articles/networking-and-content-delivery/vpc-peering.md",
+    "created": "2026-11-21",
+    "verified": "2026-11-21",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/vpc/latest/peering/working-with-vpc-peering.html",
+      "https://docs.aws.amazon.com/vpc/latest/peering/vpc-peering-basics.html",
+      "https://docs.aws.amazon.com/vpc/latest/peering/vpc-peering-connection-quotas.html",
+      "https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/vpc-peering.html"
+    ]
   }
 ]

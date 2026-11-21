@@ -4,9 +4,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls`, `kt:subnets-and-route-tables`, `kt:vpc-peering` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
-| `kt:vpc-peering` | `kt:aws-privatelink`, `kt:aws-transit-gateway`, `kt:subnets-and-route-tables` |
-| `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls`, `kt:subnets-and-route-tables` |
 | `kt:kiro` | `kt:amazon-q-developer`, `kt:aws-builder-id` |
 | `kt:lambda-quotas` | `kt:api-gateway-quotas`, `kt:aws-lambda` |
 | `kt:rolling-deployments` | `kt:blue-green-deployments`, `kt:canary-deployments` |
