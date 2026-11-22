@@ -28886,6 +28886,91 @@
       ]
     },
     {
+      "@id": "kt:lambda-quotas",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "AWS Lambda quotas",
+      "skos:definition": "The limits that shape AWS Lambda designs: a per-Region account concurrency pool (with a 100-unit unreserved floor), a per-function scaling rate, request-rate rules tied to concurrency, mostly fixed per-function limits on memory, timeout, payloads and packages, and fixed control-plane API rates.",
+      "kto:domain": "serverless-and-integration",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedOn": "2026-11-22",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lambda quotas - AWS Lambda",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Event Function scaling behavior - AWS Lambda",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/burst-concurrency.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configuring reserved concurrency for an Event Function - AWS Lambda",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-concurrency.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding Lambda Event Function scaling - AWS Lambda",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing 30-minute timeout for on-demand AWS Lambda Event Functions",
+          "dcterms:publisher": "Amazon Web Services (AWS Compute Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/compute/announcing-30-minute-timeout-for-on-demand-aws-lambda-event-functions/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Lambda functions now scale up to 12X faster",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2023/12/aws-lambda-functions-scale-up",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/serverless-and-integration/lambda-quotas.md",
+      "skos:altLabel": [
+        "Lambda quotas",
+        "Lambda limits",
+        "AWS Lambda limits",
+        "Lambda service quotas",
+        "Lambda concurrency limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:api-gateway-quotas"
+        },
+        {
+          "@id": "kt:lambda-cold-starts"
+        },
+        {
+          "@id": "kt:aws-lambda-durable-functions"
+        },
+        {
+          "@id": "kt:amazon-sqs"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:sqs-vs-sns-vs-eventbridge",
       "@type": "kto:Concept",
       "skos:prefLabel": "SQS vs SNS vs EventBridge",

@@ -7484,6 +7484,32 @@
 <https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/amazon-cloudwatch> .
 <https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <https://github.com/john1hsu/aws-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-15" .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://purl.org/dc/terms/created> "2026-11-22" .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Limit> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Lambda quotas" .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Lambda limits" .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Lambda concurrency limits" .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Lambda limits" .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Lambda quotas" .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2004/02/skos/core#altLabel> "Lambda service quotas" .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-lambda> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2004/02/skos/core#definition> "The limits that shape AWS Lambda designs: a per-Region account concurrency pool (with a 100-unit unreserved floor), a per-function scaling rate, request-rate rules tied to concurrency, mostly fixed per-function limits on memory, timeout, payloads and packages, and fixed control-plane API rates." .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Lambda quotas" .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-sqs> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/api-gateway-quotas> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-lambda-durable-functions> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/lambda-cold-starts> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s1> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s2> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s3> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s4> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s5> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s6> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <https://github.com/john1hsu/aws-graph/ontology#configuredVia> <https://github.com/john1hsu/aws-graph/id/service-quotas> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <https://github.com/john1hsu/aws-graph/ontology#domain> "serverless-and-integration" .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/lambda-quotas> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-22" .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#InfrastructureConcept> .
 <https://github.com/john1hsu/aws-graph/id/local-zones> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Local Zones" .
@@ -17379,6 +17405,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/lambda-cold-starts/s5> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s1> <http://purl.org/dc/terms/title> "Lambda quotas - AWS Lambda" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s1> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s2> <http://purl.org/dc/terms/title> "Event Function scaling behavior - AWS Lambda" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s2> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/burst-concurrency.html" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s3> <http://purl.org/dc/terms/title> "Configuring reserved concurrency for an Event Function - AWS Lambda" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s3> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/configuration-concurrency.html" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s4> <http://purl.org/dc/terms/title> "Understanding Lambda Event Function scaling - AWS Lambda" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s4> <https://schema.org/url> "https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Compute Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s5> <http://purl.org/dc/terms/title> "Announcing 30-minute timeout for on-demand AWS Lambda Event Functions" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/compute/announcing-30-minute-timeout-for-on-demand-aws-lambda-event-functions/" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s6> <http://purl.org/dc/terms/title> "AWS Lambda functions now scale up to 12X faster" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/lambda-quotas/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2023/12/aws-lambda-functions-scale-up" .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <http://purl.org/dc/terms/title> "Regions and Zones - Amazon Elastic Compute Cloud" .
 <https://github.com/john1hsu/aws-graph/id/source/local-zones/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

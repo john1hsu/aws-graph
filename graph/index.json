@@ -6523,6 +6523,31 @@
     ]
   },
   {
+    "id": "kt:lambda-quotas",
+    "title": "AWS Lambda quotas",
+    "aliases": [
+      "Lambda quotas",
+      "Lambda limits",
+      "AWS Lambda limits",
+      "Lambda service quotas",
+      "Lambda concurrency limits"
+    ],
+    "type": "Limit",
+    "domain": "serverless-and-integration",
+    "file": "articles/serverless-and-integration/lambda-quotas.md",
+    "created": "2026-11-22",
+    "verified": "2026-11-22",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html",
+      "https://docs.aws.amazon.com/lambda/latest/dg/burst-concurrency.html",
+      "https://docs.aws.amazon.com/lambda/latest/dg/configuration-concurrency.html",
+      "https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency",
+      "https://aws.amazon.com/blogs/compute/announcing-30-minute-timeout-for-on-demand-aws-lambda-event-functions/",
+      "https://aws.amazon.com/about-aws/whats-new/2023/12/aws-lambda-functions-scale-up"
+    ]
+  },
+  {
     "id": "kt:local-zones",
     "title": "AWS Local Zones",
     "aliases": [
