@@ -24,6 +24,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:appflow-quotas` | `kt:amazon-appflow` |
 | `kt:attribute-based-instance-type-selection` | `kt:ec2-instance-types` |
 | `kt:aurora-limitless-database` | `kt:aurora-quotas` |
+| `kt:aws-academy` | `kt:aws-educate` |
 | `kt:aws-account-management` | `kt:aws-regions` |
 | `kt:aws-amplify` | `kt:aws-appsync` |
 | `kt:aws-app-runner` | `kt:aws-container-services` |

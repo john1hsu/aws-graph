@@ -3253,6 +3253,26 @@
     ]
   },
   {
+    "id": "kt:aws-educate",
+    "title": "AWS Educate",
+    "aliases": [
+      "Amazon Web Services Educate"
+    ],
+    "type": "Concept",
+    "domain": "certifications",
+    "file": "articles/certifications/aws-educate.md",
+    "created": "2026-11-23",
+    "verified": "2026-11-23",
+    "status": "current",
+    "source_urls": [
+      "https://aws.amazon.com/educate",
+      "https://aws.amazon.com/training/awsacademy/faq",
+      "https://aws.amazon.com/blogs/training-and-certification/aws-educate-expands-access-to-free-cloud-education",
+      "https://aws.amazon.com/blogs/publicsector/get-ahead-summer-no-cost-cloud-training-aws-educate",
+      "https://aws.amazon.com/blogs/aws/aws-educate-credits-training-content-and-collaboration-for-students-educators"
+    ]
+  },
+  {
     "id": "kt:aws-elastic-beanstalk",
     "title": "AWS Elastic Beanstalk",
     "aliases": [

@@ -3724,6 +3724,27 @@
 <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
 <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-direct-connect> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-12" .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://purl.org/dc/terms/created> "2026-11-23" .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Concept> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Educate" .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Web Services Educate" .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-web-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/2004/02/skos/core#definition> "AWS's no-cost, self-paced cloud learning program for pre-professional learners aged 13 and up, offering courses, hands-on labs in the AWS Management Console, digital badges and (for adults) a job board, with no credit card or AWS account required." .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Educate" .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-builder-id> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-certified-cloud-practitioner> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-skill-builder> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-educate/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-educate/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-educate/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-educate/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-educate/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-academy> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <https://github.com/john1hsu/aws-graph/ontology#contrastsWith> <https://github.com/john1hsu/aws-graph/id/aws-skill-builder> .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <https://github.com/john1hsu/aws-graph/ontology#domain> "certifications" .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/aws-educate> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-23" .
 <https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Elastic Beanstalk" .
@@ -12900,6 +12921,31 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-direct-connect/s7> <https://schema.org/url> "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s1> <http://purl.org/dc/terms/title> "AWS Educate - Cloud Skills for Education" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s1> <https://schema.org/url> "https://aws.amazon.com/educate" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s2> <http://purl.org/dc/terms/title> "AWS Academy FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s2> <https://schema.org/url> "https://aws.amazon.com/training/awsacademy/faq" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Training and Certification Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s3> <http://purl.org/dc/terms/title> "AWS Educate expands access to free cloud education" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s3> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/aws-educate-expands-access-to-free-cloud-education" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Public Sector Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s4> <http://purl.org/dc/terms/title> "Get ahead this summer with no-cost cloud training from AWS Educate" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/publicsector/get-ahead-summer-no-cost-cloud-training-aws-educate" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS News Blog)" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s5> <http://purl.org/dc/terms/title> "AWS Educate – Credits, Training, Content, and Collaboration for Students & Educators" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-educate/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/aws-educate-credits-training-content-and-collaboration-for-students-educators" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s10> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s10> <http://purl.org/dc/terms/title> "In-Scope AWS Services - AWS Certified Cloud Practitioner (CLF-C02)" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-elastic-beanstalk/s10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

@@ -6557,6 +6557,81 @@
       ]
     },
     {
+      "@id": "kt:aws-educate",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AWS Educate",
+      "skos:definition": "AWS's no-cost, self-paced cloud learning program for pre-professional learners aged 13 and up, offering courses, hands-on labs in the AWS Management Console, digital badges and (for adults) a job board, with no credit card or AWS account required.",
+      "kto:domain": "certifications",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedOn": "2026-11-23",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Educate - Cloud Skills for Education",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/educate",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Academy FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/training/awsacademy/faq",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AWS Educate expands access to free cloud education",
+          "dcterms:publisher": "Amazon Web Services (AWS Training and Certification Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/training-and-certification/aws-educate-expands-access-to-free-cloud-education",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Get ahead this summer with no-cost cloud training from AWS Educate",
+          "dcterms:publisher": "Amazon Web Services (AWS Public Sector Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/publicsector/get-ahead-summer-no-cost-cloud-training-aws-educate",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AWS Educate – Credits, Training, Content, and Collaboration for Students & Educators",
+          "dcterms:publisher": "Amazon Web Services (AWS News Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/aws/aws-educate-credits-training-content-and-collaboration-for-students-educators",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/certifications/aws-educate.md",
+      "skos:altLabel": [
+        "Amazon Web Services Educate"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-web-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aws-skill-builder"
+        },
+        {
+          "@id": "kt:aws-certification-program"
+        },
+        {
+          "@id": "kt:aws-certified-cloud-practitioner"
+        },
+        {
+          "@id": "kt:aws-builder-id"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-academy"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:aws-skill-builder"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-skill-builder",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Skill Builder",
