@@ -15274,6 +15274,94 @@
       ]
     },
     {
+      "@id": "kt:rolling-deployments",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Rolling deployments",
+      "skos:definition": "A release pattern that replaces the old version with the new one in batches across an existing fleet of instances or tasks, so part of the fleet keeps serving traffic while each batch is updated.",
+      "kto:domain": "devops-and-iac",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedOn": "2026-11-24",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Deployment policies and settings - AWS Elastic Beanstalk",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.rolling-version-deploy.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deploy Amazon ECS services by replacing tasks - Amazon Elastic Container Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-ecs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How the Amazon ECS deployment circuit breaker detects failures - Amazon Elastic Container Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-circuit-breaker.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How CloudWatch alarms detect Amazon ECS deployment failures - Amazon Elastic Container Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-alarm-failure.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "UpdatePolicy attribute - AWS CloudFormation",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-updatepolicy.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-iac/rolling-deployments.md",
+      "skos:altLabel": [
+        "Rolling deployment",
+        "Rolling update",
+        "Rolling updates",
+        "Rolling release"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:ci-cd"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:immutable-infrastructure"
+        },
+        {
+          "@id": "kt:amazon-ec2-auto-scaling"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:canary-deployments"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:blue-green-deployments"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:amazon-ecs"
+        },
+        {
+          "@id": "kt:aws-elastic-beanstalk"
+        },
+        {
+          "@id": "kt:aws-cloudformation"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:amazon-cloudwatch"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-web-services",
       "@type": "kto:Organization",
       "skos:prefLabel": "Amazon Web Services",

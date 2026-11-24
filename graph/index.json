@@ -7055,6 +7055,29 @@
     ]
   },
   {
+    "id": "kt:rolling-deployments",
+    "title": "Rolling deployments",
+    "aliases": [
+      "Rolling deployment",
+      "Rolling update",
+      "Rolling updates",
+      "Rolling release"
+    ],
+    "type": "Pattern",
+    "domain": "devops-and-iac",
+    "file": "articles/devops-and-iac/rolling-deployments.md",
+    "created": "2026-11-24",
+    "verified": "2026-11-24",
+    "status": "concept",
+    "source_urls": [
+      "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.rolling-version-deploy.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-ecs.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-circuit-breaker.html",
+      "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-alarm-failure.html",
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-updatepolicy.html"
+    ]
+  },
+  {
     "id": "kt:s3-object-lock",
     "title": "Amazon S3 Object Lock",
     "aliases": [
