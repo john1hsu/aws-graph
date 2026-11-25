@@ -103,6 +103,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lambda-provisioned-concurrency` | `kt:lambda-cold-starts` |
 | `kt:lambda-snapstart` | `kt:lambda-cold-starts` |
 | `kt:landing-zone` | `kt:multi-account-strategy` |
+| `kt:lightsail-quotas` | `kt:amazon-lightsail` |
 | `kt:macie-quotas` | `kt:amazon-macie` |
 | `kt:managed-flink-quotas` | `kt:amazon-managed-service-for-apache-flink` |
 | `kt:memorydb-quotas` | `kt:amazon-memorydb` |

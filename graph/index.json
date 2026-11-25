@@ -899,6 +899,28 @@
     ]
   },
   {
+    "id": "kt:amazon-lightsail",
+    "title": "Amazon Lightsail",
+    "aliases": [
+      "Lightsail",
+      "AWS Lightsail"
+    ],
+    "type": "Service",
+    "domain": "compute",
+    "file": "articles/compute/amazon-lightsail.md",
+    "created": "2026-11-25",
+    "verified": "2026-11-25",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/lightsail/latest/userguide/what-is-amazon-lightsail.html",
+      "https://aws.amazon.com/lightsail/pricing/",
+      "https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-bundles.html",
+      "https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-frequently-asked-questions-faq-billing-and-account-management.html",
+      "https://docs.aws.amazon.com/general/latest/gr/lightsail.html",
+      "https://docs.aws.amazon.com/lightsail/latest/userguide/lightsail-how-to-set-up-vpc-peering-with-aws-resources.html"
+    ]
+  },
+  {
     "id": "kt:amazon-machine-images",
     "title": "Amazon Machine Image (AMI)",
     "aliases": [

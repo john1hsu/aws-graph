@@ -6932,6 +6932,95 @@
       ]
     },
     {
+      "@id": "kt:amazon-lightsail",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon Lightsail",
+      "skos:definition": "AWS's simplified, fixed-monthly-price service for virtual private servers, containers, managed databases, load balancers, CDN distributions, storage and DNS, aimed at websites and small web applications that don't need the full configurability of EC2.",
+      "kto:domain": "compute",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedOn": "2026-11-25",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Amazon Lightsail?",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lightsail/latest/userguide/what-is-amazon-lightsail.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Lightsail Pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/lightsail/pricing/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightsail instance bundles",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-bundles.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Billing and account management - Amazon Lightsail",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-frequently-asked-questions-faq-billing-and-account-management.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon Lightsail endpoints and quotas",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/general/latest/gr/lightsail.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Connect Lightsail resources to AWS services using VPC peering",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/lightsail/latest/userguide/lightsail-how-to-set-up-vpc-peering-with-aws-resources.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/compute/amazon-lightsail.md",
+      "skos:altLabel": [
+        "Lightsail",
+        "AWS Lightsail"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-compute-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-ec2"
+        },
+        {
+          "@id": "kt:aws-elastic-beanstalk"
+        },
+        {
+          "@id": "kt:aws-free-tier"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:amazon-ec2"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:vpc-peering"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:lightsail-quotas"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-machine-images",
       "@type": "kto:Resource",
       "skos:prefLabel": "Amazon Machine Image (AMI)",

@@ -1041,6 +1041,30 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-kinesis-data-streams> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://purl.org/dc/terms/created> "2026-11-25" .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Lightsail" .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Lightsail" .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/2004/02/skos/core#altLabel> "Lightsail" .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-compute-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/2004/02/skos/core#definition> "AWS's simplified, fixed-monthly-price service for virtual private servers, containers, managed databases, load balancers, CDN distributions, storage and DNS, aimed at websites and small web applications that don't need the full configurability of EC2." .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Lightsail" .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-free-tier> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/amazon-ec2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <https://github.com/john1hsu/aws-graph/ontology#domain> "compute" .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/lightsail-quotas> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/vpc-peering> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-lightsail> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-25" .
 <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Resource> .
 <https://github.com/john1hsu/aws-graph/id/amazon-machine-images> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Machine Image (AMI)" .
@@ -9712,6 +9736,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-kinesis-data-streams/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-kinesis-data-streams-ondemand-advantage" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s1> <http://purl.org/dc/terms/title> "What is Amazon Lightsail?" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s1> <https://schema.org/url> "https://docs.aws.amazon.com/lightsail/latest/userguide/what-is-amazon-lightsail.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s2> <http://purl.org/dc/terms/title> "Amazon Lightsail Pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s2> <https://schema.org/url> "https://aws.amazon.com/lightsail/pricing/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s3> <http://purl.org/dc/terms/title> "Lightsail instance bundles" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s3> <https://schema.org/url> "https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-bundles.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s4> <http://purl.org/dc/terms/title> "Billing and account management - Amazon Lightsail" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s4> <https://schema.org/url> "https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-frequently-asked-questions-faq-billing-and-account-management.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s5> <http://purl.org/dc/terms/title> "Amazon Lightsail endpoints and quotas" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s5> <https://schema.org/url> "https://docs.aws.amazon.com/general/latest/gr/lightsail.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s6> <http://purl.org/dc/terms/title> "Connect Lightsail resources to AWS services using VPC peering" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-lightsail/s6> <https://schema.org/url> "https://docs.aws.amazon.com/lightsail/latest/userguide/lightsail-how-to-set-up-vpc-peering-with-aws-resources.html" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-machine-images/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-machine-images/s1> <http://purl.org/dc/terms/title> "AMI types and characteristics in Amazon EC2" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-machine-images/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
