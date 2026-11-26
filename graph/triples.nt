@@ -8132,6 +8132,33 @@
 <https://github.com/john1hsu/aws-graph/id/rolling-deployments> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/aws-cloudformation> .
 <https://github.com/john1hsu/aws-graph/id/rolling-deployments> <https://github.com/john1hsu/aws-graph/ontology#usedBy> <https://github.com/john1hsu/aws-graph/id/aws-elastic-beanstalk> .
 <https://github.com/john1hsu/aws-graph/id/rolling-deployments> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-24" .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://purl.org/dc/terms/created> "2026-11-26" .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon S3 Lifecycle" .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 Lifecycle configuration" .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 Lifecycle policies" .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 Lifecycle" .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 lifecycle rules" .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "S3 object lifecycle management" .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/2004/02/skos/core#definition> "A bucket-level Amazon S3 feature in which up to 1,000 rules, each scoped by prefix, tags or object size, automatically transition objects to cheaper storage classes or expire them (including noncurrent versions, expired delete markers and incomplete multipart uploads) on a schedule." .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon S3 Lifecycle" .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/s3-object-lock> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/s3-storage-lens> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/s3-versioning> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s1> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s2> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s3> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s4> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s5> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s6> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <https://github.com/john1hsu/aws-graph/ontology#domain> "storage" .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <https://github.com/john1hsu/aws-graph/ontology#governedBy> <https://github.com/john1hsu/aws-graph/id/amazon-s3-quotas> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <https://github.com/john1hsu/aws-graph/ontology#implements> <https://github.com/john1hsu/aws-graph/id/cost-optimization-pillar> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/s3-storage-classes> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <https://github.com/john1hsu/aws-graph/ontology#monitoredBy> <https://github.com/john1hsu/aws-graph/id/s3-event-notifications> .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/s3-lifecycle-policies> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-26" .
 <https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://purl.org/dc/terms/created> "2026-11-21" .
 <https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Feature> .
 <https://github.com/john1hsu/aws-graph/id/s3-object-lock> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon S3 Object Lock" .
@@ -18241,6 +18268,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/rolling-deployments/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/rolling-deployments/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/aws-graph/id/source/rolling-deployments/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-updatepolicy.html" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s1> <http://purl.org/dc/terms/title> "Managing the lifecycle of objects - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s1> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.md" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s2> <http://purl.org/dc/terms/title> "Lifecycle configuration elements - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s2> <https://schema.org/url> "https://docs.aws.amazon.com/us_en/AmazonS3/latest/userguide/intro-lifecycle-rules.html" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s3> <http://purl.org/dc/terms/title> "Expiring objects - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s3> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-expire-general-considerations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s4> <http://purl.org/dc/terms/title> "Transitioning objects using Amazon S3 Lifecycle - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s4> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s5> <http://purl.org/dc/terms/title> "Troubleshooting Amazon S3 Lifecycle issues - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s5> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/userguide/troubleshoot-lifecycle.html" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s6> <http://purl.org/dc/terms/title> "Examples of S3 Lifecycle configurations - Amazon Simple Storage Service" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/s3-lifecycle-policies/s6> <https://schema.org/url> "https://docs.aws.amazon.com/AmazonS3/latest/dev/lifecycle-configuration-examples.html" .
 <https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s1> <http://purl.org/dc/terms/title> "Locking objects with Object Lock - Amazon Simple Storage Service" .
 <https://github.com/john1hsu/aws-graph/id/source/s3-object-lock/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

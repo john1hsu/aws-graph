@@ -7100,6 +7100,31 @@
     ]
   },
   {
+    "id": "kt:s3-lifecycle-policies",
+    "title": "Amazon S3 Lifecycle",
+    "aliases": [
+      "S3 Lifecycle",
+      "S3 Lifecycle policies",
+      "S3 lifecycle rules",
+      "S3 Lifecycle configuration",
+      "S3 object lifecycle management"
+    ],
+    "type": "Feature",
+    "domain": "storage",
+    "file": "articles/storage/s3-lifecycle-policies.md",
+    "created": "2026-11-26",
+    "verified": "2026-11-26",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.md",
+      "https://docs.aws.amazon.com/us_en/AmazonS3/latest/userguide/intro-lifecycle-rules.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-expire-general-considerations.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/troubleshoot-lifecycle.html",
+      "https://docs.aws.amazon.com/AmazonS3/latest/dev/lifecycle-configuration-examples.html"
+    ]
+  },
+  {
     "id": "kt:s3-object-lock",
     "title": "Amazon S3 Object Lock",
     "aliases": [

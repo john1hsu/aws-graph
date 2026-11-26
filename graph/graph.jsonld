@@ -30863,6 +30863,98 @@
       ]
     },
     {
+      "@id": "kt:s3-lifecycle-policies",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Amazon S3 Lifecycle",
+      "skos:definition": "A bucket-level Amazon S3 feature in which up to 1,000 rules, each scoped by prefix, tags or object size, automatically transition objects to cheaper storage classes or expire them (including noncurrent versions, expired delete markers and incomplete multipart uploads) on a schedule.",
+      "kto:domain": "storage",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedOn": "2026-11-26",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Managing the lifecycle of objects - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lifecycle configuration elements - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/us_en/AmazonS3/latest/userguide/intro-lifecycle-rules.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Expiring objects - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-expire-general-considerations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Transitioning objects using Amazon S3 Lifecycle - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Troubleshooting Amazon S3 Lifecycle issues - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/troubleshoot-lifecycle.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Examples of S3 Lifecycle configurations - Amazon Simple Storage Service",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/AmazonS3/latest/dev/lifecycle-configuration-examples.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/storage/s3-lifecycle-policies.md",
+      "skos:altLabel": [
+        "S3 Lifecycle",
+        "S3 Lifecycle policies",
+        "S3 lifecycle rules",
+        "S3 Lifecycle configuration",
+        "S3 object lifecycle management"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:s3-object-lock"
+        },
+        {
+          "@id": "kt:s3-versioning"
+        },
+        {
+          "@id": "kt:s3-storage-lens"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:s3-storage-classes"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:amazon-s3-quotas"
+        }
+      ],
+      "kto:monitoredBy": [
+        {
+          "@id": "kt:s3-event-notifications"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:cost-optimization-pillar"
+        }
+      ]
+    },
+    {
       "@id": "kt:s3-object-lock",
       "@type": "kto:Feature",
       "skos:prefLabel": "Amazon S3 Object Lock",

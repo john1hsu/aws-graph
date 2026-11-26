@@ -7,7 +7,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls`, `kt:subnets-and-route-tables`, `kt:vpc-peering` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
 | `kt:kiro` | `kt:amazon-q-developer`, `kt:aws-builder-id` |
-| `kt:s3-lifecycle-policies` | `kt:s3-object-lock`, `kt:s3-storage-classes` |
+| `kt:s3-storage-lens` | `kt:s3-lifecycle-policies`, `kt:s3-storage-classes` |
+| `kt:s3-versioning` | `kt:s3-lifecycle-policies`, `kt:s3-object-lock` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
@@ -131,8 +132,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:route-53-quotas` | `kt:amazon-route-53` |
 | `kt:route-53-resolver` | `kt:amazon-route-53` |
 | `kt:s3-batch-operations` | `kt:s3-object-lock` |
-| `kt:s3-storage-lens` | `kt:s3-storage-classes` |
-| `kt:s3-versioning` | `kt:s3-object-lock` |
+| `kt:s3-event-notifications` | `kt:s3-lifecycle-policies` |
 | `kt:sagemaker-ai-quotas` | `kt:amazon-sagemaker-ai` |
 | `kt:sec-rule-17a-4` | `kt:s3-object-lock` |
 | `kt:secrets-manager-quotas` | `kt:aws-secrets-manager` |
