@@ -679,6 +679,28 @@
     ]
   },
   {
+    "id": "kt:amazon-eks-anywhere",
+    "title": "Amazon EKS Anywhere",
+    "aliases": [
+      "EKS Anywhere",
+      "EKS Anywhere Enterprise Subscription"
+    ],
+    "type": "Service",
+    "domain": "containers",
+    "file": "articles/containers/amazon-eks-anywhere.md",
+    "created": "2026-11-27",
+    "verified": "2026-11-27",
+    "status": "current",
+    "source_urls": [
+      "https://docs.aws.amazon.com/eks/latest/userguide/eks-deployment-options.html",
+      "https://aws.amazon.com/eks/eks-anywhere/faqs",
+      "https://aws.amazon.com/eks/eks-anywhere/pricing",
+      "https://aws.amazon.com/about-aws/whats-new/2025/02/kubernetes-versions-amazon-eks-anywhere",
+      "https://aws.amazon.com/blogs/containers/one-amazon-eks-many-edges-how-to-choose-your-edge-container-strategy-on-aws/",
+      "https://aws.amazon.com/blogs/aws/amazon-eks-anywhere-now-generally-available-to-create-and-manage-kubernetes-clusters-on-premises/"
+    ]
+  },
+  {
     "id": "kt:amazon-elastic-vmware-service",
     "title": "Amazon Elastic VMware Service",
     "aliases": [

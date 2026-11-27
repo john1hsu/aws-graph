@@ -751,6 +751,32 @@
 <https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
 <https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/amazon-efs> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-10" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://purl.org/dc/terms/created> "2026-11-27" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon EKS Anywhere" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/2004/02/skos/core#altLabel> "EKS Anywhere Enterprise Subscription" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/2004/02/skos/core#altLabel> "EKS Anywhere" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/amazon-eks> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-container-services> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/2004/02/skos/core#definition> "An open-source Kubernetes deployment option from AWS, built on Cluster API and Amazon EKS Distro, that creates and upgrades customer-managed clusters on your own infrastructure (vSphere, bare metal, Nutanix, CloudStack, Snow), including fully air-gapped sites, with optional paid Enterprise Subscriptions for support and curated packages." .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon EKS Anywhere" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/bottlerocket> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/hybrid-cloud> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s1> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s2> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s3> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s4> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s5> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s6> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-outposts> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/eks-hybrid-nodes> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/amazon-eks-distro> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <https://github.com/john1hsu/aws-graph/ontology#dependsOn> <https://github.com/john1hsu/aws-graph/id/aws-support-plans> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <https://github.com/john1hsu/aws-graph/ontology#domain> "containers" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <https://github.com/john1hsu/aws-graph/ontology#runsOn> <https://github.com/john1hsu/aws-graph/id/bottlerocket> .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
+<https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-27" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/amazon-eks> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Elastic Kubernetes Service" .
@@ -9403,6 +9429,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s7> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-efs/s7> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s1> <http://purl.org/dc/terms/title> "Deploy Amazon EKS clusters across cloud and on-premises environments" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s1> <https://schema.org/url> "https://docs.aws.amazon.com/eks/latest/userguide/eks-deployment-options.html" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s2> <http://purl.org/dc/terms/title> "Amazon EKS Anywhere FAQs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s2> <https://schema.org/url> "https://aws.amazon.com/eks/eks-anywhere/faqs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s3> <http://purl.org/dc/terms/title> "Amazon EKS Anywhere pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s3> <https://schema.org/url> "https://aws.amazon.com/eks/eks-anywhere/pricing" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services (What's New)" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s4> <http://purl.org/dc/terms/title> "Announcing extended support for Kubernetes versions for Amazon EKS Anywhere" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s4> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/02/kubernetes-versions-amazon-eks-anywhere" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s5> <http://purl.org/dc/terms/publisher> "AWS Containers Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s5> <http://purl.org/dc/terms/title> "One Amazon EKS, many edges: how to choose your edge container strategy on AWS" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/containers/one-amazon-eks-many-edges-how-to-choose-your-edge-container-strategy-on-aws/" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s6> <http://purl.org/dc/terms/publisher> "AWS News Blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s6> <http://purl.org/dc/terms/title> "Amazon EKS Anywhere – Now Generally Available to Create and Manage Kubernetes Clusters on Premises" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/amazon-eks-anywhere/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/aws/amazon-eks-anywhere-now-generally-available-to-create-and-manage-kubernetes-clusters-on-premises/" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s1> <http://purl.org/dc/terms/title> "What is Amazon EKS?" .
 <https://github.com/john1hsu/aws-graph/id/source/amazon-eks/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

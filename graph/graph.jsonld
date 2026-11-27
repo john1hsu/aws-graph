@@ -8808,6 +8808,99 @@
       ]
     },
     {
+      "@id": "kt:amazon-eks-anywhere",
+      "@type": "kto:Service",
+      "skos:prefLabel": "Amazon EKS Anywhere",
+      "skos:definition": "An open-source Kubernetes deployment option from AWS, built on Cluster API and Amazon EKS Distro, that creates and upgrades customer-managed clusters on your own infrastructure (vSphere, bare metal, Nutanix, CloudStack, Snow), including fully air-gapped sites, with optional paid Enterprise Subscriptions for support and curated packages.",
+      "kto:domain": "containers",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedOn": "2026-11-27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Deploy Amazon EKS clusters across cloud and on-premises environments",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/eks/latest/userguide/eks-deployment-options.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EKS Anywhere FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/eks/eks-anywhere/faqs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Amazon EKS Anywhere pricing",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/eks/eks-anywhere/pricing",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Announcing extended support for Kubernetes versions for Amazon EKS Anywhere",
+          "dcterms:publisher": "Amazon Web Services (What's New)",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/02/kubernetes-versions-amazon-eks-anywhere",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "One Amazon EKS, many edges: how to choose your edge container strategy on AWS",
+          "dcterms:publisher": "AWS Containers Blog",
+          "schema:url": "https://aws.amazon.com/blogs/containers/one-amazon-eks-many-edges-how-to-choose-your-edge-container-strategy-on-aws/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Amazon EKS Anywhere – Now Generally Available to Create and Manage Kubernetes Clusters on Premises",
+          "dcterms:publisher": "AWS News Blog",
+          "schema:url": "https://aws.amazon.com/blogs/aws/amazon-eks-anywhere-now-generally-available-to-create-and-manage-kubernetes-clusters-on-premises/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/containers/amazon-eks-anywhere.md",
+      "skos:altLabel": [
+        "EKS Anywhere",
+        "EKS Anywhere Enterprise Subscription"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:amazon-eks"
+        },
+        {
+          "@id": "kt:aws-container-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:bottlerocket"
+        },
+        {
+          "@id": "kt:aws-snowball-edge"
+        },
+        {
+          "@id": "kt:hybrid-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:amazon-eks-distro"
+        },
+        {
+          "@id": "kt:aws-support-plans"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:eks-hybrid-nodes"
+        },
+        {
+          "@id": "kt:aws-outposts"
+        }
+      ],
+      "kto:runsOn": [
+        {
+          "@id": "kt:bottlerocket"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-eks",
       "@type": "kto:Service",
       "skos:prefLabel": "Amazon Elastic Kubernetes Service",

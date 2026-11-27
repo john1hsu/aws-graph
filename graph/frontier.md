@@ -6,12 +6,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls`, `kt:subnets-and-route-tables`, `kt:vpc-peering` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
+| `kt:aws-snowball-edge` | `kt:amazon-eks-anywhere`, `kt:aws-schema-conversion-tool` |
 | `kt:kiro` | `kt:amazon-q-developer`, `kt:aws-builder-id` |
 | `kt:s3-storage-lens` | `kt:s3-lifecycle-policies`, `kt:s3-storage-classes` |
 | `kt:s3-versioning` | `kt:s3-lifecycle-policies`, `kt:s3-object-lock` |
 | `kt:agentcore-quotas` | `kt:amazon-bedrock-agentcore` |
 | `kt:amazon-comprehend-medical` | `kt:amazon-comprehend` |
 | `kt:amazon-data-firehose-quotas` | `kt:amazon-data-firehose` |
+| `kt:amazon-eks-distro` | `kt:amazon-eks-anywhere` |
 | `kt:amazon-kinesis-video-streams` | `kt:amazon-rekognition` |
 | `kt:amazon-lex` | `kt:amazon-polly` |
 | `kt:amazon-msk-quotas` | `kt:amazon-msk` |
@@ -47,7 +49,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-security-incident-response` | `kt:aws-support-plans` |
 | `kt:aws-service-catalog-appregistry` | `kt:aws-well-architected-tool` |
 | `kt:aws-sign-in` | `kt:aws-builder-id` |
-| `kt:aws-snowball-edge` | `kt:aws-schema-conversion-tool` |
 | `kt:aws-sustainability-console` | `kt:sustainability-pillar` |
 | `kt:aws-well-architected-agent` | `kt:aws-well-architected-tool` |
 | `kt:big-bang-rewrite` | `kt:strangler-fig-pattern` |
@@ -84,6 +85,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ec2-auto-scaling-quotas` | `kt:amazon-ec2-auto-scaling` |
 | `kt:ec2-gpu-instances` | `kt:aws-trainium-and-inferentia` |
 | `kt:ec2-image-builder-quotas` | `kt:ec2-image-builder` |
+| `kt:eks-hybrid-nodes` | `kt:amazon-eks-anywhere` |
 | `kt:elastic-beanstalk-quotas` | `kt:aws-elastic-beanstalk` |
 | `kt:elasticache-quotas` | `kt:amazon-elasticache` |
 | `kt:entity-resolution-quotas` | `kt:aws-entity-resolution` |
@@ -95,6 +97,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:ground-station-quotas` | `kt:aws-ground-station` |
 | `kt:guardduty-quotas` | `kt:amazon-guardduty` |
 | `kt:hitrust-csf` | `kt:hipaa-eligible-services` |
+| `kt:hybrid-cloud` | `kt:amazon-eks-anywhere` |
 | `kt:iam-identity-center-quotas` | `kt:iam-identity-center` |
 | `kt:iam-policy-simulator` | `kt:iam-policy-evaluation-logic` |
 | `kt:icd-503` | `kt:aws-secret-and-top-secret-regions` |
