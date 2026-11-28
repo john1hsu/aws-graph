@@ -6,7 +6,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:vpc-quotas` | `kt:amazon-vpc`, `kt:security-groups-vs-network-acls`, `kt:subnets-and-route-tables`, `kt:vpc-peering` |
 | `kt:database-savings-plans` | `kt:amazon-neptune`, `kt:amazon-rds`, `kt:purpose-built-databases` |
-| `kt:aws-snowball-edge` | `kt:amazon-eks-anywhere`, `kt:aws-schema-conversion-tool` |
 | `kt:kiro` | `kt:amazon-q-developer`, `kt:aws-builder-id` |
 | `kt:s3-storage-lens` | `kt:s3-lifecycle-policies`, `kt:s3-storage-classes` |
 | `kt:s3-versioning` | `kt:s3-lifecycle-policies`, `kt:s3-object-lock` |
@@ -38,6 +37,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aws-codecommit` | `kt:aws-developer-tools` |
 | `kt:aws-config-quotas` | `kt:aws-config` |
 | `kt:aws-data-exchange` | `kt:aws-entity-resolution` |
+| `kt:aws-data-transfer-terminal` | `kt:aws-snowball-edge` |
 | `kt:aws-devops-agent` | `kt:aws-support-plans` |
 | `kt:aws-marketplace` | `kt:aws-marketplace-vendor-insights` |
 | `kt:aws-network-security-manager` | `kt:aws-firewall-manager` |

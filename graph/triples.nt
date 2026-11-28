@@ -5193,6 +5193,37 @@
 <https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <https://github.com/john1hsu/aws-graph/ontology#enables> <https://github.com/john1hsu/aws-graph/id/aws-certification-program> .
 <https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <https://github.com/john1hsu/aws-graph/ontology#status> "current" .
 <https://github.com/john1hsu/aws-graph/id/aws-skill-builder> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-18" .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://purl.org/dc/terms/created> "2026-11-28" .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Snowball Edge" .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Snow Family" .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS Snowball" .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#altLabel> "Snowball Edge Compute Optimized" .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#altLabel> "Snowball Edge Storage Optimized" .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#altLabel> "Snowball Edge" .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#altLabel> "Snowball" .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/aws-graph/id/aws-migration-and-transfer-services> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#definition> "AWS's rugged, shippable storage-and-compute appliance for offline data transfer into and out of Amazon S3 and for edge computing in disconnected sites; it closed to new customers on 2025-11-07, and AWS has announced that support in commercial Regions ends on 2026-12-31." .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#prefLabel> "AWS Snowball Edge" .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-eks-anywhere> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-govcloud-us> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/aws-graph/id/aws-schema-conversion-tool> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s1> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s2> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s4> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s5> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s6> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-data-transfer-terminal> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-datasync> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <https://github.com/john1hsu/aws-graph/ontology#alternativeTo> <https://github.com/john1hsu/aws-graph/id/aws-outposts> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <https://github.com/john1hsu/aws-graph/ontology#domain> "migration-and-hybrid" .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <https://github.com/john1hsu/aws-graph/ontology#integratesWith> <https://github.com/john1hsu/aws-graph/id/amazon-s3> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <https://github.com/john1hsu/aws-graph/ontology#scopedTo> <https://github.com/john1hsu/aws-graph/id/aws-regions> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <https://github.com/john1hsu/aws-graph/ontology#securedBy> <https://github.com/john1hsu/aws-graph/id/aws-kms> .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <https://github.com/john1hsu/aws-graph/ontology#status> "closed-to-new-customers" .
+<https://github.com/john1hsu/aws-graph/id/aws-snowball-edge> <https://github.com/john1hsu/aws-graph/ontology#verifiedOn> "2026-11-28" .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Service> .
 <https://github.com/john1hsu/aws-graph/id/aws-step-functions> <http://www.w3.org/2000/01/rdf-schema#label> "AWS Step Functions" .
@@ -14874,6 +14905,36 @@
 <https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
 <https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-skill-builder/s4> <https://schema.org/url> "https://aws.amazon.com/blogs/training-and-certification/december-2025-new-offerings/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s1> <http://purl.org/dc/terms/title> "AWS Snowball Edge availability change - AWS Snowball Edge Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s1> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s1> <https://schema.org/url> "https://docs.aws.amazon.com/snowball/latest/developer-guide/snowball-edge-availability-change.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s2> <http://purl.org/dc/terms/title> "How AWS Snowball Edge works - AWS Snowball Edge Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s2> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s2> <https://schema.org/url> "https://docs.aws.amazon.com/snowball/latest/developer-guide/how-it-works.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s3> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s3> <http://purl.org/dc/terms/title> "AWS Snowball Edge device hardware information - AWS Snowball Edge Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s3> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s3> <https://schema.org/url> "https://docs.aws.amazon.com/snowball/latest/developer-guide/device-differences.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s4> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s4> <http://purl.org/dc/terms/title> "AWS Snowball Edge quotas - AWS Snowball Edge Developer Guide" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s4> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s4> <https://schema.org/url> "https://docs.aws.amazon.com/snowball/latest/developer-guide/limits.html" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s5> <http://purl.org/dc/terms/title> "AWS Snowball | Secure Edge Computing and Offline Data Transfer" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s5> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s5> <https://schema.org/url> "https://aws.amazon.com/snowball-edge/" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s6> <http://purl.org/dc/terms/title> "AWS Service Availability Updates" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s6> <https://github.com/john1hsu/aws-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/aws-graph/id/source/aws-snowball-edge/s6> <https://schema.org/url> "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-service-availability" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s1> <http://purl.org/dc/terms/title> "What is Step Functions?" .
 <https://github.com/john1hsu/aws-graph/id/source/aws-step-functions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/aws-graph/ontology#Source> .

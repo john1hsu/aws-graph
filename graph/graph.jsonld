@@ -21682,6 +21682,108 @@
       ]
     },
     {
+      "@id": "kt:aws-snowball-edge",
+      "@type": "kto:Service",
+      "skos:prefLabel": "AWS Snowball Edge",
+      "skos:definition": "AWS's rugged, shippable storage-and-compute appliance for offline data transfer into and out of Amazon S3 and for edge computing in disconnected sites; it closed to new customers on 2025-11-07, and AWS has announced that support in commercial Regions ends on 2026-12-31.",
+      "kto:domain": "migration-and-hybrid",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedOn": "2026-11-28",
+      "kto:status": "closed-to-new-customers",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AWS Snowball Edge availability change - AWS Snowball Edge Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/snowball/latest/developer-guide/snowball-edge-availability-change.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How AWS Snowball Edge works - AWS Snowball Edge Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/snowball/latest/developer-guide/how-it-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Snowball Edge device hardware information - AWS Snowball Edge Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/snowball/latest/developer-guide/device-differences.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Snowball Edge quotas - AWS Snowball Edge Developer Guide",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/snowball/latest/developer-guide/limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Snowball | Secure Edge Computing and Offline Data Transfer",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/snowball-edge/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AWS Service Availability Updates",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-service-availability",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/migration-and-hybrid/aws-snowball-edge.md",
+      "skos:altLabel": [
+        "Snowball Edge",
+        "AWS Snowball",
+        "Snowball",
+        "AWS Snow Family",
+        "Snowball Edge Storage Optimized",
+        "Snowball Edge Compute Optimized"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:aws-migration-and-transfer-services"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:amazon-s3"
+        },
+        {
+          "@id": "kt:amazon-eks-anywhere"
+        },
+        {
+          "@id": "kt:aws-schema-conversion-tool"
+        },
+        {
+          "@id": "kt:aws-govcloud-us"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:aws-datasync"
+        },
+        {
+          "@id": "kt:aws-outposts"
+        },
+        {
+          "@id": "kt:aws-data-transfer-terminal"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-s3"
+        }
+      ],
+      "kto:securedBy": [
+        {
+          "@id": "kt:aws-kms"
+        }
+      ],
+      "kto:scopedTo": [
+        {
+          "@id": "kt:aws-regions"
+        }
+      ]
+    },
+    {
       "@id": "kt:aws-transfer-family",
       "@type": "kto:Service",
       "skos:prefLabel": "AWS Transfer Family",

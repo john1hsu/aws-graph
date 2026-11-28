@@ -4521,6 +4521,32 @@
     ]
   },
   {
+    "id": "kt:aws-snowball-edge",
+    "title": "AWS Snowball Edge",
+    "aliases": [
+      "Snowball Edge",
+      "AWS Snowball",
+      "Snowball",
+      "AWS Snow Family",
+      "Snowball Edge Storage Optimized",
+      "Snowball Edge Compute Optimized"
+    ],
+    "type": "Service",
+    "domain": "migration-and-hybrid",
+    "file": "articles/migration-and-hybrid/aws-snowball-edge.md",
+    "created": "2026-11-28",
+    "verified": "2026-11-28",
+    "status": "closed-to-new-customers",
+    "source_urls": [
+      "https://docs.aws.amazon.com/snowball/latest/developer-guide/snowball-edge-availability-change.html",
+      "https://docs.aws.amazon.com/snowball/latest/developer-guide/how-it-works.html",
+      "https://docs.aws.amazon.com/snowball/latest/developer-guide/device-differences.html",
+      "https://docs.aws.amazon.com/snowball/latest/developer-guide/limits.html",
+      "https://aws.amazon.com/snowball-edge/",
+      "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-service-availability"
+    ]
+  },
+  {
     "id": "kt:aws-step-functions",
     "title": "AWS Step Functions",
     "aliases": [
